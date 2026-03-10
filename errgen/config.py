@@ -40,7 +40,7 @@ class Config:
     # Free tier: 250 requests/day, covers financials + news
     # ------------------------------------------------------------------
     FMP_API_KEY: str = os.environ.get("FMP_API_KEY", "")
-    FMP_BASE_URL: str = "https://financialmodelingprep.com/api"
+    FMP_BASE_URL: str = "https://financialmodelingprep.com/stable"
 
     # ------------------------------------------------------------------
     # NewsAPI (supplemental news retrieval)

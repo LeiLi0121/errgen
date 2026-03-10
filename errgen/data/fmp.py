@@ -87,7 +87,7 @@ class FMPClient(BaseDataClient):
         self, ticker: str
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         """Fetch company overview, sector, industry, and business description."""
-        raw = self._fmp_get(f"v3/profile/{ticker}")
+        raw = self._fmp_get("profile", {"symbol": ticker})
         if not raw:
             raise ValueError(
                 f"FMP returned no company profile for ticker '{ticker}'. "
@@ -102,7 +102,7 @@ class FMPClient(BaseDataClient):
             document_identifier=f"fmp_profile_{ticker}",
             url=f"https://financialmodelingprep.com/financial-summary/{ticker}",
             ticker=ticker,
-            metadata={"endpoint": f"v3/profile/{ticker}"},
+            metadata={"endpoint": "profile", "symbol": ticker},
         )
 
         chunks: list[EvidenceChunk] = []
@@ -165,8 +165,8 @@ class FMPClient(BaseDataClient):
         """
         limit = limit or Config.MAX_FINANCIAL_PERIODS
         raw = self._fmp_get(
-            f"v3/income-statement/{ticker}",
-            {"period": period, "limit": limit},
+            "income-statement",
+            {"symbol": ticker, "period": period, "limit": limit},
         )
         if not raw:
             raise ValueError(
@@ -178,7 +178,11 @@ class FMPClient(BaseDataClient):
             api_source="fmp",
             document_identifier=f"fmp_income_{ticker}_{period}",
             ticker=ticker,
-            metadata={"endpoint": f"v3/income-statement/{ticker}", "period": period},
+            metadata={
+                "endpoint": "income-statement",
+                "symbol": ticker,
+                "period": period,
+            },
         )
 
         chunks = self._income_to_chunks(ticker, raw, source.source_id)
@@ -286,8 +290,8 @@ class FMPClient(BaseDataClient):
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         limit = limit or Config.MAX_FINANCIAL_PERIODS
         raw = self._fmp_get(
-            f"v3/balance-sheet-statement/{ticker}",
-            {"period": period, "limit": limit},
+            "balance-sheet-statement",
+            {"symbol": ticker, "period": period, "limit": limit},
         )
         if not raw:
             raise ValueError(
@@ -299,7 +303,11 @@ class FMPClient(BaseDataClient):
             api_source="fmp",
             document_identifier=f"fmp_balance_{ticker}_{period}",
             ticker=ticker,
-            metadata={"endpoint": f"v3/balance-sheet-statement/{ticker}", "period": period},
+            metadata={
+                "endpoint": "balance-sheet-statement",
+                "symbol": ticker,
+                "period": period,
+            },
         )
 
         chunks = self._balance_to_chunks(ticker, raw, source.source_id)
@@ -396,8 +404,8 @@ class FMPClient(BaseDataClient):
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         limit = limit or Config.MAX_FINANCIAL_PERIODS
         raw = self._fmp_get(
-            f"v3/cash-flow-statement/{ticker}",
-            {"period": period, "limit": limit},
+            "cash-flow-statement",
+            {"symbol": ticker, "period": period, "limit": limit},
         )
         if not raw:
             raise ValueError(
@@ -409,7 +417,11 @@ class FMPClient(BaseDataClient):
             api_source="fmp",
             document_identifier=f"fmp_cashflow_{ticker}_{period}",
             ticker=ticker,
-            metadata={"endpoint": f"v3/cash-flow-statement/{ticker}", "period": period},
+            metadata={
+                "endpoint": "cash-flow-statement",
+                "symbol": ticker,
+                "period": period,
+            },
         )
 
         chunks = self._cashflow_to_chunks(ticker, raw, source.source_id)
@@ -497,13 +509,13 @@ class FMPClient(BaseDataClient):
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         """Fetch company-specific news articles from FMP."""
         limit = limit or Config.MAX_NEWS_ARTICLES
-        params: dict[str, Any] = {"tickers": ticker, "limit": limit}
+        params: dict[str, Any] = {"symbols": ticker, "limit": limit}
         if from_date:
             params["from"] = from_date
         if to_date:
             params["to"] = to_date
 
-        raw = self._fmp_get("v3/stock_news", params)
+        raw = self._fmp_get("news/stock", params)
         if not raw:
             logger.warning("FMP: no news found for %s", ticker)
             raw = []
@@ -513,7 +525,7 @@ class FMPClient(BaseDataClient):
             api_source="fmp",
             document_identifier=f"fmp_news_{ticker}",
             ticker=ticker,
-            metadata={"endpoint": "v3/stock_news", "ticker": ticker},
+            metadata={"endpoint": "news/stock", "ticker": ticker},
         )
 
         chunks: list[EvidenceChunk] = []
@@ -563,8 +575,8 @@ class FMPClient(BaseDataClient):
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         """Fetch daily OHLCV price data (optional, for price-based analysis)."""
         raw = self._fmp_get(
-            f"v3/historical-price-full/{ticker}",
-            {"from": from_date, "to": to_date},
+            "historical-price-eod/full",
+            {"symbol": ticker, "from": from_date, "to": to_date},
         )
 
         historical = raw.get("historical", []) if isinstance(raw, dict) else []
@@ -577,7 +589,8 @@ class FMPClient(BaseDataClient):
             document_identifier=f"fmp_price_{ticker}_{from_date}_{to_date}",
             ticker=ticker,
             metadata={
-                "endpoint": f"v3/historical-price-full/{ticker}",
+                "endpoint": "historical-price-eod/full",
+                "symbol": ticker,
                 "from": from_date,
                 "to": to_date,
             },
