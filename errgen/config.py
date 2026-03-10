@@ -23,6 +23,8 @@ class Config:
     # OpenAI
     # ------------------------------------------------------------------
     OPENAI_API_KEY: str = os.environ.get("OPENAI_API_KEY", "")
+    # Optional: override the API base URL (e.g. for local vLLM: http://127.0.0.1:8000/v1)
+    OPENAI_BASE_URL: str = os.environ.get("OPENAI_BASE_URL", "")
     # Primary model – used for analysis, verification, revision
     OPENAI_MODEL: str = os.environ.get("OPENAI_MODEL", "gpt-4o")
     # Fast model – used for extraction tasks where cost matters more
@@ -79,10 +81,11 @@ class Config:
         missing: list[str] = []
         instructions: dict[str, str] = {}
 
-        if not cls.OPENAI_API_KEY:
+        if not cls.OPENAI_API_KEY and not cls.OPENAI_BASE_URL:
             missing.append("OPENAI_API_KEY")
             instructions["OPENAI_API_KEY"] = (
-                "Register at https://platform.openai.com/ and create an API key."
+                "Register at https://platform.openai.com/ and create an API key. "
+                "Or set OPENAI_BASE_URL to point to a local vLLM / compatible server."
             )
         if not cls.FMP_API_KEY:
             missing.append("FMP_API_KEY")

@@ -29,12 +29,20 @@ _client: OpenAI | None = None
 def _get_client() -> OpenAI:
     global _client
     if _client is None:
-        if not Config.OPENAI_API_KEY:
+        # When using a local server (e.g. vLLM), OPENAI_BASE_URL is set and
+        # OPENAI_API_KEY can be any non-empty string (or left unset → "local").
+        base_url = Config.OPENAI_BASE_URL or None
+        api_key = Config.OPENAI_API_KEY or ("local" if base_url else "")
+        if not api_key:
             raise ValueError(
                 "OPENAI_API_KEY is not set. "
-                "Copy .env.example to .env and add your key."
+                "Copy .env.example to .env and add your key, "
+                "or set OPENAI_BASE_URL to point to a local vLLM server."
             )
-        _client = OpenAI(api_key=Config.OPENAI_API_KEY)
+        kwargs: dict = {"api_key": api_key}
+        if base_url:
+            kwargs["base_url"] = base_url
+        _client = OpenAI(**kwargs)
     return _client
 
 
