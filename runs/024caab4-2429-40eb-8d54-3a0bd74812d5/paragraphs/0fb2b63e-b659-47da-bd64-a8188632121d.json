@@ -1,0 +1,62 @@
+{
+  "paragraph_id": "0fb2b63e-b659-47da-bd64-a8188632121d",
+  "section_name": "Financial Analysis",
+  "text": "Regarding the balance sheet, Apple's current ratio was 0.88 in fiscal year 2025, indicating a moderate level of liquidity. The company's debt-to-equity ratio was 2.61, suggesting a relatively high level of leverage. However, the net debt, which is total debt minus cash and equivalents, was $108.8 billion, down from $132.5 billion in fiscal year 2024 and $123.9 billion in fiscal year 2023. This reduction in net debt reflects the company's strong cash generation and prudent capital management. Apple's long-term debt stood at $78.3 billion in fiscal year 2025, compared to $85.8 billion in fiscal year 2024 and $95.3 billion in fiscal year 2023, indicating a gradual decrease in long-term borrowing.",
+  "citations": [
+    {
+      "citation_id": "c34f2474-06e8-4c52-bc41-d5e9a53abdef",
+      "chunk_id": "b0ddaae7-a566-4bb0-b490-6ea17fd982da",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for FY: $144,427,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2a01bd22-eb69-4283-b428-77d40f7308fb",
+      "chunk_id": "c0154b88-6633-4097-a9bf-13e4d8e7e97f",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for FY: $134,930,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a1896d3f-ec38-4237-88d7-135010ed8922",
+      "chunk_id": "49244704-27be-42d1-bdc3-fa9618d1e83b",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for FY: $129,188,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5c64a3c5-7b44-4122-9ec6-fe429c3a4fd7",
+      "chunk_id": "6afa1003-17f5-4d41-93cd-29d152c5e2eb",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: FY | Date: 2022-09-24\n  Revenue:            $394,328,000,000\n  Gross Profit:       $170,782,000,000 (margin N/A)\n  Operating Income:   $119,437,000,000 (margin N/A)\n  Net Income:         $99,803,000,000 (margin N/A)\n  EBITDA:             $133,138,000,000\n  EPS:     ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "b0ddaae7-a566-4bb0-b490-6ea17fd982da",
+    "c0154b88-6633-4097-a9bf-13e4d8e7e97f",
+    "49244704-27be-42d1-bdc3-fa9618d1e83b",
+    "6afa1003-17f5-4d41-93cd-29d152c5e2eb"
+  ],
+  "calc_ids": [
+    "6043888a-b26e-4615-a3a4-fb91b9a2f13b",
+    "b1ba72e7-df0d-42b5-88c9-026b6515f7e0"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "7b723c3b-9472-47b0-986f-aa8f8b60bb93",
+      "paragraph_id": "0fb2b63e-b659-47da-bd64-a8188632121d",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:47.363398",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

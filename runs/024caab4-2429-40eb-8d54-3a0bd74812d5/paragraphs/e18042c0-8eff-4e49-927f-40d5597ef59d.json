@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "e18042c0-8eff-4e49-927f-40d5597ef59d",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Apple's competitive positioning is bolstered by its strong brand, innovative product offerings, and extensive ecosystem. The company holds significant market shares in key segments like smartphones and tablets, with its iPhone lineup consistently ranking among the top-selling devices globally. Apple's proprietary operating systems and hardware integration create a high switching cost barrier, contributing to its durable competitive advantage. Additionally, the company's focus on software and services, such as the App Store and various subscription-based services, further enhances its moat by fostering user engagement and loyalty.",
+  "citations": [
+    {
+      "citation_id": "9799abb1-6c6d-425f-9053-1a04b0f9c2fd",
+      "chunk_id": "4c786baa-86d7-408a-ab37-48aa1ee74662",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4c786baa-86d7-408a-ab37-48aa1ee74662"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "54ea8e80-b87d-4674-a879-5a7eeff0be18",
+      "paragraph_id": "e18042c0-8eff-4e49-927f-40d5597ef59d",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:58.632089",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

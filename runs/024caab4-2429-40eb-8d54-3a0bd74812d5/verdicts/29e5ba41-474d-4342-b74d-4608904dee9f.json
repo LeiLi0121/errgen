@@ -1,0 +1,35 @@
+{
+  "verdict_id": "29e5ba41-474d-4342-b74d-4608904dee9f",
+  "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "570b3718-6276-427d-a002-55f3b5e6742a",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "Apple's total assets stood at $359.241B as of September 2025",
+      "explanation": "The paragraph claims Apple's total assets were $359.241B as of September 2025, but the cited balance sheet chunk (chunk_id_0eab9d86-0ec5-41dc-a4fd-717863182ebb) only provides the total liabilities ($285,508,000,000) without mentioning total assets.",
+      "relevant_chunk_ids": [
+        "0eab9d86-0ec5-41dc-a4fd-717863182ebb"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the claim about total assets or provide the correct figure based on the available evidence."
+    },
+    {
+      "issue_id": "d8e7e332-8877-4533-bd14-d8025518cc95",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "currency fluctuations, especially the strengthening of the U.S. dollar against major currencies like the Chinese yuan, can erode profit margins",
+      "explanation": "The cited chunk (chunk_id_908bb5df-7d4a-4321-9575-312b3d4eea78) is an overview of the company profile and does not contain information about currency fluctuations or their impact on profit margins.",
+      "relevant_chunk_ids": [
+        "908bb5df-7d4a-4321-9575-312b3d4eea78"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide a relevant evidence chunk that discusses currency fluctuations and their impact on profit margins."
+    }
+  ],
+  "checked_at": "2026-03-10T17:21:29.373592",
+  "iteration": 0
+}

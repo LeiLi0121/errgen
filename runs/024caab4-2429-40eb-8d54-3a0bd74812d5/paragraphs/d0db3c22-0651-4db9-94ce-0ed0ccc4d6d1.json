@@ -1,0 +1,54 @@
+{
+  "paragraph_id": "d0db3c22-0651-4db9-94ce-0ed0ccc4d6d1",
+  "section_name": "Financial Analysis",
+  "text": "In terms of profitability, Apple's gross margin stood at 43.31% in fiscal year 2025, reflecting a slight improvement from 43.29% in fiscal year 2024 and 43.20% in fiscal year 2023. The operating margin was 30.29% in fiscal year 2025, up from 30.27% in fiscal year 2024 and 30.18% in fiscal year 2023. The net margin was 25.31% in fiscal year 2025, slightly higher than 25.29% in fiscal year 2024 and 25.20% in fiscal year 2023. These metrics suggest that Apple continues to maintain robust margins, indicating efficient cost management and pricing strategies.",
+  "citations": [
+    {
+      "citation_id": "151c550e-d756-4de2-ae85-f3dc86a8b79e",
+      "chunk_id": "613bbcb4-b13a-490b-937a-96e5ad8c7376",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Gross Profit for FY: $195,201,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "56ba6ce7-72d0-4656-896a-00a3fb04cf3b",
+      "chunk_id": "d68935b8-501d-4b18-b6bc-df949e5084a3",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Gross Profit for FY: $169,148,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5a916f54-2eca-494e-895e-e255a5c6e21a",
+      "chunk_id": "8670ff03-3971-4b77-9737-d38049a8ed65",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Gross Profit for FY: $170,782,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "613bbcb4-b13a-490b-937a-96e5ad8c7376",
+    "d68935b8-501d-4b18-b6bc-df949e5084a3",
+    "8670ff03-3971-4b77-9737-d38049a8ed65"
+  ],
+  "calc_ids": [
+    "fe4bf99f-dd72-49c0-a518-d8d49db97fb4",
+    "89574f14-2e2a-4ff4-b77a-16d808055103",
+    "d5aa9118-ddb4-4bce-9635-559b80bf7f01"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9a2f465e-8161-48eb-b220-179d2639b17b",
+      "paragraph_id": "d0db3c22-0651-4db9-94ce-0ed0ccc4d6d1",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:46.477287",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

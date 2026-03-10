@@ -1,0 +1,33 @@
+{
+  "verdict_id": "f90af422-a23a-4ae1-a97e-93c42b18a76e",
+  "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "dcea30ce-fdbc-454d-bd22-b62a1bae1854",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "As of September 2025, according to the balance sheet (chunk_id_a49c7326-42eb-4c7a-9b23-049e53d79bf2), Apple's total assets stood at $359,241,000,000.",
+      "explanation": "The balance sheet provided in chunk_id_a49c7326-42eb-4c7a-9b23-049e53d79bf2 shows the total assets as of 2025-09-27, not September 2025.",
+      "relevant_chunk_ids": [
+        "a49c7326-42eb-4c7a-9b23-049e53d79bf2"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the date in the paragraph to match the actual date of the balance sheet, which is 2025-09-27."
+    },
+    {
+      "issue_id": "8c476e53-5911-4cf8-9c24-f8fdba4416a5",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "As of September 2025",
+      "explanation": "The paragraph references a date after the as-of date specified (2025-01).",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure the dates in the paragraph align with the as-of date provided."
+    }
+  ],
+  "checked_at": "2026-03-10T17:22:06.869244",
+  "iteration": 3
+}

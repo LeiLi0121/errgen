@@ -1,0 +1,62 @@
+{
+  "paragraph_id": "4f00126a-596d-4a06-8de1-04c5320ae182",
+  "section_name": "Financial Analysis",
+  "text": "Apple's EBITDA for fiscal year 2025 was $144.4 billion, representing a 7.3% increase from $134.9 billion in fiscal year 2024 and a 10.1% increase from $129.2 billion in fiscal year 2023. The company's free cash flow (FCF) margin was 28.26% in fiscal year 2025, up from 28.21% in fiscal year 2024 and 28.14% in fiscal year 2023. This indicates strong cash generation capabilities, supporting the company's ability to fund operations and invest in future growth. Operating cash flow was also robust, contributing positively to the overall financial health of the company.",
+  "citations": [
+    {
+      "citation_id": "d787149d-e952-46cc-80cb-6d064946acec",
+      "chunk_id": "b0ddaae7-a566-4bb0-b490-6ea17fd982da",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for FY: $144,427,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "24751111-167a-4392-b211-0509511b80fc",
+      "chunk_id": "c0154b88-6633-4097-a9bf-13e4d8e7e97f",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for FY: $134,930,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "df0d5cff-f5f3-4070-9165-9fb5c2618f43",
+      "chunk_id": "49244704-27be-42d1-bdc3-fa9618d1e83b",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for FY: $129,188,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0f9f0052-e7f1-47d3-9572-45b0d962efae",
+      "chunk_id": "6afa1003-17f5-4d41-93cd-29d152c5e2eb",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: FY | Date: 2022-09-24\n  Revenue:            $394,328,000,000\n  Gross Profit:       $170,782,000,000 (margin N/A)\n  Operating Income:   $119,437,000,000 (margin N/A)\n  Net Income:         $99,803,000,000 (margin N/A)\n  EBITDA:             $133,138,000,000\n  EPS:     ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "b0ddaae7-a566-4bb0-b490-6ea17fd982da",
+    "c0154b88-6633-4097-a9bf-13e4d8e7e97f",
+    "49244704-27be-42d1-bdc3-fa9618d1e83b",
+    "6afa1003-17f5-4d41-93cd-29d152c5e2eb"
+  ],
+  "calc_ids": [
+    "f9671a1e-7158-4d02-9710-0b2add6e6335",
+    "b7827fe7-f368-4782-96ee-5cd61cdc8c43"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "d8a7f62c-b23d-448e-8a76-824e728682ee",
+      "paragraph_id": "4f00126a-596d-4a06-8de1-04c5320ae182",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:46.908752",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

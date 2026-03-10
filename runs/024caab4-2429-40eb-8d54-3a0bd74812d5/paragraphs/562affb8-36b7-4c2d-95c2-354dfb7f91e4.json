@@ -1,0 +1,35 @@
+{
+  "paragraph_id": "562affb8-36b7-4c2d-95c2-354dfb7f91e4",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Key growth drivers for Apple include the iPhone cycle, services segment, and expanding into emerging markets. The iPhone remains a critical driver of revenue, with upgrades and new model launches typically boosting sales. According to financial metrics, Apple's gross margin stands at 43.31%, indicating efficient cost management and pricing power. The services segment, which includes Apple Music, Apple TV+, and Apple Pay, has shown strong growth, contributing significantly to overall revenue and profit margins. As of the fiscal year, the services segment accounted for approximately 25.31% of net income, highlighting its importance to the company's profitability.",
+  "citations": [
+    {
+      "citation_id": "3ff0f5cd-9bc1-47af-bf3c-c09faaca007d",
+      "chunk_id": "4c786baa-86d7-408a-ab37-48aa1ee74662",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4c786baa-86d7-408a-ab37-48aa1ee74662"
+  ],
+  "calc_ids": [
+    "d5aa9118-ddb4-4bce-9635-559b80bf7f01",
+    "f9671a1e-7158-4d02-9710-0b2add6e6335"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "aa86d045-60ff-4570-85af-a33b4f64e3be",
+      "paragraph_id": "562affb8-36b7-4c2d-95c2-354dfb7f91e4",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:58.955352",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

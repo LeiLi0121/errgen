@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "ef07157c-ea1a-4fb4-8a27-80931195f9fa",
+  "section_name": "Financial Analysis",
+  "text": "Apple's research and development (R&D) expenses were $34.6 billion in fiscal year 2025, representing a 10.0% increase from $31.4 billion in fiscal year 2024 and a 12.2% increase from $29.9 billion in fiscal year 2023. This investment intensity, measured as a percentage of revenue, was 8.3% in fiscal year 2025, up from 8.0% in fiscal year 2024 and 7.6% in fiscal year 2023. The increasing R&D intensity suggests that Apple is committed to innovation and maintaining its competitive edge in technology-driven markets. Despite the rising R&D costs, the company's profitability metrics remain strong, indicating effective resource allocation.",
+  "citations": [
+    {
+      "citation_id": "cf745b14-edad-4a77-b5dd-34d88cf67aad",
+      "chunk_id": "e48d92a9-8360-44da-9f65-27a7e62dae00",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for FY: $34,550,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "95741705-d815-4fab-a1ae-9b19ecd12b02",
+      "chunk_id": "28dabf87-c4ec-4c17-ab67-2002885fa999",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for FY: $31,370,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9da89476-936b-4433-9678-14b71412d069",
+      "chunk_id": "d628b742-1e0e-408a-8e27-2a66db96c35e",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for FY: $29,915,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e48d92a9-8360-44da-9f65-27a7e62dae00",
+    "28dabf87-c4ec-4c17-ab67-2002885fa999",
+    "d628b742-1e0e-408a-8e27-2a66db96c35e"
+  ],
+  "calc_ids": [
+    "2eca0f1a-f3ce-4b91-a246-ea0f03c42be8"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "4d8fe55e-612f-4938-a562-d8a7c827ed71",
+      "paragraph_id": "ef07157c-ea1a-4fb4-8a27-80931195f9fa",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:47.770937",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,35 @@
+{
+  "verdict_id": "57e8d4eb-a6d1-472c-8947-0174e3cb1273",
+  "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0fac76bb-a71e-4126-8ef6-91a055e2ee16",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "Currency fluctuations, especially the strengthening of the U.S. dollar against major currencies like the Chinese yuan, can erode profit margins.",
+      "explanation": "The cited chunk does not provide information about currency fluctuations or their impact on profit margins. It only contains balance sheet data.",
+      "relevant_chunk_ids": [
+        "a49c7326-42eb-4c7a-9b23-049e53d79bf2"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the statement about currency fluctuations and their impact on profit margins, or cite a relevant chunk that discusses these topics."
+    },
+    {
+      "issue_id": "be3b5264-3665-475c-ab40-eba2e5bc184c",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "as of September 2025",
+      "explanation": "The paragraph mentions events as of September 2025, which is later than the as-of date provided (January 2025).",
+      "relevant_chunk_ids": [
+        "a49c7326-42eb-4c7a-9b23-049e53d79bf2"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the as-of date to September 2025 to align with the mentioned events."
+    }
+  ],
+  "checked_at": "2026-03-10T17:21:55.940612",
+  "iteration": 2
+}

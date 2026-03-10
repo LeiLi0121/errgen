@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "1cf259d9-4199-442e-aa15-0051d786e4c9",
+  "section_name": "Risk Analysis",
+  "text": "Technology and disruption risks are significant, particularly in the face of platform shifts and obsolescence. The shift towards software-centric models and the increasing importance of artificial intelligence and machine learning pose challenges to traditional hardware-centric business models (chunk_id_4c786baa-86d7-408a-ab37-48aa1ee74662). Additionally, the rapid pace of technological change can render existing products obsolete, necessitating constant innovation. These risks are categorized as high due to the potential for disruptive changes in the industry landscape.",
+  "citations": [
+    {
+      "citation_id": "d74bc0c7-8143-411f-ac4b-b9740d27238f",
+      "chunk_id": "4c786baa-86d7-408a-ab37-48aa1ee74662",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4c786baa-86d7-408a-ab37-48aa1ee74662"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "0590b3fc-4b0e-47cd-bbe1-9296a87d5f07",
+      "paragraph_id": "1cf259d9-4199-442e-aa15-0051d786e4c9",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:22:08.710609",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

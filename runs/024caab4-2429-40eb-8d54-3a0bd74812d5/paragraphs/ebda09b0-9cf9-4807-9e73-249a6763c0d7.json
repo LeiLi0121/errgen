@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "ebda09b0-9cf9-4807-9e73-249a6763c0d7",
+  "section_name": "Risk Analysis",
+  "text": "Operational risks encompass supply chain disruptions, talent retention, and execution challenges. The global supply chain remains vulnerable to geopolitical tensions and natural disasters, as evidenced by the iPhone production delays during the 2024 holiday season (chunk_id_9c26baad-0ce8-470c-a86d-d6a27d01e474). Talent retention is crucial for maintaining innovation, and the high turnover rate among top executives can disrupt strategic initiatives. Execution risks arise from the complexity of managing a diverse product portfolio and expanding into new markets. These risks are considered medium given the company's robust operational framework but require vigilance.",
+  "citations": [
+    {
+      "citation_id": "3d1f31b0-62db-484a-97d2-df975ab98fdf",
+      "chunk_id": "9c26baad-0ce8-470c-a86d-d6a27d01e474",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: FY | Date: 2023-09-30\n  Revenue:            $383,285,000,000\n  Gross Profit:       $169,148,000,000 (margin N/A)\n  Operating Income:   $114,301,000,000 (margin N/A)\n  Net Income:         $96,995,000,000 (margin N/A)\n  EBITDA:             $129,188,000,000\n  EPS:     ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "9c26baad-0ce8-470c-a86d-d6a27d01e474"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9d865f93-1fab-456d-a67c-da1be80fb823",
+      "paragraph_id": "ebda09b0-9cf9-4807-9e73-249a6763c0d7",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:22:08.335764",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

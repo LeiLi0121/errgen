@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "e07059fd-dbaf-45de-858c-b0e3818b1a14",
+  "section_name": "Risk Analysis",
+  "text": "Competitive risks are another critical area, with market share threats from both established players and new entrants. For instance, Samsung, known for its robust smartphone lineup, poses a significant challenge in the consumer electronics sector (chunk_id_4c786baa-86d7-408a-ab37-48aa1ee74662). Moreover, the rise of Chinese tech giants like Xiaomi and OPPO has increased pricing pressure, forcing Apple to maintain competitive pricing strategies. This risk is considered medium given the ongoing competition and the need for continuous innovation to retain market share.",
+  "citations": [
+    {
+      "citation_id": "5c0d5f2b-12e0-4fd2-955a-514c01645cd4",
+      "chunk_id": "4c786baa-86d7-408a-ab37-48aa1ee74662",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4c786baa-86d7-408a-ab37-48aa1ee74662"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9367d111-e4d0-426c-b189-42a3a4768509",
+      "paragraph_id": "e07059fd-dbaf-45de-858c-b0e3818b1a14",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:22:07.228951",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

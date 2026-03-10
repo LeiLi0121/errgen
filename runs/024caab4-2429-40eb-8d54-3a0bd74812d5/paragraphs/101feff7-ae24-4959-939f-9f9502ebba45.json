@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "101feff7-ae24-4959-939f-9f9502ebba45",
+  "section_name": "Risk Analysis",
+  "text": "Regulatory and legal risks are also present, primarily related to antitrust actions and compliance issues. Apple's dominance in the app store ecosystem makes it a target for regulatory scrutiny, as seen in past investigations into anti-competitive practices (chunk_id_908bb5df-7d4a-4321-9575-312b3d4eea78). Antitrust lawsuits could lead to fines or changes in business practices, affecting profitability. Compliance risks, such as data privacy violations, could result in hefty penalties and damage to brand reputation. These risks are categorized as high due to the potential for severe financial and reputational impacts.",
+  "citations": [
+    {
+      "citation_id": "f25c5628-b017-4d07-863a-642d57eb5e81",
+      "chunk_id": "908bb5df-7d4a-4321-9575-312b3d4eea78",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "908bb5df-7d4a-4321-9575-312b3d4eea78"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "43ee8603-df61-42a0-b66e-1a68620b68ab",
+      "paragraph_id": "101feff7-ae24-4959-939f-9f9502ebba45",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:22:07.959740",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

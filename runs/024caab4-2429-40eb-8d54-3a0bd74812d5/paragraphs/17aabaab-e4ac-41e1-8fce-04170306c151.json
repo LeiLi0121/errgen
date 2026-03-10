@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "17aabaab-e4ac-41e1-8fce-04170306c151",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Apple Inc., headquartered in Cupertino, California, operates globally across multiple product segments, including iPhones, Macs, iPads, and wearables, among others. According to the company profile, Apple generates significant revenue from these diverse product lines, with smartphones being a core component. The company's market presence is robust, serving a wide range of consumer and enterprise markets, indicating a broad customer base and strong brand recognition. This diversification helps mitigate risks associated with any single product category, providing a stable revenue stream.",
+  "citations": [
+    {
+      "citation_id": "b51f070a-b407-4fdc-9a30-253fde8434a0",
+      "chunk_id": "908bb5df-7d4a-4321-9575-312b3d4eea78",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "489a4aa0-8b2d-406b-b27a-77c61d4b39b9",
+      "chunk_id": "4c786baa-86d7-408a-ab37-48aa1ee74662",
+      "source_id": "2bbed1fe-5916-4ffa-95e9-25f8ed720266",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "908bb5df-7d4a-4321-9575-312b3d4eea78",
+    "4c786baa-86d7-408a-ab37-48aa1ee74662"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "d45e6ca2-3fa4-4ebd-a7e1-3ab2b623682f",
+      "paragraph_id": "17aabaab-e4ac-41e1-8fce-04170306c151",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:58.334776",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "790b226b-45ac-415c-862c-acac75f7ae5a",
+  "section_name": "Financial Analysis",
+  "text": "Apple's revenue for fiscal year 2025 was $416.2 billion, marking a significant increase from $391.0 billion in fiscal year 2024 and $383.3 billion in fiscal year 2023. The year-over-year (YoY) growth rate can be calculated using the formula: ((current year revenue - previous year revenue) / previous year revenue) * 100. For fiscal years 2025 and 2024, the YoY growth rate is approximately 6.4%, while for 2024 and 2023, it is around 4.4%. These figures indicate a steady but modest growth trajectory in Apple's top line, driven by strong demand for its products and services.",
+  "citations": [
+    {
+      "citation_id": "d4766a4d-39ff-430f-b441-d6419ff4af46",
+      "chunk_id": "ef6d7bdc-7ed7-4a0e-9e9f-a1db5659e929",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: FY | Date: 2024-09-28\n  Revenue:            $391,035,000,000\n  Gross Profit:       $180,683,000,000 (margin N/A)\n  Operating Income:   $123,216,000,000 (margin N/A)\n  Net Income:         $93,736,000,000 (margin N/A)\n  EBITDA:             $134,930,000,000\n  EPS:     ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "eec14af8-9274-4935-94c7-44bb672d3d97",
+      "chunk_id": "2eb6676c-27c8-47d1-ab54-12597b6a1638",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Revenue for FY: $391,035,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "baac0445-b9fa-4190-8174-c4242d2f5aab",
+      "chunk_id": "9c26baad-0ce8-470c-a86d-d6a27d01e474",
+      "source_id": "9aea3921-8768-4152-9679-257085c2965d",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: FY | Date: 2023-09-30\n  Revenue:            $383,285,000,000\n  Gross Profit:       $169,148,000,000 (margin N/A)\n  Operating Income:   $114,301,000,000 (margin N/A)\n  Net Income:         $96,995,000,000 (margin N/A)\n  EBITDA:             $129,188,000,000\n  EPS:     ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ef6d7bdc-7ed7-4a0e-9e9f-a1db5659e929",
+    "2eb6676c-27c8-47d1-ab54-12597b6a1638",
+    "9c26baad-0ce8-470c-a86d-d6a27d01e474"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "c72ed631-fda0-4ee6-95ac-f8aedce95fc7",
+      "paragraph_id": "790b226b-45ac-415c-862c-acac75f7ae5a",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:20:46.067615",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

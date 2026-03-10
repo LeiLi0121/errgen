@@ -1,0 +1,46 @@
+{
+  "verdict_id": "b6209bd2-9792-435f-a56e-fc4dee41115c",
+  "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "591d4902-8db6-405d-bdd1-2882952d761b",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "Export controls, such as those imposed by the U.S. government on Huawei, could restrict Apple's ability to sell products in certain regions, impacting revenue.",
+      "explanation": "The cited chunks do not mention any export controls on Huawei or their impact on Apple's sales.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the claim about export controls on Huawei or provide supporting evidence."
+    },
+    {
+      "issue_id": "5a25f05b-f13e-4006-91a5-365596ca4992",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "Cited chunk IDs: ['a49c7326-42eb-4c7a-9b23-049e53d79bf2', '908bb5df-7d4a-4321-9575-312b3d4eea78']\nCited calc IDs: []",
+      "explanation": "The paragraph mentions a future date (September 2025) but the cited chunk is from FY 2025, which is consistent. However, the paragraph should clearly state the as-of date to avoid confusion.",
+      "relevant_chunk_ids": [
+        "a49c7326-42eb-4c7a-9b23-049e53d79bf2"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Clarify that the balance sheet is for FY 2025 ending September 27, 2025."
+    },
+    {
+      "issue_id": "edb8f2b9-1453-462a-8859-e3264dd5bda1",
+      "issue_type": "numerical_error",
+      "severity": "minor",
+      "paragraph_id": "2169b023-09e7-4ef5-b117-91e86b4e4e9b",
+      "offending_span": "Total Assets: $359,241,000,000 as of September 2025",
+      "explanation": "The cited chunk shows the total assets as of September 27, 2025, not September 2025.",
+      "relevant_chunk_ids": [
+        "a49c7326-42eb-4c7a-9b23-049e53d79bf2"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Correct the date to September 27, 2025."
+    }
+  ],
+  "checked_at": "2026-03-10T17:21:44.848940",
+  "iteration": 1
+}

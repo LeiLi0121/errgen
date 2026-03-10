@@ -1,0 +1,34 @@
+{
+  "paragraph_id": "a6c3031f-23d9-498a-8fab-09e7b2f32539",
+  "section_name": "Risk Analysis",
+  "text": "Financial risks include leverage and liquidity concerns. As of September 2025, Apple had total debt of $112.377B (chunk_id_d534961f-b46e-4c31-9c77-a60ee0ed39e7), representing a debt-to-equity ratio of 2.61 (calc_id_6043888a-b26e-4615-a3a4-fb91b9a2f13b). While this level of debt is manageable, it increases financial risk, especially if interest rates rise. Furthermore, the current ratio of 0.88 (calc_id_6043888a-b26e-4615-a3a4-fb91b9a2f13b) suggests potential liquidity challenges, particularly if short-term liabilities increase. These risks are classified as medium given the company's overall financial strength but require monitoring.",
+  "citations": [
+    {
+      "citation_id": "e7aed4b3-249d-4ad3-8570-bf848aa7159f",
+      "chunk_id": "d534961f-b46e-4c31-9c77-a60ee0ed39e7",
+      "source_id": "4db259b7-818c-4ebf-b31d-617d40518127",
+      "source_type": "balance_sheet",
+      "text_snippet": "AAPL Total Debt for FY: $112,377,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "d534961f-b46e-4c31-9c77-a60ee0ed39e7"
+  ],
+  "calc_ids": [
+    "6043888a-b26e-4615-a3a4-fb91b9a2f13b"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "e754ac2d-7af4-4bfa-8228-df50bface11b",
+      "paragraph_id": "a6c3031f-23d9-498a-8fab-09e7b2f32539",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-10T17:22:07.602399",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

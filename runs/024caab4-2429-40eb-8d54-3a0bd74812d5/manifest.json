@@ -1,0 +1,32 @@
+{
+  "run_id": "024caab4-2429-40eb-8d54-3a0bd74812d5",
+  "ticker": "AAPL",
+  "as_of_date": "2025-01",
+  "status": "completed",
+  "started_at": "2026-03-10T17:18:18.293770",
+  "completed_at": "2026-03-10T17:22:08.711151",
+  "n_sources": 4,
+  "n_chunks": 94,
+  "n_facts": 19,
+  "n_calculations": 9,
+  "n_paragraphs": 14,
+  "n_verdicts": 17,
+  "n_revisions": 3,
+  "errors": [],
+  "warnings": [
+    "Section 'Risk Analysis' has 5 unresolved blocking issues after max iterations.",
+    "Prediction section SKIPPED because the following sections have unresolved critical/major issues: ['Risk Analysis']. Fix those sections before generating a recommendation.",
+    "Some paragraphs could not be fully verified within the allowed iteration limit. These are marked 'unresolved' in the report."
+  ],
+  "overall_report_status": "unresolved",
+  "config_snapshot": {
+    "openai_model": "Qwen/Qwen2.5-7B-Instruct",
+    "openai_fast_model": "Qwen/Qwen2.5-7B-Instruct",
+    "fmp_base_url": "https://financialmodelingprep.com/stable",
+    "newsapi_base_url": "https://newsapi.org/v2",
+    "max_revision_iterations": 3,
+    "max_news_articles": 20,
+    "max_financial_periods": 4,
+    "runs_dir": "runs"
+  }
+}
