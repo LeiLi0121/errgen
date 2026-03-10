@@ -1,0 +1,124 @@
+"""
+Central configuration for ERRGen.
+
+All configuration is read from environment variables (loaded from .env via
+python-dotenv).  The Config.validate_required() method is called at pipeline
+startup to fail fast with clear instructions if keys are missing.
+"""
+
+from __future__ import annotations
+
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+# Load .env from the project root (two levels up from this file)
+_env_path = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(_env_path)
+
+
+class Config:
+    # ------------------------------------------------------------------
+    # OpenAI
+    # ------------------------------------------------------------------
+    OPENAI_API_KEY: str = os.environ.get("OPENAI_API_KEY", "")
+    # Primary model – used for analysis, verification, revision
+    OPENAI_MODEL: str = os.environ.get("OPENAI_MODEL", "gpt-4o")
+    # Fast model – used for extraction tasks where cost matters more
+    OPENAI_FAST_MODEL: str = os.environ.get("OPENAI_FAST_MODEL", "gpt-4o-mini")
+    # Maximum tokens for a single LLM response
+    OPENAI_MAX_TOKENS: int = int(os.environ.get("OPENAI_MAX_TOKENS", "4096"))
+    # Temperature for generation (lower = more deterministic)
+    OPENAI_TEMPERATURE: float = float(os.environ.get("OPENAI_TEMPERATURE", "0.2"))
+
+    # ------------------------------------------------------------------
+    # Financial Modeling Prep (primary financial data)
+    # Register free at https://financialmodelingprep.com/developer/docs/
+    # Free tier: 250 requests/day, covers financials + news
+    # ------------------------------------------------------------------
+    FMP_API_KEY: str = os.environ.get("FMP_API_KEY", "")
+    FMP_BASE_URL: str = "https://financialmodelingprep.com/api"
+
+    # ------------------------------------------------------------------
+    # NewsAPI (supplemental news retrieval)
+    # Register free at https://newsapi.org/ – 100 req/day on free tier
+    # ------------------------------------------------------------------
+    NEWSAPI_KEY: str = os.environ.get("NEWSAPI_KEY", "")
+    NEWSAPI_BASE_URL: str = "https://newsapi.org/v2"
+
+    # ------------------------------------------------------------------
+    # Pipeline tuning
+    # ------------------------------------------------------------------
+    # Maximum checker→reviser iterations before marking as unresolved
+    MAX_REVISION_ITERATIONS: int = int(os.environ.get("MAX_REVISION_ITERATIONS", "3"))
+    # How many news articles to pull per query
+    MAX_NEWS_ARTICLES: int = int(os.environ.get("MAX_NEWS_ARTICLES", "20"))
+    # How many financial periods (quarters or annual) to retrieve
+    MAX_FINANCIAL_PERIODS: int = int(os.environ.get("MAX_FINANCIAL_PERIODS", "4"))
+    # Number of LLM call retries on transient failures
+    LLM_RETRY_ATTEMPTS: int = int(os.environ.get("LLM_RETRY_ATTEMPTS", "3"))
+    # Seconds between retries
+    LLM_RETRY_DELAY: float = float(os.environ.get("LLM_RETRY_DELAY", "5.0"))
+
+    # ------------------------------------------------------------------
+    # Run artifacts
+    # ------------------------------------------------------------------
+    RUNS_DIR: str = os.environ.get("RUNS_DIR", "runs")
+
+    # ------------------------------------------------------------------
+    # Validation
+    # ------------------------------------------------------------------
+
+    @classmethod
+    def validate_required(cls) -> None:
+        """
+        Raise a clear ValueError if any required API key is missing.
+        Called once at pipeline startup so users know exactly what to configure.
+        """
+        missing: list[str] = []
+        instructions: dict[str, str] = {}
+
+        if not cls.OPENAI_API_KEY:
+            missing.append("OPENAI_API_KEY")
+            instructions["OPENAI_API_KEY"] = (
+                "Register at https://platform.openai.com/ and create an API key."
+            )
+        if not cls.FMP_API_KEY:
+            missing.append("FMP_API_KEY")
+            instructions["FMP_API_KEY"] = (
+                "Register at https://financialmodelingprep.com/developer/docs/ "
+                "(free tier covers income statement, balance sheet, cash flow, news)."
+            )
+        if not cls.NEWSAPI_KEY:
+            missing.append("NEWSAPI_KEY")
+            instructions["NEWSAPI_KEY"] = (
+                "Register at https://newsapi.org/ "
+                "(free developer tier: 100 requests/day)."
+            )
+
+        if missing:
+            lines = [
+                "ERRGen: Missing required API keys. Refusing to start.",
+                "Copy .env.example to .env and fill in the following:",
+                "",
+            ]
+            for key in missing:
+                lines.append(f"  {key}")
+                lines.append(f"    → {instructions[key]}")
+                lines.append("")
+            raise ValueError("\n".join(lines))
+
+    @classmethod
+    def as_dict(cls) -> dict:
+        """Return non-secret configuration for logging."""
+        return {
+            "openai_model": cls.OPENAI_MODEL,
+            "openai_fast_model": cls.OPENAI_FAST_MODEL,
+            "fmp_base_url": cls.FMP_BASE_URL,
+            "newsapi_base_url": cls.NEWSAPI_BASE_URL,
+            "max_revision_iterations": cls.MAX_REVISION_ITERATIONS,
+            "max_news_articles": cls.MAX_NEWS_ARTICLES,
+            "max_financial_periods": cls.MAX_FINANCIAL_PERIODS,
+            "runs_dir": cls.RUNS_DIR,
+        }
