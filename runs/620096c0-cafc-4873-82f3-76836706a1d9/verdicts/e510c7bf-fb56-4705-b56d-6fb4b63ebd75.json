@@ -1,0 +1,48 @@
+{
+  "verdict_id": "e510c7bf-fb56-4705-b56d-6fb4b63ebd75",
+  "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "275af870-346d-44d9-b8a9-130e95149de5",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+      "offending_span": "Apple Inc. generates revenue through a diversified business model centered on hardware products and services worldwide.",
+      "explanation": "The cited chunk describes products and services but does not explicitly mention revenue generation or business model; this claim is inferred rather than directly supported.",
+      "relevant_chunk_ids": [
+        "64655618-4802-430d-a49a-497ee73beda7"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to state that the company engages in hardware and services activities, or cite evidence explicitly mentioning revenue or business model."
+    },
+    {
+      "issue_id": "79c00da0-dac7-4547-b38b-422187a35ded",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+      "offending_span": "subscription-based platforms such as Apple Music, Apple TV+, and Apple Arcade",
+      "explanation": "The cited chunk mentions the App Store and digital content but does not specify Apple Music, Apple TV+, or Apple Arcade; these are detailed claims not found in the evidence.",
+      "relevant_chunk_ids": [
+        "64655618-4802-430d-a49a-497ee73beda7"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific names or cite evidence that includes them; alternatively, generalize to 'subscription-based services' if supported by the evidence."
+    },
+    {
+      "issue_id": "533c086e-a4ef-4729-aa91-e22bb58f5b2c",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+      "offending_span": "distribution spans retail and online stores, direct sales, and third-party channels, serving consumers, small and mid-sized businesses, and various markets including education and enterprise globally.",
+      "explanation": "The cited chunk does not mention distribution channels or target markets; this detailed claim is absent from the provided evidence.",
+      "relevant_chunk_ids": [
+        "64655618-4802-430d-a49a-497ee73beda7"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove this part or cite appropriate evidence that covers distribution and market segments."
+    }
+  ],
+  "checked_at": "2026-03-11T05:48:42.345241",
+  "iteration": 0
+}

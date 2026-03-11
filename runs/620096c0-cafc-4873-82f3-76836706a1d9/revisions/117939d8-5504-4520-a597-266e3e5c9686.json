@@ -1,0 +1,12 @@
+{
+  "revision_id": "117939d8-5504-4520-a597-266e3e5c9686",
+  "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+  "iteration": 1,
+  "original_text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins and revenue growth are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns, necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh them against the company's competitive advantages. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+  "revised_text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns [calc_ids: 47d6125e-13b5-4086-9460-ba7315e216cd, d91c8d9b-4362-4ce6-9580-bada13ab7728], necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh them against the company's competitive advantages. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+  "issues_addressed": [
+    "b7c4b5bd-c17a-485e-8b12-fcd842f1dca2"
+  ],
+  "changes_summary": "Removed 'and revenue growth' from the claim about positive indicators because it was not supported by any evidence, aligning with the checker's major issue. Added explicit citations for debt and liquidity risks to ensure all factual claims are supported by the provided calculation IDs, maintaining the professional tone and avoiding unsupported statements.",
+  "revised_at": "2026-03-11T06:15:28.733989"
+}

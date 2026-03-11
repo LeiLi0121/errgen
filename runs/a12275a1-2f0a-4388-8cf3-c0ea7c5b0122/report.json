@@ -1,0 +1,728 @@
+{
+  "report_id": "44f1eeed-3ad1-4fcf-b5ce-4c18263285e7",
+  "request": {
+    "request_id": "eefc2cd0-23d7-4e7f-bb19-d270a0e1bcbc",
+    "raw_text": "Write an equity research report for Apple (AAPL) as of January 2026, focusing on iPhone revenue, services, and AI.",
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "market": "US",
+    "as_of_date": "2026-01",
+    "focus_areas": [
+      "iPhone revenue",
+      "services",
+      "AI"
+    ],
+    "report_style": "standard",
+    "language": "en",
+    "created_at": "2026-03-11T11:36:51.396643"
+  },
+  "sections": [
+    {
+      "section_id": "f442d403-d142-4341-8b9f-5f4db0368d75",
+      "section_name": "Company Overview",
+      "section_order": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "4e6c8aee-565b-416d-9a6c-8f82a8767ab4",
+          "section_name": "Company Overview",
+          "text": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+          "citations": [
+            {
+              "citation_id": "67e6ab4e-6f3e-46ba-938b-42a4bddfbad0",
+              "chunk_id": "efa7ef98-324b-4d7a-a07b-354f8844f238",
+              "source_id": "56a9dbdc-a641-4b4f-87dc-d8cbd70ff5a0",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "efa7ef98-324b-4d7a-a07b-354f8844f238"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "1f546be4-1ffd-47f1-8d0a-f39522fcbaa7",
+          "section_name": "Company Overview",
+          "text": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+          "citations": [
+            {
+              "citation_id": "ae8d18b0-b536-4aa9-a6b5-4e44f40ad7f9",
+              "chunk_id": "c6545dd7-46f7-4b55-a714-fe8e4223c591",
+              "source_id": "56a9dbdc-a641-4b4f-87dc-d8cbd70ff5a0",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "c6545dd7-46f7-4b55-a714-fe8e4223c591"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "7bd607f2-51e1-4487-bc5e-6d6e6d6853e6",
+      "section_name": "Recent Developments",
+      "section_order": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+          "section_name": "Recent Developments",
+          "text": "As of late January 2026, Apple is set to report its latest quarterly earnings after the market close on January 29, with analysts anticipating record revenue driven by robust demand for the iPhone 17, indicating sustained consumer interest in its flagship product line.",
+          "citations": [
+            {
+              "citation_id": "efe67601-2b40-432e-8faa-09b4d2f80155",
+              "chunk_id": "3bc5abe0-988b-4ea6-b189-5d3853cc4a67",
+              "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:55:28Z | Yahoo\nTitle: Here's How Much Traders Expect Apple Stock to Move After Earnings Thursday\nURL: https://finnhub.io/api/news?id=3a3b175ba5de1e1850df6cf888ee6c43f5fffa974227d3df10d68ce0a9d57da3\nApple is set to report its latest results after the closing bell on Thursday, wit",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "7c98c7cd-aa2f-4a4d-ae78-f2df0d2ab2eb",
+              "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+              "status": "pass",
+              "issues": [
+                {
+                  "issue_id": "bcb13a2e-283f-407e-9de4-d3da2d3a70b3",
+                  "issue_type": "unsupported_claim",
+                  "severity": "minor",
+                  "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+                  "offending_span": "analysts anticipating",
+                  "explanation": "The cited chunk does not specify 'analysts'; it refers to 'traders' in the title and general market sentiment in the content, so the claim that analysts are anticipating is not directly supported.",
+                  "relevant_chunk_ids": [
+                    "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Change 'analysts' to a more general term like 'market participants' or rephrase to align with the evidence, e.g., 'with expectations of record revenue'."
+                },
+                {
+                  "issue_id": "16091bc6-bd13-4b33-abc0-9047fd2b661b",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+                  "offending_span": "indicating sustained consumer interest in its flagship product line",
+                  "explanation": "The evidence supports strong demand for iPhone 17, but does not explicitly indicate that consumer interest is 'sustained', which implies an ongoing trend beyond the current period and may overinterpret the evidence.",
+                  "relevant_chunk_ids": [
+                    "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Rephrase to reflect the evidence more precisely, e.g., 'driven by robust demand for the iPhone 17, suggesting strong consumer interest.'"
+                }
+              ],
+              "checked_at": "2026-03-11T11:18:12.976075",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+          "section_name": "Recent Developments",
+          "text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+          "citations": [
+            {
+              "citation_id": "1d277662-1fe2-41f2-a689-204649ea86b1",
+              "chunk_id": "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+              "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "d53ec039-a46e-4019-a2ae-e470b396b7c7",
+              "chunk_id": "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+              "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T21:03:06Z | Yahoo\nTitle: Intel's Stock Soars as Client Rumors Swirl: Could Nvidia and Apple Deals Be on the Way?\nURL: https://finnhub.io/api/news?id=f560cbcfec40544cdefd58f515f63f118037032883d54d3ca9569a7abd0618c5\nCould Intel be closer to winning new chipmaking contracts from Nvidi",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "36c0d47b-02b7-49be-b6e7-bc021f313554",
+              "chunk_id": "c2d82d4f-204a-46f4-8baa-5433df7e63e4",
+              "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "0f633f3d-a4e2-49e8-a09c-5269eda0f179",
+              "chunk_id": "4cd0f07f-2a97-4568-99a3-49fece1bcd37",
+              "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T22:46:52Z | Yahoo\nTitle: Samsung sees acute chip shortage persisting, warns of mobiles headwind after profit triples\nURL: https://finnhub.io/api/news?id=9e8973b74df1df4d8d0380fd9d5255946554a5ecbc024c27417785884b25aaca\nSamsung Electronics forecast a worsening chip shortage this year",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+            "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+            "c2d82d4f-204a-46f4-8baa-5433df7e63e4",
+            "4cd0f07f-2a97-4568-99a3-49fece1bcd37"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "61ffb82b-1ccd-4df0-a5c0-d33a70c2ebec",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "status": "fail",
+              "issues": [],
+              "checked_at": "2026-03-11T11:20:00.860670",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "8ccc7d5a-ce9c-4a4f-85d8-82ca36a5e4f4",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "df98895f-4ea9-458f-b8f7-c0da698bee6d",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+                  "offending_span": "affect Apple's hardware margins, given Samsung's role as a key supplier",
+                  "explanation": "The cited chunk 4cd0f07f-2a97-4568-99a3-49fece1bcd37 discusses Samsung's forecast of a worsening chip shortage and its impact on its own units, but does not mention Apple, Apple's hardware margins, or Samsung's role as a supplier to Apple. No other cited chunks support these claims.",
+                  "relevant_chunk_ids": [
+                    "4cd0f07f-2a97-4568-99a3-49fece1bcd37"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove or revise the claim to reflect only what the evidence states, such as focusing on Samsung's warning and its potential broader industry impact without specifying Apple's margins, or add evidence that explicitly supports Samsung's supplier relationship with Apple and the effect on margins."
+                },
+                {
+                  "issue_id": "a2378fcc-d1a3-4be6-9186-6e680a9aa4b2",
+                  "issue_type": "citation_mismatch",
+                  "severity": "minor",
+                  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+                  "offending_span": "potentially diversifying Apple's supply chain",
+                  "explanation": "The cited chunks b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0, 9dcb8fde-0027-49e7-a246-5011231bf1fd, and c2d82d4f-204a-46f4-8baa-5433df7e63e4 confirm rumors of Apple exploring Intel's foundry services and Intel's stock surge, but they do not explicitly state that this would diversify Apple's supply chain. This is an interpretive claim not directly supported by the evidence.",
+                  "relevant_chunk_ids": [
+                    "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+                    "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+                    "c2d82d4f-204a-46f4-8baa-5433df7e63e4"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Clarify that diversification is a possible implication based on the rumors, or rephrase to directly tie the claim to the evidence, e.g., 'which could lead to supply chain diversification.'"
+                }
+              ],
+              "checked_at": "2026-03-11T11:24:27.343860",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "ad443d04-8719-4c15-95d1-5a0a98a78f5a",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "baddb7e0-2f60-42e9-b55b-2e3391a7c0a6",
+                  "issue_type": "hallucination",
+                  "severity": "major",
+                  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+                  "offending_span": "potentially diversifying Apple's supply chain",
+                  "explanation": "The cited evidence chunks do not mention or support any discussion of Apple's supply chain diversification; they only report on rumors of Apple exploring partnerships with Intel and the resulting stock surge, without addressing supply chain implications.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove or rephrase the statement to reflect only what is directly supported by the evidence, such as limiting it to the rumors and stock surge, or add a disclaimer that supply chain diversification is an inference not explicitly stated in the sources."
+                }
+              ],
+              "checked_at": "2026-03-11T11:30:03.426750",
+              "iteration": 2
+            },
+            {
+              "verdict_id": "8d5f7e4d-d770-4771-9075-97fa66cd8e56",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-11T11:35:33.653132",
+              "iteration": 3
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "7e299e38-0750-44e9-b1e5-ee7ef3751f01",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "iteration": 1,
+              "original_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+              "revised_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+              "issues_addressed": [],
+              "changes_summary": "No blocking issues – no changes made.",
+              "revised_at": "2026-03-11T11:21:13.189672"
+            },
+            {
+              "revision_id": "7ae08d10-4d1a-4fa7-a290-e449a8d8833a",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "iteration": 2,
+              "original_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+              "revised_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+              "issues_addressed": [
+                "df98895f-4ea9-458f-b8f7-c0da698bee6d"
+              ],
+              "changes_summary": "Removed the unsupported claim about Apple's hardware margins and Samsung's role as a key supplier, as the evidence only supports Samsung's warning of a chip shortage. Kept all other supported content unchanged with citations.",
+              "revised_at": "2026-03-11T11:27:08.633050"
+            },
+            {
+              "revision_id": "214c5d40-470f-4daa-b451-111191bc7a0c",
+              "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+              "iteration": 3,
+              "original_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+              "revised_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+              "issues_addressed": [
+                "baddb7e0-2f60-42e9-b55b-2e3391a7c0a6"
+              ],
+              "changes_summary": "Removed the unsupported claim 'potentially diversifying Apple's supply chain' to address the major hallucination issue, as no evidence chunks support this statement. The remaining claims are retained based on current cited chunk IDs, maintaining a professional tone.",
+              "revised_at": "2026-03-11T11:33:19.364863"
+            }
+          ],
+          "iteration": 3
+        },
+        {
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "section_name": "Recent Developments",
+          "text": "Apple Inc. has increased its research and development investment, with R&D expenses rising from $26.251 billion in FY 2022 to $34.550 billion in FY 2025.",
+          "citations": [
+            {
+              "citation_id": "720787f9-d941-46f7-b304-938934805197",
+              "chunk_id": "b9c19c84-fa8d-4449-b254-7e4e34c84720",
+              "source_id": "9ef2ec77-2578-4c23-8273-c32419b6912f",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL R&D Expenses for FY: $26,251,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "1fbde803-9f63-43e5-9837-08fb9d3efdbb",
+              "chunk_id": "4dc8ad46-90b0-4768-868c-f3e86e1eea95",
+              "source_id": "9ef2ec77-2578-4c23-8273-c32419b6912f",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL R&D Expenses for FY: $34,550,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "b9c19c84-fa8d-4449-b254-7e4e34c84720",
+            "4dc8ad46-90b0-4768-868c-f3e86e1eea95"
+          ],
+          "calc_ids": [],
+          "verification_status": "unresolved",
+          "checker_verdicts": [
+            {
+              "verdict_id": "bcda20e1-9100-4981-8281-f78fbf9e4090",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "743dd40c-4b26-49cb-8b1d-6d89ffd3a1d3",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+                  "offending_span": "a significant backlog driven by OpenAI",
+                  "explanation": "The cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 mentions a backlog in Microsoft's cloud business but does not attribute it to OpenAI; it only states the backlog amount without specifying the driver.",
+                  "relevant_chunk_ids": [
+                    "fca92e7e-d964-44c7-9b4b-004d6f581931"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove 'driven by OpenAI' or cite additional evidence that explicitly connects Microsoft's backlog to OpenAI."
+                },
+                {
+                  "issue_id": "1016bbe0-1d1f-4b58-82af-c392711bc12b",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+                  "offending_span": "that may pressure Apple's strategic investments",
+                  "explanation": "No cited evidence supports the claim that Microsoft's AI spending or backlog pressures Apple's strategic investments; the cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 only discusses Microsoft's own performance and does not mention Apple or its investments.",
+                  "relevant_chunk_ids": [
+                    "fca92e7e-d964-44c7-9b4b-004d6f581931"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove this speculative statement or provide evidence linking Microsoft's actions to pressure on Apple's investments."
+                }
+              ],
+              "checked_at": "2026-03-11T11:21:13.187349",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "88a2124b-0759-4f9e-b18d-6acb545ced43",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "c835dce4-5341-45bc-aab7-ffd02d219d7c",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+                  "offending_span": null,
+                  "explanation": "Chunk c20ee3f0-fd05-410d-b363-775533c2cc73 is cited but its content is about Apple and does not support any claims about Microsoft's earnings, AI spending, or backlog.",
+                  "relevant_chunk_ids": [
+                    "c20ee3f0-fd05-410d-b363-775533c2cc73"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the citation to this chunk or replace it with relevant evidence that directly supports the claims about Microsoft's recent earnings and AI landscape."
+                },
+                {
+                  "issue_id": "ee169f52-f17c-4fcd-a5d1-90e97e6335eb",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+                  "offending_span": "highlighting the intensifying race for AI dominance",
+                  "explanation": "The cited evidence from chunk fca92e7e-d964-44c7-9b4b-004d6f581931 mentions increased AI spending and intense competition, but does not explicitly state a 'race for AI dominance'. The language implies a level of certainty or specificity not fully warranted by the evidence.",
+                  "relevant_chunk_ids": [
+                    "fca92e7e-d964-44c7-9b4b-004d6f581931"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Modify the language to better reflect the evidence, e.g., change to 'suggesting heightened competition in the AI sector' or similar."
+                }
+              ],
+              "checked_at": "2026-03-11T11:25:44.604645",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "c9527181-afdb-4b9e-a1b7-c4a76d94cfb1",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "status": "unresolved",
+              "issues": [
+                {
+                  "issue_id": "0696cb43-210d-4de2-a97c-32ffb1e5ce24",
+                  "issue_type": "unsupported_claim",
+                  "severity": "critical",
+                  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+                  "offending_span": null,
+                  "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"pass\",\n  \"issues\": [\n    {\n      \"issue_type\": \"numerical_error\",\n      \"severity\": \"minor",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Re-run the checker."
+                }
+              ],
+              "checked_at": "2026-03-11T11:31:52.053598",
+              "iteration": 2
+            },
+            {
+              "verdict_id": "ad24b1bb-5442-41fd-b35f-cf5dfbf528c2",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "3d6198b7-8549-4da4-a3d8-1ca4cb579fef",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+                  "offending_span": "in FY 2022 to $34.550 billion in FY 2025",
+                  "explanation": "The cited chunks provide R&D expense amounts ($26.251 billion and $34.550 billion) but do not specify which fiscal years these amounts correspond to. The paragraph makes specific claims about the expenses being for FY 2022 and FY 2025, which are not supported by the cited evidence.",
+                  "relevant_chunk_ids": [
+                    "b9c19c84-fa8d-4449-b254-7e4e34c84720",
+                    "4dc8ad46-90b0-4768-868c-f3e86e1eea95"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Add citations that explicitly link the R&D expense amounts to specific fiscal years (e.g., chunks containing fiscal year data), or revise the paragraph to indicate the source of the year information and ensure it is properly cited."
+                }
+              ],
+              "checked_at": "2026-03-11T11:36:51.393842",
+              "iteration": 3
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "6202d675-7443-4075-b50c-669231e2fe4e",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "iteration": 1,
+              "original_text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog driven by OpenAI, highlighting the intensifying race for AI dominance that may pressure Apple's strategic investments. Commentary suggests Apple is shifting towards a services-focused model similar to Microsoft's evolution, emphasizing the importance of recurring revenue streams as the iPhone matures.",
+              "revised_text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog, highlighting the intensifying race for AI dominance.",
+              "issues_addressed": [
+                "743dd40c-4b26-49cb-8b1d-6d89ffd3a1d3",
+                "1016bbe0-1d1f-4b58-82af-c392711bc12b"
+              ],
+              "changes_summary": "Removed 'driven by OpenAI' to correct citation mismatch as the evidence does not attribute the backlog to OpenAI. Removed 'that may pressure Apple's strategic investments' to address unsupported claim, as no evidence links Microsoft's actions to pressure on Apple. Omitted the commentary on Apple's strategic shift to ensure all claims are supported by cited evidence.",
+              "revised_at": "2026-03-11T11:22:42.598264"
+            },
+            {
+              "revision_id": "f39f5e03-f470-44a6-86de-9cf2e8ccd935",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "iteration": 2,
+              "original_text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog, highlighting the intensifying race for AI dominance.",
+              "revised_text": "In the broader AI and competitive landscape, Apple Inc. has demonstrated increasing investment in research and development, with R&D expenses rising from $26.3 billion in FY 2022 to $34.6 billion in FY 2025, reflecting ongoing innovation efforts within the competitive technology sector.",
+              "issues_addressed": [
+                "c835dce4-5341-45bc-aab7-ffd02d219d7c"
+              ],
+              "changes_summary": "Removed unsupported claims about Microsoft's earnings and AI spending due to lack of evidence in available chunks, which only cover Apple Inc. Revised the paragraph to focus on Apple's increasing R&D expenses as supported by cited income statement chunks, maintaining a professional tone and ensuring all factual claims are evidence-based.",
+              "revised_at": "2026-03-11T11:28:47.815088"
+            },
+            {
+              "revision_id": "14e87765-fdc8-45d1-b6ab-26f3e22bffef",
+              "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+              "iteration": 3,
+              "original_text": "In the broader AI and competitive landscape, Apple Inc. has demonstrated increasing investment in research and development, with R&D expenses rising from $26.3 billion in FY 2022 to $34.6 billion in FY 2025, reflecting ongoing innovation efforts within the competitive technology sector.",
+              "revised_text": "Apple Inc. has increased its research and development investment, with R&D expenses rising from $26.251 billion in FY 2022 to $34.550 billion in FY 2025.",
+              "issues_addressed": [
+                "0696cb43-210d-4de2-a97c-32ffb1e5ce24"
+              ],
+              "changes_summary": "Removed unsupported claims about AI and competitive landscape as no evidence supports this context, and corrected R&D figures to exact values from evidence chunks to address the critical unsupported claim issue.",
+              "revised_at": "2026-03-11T11:34:42.061365"
+            }
+          ],
+          "iteration": 3
+        }
+      ],
+      "verification_status": "unresolved",
+      "unresolved_issues": [
+        {
+          "issue_id": "743dd40c-4b26-49cb-8b1d-6d89ffd3a1d3",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": "a significant backlog driven by OpenAI",
+          "explanation": "The cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 mentions a backlog in Microsoft's cloud business but does not attribute it to OpenAI; it only states the backlog amount without specifying the driver.",
+          "relevant_chunk_ids": [
+            "fca92e7e-d964-44c7-9b4b-004d6f581931"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove 'driven by OpenAI' or cite additional evidence that explicitly connects Microsoft's backlog to OpenAI."
+        },
+        {
+          "issue_id": "1016bbe0-1d1f-4b58-82af-c392711bc12b",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": "that may pressure Apple's strategic investments",
+          "explanation": "No cited evidence supports the claim that Microsoft's AI spending or backlog pressures Apple's strategic investments; the cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 only discusses Microsoft's own performance and does not mention Apple or its investments.",
+          "relevant_chunk_ids": [
+            "fca92e7e-d964-44c7-9b4b-004d6f581931"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove this speculative statement or provide evidence linking Microsoft's actions to pressure on Apple's investments."
+        },
+        {
+          "issue_id": "c835dce4-5341-45bc-aab7-ffd02d219d7c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": null,
+          "explanation": "Chunk c20ee3f0-fd05-410d-b363-775533c2cc73 is cited but its content is about Apple and does not support any claims about Microsoft's earnings, AI spending, or backlog.",
+          "relevant_chunk_ids": [
+            "c20ee3f0-fd05-410d-b363-775533c2cc73"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the citation to this chunk or replace it with relevant evidence that directly supports the claims about Microsoft's recent earnings and AI landscape."
+        },
+        {
+          "issue_id": "0696cb43-210d-4de2-a97c-32ffb1e5ce24",
+          "issue_type": "unsupported_claim",
+          "severity": "critical",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": null,
+          "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"pass\",\n  \"issues\": [\n    {\n      \"issue_type\": \"numerical_error\",\n      \"severity\": \"minor",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Re-run the checker."
+        },
+        {
+          "issue_id": "3d6198b7-8549-4da4-a3d8-1ca4cb579fef",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": "in FY 2022 to $34.550 billion in FY 2025",
+          "explanation": "The cited chunks provide R&D expense amounts ($26.251 billion and $34.550 billion) but do not specify which fiscal years these amounts correspond to. The paragraph makes specific claims about the expenses being for FY 2022 and FY 2025, which are not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "b9c19c84-fa8d-4449-b254-7e4e34c84720",
+            "4dc8ad46-90b0-4768-868c-f3e86e1eea95"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add citations that explicitly link the R&D expense amounts to specific fiscal years (e.g., chunks containing fiscal year data), or revise the paragraph to indicate the source of the year information and ensure it is properly cited."
+        }
+      ]
+    },
+    {
+      "section_id": "97018853-abdd-4970-9930-7413d3acf1de",
+      "section_name": "Financial Analysis",
+      "section_order": 3,
+      "paragraphs": [],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "a4a89598-7e2f-4837-892b-d2cd520a2635",
+      "section_name": "Business & Competitive Analysis",
+      "section_order": 4,
+      "paragraphs": [],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "4ba57ad8-87e0-44be-9143-ff4326f52371",
+      "section_name": "Risk Analysis",
+      "section_order": 5,
+      "paragraphs": [],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    }
+  ],
+  "evidence_appendix": [
+    {
+      "chunk_id": "efa7ef98-324b-4d7a-a07b-354f8844f238",
+      "source_id": "56a9dbdc-a641-4b4f-87dc-d8cbd70ff5a0",
+      "source_type": "company_profile",
+      "text": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "metadata": {
+        "ticker": "AAPL",
+        "field": "overview"
+      },
+      "period": null,
+      "field_name": "overview",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "c6545dd7-46f7-4b55-a714-fe8e4223c591",
+      "source_id": "56a9dbdc-a641-4b4f-87dc-d8cbd70ff5a0",
+      "source_type": "company_profile",
+      "text": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+      "metadata": {
+        "ticker": "AAPL",
+        "field": "description"
+      },
+      "period": null,
+      "field_name": "description",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "4dc8ad46-90b0-4768-868c-f3e86e1eea95",
+      "source_id": "9ef2ec77-2578-4c23-8273-c32419b6912f",
+      "source_type": "income_statement",
+      "text": "AAPL R&D Expenses for FY: $34,550,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "FY",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 34550000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "b9c19c84-fa8d-4449-b254-7e4e34c84720",
+      "source_id": "9ef2ec77-2578-4c23-8273-c32419b6912f",
+      "source_type": "income_statement",
+      "text": "AAPL R&D Expenses for FY: $26,251,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "FY",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 26251000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "3bc5abe0-988b-4ea6-b189-5d3853cc4a67",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T23:55:28Z | Yahoo\nTitle: Here's How Much Traders Expect Apple Stock to Move After Earnings Thursday\nURL: https://finnhub.io/api/news?id=3a3b175ba5de1e1850df6cf888ee6c43f5fffa974227d3df10d68ce0a9d57da3\nApple is set to report its latest results after the closing bell on Thursday, with strong iPhone 17 demand seen helping drive revenue to a record high.",
+      "metadata": {
+        "title": "Here's How Much Traders Expect Apple Stock to Move After Earnings Thursday",
+        "published_at": "2026-01-28T23:55:28Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3a3b175ba5de1e1850df6cf888ee6c43f5fffa974227d3df10d68ce0a9d57da3",
+        "ticker": "AAPL"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "4cd0f07f-2a97-4568-99a3-49fece1bcd37",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T22:46:52Z | Yahoo\nTitle: Samsung sees acute chip shortage persisting, warns of mobiles headwind after profit triples\nURL: https://finnhub.io/api/news?id=9e8973b74df1df4d8d0380fd9d5255946554a5ecbc024c27417785884b25aaca\nSamsung Electronics forecast a worsening chip shortage this year driven by the AI boom, with strong memory demand benefitting its mainstay chip business but creating headwinds for its other units like smartphones and displays.  Samsung on Thursday said its operating profit more ​than tripled to a record high in the fourth quarter, underscoring the strong pricing power of the world's top memory chipmaker, as the race to build ‌artificial intelligence strains chip supply and boosts prices.  However, it warned surging memory chip prices are raising costs in its smartphone and display businesses, which count  Apple and Samsung as customers, sending its shares down 1.2% after a ‌sharp rally this year.",
+      "metadata": {
+        "title": "Samsung sees acute chip shortage persisting, warns of mobiles headwind after profit triples",
+        "published_at": "2026-01-28T22:46:52Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9e8973b74df1df4d8d0380fd9d5255946554a5ecbc024c27417785884b25aaca",
+        "ticker": "AAPL"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry talks, insider buying, and AI optimism against Intel’s recent losses.",
+      "metadata": {
+        "title": "Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships",
+        "published_at": "2026-01-28T22:23:55Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555",
+        "ticker": "AAPL"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T21:03:06Z | Yahoo\nTitle: Intel's Stock Soars as Client Rumors Swirl: Could Nvidia and Apple Deals Be on the Way?\nURL: https://finnhub.io/api/news?id=f560cbcfec40544cdefd58f515f63f118037032883d54d3ca9569a7abd0618c5\nCould Intel be closer to winning new chipmaking contracts from Nvidia and Apple?",
+      "metadata": {
+        "title": "Intel's Stock Soars as Client Rumors Swirl: Could Nvidia and Apple Deals Be on the Way?",
+        "published_at": "2026-01-28T21:03:06Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f560cbcfec40544cdefd58f515f63f118037032883d54d3ca9569a7abd0618c5",
+        "ticker": "AAPL"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "c2d82d4f-204a-46f4-8baa-5433df7e63e4",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that chip giants Nvidia and Apple were considering using Intel's foundry services for future chip production.",
+      "metadata": {
+        "title": "Why Intel (INTC) Stock Is Up Today",
+        "published_at": "2026-01-28T20:01:43Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181",
+        "ticker": "AAPL"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    }
+  ],
+  "calculation_appendix": [],
+  "generated_at": "2026-03-11T11:36:51.396780",
+  "overall_status": "unresolved",
+  "warnings": [
+    "Prediction section SKIPPED: the following sections have unresolved blocking issues: ['Recent Developments']. Resolve those issues before generating a recommendation.",
+    "Some paragraphs could not be fully verified within the allowed iteration limit. These are marked 'unresolved' in the report."
+  ]
+}

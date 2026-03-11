@@ -1,0 +1,23 @@
+{
+  "verdict_id": "4aa881d8-ced5-47b7-8536-5a6ea96497bf",
+  "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "b7c4b5bd-c17a-485e-8b12-fcd842f1dca2",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+      "offending_span": "Apple's strong profitability margins and revenue growth are positive indicators",
+      "explanation": "The claim about revenue growth is not supported by the cited calculation results or any cited evidence chunks. The cited calculations (6d264db3-d9cd-475b-8755-dd0fe46ad9d2 and bc5b1b56-60d7-4314-a837-b263a71efb32) only provide information on profitability margins (gross and operating margins), not revenue growth. No evidence for revenue growth is present in the provided data.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+        "bc5b1b56-60d7-4314-a837-b263a71efb32"
+      ],
+      "recommended_fix": "Remove 'and revenue growth' from the claim to align with the evidence, or if revenue growth data is available, cite the appropriate calculation or chunk ID that supports it (e.g., a calculation showing revenue change over time)."
+    }
+  ],
+  "checked_at": "2026-03-11T06:14:29.322144",
+  "iteration": 0
+}

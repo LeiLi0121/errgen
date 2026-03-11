@@ -1,0 +1,68 @@
+{
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "section_name": "Recent Developments",
+  "text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog driven by OpenAI, highlighting the intensifying race for AI dominance that may pressure Apple's strategic investments. Commentary suggests Apple is shifting towards a services-focused model similar to Microsoft's evolution, emphasizing the importance of recurring revenue streams as the iPhone matures.",
+  "citations": [
+    {
+      "citation_id": "86ef7ec2-54e6-477b-8e9b-56218d70bb3d",
+      "chunk_id": "fca92e7e-d964-44c7-9b4b-004d6f581931",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T21:04:00Z | Yahoo\nTitle: Microsoft's rising spending, slight cloud beat fan AI payoff worries\nURL: https://finnhub.io/api/news?id=7d669c13709e8b75afe1a4e0d12555b8e0ccbf24ff213105a2e7bbbc19e60a76\nMicrosoft only edged past estimates for quarterly revenue in its crucial cloud-computin",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a9ef5759-dcef-414b-9381-bfb7bb163a52",
+      "chunk_id": "c20ee3f0-fd05-410d-b363-775533c2cc73",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T19:56:00Z | Yahoo\nTitle: Apple is in its Microsoft era\nURL: https://finnhub.io/api/news?id=1e2b620d6fd0283ef7593a52d27502502dedff3b388b8fd71ab79c87174e9ee8\nThe iPhone is aging into infrastructure; Services is doing Office math, and Apple’s next act has to arrive before its “premium",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "fca92e7e-d964-44c7-9b4b-004d6f581931",
+    "c20ee3f0-fd05-410d-b363-775533c2cc73"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "bcda20e1-9100-4981-8281-f78fbf9e4090",
+      "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "743dd40c-4b26-49cb-8b1d-6d89ffd3a1d3",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": "a significant backlog driven by OpenAI",
+          "explanation": "The cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 mentions a backlog in Microsoft's cloud business but does not attribute it to OpenAI; it only states the backlog amount without specifying the driver.",
+          "relevant_chunk_ids": [
+            "fca92e7e-d964-44c7-9b4b-004d6f581931"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove 'driven by OpenAI' or cite additional evidence that explicitly connects Microsoft's backlog to OpenAI."
+        },
+        {
+          "issue_id": "1016bbe0-1d1f-4b58-82af-c392711bc12b",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+          "offending_span": "that may pressure Apple's strategic investments",
+          "explanation": "No cited evidence supports the claim that Microsoft's AI spending or backlog pressures Apple's strategic investments; the cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 only discusses Microsoft's own performance and does not mention Apple or its investments.",
+          "relevant_chunk_ids": [
+            "fca92e7e-d964-44c7-9b4b-004d6f581931"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove this speculative statement or provide evidence linking Microsoft's actions to pressure on Apple's investments."
+        }
+      ],
+      "checked_at": "2026-03-11T11:21:13.187349",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

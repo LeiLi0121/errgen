@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "56a9dbdc-a641-4b4f-87dc-d8cbd70ff5a0",
+    "source_type": "company_profile",
+    "url": "https://financialmodelingprep.com/financial-summary/AAPL",
+    "api_source": "fmp",
+    "document_identifier": "fmp_profile_AAPL",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T11:09:01.023872",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "profile",
+      "symbol": "AAPL"
+    }
+  },
+  {
+    "source_id": "9ef2ec77-2578-4c23-8273-c32419b6912f",
+    "source_type": "income_statement",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_income_AAPL_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T11:09:02.455664",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "income-statement",
+      "symbol": "AAPL",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "9f04b213-9bf6-41bd-b300-d6080a8c5df9",
+    "source_type": "balance_sheet",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_balance_AAPL_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T11:09:09.400385",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "balance-sheet-statement",
+      "symbol": "AAPL",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "417976f2-0903-4bf2-b425-7e13762825f1",
+    "source_type": "cash_flow",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_cashflow_AAPL_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T11:09:11.661630",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "cash-flow-statement",
+      "symbol": "AAPL",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+    "source_type": "news",
+    "url": null,
+    "api_source": "finnhub",
+    "document_identifier": "finnhub_news_AAPL",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T11:09:22.193729",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "/company-news",
+      "ticker": "AAPL",
+      "from_date": "2025-01-01",
+      "to_date": "2026-01-28"
+    }
+  }
+]

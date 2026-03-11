@@ -1,0 +1,28 @@
+{
+  "run_id": "470b7c57-2edf-42d1-8a31-43d4e03e96eb",
+  "ticker": "AAPL",
+  "as_of_date": "2026-01",
+  "status": "running",
+  "started_at": "2026-03-11T05:42:32.301865",
+  "completed_at": null,
+  "n_sources": 4,
+  "n_chunks": 94,
+  "n_facts": 19,
+  "n_calculations": 9,
+  "n_paragraphs": 0,
+  "n_verdicts": 0,
+  "n_revisions": 0,
+  "errors": [],
+  "warnings": [],
+  "overall_report_status": null,
+  "config_snapshot": {
+    "openai_model": "gpt-4o",
+    "openai_fast_model": "gpt-4o-mini",
+    "fmp_base_url": "https://financialmodelingprep.com/stable",
+    "newsapi_base_url": "https://newsapi.org/v2",
+    "max_revision_iterations": 3,
+    "max_news_articles": 20,
+    "max_financial_periods": 4,
+    "runs_dir": "runs"
+  }
+}

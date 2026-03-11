@@ -1,0 +1,12 @@
+{
+  "revision_id": "214c5d40-470f-4daa-b451-111191bc7a0c",
+  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+  "iteration": 3,
+  "original_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+  "revised_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+  "issues_addressed": [
+    "baddb7e0-2f60-42e9-b55b-2e3391a7c0a6"
+  ],
+  "changes_summary": "Removed the unsupported claim 'potentially diversifying Apple's supply chain' to address the major hallucination issue, as no evidence chunks support this statement. The remaining claims are retained based on current cited chunk IDs, maintaining a professional tone.",
+  "revised_at": "2026-03-11T11:33:19.364863"
+}

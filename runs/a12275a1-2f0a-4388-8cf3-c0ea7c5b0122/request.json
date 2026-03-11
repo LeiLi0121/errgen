@@ -1,0 +1,16 @@
+{
+  "request_id": "eefc2cd0-23d7-4e7f-bb19-d270a0e1bcbc",
+  "raw_text": "Write an equity research report for Apple (AAPL) as of January 2026, focusing on iPhone revenue, services, and AI.",
+  "ticker": "AAPL",
+  "company_name": "Apple Inc.",
+  "market": "US",
+  "as_of_date": "2026-01",
+  "focus_areas": [
+    "iPhone revenue",
+    "services",
+    "AI"
+  ],
+  "report_style": "standard",
+  "language": "en",
+  "created_at": "2026-03-11T11:36:51.396643"
+}

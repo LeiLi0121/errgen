@@ -1,0 +1,63 @@
+{
+  "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+  "section_name": "Business & Competitive Analysis",
+  "text": "The provided evidence does not specify key growth drivers such as which products, markets, or initiatives are currently driving growth for Apple. Similarly, information on strategic initiatives including partnerships, acquisitions, or new market entries is not covered. For management quality signals, the company profile indicates CEO Timothy D. Cook leads Apple with 164,000 full-time employees [chunk_id: 802b163e-339a-479f-89f1-0f413e6965ac], but there is no commentary from filings, news, or analyst sources to assess strategic direction or effectiveness.",
+  "citations": [
+    {
+      "citation_id": "fe395b91-e144-4090-9f5a-dc62c3e1c75b",
+      "chunk_id": "802b163e-339a-479f-89f1-0f413e6965ac",
+      "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "802b163e-339a-479f-89f1-0f413e6965ac"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "3b3b6c2b-eebc-41ed-b26d-b33358eaa1be",
+      "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+      "status": "fail",
+      "issues": [],
+      "checked_at": "2026-03-11T05:52:44.258074",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "1c0968d7-5fe6-4fb0-82c3-0fd911421b75",
+      "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+      "status": "unresolved",
+      "issues": [
+        {
+          "issue_id": "d62487f7-b3aa-4d63-a11d-e7acdbeed771",
+          "issue_type": "unsupported_claim",
+          "severity": "critical",
+          "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+          "offending_span": null,
+          "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"fail\",\n  \"issues\": [\n    {\n      \"issue_type\": \"unsupported_claim\",\n      \"severity\": \"major\",\n      \"offending_span\": \"The provided evidence does not specify key growth drivers such as",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Re-run the checker."
+        }
+      ],
+      "checked_at": "2026-03-11T05:54:20.915792",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "84f00ece-6347-405b-beee-470a3648d1b0",
+      "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+      "iteration": 1,
+      "original_text": "The provided evidence does not specify key growth drivers such as which products, markets, or initiatives are currently driving growth for Apple. Similarly, information on strategic initiatives including partnerships, acquisitions, or new market entries is not covered. For management quality signals, the company profile indicates CEO Timothy D. Cook leads Apple with 164,000 full-time employees [chunk_id: 802b163e-339a-479f-89f1-0f413e6965ac], but there is no commentary from filings, news, or analyst sources to assess strategic direction or effectiveness.",
+      "revised_text": "The provided evidence does not specify key growth drivers such as which products, markets, or initiatives are currently driving growth for Apple. Similarly, information on strategic initiatives including partnerships, acquisitions, or new market entries is not covered. For management quality signals, the company profile indicates CEO Timothy D. Cook leads Apple with 164,000 full-time employees [chunk_id: 802b163e-339a-479f-89f1-0f413e6965ac], but there is no commentary from filings, news, or analyst sources to assess strategic direction or effectiveness.",
+      "issues_addressed": [],
+      "changes_summary": "No blocking issues – no changes made.",
+      "revised_at": "2026-03-11T05:52:44.258948"
+    }
+  ],
+  "iteration": 0
+}

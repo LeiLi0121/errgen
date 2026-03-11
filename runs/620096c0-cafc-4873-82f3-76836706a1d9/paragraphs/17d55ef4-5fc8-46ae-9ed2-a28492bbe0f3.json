@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "17d55ef4-5fc8-46ae-9ed2-a28492bbe0f3",
+  "section_name": "Company Overview",
+  "text": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+  "citations": [
+    {
+      "citation_id": "b0f923ed-05e6-4637-9220-8d1729676481",
+      "chunk_id": "802b163e-339a-479f-89f1-0f413e6965ac",
+      "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "802b163e-339a-479f-89f1-0f413e6965ac"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

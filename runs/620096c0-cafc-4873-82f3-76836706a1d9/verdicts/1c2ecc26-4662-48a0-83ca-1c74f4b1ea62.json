@@ -1,0 +1,20 @@
+{
+  "verdict_id": "1c2ecc26-4662-48a0-83ca-1c74f4b1ea62",
+  "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+  "status": "unresolved",
+  "issues": [
+    {
+      "issue_id": "7f135f0b-c440-4923-bc36-0236179102fa",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+      "offending_span": null,
+      "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"fail\",\n  \"issues\": [\n    {\n      \"issue_type\": \"citation_mismatch\",\n      \"severity\": \"major\",\n      \"offending_span\": \"consistent revenue growth from $383.3 billion in FY2023 to $416.2",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Re-run the checker."
+    }
+  ],
+  "checked_at": "2026-03-11T06:03:27.433234",
+  "iteration": 2
+}

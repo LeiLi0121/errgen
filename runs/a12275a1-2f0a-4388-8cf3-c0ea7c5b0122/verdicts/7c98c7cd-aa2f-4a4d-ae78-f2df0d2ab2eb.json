@@ -1,0 +1,35 @@
+{
+  "verdict_id": "7c98c7cd-aa2f-4a4d-ae78-f2df0d2ab2eb",
+  "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "bcb13a2e-283f-407e-9de4-d3da2d3a70b3",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+      "offending_span": "analysts anticipating",
+      "explanation": "The cited chunk does not specify 'analysts'; it refers to 'traders' in the title and general market sentiment in the content, so the claim that analysts are anticipating is not directly supported.",
+      "relevant_chunk_ids": [
+        "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change 'analysts' to a more general term like 'market participants' or rephrase to align with the evidence, e.g., 'with expectations of record revenue'."
+    },
+    {
+      "issue_id": "16091bc6-bd13-4b33-abc0-9047fd2b661b",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "26b093c6-4b78-4106-ad7a-be131c3e7d62",
+      "offending_span": "indicating sustained consumer interest in its flagship product line",
+      "explanation": "The evidence supports strong demand for iPhone 17, but does not explicitly indicate that consumer interest is 'sustained', which implies an ongoing trend beyond the current period and may overinterpret the evidence.",
+      "relevant_chunk_ids": [
+        "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Rephrase to reflect the evidence more precisely, e.g., 'driven by robust demand for the iPhone 17, suggesting strong consumer interest.'"
+    }
+  ],
+  "checked_at": "2026-03-11T11:18:12.976075",
+  "iteration": 0
+}

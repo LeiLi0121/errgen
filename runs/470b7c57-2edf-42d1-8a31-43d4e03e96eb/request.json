@@ -1,0 +1,12 @@
+{
+  "request_id": "a0151d62-f0a4-4e02-8aba-f528017d8885",
+  "raw_text": "Write an equity research report for Apple (AAPL)",
+  "ticker": "AAPL",
+  "company_name": "Apple Inc.",
+  "market": "US",
+  "as_of_date": "2026-01",
+  "focus_areas": [],
+  "report_style": "standard",
+  "language": "en",
+  "created_at": "2026-03-11T05:42:32.301568"
+}

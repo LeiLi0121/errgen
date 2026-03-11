@@ -1,0 +1,37 @@
+{
+  "verdict_id": "8ccc7d5a-ce9c-4a4f-85d8-82ca36a5e4f4",
+  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "df98895f-4ea9-458f-b8f7-c0da698bee6d",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+      "offending_span": "affect Apple's hardware margins, given Samsung's role as a key supplier",
+      "explanation": "The cited chunk 4cd0f07f-2a97-4568-99a3-49fece1bcd37 discusses Samsung's forecast of a worsening chip shortage and its impact on its own units, but does not mention Apple, Apple's hardware margins, or Samsung's role as a supplier to Apple. No other cited chunks support these claims.",
+      "relevant_chunk_ids": [
+        "4cd0f07f-2a97-4568-99a3-49fece1bcd37"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove or revise the claim to reflect only what the evidence states, such as focusing on Samsung's warning and its potential broader industry impact without specifying Apple's margins, or add evidence that explicitly supports Samsung's supplier relationship with Apple and the effect on margins."
+    },
+    {
+      "issue_id": "a2378fcc-d1a3-4be6-9186-6e680a9aa4b2",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+      "offending_span": "potentially diversifying Apple's supply chain",
+      "explanation": "The cited chunks b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0, 9dcb8fde-0027-49e7-a246-5011231bf1fd, and c2d82d4f-204a-46f4-8baa-5433df7e63e4 confirm rumors of Apple exploring Intel's foundry services and Intel's stock surge, but they do not explicitly state that this would diversify Apple's supply chain. This is an interpretive claim not directly supported by the evidence.",
+      "relevant_chunk_ids": [
+        "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+        "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+        "c2d82d4f-204a-46f4-8baa-5433df7e63e4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Clarify that diversification is a possible implication based on the rumors, or rephrase to directly tie the claim to the evidence, e.g., 'which could lead to supply chain diversification.'"
+    }
+  ],
+  "checked_at": "2026-03-11T11:24:27.343860",
+  "iteration": 1
+}

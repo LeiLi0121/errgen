@@ -1,0 +1,12 @@
+{
+  "revision_id": "9e3c587f-ec23-4140-83b5-1bb66da8d47d",
+  "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+  "iteration": 1,
+  "original_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating resilience in its core hardware and services segments [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+  "revised_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+  "issues_addressed": [
+    "35319f1b-8c30-47f8-baaa-0679bd898009"
+  ],
+  "changes_summary": "Changed 'indicating resilience in its core hardware and services segments' to 'indicating general resilience' to address the unsupported claim about segment-specific performance, as the available evidence only shows total revenue growth without segment breakdown.",
+  "revised_at": "2026-03-11T06:00:33.857627"
+}

@@ -1,0 +1,22 @@
+{
+  "verdict_id": "415479f9-953f-4f61-b269-7c7ff28b7754",
+  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "69a67883-02d4-46c2-bbde-ade667d549e9",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+      "offending_span": "Apple's business is focused on consumer electronics sales",
+      "explanation": "The cited chunk [64655618-4802-430d-a49a-497ee73beda7] describes Apple's business as including design, manufacturing, marketing of consumer electronics and providing services such as AppleCare and cloud platforms. The claim focuses solely on sales, which does not fully capture the broader business model indicated in the evidence, leading to a mismatch between the claim and the cited content.",
+      "relevant_chunk_ids": [
+        "64655618-4802-430d-a49a-497ee73beda7"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise the claim to accurately reflect the business scope described in the chunk, e.g., 'Apple's business includes consumer electronics sales and services such as AppleCare and cloud platforms.'"
+    }
+  ],
+  "checked_at": "2026-03-11T06:11:46.992633",
+  "iteration": 2
+}

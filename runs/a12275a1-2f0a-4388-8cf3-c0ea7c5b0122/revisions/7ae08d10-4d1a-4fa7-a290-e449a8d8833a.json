@@ -1,0 +1,12 @@
+{
+  "revision_id": "7ae08d10-4d1a-4fa7-a290-e449a8d8833a",
+  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+  "iteration": 2,
+  "original_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+  "revised_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom.",
+  "issues_addressed": [
+    "df98895f-4ea9-458f-b8f7-c0da698bee6d"
+  ],
+  "changes_summary": "Removed the unsupported claim about Apple's hardware margins and Samsung's role as a key supplier, as the evidence only supports Samsung's warning of a chip shortage. Kept all other supported content unchanged with citations.",
+  "revised_at": "2026-03-11T11:27:08.633050"
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "a12275a1-2f0a-4388-8cf3-c0ea7c5b0122",
+  "ticker": "AAPL",
+  "as_of_date": "2026-01",
+  "status": "completed",
+  "started_at": "2026-03-11T11:36:51.397107",
+  "completed_at": "2026-03-11T11:36:51.397109",
+  "n_sources": 5,
+  "n_chunks": 114,
+  "n_facts": 23,
+  "n_calculations": 9,
+  "n_paragraphs": 3,
+  "n_verdicts": 9,
+  "n_revisions": 6,
+  "errors": [],
+  "warnings": [
+    "Prediction section SKIPPED: the following sections have unresolved blocking issues: ['Recent Developments']. Resolve those issues before generating a recommendation."
+  ],
+  "overall_report_status": "unresolved",
+  "config_snapshot": {
+    "openai_model": "deepseek-reasoner",
+    "openai_fast_model": "deepseek-reasoner",
+    "fmp_base_url": "https://financialmodelingprep.com/stable",
+    "newsapi_base_url": "https://newsapi.org/v2",
+    "finnhub_base_url": "https://finnhub.io/api/v1",
+    "max_revision_iterations": 3,
+    "max_news_articles": 20,
+    "max_financial_periods": 4,
+    "runs_dir": "runs"
+  }
+}

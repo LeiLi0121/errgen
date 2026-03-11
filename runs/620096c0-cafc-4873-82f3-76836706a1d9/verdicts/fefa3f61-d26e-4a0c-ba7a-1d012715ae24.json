@@ -1,0 +1,37 @@
+{
+  "verdict_id": "fefa3f61-d26e-4a0c-ba7a-1d012715ae24",
+  "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "35319f1b-8c30-47f8-baaa-0679bd898009",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+      "offending_span": "indicating resilience in its core hardware and services segments",
+      "explanation": "The cited chunks show total revenue growth but do not provide evidence for performance or resilience in specific segments such as hardware and services. This claim is an inference not directly supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "dd8b34d6-5e67-4c41-ae10-931a81243c38",
+        "0000211d-5387-466f-9b23-1018bee8b516",
+        "5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide cited evidence for segment-specific revenue or profitability data to support the claim, or rephrase to state that overall revenue growth suggests general resilience without specifying segments."
+    },
+    {
+      "issue_id": "f8e28118-6492-41a8-a4d9-bca3307609d5",
+      "issue_type": "numerical_error",
+      "severity": "minor",
+      "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+      "offending_span": "$34.6 billion",
+      "explanation": "The cited chunk shows R&D expenses of $34.55 billion, while the paragraph states $34.6 billion. This is a slight discrepancy, though minor.",
+      "relevant_chunk_ids": [
+        "17a0253c-0905-49d0-8824-7bbe954c42b9"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Correct to $34.55 billion or add a note indicating rounding to one decimal place."
+    }
+  ],
+  "checked_at": "2026-03-11T05:59:27.774438",
+  "iteration": 0
+}

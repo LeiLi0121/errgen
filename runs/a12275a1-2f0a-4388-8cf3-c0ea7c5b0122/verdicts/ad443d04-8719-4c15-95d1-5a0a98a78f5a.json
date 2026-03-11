@@ -1,0 +1,20 @@
+{
+  "verdict_id": "ad443d04-8719-4c15-95d1-5a0a98a78f5a",
+  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "baddb7e0-2f60-42e9-b55b-2e3391a7c0a6",
+      "issue_type": "hallucination",
+      "severity": "major",
+      "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+      "offending_span": "potentially diversifying Apple's supply chain",
+      "explanation": "The cited evidence chunks do not mention or support any discussion of Apple's supply chain diversification; they only report on rumors of Apple exploring partnerships with Intel and the resulting stock surge, without addressing supply chain implications.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove or rephrase the statement to reflect only what is directly supported by the evidence, such as limiting it to the rumors and stock surge, or add a disclaimer that supply chain diversification is an inference not explicitly stated in the sources."
+    }
+  ],
+  "checked_at": "2026-03-11T11:30:03.426750",
+  "iteration": 2
+}

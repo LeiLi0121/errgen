@@ -1,0 +1,1013 @@
+{
+  "report_id": "b425bc7e-ebf7-44dd-90c6-5daa6d98e0c1",
+  "request": {
+    "request_id": "7ccfcba6-1384-41d7-b4d7-9d9b509c199c",
+    "raw_text": "Write an equity research report for Apple (AAPL)",
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "market": "US",
+    "as_of_date": "2026-01",
+    "focus_areas": [],
+    "report_style": "standard",
+    "language": "en",
+    "created_at": "2026-03-11T05:44:15.753078"
+  },
+  "sections": [
+    {
+      "section_id": "31d7243b-ef30-468c-a19b-33ffba9daaa6",
+      "section_name": "Company Overview",
+      "section_order": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "17d55ef4-5fc8-46ae-9ed2-a28492bbe0f3",
+          "section_name": "Company Overview",
+          "text": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+          "citations": [
+            {
+              "citation_id": "b0f923ed-05e6-4637-9220-8d1729676481",
+              "chunk_id": "802b163e-339a-479f-89f1-0f413e6965ac",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "802b163e-339a-479f-89f1-0f413e6965ac"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "53993ae3-2d21-42da-bf50-f9ab6da24113",
+          "section_name": "Company Overview",
+          "text": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+          "citations": [
+            {
+              "citation_id": "b9147b2d-9cc7-49fc-9059-6458508f786f",
+              "chunk_id": "64655618-4802-430d-a49a-497ee73beda7",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "64655618-4802-430d-a49a-497ee73beda7"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "ccdb7808-be1e-4b10-b47c-104fc844040b",
+      "section_name": "Recent Developments",
+      "section_order": 2,
+      "paragraphs": [],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "1d44c535-bfa0-45af-857e-574fb8125932",
+      "section_name": "Financial Analysis",
+      "section_order": 3,
+      "paragraphs": [],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "216b2ac5-87f0-4053-9004-d901008eac62",
+      "section_name": "Business & Competitive Analysis",
+      "section_order": 4,
+      "paragraphs": [
+        {
+          "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Apple Inc. operates a business focused on hardware products and services globally. The company designs, manufactures, and markets smartphones (iPhone), personal computers (Mac), tablets (iPad), wearables, and accessories. It also offers services such as AppleCare support and cloud services, and operates platforms including the App Store.",
+          "citations": [
+            {
+              "citation_id": "235b4abd-7621-4250-ad8f-2d644a0485df",
+              "chunk_id": "64655618-4802-430d-a49a-497ee73beda7",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "64655618-4802-430d-a49a-497ee73beda7"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "e510c7bf-fb56-4705-b56d-6fb4b63ebd75",
+              "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "275af870-346d-44d9-b8a9-130e95149de5",
+                  "issue_type": "unsupported_claim",
+                  "severity": "minor",
+                  "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+                  "offending_span": "Apple Inc. generates revenue through a diversified business model centered on hardware products and services worldwide.",
+                  "explanation": "The cited chunk describes products and services but does not explicitly mention revenue generation or business model; this claim is inferred rather than directly supported.",
+                  "relevant_chunk_ids": [
+                    "64655618-4802-430d-a49a-497ee73beda7"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise to state that the company engages in hardware and services activities, or cite evidence explicitly mentioning revenue or business model."
+                },
+                {
+                  "issue_id": "79c00da0-dac7-4547-b38b-422187a35ded",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+                  "offending_span": "subscription-based platforms such as Apple Music, Apple TV+, and Apple Arcade",
+                  "explanation": "The cited chunk mentions the App Store and digital content but does not specify Apple Music, Apple TV+, or Apple Arcade; these are detailed claims not found in the evidence.",
+                  "relevant_chunk_ids": [
+                    "64655618-4802-430d-a49a-497ee73beda7"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the specific names or cite evidence that includes them; alternatively, generalize to 'subscription-based services' if supported by the evidence."
+                },
+                {
+                  "issue_id": "533c086e-a4ef-4729-aa91-e22bb58f5b2c",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+                  "offending_span": "distribution spans retail and online stores, direct sales, and third-party channels, serving consumers, small and mid-sized businesses, and various markets including education and enterprise globally.",
+                  "explanation": "The cited chunk does not mention distribution channels or target markets; this detailed claim is absent from the provided evidence.",
+                  "relevant_chunk_ids": [
+                    "64655618-4802-430d-a49a-497ee73beda7"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove this part or cite appropriate evidence that covers distribution and market segments."
+                }
+              ],
+              "checked_at": "2026-03-11T05:48:42.345241",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "06b944e8-108c-4128-83f3-fa9951b41631",
+              "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-11T05:49:54.882150",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "fa39382c-677a-41a2-92ba-db55fdd299df",
+              "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+              "iteration": 1,
+              "original_text": "Apple Inc. generates revenue through a diversified business model centered on hardware products and services worldwide. The company designs, manufactures, and markets smartphones (iPhone), personal computers (Mac), tablets (iPad), wearables, and accessories, while also offering a suite of services including the App Store, subscription-based platforms such as Apple Music, Apple TV+, and Apple Arcade, and support services like AppleCare. According to the company description, distribution spans retail and online stores, direct sales, and third-party channels, serving consumers, small and mid-sized businesses, and various markets including education and enterprise globally.",
+              "revised_text": "Apple Inc. operates a business focused on hardware products and services globally. The company designs, manufactures, and markets smartphones (iPhone), personal computers (Mac), tablets (iPad), wearables, and accessories. It also offers services such as AppleCare support and cloud services, and operates platforms including the App Store.",
+              "issues_addressed": [
+                "79c00da0-dac7-4547-b38b-422187a35ded",
+                "533c086e-a4ef-4729-aa91-e22bb58f5b2c"
+              ],
+              "changes_summary": "Removed unsupported claims about specific subscription-based platforms (Apple Music, Apple TV+, Apple Arcade) and detailed distribution channels and market segments, as they were not evidenced. Retained and rephrased content based on available evidence, focusing on supported product lines and services from the cited chunk.",
+              "revised_at": "2026-03-11T05:49:30.286048"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Apple demonstrates strong competitive positioning through high profitability and financial health, as indicated by calculation results. The company maintains a gross margin of 43.31% [calc_id: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2], an operating margin of 30.29% [calc_id: bc5b1b56-60d7-4314-a837-b263a71efb32], a net margin of 25.31% [calc_id: 2b590f54-038e-4a15-81d9-b87d8c657363], and a free cash flow margin of 28.26% [calc_id: 1b676e24-48f9-4602-a9a2-5b03b4b8617f], suggesting effective premium pricing and cost management. Its R&D intensity of 6.66% [calc_id: f655a70b-f8d1-43da-b827-1b450ac6f380] supports ongoing innovation, while the broad product and service ecosystem described in evidence [chunk_id: 64655618-4802-430d-a49a-497ee73beda7] indicates potential differentiation. However, specific evidence on market share and competitive moat versus peers is not provided.",
+          "citations": [
+            {
+              "citation_id": "cf925a06-da9f-482c-a11d-5d63bd9c5633",
+              "chunk_id": "64655618-4802-430d-a49a-497ee73beda7",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "64655618-4802-430d-a49a-497ee73beda7"
+          ],
+          "calc_ids": [
+            "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+            "bc5b1b56-60d7-4314-a837-b263a71efb32",
+            "2b590f54-038e-4a15-81d9-b87d8c657363",
+            "1b676e24-48f9-4602-a9a2-5b03b4b8617f",
+            "f655a70b-f8d1-43da-b827-1b450ac6f380"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "f27d32b9-ee55-467a-ac56-cd85f94ae096",
+              "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+              "status": "pass",
+              "issues": [
+                {
+                  "issue_id": "1e9555fc-9171-4d74-851e-23e26eacd418",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+                  "offending_span": "suggesting effective premium pricing and cost management",
+                  "explanation": "The calculation results show high margins, but the language implies a direct cause-effect relationship that is not explicitly supported by the evidence; high margins could result from factors other than premium pricing and cost management.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+                    "bc5b1b56-60d7-4314-a837-b263a71efb32",
+                    "2b590f54-038e-4a15-81d9-b87d8c657363",
+                    "1b676e24-48f9-4602-a9a2-5b03b4b8617f"
+                  ],
+                  "recommended_fix": "Consider softening to 'may suggest' or 'could indicate' effective premium pricing and cost management to reflect the inferential nature of the claim."
+                },
+                {
+                  "issue_id": "f816070d-d949-49d3-bfa6-a03638b66cfe",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+                  "offending_span": "supports ongoing innovation",
+                  "explanation": "R&D intensity indicates investment in research and development, but does not directly prove ongoing innovation; it is one indicator and does not guarantee innovation outcomes.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "f655a70b-f8d1-43da-b827-1b450ac6f380"
+                  ],
+                  "recommended_fix": "Use language such as 'contributes to' or 'is consistent with' ongoing innovation to avoid implying certainty."
+                }
+              ],
+              "checked_at": "2026-03-11T05:51:08.005190",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Apple Inc. is led by CEO Timothy D. Cook with 164,000 full-time employees. The company designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories, including iPhone, Mac, iPad, and AirPods.",
+          "citations": [
+            {
+              "citation_id": "125e3d94-2630-4632-b893-c8ace4377af6",
+              "chunk_id": "802b163e-339a-479f-89f1-0f413e6965ac",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "14f08004-b271-432c-baf6-05c18a65456c",
+              "chunk_id": "64655618-4802-430d-a49a-497ee73beda7",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "802b163e-339a-479f-89f1-0f413e6965ac",
+            "64655618-4802-430d-a49a-497ee73beda7"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "3b3b6c2b-eebc-41ed-b26d-b33358eaa1be",
+              "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+              "status": "fail",
+              "issues": [],
+              "checked_at": "2026-03-11T05:52:44.258074",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "1c0968d7-5fe6-4fb0-82c3-0fd911421b75",
+              "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+              "status": "unresolved",
+              "issues": [
+                {
+                  "issue_id": "d62487f7-b3aa-4d63-a11d-e7acdbeed771",
+                  "issue_type": "unsupported_claim",
+                  "severity": "critical",
+                  "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+                  "offending_span": null,
+                  "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"fail\",\n  \"issues\": [\n    {\n      \"issue_type\": \"unsupported_claim\",\n      \"severity\": \"major\",\n      \"offending_span\": \"The provided evidence does not specify key growth drivers such as",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Re-run the checker."
+                }
+              ],
+              "checked_at": "2026-03-11T05:54:20.915792",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "ce8bc541-5bd9-45a3-8a95-7e0e4850871c",
+              "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-11T05:55:47.711765",
+              "iteration": 2
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "84f00ece-6347-405b-beee-470a3648d1b0",
+              "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+              "iteration": 1,
+              "original_text": "The provided evidence does not specify key growth drivers such as which products, markets, or initiatives are currently driving growth for Apple. Similarly, information on strategic initiatives including partnerships, acquisitions, or new market entries is not covered. For management quality signals, the company profile indicates CEO Timothy D. Cook leads Apple with 164,000 full-time employees [chunk_id: 802b163e-339a-479f-89f1-0f413e6965ac], but there is no commentary from filings, news, or analyst sources to assess strategic direction or effectiveness.",
+              "revised_text": "The provided evidence does not specify key growth drivers such as which products, markets, or initiatives are currently driving growth for Apple. Similarly, information on strategic initiatives including partnerships, acquisitions, or new market entries is not covered. For management quality signals, the company profile indicates CEO Timothy D. Cook leads Apple with 164,000 full-time employees [chunk_id: 802b163e-339a-479f-89f1-0f413e6965ac], but there is no commentary from filings, news, or analyst sources to assess strategic direction or effectiveness.",
+              "issues_addressed": [],
+              "changes_summary": "No blocking issues – no changes made.",
+              "revised_at": "2026-03-11T05:52:44.258948"
+            },
+            {
+              "revision_id": "bc479bcb-db96-4cd1-9046-1043f60b7620",
+              "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+              "iteration": 2,
+              "original_text": "The provided evidence does not specify key growth drivers such as which products, markets, or initiatives are currently driving growth for Apple. Similarly, information on strategic initiatives including partnerships, acquisitions, or new market entries is not covered. For management quality signals, the company profile indicates CEO Timothy D. Cook leads Apple with 164,000 full-time employees [chunk_id: 802b163e-339a-479f-89f1-0f413e6965ac], but there is no commentary from filings, news, or analyst sources to assess strategic direction or effectiveness.",
+              "revised_text": "Apple Inc. is led by CEO Timothy D. Cook with 164,000 full-time employees. The company designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories, including iPhone, Mac, iPad, and AirPods.",
+              "issues_addressed": [
+                "d62487f7-b3aa-4d63-a11d-e7acdbeed771"
+              ],
+              "changes_summary": "Removed all unsupported claims regarding the lack of evidence on growth drivers and strategic initiatives, as flagged by the checker. Retained and expanded the paragraph with only factual claims supported by available evidence, specifically the CEO and employee information and product offerings, and cited the corresponding chunk_ids.",
+              "revised_at": "2026-03-11T05:55:22.245265"
+            }
+          ],
+          "iteration": 2
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "e97906eb-768f-4b26-82b8-85906f1e9c78",
+      "section_name": "Risk Analysis",
+      "section_order": 5,
+      "paragraphs": [],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "431c9463-1d9b-42dd-8a50-5cac5fce3c1b",
+      "section_name": "Investment Recommendation & Outlook",
+      "section_order": 6,
+      "paragraphs": [
+        {
+          "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+          "citations": [
+            {
+              "citation_id": "90702215-6f2b-4867-a39d-f102ca85d85e",
+              "chunk_id": "dd8b34d6-5e67-4c41-ae10-931a81243c38",
+              "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL Revenue for FY: $383,285,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "43afbf03-e403-497a-96a6-35e2fdecddf0",
+              "chunk_id": "0000211d-5387-466f-9b23-1018bee8b516",
+              "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL Revenue for FY: $391,035,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "ac69cc1a-c362-4e2e-b0c8-ac19d7180ea7",
+              "chunk_id": "5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7",
+              "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL Revenue for FY: $416,161,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "5488229c-3740-4dd2-a61f-4934a8587e0c",
+              "chunk_id": "17a0253c-0905-49d0-8824-7bbe954c42b9",
+              "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL R&D Expenses for FY: $34,550,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "dd8b34d6-5e67-4c41-ae10-931a81243c38",
+            "0000211d-5387-466f-9b23-1018bee8b516",
+            "5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7",
+            "17a0253c-0905-49d0-8824-7bbe954c42b9"
+          ],
+          "calc_ids": [
+            "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+            "bc5b1b56-60d7-4314-a837-b263a71efb32"
+          ],
+          "verification_status": "unresolved",
+          "checker_verdicts": [
+            {
+              "verdict_id": "fefa3f61-d26e-4a0c-ba7a-1d012715ae24",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "35319f1b-8c30-47f8-baaa-0679bd898009",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+                  "offending_span": "indicating resilience in its core hardware and services segments",
+                  "explanation": "The cited chunks show total revenue growth but do not provide evidence for performance or resilience in specific segments such as hardware and services. This claim is an inference not directly supported by the cited evidence.",
+                  "relevant_chunk_ids": [
+                    "dd8b34d6-5e67-4c41-ae10-931a81243c38",
+                    "0000211d-5387-466f-9b23-1018bee8b516",
+                    "5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either provide cited evidence for segment-specific revenue or profitability data to support the claim, or rephrase to state that overall revenue growth suggests general resilience without specifying segments."
+                },
+                {
+                  "issue_id": "f8e28118-6492-41a8-a4d9-bca3307609d5",
+                  "issue_type": "numerical_error",
+                  "severity": "minor",
+                  "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+                  "offending_span": "$34.6 billion",
+                  "explanation": "The cited chunk shows R&D expenses of $34.55 billion, while the paragraph states $34.6 billion. This is a slight discrepancy, though minor.",
+                  "relevant_chunk_ids": [
+                    "17a0253c-0905-49d0-8824-7bbe954c42b9"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Correct to $34.55 billion or add a note indicating rounding to one decimal place."
+                }
+              ],
+              "checked_at": "2026-03-11T05:59:27.774438",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "b5e30ebe-e1c9-4b40-8965-fb1f64f53ead",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "status": "fail",
+              "issues": [],
+              "checked_at": "2026-03-11T06:02:01.603215",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "1c2ecc26-4662-48a0-83ca-1c74f4b1ea62",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "status": "unresolved",
+              "issues": [
+                {
+                  "issue_id": "7f135f0b-c440-4923-bc36-0236179102fa",
+                  "issue_type": "unsupported_claim",
+                  "severity": "critical",
+                  "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+                  "offending_span": null,
+                  "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"fail\",\n  \"issues\": [\n    {\n      \"issue_type\": \"citation_mismatch\",\n      \"severity\": \"major\",\n      \"offending_span\": \"consistent revenue growth from $383.3 billion in FY2023 to $416.2",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Re-run the checker."
+                }
+              ],
+              "checked_at": "2026-03-11T06:03:27.433234",
+              "iteration": 2
+            },
+            {
+              "verdict_id": "f33d969d-8e46-435d-9964-986ed67b31e6",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "status": "fail",
+              "issues": [],
+              "checked_at": "2026-03-11T06:06:27.204652",
+              "iteration": 3
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "9e3c587f-ec23-4140-83b5-1bb66da8d47d",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "iteration": 1,
+              "original_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating resilience in its core hardware and services segments [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+              "revised_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+              "issues_addressed": [
+                "35319f1b-8c30-47f8-baaa-0679bd898009"
+              ],
+              "changes_summary": "Changed 'indicating resilience in its core hardware and services segments' to 'indicating general resilience' to address the unsupported claim about segment-specific performance, as the available evidence only shows total revenue growth without segment breakdown.",
+              "revised_at": "2026-03-11T06:00:33.857627"
+            },
+            {
+              "revision_id": "dc904e02-9667-425f-88b2-46cb4735eaa7",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "iteration": 2,
+              "original_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+              "revised_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+              "issues_addressed": [],
+              "changes_summary": "No blocking issues – no changes made.",
+              "revised_at": "2026-03-11T06:02:01.603354"
+            },
+            {
+              "revision_id": "a711fb7e-bf0c-44b3-a267-aa5cada47dc8",
+              "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+              "iteration": 3,
+              "original_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+              "revised_text": "Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by consistent revenue growth from $383.3 billion in FY2023 to $416.2 billion in FY2025, indicating general resilience [chunk_ids: dd8b34d6-5e67-4c41-ae10-931a81243c38, 0000211d-5387-466f-9b23-1018bee8b516, 5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7]. The company maintains high profitability, with a gross margin of 43.31% and an operating margin of 30.29% [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], alongside increasing R&D investment to $34.6 billion in FY2025, which may support future innovation [chunk_id: 17a0253c-0905-49d0-8824-7bbe954c42b9].",
+              "issues_addressed": [],
+              "changes_summary": "Revision failed: LLM returned non-JSON content: {\n  \"text\": \"Apple Inc. demonstrates robust financial performance and strong competitive positioning, supported by revenue growth from $383.285 billion in FY2023 to $416.161 billion in FY2025, with co",
+              "revised_at": "2026-03-11T06:04:56.297377"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business includes consumer electronics sales and services such as AppleCare and cloud platforms [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+          "citations": [
+            {
+              "citation_id": "19a19736-9ee2-4cc4-9d2d-444de73ca23e",
+              "chunk_id": "604a8df0-6864-4e3f-b2bb-5d8e5b0128c0",
+              "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+              "source_type": "income_statement",
+              "text_snippet": "AAPL Net Income for FY: $112,010,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "53c299fb-92aa-4240-9483-9db52db8ba77",
+              "chunk_id": "64655618-4802-430d-a49a-497ee73beda7",
+              "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+              "source_type": "company_profile",
+              "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "604a8df0-6864-4e3f-b2bb-5d8e5b0128c0",
+            "64655618-4802-430d-a49a-497ee73beda7"
+          ],
+          "calc_ids": [
+            "47d6125e-13b5-4086-9460-ba7315e216cd",
+            "d91c8d9b-4362-4ce6-9580-bada13ab7728"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "f95a4850-e5af-466a-9419-0054f487e81c",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "53523988-1b52-4ed8-85fc-0fee06675816",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+                  "offending_span": "Apple's reliance on consumer electronics sales exposes it to economic downturns and intense competitive pressures",
+                  "explanation": "This factual claim about Apple's business model and associated risks is not supported by any cited evidence chunk. The paragraph cites no chunk IDs, and the cited calculation results only provide financial ratios, not information on business reliance or market risks.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Cite relevant evidence chunks from the available list that discuss Apple's product sales, economic exposure, or competitive pressures, or remove this unsupported claim to ensure all factual assertions are backed by provided evidence."
+                }
+              ],
+              "checked_at": "2026-03-11T06:07:30.080525",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "97f367b2-ebc7-4afe-a750-126c4c27d45d",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "49614b78-153f-4bfc-a60c-ba95a3a7eefa",
+                  "issue_type": "internal_inconsistency",
+                  "severity": "major",
+                  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+                  "offending_span": "financial health concerns",
+                  "explanation": "The paragraph highlights financial health concerns with high debt-to-equity and current ratios, but previously verified facts in the 'Business & Competitive Analysis' section state that 'Apple demonstrates strong competitive positioning through high profitability and financial health', creating a contradiction.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise the paragraph to align with the verified context, such as by acknowledging overall financial health while noting specific risk indicators, or clarify the context of the risk assessment."
+                },
+                {
+                  "issue_id": "c4eb41ce-3895-4d6b-a545-488599ee7148",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+                  "offending_span": "the absence of detailed risk analysis in the provided evidence",
+                  "explanation": "This claim is not supported by any cited evidence chunk or calculation result. The only cited chunk (ID: 64655618-4802-430d-a49a-497ee73beda7) describes Apple's business focus, not the presence or absence of risk analysis in the evidence.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either remove this claim or cite specific evidence that demonstrates the absence of detailed risk analysis, if available in the provided chunks."
+                }
+              ],
+              "checked_at": "2026-03-11T06:09:37.674810",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "415479f9-953f-4f61-b269-7c7ff28b7754",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "69a67883-02d4-46c2-bbde-ade667d549e9",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+                  "offending_span": "Apple's business is focused on consumer electronics sales",
+                  "explanation": "The cited chunk [64655618-4802-430d-a49a-497ee73beda7] describes Apple's business as including design, manufacturing, marketing of consumer electronics and providing services such as AppleCare and cloud platforms. The claim focuses solely on sales, which does not fully capture the broader business model indicated in the evidence, leading to a mismatch between the claim and the cited content.",
+                  "relevant_chunk_ids": [
+                    "64655618-4802-430d-a49a-497ee73beda7"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise the claim to accurately reflect the business scope described in the chunk, e.g., 'Apple's business includes consumer electronics sales and services such as AppleCare and cloud platforms.'"
+                }
+              ],
+              "checked_at": "2026-03-11T06:11:46.992633",
+              "iteration": 2
+            },
+            {
+              "verdict_id": "b3ef0b1d-95f3-4b65-bfc1-35f6cd85899e",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-11T06:13:21.359379",
+              "iteration": 3
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "806dc40a-9c8b-4e2e-ba9d-fb701e0ddf06",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "iteration": 1,
+              "original_text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's reliance on consumer electronics sales exposes it to economic downturns and intense competitive pressures, though the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+              "revised_text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7], but the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+              "issues_addressed": [
+                "53523988-1b52-4ed8-85fc-0fee06675816"
+              ],
+              "changes_summary": "Removed the unsupported claim about exposure to economic downturns and competitive pressures, as no evidence chunks supported it. Added a citation for Apple's business focus on consumer electronics sales using an available evidence chunk to support that factual assertion, while maintaining the financial risk analysis based on calculation results.",
+              "revised_at": "2026-03-11T06:08:27.661740"
+            },
+            {
+              "revision_id": "6f78f7ac-c264-47b4-b6e2-a53db9c332c7",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "iteration": 2,
+              "original_text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7], but the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+              "revised_text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+              "issues_addressed": [
+                "49614b78-153f-4bfc-a60c-ba95a3a7eefa",
+                "c4eb41ce-3895-4d6b-a545-488599ee7148"
+              ],
+              "changes_summary": "Removed the unsupported claim about absence of detailed risk analysis (Issue 2) and revised to acknowledge Apple's strong profitability based on evidence while highlighting specific financial risk indicators from debt-to-equity and current ratios, aligning with verified context to address internal inconsistency (Issue 1).",
+              "revised_at": "2026-03-11T06:10:35.820232"
+            },
+            {
+              "revision_id": "8c2df2a0-a5dc-4278-981c-6df7e5916650",
+              "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+              "iteration": 3,
+              "original_text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+              "revised_text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business includes consumer electronics sales and services such as AppleCare and cloud platforms [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+              "issues_addressed": [
+                "69a67883-02d4-46c2-bbde-ade667d549e9"
+              ],
+              "changes_summary": "Revised the description of Apple's business from 'focused on consumer electronics sales' to 'includes consumer electronics sales and services such as AppleCare and cloud platforms' to accurately reflect the evidence, addressing the major citation mismatch issue.",
+              "revised_at": "2026-03-11T06:12:33.501775"
+            }
+          ],
+          "iteration": 3
+        },
+        {
+          "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns [calc_ids: 47d6125e-13b5-4086-9460-ba7315e216cd, d91c8d9b-4362-4ce6-9580-bada13ab7728], necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh the risks against the supported financial metrics. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+          "citations": [],
+          "chunk_ids": [],
+          "calc_ids": [
+            "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+            "bc5b1b56-60d7-4314-a837-b263a71efb32",
+            "47d6125e-13b5-4086-9460-ba7315e216cd",
+            "d91c8d9b-4362-4ce6-9580-bada13ab7728"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "4aa881d8-ced5-47b7-8536-5a6ea96497bf",
+              "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "b7c4b5bd-c17a-485e-8b12-fcd842f1dca2",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+                  "offending_span": "Apple's strong profitability margins and revenue growth are positive indicators",
+                  "explanation": "The claim about revenue growth is not supported by the cited calculation results or any cited evidence chunks. The cited calculations (6d264db3-d9cd-475b-8755-dd0fe46ad9d2 and bc5b1b56-60d7-4314-a837-b263a71efb32) only provide information on profitability margins (gross and operating margins), not revenue growth. No evidence for revenue growth is present in the provided data.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+                    "bc5b1b56-60d7-4314-a837-b263a71efb32"
+                  ],
+                  "recommended_fix": "Remove 'and revenue growth' from the claim to align with the evidence, or if revenue growth data is available, cite the appropriate calculation or chunk ID that supports it (e.g., a calculation showing revenue change over time)."
+                }
+              ],
+              "checked_at": "2026-03-11T06:14:29.322144",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "560e9089-c27b-4aa9-a600-b051985ef76f",
+              "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "afcb5e11-b71f-4e64-9dd5-52466a16c9ef",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+                  "offending_span": "the company's competitive advantages",
+                  "explanation": "The paragraph claims that Apple has competitive advantages, but no cited chunk or calculation supports this claim. The cited calculations only provide financial metrics (gross margin, operating margin, debt-to-equity, current ratio) and do not address or confirm competitive advantages.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Cite evidence chunks that demonstrate Apple's competitive advantages, such as those available in the Business & Competitive Analysis section (e.g., chunk IDs from the uncited list), or rephrase to avoid making unsupported claims, e.g., by stating that profitability margins may suggest competitive strengths without asserting advantages directly."
+                }
+              ],
+              "checked_at": "2026-03-11T06:16:34.937997",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "aa30a12f-aaaa-476b-b867-3e6d79dc27b4",
+              "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-11T06:17:52.454616",
+              "iteration": 2
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "117939d8-5504-4520-a597-266e3e5c9686",
+              "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+              "iteration": 1,
+              "original_text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins and revenue growth are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns, necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh them against the company's competitive advantages. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+              "revised_text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns [calc_ids: 47d6125e-13b5-4086-9460-ba7315e216cd, d91c8d9b-4362-4ce6-9580-bada13ab7728], necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh them against the company's competitive advantages. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+              "issues_addressed": [
+                "b7c4b5bd-c17a-485e-8b12-fcd842f1dca2"
+              ],
+              "changes_summary": "Removed 'and revenue growth' from the claim about positive indicators because it was not supported by any evidence, aligning with the checker's major issue. Added explicit citations for debt and liquidity risks to ensure all factual claims are supported by the provided calculation IDs, maintaining the professional tone and avoiding unsupported statements.",
+              "revised_at": "2026-03-11T06:15:28.733989"
+            },
+            {
+              "revision_id": "2127f6cf-82cc-4f8a-90f6-cb0d97abc56b",
+              "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+              "iteration": 2,
+              "original_text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns [calc_ids: 47d6125e-13b5-4086-9460-ba7315e216cd, d91c8d9b-4362-4ce6-9580-bada13ab7728], necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh them against the company's competitive advantages. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+              "revised_text": "Given the evidence, the overall stance is Cautious. While Apple's strong profitability margins are positive indicators [calc_ids: 6d264db3-d9cd-475b-8755-dd0fe46ad9d2, bc5b1b56-60d7-4314-a837-b263a71efb32], the significant financial risks, including high debt and liquidity concerns [calc_ids: 47d6125e-13b5-4086-9460-ba7315e216cd, d91c8d9b-4362-4ce6-9580-bada13ab7728], necessitate careful monitoring. The outlook is tempered by these uncertainties, and investors should weigh the risks against the supported financial metrics. No returns or outcomes are guaranteed, and the recommendation is based solely on the verified data provided.",
+              "issues_addressed": [
+                "afcb5e11-b71f-4e64-9dd5-52466a16c9ef"
+              ],
+              "changes_summary": "Removed the unsupported claim about 'competitive advantages' as no evidence chunks support it, and rephrased to focus on supported profitability margins and financial risks, maintaining the cautious stance and professional tone.",
+              "revised_at": "2026-03-11T06:17:19.280488"
+            }
+          ],
+          "iteration": 2
+        }
+      ],
+      "verification_status": "unresolved",
+      "unresolved_issues": [
+        {
+          "issue_id": "35319f1b-8c30-47f8-baaa-0679bd898009",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+          "offending_span": "indicating resilience in its core hardware and services segments",
+          "explanation": "The cited chunks show total revenue growth but do not provide evidence for performance or resilience in specific segments such as hardware and services. This claim is an inference not directly supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "dd8b34d6-5e67-4c41-ae10-931a81243c38",
+            "0000211d-5387-466f-9b23-1018bee8b516",
+            "5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide cited evidence for segment-specific revenue or profitability data to support the claim, or rephrase to state that overall revenue growth suggests general resilience without specifying segments."
+        },
+        {
+          "issue_id": "f8e28118-6492-41a8-a4d9-bca3307609d5",
+          "issue_type": "numerical_error",
+          "severity": "minor",
+          "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+          "offending_span": "$34.6 billion",
+          "explanation": "The cited chunk shows R&D expenses of $34.55 billion, while the paragraph states $34.6 billion. This is a slight discrepancy, though minor.",
+          "relevant_chunk_ids": [
+            "17a0253c-0905-49d0-8824-7bbe954c42b9"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Correct to $34.55 billion or add a note indicating rounding to one decimal place."
+        },
+        {
+          "issue_id": "7f135f0b-c440-4923-bc36-0236179102fa",
+          "issue_type": "unsupported_claim",
+          "severity": "critical",
+          "paragraph_id": "7bdd471b-a5dd-45a3-ba53-d9782cdcd1ba",
+          "offending_span": null,
+          "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"fail\",\n  \"issues\": [\n    {\n      \"issue_type\": \"citation_mismatch\",\n      \"severity\": \"major\",\n      \"offending_span\": \"consistent revenue growth from $383.3 billion in FY2023 to $416.2",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Re-run the checker."
+        }
+      ]
+    }
+  ],
+  "evidence_appendix": [
+    {
+      "chunk_id": "802b163e-339a-479f-89f1-0f413e6965ac",
+      "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+      "source_type": "company_profile",
+      "text": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "metadata": {
+        "ticker": "AAPL",
+        "field": "overview"
+      },
+      "period": null,
+      "field_name": "overview",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "64655618-4802-430d-a49a-497ee73beda7",
+      "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+      "source_type": "company_profile",
+      "text": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+      "metadata": {
+        "ticker": "AAPL",
+        "field": "description"
+      },
+      "period": null,
+      "field_name": "description",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "5ad6f1fe-dd80-4d83-a63a-2d84a1e38ff7",
+      "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+      "source_type": "income_statement",
+      "text": "AAPL Revenue for FY: $416,161,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "revenue"
+      },
+      "period": "FY",
+      "field_name": "revenue",
+      "numeric_value": 416161000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "604a8df0-6864-4e3f-b2bb-5d8e5b0128c0",
+      "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+      "source_type": "income_statement",
+      "text": "AAPL Net Income for FY: $112,010,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "netIncome"
+      },
+      "period": "FY",
+      "field_name": "netIncome",
+      "numeric_value": 112010000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "17a0253c-0905-49d0-8824-7bbe954c42b9",
+      "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+      "source_type": "income_statement",
+      "text": "AAPL R&D Expenses for FY: $34,550,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "FY",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 34550000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "0000211d-5387-466f-9b23-1018bee8b516",
+      "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+      "source_type": "income_statement",
+      "text": "AAPL Revenue for FY: $391,035,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "revenue"
+      },
+      "period": "FY",
+      "field_name": "revenue",
+      "numeric_value": 391035000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "dd8b34d6-5e67-4c41-ae10-931a81243c38",
+      "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+      "source_type": "income_statement",
+      "text": "AAPL Revenue for FY: $383,285,000,000",
+      "metadata": {
+        "ticker": "AAPL",
+        "period": "FY",
+        "field": "revenue"
+      },
+      "period": "FY",
+      "field_name": "revenue",
+      "numeric_value": 383285000000.0,
+      "unit": "USD"
+    }
+  ],
+  "calculation_appendix": [
+    {
+      "calc_id": "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 170782000000.0,
+        "denominator": 394328000000.0
+      },
+      "result": 0.43309630561360085,
+      "formula_description": "170782000000.0 / 394328000000.0 = 0.4331 (43.31%)",
+      "description": "AAPL Gross Margin (FY)",
+      "error": null
+    },
+    {
+      "calc_id": "bc5b1b56-60d7-4314-a837-b263a71efb32",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 119437000000.0,
+        "denominator": 394328000000.0
+      },
+      "result": 0.30288744395528594,
+      "formula_description": "119437000000.0 / 394328000000.0 = 0.3029 (30.29%)",
+      "description": "AAPL Operating Margin (FY)",
+      "error": null
+    },
+    {
+      "calc_id": "2b590f54-038e-4a15-81d9-b87d8c657363",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 99803000000.0,
+        "denominator": 394328000000.0
+      },
+      "result": 0.2530964070519973,
+      "formula_description": "99803000000.0 / 394328000000.0 = 0.2531 (25.31%)",
+      "description": "AAPL Net Margin (FY)",
+      "error": null
+    },
+    {
+      "calc_id": "f655a70b-f8d1-43da-b827-1b450ac6f380",
+      "operation": "rd_intensity",
+      "inputs": {
+        "rd_expenses": 26251000000.0,
+        "revenue": 394328000000.0
+      },
+      "result": 0.06657148363798665,
+      "formula_description": "R&D (26251000000.0) / revenue (394328000000.0) = 0.0666 (6.66%)",
+      "description": "AAPL R&D Intensity (FY)",
+      "error": null
+    },
+    {
+      "calc_id": "d91c8d9b-4362-4ce6-9580-bada13ab7728",
+      "operation": "current_ratio",
+      "inputs": {
+        "current_assets": 135405000000.0,
+        "current_liabilities": 153982000000.0
+      },
+      "result": 0.8793560286267226,
+      "formula_description": "current_assets (135405000000.0) / current_liabilities (153982000000.0) = 0.88",
+      "description": "AAPL Current Ratio (FY)",
+      "error": null
+    },
+    {
+      "calc_id": "47d6125e-13b5-4086-9460-ba7315e216cd",
+      "operation": "debt_to_equity",
+      "inputs": {
+        "total_debt": 132480000000.0,
+        "equity": 50672000000.0
+      },
+      "result": 2.6144616356173036,
+      "formula_description": "total_debt (132480000000.0) / equity (50672000000.0) = 2.61",
+      "description": "AAPL Debt-to-Equity (FY)",
+      "error": null
+    },
+    {
+      "calc_id": "1b676e24-48f9-4602-a9a2-5b03b4b8617f",
+      "operation": "fcf_margin",
+      "inputs": {
+        "free_cash_flow": 111443000000.0,
+        "revenue": 394328000000.0
+      },
+      "result": 0.2826149804223895,
+      "formula_description": "FCF (111443000000.0) / revenue (394328000000.0) = 0.2826 (28.26%)",
+      "description": "AAPL FCF Margin (FY)",
+      "error": null
+    }
+  ],
+  "generated_at": "2026-03-11T06:17:52.455366",
+  "overall_status": "unresolved",
+  "warnings": [
+    "Some paragraphs could not be fully verified within the allowed iteration limit. These are marked 'unresolved' in the report."
+  ]
+}

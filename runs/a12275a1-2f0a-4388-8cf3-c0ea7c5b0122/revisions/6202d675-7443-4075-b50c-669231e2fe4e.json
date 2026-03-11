@@ -1,0 +1,13 @@
+{
+  "revision_id": "6202d675-7443-4075-b50c-669231e2fe4e",
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "iteration": 1,
+  "original_text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog driven by OpenAI, highlighting the intensifying race for AI dominance that may pressure Apple's strategic investments. Commentary suggests Apple is shifting towards a services-focused model similar to Microsoft's evolution, emphasizing the importance of recurring revenue streams as the iPhone matures.",
+  "revised_text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog, highlighting the intensifying race for AI dominance.",
+  "issues_addressed": [
+    "743dd40c-4b26-49cb-8b1d-6d89ffd3a1d3",
+    "1016bbe0-1d1f-4b58-82af-c392711bc12b"
+  ],
+  "changes_summary": "Removed 'driven by OpenAI' to correct citation mismatch as the evidence does not attribute the backlog to OpenAI. Removed 'that may pressure Apple's strategic investments' to address unsupported claim, as no evidence links Microsoft's actions to pressure on Apple. Omitted the commentary on Apple's strategic shift to ensure all claims are supported by cited evidence.",
+  "revised_at": "2026-03-11T11:22:42.598264"
+}

@@ -1,0 +1,31 @@
+{
+  "verdict_id": "97f367b2-ebc7-4afe-a750-126c4c27d45d",
+  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "49614b78-153f-4bfc-a60c-ba95a3a7eefa",
+      "issue_type": "internal_inconsistency",
+      "severity": "major",
+      "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+      "offending_span": "financial health concerns",
+      "explanation": "The paragraph highlights financial health concerns with high debt-to-equity and current ratios, but previously verified facts in the 'Business & Competitive Analysis' section state that 'Apple demonstrates strong competitive positioning through high profitability and financial health', creating a contradiction.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise the paragraph to align with the verified context, such as by acknowledging overall financial health while noting specific risk indicators, or clarify the context of the risk assessment."
+    },
+    {
+      "issue_id": "c4eb41ce-3895-4d6b-a545-488599ee7148",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+      "offending_span": "the absence of detailed risk analysis in the provided evidence",
+      "explanation": "This claim is not supported by any cited evidence chunk or calculation result. The only cited chunk (ID: 64655618-4802-430d-a49a-497ee73beda7) describes Apple's business focus, not the presence or absence of risk analysis in the evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either remove this claim or cite specific evidence that demonstrates the absence of detailed risk analysis, if available in the provided chunks."
+    }
+  ],
+  "checked_at": "2026-03-11T06:09:37.674810",
+  "iteration": 1
+}

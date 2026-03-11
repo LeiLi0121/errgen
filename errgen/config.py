@@ -50,6 +50,13 @@ class Config:
     NEWSAPI_BASE_URL: str = "https://newsapi.org/v2"
 
     # ------------------------------------------------------------------
+    # Finnhub (company news, optional)
+    # Register free at https://finnhub.io/ – 60 calls/min on free tier
+    # ------------------------------------------------------------------
+    FINNHUB_API_KEY: str = os.environ.get("FINNHUB_API_KEY", "")
+    FINNHUB_BASE_URL: str = os.environ.get("FINNHUB_BASE_URL", "https://finnhub.io/api/v1")
+
+    # ------------------------------------------------------------------
     # Pipeline tuning
     # ------------------------------------------------------------------
     # Maximum checker→reviser iterations before marking as unresolved
@@ -120,6 +127,7 @@ class Config:
             "openai_fast_model": cls.OPENAI_FAST_MODEL,
             "fmp_base_url": cls.FMP_BASE_URL,
             "newsapi_base_url": cls.NEWSAPI_BASE_URL,
+            "finnhub_base_url": cls.FINNHUB_BASE_URL,
             "max_revision_iterations": cls.MAX_REVISION_ITERATIONS,
             "max_news_articles": cls.MAX_NEWS_ARTICLES,
             "max_financial_periods": cls.MAX_FINANCIAL_PERIODS,

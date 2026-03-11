@@ -1,0 +1,1410 @@
+[
+  {
+    "chunk_id": "1b30bba0-1e7a-4659-a782-60becafa93b8",
+    "source_id": "a65247de-1134-4bfb-9aed-0ed846aec5a8",
+    "source_type": "company_profile",
+    "text": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+    "metadata": {
+      "ticker": "AAPL",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "72083adf-7837-491d-ab17-77982ed2fb8a",
+    "source_id": "a65247de-1134-4bfb-9aed-0ed846aec5a8",
+    "source_type": "company_profile",
+    "text": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+    "metadata": {
+      "ticker": "AAPL",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2baa3c20-cb27-40d8-b954-e04374a4efe3",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "Income Statement – AAPL | Period: FY | Date: 2025-09-27\n  Revenue:            $416,161,000,000\n  Gross Profit:       $195,201,000,000 (margin N/A)\n  Operating Income:   $133,050,000,000 (margin N/A)\n  Net Income:         $112,010,000,000 (margin N/A)\n  EBITDA:             $144,427,000,000\n  EPS:                7.49\n  R&D Expenses:       $34,550,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2025-09-27"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "042a98d7-48cd-4939-9311-18d9f9397020",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Revenue for FY: $416,161,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 416161000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "40dced96-502c-4c05-8349-64c0d1b53258",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Gross Profit for FY: $195,201,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 195201000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c3733a5c-b02c-4831-8f8c-27f4d0b6700e",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Operating Income for FY: $133,050,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 133050000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7c5bf47a-c1fc-4789-9727-9d8150d4e742",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Net Income for FY: $112,010,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 112010000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "61914d44-44d7-44f6-a202-0a7926e1ac5f",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EBITDA for FY: $144,427,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 144427000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "99a02b54-7619-4318-adb1-cb872659842c",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EPS (Diluted) for FY: $7",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 7.49,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9b052c9f-8a31-4e4a-9ce1-f96aae25fd4c",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL R&D Expenses for FY: $34,550,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 34550000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "db67e61c-066a-4c0e-9a62-8fc41d528e48",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "Income Statement – AAPL | Period: FY | Date: 2024-09-28\n  Revenue:            $391,035,000,000\n  Gross Profit:       $180,683,000,000 (margin N/A)\n  Operating Income:   $123,216,000,000 (margin N/A)\n  Net Income:         $93,736,000,000 (margin N/A)\n  EBITDA:             $134,930,000,000\n  EPS:                6.11\n  R&D Expenses:       $31,370,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2024-09-28"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "c14b0990-8cf6-42b8-9278-a069ca488374",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Revenue for FY: $391,035,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 391035000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "99ec7420-7bbd-4295-a461-3761d76b19ec",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Gross Profit for FY: $180,683,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 180683000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "48086977-1f74-4188-b63b-b3ae8941c10c",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Operating Income for FY: $123,216,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 123216000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e03c52cf-10fc-4ffe-a108-b75d50e72cdb",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Net Income for FY: $93,736,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 93736000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6cef7dbc-2f91-4ad5-a181-33a66a7113c2",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EBITDA for FY: $134,930,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 134930000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "60db3406-af63-4de9-9055-e96665dd308c",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EPS (Diluted) for FY: $6",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 6.11,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c0b114c1-fd1f-4a66-85a5-d14486368db7",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL R&D Expenses for FY: $31,370,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 31370000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "240efca9-564c-4315-8d2e-14b52828d1aa",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "Income Statement – AAPL | Period: FY | Date: 2023-09-30\n  Revenue:            $383,285,000,000\n  Gross Profit:       $169,148,000,000 (margin N/A)\n  Operating Income:   $114,301,000,000 (margin N/A)\n  Net Income:         $96,995,000,000 (margin N/A)\n  EBITDA:             $129,188,000,000\n  EPS:                6.16\n  R&D Expenses:       $29,915,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2023-09-30"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bc5edb8b-892c-4e3a-b127-87feb3197657",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Revenue for FY: $383,285,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 383285000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c927ede8-f20f-4816-a7d6-ca241cdb75c2",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Gross Profit for FY: $169,148,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 169148000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "75c9a1fb-ef43-4df4-9e3a-f14d8fd65f11",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Operating Income for FY: $114,301,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 114301000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fff4b5a6-33e6-4044-ba27-a79fa889772c",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Net Income for FY: $96,995,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 96995000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e3a1942a-d726-4ae8-bc23-15b9109ebd53",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EBITDA for FY: $129,188,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 129188000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "67b8956f-f468-4483-ad4f-d83068e8e89f",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EPS (Diluted) for FY: $6",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 6.16,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ae720cdd-cd5e-412c-ad4d-90436c9a76af",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL R&D Expenses for FY: $29,915,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 29915000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "601ed618-ef0c-4a1c-bb0a-f757997dfe40",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "Income Statement – AAPL | Period: FY | Date: 2022-09-24\n  Revenue:            $394,328,000,000\n  Gross Profit:       $170,782,000,000 (margin N/A)\n  Operating Income:   $119,437,000,000 (margin N/A)\n  Net Income:         $99,803,000,000 (margin N/A)\n  EBITDA:             $133,138,000,000\n  EPS:                6.15\n  R&D Expenses:       $26,251,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2022-09-24"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "444c8f40-6d37-4115-a6f6-392e9e967cd9",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Revenue for FY: $394,328,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 394328000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1ec84dfa-b84d-42be-ab0d-83b1063ca915",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Gross Profit for FY: $170,782,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 170782000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "32f24fee-34ec-4cfe-984f-fe8231437901",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Operating Income for FY: $119,437,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 119437000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7ba3818b-8146-4809-9c8b-7b551d0fa987",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL Net Income for FY: $99,803,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 99803000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "20a783cb-2d36-4f81-8c2e-85605665a81b",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EBITDA for FY: $133,138,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 133138000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ae0bde68-0102-4982-bde9-c1254cb04295",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL EPS (Diluted) for FY: $6",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 6.15,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "533acd61-4aca-4ff8-b1ed-0dca04cf0e72",
+    "source_id": "b688d5fb-23a6-47c7-b749-5c089bf13a97",
+    "source_type": "income_statement",
+    "text": "AAPL R&D Expenses for FY: $26,251,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 26251000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1e6671ab-c67a-482f-b5ee-4b44edcc3658",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AAPL | Period: FY | Date: 2025-09-27\n  Total Assets:              $359,241,000,000\n  Total Liabilities:         $285,508,000,000\n  Total Stockholders' Equity:$73,733,000,000\n  Cash & Equivalents:        $35,934,000,000\n  Short-Term Investments:    $18,763,000,000\n  Total Debt:                $112,377,000,000\n  Long-Term Debt:            $78,328,000,000\n  Current Assets:            $147,957,000,000\n  Current Liabilities:       $165,631,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2025-09-27"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cdf74da7-b914-4067-b1f0-9b4755c63af8",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Assets for FY: $359,241,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 359241000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "adc448da-e13a-43e1-9f6c-c1fe24490fba",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Liabilities for FY: $285,508,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 285508000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a049e04d-528e-4e07-b470-27f264947ab8",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Stockholders' Equity for FY: $73,733,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 73733000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "94a78002-4145-4aad-a956-0c103dca8d85",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Cash & Equivalents for FY: $35,934,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 35934000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ca457c4d-1789-4636-814f-6ebc9fd9a80b",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Debt for FY: $112,377,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 112377000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6e7cb268-b04b-4cbf-a0be-90da9aa3c3a8",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Long-Term Debt for FY: $78,328,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 78328000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "482bf5df-ff19-4f33-9ce2-3c76f2e54279",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Assets for FY: $147,957,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 147957000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b452ac41-6d50-4184-bfbe-86a1f6c59d61",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Liabilities for FY: $165,631,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 165631000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9019b57f-cef1-4704-8c30-b2dafe85dc3b",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AAPL | Period: FY | Date: 2024-09-28\n  Total Assets:              $364,980,000,000\n  Total Liabilities:         $308,030,000,000\n  Total Stockholders' Equity:$56,950,000,000\n  Cash & Equivalents:        $29,943,000,000\n  Short-Term Investments:    $35,228,000,000\n  Total Debt:                $119,059,000,000\n  Long-Term Debt:            $85,750,000,000\n  Current Assets:            $152,987,000,000\n  Current Liabilities:       $176,392,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2024-09-28"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4f1f8b30-3135-40f7-bc09-e99dafec1689",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Assets for FY: $364,980,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 364980000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c981b4ca-c354-4476-af3b-e4527a0da4d5",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Liabilities for FY: $308,030,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 308030000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c61b0304-2fdd-4f44-ae90-5b7f1a478c1d",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Stockholders' Equity for FY: $56,950,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 56950000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5dc3293b-d056-49f0-be53-9fe82c62148a",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Cash & Equivalents for FY: $29,943,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 29943000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7ef2f61a-5509-4ed3-b64b-d02b5c52033c",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Debt for FY: $119,059,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 119059000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0e4cb92a-f8aa-4e8d-9c58-73cb91d8ff72",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Long-Term Debt for FY: $85,750,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 85750000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "12bdbf0c-2bf2-49f6-9c9c-292737e52396",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Assets for FY: $152,987,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 152987000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5eabf81f-49e5-42c7-a6df-1a4547cbd817",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Liabilities for FY: $176,392,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 176392000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "17f5350d-d08c-46e7-9bcc-5f269d6aad50",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AAPL | Period: FY | Date: 2023-09-30\n  Total Assets:              $352,583,000,000\n  Total Liabilities:         $290,437,000,000\n  Total Stockholders' Equity:$62,146,000,000\n  Cash & Equivalents:        $29,965,000,000\n  Short-Term Investments:    $31,590,000,000\n  Total Debt:                $123,930,000,000\n  Long-Term Debt:            $95,281,000,000\n  Current Assets:            $143,566,000,000\n  Current Liabilities:       $145,308,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2023-09-30"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "84b9dd85-c631-4d3f-bcc7-7a93bd6c99a1",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Assets for FY: $352,583,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 352583000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5d83450f-bb8f-4353-9b78-656e392aec8f",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Liabilities for FY: $290,437,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 290437000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "198a9707-8bd6-4a7a-a792-d08b07adf3fb",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Stockholders' Equity for FY: $62,146,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 62146000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "23c14f33-095c-4568-8e90-b2dda771f4bb",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Cash & Equivalents for FY: $29,965,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 29965000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "68d93cf6-ebc8-4e5d-9ed2-16620fdae46d",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Debt for FY: $123,930,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 123930000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "16266aff-310f-4b12-875a-0f981bd440e6",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Long-Term Debt for FY: $95,281,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 95281000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ab442b63-b89e-4b5b-b85c-b66f9a4de201",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Assets for FY: $143,566,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 143566000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c3120499-8bdd-445d-82c9-05cda252b234",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Liabilities for FY: $145,308,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 145308000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2c8fe55e-77f1-4b84-bf3d-b2831e4eda54",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AAPL | Period: FY | Date: 2022-09-24\n  Total Assets:              $352,755,000,000\n  Total Liabilities:         $302,083,000,000\n  Total Stockholders' Equity:$50,672,000,000\n  Cash & Equivalents:        $23,646,000,000\n  Short-Term Investments:    $24,658,000,000\n  Total Debt:                $132,480,000,000\n  Long-Term Debt:            $98,959,000,000\n  Current Assets:            $135,405,000,000\n  Current Liabilities:       $153,982,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2022-09-24"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "401d801c-ae48-4c38-9793-c035c53758b0",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Assets for FY: $352,755,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 352755000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "466bbba4-0d73-4e90-a3e6-d21211064188",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Liabilities for FY: $302,083,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 302083000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "384fdb22-be1f-44bd-8fd6-db69ff9c2f27",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Stockholders' Equity for FY: $50,672,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 50672000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d57f5b77-f1d3-4b52-b3bd-51ed954f1a3f",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Cash & Equivalents for FY: $23,646,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 23646000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4a44f25c-c780-44bb-b9a8-3a56024efd35",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Debt for FY: $132,480,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 132480000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3cce9ec2-d7c0-4b9a-8449-b0162a722e5e",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Long-Term Debt for FY: $98,959,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 98959000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "db757ae7-8a44-4ebb-8a40-785683535bb0",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Assets for FY: $135,405,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 135405000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5ad89cb7-44ff-4eeb-99a2-57e40e7609d5",
+    "source_id": "f9dccb7b-8697-4aaa-b424-f7ed24567f65",
+    "source_type": "balance_sheet",
+    "text": "AAPL Total Current Liabilities for FY: $153,982,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 153982000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6ddeb084-ca9f-460f-bef0-1ba79e78152f",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AAPL | Period: FY | Date: 2025-09-27\n  Operating Cash Flow:     $111,482,000,000\n  Capital Expenditure:     $-12,715,000,000\n  Free Cash Flow:          $98,767,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-90,711,000,000\n  Depreciation & Amort.:   $11,698,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2025-09-27"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "da282a69-adab-4863-ae51-1c77f50c27bf",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Operating Cash Flow for FY: $111,482,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 111482000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "77040d85-da86-4d50-b9ef-51fbdb515519",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Capital Expenditure for FY: $-12,715,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -12715000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "19d1ac6e-613b-4220-a6f4-f85201dcfb9c",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Free Cash Flow for FY: $98,767,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 98767000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a35f7107-28ca-408a-8457-798ea9cc4705",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Stock Buybacks for FY: $-90,711,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -90711000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b18684f8-fda0-4e9e-92a2-f7f3b3cfe206",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL D&A for FY: $11,698,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 11698000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "444a0b16-1d7b-4ed0-935b-6d5290944d69",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AAPL | Period: FY | Date: 2024-09-28\n  Operating Cash Flow:     $118,254,000,000\n  Capital Expenditure:     $-9,447,000,000\n  Free Cash Flow:          $108,807,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-94,949,000,000\n  Depreciation & Amort.:   $11,445,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2024-09-28"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6d6343d2-0e87-471b-9970-d5887b6a1ea5",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Operating Cash Flow for FY: $118,254,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 118254000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d7ebacd8-999c-40fb-9af2-addbc8834a31",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Capital Expenditure for FY: $-9,447,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -9447000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "12601955-abd7-48c0-8814-90565cc48edf",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Free Cash Flow for FY: $108,807,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 108807000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a5060209-37ba-45bb-88a2-e6e0e4e2a8a4",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Stock Buybacks for FY: $-94,949,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -94949000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "db15e9b0-8d49-4f83-8cc9-f399cc1b0c5a",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL D&A for FY: $11,445,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 11445000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2706b1f8-53c2-40c4-9a39-4766f49bd72d",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AAPL | Period: FY | Date: 2023-09-30\n  Operating Cash Flow:     $110,543,000,000\n  Capital Expenditure:     $-10,959,000,000\n  Free Cash Flow:          $99,584,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-77,550,000,000\n  Depreciation & Amort.:   $11,519,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2023-09-30"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "95474a8e-a3c4-4b22-b51f-94ef7016f037",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Operating Cash Flow for FY: $110,543,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 110543000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "52753717-a374-47c4-89e4-79ee70258090",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Capital Expenditure for FY: $-10,959,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -10959000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ffd85137-be19-4646-8034-ba402d18734e",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Free Cash Flow for FY: $99,584,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 99584000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ad816c99-e4c4-4cfb-a702-b830980e1ed5",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Stock Buybacks for FY: $-77,550,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -77550000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c20418f7-1a22-49dd-94a9-291ecb21a030",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL D&A for FY: $11,519,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 11519000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "48bdbf4d-7a87-4d27-a1d1-5b52952c903f",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AAPL | Period: FY | Date: 2022-09-24\n  Operating Cash Flow:     $122,151,000,000\n  Capital Expenditure:     $-10,708,000,000\n  Free Cash Flow:          $111,443,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-89,402,000,000\n  Depreciation & Amort.:   $11,104,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "date": "2022-09-24"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cfc9922f-e2e1-4b04-875f-8f89342b731f",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Operating Cash Flow for FY: $122,151,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 122151000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "30a9e3b9-1846-4a7a-8978-8c0df9903121",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Capital Expenditure for FY: $-10,708,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -10708000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a5575a6d-a2be-499e-a1ed-3c526edb0fab",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Free Cash Flow for FY: $111,443,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 111443000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "40427adc-0d6b-4569-8ca0-f99926ab48d2",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL Stock Buybacks for FY: $-89,402,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -89402000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4afc899e-7046-473b-a4d2-3b2c7a9b7daf",
+    "source_id": "8775e2c1-65d7-4889-b22e-cc1967b8782c",
+    "source_type": "cash_flow",
+    "text": "AAPL D&A for FY: $11,104,000,000",
+    "metadata": {
+      "ticker": "AAPL",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 11104000000.0,
+    "unit": "USD"
+  }
+]

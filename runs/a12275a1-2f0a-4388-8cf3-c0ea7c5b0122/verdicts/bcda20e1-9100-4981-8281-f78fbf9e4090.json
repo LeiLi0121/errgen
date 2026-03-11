@@ -1,0 +1,35 @@
+{
+  "verdict_id": "bcda20e1-9100-4981-8281-f78fbf9e4090",
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "743dd40c-4b26-49cb-8b1d-6d89ffd3a1d3",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+      "offending_span": "a significant backlog driven by OpenAI",
+      "explanation": "The cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 mentions a backlog in Microsoft's cloud business but does not attribute it to OpenAI; it only states the backlog amount without specifying the driver.",
+      "relevant_chunk_ids": [
+        "fca92e7e-d964-44c7-9b4b-004d6f581931"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove 'driven by OpenAI' or cite additional evidence that explicitly connects Microsoft's backlog to OpenAI."
+    },
+    {
+      "issue_id": "1016bbe0-1d1f-4b58-82af-c392711bc12b",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+      "offending_span": "that may pressure Apple's strategic investments",
+      "explanation": "No cited evidence supports the claim that Microsoft's AI spending or backlog pressures Apple's strategic investments; the cited chunk fca92e7e-d964-44c7-9b4b-004d6f581931 only discusses Microsoft's own performance and does not mention Apple or its investments.",
+      "relevant_chunk_ids": [
+        "fca92e7e-d964-44c7-9b4b-004d6f581931"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove this speculative statement or provide evidence linking Microsoft's actions to pressure on Apple's investments."
+    }
+  ],
+  "checked_at": "2026-03-11T11:21:13.187349",
+  "iteration": 0
+}

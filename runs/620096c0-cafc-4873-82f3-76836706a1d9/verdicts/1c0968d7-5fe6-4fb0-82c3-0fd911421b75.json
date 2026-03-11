@@ -1,0 +1,20 @@
+{
+  "verdict_id": "1c0968d7-5fe6-4fb0-82c3-0fd911421b75",
+  "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+  "status": "unresolved",
+  "issues": [
+    {
+      "issue_id": "d62487f7-b3aa-4d63-a11d-e7acdbeed771",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "7eeb38ff-1387-44a7-b37b-f5da8dcefac0",
+      "offending_span": null,
+      "explanation": "Checker LLM call failed: LLM returned non-JSON content: {\n  \"status\": \"fail\",\n  \"issues\": [\n    {\n      \"issue_type\": \"unsupported_claim\",\n      \"severity\": \"major\",\n      \"offending_span\": \"The provided evidence does not specify key growth drivers such as",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Re-run the checker."
+    }
+  ],
+  "checked_at": "2026-03-11T05:54:20.915792",
+  "iteration": 1
+}

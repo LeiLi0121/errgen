@@ -1,0 +1,231 @@
+"""
+verification_agent node  ·  revise_sections node  ·  route_after_verification
+
+Implements the iterative evidence-grounding loop:
+
+    analysis_agent
+         │
+         ▼
+    verification_agent  ──── all PASS/UNRESOLVED ────► prediction_agent
+         ▲                        │
+         │                        │ any FAIL?
+         │                        ▼
+         └──────────────── revise_sections
+                           (increments revision_count;
+                            marks as UNRESOLVED at max iterations)
+
+Termination guarantee:
+  revise_sections marks any paragraph still at FAIL as UNRESOLVED once
+  revision_count >= MAX_REVISION_ITERATIONS.  verification_agent then
+  finds no FAIL paragraphs and the conditional edge exits the loop.
+"""
+
+from __future__ import annotations
+
+import logging
+
+from errgen.config import Config
+from errgen.models import (
+    CalculationResult,
+    CheckerVerdict,
+    EvidenceChunk,
+    IssueSeverity,
+    ReportSection,
+    RevisionRecord,
+    VerificationStatus,
+)
+from errgen.verification import CheckerAgent, ReviserAgent
+
+logger = logging.getLogger(__name__)
+
+
+# ---------------------------------------------------------------------------
+# verification_agent
+# ---------------------------------------------------------------------------
+
+def verification_agent(state: dict) -> dict:
+    """
+    Run CheckerAgent on every paragraph that is currently at FAIL status.
+
+    Paragraphs already at PASS or UNRESOLVED are skipped.
+    Returns the updated sections list (overwrite) and new checker verdicts
+    (appended).
+    """
+    sections: list[ReportSection] = state["analysis_sections"]
+    all_chunks: list[EvidenceChunk] = state["evidence_chunks"]
+    calc_results: list[CalculationResult] = state["calculations"]
+    as_of: str | None = state.get("as_of_date")
+    revision_count: int = state.get("revision_count", 0)
+
+    checker = CheckerAgent()
+    new_verdicts: list[CheckerVerdict] = []
+
+    # Accumulate verified text for cross-paragraph consistency checks
+    verified_context_parts: list[str] = []
+
+    for section in sections:
+        for para in section.paragraphs:
+            if para.verification_status != VerificationStatus.FAIL:
+                if para.verification_status == VerificationStatus.PASS:
+                    verified_context_parts.append(
+                        f"[{para.section_name}] {para.text[:200]}"
+                    )
+                continue
+
+            verdict = checker.check(
+                paragraph=para,
+                chunks=all_chunks,
+                calc_results=calc_results,
+                iteration=revision_count,
+                as_of_date=as_of,
+                verified_context="\n".join(verified_context_parts),
+            )
+            para.checker_verdicts.append(verdict)
+            new_verdicts.append(verdict)
+
+            if verdict.status == VerificationStatus.PASS:
+                para.verification_status = VerificationStatus.PASS
+                verified_context_parts.append(
+                    f"[{para.section_name}] {para.text[:200]}"
+                )
+                logger.info(
+                    "verification_agent: paragraph %s PASSED (iter %d)",
+                    para.paragraph_id, revision_count,
+                )
+            else:
+                logger.info(
+                    "verification_agent: paragraph %s FAILED "
+                    "(iter %d, %d issues)",
+                    para.paragraph_id, revision_count, len(verdict.issues),
+                )
+
+    # Recompute section-level statuses
+    for section in sections:
+        _update_section_status(section)
+
+    return {
+        "analysis_sections": sections,
+        "checker_verdicts": new_verdicts,
+    }
+
+
+# ---------------------------------------------------------------------------
+# revise_sections
+# ---------------------------------------------------------------------------
+
+def revise_sections(state: dict) -> dict:
+    """
+    Revise every paragraph still at FAIL status.
+
+    If revision_count >= MAX_REVISION_ITERATIONS the paragraph is marked
+    UNRESOLVED instead of being revised, guaranteeing loop termination.
+    Increments revision_count.
+    """
+    sections: list[ReportSection] = state["analysis_sections"]
+    all_chunks: list[EvidenceChunk] = state["evidence_chunks"]
+    calc_results: list[CalculationResult] = state["calculations"]
+    revision_count: int = state.get("revision_count", 0)
+
+    reviser = ReviserAgent()
+    new_revisions: list[RevisionRecord] = []
+    max_iter = Config.MAX_REVISION_ITERATIONS
+
+    for section in sections:
+        for i, para in enumerate(section.paragraphs):
+            if para.verification_status != VerificationStatus.FAIL:
+                continue
+
+            if revision_count >= max_iter:
+                para.verification_status = VerificationStatus.UNRESOLVED
+                logger.warning(
+                    "revise_sections: paragraph %s marked UNRESOLVED "
+                    "after %d iterations",
+                    para.paragraph_id, revision_count,
+                )
+                continue
+
+            latest_verdict = (
+                para.checker_verdicts[-1] if para.checker_verdicts else None
+            )
+            if not latest_verdict:
+                continue
+
+            revised_para, revision_record = reviser.revise(
+                paragraph=para,
+                verdict=latest_verdict,
+                chunks=all_chunks,
+                calc_results=calc_results,
+                iteration=revision_count + 1,
+            )
+
+            # Replace the paragraph object in the section list
+            revised_para.revision_history = (
+                list(para.revision_history) + [revision_record]
+            )
+            revised_para.checker_verdicts = list(para.checker_verdicts)
+            section.paragraphs[i] = revised_para
+            new_revisions.append(revision_record)
+
+            logger.info(
+                "revise_sections: revised paragraph %s (iter %d → %d)",
+                para.paragraph_id, revision_count, revision_count + 1,
+            )
+
+    # Recompute section statuses after revisions
+    for section in sections:
+        _update_section_status(section)
+
+    return {
+        "analysis_sections": sections,
+        "revision_records": new_revisions,
+        "revision_count": revision_count + 1,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Conditional edge function
+# ---------------------------------------------------------------------------
+
+def route_after_verification(state: dict) -> str:
+    """
+    Routing function called after verification_agent.
+
+    Returns:
+      "revise_sections"   – if any paragraph is still at FAIL
+      "prediction_agent"  – if all paragraphs are PASS or UNRESOLVED
+    """
+    for section in state["analysis_sections"]:
+        for para in section.paragraphs:
+            if para.verification_status == VerificationStatus.FAIL:
+                return "revise_sections"
+    return "prediction_agent"
+
+
+# ---------------------------------------------------------------------------
+# Helper
+# ---------------------------------------------------------------------------
+
+def _update_section_status(section: ReportSection) -> None:
+    """Recompute section.verification_status from its paragraphs."""
+    if not section.paragraphs:
+        return
+
+    statuses = {p.verification_status for p in section.paragraphs}
+
+    if all(s == VerificationStatus.PASS for s in statuses):
+        section.verification_status = VerificationStatus.PASS
+        section.unresolved_issues = []
+    elif VerificationStatus.UNRESOLVED in statuses:
+        section.verification_status = VerificationStatus.UNRESOLVED
+        section.unresolved_issues = [
+            issue
+            for para in section.paragraphs
+            for verdict in para.checker_verdicts
+            for issue in verdict.issues
+            if (
+                para.verification_status == VerificationStatus.UNRESOLVED
+                and issue.severity in (IssueSeverity.CRITICAL, IssueSeverity.MAJOR)
+            )
+        ]
+    else:
+        section.verification_status = VerificationStatus.FAIL

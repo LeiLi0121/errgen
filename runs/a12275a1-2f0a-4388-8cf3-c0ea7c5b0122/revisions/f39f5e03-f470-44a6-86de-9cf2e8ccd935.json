@@ -1,0 +1,12 @@
+{
+  "revision_id": "f39f5e03-f470-44a6-86de-9cf2e8ccd935",
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "iteration": 2,
+  "original_text": "In the broader AI and competitive landscape, Microsoft's recent earnings reveal increased spending on artificial intelligence and a significant backlog, highlighting the intensifying race for AI dominance.",
+  "revised_text": "In the broader AI and competitive landscape, Apple Inc. has demonstrated increasing investment in research and development, with R&D expenses rising from $26.3 billion in FY 2022 to $34.6 billion in FY 2025, reflecting ongoing innovation efforts within the competitive technology sector.",
+  "issues_addressed": [
+    "c835dce4-5341-45bc-aab7-ffd02d219d7c"
+  ],
+  "changes_summary": "Removed unsupported claims about Microsoft's earnings and AI spending due to lack of evidence in available chunks, which only cover Apple Inc. Revised the paragraph to focus on Apple's increasing R&D expenses as supported by cited income statement chunks, maintaining a professional tone and ensuring all factual claims are evidence-based.",
+  "revised_at": "2026-03-11T11:28:47.815088"
+}

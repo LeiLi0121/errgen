@@ -1,0 +1,13 @@
+{
+  "revision_id": "6f78f7ac-c264-47b4-b6e2-a53db9c332c7",
+  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+  "iteration": 2,
+  "original_text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7], but the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+  "revised_text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+  "issues_addressed": [
+    "49614b78-153f-4bfc-a60c-ba95a3a7eefa",
+    "c4eb41ce-3895-4d6b-a545-488599ee7148"
+  ],
+  "changes_summary": "Removed the unsupported claim about absence of detailed risk analysis (Issue 2) and revised to acknowledge Apple's strong profitability based on evidence while highlighting specific financial risk indicators from debt-to-equity and current ratios, aligning with verified context to address internal inconsistency (Issue 1).",
+  "revised_at": "2026-03-11T06:10:35.820232"
+}

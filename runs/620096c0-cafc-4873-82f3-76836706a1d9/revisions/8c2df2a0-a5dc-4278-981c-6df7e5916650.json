@@ -1,0 +1,12 @@
+{
+  "revision_id": "8c2df2a0-a5dc-4278-981c-6df7e5916650",
+  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+  "iteration": 3,
+  "original_text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+  "revised_text": "Key risks and uncertainties must be acknowledged, with specific attention to financial metrics that indicate potential risks. Apple Inc. demonstrates strong profitability, as evidenced by its net income of $112,010,000,000 [chunk_id: 604a8df0-6864-4e3f-b2bb-5d8e5b0128c0], but it exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business includes consumer electronics sales and services such as AppleCare and cloud platforms [chunk_id: 64655618-4802-430d-a49a-497ee73beda7].",
+  "issues_addressed": [
+    "69a67883-02d4-46c2-bbde-ade667d549e9"
+  ],
+  "changes_summary": "Revised the description of Apple's business from 'focused on consumer electronics sales' to 'includes consumer electronics sales and services such as AppleCare and cloud platforms' to accurately reflect the evidence, addressing the major citation mismatch issue.",
+  "revised_at": "2026-03-11T06:12:33.501775"
+}

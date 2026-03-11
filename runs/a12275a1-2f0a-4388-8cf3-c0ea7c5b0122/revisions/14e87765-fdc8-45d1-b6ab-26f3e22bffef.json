@@ -1,0 +1,12 @@
+{
+  "revision_id": "14e87765-fdc8-45d1-b6ab-26f3e22bffef",
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "iteration": 3,
+  "original_text": "In the broader AI and competitive landscape, Apple Inc. has demonstrated increasing investment in research and development, with R&D expenses rising from $26.3 billion in FY 2022 to $34.6 billion in FY 2025, reflecting ongoing innovation efforts within the competitive technology sector.",
+  "revised_text": "Apple Inc. has increased its research and development investment, with R&D expenses rising from $26.251 billion in FY 2022 to $34.550 billion in FY 2025.",
+  "issues_addressed": [
+    "0696cb43-210d-4de2-a97c-32ffb1e5ce24"
+  ],
+  "changes_summary": "Removed unsupported claims about AI and competitive landscape as no evidence supports this context, and corrected R&D figures to exact values from evidence chunks to address the critical unsupported claim issue.",
+  "revised_at": "2026-03-11T11:34:42.061365"
+}

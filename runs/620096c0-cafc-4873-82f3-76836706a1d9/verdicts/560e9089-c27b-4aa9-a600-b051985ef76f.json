@@ -1,0 +1,20 @@
+{
+  "verdict_id": "560e9089-c27b-4aa9-a600-b051985ef76f",
+  "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "afcb5e11-b71f-4e64-9dd5-52466a16c9ef",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "96483055-6595-4c2a-b297-48d6469fb8b4",
+      "offending_span": "the company's competitive advantages",
+      "explanation": "The paragraph claims that Apple has competitive advantages, but no cited chunk or calculation supports this claim. The cited calculations only provide financial metrics (gross margin, operating margin, debt-to-equity, current ratio) and do not address or confirm competitive advantages.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Cite evidence chunks that demonstrate Apple's competitive advantages, such as those available in the Business & Competitive Analysis section (e.g., chunk IDs from the uncited list), or rephrase to avoid making unsupported claims, e.g., by stating that profitability margins may suggest competitive strengths without asserting advantages directly."
+    }
+  ],
+  "checked_at": "2026-03-11T06:16:34.937997",
+  "iteration": 1
+}

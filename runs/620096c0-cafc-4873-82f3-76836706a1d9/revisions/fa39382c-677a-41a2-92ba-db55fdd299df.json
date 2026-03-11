@@ -1,0 +1,13 @@
+{
+  "revision_id": "fa39382c-677a-41a2-92ba-db55fdd299df",
+  "paragraph_id": "693e0402-729b-468b-be47-783f95a41e6a",
+  "iteration": 1,
+  "original_text": "Apple Inc. generates revenue through a diversified business model centered on hardware products and services worldwide. The company designs, manufactures, and markets smartphones (iPhone), personal computers (Mac), tablets (iPad), wearables, and accessories, while also offering a suite of services including the App Store, subscription-based platforms such as Apple Music, Apple TV+, and Apple Arcade, and support services like AppleCare. According to the company description, distribution spans retail and online stores, direct sales, and third-party channels, serving consumers, small and mid-sized businesses, and various markets including education and enterprise globally.",
+  "revised_text": "Apple Inc. operates a business focused on hardware products and services globally. The company designs, manufactures, and markets smartphones (iPhone), personal computers (Mac), tablets (iPad), wearables, and accessories. It also offers services such as AppleCare support and cloud services, and operates platforms including the App Store.",
+  "issues_addressed": [
+    "79c00da0-dac7-4547-b38b-422187a35ded",
+    "533c086e-a4ef-4729-aa91-e22bb58f5b2c"
+  ],
+  "changes_summary": "Removed unsupported claims about specific subscription-based platforms (Apple Music, Apple TV+, Apple Arcade) and detailed distribution channels and market segments, as they were not evidenced. Retained and rephrased content based on available evidence, focusing on supported product lines and services from the cited chunk.",
+  "revised_at": "2026-03-11T05:49:30.286048"
+}

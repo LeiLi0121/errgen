@@ -1,0 +1,36 @@
+{
+  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's reliance on consumer electronics sales exposes it to economic downturns and intense competitive pressures, though the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "47d6125e-13b5-4086-9460-ba7315e216cd",
+    "d91c8d9b-4362-4ce6-9580-bada13ab7728"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "f95a4850-e5af-466a-9419-0054f487e81c",
+      "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "53523988-1b52-4ed8-85fc-0fee06675816",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+          "offending_span": "Apple's reliance on consumer electronics sales exposes it to economic downturns and intense competitive pressures",
+          "explanation": "This factual claim about Apple's business model and associated risks is not supported by any cited evidence chunk. The paragraph cites no chunk IDs, and the cited calculation results only provide financial ratios, not information on business reliance or market risks.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Cite relevant evidence chunks from the available list that discuss Apple's product sales, economic exposure, or competitive pressures, or remove this unsupported claim to ensure all factual assertions are backed by provided evidence."
+        }
+      ],
+      "checked_at": "2026-03-11T06:07:30.080525",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

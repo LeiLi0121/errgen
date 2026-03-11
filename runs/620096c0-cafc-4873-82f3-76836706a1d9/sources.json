@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "661ec7e4-e5f7-4340-9771-3d6f41e9cccf",
+    "source_type": "company_profile",
+    "url": "https://financialmodelingprep.com/financial-summary/AAPL",
+    "api_source": "fmp",
+    "document_identifier": "fmp_profile_AAPL",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T05:44:16.957918",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "profile",
+      "symbol": "AAPL"
+    }
+  },
+  {
+    "source_id": "af3fc960-0a2f-492b-a53a-e4352614e916",
+    "source_type": "income_statement",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_income_AAPL_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T05:44:17.977144",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "income-statement",
+      "symbol": "AAPL",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "6da82043-5071-4544-a95c-5f2b90e6c1fc",
+    "source_type": "balance_sheet",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_balance_AAPL_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T05:44:19.062397",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "balance-sheet-statement",
+      "symbol": "AAPL",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "1f21018a-d4f8-46ca-a443-f843f689af42",
+    "source_type": "cash_flow",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_cashflow_AAPL_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T05:44:20.094322",
+    "ticker": "AAPL",
+    "metadata": {
+      "endpoint": "cash-flow-statement",
+      "symbol": "AAPL",
+      "period": "annual"
+    }
+  }
+]

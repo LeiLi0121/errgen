@@ -1,0 +1,12 @@
+{
+  "revision_id": "806dc40a-9c8b-4e2e-ba9d-fb701e0ddf06",
+  "paragraph_id": "d33a9961-bf33-4985-9ad8-d6c70fed3b4e",
+  "iteration": 1,
+  "original_text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's reliance on consumer electronics sales exposes it to economic downturns and intense competitive pressures, though the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+  "revised_text": "Key risks and uncertainties must be acknowledged, primarily centered on financial health concerns. The company exhibits a high debt-to-equity ratio of 2.61 [calc_id: 47d6125e-13b5-4086-9460-ba7315e216cd] and a current ratio of 0.88 [calc_id: d91c8d9b-4362-4ce6-9580-bada13ab7728], which could indicate potential liquidity constraints and elevated leverage risks. Additionally, Apple's business is focused on consumer electronics sales [chunk_id: 64655618-4802-430d-a49a-497ee73beda7], but the absence of detailed risk analysis in the provided evidence limits a full assessment of operational and market-specific threats.",
+  "issues_addressed": [
+    "53523988-1b52-4ed8-85fc-0fee06675816"
+  ],
+  "changes_summary": "Removed the unsupported claim about exposure to economic downturns and competitive pressures, as no evidence chunks supported it. Added a citation for Apple's business focus on consumer electronics sales using an available evidence chunk to support that factual assertion, while maintaining the financial risk analysis based on calculation results.",
+  "revised_at": "2026-03-11T06:08:27.661740"
+}

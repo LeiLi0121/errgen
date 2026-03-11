@@ -1,0 +1,304 @@
+[
+  {
+    "fact_id": "519ce8dd-8934-426e-93ea-07a846d1c6a7",
+    "chunk_ids": [
+      "69ef6659-88f8-4e21-ae6f-0ca94466ddaf"
+    ],
+    "fact_type": "revenue",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 394328000000.0,
+    "unit": "USD",
+    "description": "AAPL Revenue for FY: $394,328,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "20b16031-0b3e-4025-a811-05e34becc66d",
+    "chunk_ids": [
+      "447ace60-804f-4839-a786-88b4d04a795d"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 170782000000.0,
+    "unit": "USD",
+    "description": "AAPL Gross Profit for FY: $170,782,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c3aba44c-c0ce-4018-a2ca-952bc3a9b710",
+    "chunk_ids": [
+      "10b05544-7658-4d63-b283-56c6ea0bbda3"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 119437000000.0,
+    "unit": "USD",
+    "description": "AAPL Operating Income for FY: $119,437,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "fa75efd8-4a51-4bd7-a208-a53e399a8ed0",
+    "chunk_ids": [
+      "29c5b20d-4d9b-4da3-afbd-e5869978c0a0"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 99803000000.0,
+    "unit": "USD",
+    "description": "AAPL Net Income for FY: $99,803,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "357426cb-0562-4c74-807e-71483c142601",
+    "chunk_ids": [
+      "2602e623-d7d2-4e84-979a-5704bb3740b3"
+    ],
+    "fact_type": "ebitda",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 133138000000.0,
+    "unit": "USD",
+    "description": "AAPL EBITDA for FY: $133,138,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "52219980-2578-4121-8e71-45c1a9d6f650",
+    "chunk_ids": [
+      "dd87d480-987b-42b0-9503-8b4385a306b0"
+    ],
+    "fact_type": "eps",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 6.15,
+    "unit": "USD",
+    "description": "AAPL EPS (Diluted) for FY: $6",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "efe33758-55e6-4836-a76c-c6e8c17fe11f",
+    "chunk_ids": [
+      "b9c19c84-fa8d-4449-b254-7e4e34c84720"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 26251000000.0,
+    "unit": "USD",
+    "description": "AAPL R&D Expenses for FY: $26,251,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2ba8e696-3725-446b-ae0a-ed29760f0070",
+    "chunk_ids": [
+      "0e2b56d5-7cf7-495b-a51e-738b64a20bfe"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 352755000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Assets for FY: $352,755,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "07fe8abc-5fa8-413b-98e3-5772b169df98",
+    "chunk_ids": [
+      "a711b774-0094-4bdc-9124-4952b9f7b576"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 302083000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Liabilities for FY: $302,083,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6181e0e3-68bf-4e99-b268-435b242f1cb7",
+    "chunk_ids": [
+      "f064cf69-41fb-48e6-b5a6-9b263f5eeb24"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 50672000000.0,
+    "unit": "USD",
+    "description": "AAPL Stockholders' Equity for FY: $50,672,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b6db42ca-69ac-47dd-a159-f574dd71f0c9",
+    "chunk_ids": [
+      "c9a076aa-d28e-42fb-b8aa-83d2281ffbdc"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 23646000000.0,
+    "unit": "USD",
+    "description": "AAPL Cash & Equivalents for FY: $23,646,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0d006f8c-4eb1-40b1-80f9-9d590510e2c6",
+    "chunk_ids": [
+      "4b9d48e3-b431-4756-a2ac-f5633e885d88"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 132480000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Debt for FY: $132,480,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8dbd3361-ad28-4537-ac94-5376f888761f",
+    "chunk_ids": [
+      "f541425a-f98d-408b-a5cc-7c5d78751215"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 98959000000.0,
+    "unit": "USD",
+    "description": "AAPL Long-Term Debt for FY: $98,959,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "596d7167-293f-4d80-8571-c4b5eb00ee87",
+    "chunk_ids": [
+      "edda9369-b151-47ad-ba91-f3fa86b8c796"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 135405000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Current Assets for FY: $135,405,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e9bab5e6-f92d-4ab4-9b90-16c492931e8b",
+    "chunk_ids": [
+      "dead8378-97ac-4927-a833-3692ca8d0418"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 153982000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Current Liabilities for FY: $153,982,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "587edb05-f3d2-478e-9f0b-a7bcd38fd9b6",
+    "chunk_ids": [
+      "8ccdf348-391d-4a58-aef7-30608f7e89a8"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 122151000000.0,
+    "unit": "USD",
+    "description": "AAPL Operating Cash Flow for FY: $122,151,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0f8cfe25-1afe-4d4d-bb4c-1df77dfaf8a8",
+    "chunk_ids": [
+      "f3c280a1-4b98-4b37-95c1-fb76a6590cd5"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": -10708000000.0,
+    "unit": "USD",
+    "description": "AAPL Capital Expenditure for FY: $-10,708,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "020c9d03-a92b-4418-8246-7fe047cddb3f",
+    "chunk_ids": [
+      "abe316dd-2a4a-4f2b-a79d-d930e053ac76"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": 111443000000.0,
+    "unit": "USD",
+    "description": "AAPL Free Cash Flow for FY: $111,443,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d1f48952-dc05-42a3-9ac7-787273d41ebc",
+    "chunk_ids": [
+      "1395ade0-45ae-4031-831c-5f4f2eb00454"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AAPL",
+    "period": "FY",
+    "value": -89402000000.0,
+    "unit": "USD",
+    "description": "AAPL Stock Buybacks for FY: $-89,402,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "beea4626-eb0c-42a2-94d4-b6984f241e43",
+    "chunk_ids": [
+      "0bc55874-3c76-4c87-9b7a-28d42652b021",
+      "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+    ],
+    "fact_type": "financial_result",
+    "subject": "AAPL",
+    "period": "2026-01-29",
+    "value": null,
+    "unit": null,
+    "description": "Apple is scheduled to report its quarterly earnings after the market closes on Thursday, January 29, 2026, as part of the Big Tech earnings season.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "930788f6-381b-464e-8c90-39e608a79187",
+    "chunk_ids": [
+      "3bc5abe0-988b-4ea6-b189-5d3853cc4a67"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AAPL",
+    "period": "2026-Q1",
+    "value": null,
+    "unit": null,
+    "description": "Strong demand for the iPhone 17 is expected to help drive Apple's revenue to a record high in the upcoming earnings report.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "869cfd33-733e-4380-bb86-06f2608f0d5a",
+    "chunk_ids": [
+      "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+      "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+      "c2d82d4f-204a-46f4-8baa-5433df7e63e4"
+    ],
+    "fact_type": "partnership",
+    "subject": "AAPL",
+    "period": "2026-01",
+    "value": null,
+    "unit": null,
+    "description": "Reports indicate that Apple is considering using Intel's foundry services for future chip production, alongside Nvidia, leading to a surge in Intel's stock price.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "d3e59328-f83f-442b-9ca7-0ff57323c8cd",
+    "chunk_ids": [
+      "c20ee3f0-fd05-410d-b363-775533c2cc73"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AAPL",
+    "period": "2026-01",
+    "value": null,
+    "unit": null,
+    "description": "Analysis suggests that Apple's iPhone is maturing into infrastructure, its Services segment is experiencing growth similar to Microsoft's Office, and the company faces pressure to innovate before its premium product cycle cools.",
+    "confidence": 0.9
+  }
+]

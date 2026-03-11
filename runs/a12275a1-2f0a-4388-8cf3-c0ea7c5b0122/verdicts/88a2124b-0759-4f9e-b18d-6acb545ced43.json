@@ -1,0 +1,35 @@
+{
+  "verdict_id": "88a2124b-0759-4f9e-b18d-6acb545ced43",
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "c835dce4-5341-45bc-aab7-ffd02d219d7c",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+      "offending_span": null,
+      "explanation": "Chunk c20ee3f0-fd05-410d-b363-775533c2cc73 is cited but its content is about Apple and does not support any claims about Microsoft's earnings, AI spending, or backlog.",
+      "relevant_chunk_ids": [
+        "c20ee3f0-fd05-410d-b363-775533c2cc73"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the citation to this chunk or replace it with relevant evidence that directly supports the claims about Microsoft's recent earnings and AI landscape."
+    },
+    {
+      "issue_id": "ee169f52-f17c-4fcd-a5d1-90e97e6335eb",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+      "offending_span": "highlighting the intensifying race for AI dominance",
+      "explanation": "The cited evidence from chunk fca92e7e-d964-44c7-9b4b-004d6f581931 mentions increased AI spending and intense competition, but does not explicitly state a 'race for AI dominance'. The language implies a level of certainty or specificity not fully warranted by the evidence.",
+      "relevant_chunk_ids": [
+        "fca92e7e-d964-44c7-9b4b-004d6f581931"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Modify the language to better reflect the evidence, e.g., change to 'suggesting heightened competition in the AI sector' or similar."
+    }
+  ],
+  "checked_at": "2026-03-11T11:25:44.604645",
+  "iteration": 1
+}

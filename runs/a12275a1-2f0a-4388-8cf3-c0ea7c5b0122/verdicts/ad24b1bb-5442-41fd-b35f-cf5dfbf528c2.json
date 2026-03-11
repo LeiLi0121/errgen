@@ -1,0 +1,23 @@
+{
+  "verdict_id": "ad24b1bb-5442-41fd-b35f-cf5dfbf528c2",
+  "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "3d6198b7-8549-4da4-a3d8-1ca4cb579fef",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "fe182d42-14df-4a75-9120-84e1e4730c22",
+      "offending_span": "in FY 2022 to $34.550 billion in FY 2025",
+      "explanation": "The cited chunks provide R&D expense amounts ($26.251 billion and $34.550 billion) but do not specify which fiscal years these amounts correspond to. The paragraph makes specific claims about the expenses being for FY 2022 and FY 2025, which are not supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "b9c19c84-fa8d-4449-b254-7e4e34c84720",
+        "4dc8ad46-90b0-4768-868c-f3e86e1eea95"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Add citations that explicitly link the R&D expense amounts to specific fiscal years (e.g., chunks containing fiscal year data), or revise the paragraph to indicate the source of the year information and ensure it is properly cited."
+    }
+  ],
+  "checked_at": "2026-03-11T11:36:51.393842",
+  "iteration": 3
+}

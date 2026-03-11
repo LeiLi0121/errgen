@@ -1,0 +1,38 @@
+{
+  "verdict_id": "f27d32b9-ee55-467a-ac56-cd85f94ae096",
+  "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "1e9555fc-9171-4d74-851e-23e26eacd418",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+      "offending_span": "suggesting effective premium pricing and cost management",
+      "explanation": "The calculation results show high margins, but the language implies a direct cause-effect relationship that is not explicitly supported by the evidence; high margins could result from factors other than premium pricing and cost management.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "6d264db3-d9cd-475b-8755-dd0fe46ad9d2",
+        "bc5b1b56-60d7-4314-a837-b263a71efb32",
+        "2b590f54-038e-4a15-81d9-b87d8c657363",
+        "1b676e24-48f9-4602-a9a2-5b03b4b8617f"
+      ],
+      "recommended_fix": "Consider softening to 'may suggest' or 'could indicate' effective premium pricing and cost management to reflect the inferential nature of the claim."
+    },
+    {
+      "issue_id": "f816070d-d949-49d3-bfa6-a03638b66cfe",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "794526bc-5fb4-4a34-a30c-f23e9b57d307",
+      "offending_span": "supports ongoing innovation",
+      "explanation": "R&D intensity indicates investment in research and development, but does not directly prove ongoing innovation; it is one indicator and does not guarantee innovation outcomes.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "f655a70b-f8d1-43da-b827-1b450ac6f380"
+      ],
+      "recommended_fix": "Use language such as 'contributes to' or 'is consistent with' ongoing innovation to avoid implying certainty."
+    }
+  ],
+  "checked_at": "2026-03-11T05:51:08.005190",
+  "iteration": 0
+}

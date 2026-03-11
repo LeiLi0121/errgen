@@ -1,0 +1,107 @@
+{
+  "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+  "section_name": "Recent Developments",
+  "text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+  "citations": [
+    {
+      "citation_id": "50245232-9df8-4b8e-9bc2-e9be61b80477",
+      "chunk_id": "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a8bf898f-12c7-49a5-8c7c-87038afc0449",
+      "chunk_id": "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T21:03:06Z | Yahoo\nTitle: Intel's Stock Soars as Client Rumors Swirl: Could Nvidia and Apple Deals Be on the Way?\nURL: https://finnhub.io/api/news?id=f560cbcfec40544cdefd58f515f63f118037032883d54d3ca9569a7abd0618c5\nCould Intel be closer to winning new chipmaking contracts from Nvidi",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "186b24ad-4d12-4255-bd33-c51a447f885a",
+      "chunk_id": "c2d82d4f-204a-46f4-8baa-5433df7e63e4",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9234f32b-40ef-4d37-bc3f-9d4e9bd0a507",
+      "chunk_id": "4cd0f07f-2a97-4568-99a3-49fece1bcd37",
+      "source_id": "ccc6e35c-fe31-44cd-8394-a518362b0145",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:46:52Z | Yahoo\nTitle: Samsung sees acute chip shortage persisting, warns of mobiles headwind after profit triples\nURL: https://finnhub.io/api/news?id=9e8973b74df1df4d8d0380fd9d5255946554a5ecbc024c27417785884b25aaca\nSamsung Electronics forecast a worsening chip shortage this year",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+    "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+    "c2d82d4f-204a-46f4-8baa-5433df7e63e4",
+    "4cd0f07f-2a97-4568-99a3-49fece1bcd37"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "61ffb82b-1ccd-4df0-a5c0-d33a70c2ebec",
+      "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+      "status": "fail",
+      "issues": [],
+      "checked_at": "2026-03-11T11:20:00.860670",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "8ccc7d5a-ce9c-4a4f-85d8-82ca36a5e4f4",
+      "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "df98895f-4ea9-458f-b8f7-c0da698bee6d",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+          "offending_span": "affect Apple's hardware margins, given Samsung's role as a key supplier",
+          "explanation": "The cited chunk 4cd0f07f-2a97-4568-99a3-49fece1bcd37 discusses Samsung's forecast of a worsening chip shortage and its impact on its own units, but does not mention Apple, Apple's hardware margins, or Samsung's role as a supplier to Apple. No other cited chunks support these claims.",
+          "relevant_chunk_ids": [
+            "4cd0f07f-2a97-4568-99a3-49fece1bcd37"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove or revise the claim to reflect only what the evidence states, such as focusing on Samsung's warning and its potential broader industry impact without specifying Apple's margins, or add evidence that explicitly supports Samsung's supplier relationship with Apple and the effect on margins."
+        },
+        {
+          "issue_id": "a2378fcc-d1a3-4be6-9186-6e680a9aa4b2",
+          "issue_type": "citation_mismatch",
+          "severity": "minor",
+          "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+          "offending_span": "potentially diversifying Apple's supply chain",
+          "explanation": "The cited chunks b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0, 9dcb8fde-0027-49e7-a246-5011231bf1fd, and c2d82d4f-204a-46f4-8baa-5433df7e63e4 confirm rumors of Apple exploring Intel's foundry services and Intel's stock surge, but they do not explicitly state that this would diversify Apple's supply chain. This is an interpretive claim not directly supported by the evidence.",
+          "relevant_chunk_ids": [
+            "b68f60ea-9bb7-4d30-9bfc-c129ee9f75d0",
+            "9dcb8fde-0027-49e7-a246-5011231bf1fd",
+            "c2d82d4f-204a-46f4-8baa-5433df7e63e4"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Clarify that diversification is a possible implication based on the rumors, or rephrase to directly tie the claim to the evidence, e.g., 'which could lead to supply chain diversification.'"
+        }
+      ],
+      "checked_at": "2026-03-11T11:24:27.343860",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "7e299e38-0750-44e9-b1e5-ee7ef3751f01",
+      "paragraph_id": "9a3c75dd-7126-47ed-b16c-528f752a4d76",
+      "iteration": 1,
+      "original_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+      "revised_text": "Strategic developments include rumors of Apple exploring a partnership with Intel for chip foundry services, as reports suggest Intel's stock surged on speculation of deals with Nvidia and Apple, potentially diversifying Apple's supply chain. This comes amid competitive dynamics where Samsung warns of a worsening chip shortage exacerbated by the AI boom, which could increase costs for smartphone components and affect Apple's hardware margins, given Samsung's role as a key supplier.",
+      "issues_addressed": [],
+      "changes_summary": "No blocking issues – no changes made.",
+      "revised_at": "2026-03-11T11:21:13.189672"
+    }
+  ],
+  "iteration": 0
+}
