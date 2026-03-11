@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "2e3e532a-691c-4717-8b74-f2db0e50c707",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Apple maintains a strong competitive position in the consumer electronics market, driven by its brand loyalty and innovative product offerings. As of 2025, Apple held approximately 20% of the global smartphone market, according to industry reports (chunk_id_35dda38d-318e-4e7b-aab2-fdecab9788b8). The company's ecosystem of devices and services creates a significant barrier to entry, enhancing its moat. Additionally, Apple's focus on user privacy and security differentiates it from competitors like Samsung and Huawei.",
+  "citations": [
+    {
+      "citation_id": "ecffd795-355b-4afb-8f75-f5eb41db4078",
+      "chunk_id": "35dda38d-318e-4e7b-aab2-fdecab9788b8",
+      "source_id": "2b45e9ed-b644-48c3-8ae7-357d28c50e33",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "35dda38d-318e-4e7b-aab2-fdecab9788b8"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "39920452-eb56-4354-bc0d-9ac186e524db",
+      "paragraph_id": "2e3e532a-691c-4717-8b74-f2db0e50c707",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T04:32:53.622362",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

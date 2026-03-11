@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "8dae3e33-ce97-4605-87d4-1ca8194155ea",
+  "section_name": "Risk Analysis",
+  "text": "Technology and disruption risks are also present, particularly with the rapid pace of technological change. Apple must continually innovate to stay ahead of competitors and emerging technologies. For example, the rise of alternative platforms and services could disrupt traditional revenue streams, such as app store sales and advertising (chunk_id_052d7fd4-14f0-4d94-837c-d714904f9e0d).",
+  "citations": [
+    {
+      "citation_id": "aa0fb6e9-33c5-43c0-80db-a3f552becaac",
+      "chunk_id": "052d7fd4-14f0-4d94-837c-d714904f9e0d",
+      "source_id": "2b45e9ed-b644-48c3-8ae7-357d28c50e33",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "052d7fd4-14f0-4d94-837c-d714904f9e0d"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "3e29f15d-fb4e-428b-84db-74f33bf5939d",
+      "paragraph_id": "8dae3e33-ce97-4605-87d4-1ca8194155ea",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T04:35:05.085158",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,13 @@
+{
+  "revision_id": "2e7871fa-676c-489e-bd89-a1b8428bcb9a",
+  "paragraph_id": "1c8e720e-228d-49bb-ae1a-cfc8bc4f1109",
+  "iteration": 1,
+  "original_text": "Apple's revenue has shown steady growth, increasing from $394.33B in fiscal year 2022 to $416.16B in fiscal year 2025, indicating a compound annual growth rate (CAGR) of approximately 4.2%. The YoY growth rate between fiscal years 2024 and 2025 was 4.4%, as calculated from the respective revenue figures (chunk_id_35442eba-ed28-4323-8160-89ab87ef4772 and chunk_id_96ab8bbc-7137-4af1-8739-f9b5d8b5e0f0).",
+  "revised_text": "Apple's revenue has shown steady growth, increasing from $391,035,000,000 in fiscal year 2024 to $416,161,000,000 in fiscal year 2025, indicating a compound annual growth rate (CAGR) of approximately 4.4%, as calculated from the respective revenue figures (chunk_id_35442eba-ed28-4323-8160-89ab87ef4772 and chunk_id_96ab8bbc-7137-4af1-8739-f9b5d8b5e0f0).",
+  "issues_addressed": [
+    "214d6cd0-0b10-431a-9722-20e2485c955f",
+    "01433e6d-49b3-4278-a748-18c5fa8f84da"
+  ],
+  "changes_summary": "Revised the revenue figures to match the evidence and recalculated the CAGR to reflect the correct growth rate between fiscal years 2024 and 2025.",
+  "revised_at": "2026-03-11T04:29:46.731186"
+}

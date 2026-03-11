@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "e56e6b17-fcc2-4fac-935c-5d69940777ba",
+  "section_name": "Risk Analysis",
+  "text": "Competitive risks are also notable, with new entrants and pricing pressures from rivals like Samsung and Huawei. The market share of smartphones and consumer electronics is highly competitive, and Apple’s dominance is under threat. For instance, Samsung has been expanding its presence in the high-end smartphone market, which could erode Apple’s market share (chunk_id_052d7fd4-14f0-4d94-837c-d714904f9e0d).",
+  "citations": [
+    {
+      "citation_id": "5baf138b-ae03-480a-acc7-838e8d3dc143",
+      "chunk_id": "052d7fd4-14f0-4d94-837c-d714904f9e0d",
+      "source_id": "2b45e9ed-b644-48c3-8ae7-357d28c50e33",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "052d7fd4-14f0-4d94-837c-d714904f9e0d"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "3b77aa23-a281-4df7-b8e1-527acc692d06",
+      "paragraph_id": "e56e6b17-fcc2-4fac-935c-5d69940777ba",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T04:34:23.163005",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

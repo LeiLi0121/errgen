@@ -1,0 +1,14 @@
+{
+  "revision_id": "9f51de99-f84b-4d3e-af26-940d1cebc266",
+  "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+  "iteration": 1,
+  "original_text": "On the balance sheet, Apple's liquidity has been adequate, with a current ratio of 0.88 (calc_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7). However, the company's leverage remains high, with a debt-to-equity ratio of 2.61 (calc_id_98086b87-146b-4026-b397-39037d951e84) and net debt of $108.83B (calc_id_85c5c25f-55c1-42ad-a381-fb98ff54ca9e). These metrics suggest that while Apple has significant financial flexibility, it also carries substantial debt.",
+  "revised_text": "On the balance sheet, Apple's liquidity has been adequate, with a current ratio of 0.8794 (calc_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7). However, the company's leverage remains high, with a debt-to-equity ratio of 2.6145 (calc_id_98086b87-146b-4026-b397-39037d951e84) and net debt of $108,834 million (calc_id_85c5c25f-55c1-42ad-a381-fb98ff54ca9e). These metrics suggest that while Apple has significant financial flexibility, it also carries substantial debt.",
+  "issues_addressed": [
+    "6f09c220-d372-400b-b560-d0d98e76a15b",
+    "451a28c2-ac0a-4e46-8079-67815f7359b5",
+    "6899e303-ad80-4161-86f6-b4efd8d8a24e"
+  ],
+  "changes_summary": "Updated the current ratio to 0.8794, the debt-to-equity ratio to 2.6145, and the net debt to $108,834 million based on the provided calculations.",
+  "revised_at": "2026-03-11T04:31:28.013501"
+}

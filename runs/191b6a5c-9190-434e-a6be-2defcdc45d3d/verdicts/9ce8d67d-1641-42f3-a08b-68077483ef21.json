@@ -1,0 +1,51 @@
+{
+  "verdict_id": "9ce8d67d-1641-42f3-a08b-68077483ef21",
+  "paragraph_id": "1c8e720e-228d-49bb-ae1a-cfc8bc4f1109",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "214d6cd0-0b10-431a-9722-20e2485c955f",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "1c8e720e-228d-49bb-ae1a-cfc8bc4f1109",
+      "offending_span": "increasing from $394.33B in fiscal year 2022 to $416.16B in fiscal year 2025",
+      "explanation": "The revenue figures for fiscal years 2022 and 2025 are not supported by the cited chunks. The closest figure is from 2024, which is $391,035,000,000.",
+      "relevant_chunk_ids": [
+        "35442eba-ed28-4323-8160-89ab87ef4772",
+        "96ab8bbc-7137-4af1-8739-f9b5d8b5e0f0"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Use the actual revenue figures from the cited chunks, which are $391,035,000,000 for fiscal year 2024 and $416,161,000,000 for fiscal year 2025."
+    },
+    {
+      "issue_id": "01433e6d-49b3-4278-a748-18c5fa8f84da",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "1c8e720e-228d-49bb-ae1a-cfc8bc4f1109",
+      "offending_span": "indicating a compound annual growth rate (CAGR) of approximately 4.2%.",
+      "explanation": "The CAGR calculation is incorrect. Using the correct revenue figures, the CAGR should be recalculated.",
+      "relevant_chunk_ids": [
+        "35442eba-ed28-4323-8160-89ab87ef4772",
+        "96ab8bbc-7137-4af1-8739-f9b5d8b5e0f0"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Recalculate the CAGR using the correct revenue figures. The correct CAGR between fiscal years 2024 and 2025 is approximately 4.4%, as mentioned in the paragraph."
+    },
+    {
+      "issue_id": "26159d0d-20d1-4a18-bac0-b2bf42030443",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "1c8e720e-228d-49bb-ae1a-cfc8bc4f1109",
+      "offending_span": "as calculated from the respective revenue figures (chunk_id_35442eba-ed28-4323-8160-89ab87ef4772 and chunk_id_96ab8bbc-7137-4af1-8739-f9b5d8b5e0f0)",
+      "explanation": "The paragraph references fiscal year 2025, which is after the as-of date of January 2026.",
+      "relevant_chunk_ids": [
+        "35442eba-ed28-4323-8160-89ab87ef4772",
+        "96ab8bbc-7137-4af1-8739-f9b5d8b5e0f0"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure that all financial data referenced is up to the as-of date of January 2026."
+    }
+  ],
+  "checked_at": "2026-03-11T04:29:40.582752",
+  "iteration": 0
+}

@@ -1,0 +1,33 @@
+{
+  "verdict_id": "20d69611-7785-4bc2-8a1e-120ea112b9aa",
+  "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "a28919b5-6ec7-488d-813f-b46c1942f32f",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "offending_span": "with a 28.26% free cash flow margin in fiscal year 2023",
+      "explanation": "The specific 28.26% free cash flow margin for fiscal year 2023 is not supported by any cited chunk.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Verify the source of the 28.26% free cash flow margin and provide a relevant chunk ID."
+    },
+    {
+      "issue_id": "10049f3c-bc2f-4c7f-9b45-a86e97272c55",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "offending_span": "as of 2026-01",
+      "explanation": "The paragraph mentions a fiscal year 2023 figure, which is after the as-of date of 2026-01.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure the fiscal year mentioned aligns with the as-of date."
+    }
+  ],
+  "checked_at": "2026-03-11T04:33:32.743324",
+  "iteration": 3
+}

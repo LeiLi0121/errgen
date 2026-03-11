@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "ff478e20-7385-4141-b794-393fcc1e8618",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Apple Inc. (AAPL) generates revenue primarily through the sale of smartphones, personal computers, tablets, wearables, and accessories. According to the company profile, the product segments include iPhones, Macs, iPads, AirPods, Apple TV, Apple Watch, and other related products. Revenue is distributed across multiple geographies, with North America being the largest market, followed by Europe, Asia Pacific, and the Americas. This diversified revenue base helps mitigate regional economic risks and supports consistent growth.",
+  "citations": [
+    {
+      "citation_id": "790a0ad8-5c21-4124-8051-a56c83f8e103",
+      "chunk_id": "052d7fd4-14f0-4d94-837c-d714904f9e0d",
+      "source_id": "2b45e9ed-b644-48c3-8ae7-357d28c50e33",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "052d7fd4-14f0-4d94-837c-d714904f9e0d"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "dedfba75-bcd6-4f8e-b6bd-7910abbf3f7c",
+      "paragraph_id": "ff478e20-7385-4141-b794-393fcc1e8618",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T04:32:53.322311",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,42 @@
+{
+  "verdict_id": "e88fb2b3-c5ff-464d-b206-be275bbf147c",
+  "paragraph_id": "35028740-58e8-40c2-9b21-aa3df8988113",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "df98d685-305b-4598-af52-92df02f5c2ca",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "35028740-58e8-40c2-9b21-aa3df8988113",
+      "offending_span": "Tim Cook, CEO since 2011, has overseen significant growth and diversification of the company’s revenue streams.",
+      "explanation": "The paragraph claims Tim Cook has been CEO since 2011, but no evidence is provided to support this claim. The as-of date is 2026-01, so this information should be verified.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Verify the CEO tenure from reliable sources and provide a citation."
+    },
+    {
+      "issue_id": "e231549f-fd51-40f9-8bd9-5c54fe7545bf",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "35028740-58e8-40c2-9b21-aa3df8988113",
+      "offending_span": "Analysts continue to view Apple as a leader in the technology sector, driven by its strong brand and innovative product lineup.",
+      "explanation": "The paragraph makes a claim about analysts' views without citing any evidence. This is a significant unsupported claim.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide citations from analyst reports or other relevant sources to support this claim."
+    },
+    {
+      "issue_id": "b358fbd5-e32d-47b6-8a61-c6729e72a542",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "35028740-58e8-40c2-9b21-aa3df8988113",
+      "offending_span": "As of 2026-01",
+      "explanation": "The paragraph mentions 'as of 2026-01', but the as-of date for the report is 2026-01. This is a minor issue as it aligns with the report's as-of date, but it should be clearly stated in the paragraph.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure the as-of date is clearly mentioned and consistent throughout the document."
+    }
+  ],
+  "checked_at": "2026-03-11T04:33:50.117275",
+  "iteration": 0
+}

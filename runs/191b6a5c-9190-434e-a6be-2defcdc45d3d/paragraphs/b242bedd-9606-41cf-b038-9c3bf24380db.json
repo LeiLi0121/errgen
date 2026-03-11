@@ -1,0 +1,64 @@
+{
+  "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+  "section_name": "Financial Analysis",
+  "text": "EBITDA has been a key driver of Apple's profitability, maintaining a healthy margin of 33.76% in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180). In terms of cash flow quality, operating cash flow has been robust, with a free cash flow (FCF) margin of 28.26% (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6). This indicates that Apple is generating substantial cash from operations relative to its revenue.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "ec8339f6-276c-4fdf-ad1c-0922e4e82180",
+    "86a90358-6017-4415-bb01-bf919ca4c9f6"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "8582ed18-ab88-4c57-be6e-f889cdf05398",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "8479e4e1-f85f-48a5-b8a0-2c8aa17229aa",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+          "offending_span": "EBITDA has been a key driver of Apple's profitability, maintaining a healthy margin of 33.76% in fiscal year 2025",
+          "explanation": "The EBITDA margin of 33.76% for fiscal year 2025 is not supported by any cited evidence.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "ec8339f6-276c-4fdf-ad1c-0922e4e82180"
+          ],
+          "recommended_fix": "Provide a reference to the source that supports the EBITDA margin of 33.76% for fiscal year 2025."
+        },
+        {
+          "issue_id": "442c7a69-d7ab-4455-bfe6-5a893e0afbda",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+          "offending_span": "operating cash flow has been robust, with a free cash flow (FCF) margin of 28.26%",
+          "explanation": "The FCF margin of 28.26% is not supported by any cited evidence.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "86a90358-6017-4415-bb01-bf919ca4c9f6"
+          ],
+          "recommended_fix": "Provide a reference to the source that supports the FCF margin of 28.26%."
+        },
+        {
+          "issue_id": "99f9ce25-124c-4f6b-a699-ad8872b05ccf",
+          "issue_type": "scope_violation",
+          "severity": "minor",
+          "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+          "offending_span": "In terms of cash flow quality, operating cash flow has been robust, with a free cash flow (FCF) margin of 28.26% in fiscal year 2025",
+          "explanation": "The paragraph mentions fiscal year 2025, which is after the as-of date of 2026-01.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "86a90358-6017-4415-bb01-bf919ca4c9f6"
+          ],
+          "recommended_fix": "Ensure that the fiscal year mentioned aligns with the as-of date."
+        }
+      ],
+      "checked_at": "2026-03-11T04:30:25.066164",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

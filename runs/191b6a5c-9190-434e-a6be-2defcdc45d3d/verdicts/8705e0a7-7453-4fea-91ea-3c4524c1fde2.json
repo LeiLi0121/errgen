@@ -1,0 +1,48 @@
+{
+  "verdict_id": "8705e0a7-7453-4fea-91ea-3c4524c1fde2",
+  "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "2a2080c0-b7c2-4396-b7e0-e8c563dab89a",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "Apple's profitability has been driven by strong earnings before interest, taxes, depreciation, and amortization (EBITDA), which maintained an EBITDA margin of 33.76% in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180).",
+      "explanation": "The paragraph claims an EBITDA margin of 33.76% for fiscal year 2025, but no evidence supporting this specific claim is provided.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "ec8339f6-276c-4fdf-ad1c-0922e4e82180"
+      ],
+      "recommended_fix": "Provide a reference to a relevant chunk or calculation that supports the EBITDA margin claim for fiscal year 2025."
+    },
+    {
+      "issue_id": "2793a994-877e-40b0-aa73-855bf65d9b24",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "Additionally, the company's robust operating cash flow has resulted in a free cash flow (FCF) margin of 28.26%, indicating that Apple is generating substantial cash from operations relative to its revenue (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6).",
+      "explanation": "The paragraph claims an FCF margin of 28.26% for fiscal year 2025, but no evidence supporting this specific claim is provided.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Provide a reference to a relevant chunk or calculation that supports the FCF margin claim for fiscal year 2025."
+    },
+    {
+      "issue_id": "fe85d98c-73af-4bb2-8a13-6724e6a508f7",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "indicating that Apple is generating substantial cash from operations relative to its revenue (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6).",
+      "explanation": "The phrase 'relative to its revenue' implies a comparison that is not directly supported by the provided calculation, which focuses on the FCF margin without specifying the revenue figure used.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Clarify the basis for the comparison between FCF and revenue."
+    }
+  ],
+  "checked_at": "2026-03-11T04:31:10.891201",
+  "iteration": 3
+}

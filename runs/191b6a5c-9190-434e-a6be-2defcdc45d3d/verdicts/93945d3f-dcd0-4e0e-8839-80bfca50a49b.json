@@ -1,0 +1,35 @@
+{
+  "verdict_id": "93945d3f-dcd0-4e0e-8839-80bfca50a49b",
+  "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "77b7f3d0-16ba-4f4f-9bf1-61d1aec92d47",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "offending_span": "with a 28.26% free cash flow margin in fiscal year 2024",
+      "explanation": "The free cash flow margin of 28.26% for fiscal year 2024 is not supported by any cited evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Verify the source of the 28.26% free cash flow margin for fiscal year 2024 and cite the appropriate evidence."
+    },
+    {
+      "issue_id": "90bbb99d-6f12-4db6-8e51-2ca90ead9d85",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "offending_span": "in fiscal year 2024",
+      "explanation": "The fiscal year 2024 reference is not consistent with the as-of date of 2026-01.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Update the fiscal year to align with the as-of date."
+    }
+  ],
+  "checked_at": "2026-03-11T04:33:22.998060",
+  "iteration": 2
+}

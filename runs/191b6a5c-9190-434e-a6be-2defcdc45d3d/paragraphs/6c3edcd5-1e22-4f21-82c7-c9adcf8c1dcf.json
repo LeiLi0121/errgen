@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "6c3edcd5-1e22-4f21-82c7-c9adcf8c1dcf",
+  "section_name": "Risk Analysis",
+  "text": "Operational risks include supply chain disruptions and talent retention. Apple relies heavily on a global supply chain, and any disruptions, such as those caused by natural disasters or geopolitical tensions, could severely impact production and delivery timelines (chunk_id_35dda38d-318e-4e7b-aab2-fdecab9788b8). Talent retention is another critical issue, as the tech industry is highly competitive, and Apple needs to attract and retain top talent to maintain innovation and product development (chunk_id_052d7fd4-14f0-4d94-837c-d714904f9e0d).",
+  "citations": [
+    {
+      "citation_id": "d3c7e94d-6373-430f-9b5e-c1fc0a02db38",
+      "chunk_id": "35dda38d-318e-4e7b-aab2-fdecab9788b8",
+      "source_id": "2b45e9ed-b644-48c3-8ae7-357d28c50e33",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "27219851-66bb-46aa-bcc4-b6ee3b387685",
+      "chunk_id": "052d7fd4-14f0-4d94-837c-d714904f9e0d",
+      "source_id": "2b45e9ed-b644-48c3-8ae7-357d28c50e33",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "35dda38d-318e-4e7b-aab2-fdecab9788b8",
+    "052d7fd4-14f0-4d94-837c-d714904f9e0d"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b5083119-c034-4ead-ae15-7b8a937b59f8",
+      "paragraph_id": "6c3edcd5-1e22-4f21-82c7-c9adcf8c1dcf",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T04:35:04.705153",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

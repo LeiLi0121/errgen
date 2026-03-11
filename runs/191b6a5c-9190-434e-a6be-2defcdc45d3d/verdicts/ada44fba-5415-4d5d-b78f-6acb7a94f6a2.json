@@ -1,0 +1,37 @@
+{
+  "verdict_id": "ada44fba-5415-4d5d-b78f-6acb7a94f6a2",
+  "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "d5232cca-e3fa-4985-afe7-2f49c806ed32",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+      "offending_span": "$112,377 billion as of 2025",
+      "explanation": "The claim about total debt reaching $112,377 billion as of 2025 is not supported by the cited chunk. The relevant chunk (chunk_id_b514afc2-5e79-48b8-be76-213c12fd2bfb) shows total debt of $112,377,000,000, which is in billions, not trillions.",
+      "relevant_chunk_ids": [
+        "b514afc2-5e79-48b8-be76-213c12fd2bfb"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change the claim to reflect the correct value: 'Apple’s total debt has reached $112,377,000,000 as of 2025.'"
+    },
+    {
+      "issue_id": "571c66db-1d97-45c7-bfc5-b04d41d7cfdf",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+      "offending_span": "current ratio of 0.8794",
+      "explanation": "The calculated current ratio is incorrect. The correct current ratio should be 0.95 based on the provided values from the cited chunk (current assets: $147,957,000,000, current liabilities: $165,631,000,000).",
+      "relevant_chunk_ids": [
+        "b514afc2-5e79-48b8-be76-213c12fd2bfb"
+      ],
+      "relevant_calc_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "recommended_fix": "Correct the current ratio to 0.95."
+    }
+  ],
+  "checked_at": "2026-03-11T04:34:44.239681",
+  "iteration": 1
+}

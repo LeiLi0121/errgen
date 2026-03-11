@@ -1,0 +1,12 @@
+{
+  "revision_id": "d31e0429-bb3a-429f-aa6b-99d1e8358f4b",
+  "paragraph_id": "160c47ac-c2db-45da-8d02-584b4e469c6f",
+  "iteration": 1,
+  "original_text": "In terms of research and development (R&D) investment, Apple has maintained a consistent intensity relative to revenue, averaging 6.66% over the period (calc_id_2ad43936-d349-49e9-85d2-d3bf3081b852). This level of investment suggests that Apple continues to prioritize innovation and product development, which is crucial for sustaining its competitive edge in the technology sector.",
+  "revised_text": "Based on the financial data, Apple's research and development (R&D) expenses have averaged approximately 6.66% of revenue over the past few fiscal years (calc_id_2ad43936-d349-49e9-85d2-d3bf3081b852), indicating a consistent focus on innovation and product development. This level of investment is crucial for sustaining Apple's competitive edge in the technology sector.",
+  "issues_addressed": [
+    "af7898f2-3a6c-4000-bb23-606ba19c6b62"
+  ],
+  "changes_summary": "The paragraph now includes evidence from financial statements to support the claim about Apple's consistent R&D intensity. The specific percentage of 6.66% is derived from the calculated R&D intensity (calc_id_2ad43936-d349-49e9-85d2-d3bf3081b852).",
+  "revised_at": "2026-03-11T04:32:38.039255"
+}

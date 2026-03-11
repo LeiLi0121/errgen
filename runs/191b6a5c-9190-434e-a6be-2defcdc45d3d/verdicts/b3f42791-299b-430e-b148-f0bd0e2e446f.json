@@ -1,0 +1,46 @@
+{
+  "verdict_id": "b3f42791-299b-430e-b148-f0bd0e2e446f",
+  "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "8d3bffcc-fa55-4bab-8d1a-dc88ddd33d95",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "Apple's profitability has been driven by strong earnings before interest, taxes, depreciation, and amortization (EBITDA), which maintained an EBITDA margin of 33.76% in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180).",
+      "explanation": "The EBITDA margin of 33.76% for fiscal year 2025 is not supported by any cited evidence or calculations.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "ec8339f6-276c-4fdf-ad1c-0922e4e82180"
+      ],
+      "recommended_fix": "Verify the EBITDA margin for fiscal year 2025 and provide supporting evidence."
+    },
+    {
+      "issue_id": "97fb2d6b-9a31-4848-9107-bd0ab0881515",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "Additionally, the company's robust operating cash flow has resulted in a free cash flow (FCF) margin of 28.26%, indicating that Apple is generating substantial cash from operations relative to its revenue (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6).",
+      "explanation": "The FCF margin of 28.26% for fiscal year 2025 is not supported by any cited evidence or calculations.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Verify the FCF margin for fiscal year 2025 and provide supporting evidence."
+    },
+    {
+      "issue_id": "e066dec2-8c46-4a8a-a462-8fb4c678707b",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "in fiscal year 2025",
+      "explanation": "The paragraph refers to fiscal year 2025, which is after the as-of date of January 2026.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the fiscal year to align with the as-of date."
+    }
+  ],
+  "checked_at": "2026-03-11T04:30:54.274577",
+  "iteration": 2
+}

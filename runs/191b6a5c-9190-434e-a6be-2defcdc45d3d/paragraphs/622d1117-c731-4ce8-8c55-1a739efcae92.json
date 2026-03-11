@@ -1,0 +1,63 @@
+{
+  "paragraph_id": "622d1117-c731-4ce8-8c55-1a739efcae92",
+  "section_name": "Financial Analysis",
+  "text": "Regarding profitability, Apple's gross margin has remained robust at around 43.31%, as evidenced by the calculation using the gross profit and revenue figures from fiscal year 2022 (calc_id_aa10691e-fd67-4180-b25a-33f125e426f2). The operating margin has also been strong, averaging 30.29% over the period, while the net margin has been slightly lower at 25.31% (calc_id_e59ce546-00b9-4b62-a1cd-6f4e46a1851d and calc_id_43bc339e-5f84-4da9-b3d8-ce448ccb0c48).",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "aa10691e-fd67-4180-b25a-33f125e426f2",
+    "e59ce546-00b9-4b62-a1cd-6f4e46a1851d",
+    "43bc339e-5f84-4da9-b3d8-ce448ccb0c48"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "dc15b3d7-8b67-4696-8205-c5295fdc016c",
+      "paragraph_id": "622d1117-c731-4ce8-8c55-1a739efcae92",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "16abe575-27bf-4548-983d-751438488506",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "622d1117-c731-4ce8-8c55-1a739efcae92",
+          "offending_span": "Apple's gross margin has remained robust at around 43.31%, as evidenced by the calculation using the gross profit and revenue figures from fiscal year 2022",
+          "explanation": "The paragraph claims the gross margin for fiscal year 2022, but no evidence is provided for this claim. The calculations only cover fiscal year 2022.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "aa10691e-fd67-4180-b25a-33f125e426f2"
+          ],
+          "recommended_fix": "Remove the reference to fiscal year 2022 or provide additional evidence for the claimed gross margin."
+        },
+        {
+          "issue_id": "410fec17-81b3-4fa3-9cfe-d6330d605388",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "622d1117-c731-4ce8-8c55-1a739efcae92",
+          "offending_span": "while the net margin has been slightly lower at 25.31%",
+          "explanation": "The paragraph claims a net margin of 25.31%, but no evidence is provided for this claim. The calculation only covers the net margin for fiscal year 2022.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "43bc339e-5f84-4da9-b3d8-ce448ccb0c48"
+          ],
+          "recommended_fix": "Remove the reference to the net margin percentage or provide additional evidence for this claim."
+        },
+        {
+          "issue_id": "e0e443fb-4e27-4478-943e-94b87c5f7900",
+          "issue_type": "scope_violation",
+          "severity": "minor",
+          "paragraph_id": "622d1117-c731-4ce8-8c55-1a739efcae92",
+          "offending_span": "as of 2026-01",
+          "explanation": "The paragraph discusses financial metrics without specifying the fiscal year, which could be interpreted as referring to fiscal year 2026, violating the as-of date constraint.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Clarify the fiscal year to avoid ambiguity."
+        }
+      ],
+      "checked_at": "2026-03-11T04:29:55.092350",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

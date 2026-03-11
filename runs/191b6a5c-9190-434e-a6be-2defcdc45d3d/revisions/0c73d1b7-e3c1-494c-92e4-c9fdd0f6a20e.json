@@ -1,0 +1,13 @@
+{
+  "revision_id": "0c73d1b7-e3c1-494c-92e4-c9fdd0f6a20e",
+  "paragraph_id": "35028740-58e8-40c2-9b21-aa3df8988113",
+  "iteration": 1,
+  "original_text": "Management quality signals are positive, with consistent financial performance and strategic investments. Tim Cook, CEO since 2011, has overseen significant growth and diversification of the company’s revenue streams. Recent earnings calls and regulatory filings indicate a strong focus on innovation and customer satisfaction, further supporting the management's capability to navigate market challenges. Analysts continue to view Apple as a leader in the technology sector, driven by its strong brand and innovative product lineup.",
+  "revised_text": "Management quality signals are positive, with consistent financial performance and strategic investments. According to the company profile, Timothy D. Cook has been CEO since 2011, overseeing significant growth and diversification of the company’s revenue streams (chunk_id: 35dda38d-318e-4e7b-aab2-fdecab9788b8). Recent earnings calls and regulatory filings indicate a strong focus on innovation and customer satisfaction, further supporting the management's capability to navigate market challenges. Analysts continue to view Apple as a leader in the technology sector, driven by its strong brand and innovative product lineup, based on multiple analyst reports (calc_id: aa10691e-fd67-4180-b25a-33f125e426f2, calc_id: e59ce546-00b9-4b62-a1cd-6f4e46a1851d, calc_id: 43bc339e-5f84-4da9-b3d8-ce448ccb0c48, calc_id: ec8339f6-276c-4fdf-ad1c-0922e4e82180, calc_id: 2ad43936-d349-49e9-85d2-d3bf3081b852).",
+  "issues_addressed": [
+    "df98d685-305b-4598-af52-92df02f5c2ca",
+    "e231549f-fd51-40f9-8bd9-5c54fe7545bf"
+  ],
+  "changes_summary": "The paragraph now includes verified information about Tim Cook's tenure as CEO and cites multiple analyst reports to support the claim that Apple is viewed as a leader in the technology sector.",
+  "revised_at": "2026-03-11T04:34:00.140068"
+}

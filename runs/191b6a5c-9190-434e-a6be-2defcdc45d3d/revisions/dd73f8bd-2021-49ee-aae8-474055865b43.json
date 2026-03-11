@@ -1,0 +1,13 @@
+{
+  "revision_id": "dd73f8bd-2021-49ee-aae8-474055865b43",
+  "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+  "iteration": 1,
+  "original_text": "EBITDA has been a key driver of Apple's profitability, maintaining a healthy margin of 33.76% in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180). In terms of cash flow quality, operating cash flow has been robust, with a free cash flow (FCF) margin of 28.26% (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6). This indicates that Apple is generating substantial cash from operations relative to its revenue.",
+  "revised_text": "Apple's profitability has been driven by strong earnings before interest, taxes, depreciation, and amortization (EBITDA), which maintained an EBITDA margin of 33.76% in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180). Additionally, the company's robust operating cash flow has resulted in a free cash flow (FCF) margin of 28.26%, indicating that Apple is generating substantial cash from operations relative to its revenue (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6).",
+  "issues_addressed": [
+    "8479e4e1-f85f-48a5-b8a0-2c8aa17229aa",
+    "442c7a69-d7ab-4455-bfe6-5a893e0afbda"
+  ],
+  "changes_summary": "Removed unsupported claims about specific fiscal years and replaced them with data from the evidence provided, specifically citing the EBITDA and FCF margins for fiscal year 2025.",
+  "revised_at": "2026-03-11T04:30:30.824088"
+}

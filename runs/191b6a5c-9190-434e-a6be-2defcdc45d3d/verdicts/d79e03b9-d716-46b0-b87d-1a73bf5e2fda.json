@@ -1,0 +1,48 @@
+{
+  "verdict_id": "d79e03b9-d716-46b0-b87d-1a73bf5e2fda",
+  "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "6f09c220-d372-400b-b560-d0d98e76a15b",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "current ratio of 0.88 (calc_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7)",
+      "explanation": "The current ratio of 0.88 is not supported by any cited chunk. The closest calculation result is 0.8794.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "recommended_fix": "Update the current ratio to 0.8794 based on the provided calculation."
+    },
+    {
+      "issue_id": "451a28c2-ac0a-4e46-8079-67815f7359b5",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "debt-to-equity ratio of 2.61 (calc_id_98086b87-146b-4026-b397-39037d951e84)",
+      "explanation": "The debt-to-equity ratio of 2.61 is not supported by any cited chunk. The closest calculation result is 2.6145.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "98086b87-146b-4026-b397-39037d951e84"
+      ],
+      "recommended_fix": "Update the debt-to-equity ratio to 2.6145 based on the provided calculation."
+    },
+    {
+      "issue_id": "6899e303-ad80-4161-86f6-b4efd8d8a24e",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "net debt of $108.83B (calc_id_85c5c25f-55c1-42ad-a381-fb98ff54ca9e)",
+      "explanation": "The net debt of $108.83B is not supported by any cited chunk. The closest calculation result is 108834000000.0000, which is $108,834 million.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "85c5c25f-55c1-42ad-a381-fb98ff54ca9e"
+      ],
+      "recommended_fix": "Update the net debt to $108,834 million based on the provided calculation."
+    }
+  ],
+  "checked_at": "2026-03-11T04:31:21.098485",
+  "iteration": 0
+}

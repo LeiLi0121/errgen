@@ -1,0 +1,62 @@
+{
+  "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Key growth drivers for Apple include the expansion of its services segment, particularly in subscription-based services such as Apple Music, Apple TV+, and Apple Arcade. These services contribute significantly to the company's net margin, with a 25.31% net margin in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180). Furthermore, the company's focus on emerging markets and the continued adoption of its products in these regions are expected to drive future growth. Recent financial results indicate a robust performance, with a free cash flow margin of 28.26% (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6), reflecting strong operational efficiency.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "ec8339f6-276c-4fdf-ad1c-0922e4e82180",
+    "86a90358-6017-4415-bb01-bf919ca4c9f6"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9eb0642f-1851-40ca-92ba-3410b4e7f7e8",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "bee65c04-bd10-4a15-9bfa-d827b5e4aa3c",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+          "offending_span": "These services contribute significantly to the company's net margin, with a 25.31% net margin in fiscal year 2025.",
+          "explanation": "The cited calculations do not provide any information about the net margin for fiscal year 2025. The closest calculation is for EBITDA margin, which is 33.76%, not 25.31%.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "ec8339f6-276c-4fdf-ad1c-0922e4e82180"
+          ],
+          "recommended_fix": "Replace the claim about the net margin with accurate information from the available calculations or additional verified sources."
+        },
+        {
+          "issue_id": "90a9b749-99f1-4e57-9f41-2350c8cf07c5",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+          "offending_span": "Furthermore, the company's focus on emerging markets and the continued adoption of its products in these regions are expected to drive future growth.",
+          "explanation": "There is no evidence provided in the cited chunks or calculations that directly supports the claim about the company’s focus on emerging markets driving future growth.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Provide supporting evidence from the cited chunks or additional sources to substantiate the claim about emerging markets driving growth."
+        },
+        {
+          "issue_id": "26882450-6ec1-4bac-8f8d-2cbefa3b8a7a",
+          "issue_type": "numerical_error",
+          "severity": "minor",
+          "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+          "offending_span": "with a 25.31% net margin in fiscal year 2025",
+          "explanation": "The net margin mentioned is incorrect. The closest calculation provided is for EBITDA margin, which is 33.76%, not 25.31%.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "ec8339f6-276c-4fdf-ad1c-0922e4e82180"
+          ],
+          "recommended_fix": "Correct the net margin figure to reflect the actual EBITDA margin of 33.76%."
+        }
+      ],
+      "checked_at": "2026-03-11T04:33:02.155540",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

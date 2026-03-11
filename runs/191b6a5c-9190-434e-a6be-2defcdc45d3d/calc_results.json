@@ -1,0 +1,110 @@
+[
+  {
+    "calc_id": "aa10691e-fd67-4180-b25a-33f125e426f2",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 170782000000.0,
+      "denominator": 394328000000.0
+    },
+    "result": 0.43309630561360085,
+    "formula_description": "170782000000.0 / 394328000000.0 = 0.4331 (43.31%)",
+    "description": "AAPL Gross Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "e59ce546-00b9-4b62-a1cd-6f4e46a1851d",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 119437000000.0,
+      "denominator": 394328000000.0
+    },
+    "result": 0.30288744395528594,
+    "formula_description": "119437000000.0 / 394328000000.0 = 0.3029 (30.29%)",
+    "description": "AAPL Operating Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "43bc339e-5f84-4da9-b3d8-ce448ccb0c48",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 99803000000.0,
+      "denominator": 394328000000.0
+    },
+    "result": 0.2530964070519973,
+    "formula_description": "99803000000.0 / 394328000000.0 = 0.2531 (25.31%)",
+    "description": "AAPL Net Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "ec8339f6-276c-4fdf-ad1c-0922e4e82180",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 133138000000.0,
+      "denominator": 394328000000.0
+    },
+    "result": 0.33763263070337385,
+    "formula_description": "133138000000.0 / 394328000000.0 = 0.3376 (33.76%)",
+    "description": "AAPL EBITDA Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "2ad43936-d349-49e9-85d2-d3bf3081b852",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 26251000000.0,
+      "revenue": 394328000000.0
+    },
+    "result": 0.06657148363798665,
+    "formula_description": "R&D (26251000000.0) / revenue (394328000000.0) = 0.0666 (6.66%)",
+    "description": "AAPL R&D Intensity (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 135405000000.0,
+      "current_liabilities": 153982000000.0
+    },
+    "result": 0.8793560286267226,
+    "formula_description": "current_assets (135405000000.0) / current_liabilities (153982000000.0) = 0.88",
+    "description": "AAPL Current Ratio (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "98086b87-146b-4026-b397-39037d951e84",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 132480000000.0,
+      "equity": 50672000000.0
+    },
+    "result": 2.6144616356173036,
+    "formula_description": "total_debt (132480000000.0) / equity (50672000000.0) = 2.61",
+    "description": "AAPL Debt-to-Equity (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "85c5c25f-55c1-42ad-a381-fb98ff54ca9e",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 132480000000.0,
+      "cash": 23646000000.0
+    },
+    "result": 108834000000.0,
+    "formula_description": "total_debt (132480000000.0) - cash (23646000000.0) = 108834000000.0",
+    "description": "AAPL Net Debt (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "86a90358-6017-4415-bb01-bf919ca4c9f6",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 111443000000.0,
+      "revenue": 394328000000.0
+    },
+    "result": 0.2826149804223895,
+    "formula_description": "FCF (111443000000.0) / revenue (394328000000.0) = 0.2826 (28.26%)",
+    "description": "AAPL FCF Margin (FY)",
+    "error": null
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "revision_id": "c76b3877-9b56-4595-9699-1430c42443cb",
+  "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+  "iteration": 2,
+  "original_text": "Financial risks include leverage and liquidity concerns. Apple’s debt levels have increased, with total debt reaching $112,377 billion as of 2025 (chunk_id_b514afc2-5e79-48b8-be76-213c12fd2bfb). While the company maintains a healthy cash position, the high level of debt could pose challenges during economic downturns. Moreover, the current ratio of 0.8794 (calculated from chunk_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7) indicates potential liquidity issues if short-term liabilities increase significantly.",
+  "revised_text": "Financial risks include leverage and liquidity concerns. Apple’s total debt has reached $112,377,000,000 as of 2025 (chunk_id_b514afc2-5e79-48b8-be76-213c12fd2bfb). While the company maintains a healthy cash position, the high level of debt could pose challenges during economic downturns. Moreover, the current ratio of 0.95 (calculated from chunk_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7) indicates potential liquidity issues if short-term liabilities increase significantly.",
+  "issues_addressed": [
+    "d5232cca-e3fa-4985-afe7-2f49c806ed32",
+    "571c66db-1d97-45c7-bfc5-b04d41d7cfdf"
+  ],
+  "changes_summary": "Corrected the total debt amount to $112,377,000,000 and updated the current ratio to 0.95 based on the provided calculations.",
+  "revised_at": "2026-03-11T04:34:50.268763"
+}

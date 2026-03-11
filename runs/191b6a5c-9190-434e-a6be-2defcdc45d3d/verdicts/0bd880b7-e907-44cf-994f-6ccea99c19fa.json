@@ -1,0 +1,35 @@
+{
+  "verdict_id": "0bd880b7-e907-44cf-994f-6ccea99c19fa",
+  "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "98dc980b-d2ee-417c-9187-5316d15f4b72",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "Apple's profitability has been driven by strong earnings before interest, taxes, depreciation, and amortization (EBITDA), which maintained an EBITDA margin of 33.76% in fiscal year 2025 (calc_id_ec8339f6-276c-4fdf-ad1c-0922e4e82180).",
+      "explanation": "The EBITDA margin of 33.76% for fiscal year 2025 is not supported by any cited evidence or calculation.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "ec8339f6-276c-4fdf-ad1c-0922e4e82180"
+      ],
+      "recommended_fix": "Provide a valid source for the EBITDA margin of 33.76% for fiscal year 2025."
+    },
+    {
+      "issue_id": "436f1bbf-a161-438f-be82-72159c19592f",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "b242bedd-9606-41cf-b038-9c3bf24380db",
+      "offending_span": "the company's robust operating cash flow has resulted in a free cash flow (FCF) margin of 28.26%, indicating that Apple is generating substantial cash from operations relative to its revenue (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6).",
+      "explanation": "The FCF margin of 28.26% is not supported by any cited evidence or calculation.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Provide a valid source for the FCF margin of 28.26%."
+    }
+  ],
+  "checked_at": "2026-03-11T04:30:38.826752",
+  "iteration": 1
+}

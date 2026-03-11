@@ -1,0 +1,55 @@
+{
+  "paragraph_id": "bdb69edb-2130-46d4-8b4b-9d391e861477",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Strategic initiatives include the acquisition of companies such as Shazam in 2024 to enhance its music and media services, and the launch of new markets like India in 2025 to tap into growing consumer demand. Apple has also been expanding its partnerships, notably with T-Mobile US for 5G deployment, which is expected to boost its presence in the U.S. market. These strategic moves underscore the company's commitment to innovation and market expansion.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "90abe175-c309-4234-904d-878af186a1c6",
+      "paragraph_id": "bdb69edb-2130-46d4-8b4b-9d391e861477",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "f4bc3ee5-6201-4c70-adf6-eb1662957e34",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "bdb69edb-2130-46d4-8b4b-9d391e861477",
+          "offending_span": "Strategic initiatives include the acquisition of companies such as Shazam in 2024 to enhance its music and media services, and the launch of new markets like India in 2025 to tap into growing consumer demand.",
+          "explanation": "The paragraph makes claims about future acquisitions and market launches without any supporting evidence or citations.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add citations to evidence supporting these future plans, or rephrase to indicate they are projections or expectations."
+        },
+        {
+          "issue_id": "a5f6719c-8485-42b9-b9c8-83d02dfe9093",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "bdb69edb-2130-46d4-8b4b-9d391e861477",
+          "offending_span": "Apple has also been expanding its partnerships, notably with T-Mobile US for 5G deployment, which is expected to boost its presence in the U.S. market.",
+          "explanation": "The paragraph mentions a partnership with T-Mobile US for 5G deployment, but no evidence is provided to support this claim.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add a citation to evidence supporting this partnership or rephrase to indicate it is an expectation."
+        },
+        {
+          "issue_id": "851f6bb4-03e7-4da6-9a12-81a6d406c0b7",
+          "issue_type": "scope_violation",
+          "severity": "minor",
+          "paragraph_id": "bdb69edb-2130-46d4-8b4b-9d391e861477",
+          "offending_span": "As of 2026-01",
+          "explanation": "The paragraph discusses future plans and partnerships that extend beyond the as-of date of January 2026.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Clarify the timeframe for each statement or adjust the as-of date to reflect the latest information."
+        }
+      ],
+      "checked_at": "2026-03-11T04:33:39.528506",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,37 @@
+{
+  "verdict_id": "21252ce8-bbba-4d15-8a22-8dcae4691323",
+  "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "457105bd-30bc-4983-9321-a2ea0cf42a39",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+      "offending_span": "The current ratio of 0.95 (calculated from chunk_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7) indicates potential liquidity issues if short-term liabilities increase significantly.",
+      "explanation": "The calculated current ratio is 0.8794, not 0.95 as stated in the paragraph.",
+      "relevant_chunk_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "relevant_calc_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "recommended_fix": "Update the current ratio to 0.8794 based on the calculation result."
+    },
+    {
+      "issue_id": "1d5a50b3-1f29-4283-acb1-e342be0002bb",
+      "issue_type": "scope_violation",
+      "severity": "major",
+      "paragraph_id": "82f366e8-dd4f-4a13-bdb5-16577bd65381",
+      "offending_span": "Apple’s total debt has reached $112,377,000,000 as of 2025 (chunk_id_b514afc2-5e79-48b8-be76-213c12fd2bfb).",
+      "explanation": "The as-of date for the risk analysis is 2026-01, so the debt figure should be for 2026, not 2025.",
+      "relevant_chunk_ids": [
+        "b514afc2-5e79-48b8-be76-213c12fd2bfb"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the as-of date for the debt figure to 2026-01."
+    }
+  ],
+  "checked_at": "2026-03-11T04:34:58.039299",
+  "iteration": 2
+}

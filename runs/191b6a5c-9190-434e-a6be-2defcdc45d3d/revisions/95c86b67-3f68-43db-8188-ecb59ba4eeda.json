@@ -1,0 +1,12 @@
+{
+  "revision_id": "95c86b67-3f68-43db-8188-ecb59ba4eeda",
+  "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+  "iteration": 2,
+  "original_text": "Key growth drivers for Apple include the expansion of its services segment, particularly in subscription-based services such as Apple Music, Apple TV+, and Apple Arcade. These services contribute to the company's net margin, with a 25.31% net margin in fiscal year 2024 (chunk_id_43bc339e-5f84-4da9-b3d8-ce448ccb0c48). Additionally, the company's focus on emerging markets and the continued adoption of its products in these regions are expected to drive future growth. Recent financial results indicate a robust performance, with a free cash flow margin of 28.26% (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6), reflecting strong operational efficiency.",
+  "revised_text": "Key growth drivers for Apple include the expansion of its services segment, particularly in subscription-based services such as Apple Music, Apple TV+, and Apple Arcade. These services contribute to the company's net margin, with a 28.26% free cash flow margin in fiscal year 2024 (calc_id_86a90358-6017-4415-bb01-bf919ca4c9f6), reflecting strong operational efficiency. Additionally, the company's focus on emerging markets and the continued adoption of its products in these regions are expected to drive future growth.",
+  "issues_addressed": [
+    "4c6e5cb9-84b3-4588-8883-82bf6f9931c9"
+  ],
+  "changes_summary": "Removed the unsupported claim about the 25.31% net margin for fiscal year 2024 and replaced it with the accurate free cash flow margin of 28.26%, which is cited from a relevant calculation result.",
+  "revised_at": "2026-03-11T04:33:17.484000"
+}

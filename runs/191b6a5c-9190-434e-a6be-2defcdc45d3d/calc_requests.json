@@ -1,0 +1,119 @@
+[
+  {
+    "calc_id": "aa10691e-fd67-4180-b25a-33f125e426f2",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 170782000000.0,
+      "denominator": 394328000000.0
+    },
+    "description": "AAPL Gross Margin (FY)",
+    "chunk_ids_used": [
+      "a3ead790-8043-4b56-a3f8-0c05c7435798",
+      "9bf9a4f9-8f14-4746-99cb-8047230019a1"
+    ]
+  },
+  {
+    "calc_id": "e59ce546-00b9-4b62-a1cd-6f4e46a1851d",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 119437000000.0,
+      "denominator": 394328000000.0
+    },
+    "description": "AAPL Operating Margin (FY)",
+    "chunk_ids_used": [
+      "ea4d6c4c-fc95-4f01-ad17-d71cd96a916f",
+      "9bf9a4f9-8f14-4746-99cb-8047230019a1"
+    ]
+  },
+  {
+    "calc_id": "43bc339e-5f84-4da9-b3d8-ce448ccb0c48",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 99803000000.0,
+      "denominator": 394328000000.0
+    },
+    "description": "AAPL Net Margin (FY)",
+    "chunk_ids_used": [
+      "cd2f23a0-c2f7-4ac3-9520-bd41f00507a4",
+      "9bf9a4f9-8f14-4746-99cb-8047230019a1"
+    ]
+  },
+  {
+    "calc_id": "ec8339f6-276c-4fdf-ad1c-0922e4e82180",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 133138000000.0,
+      "denominator": 394328000000.0
+    },
+    "description": "AAPL EBITDA Margin (FY)",
+    "chunk_ids_used": [
+      "c81c51de-13cd-4e29-b02d-bb01c4bf087a",
+      "9bf9a4f9-8f14-4746-99cb-8047230019a1"
+    ]
+  },
+  {
+    "calc_id": "2ad43936-d349-49e9-85d2-d3bf3081b852",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 26251000000.0,
+      "revenue": 394328000000.0
+    },
+    "description": "AAPL R&D Intensity (FY)",
+    "chunk_ids_used": [
+      "eae7b065-c3b3-427c-9a43-6be5533c0663",
+      "9bf9a4f9-8f14-4746-99cb-8047230019a1"
+    ]
+  },
+  {
+    "calc_id": "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 135405000000.0,
+      "current_liabilities": 153982000000.0
+    },
+    "description": "AAPL Current Ratio (FY)",
+    "chunk_ids_used": [
+      "2efc108e-780c-4694-aca2-23d5856ecff2",
+      "f92b41a3-098e-4c5c-975c-e90e7c54126f"
+    ]
+  },
+  {
+    "calc_id": "98086b87-146b-4026-b397-39037d951e84",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 132480000000.0,
+      "equity": 50672000000.0
+    },
+    "description": "AAPL Debt-to-Equity (FY)",
+    "chunk_ids_used": [
+      "3d3022e5-3994-4610-a6cb-ffe94dbc985d",
+      "34be6fe8-f921-45d9-adfa-22a7404e95fa"
+    ]
+  },
+  {
+    "calc_id": "85c5c25f-55c1-42ad-a381-fb98ff54ca9e",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 132480000000.0,
+      "cash": 23646000000.0
+    },
+    "description": "AAPL Net Debt (FY)",
+    "chunk_ids_used": [
+      "3d3022e5-3994-4610-a6cb-ffe94dbc985d",
+      "5bb12bf9-ed80-46b9-a0e3-3c1b3ee674da"
+    ]
+  },
+  {
+    "calc_id": "86a90358-6017-4415-bb01-bf919ca4c9f6",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 111443000000.0,
+      "revenue": 394328000000.0
+    },
+    "description": "AAPL FCF Margin (FY)",
+    "chunk_ids_used": [
+      "468d0ed6-2ff3-47da-b487-ea157912f307",
+      "9bf9a4f9-8f14-4746-99cb-8047230019a1"
+    ]
+  }
+]

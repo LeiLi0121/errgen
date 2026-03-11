@@ -1,0 +1,33 @@
+{
+  "verdict_id": "8740fc1b-3084-428c-9261-f3aac16ac7ac",
+  "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "4c6e5cb9-84b3-4588-8883-82bf6f9931c9",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "offending_span": "with a 25.31% net margin in fiscal year 2024",
+      "explanation": "The cited chunks do not provide any information about Apple's net margin for fiscal year 2024.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the claim about the 25.31% net margin for fiscal year 2024 or provide a relevant evidence chunk."
+    },
+    {
+      "issue_id": "9945faf1-9934-402a-9270-748929448646",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "38b46948-c69c-43a8-8f2e-65078a7247ce",
+      "offending_span": "free cash flow margin of 28.26%",
+      "explanation": "The cited calculation result shows a free cash flow margin of 28.26%, but the paragraph does not specify the fiscal year or period for this figure.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "86a90358-6017-4415-bb01-bf919ca4c9f6"
+      ],
+      "recommended_fix": "Clarify the fiscal year or period for which the 28.26% free cash flow margin applies."
+    }
+  ],
+  "checked_at": "2026-03-11T04:33:13.316248",
+  "iteration": 1
+}

@@ -1,0 +1,36 @@
+{
+  "verdict_id": "86b4b665-a91a-4a6d-9c1b-c1dba5c5cf5c",
+  "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "3bedf1ad-2b5f-4d32-b4cb-84f1b1a6d6e6",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "On the balance sheet, Apple's liquidity has been adequate, with a current ratio of 0.8794 (calc_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7).",
+      "explanation": "The paragraph claims that Apple's liquidity has been adequate, but this claim is not supported by any cited evidence or previous verified facts.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "recommended_fix": "Remove the claim about Apple's liquidity being adequate since it is not supported by the provided evidence."
+    },
+    {
+      "issue_id": "75d8672b-c8d9-4d1c-a0f1-1c46cf8a8b41",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "However, the company's leverage remains high, with a debt-to-equity ratio of 2.6145 (calc_id_98086b87-146b-4026-b397-39037d951e84) and net debt of $108,834 million (calc_id_85c5c25f-55c1-42ad-a381-fb98ff54ca9e).",
+      "explanation": "The debt-to-equity ratio cited is 2.6145, which does not match the calculation result of 2.61. The net debt figure is accurate, but the debt-to-equity ratio is incorrect.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "98086b87-146b-4026-b397-39037d951e84",
+        "85c5c25f-55c1-42ad-a381-fb98ff54ca9e"
+      ],
+      "recommended_fix": "Correct the debt-to-equity ratio to 2.61 and ensure that all cited values are accurate."
+    }
+  ],
+  "checked_at": "2026-03-11T04:31:36.774997",
+  "iteration": 1
+}

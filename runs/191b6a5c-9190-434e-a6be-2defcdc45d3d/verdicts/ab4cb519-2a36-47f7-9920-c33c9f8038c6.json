@@ -1,0 +1,35 @@
+{
+  "verdict_id": "ab4cb519-2a36-47f7-9920-c33c9f8038c6",
+  "paragraph_id": "160c47ac-c2db-45da-8d02-584b4e469c6f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "af7898f2-3a6c-4000-bb23-606ba19c6b62",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "160c47ac-c2db-45da-8d02-584b4e469c6f",
+      "offending_span": "Apple has maintained a consistent intensity relative to revenue, averaging 6.66% over the period (calc_id_2ad43936-d349-49e9-85d2-d3bf3081b852).",
+      "explanation": "The paragraph claims that Apple has maintained a consistent R&D intensity at 6.66%, but no evidence is provided to support this claim.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "2ad43936-d349-49e9-85d2-d3bf3081b852"
+      ],
+      "recommended_fix": "Provide evidence from financial statements or other reliable sources to support the claim about the consistent R&D intensity."
+    },
+    {
+      "issue_id": "ca1fc75c-d575-4fb7-bb70-92b2bee3d49b",
+      "issue_type": "scope_violation",
+      "severity": "minor",
+      "paragraph_id": "160c47ac-c2db-45da-8d02-584b4e469c6f",
+      "offending_span": "2026-01",
+      "explanation": "The paragraph mentions an as-of date of January 2026, but the cited calculation result uses fiscal year data, which may not align with the specified date.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "2ad43936-d349-49e9-85d2-d3bf3081b852"
+      ],
+      "recommended_fix": "Ensure that the fiscal year data used in the calculation aligns with the specified as-of date of January 2026."
+    }
+  ],
+  "checked_at": "2026-03-11T04:32:29.978250",
+  "iteration": 0
+}

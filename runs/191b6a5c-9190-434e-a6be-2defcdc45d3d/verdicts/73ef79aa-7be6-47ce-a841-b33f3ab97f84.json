@@ -1,0 +1,87 @@
+{
+  "verdict_id": "73ef79aa-7be6-47ce-a841-b33f3ab97f84",
+  "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "a584c42a-d00c-489a-9bec-426355cff61a",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "Apple's current ratio stands at 0.8794 (calc_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7)",
+      "explanation": "The current ratio is not mentioned in any of the provided evidence chunks.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "recommended_fix": "Add a reference to the relevant chunk or recalculate the current ratio."
+    },
+    {
+      "issue_id": "d5024d28-0111-4f05-b68d-43f8ad64f883",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "Apple's leverage remains high, with a debt-to-equity ratio of 2.6145 (calc_id_e59ce546-00b9-4b62-a1cd-6f4e46a1851d)",
+      "explanation": "The debt-to-equity ratio is not mentioned in any of the provided evidence chunks.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "e59ce546-00b9-4b62-a1cd-6f4e46a1851d"
+      ],
+      "recommended_fix": "Add a reference to the relevant chunk or recalculate the debt-to-equity ratio."
+    },
+    {
+      "issue_id": "09bd49f8-f68e-44ee-946c-128d5188a10f",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "net debt of $10,883,400,000,000.0000 (calc_id_85c5c25f-55c1-42ad-a381-fb98ff54ca9e)",
+      "explanation": "The net debt figure is not mentioned in any of the provided evidence chunks.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "85c5c25f-55c1-42ad-a381-fb98ff54ca9e"
+      ],
+      "recommended_fix": "Add a reference to the relevant chunk or recalculate the net debt."
+    },
+    {
+      "issue_id": "0f8fee2a-cac8-471e-b68f-ab9bbbbc18dd",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "current ratio stands at 0.8794 (calc_id_d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7)",
+      "explanation": "The current ratio should be 0.88, not 0.8794, based on the calculation result.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "d2a9afd8-34c1-481f-bcd8-08ac6e7ec4d7"
+      ],
+      "recommended_fix": "Correct the current ratio to 0.88."
+    },
+    {
+      "issue_id": "922f4b07-fa4d-4778-ab99-b5b6a38225a5",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "debt-to-equity ratio of 2.6145 (calc_id_e59ce546-00b9-4b62-a1cd-6f4e46a1851d)",
+      "explanation": "The debt-to-equity ratio should be 3.24, not 2.6145, based on the calculation result.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "e59ce546-00b9-4b62-a1cd-6f4e46a1851d"
+      ],
+      "recommended_fix": "Correct the debt-to-equity ratio to 3.24."
+    },
+    {
+      "issue_id": "3b3a7f46-a1c4-4f1c-8e3a-f8a82a07db00",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "d67bf4c9-0e71-4c6d-883b-ce304df6d82f",
+      "offending_span": "net debt of $10,883,400,000,000.0000 (calc_id_85c5c25f-55c1-42ad-a381-fb98ff54ca9e)",
+      "explanation": "The net debt should be $10,883,400,000,000.00, not $10,883,400,000,000.0000, based on the calculation result.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "85c5c25f-55c1-42ad-a381-fb98ff54ca9e"
+      ],
+      "recommended_fix": "Correct the net debt to $10,883,400,000,000.00."
+    }
+  ],
+  "checked_at": "2026-03-11T04:32:23.663285",
+  "iteration": 3
+}
