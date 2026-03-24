@@ -1,0 +1,22 @@
+{
+  "verdict_id": "d5c2c55d-3ab0-46b6-bc21-43450ddbac36",
+  "paragraph_id": "ed535723-b523-4002-b291-9dd00f288de4",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "41d00e6f-e3b6-4bd7-a191-bfce12f0fb86",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "ed535723-b523-4002-b291-9dd00f288de4",
+      "offending_span": "international operations across the United States",
+      "explanation": "The cited chunk lists 'United States' separately from 'internationally' ('in the United States, Taiwan, China, and internationally'). NVIDIA is a US-based company, so US operations are domestic, not international. Labeling US operations as 'international' is imprecise and slightly mismatches the distinction made in the source text.",
+      "relevant_chunk_ids": [
+        "cd7d7972-79b5-433f-b378-e23ffc087d85"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to 'operations across the United States, Taiwan, China, and internationally' or 'global operations across...' to accurately reflect the domestic nature of US operations while retaining the citation support for the locations."
+    }
+  ],
+  "checked_at": "2026-03-23T05:49:19.193282",
+  "iteration": 0
+}

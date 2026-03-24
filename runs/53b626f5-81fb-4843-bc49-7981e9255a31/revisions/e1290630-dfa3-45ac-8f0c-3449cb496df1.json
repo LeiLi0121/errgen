@@ -1,0 +1,14 @@
+{
+  "revision_id": "e1290630-dfa3-45ac-8f0c-3449cb496df1",
+  "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+  "iteration": 1,
+  "original_text": "Profitability metrics show dramatic expansion from FY2022 baseline levels. FY2025 gross profit reached $360,510,000,000 [CHUNK_ID: acb368e0-60f2-4431-9044-b8d2820f4da9], operating income climbed to $79,975,000,000 [CHUNK_ID: 98d37e7b-d9b8-4798-8d78-32c8508a1ff4], and net income achieved $77,670,000,000 [CHUNK_ID: 702aed43-27c7-4250-b493-cced0fb3ad06]. This represents substantial improvement from FY2022, where gross margin stood at 43.81% [CALC_ID: edade71e-0bfb-4746-a37b-e3e09c550cd3], operating margin at 2.38% [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31], and net margin at -0.53% [CALC_ID: 8a641992-c5cf-4f11-90ac-1eca33419a4c]. The margin expansion trajectory indicates successful cost optimization initiatives and a favorable shift toward higher-margin businesses including AWS and advertising.",
+  "revised_text": "Profitability metrics show dramatic expansion from FY2022 baseline levels. FY2025 gross profit is projected to reach $360,510,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], operating income to climb to $79,975,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], and net income to achieve $77,670,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. This represents substantial improvement from FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e], where gross margin stood at 43.81% [CALC_ID: edade71e-0bfb-4746-a37b-e3e09c550cd3], operating margin at 2.38% [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31], and net margin at -0.53% [CALC_ID: 8a641992-c5cf-4f11-90ac-1eca33419a4c]. The margin expansion trajectory indicates successful cost optimization initiatives and a favorable shift toward higher-margin businesses including AWS and advertising.",
+  "issues_addressed": [
+    "1acc4bf9-1616-440c-a80c-2bbbcc902905",
+    "e390bb22-ab9f-4ce9-957c-c112294e15a0",
+    "fc148b2e-55d3-4ade-89fb-ea643919b597"
+  ],
+  "changes_summary": "Fixed three issues: (1) Changed FY2025 language from 'reached/climbed to/achieved' (actuals) to 'is projected to reach/climb to/achieve' (projections) to address scope violation since FY2025 is not complete as of July 2025; (2) Replaced chunks acb368e0, 98d37e7b, 702aed43 with chunk 4a8ce233 which explicitly shows Date: 2025-12-31, properly supporting FY2025 attribution; (3) Added chunk bc591e33 (FY2022 income statement with Date: 2022-12-31) to support the FY2022 margin claims, as the calculation IDs alone do not specify the fiscal year.",
+  "revised_at": "2026-03-12T11:00:15.374731"
+}

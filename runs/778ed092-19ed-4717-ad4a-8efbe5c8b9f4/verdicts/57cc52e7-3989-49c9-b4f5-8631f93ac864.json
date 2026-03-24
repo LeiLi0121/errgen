@@ -1,0 +1,61 @@
+{
+  "verdict_id": "57cc52e7-3989-49c9-b4f5-8631f93ac864",
+  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "e33d9cf4-e2c0-406d-9662-7cf17ad4ffd6",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+      "offending_span": "According to Reuters reporting cited in a letter from Representative John Moolenaar",
+      "explanation": "The paragraph states that Reuters reporting was cited in Moolenaar's letter. However, the evidence chunk states the opposite: 'According to reporting from Reuters, citing a letter from Representative John Moolenaar'. The Reuters article cites the letter, not the letter citing Reuters.",
+      "relevant_chunk_ids": [
+        "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to: 'According to Reuters reporting, which cites a letter from Representative John Moolenaar...' or 'According to a letter from Representative John Moolenaar, as reported by Reuters...'"
+    },
+    {
+      "issue_id": "f772446b-1166-44d7-b104-a5ac8ffb59f1",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+      "offending_span": "the House Select Committee on China revealed",
+      "explanation": "The cited chunk mentions 'Representative John Moolenaar' and 'congressional scrutiny' but does not explicitly name the 'House Select Committee on China'. While Moolenaar chairs the committee, the specific committee name is not supported by the provided text.",
+      "relevant_chunk_ids": [
+        "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific committee name unless supported by another chunk, or phrase as 'Representative John Moolenaar (Chair of the House Select Committee on China)' if external knowledge is permitted, otherwise stick to 'Representative John Moolenaar'."
+    },
+    {
+      "issue_id": "eaf27b18-2bdd-41cf-a19e-dc54986b7de9",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+      "offending_span": "NVIDIA faces mounting regulatory scrutiny",
+      "explanation": "The evidence chunk specifies 'congressional scrutiny'. Congressional oversight is distinct from 'regulatory scrutiny' (which typically implies executive agencies like SEC, DOJ, or BIS). The paragraph conflates the two without evidence of regulatory agency action.",
+      "relevant_chunk_ids": [
+        "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change 'regulatory scrutiny' to 'congressional scrutiny' or 'oversight' to accurately reflect the evidence."
+    },
+    {
+      "issue_id": "e4e9f68d-c97a-41f7-bf2a-b19f8875ffd8",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+      "offending_span": "optimized technical support",
+      "explanation": "The chunk mentions 'technical assistance' and 'efficiency gains' but does not use the term 'optimized'. This adds a qualitative descriptor not found in the source.",
+      "relevant_chunk_ids": [
+        "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove 'optimized' or replace with 'technical assistance' as per the chunk."
+    }
+  ],
+  "checked_at": "2026-03-23T05:05:16.331524",
+  "iteration": 0
+}

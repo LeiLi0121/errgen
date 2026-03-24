@@ -1,0 +1,241 @@
+[
+  {
+    "calc_id": "abb71737-96c6-4570-bd58-0eb60e057c8a",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 6398000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 5873000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 5988000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 6194000000.0
+        }
+      ]
+    },
+    "description": "ADBE Revenue YoY Growth Table",
+    "chunk_ids_used": [
+      "381f0c51-a684-46bb-8053-ca473761d598",
+      "55b6933e-f836-4799-a708-66bdb6ec3f42",
+      "be204724-0c9b-4495-a393-b209817b0a7e",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "caffc96f-a826-4c34-955a-2dfaa1b1a3b4",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 1889000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 1691000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 1772000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 1856000000.0
+        }
+      ]
+    },
+    "description": "ADBE Net Income YoY Growth Table",
+    "chunk_ids_used": [
+      "97121260-cd04-4840-9e5f-8f903bd5656d",
+      "93791694-a718-484f-aaf9-7fbf67f0735b",
+      "ce686717-6107-4866-a57c-4ec2917a2d14",
+      "ca0291be-20f6-4248-a088-267c3b51f017"
+    ]
+  },
+  {
+    "calc_id": "8c1b9a10-2466-4694-92fa-5cf89f5d11b4",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 5508000000.0,
+      "denominator": 6194000000.0
+    },
+    "description": "ADBE Gross Margin (Q4)",
+    "chunk_ids_used": [
+      "33f5f663-feee-4785-add0-7c83bf354b8c",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "dab61c03-e2fc-41b7-9755-7fee316bd3e9",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 2261000000.0,
+      "denominator": 6194000000.0
+    },
+    "description": "ADBE Operating Margin (Q4)",
+    "chunk_ids_used": [
+      "72ace5e4-1b1a-44bb-a9ac-8579ce5740c3",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "ba975ec2-0bc6-4522-9a0f-d6447a44f2d7",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 1856000000.0,
+      "denominator": 6194000000.0
+    },
+    "description": "ADBE Net Margin (Q4)",
+    "chunk_ids_used": [
+      "ca0291be-20f6-4248-a088-267c3b51f017",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "aafdde70-4309-4c79-b4af-1866ec6f1adf",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 2448000000.0,
+      "denominator": 6194000000.0
+    },
+    "description": "ADBE EBITDA Margin (Q4)",
+    "chunk_ids_used": [
+      "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "a7c4f13d-840e-4f02-a7f3-7175e7c43a49",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 1098000000.0,
+      "revenue": 6194000000.0
+    },
+    "description": "ADBE R&D Intensity (Q4)",
+    "chunk_ids_used": [
+      "9c3e647c-bfea-4b52-bb4c-9703c7ba84cf",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "e00fb55b-793c-4e6a-bea8-4bbb367fc757",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 10163000000.0,
+      "current_liabilities": 10200000000.0
+    },
+    "description": "ADBE Current Ratio (Q4)",
+    "chunk_ids_used": [
+      "c25f35ab-3a45-43b7-9a51-4c9bb0d91fdd",
+      "5c413541-a507-4f5c-9ca4-eeb5f3fe10d1"
+    ]
+  },
+  {
+    "calc_id": "2df3b40d-6bf4-4dc9-b76a-aa853c654dd8",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 6648000000.0,
+      "equity": 11623000000.0
+    },
+    "description": "ADBE Debt-to-Equity (Q4)",
+    "chunk_ids_used": [
+      "0a70efb3-9006-4876-b1d6-0a7a9e807517",
+      "8a0a1707-0876-4490-bc74-303d1707cc5a"
+    ]
+  },
+  {
+    "calc_id": "38248b63-c9bb-4a98-9e26-3281ed35e762",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 6648000000.0,
+      "cash": 5431000000.0
+    },
+    "description": "ADBE Net Debt (Q4)",
+    "chunk_ids_used": [
+      "0a70efb3-9006-4876-b1d6-0a7a9e807517",
+      "6a40e0f1-d6ca-4f8a-b7cb-307e0b03bd94"
+    ]
+  },
+  {
+    "calc_id": "3ef631ef-031f-4a8e-b8ab-607f92c2153d",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 3126000000.0,
+      "revenue": 6194000000.0
+    },
+    "description": "ADBE FCF Margin (Q4)",
+    "chunk_ids_used": [
+      "b18f50e5-63fa-444f-9fd1-5c9a4d9421b1",
+      "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+    ]
+  },
+  {
+    "calc_id": "60fe4ed7-0ac0-4a97-aa7c-8c34ca5bf5c3",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 353.96,
+      "previous": 370.7
+    },
+    "description": "ADBE 30d price return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "a79ace0c-d91b-4a7a-a218-577519dd30b9",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 648.92,
+      "previous": 635.26
+    },
+    "description": "SPY 30d benchmark return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "a18fdb9d-ed28-47d0-8a2a-0f52855189cc",
+    "operation": "difference",
+    "inputs": {
+      "a": -0.04515780954950097,
+      "b": 0.021503006642949293
+    },
+    "description": "ADBE 30d excess return vs SPY",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "3d9158f9-bc84-46fe-9996-d84fb77498d0",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 353.96,
+      "previous": 560.54
+    },
+    "description": "ADBE 1y price return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "bb86410d-44ae-46dd-b9a4-dc994997a501",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 648.92,
+      "previous": 558.3
+    },
+    "description": "SPY 1y benchmark return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "cdc7a7dd-d117-4ecb-bfac-d106ab155882",
+    "operation": "difference",
+    "inputs": {
+      "a": -0.3685374817140614,
+      "b": 0.16231416801003046
+    },
+    "description": "ADBE 1y excess return vs SPY",
+    "chunk_ids_used": []
+  }
+]

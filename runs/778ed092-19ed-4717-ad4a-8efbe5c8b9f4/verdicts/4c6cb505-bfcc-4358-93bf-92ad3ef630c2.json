@@ -1,0 +1,39 @@
+{
+  "verdict_id": "4c6cb505-bfcc-4358-93bf-92ad3ef630c2",
+  "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "c1334da1-10e1-4ce4-9079-b140f1ccb77f",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+      "offending_span": "short-term investments of $51,951,000,000",
+      "explanation": "The paragraph claims short-term investments of $51,951,000,000, but this figure is not found in any of the cited chunks (aa5327bc-c0f8-4853-8d2a-3d41ccc9877b or 4bc124d0-55c5-43b2-8ab4-271e8fceebfa). Chunk aa5327bc only contains cash & equivalents ($10,605,000,000), and chunk 4bc124d0 only contains total debt ($11,412,000,000). No evidence supports the short-term investments figure.",
+      "relevant_chunk_ids": [
+        "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+        "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either remove the short-term investments claim entirely, or locate and cite the correct chunk containing short-term investments data. If short-term investments should be included in net debt calculation, update the calculation accordingly."
+    },
+    {
+      "issue_id": "cab36035-5217-40ae-8708-c613529cc711",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+      "offending_span": "Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 plus short-term investments of $51,951,000,000, resulting in net debt of only $807,000,000",
+      "explanation": "The cited calculation (CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106) computes net debt as total_debt (11,412,000,000) - cash (10,605,000,000) = 807,000,000. This calculation does NOT include short-term investments. The text claims net debt results from subtracting both cash AND short-term investments, but the calculation only subtracts cash. If short-term investments of $51,951,000,000 were actually included, net debt would be approximately -$51,144,000,000, not $807,000,000.",
+      "relevant_chunk_ids": [
+        "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+        "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+      ],
+      "relevant_calc_ids": [
+        "36dc1d31-f0f0-44e7-b628-679358946106"
+      ],
+      "recommended_fix": "Revise the text to accurately reflect the calculation methodology. Either: (1) Remove mention of short-term investments from the net debt explanation, stating only cash and equivalents are used; or (2) If short-term investments should be included, update the calculation to include them and report the correct net debt figure."
+    }
+  ],
+  "checked_at": "2026-03-23T05:36:15.224685",
+  "iteration": 0
+}

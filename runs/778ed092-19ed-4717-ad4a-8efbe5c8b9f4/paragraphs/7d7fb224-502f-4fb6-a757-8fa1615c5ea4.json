@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "7d7fb224-502f-4fb6-a757-8fa1615c5ea4",
+  "section_name": "Company Overview",
+  "text": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+  "citations": [
+    {
+      "citation_id": "5cd43707-bca7-4279-a120-073278903692",
+      "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+      "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+      "source_type": "company_profile",
+      "text_snippet": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,13 @@
+{
+  "revision_id": "fe0f670a-b94d-4b61-bcba-7e3e83153c92",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "iteration": 2,
+  "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating adequate short-term liquidity coverage. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+  "revised_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage as of FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+  "issues_addressed": [
+    "7a164702-8ca0-4283-97a4-7e2e1972c6ae",
+    "0d510805-1235-4264-a0b1-b7ad35fa4ea5"
+  ],
+  "changes_summary": "1. Specified 'FY2025' period and cited FY2025 Income Statement chunk to resolve internal inconsistency with previously verified FY2024 facts. 2. Revised 'adequate short-term liquidity coverage' to 'current assets cover approximately 94% of short-term obligations' to accurately reflect a current ratio below 1.0 and address overclaiming. 3. Ensured all numbers cite calculation IDs and period claims cite chunk IDs.",
+  "revised_at": "2026-03-12T12:46:54.273488"
+}

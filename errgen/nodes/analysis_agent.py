@@ -57,7 +57,11 @@ def _select_chunks(section_key: str, all_chunks: list[EvidenceChunk]) -> list[Ev
     if section_key == "business_analysis":
         return [
             c for c in all_chunks
-            if c.source_type in (SourceType.COMPANY_PROFILE, SourceType.NEWS)
+            if c.source_type in (
+                SourceType.COMPANY_PROFILE,
+                SourceType.NEWS,
+                SourceType.FILING,
+            )
         ]
 
     # risk_analysis receives all chunks

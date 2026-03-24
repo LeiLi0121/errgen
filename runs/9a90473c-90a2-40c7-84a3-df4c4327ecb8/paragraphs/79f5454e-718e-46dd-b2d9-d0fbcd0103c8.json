@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "79f5454e-718e-46dd-b2d9-d0fbcd0103c8",
+  "section_name": "Risk Analysis",
+  "text": "Evidence regarding macro/geopolitical risks, competitive landscape threats, regulatory/antitrust exposure, and supply chain vulnerabilities is insufficient in the provided data to quantify these risk categories with specificity. The company profile indicates NVIDIA operates internationally including in China and Taiwan, which could suggest potential geopolitical exposure, but specific export control impacts or currency risk data are not available in the evidence [CHUNK_ID: 812d4743-83b4-43d7-b5ee-dfc8624a5328]. Similarly, while the semiconductor industry is inherently subject to technology disruption and platform shift risks, the provided financial statements do not contain information on competitive market share, patent exposure, or supply chain dependencies that would allow for detailed risk assessment in these categories. Investors should note these evidence gaps when evaluating the complete risk profile.",
+  "citations": [
+    {
+      "citation_id": "627ef9be-fdcb-4ecd-adae-cdbb76375d72",
+      "chunk_id": "812d4743-83b4-43d7-b5ee-dfc8624a5328",
+      "source_id": "a8362987-27be-4ba9-b8e7-dc156ad32235",
+      "source_type": "company_profile",
+      "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "703db734-9583-4661-bbb1-01e08558ee6e",
+      "paragraph_id": "79f5454e-718e-46dd-b2d9-d0fbcd0103c8",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T14:29:35.545292",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

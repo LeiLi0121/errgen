@@ -57,6 +57,24 @@ class Config:
     FINNHUB_BASE_URL: str = os.environ.get("FINNHUB_BASE_URL", "https://finnhub.io/api/v1")
 
     # ------------------------------------------------------------------
+    # SEC EDGAR (official filings source, no API key required)
+    # SEC expects a descriptive User-Agent with contact info.
+    # ------------------------------------------------------------------
+    SEC_BASE_URL: str = os.environ.get("SEC_BASE_URL", "https://data.sec.gov")
+    SEC_ARCHIVES_BASE_URL: str = os.environ.get(
+        "SEC_ARCHIVES_BASE_URL",
+        "https://www.sec.gov/Archives/edgar/data",
+    )
+    SEC_TICKERS_URL: str = os.environ.get(
+        "SEC_TICKERS_URL",
+        "https://www.sec.gov/files/company_tickers.json",
+    )
+    SEC_USER_AGENT: str = os.environ.get(
+        "SEC_USER_AGENT",
+        "ERRGen/1.0 research pipeline (contact: leili0121@outlook.com)",
+    )
+
+    # ------------------------------------------------------------------
     # Pipeline tuning
     # ------------------------------------------------------------------
     # Maximum checker→reviser iterations before marking as unresolved
@@ -65,6 +83,13 @@ class Config:
     MAX_NEWS_ARTICLES: int = int(os.environ.get("MAX_NEWS_ARTICLES", "20"))
     # How many financial periods (quarters or annual) to retrieve
     MAX_FINANCIAL_PERIODS: int = int(os.environ.get("MAX_FINANCIAL_PERIODS", "4"))
+    # How many SEC filings to retrieve and process
+    MAX_SEC_FILINGS: int = int(os.environ.get("MAX_SEC_FILINGS", "3"))
+    # Benchmark ticker used for relative market-performance analysis
+    BENCHMARK_TICKER: str = os.environ.get("BENCHMARK_TICKER", "SPY")
+    # Price-history windows
+    PRICE_LOOKBACK_DAYS: int = int(os.environ.get("PRICE_LOOKBACK_DAYS", "365"))
+    PREDICTION_LOOKBACK_DAYS: int = int(os.environ.get("PREDICTION_LOOKBACK_DAYS", "30"))
     # Number of LLM call retries on transient failures
     LLM_RETRY_ATTEMPTS: int = int(os.environ.get("LLM_RETRY_ATTEMPTS", "3"))
     # Seconds between retries
@@ -128,8 +153,13 @@ class Config:
             "fmp_base_url": cls.FMP_BASE_URL,
             "newsapi_base_url": cls.NEWSAPI_BASE_URL,
             "finnhub_base_url": cls.FINNHUB_BASE_URL,
+            "sec_base_url": cls.SEC_BASE_URL,
             "max_revision_iterations": cls.MAX_REVISION_ITERATIONS,
             "max_news_articles": cls.MAX_NEWS_ARTICLES,
             "max_financial_periods": cls.MAX_FINANCIAL_PERIODS,
+            "max_sec_filings": cls.MAX_SEC_FILINGS,
+            "benchmark_ticker": cls.BENCHMARK_TICKER,
+            "price_lookback_days": cls.PRICE_LOOKBACK_DAYS,
+            "prediction_lookback_days": cls.PREDICTION_LOOKBACK_DAYS,
             "runs_dir": cls.RUNS_DIR,
         }

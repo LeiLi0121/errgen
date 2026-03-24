@@ -1,0 +1,22 @@
+{
+  "verdict_id": "82abb146-8c7f-4900-b180-76b821cdd780",
+  "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "ed74c0ad-5a51-4c67-87fa-cbabf3c9dfe0",
+      "issue_type": "overclaiming",
+      "severity": "major",
+      "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+      "offending_span": "Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4",
+      "explanation": "The claim that revenue growth 'accelerated throughout fiscal 2026' is not supported by the cited calculation data. The YoY growth table (calc ID 0e671c19-4b44-47a7-9234-5d3634f7be27) shows Q2 at 6.08%, Q3 at 21.96%, and Q4 at 19.51%. Growth actually decelerated from Q3 to Q4 (21.96% to 19.51%), not accelerated throughout. While the endpoint figures (6.08% and 19.51%) are accurate, the characterization of continuous acceleration is misleading and overstates the evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "0e671c19-4b44-47a7-9234-5d3634f7be27"
+      ],
+      "recommended_fix": "Revise to accurately reflect the growth pattern, such as: 'Revenue growth increased from 6.08% YoY in Q2 to a peak of 21.96% in Q3, then moderated to 19.51% in Q4' or 'Revenue growth progressed from 6.08% YoY in Q2 to 19.51% in Q4, with Q3 reaching 21.96%.'"
+    }
+  ],
+  "checked_at": "2026-03-23T07:16:05.835903",
+  "iteration": 1
+}

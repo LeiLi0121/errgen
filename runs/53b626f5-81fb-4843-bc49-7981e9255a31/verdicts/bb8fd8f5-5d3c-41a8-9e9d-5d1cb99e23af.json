@@ -1,0 +1,48 @@
+{
+  "verdict_id": "bb8fd8f5-5d3c-41a8-9e9d-5d1cb99e23af",
+  "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0b52402a-8c8b-4d81-8f76-827d42c4418f",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+      "offending_span": "both identified as high-margin segments",
+      "explanation": "The cited chunk (f3922ad9-85d8-409b-916a-444e08a6a248) states that AWS growth and ad revenue 'underpin upbeat Q2 outlook', but it does not explicitly identify them as 'high-margin segments'. This specific financial characteristic is not supported by the provided text.",
+      "relevant_chunk_ids": [
+        "f3922ad9-85d8-409b-916a-444e08a6a248"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the 'high-margin' descriptor unless supported by another source, or rephrase to match the chunk's language (e.g., 'key growth drivers underpinning outlook')."
+    },
+    {
+      "issue_id": "08b8b320-67ed-4aec-a545-38b2f19ec0de",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+      "offending_span": "AWS provides compute, storage, database, analytics, and machine learning services to enterprises",
+      "explanation": "The cited chunk (43e13619-4c35-4dd4-a32b-ceaa18319a42) lists 'Amazon Web Services (AWS)' as a segment but does not contain the specific list of services (compute, storage, database, etc.) mentioned in the paragraph. The chunk text cuts off before describing AWS offerings.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Cite a chunk that explicitly details AWS service offerings, or remove the specific service list if not supported by the provided evidence."
+    },
+    {
+      "issue_id": "9daecbdb-116d-4d7b-a08c-278f55ff779e",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+      "offending_span": "The advertising business complements the retail ecosystem by enabling sellers and brands to reach customers across Amazon's platforms",
+      "explanation": "The cited chunk (43e13619-4c35-4dd4-a32b-ceaa18319a42) describes Amazon's retail and device business but does not mention an 'advertising business' or its function. This claim is not supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Cite a chunk that discusses Amazon's advertising segment, or remove the description if not supported by the provided evidence."
+    }
+  ],
+  "checked_at": "2026-03-12T10:22:59.839383",
+  "iteration": 0
+}

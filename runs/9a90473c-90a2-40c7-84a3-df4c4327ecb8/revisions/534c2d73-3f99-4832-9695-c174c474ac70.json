@@ -1,0 +1,13 @@
+{
+  "revision_id": "534c2d73-3f99-4832-9695-c174c474ac70",
+  "paragraph_id": "3f34b0f8-2726-4951-83e2-cb1f7a79c409",
+  "iteration": 1,
+  "original_text": "EBITDA has scaled proportionally with operating performance, growing from $5,986,000,000 in FY2023 [7930dfb2-cff5-4dc1-a6fc-3b43ffb42848] to $144,552,000,000 in FY2026 [47a06f7f-e4c1-4e5d-924a-903870cddb3a]. The FY2023 EBITDA margin was 22.19% [0bceccc1-b1ac-4b8c-be53-06259e251673], and the absolute growth suggests margin expansion in later years. Regarding cash flow quality, the FY2023 free cash flow margin was 14.12% [ebb13bfd-8f73-4522-821f-7cd77f0787f2], indicating strong cash conversion. However, specific operating cash flow and free cash flow figures for FY2024-FY2026 are not provided in the available evidence, limiting detailed cash flow quality analysis for recent periods.",
+  "revised_text": "EBITDA has scaled proportionally with operating performance, growing from $5,986,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $144,552,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a]. The FY2023 EBITDA margin was 22.19% [0bceccc1-b1ac-4b8c-be53-06259e251673][76fd1884-5c53-4fe5-97f0-d7b7352ee252], and the absolute growth suggests margin expansion in later years. Regarding cash flow quality, the free cash flow margin was 14.12% [ebb13bfd-8f73-4522-821f-7cd77f0787f2], indicating strong cash conversion. However, specific operating cash flow and free cash flow figures for FY2024-FY2026 are not provided in the available evidence, limiting detailed cash flow quality analysis for recent periods.",
+  "issues_addressed": [
+    "54b2b1d8-b637-4fac-80b0-647827f89690",
+    "08c4aca1-023b-4872-977d-ce006094aa56"
+  ],
+  "changes_summary": "Fixed citation mismatches by: (1) Replaced EBITDA figure citations (7930dfb2, 47a06f7f) with income statement chunks that specify fiscal year dates (76fd1884 for FY2023 dated 2023-01-29, cdffc354 for FY2026 dated 2026-01-25) to support year attributions. (2) For FY2023 EBITDA margin, added citation to FY2023 income statement chunk (76fd1884) alongside the calculation ID (0bceccc1) to verify the year attribution since the calculation can be cross-referenced with FY2023 data (5,986/26,974=22.19%). (3) Removed FY2023 attribution from FCF margin claim since the calculation ID (ebb13bfd) does not specify the year and FCF data is not available in chunks to verify the year attribution.",
+  "revised_at": "2026-03-11T14:44:41.960432"
+}

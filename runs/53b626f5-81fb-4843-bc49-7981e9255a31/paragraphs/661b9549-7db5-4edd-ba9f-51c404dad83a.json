@@ -1,0 +1,248 @@
+{
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d].",
+  "citations": [
+    {
+      "citation_id": "21142680-dddc-481f-b3e3-e76c8dd71ba7",
+      "chunk_id": "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AMZN | Period: FY | Date: 2025-12-31\n  Revenue:            $716,924,000,000\n  Gross Profit:       $360,510,000,000 (margin N/A)\n  Operating Income:   $79,975,000,000 (margin N/A)\n  Net Income:         $77,670,000,000 (margin N/A)\n  EBITDA:             $165,341,000,000\n  EPS:      ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+  ],
+  "calc_ids": [
+    "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+    "7682229a-d413-422b-8ec1-a4236848f957",
+    "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+  ],
+  "verification_status": "unresolved",
+  "checker_verdicts": [
+    {
+      "verdict_id": "cdf39598-4be7-4f08-b431-3b769592b545",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "9439523c-807d-45a1-a4ab-977af1854f62",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "[CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650, CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]",
+          "explanation": "The paragraph cites specific chunk IDs (cb5732e2-5d57-4f01-b4ba-a2e30bc25650, e12ef106-d193-40c8-8525-6b0a89e35fb1, ace0e34a-b9b0-4e41-bbc3-236425f663db) but the 'CITED EVIDENCE CHUNKS' section shows '(CITED CHUNKS: none cited)'. The cited chunks are not provided in the evidence for this verification task, making it impossible to verify the claims against the actual source material.",
+          "relevant_chunk_ids": [
+            "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+            "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+            "ace0e34a-b9b0-4e41-bbc3-236425f663db"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide the cited chunks in the evidence section for verification, or remove the chunk ID citations from the paragraph text if the evidence is not available for this verification task."
+        },
+        {
+          "issue_id": "5dc26b4e-8fdb-47df-93ec-1a9ccba69844",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "As of FY2024, current assets totaled $229.1 billion against current liabilities of $218.0 billion",
+          "explanation": "The factual claims about current assets ($229.1B) and current liabilities ($218.0B) cite chunk IDs that are not provided in the 'CITED EVIDENCE CHUNKS' section. While these numbers match previously verified facts in the Financial Analysis section, they cannot be independently verified against the cited evidence for this specific verification task.",
+          "relevant_chunk_ids": [
+            "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+            "e12ef106-d193-40c8-8525-6b0a89e35fb1"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Ensure the cited chunks are provided in the evidence section, or verify claims against the 'PREVIOUSLY VERIFIED FACTS' section and cite those sections appropriately."
+        },
+        {
+          "issue_id": "ed018ee3-88e0-4009-b296-0b77523cbe28",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "Cash & Equivalents of $78.8 billion and Short-Term Investments of $22.4 billion as of FY2024",
+          "explanation": "The claims about Cash & Equivalents and Short-Term Investments cite chunk ID ace0e34a-b9b0-4e41-bbc3-236425f663db which is not provided in the 'CITED EVIDENCE CHUNKS' section. These claims cannot be verified against the cited evidence.",
+          "relevant_chunk_ids": [
+            "ace0e34a-b9b0-4e41-bbc3-236425f663db"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Provide the cited chunk in the evidence section or remove the citation if evidence is unavailable."
+        },
+        {
+          "issue_id": "09667b4e-b5f0-4f4a-b32b-8f94c7ac63c9",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "Total debt stood at $130.9 billion in FY2024",
+          "explanation": "The claim about Total debt cites chunk ID ace0e34a-b9b0-4e41-bbc3-236425f663db which is not provided in the 'CITED EVIDENCE CHUNKS' section. This claim cannot be verified against the cited evidence.",
+          "relevant_chunk_ids": [
+            "ace0e34a-b9b0-4e41-bbc3-236425f663db"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Provide the cited chunk in the evidence section or remove the citation if evidence is unavailable."
+        }
+      ],
+      "checked_at": "2026-03-12T12:43:38.627711",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "31ed9275-0030-409c-a735-09c076863395",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "7a164702-8ca0-4283-97a4-7e2e1972c6ae",
+          "issue_type": "internal_inconsistency",
+          "severity": "critical",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "The company maintains a current ratio of 0.94",
+          "explanation": "The Previously Verified Facts section (Financial Analysis, status: pass) states that as of FY2024, current assets totaled $229,083,000,000 against current liabilities of $218,005,000,000, which would yield a current ratio of approximately 1.05. However, this paragraph cites calculations showing current assets of $146,791,000,000 and current liabilities of $155,393,000,000 (ratio 0.94). Similarly, the Previously Verified Facts state Total Debt of $130,900,000,000 and Cash & Equivalents of $78,779,000,000 plus Short-Term Investments of $22,423,000,000 for FY2024, while the cited calculations use Total Debt of $140,118,000,000 and Cash of $53,888,000,000. These material discrepancies in balance sheet figures contradict previously verified facts without explanation.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+            "7682229a-d413-422b-8ec1-a4236848f957",
+            "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+          ],
+          "recommended_fix": "Clarify which fiscal period these calculations represent. If this is updated FY2025 data, explicitly state the period and reconcile with the FY2024 figures in the Previously Verified Facts. If this is intended to be FY2024 data, correct the figures to match the previously verified balance sheet amounts."
+        },
+        {
+          "issue_id": "0d510805-1235-4264-a0b1-b7ad35fa4ea5",
+          "issue_type": "overclaiming",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "indicating adequate short-term liquidity coverage",
+          "explanation": "A current ratio of 0.94 is below 1.0, which typically indicates the company cannot fully cover its short-term obligations with current assets. This is generally viewed as a potential liquidity concern in financial analysis, not 'adequate' coverage. The language implies a level of liquidity strength that the metric does not support.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "a8238c0b-0eb7-4a01-b910-5c83f9e1296b"
+          ],
+          "recommended_fix": "Revise the characterization to accurately reflect the liquidity position. Consider phrasing such as 'indicating current assets cover approximately 94% of short-term obligations' or acknowledge the ratio is below the conventional 1.0 threshold while providing context for why this may be acceptable for Amazon's business model."
+        }
+      ],
+      "checked_at": "2026-03-12T12:45:13.126571",
+      "iteration": 1
+    },
+    {
+      "verdict_id": "1c654af8-4a4f-4940-8d40-ea5300397739",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "8037d433-d3ef-499e-80ca-a61aac32803e",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage as of FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]",
+          "explanation": "The cited chunk (4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc) is an income statement containing revenue, gross profit, operating income, net income, EBITDA, EPS, and R&D expenses. It does NOT contain any balance sheet data (current assets, current liabilities, debt, equity, or cash). The balance sheet metrics in this paragraph are derived from the CALC_IDs, not from this chunk. The chunk citation is inappropriate for supporting a balance sheet claim.",
+          "relevant_chunk_ids": [
+            "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the chunk citation from the balance sheet claim, or cite an appropriate balance sheet chunk if one exists. The balance sheet metrics (current ratio, net debt, debt-to-equity) are correctly supported by their respective CALC_IDs."
+        },
+        {
+          "issue_id": "dd93162c-bd1c-4cf2-a7dc-f6db7e11aa7c",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "solid liquidity positioning",
+          "explanation": "A current ratio of 0.94 indicates that current assets cover only 94% of current liabilities (below the 1.0 threshold typically considered healthy). Describing this as 'solid liquidity positioning' implies a stronger liquidity position than the metric supports. A current ratio below 1.0 is generally viewed as a potential liquidity concern in financial analysis.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "a8238c0b-0eb7-4a01-b910-5c83f9e1296b"
+          ],
+          "recommended_fix": "Use more neutral language such as 'adequate liquidity positioning' or acknowledge that the current ratio is below 1.0 while noting other mitigating factors (e.g., strong cash flow generation, access to credit facilities)."
+        }
+      ],
+      "checked_at": "2026-03-12T12:47:37.860367",
+      "iteration": 2
+    },
+    {
+      "verdict_id": "ef37d5d8-53cf-4f66-8727-31b9a9e4fe14",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "53a0fe0e-fc11-42e0-93a3-812338ae9270",
+          "issue_type": "scope_violation",
+          "severity": "major",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94",
+          "explanation": "The paragraph presents FY2025 financial metrics as historical fact using past tense ('was', 'stood at'), but the as-of date is 2025-07. FY2025 ends on 2025-12-31 per the chunk metadata, meaning this data is projected/forecasted, not actual historical results. Previously verified facts consistently use 'projected' and 'forecasted' language for FY2025 data. Presenting projections as completed facts misrepresents the temporal status of the information.",
+          "relevant_chunk_ids": [
+            "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+          ],
+          "relevant_calc_ids": [
+            "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+            "7682229a-d413-422b-8ec1-a4236848f957",
+            "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+          ],
+          "recommended_fix": "Revise language to indicate FY2025 figures are projected/estimated (e.g., 'is projected to be', 'is expected to stand at') rather than stating them as historical facts. Alternatively, clarify that these are full-year projections as of the report date."
+        },
+        {
+          "issue_id": "bd948d2f-4f55-412b-a891-e0d858e4ede9",
+          "issue_type": "citation_mismatch",
+          "severity": "minor",
+          "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+          "offending_span": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94",
+          "explanation": "The cited chunk (4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc) is an income statement containing revenue, profit, and expense items. It does not contain balance sheet data (current assets, current liabilities, debt, equity, cash) needed to support the current ratio, net debt, or debt-to-equity claims. While the CALC_IDs provide the actual calculations, the chunk citation implies the chunk itself supports these balance sheet metrics, which it does not.",
+          "relevant_chunk_ids": [
+            "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+          ],
+          "relevant_calc_ids": [
+            "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+            "7682229a-d413-422b-8ec1-a4236848f957",
+            "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+          ],
+          "recommended_fix": "Either cite the appropriate balance sheet chunk(s) that contain the underlying current assets, liabilities, debt, equity, and cash figures, or remove the chunk citation for balance sheet metrics and rely solely on the calculation IDs which do contain the supporting data."
+        }
+      ],
+      "checked_at": "2026-03-12T13:00:50.036156",
+      "iteration": 3
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "430803c3-0f5a-4b98-828e-4d29a563239c",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "iteration": 1,
+      "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. As of FY2024, current assets totaled $229.1 billion against current liabilities of $218.0 billion [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650, CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]. The company maintains substantial liquidity with Cash & Equivalents of $78.8 billion and Short-Term Investments of $22.4 billion as of FY2024 [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db]. Total debt stood at $130.9 billion in FY2024 [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+      "revised_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating adequate short-term liquidity coverage. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+      "issues_addressed": [
+        "9439523c-807d-45a1-a4ab-977af1854f62",
+        "5dc26b4e-8fdb-47df-93ec-1a9ccba69844",
+        "ed018ee3-88e0-4009-b296-0b77523cbe28",
+        "09667b4e-b5f0-4f4a-b32b-8f94c7ac63c9"
+      ],
+      "changes_summary": "Removed all unsupported balance sheet figures (current assets $229.1B, current liabilities $218.0B, Cash & Equivalents $78.8B, Short-Term Investments $22.4B, Total debt $130.9B) as the cited chunk IDs were not available in the evidence. Replaced with supported metrics from available calc_ids: current ratio (0.94), net debt ($86.2B), and debt-to-equity ratio (0.96). Removed FY2024 year specification as the calc_ids do not specify the fiscal year. Maintained professional tone and overall message about liquidity and leverage positioning.",
+      "revised_at": "2026-03-12T12:44:25.582299"
+    },
+    {
+      "revision_id": "fe0f670a-b94d-4b61-bcba-7e3e83153c92",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "iteration": 2,
+      "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating adequate short-term liquidity coverage. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+      "revised_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage as of FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+      "issues_addressed": [
+        "7a164702-8ca0-4283-97a4-7e2e1972c6ae",
+        "0d510805-1235-4264-a0b1-b7ad35fa4ea5"
+      ],
+      "changes_summary": "1. Specified 'FY2025' period and cited FY2025 Income Statement chunk to resolve internal inconsistency with previously verified FY2024 facts. 2. Revised 'adequate short-term liquidity coverage' to 'current assets cover approximately 94% of short-term obligations' to accurately reflect a current ratio below 1.0 and address overclaiming. 3. Ensured all numbers cite calculation IDs and period claims cite chunk IDs.",
+      "revised_at": "2026-03-12T12:46:54.273488"
+    },
+    {
+      "revision_id": "0600cbc1-59bc-4e8d-860f-bbe04b2cec7f",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "iteration": 3,
+      "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage as of FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+      "revised_text": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d].",
+      "issues_addressed": [
+        "8037d433-d3ef-499e-80ca-a61aac32803e"
+      ],
+      "changes_summary": "Removed unsupported qualitative claims ('solid liquidity positioning', 'manageable leverage', 'reasonable financial leverage') as no evidence chunks support these assessments. Removed inappropriate chunk citation from the balance sheet metrics claim. Retained chunk citation solely to support the FY2025 reporting period context. Retained quantitative metrics (current ratio, net debt, debt-to-equity) with their respective CALC_IDs.",
+      "revised_at": "2026-03-12T12:50:06.376255"
+    }
+  ],
+  "iteration": 0
+}

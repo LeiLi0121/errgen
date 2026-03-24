@@ -1,0 +1,35 @@
+{
+  "verdict_id": "1c654af8-4a4f-4940-8d40-ea5300397739",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "8037d433-d3ef-499e-80ca-a61aac32803e",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage as of FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]",
+      "explanation": "The cited chunk (4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc) is an income statement containing revenue, gross profit, operating income, net income, EBITDA, EPS, and R&D expenses. It does NOT contain any balance sheet data (current assets, current liabilities, debt, equity, or cash). The balance sheet metrics in this paragraph are derived from the CALC_IDs, not from this chunk. The chunk citation is inappropriate for supporting a balance sheet claim.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the chunk citation from the balance sheet claim, or cite an appropriate balance sheet chunk if one exists. The balance sheet metrics (current ratio, net debt, debt-to-equity) are correctly supported by their respective CALC_IDs."
+    },
+    {
+      "issue_id": "dd93162c-bd1c-4cf2-a7dc-f6db7e11aa7c",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "solid liquidity positioning",
+      "explanation": "A current ratio of 0.94 indicates that current assets cover only 94% of current liabilities (below the 1.0 threshold typically considered healthy). Describing this as 'solid liquidity positioning' implies a stronger liquidity position than the metric supports. A current ratio below 1.0 is generally viewed as a potential liquidity concern in financial analysis.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "a8238c0b-0eb7-4a01-b910-5c83f9e1296b"
+      ],
+      "recommended_fix": "Use more neutral language such as 'adequate liquidity positioning' or acknowledge that the current ratio is below 1.0 while noting other mitigating factors (e.g., strong cash flow generation, access to credit facilities)."
+    }
+  ],
+  "checked_at": "2026-03-12T12:47:37.860367",
+  "iteration": 2
+}

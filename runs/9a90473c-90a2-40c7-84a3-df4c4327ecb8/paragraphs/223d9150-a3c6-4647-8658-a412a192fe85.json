@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "223d9150-a3c6-4647-8658-a412a192fe85",
+  "section_name": "Recent Developments",
+  "text": "On the strategic front, NVIDIA recently entered multiyear, nonexclusive agreements to invest US$2 billion each in Coherent and Lumentum, alongside multibillion-dollar purchase commitments and future capacity rights. This move suggests NVIDIA may be quietly redefining its moat by pre-buying advanced optics capacity, which could be critical for AI chip production and data center infrastructure.",
+  "citations": [
+    {
+      "citation_id": "460be253-6c53-4756-ac52-ad0d592b17af",
+      "chunk_id": "0aa6a797-836f-43db-8358-724d2dac0a0b",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-03-03T16:12:55Z | Yahoo Entertainment | Author: Simply Wall St\nTitle: Is Nvidia (NVDA) Quietly Redefining Its Moat By Pre‑Buying Advanced Optics Capacity?\nURL: https://finance.yahoo.com/news/nvidia-nvda-quietly-redefining-moat-161255188.html\n<ul><li>Nvidia recently entered multiyear, non",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0aa6a797-836f-43db-8358-724d2dac0a0b"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "de729caa-fcb8-4aa2-8043-8811d33de2bb",
+      "paragraph_id": "223d9150-a3c6-4647-8658-a412a192fe85",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T12:35:22.922676",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

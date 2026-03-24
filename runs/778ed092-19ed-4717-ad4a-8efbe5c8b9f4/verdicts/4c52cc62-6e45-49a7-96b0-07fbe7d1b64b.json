@@ -1,0 +1,50 @@
+{
+  "verdict_id": "4c52cc62-6e45-49a7-96b0-07fbe7d1b64b",
+  "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "7727b284-3926-462e-a054-18663d213f65",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+      "offending_span": "The Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing, Mellanox networking solutions, automotive AI Cockpit, and NVIDIA AI Enterprise software.",
+      "explanation": "The cited chunk cd7d7972-79b5-433f-b378-e23ffc087d85 truncates at 'Data Center platf' and does not contain the specific details regarding Mellanox, automotive AI Cockpit, or NVIDIA AI Enterprise software. The other cited chunk does not contain this information either.",
+      "relevant_chunk_ids": [
+        "cd7d7972-79b5-433f-b378-e23ffc087d85",
+        "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific product details that are not present in the cited evidence, or locate and cite a chunk that contains the full description of the Compute & Networking segment offerings."
+    },
+    {
+      "issue_id": "cd857cde-8161-4b05-a5d9-d4a8f14d97b8",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+      "offending_span": "The company sells to OEMs, ODMs, system builders, cloud service providers, automotive manufacturers, and other ecosystem participants",
+      "explanation": "Neither of the cited chunks contains information about the specific types of customers (OEMs, ODMs, system builders, etc.). Chunk cd7d7972-79b5-433f-b378-e23ffc087d85 only mentions geographic regions.",
+      "relevant_chunk_ids": [
+        "cd7d7972-79b5-433f-b378-e23ffc087d85",
+        "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific customer list or provide a citation that explicitly supports these customer categories."
+    },
+    {
+      "issue_id": "ac5b08c7-e911-491f-88c0-d7c8fa46858d",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+      "offending_span": "headquartered in Santa Clara, California.",
+      "explanation": "Chunk 0571a4ea-26e6-49fc-b4d5-1f2654462e02 only specifies 'Country: US' and does not mention the specific city or state of the headquarters.",
+      "relevant_chunk_ids": [
+        "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the city/state detail or cite a source that explicitly states the headquarters location."
+    }
+  ],
+  "checked_at": "2026-03-23T05:33:26.169150",
+  "iteration": 0
+}

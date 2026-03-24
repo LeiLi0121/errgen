@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "f48de6d6-aeec-4e66-be95-f2970bf09c59",
+  "section_name": "Company Overview",
+  "text": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its stores include merchandise and content purchased for resale; and products offered by third-party sellers The company also manufactures and sells electronic devices, including Kindle, Fire tablets, Fire TVs, Rings, Blink, eero, and Echo; and develops and produces media content. In addition, it offers programs that enable sellers to sell their products in its stores; and programs that allow authors, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, the company provides compute, storage, database, analytics, machine learning, and other services, as well as fulfillment, advertising, and digital content subscriptions. Additionally, it offers Amazon Prime, a membership program. The company serves consumers, sellers, developers, enterprises, content creators, and advertisers. Amazon.com, Inc. was incorporated in 1994 and is headquartered in Seattle, Washington.",
+  "citations": [
+    {
+      "citation_id": "939a0042-746a-4739-a69d-d62cb09ee33f",
+      "chunk_id": "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its store",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

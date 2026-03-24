@@ -1,0 +1,14 @@
+{
+  "revision_id": "2c013bd2-3b7e-4f0a-986e-e6a3abd36123",
+  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+  "iteration": 2,
+  "original_text": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13]. According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd]. The news catalyzed positive momentum for both NVIDIA and Alibaba shares, suggesting renewed market access opportunities in the world's second-largest semiconductor market.",
+  "revised_text": "NVIDIA released its fiscal Q4 2026 financial statements on January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+  "issues_addressed": [
+    "b673bbe0-5fd3-4eb8-95b9-a61a9bc8123b",
+    "268504f1-7b84-4833-9bda-1145f7a86113",
+    "fd0378a0-8905-437f-a5ed-370d1713ee81"
+  ],
+  "changes_summary": "Removed all unsupported claims regarding China regulatory approval, H200 chip authorization, and WSJ reporting as no evidence chunks supported these assertions (Issues 1, 2, 3). Replaced with verified Q4 2026 financial performance data available in the provided income statement chunks and calculation results.",
+  "revised_at": "2026-03-23T06:58:16.282644"
+}

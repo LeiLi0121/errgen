@@ -1,0 +1,23 @@
+{
+  "sample_id": "Adobe",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports failed the accuracy gate and share the same number of temporal violations (2) and inconsistencies (1). However, the first report contains 2 citation mismatches, whereas the second report has 0 citation mismatches. The first report also explicitly references evidence dated after the as-of date (August 26 and 28) within the text to claim exclusion, which constitutes a meta-temporal breach. The second report has fewer total severe errors (4 vs 6).",
+    "quality_comparison": "The second report achieves a higher quality score (3.1 vs 2.95). It demonstrates better citation integrity by distinguishing between source data (CHUNK_ID) and calculated metrics (CALC_ID) in the Financial Analysis section, improving verifiability. The first report's narrative is slightly more detailed in Recent Developments but is undermined by the explicit acknowledgment of future-dated evidence, which breaks the simulation integrity.",
+    "winner": "second_report",
+    "rationale": "The second report is preferred due to higher reliability, specifically the absence of citation mismatches and a lower total count of severe errors. While both reports suffer from temporal validity issues, the second report maintains better citation integrity and achieves a higher quality score. The first report's explicit mention of future-dated evidence in the text further compromises its temporal validity compared to the second report."
+  },
+  "order_ba": {
+    "factual_comparison": "Report 1 has fewer total severe errors (4) compared to Report 2 (6). Both reports share the same count of temporal violations (2) and inconsistencies (1), but Report 2 contains 2 citation mismatches while Report 1 has none. Both reports fail the accuracy gate due to temporal issues involving data dated after the as-of date.",
+    "quality_comparison": "Report 1 achieves a higher Quality Score (3.1 vs 2.95). Report 2 includes a specific textual claim that future-dated evidence was excluded, which contradicts the presence of temporal violations in the error log, indicating a meta-factual integrity failure. Report 1 does not make false compliance claims. Both reports offer similar depth in financial and business analysis.",
+    "winner": "first_report",
+    "rationale": "Report 1 is selected based on the reliability-first policy. It demonstrates fewer factual errors overall, specifically avoiding the citation mismatches present in Report 2. Crucially, Report 2 falsely claims to have excluded future-dated evidence while still incurring temporal violations, undermining its credibility. Report 1 also holds a higher quality score."
+  }
+}

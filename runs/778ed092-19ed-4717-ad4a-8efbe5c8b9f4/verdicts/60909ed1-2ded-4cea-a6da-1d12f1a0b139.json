@@ -1,0 +1,35 @@
+{
+  "verdict_id": "60909ed1-2ded-4cea-a6da-1d12f1a0b139",
+  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "2b7b28c6-ee42-4bfc-839e-e8b392f97e13",
+      "issue_type": "numerical_error",
+      "severity": "major",
+      "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+      "offending_span": "Revenue growth accelerated through the fiscal year, with Q4 revenue reaching $68.13 billion representing 19.51% YoY growth, while Q3 showed 21.96% YoY growth.",
+      "explanation": "The claim that revenue growth 'accelerated through the fiscal year' is contradicted by the cited calculation data. Q3 YoY growth (21.96%) was higher than Q4 YoY growth (19.51%), indicating deceleration from Q3 to Q4, not continuous acceleration through the fiscal year. While growth did accelerate from Q2 (6.08%) to Q3 (21.96%), the statement implies sustained acceleration which is not supported by the data.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "0e671c19-4b44-47a7-9234-5d3634f7be27"
+      ],
+      "recommended_fix": "Revise to accurately reflect the growth pattern, e.g., 'Revenue growth increased significantly from Q2 to Q3, with Q3 showing 21.96% YoY growth and Q4 at 19.51% YoY growth' or 'Revenue growth remained elevated in the second half of the fiscal year'"
+    },
+    {
+      "issue_id": "cf6edded-b44e-4e7d-9967-b9f395c38be4",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+      "offending_span": "This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+      "explanation": "While the cited chunks support strong demand (chunk 342037b2 mentions 'rising demand'), the claim about 'pricing power' is an inference not directly evidenced in the cited chunks. High margins could result from various factors beyond pricing power (e.g., cost efficiencies, product mix).",
+      "relevant_chunk_ids": [
+        "342037b2-6223-4ad2-81a9-50ce56a4454f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Qualify the pricing power claim or remove it, e.g., 'This financial performance suggests strong demand for NVIDIA's AI accelerator products' or 'This financial performance, combined with high margins, may indicate strong pricing power'"
+    }
+  ],
+  "checked_at": "2026-03-23T05:34:20.220391",
+  "iteration": 0
+}

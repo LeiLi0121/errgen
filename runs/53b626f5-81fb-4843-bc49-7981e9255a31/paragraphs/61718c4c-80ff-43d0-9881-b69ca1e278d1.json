@@ -1,0 +1,99 @@
+{
+  "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Key growth drivers for Amazon center on AWS cloud services and the advertising business, both identified as high-margin segments supporting earnings expectations [f3922ad9-85d8-409b-916a-444e08a6a248]. AWS provides compute, storage, database, analytics, and machine learning services to enterprises, representing a critical profit driver within the three-segment structure [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The advertising business complements the retail ecosystem by enabling sellers and brands to reach customers across Amazon's platforms [43e13619-4c35-4dd4-a32b-ceaa18319a42]. Amazon was among the 'Magnificent Seven' technology companies reporting earnings in late July 2025, with combined market capitalization of approximately $11.3 trillion for the group facing investor scrutiny [95e75447-3c30-49f6-861e-b4c471cfa261, 7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47]. Evidence on specific advertising revenue figures, AWS growth rates, and detailed segment profitability is not provided in the available data.",
+  "citations": [
+    {
+      "citation_id": "34ba1c63-04b0-4244-9a47-2e5643d8f684",
+      "chunk_id": "f3922ad9-85d8-409b-916a-444e08a6a248",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T18:44:10Z | Yahoo\nTitle: Amazon Q2 Earnings Preview: What to Expect From Upcoming Report\nURL: https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6\nAI?powered AWS growth and ad revenue underpin upbeat Q2 outlook for Amazon",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "12617e84-8f6b-45fa-ad32-99405dff4ec6",
+      "chunk_id": "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its store",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d705eb52-8494-48b9-baee-f92ae6f7f49c",
+      "chunk_id": "95e75447-3c30-49f6-861e-b4c471cfa261",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T19:10:24Z | Yahoo\nTitle: S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings\nURL: https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83\n(Bloomberg) -- The S&P 500 Index’s relentless advance to record highs faces a crucial test th",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "333c13ad-8d2b-4dee-b716-4d3091794b0a",
+      "chunk_id": "7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T20:18:44Z | Yahoo\nTitle: Microsoft, Meta, Apple, Amazon: How to play Big Tech earnings\nURL: https://finnhub.io/api/news?id=7ad71a1b8bba78c04bfb5e3e2e8a88659df61bcbf8f7c681a3c238080e7114f6\n\"Magnificent Seven\" earnings continue with Microsoft (MSFT), Meta (META), Apple (AAPL), and Am",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "f3922ad9-85d8-409b-916a-444e08a6a248",
+    "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+    "95e75447-3c30-49f6-861e-b4c471cfa261",
+    "7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "bb8fd8f5-5d3c-41a8-9e9d-5d1cb99e23af",
+      "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "0b52402a-8c8b-4d81-8f76-827d42c4418f",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+          "offending_span": "both identified as high-margin segments",
+          "explanation": "The cited chunk (f3922ad9-85d8-409b-916a-444e08a6a248) states that AWS growth and ad revenue 'underpin upbeat Q2 outlook', but it does not explicitly identify them as 'high-margin segments'. This specific financial characteristic is not supported by the provided text.",
+          "relevant_chunk_ids": [
+            "f3922ad9-85d8-409b-916a-444e08a6a248"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the 'high-margin' descriptor unless supported by another source, or rephrase to match the chunk's language (e.g., 'key growth drivers underpinning outlook')."
+        },
+        {
+          "issue_id": "08b8b320-67ed-4aec-a545-38b2f19ec0de",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+          "offending_span": "AWS provides compute, storage, database, analytics, and machine learning services to enterprises",
+          "explanation": "The cited chunk (43e13619-4c35-4dd4-a32b-ceaa18319a42) lists 'Amazon Web Services (AWS)' as a segment but does not contain the specific list of services (compute, storage, database, etc.) mentioned in the paragraph. The chunk text cuts off before describing AWS offerings.",
+          "relevant_chunk_ids": [
+            "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Cite a chunk that explicitly details AWS service offerings, or remove the specific service list if not supported by the provided evidence."
+        },
+        {
+          "issue_id": "9daecbdb-116d-4d7b-a08c-278f55ff779e",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+          "offending_span": "The advertising business complements the retail ecosystem by enabling sellers and brands to reach customers across Amazon's platforms",
+          "explanation": "The cited chunk (43e13619-4c35-4dd4-a32b-ceaa18319a42) describes Amazon's retail and device business but does not mention an 'advertising business' or its function. This claim is not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Cite a chunk that discusses Amazon's advertising segment, or remove the description if not supported by the provided evidence."
+        }
+      ],
+      "checked_at": "2026-03-12T10:22:59.839383",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

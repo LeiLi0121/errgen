@@ -1,0 +1,62 @@
+{
+  "verdict_id": "3a10c0aa-2233-4de9-8c1c-cda907352f2e",
+  "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "32858d42-ad52-4680-bad8-158f31e16c76",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+      "offending_span": "$79,975,000,000 in FY2025",
+      "explanation": "The As-Of Date is 2025-07. Amazon's fiscal year aligns with the calendar year (ending Dec 31). Presenting full FY2025 Operating Income as a factual historical number in July 2025 is impossible as the fiscal year is not complete. This data point represents future information treated as historical fact.",
+      "relevant_chunk_ids": [
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Clarify that FY2025 figures are forecasts/estimates, not actuals, or restrict analysis to completed periods (e.g., FY2024 or YTD 2025)."
+    },
+    {
+      "issue_id": "14b05bff-3f48-4fe1-86cf-1e831499f7ed",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+      "offending_span": "approximately 11.2% in FY2025",
+      "explanation": "The cited evidence provides the Operating Income for FY2025 ($79,975,000,000) but does not provide the Revenue figure or the Operating Margin percentage for FY2025. The 11.2% figure cannot be verified from the provided chunks or calculation results.",
+      "relevant_chunk_ids": [
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the source chunk or calculation that derives the 11.2% margin, or remove the specific percentage if unsupported."
+    },
+    {
+      "issue_id": "c76f5d13-c312-40fd-86fb-b43d8533ab95",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+      "offending_span": "face headwinds from continued heavy investment in infrastructure and technology [CHUNK_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]",
+      "explanation": "The cited source (CALC_ID: c0a44539) is a calculation result for Operating Margin containing only numerical formulas. It does not contain qualitative text regarding investment headwinds, infrastructure, or technology.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "c0a44539-99d5-4b5d-b6e9-551d675efa31"
+      ],
+      "recommended_fix": "Cite a chunk containing management commentary or risk analysis text that discusses investment headwinds, rather than a calculation result."
+    },
+    {
+      "issue_id": "aec3f9e0-44ee-4b96-9541-9a4e42c6eb5a",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+      "offending_span": "ranged from $12,248,000,000 in FY2022 to $79,975,000,000 in FY2025",
+      "explanation": "The cited income statement chunks (063226d1..., 98d37e7b...) state 'Operating Income for FY' but do not explicitly specify the fiscal years (2022 or 2025) in the provided text. Attributing these specific years to the numbers is not supported by the chunk content.",
+      "relevant_chunk_ids": [
+        "063226d1-d6e5-48c4-8724-78adb5f35e92",
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure chunks explicitly contain the fiscal year metadata or text, or adjust the claim to reflect the available period information."
+    }
+  ],
+  "checked_at": "2026-03-12T10:28:40.933162",
+  "iteration": 0
+}

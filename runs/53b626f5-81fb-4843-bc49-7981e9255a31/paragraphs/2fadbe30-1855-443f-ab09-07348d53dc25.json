@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "2fadbe30-1855-443f-ab09-07348d53dc25",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Key risks and uncertainties warrant explicit acknowledgment. Financial leverage remains significant at $130.9 billion total debt [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db]. Operational scale presents execution risk, with the company employing 1.56 million full-time employees [CHUNK_ID: e65da658-2e8e-45cc-a6fc-d7c488c49e6a], introducing complexity in labor cost management across three segments. Regulatory scrutiny persists, as evidenced by Amazon's rebuttal to allegations regarding pricing practices amid trade policy developments [CHUNK_ID: 7ae84ac3-79a9-4c17-bd6f-36e1287d71f0]. Additionally, market sentiment has become more sensitive to earnings misses, with investors dumping stocks that don't meet profit forecasts more aggressively than usual [CHUNK_ID: 4a58a4c1-4682-4564-a49e-67118e9fb015].",
+  "citations": [
+    {
+      "citation_id": "8c316b44-3da3-4ad6-a5dc-b59e1e8774d9",
+      "chunk_id": "e65da658-2e8e-45cc-a6fc-d7c488c49e6a",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: https://www.amazon.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6e9e2d28-b545-44a2-b786-5bb0c58f6af9",
+      "chunk_id": "4a58a4c1-4682-4564-a49e-67118e9fb015",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T20:45:00Z | Yahoo\nTitle: The Stock Market Is Taking a Tougher Line on Earnings Misses\nURL: https://finnhub.io/api/news?id=ff4016ca93574bf281ee58af031ed73775f3cb25c8a1fb578cacd0f0a02201a3\nInvestors are dumping stocks in companies that don’t meet profit forecasts or offer positive fi",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e65da658-2e8e-45cc-a6fc-d7c488c49e6a",
+    "4a58a4c1-4682-4564-a49e-67118e9fb015"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "0c52bee6-9e91-4f5b-aaff-6a44b3d7334c",
+      "paragraph_id": "2fadbe30-1855-443f-ab09-07348d53dc25",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-12T13:12:29.643794",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

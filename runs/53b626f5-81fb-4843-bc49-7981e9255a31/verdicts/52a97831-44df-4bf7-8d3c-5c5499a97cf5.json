@@ -1,0 +1,22 @@
+{
+  "verdict_id": "52a97831-44df-4bf7-8d3c-5c5499a97cf5",
+  "paragraph_id": "e8b8ea7c-dc52-4a1a-a7c8-948cb823bb58",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "9bd6a8f9-e2f2-4e65-bde7-783aa69bce77",
+      "issue_type": "hallucination",
+      "severity": "minor",
+      "paragraph_id": "e8b8ea7c-dc52-4a1a-a7c8-948cb823bb58",
+      "offending_span": "suggesting potential competitive advantages in the AI infrastructure space",
+      "explanation": "The cited chunk states Amazon 'looks primed to gain from rising demand', which indicates a benefit from market growth. However, it does not explicitly support the inference that this constitutes a 'competitive advantage' relative to peers, which implies outperforming competitors rather than just benefiting from overall demand.",
+      "relevant_chunk_ids": [
+        "0e1b4f71-a372-4872-823f-87fda164a587"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to align strictly with the source text, e.g., 'suggesting potential benefits from the AI infrastructure space' or remove the 'competitive advantages' claim."
+    }
+  ],
+  "checked_at": "2026-03-12T10:12:30.502636",
+  "iteration": 0
+}

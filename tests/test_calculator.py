@@ -110,6 +110,17 @@ def test_ratio(calc):
     assert abs(result.result - 3.0) < 1e-9
 
 
+def test_difference(calc):
+    req = CalculationRequest(
+        operation="difference",
+        inputs={"a": 0.12, "b": 0.05},
+        description="Excess return",
+    )
+    result = calc.compute(req)
+    assert result.error is None
+    assert abs(result.result - 0.07) < 1e-9
+
+
 # ---------------------------------------------------------------------------
 # current_ratio, debt_to_equity, net_debt
 # ---------------------------------------------------------------------------

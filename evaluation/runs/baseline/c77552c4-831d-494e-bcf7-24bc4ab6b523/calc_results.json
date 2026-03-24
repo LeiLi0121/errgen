@@ -1,0 +1,292 @@
+[
+  {
+    "calc_id": "aa6b080f-af63-474f-9419-8dbeca0d5b07",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 6398000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 5873000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 5988000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 6194000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 6398000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 5873000000.0,
+          "yoy_growth": -0.08205689277899343,
+          "yoy_growth_pct": "-8.21%"
+        },
+        {
+          "period": "Q3",
+          "value": 5988000000.0,
+          "yoy_growth": 0.019581134003064875,
+          "yoy_growth_pct": "1.96%"
+        },
+        {
+          "period": "Q4",
+          "value": 6194000000.0,
+          "yoy_growth": 0.03440213760855043,
+          "yoy_growth_pct": "3.44%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "ADBE Revenue YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "b0eab616-36ac-427b-9f6d-9148465f95a3",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 1889000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 1691000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 1772000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 1856000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 1889000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 1691000000.0,
+          "yoy_growth": -0.10481736368448914,
+          "yoy_growth_pct": "-10.48%"
+        },
+        {
+          "period": "Q3",
+          "value": 1772000000.0,
+          "yoy_growth": 0.047900650502661145,
+          "yoy_growth_pct": "4.79%"
+        },
+        {
+          "period": "Q4",
+          "value": 1856000000.0,
+          "yoy_growth": 0.04740406320541761,
+          "yoy_growth_pct": "4.74%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "ADBE Net Income YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "426b5804-bdf9-4613-904d-04a5ed365685",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 5508000000.0,
+      "denominator": 6194000000.0
+    },
+    "result": 0.8892476590248628,
+    "formula_description": "5508000000.0 / 6194000000.0 = 0.8892 (88.92%)",
+    "description": "ADBE Gross Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "15c36992-22c3-492d-a197-fce0951e9593",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 2261000000.0,
+      "denominator": 6194000000.0
+    },
+    "result": 0.36503067484662577,
+    "formula_description": "2261000000.0 / 6194000000.0 = 0.3650 (36.50%)",
+    "description": "ADBE Operating Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "ce227766-487c-4ec1-89c8-a80aeb88860a",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 1856000000.0,
+      "denominator": 6194000000.0
+    },
+    "result": 0.29964481756538586,
+    "formula_description": "1856000000.0 / 6194000000.0 = 0.2996 (29.96%)",
+    "description": "ADBE Net Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "6e643ee3-f3a9-457e-a4de-56f007b09777",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 2448000000.0,
+      "denominator": 6194000000.0
+    },
+    "result": 0.3952211817888279,
+    "formula_description": "2448000000.0 / 6194000000.0 = 0.3952 (39.52%)",
+    "description": "ADBE EBITDA Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "0364ba40-fea2-4649-be81-86c5c859c3fd",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 1098000000.0,
+      "revenue": 6194000000.0
+    },
+    "result": 0.17726832418469488,
+    "formula_description": "R&D (1098000000.0) / revenue (6194000000.0) = 0.1773 (17.73%)",
+    "description": "ADBE R&D Intensity (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 10163000000.0,
+      "current_liabilities": 10200000000.0
+    },
+    "result": 0.9963725490196078,
+    "formula_description": "current_assets (10163000000.0) / current_liabilities (10200000000.0) = 1.00",
+    "description": "ADBE Current Ratio (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "90712dd2-8fcf-419e-bc11-6c9b1f50c235",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 6648000000.0,
+      "equity": 11623000000.0
+    },
+    "result": 0.5719693710745934,
+    "formula_description": "total_debt (6648000000.0) / equity (11623000000.0) = 0.57",
+    "description": "ADBE Debt-to-Equity (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "cc126119-69b0-4364-9543-52985dee2d4f",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 6648000000.0,
+      "cash": 5431000000.0
+    },
+    "result": 1217000000.0,
+    "formula_description": "total_debt (6648000000.0) - cash (5431000000.0) = 1217000000.0",
+    "description": "ADBE Net Debt (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "ecabb3b3-d1c6-4088-a412-eaef40cadc30",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 3126000000.0,
+      "revenue": 6194000000.0
+    },
+    "result": 0.5046819502744592,
+    "formula_description": "FCF (3126000000.0) / revenue (6194000000.0) = 0.5047 (50.47%)",
+    "description": "ADBE FCF Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "ea4272d5-9041-427c-b6c6-8eea6106b0ad",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 353.96,
+      "previous": 370.7
+    },
+    "result": -0.04515780954950097,
+    "formula_description": "(353.96 - 370.7) / |370.7| = -0.0452 (-4.52%)",
+    "description": "ADBE 30d price return",
+    "error": null
+  },
+  {
+    "calc_id": "babb7b3c-4fc7-4156-9542-6957c34cfb79",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 648.92,
+      "previous": 635.26
+    },
+    "result": 0.021503006642949293,
+    "formula_description": "(648.92 - 635.26) / |635.26| = 0.0215 (2.15%)",
+    "description": "SPY 30d benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "2a01edbc-f53b-4fe8-8acc-273d0478beeb",
+    "operation": "difference",
+    "inputs": {
+      "a": -0.04515780954950097,
+      "b": 0.021503006642949293
+    },
+    "result": -0.06666081619245026,
+    "formula_description": "-0.04515780954950097 - 0.021503006642949293 = -0.0667",
+    "description": "ADBE 30d excess return vs SPY",
+    "error": null
+  },
+  {
+    "calc_id": "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 353.96,
+      "previous": 560.54
+    },
+    "result": -0.3685374817140614,
+    "formula_description": "(353.96 - 560.54) / |560.54| = -0.3685 (-36.85%)",
+    "description": "ADBE 1y price return",
+    "error": null
+  },
+  {
+    "calc_id": "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 648.92,
+      "previous": 558.3
+    },
+    "result": 0.16231416801003046,
+    "formula_description": "(648.92 - 558.3) / |558.3| = 0.1623 (16.23%)",
+    "description": "SPY 1y benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "d4126c43-6ca1-4432-9d41-c54b5e543718",
+    "operation": "difference",
+    "inputs": {
+      "a": -0.3685374817140614,
+      "b": 0.16231416801003046
+    },
+    "result": -0.5308516497240918,
+    "formula_description": "-0.3685374817140614 - 0.16231416801003046 = -0.5309",
+    "description": "ADBE 1y excess return vs SPY",
+    "error": null
+  }
+]

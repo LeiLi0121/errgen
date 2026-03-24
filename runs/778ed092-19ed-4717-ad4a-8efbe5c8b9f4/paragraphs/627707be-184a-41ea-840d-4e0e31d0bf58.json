@@ -1,0 +1,68 @@
+{
+  "paragraph_id": "627707be-184a-41ea-840d-4e0e31d0bf58",
+  "section_name": "Recent Developments",
+  "text": "In competitive dynamics, market reports in late January 2026 indicated that NVIDIA and Apple were considering using Intel's foundry services for future chip production, which drove Intel shares up 10.2% in afternoon trading [915307c0-c1d2-4232-a603-3de1f933fa52, d221dbaa-f872-4882-943c-5d5c765f3698]. While these reports remain unconfirmed, they suggest potential supply chain diversification strategies. Meanwhile, NVIDIA's AI infrastructure ecosystem partners, including Arista Networks and CoreWeave, have experienced notable rallies as investors rotate back into AI infrastructure plays [bd2be37c-114a-47ed-9c6a-8570ade66726]. Industry commentary continues to position NVIDIA as a top play in the booming AI infrastructure market, with the company boasting a 53% net income ratio that attracts investors favoring strong profitability [8ea6204c-b60c-43ed-b244-62338e311dd0, 163132e4-10ea-41bc-9202-e5eb0356c9f3].",
+  "citations": [
+    {
+      "citation_id": "4d918798-cb7f-41f6-90bf-38ba9c388d4d",
+      "chunk_id": "915307c0-c1d2-4232-a603-3de1f933fa52",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8119f943-20b9-4130-bd14-20c0f3c61846",
+      "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2d66b006-0634-4f37-b4dd-f3a68efcccdd",
+      "chunk_id": "bd2be37c-114a-47ed-9c6a-8570ade66726",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:05:00Z | Yahoo\nTitle: These AI Cloud Stocks Are Starting to Soar Again Thanks to Nvidia: ANET, CRWV\nURL: https://finnhub.io/api/news?id=d45f77e523ab7a8c7045dbb18d7d4a6f77549f9366a71ff4e46c8600dd763356\nArista Networks (ANET) and CoreWeave (CRWV) stock have been on a tremendous ra",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e4d19df7-f079-47d9-a559-c4bd5d7ea15d",
+      "chunk_id": "8ea6204c-b60c-43ed-b244-62338e311dd0",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:23:00Z | Yahoo\nTitle: 1 Reason Nvidia Stock Could Surge in 2026\nURL: https://finnhub.io/api/news?id=67eb7d7038de9cbe6670b0bd075f9acef65602d433162d1ea21c25acb89fdbcd\nThe chipmaker remains a top play in the booming AI infrastructure market.",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "22cb1eac-9352-47aa-a102-cbab304d1aa9",
+      "chunk_id": "163132e4-10ea-41bc-9202-e5eb0356c9f3",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T20:00:00Z | Yahoo\nTitle: Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026\nURL: https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb\nNVIDIA stands out in 2026 as a top profitable semiconductor pick, boasting a 53% net inco",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "915307c0-c1d2-4232-a603-3de1f933fa52",
+    "d221dbaa-f872-4882-943c-5d5c765f3698",
+    "bd2be37c-114a-47ed-9c6a-8570ade66726",
+    "8ea6204c-b60c-43ed-b244-62338e311dd0",
+    "163132e4-10ea-41bc-9202-e5eb0356c9f3"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "7276f31c-f89f-406f-84ff-e3598c73ebc3",
+      "paragraph_id": "627707be-184a-41ea-840d-4e0e31d0bf58",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T05:16:25.212210",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

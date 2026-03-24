@@ -1,0 +1,331 @@
+[
+  {
+    "fact_id": "d97cf7a8-3a7e-47ab-a861-19e901d5871d",
+    "chunk_ids": [
+      "ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357"
+    ],
+    "fact_type": "revenue",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 513983000000.0,
+    "unit": "USD",
+    "description": "AMZN Revenue for FY: $513,983,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2dc9e680-e081-4d07-b517-034d3822bce6",
+    "chunk_ids": [
+      "5011ec8d-9c11-4ae9-8129-bb1516653d82"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 225152000000.0,
+    "unit": "USD",
+    "description": "AMZN Gross Profit for FY: $225,152,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "df1dbbd9-7567-4d1c-8001-7b4163047c38",
+    "chunk_ids": [
+      "063226d1-d6e5-48c4-8724-78adb5f35e92"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 12248000000.0,
+    "unit": "USD",
+    "description": "AMZN Operating Income for FY: $12,248,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d771f4b6-d76c-4b0e-9d20-3298206f8ddc",
+    "chunk_ids": [
+      "5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": -2722000000.0,
+    "unit": "USD",
+    "description": "AMZN Net Income for FY: $-2,722,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d14fe018-6663-40c6-ac6a-7eaf42a8fef1",
+    "chunk_ids": [
+      "d1ad7d52-3b2c-4db3-9d43-359a9062fd06"
+    ],
+    "fact_type": "ebitda",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 38352000000.0,
+    "unit": "USD",
+    "description": "AMZN EBITDA for FY: $38,352,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "52da810b-e0aa-4ac6-884d-aa29fd30153c",
+    "chunk_ids": [
+      "a2889481-4a1e-49cd-858a-f57cc75c1e8f"
+    ],
+    "fact_type": "eps",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": -0.27,
+    "unit": "USD",
+    "description": "AMZN EPS (Diluted) for FY: $-0",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "9edeed22-9c48-46d6-8349-163c7b56dba1",
+    "chunk_ids": [
+      "0eece3ef-3e1b-4c42-935a-1d34e429cf70"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 73213000000.0,
+    "unit": "USD",
+    "description": "AMZN R&D Expenses for FY: $73,213,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3b1e038e-56d1-4b1f-a76e-95fad8b3a660",
+    "chunk_ids": [
+      "d5f82a20-1270-40df-af2c-34ec81afb25e"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 462675000000.0,
+    "unit": "USD",
+    "description": "AMZN Total Assets for FY: $462,675,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1805dab4-fdf8-41c8-a9f5-cd0221ded9be",
+    "chunk_ids": [
+      "e0467b85-e109-49b4-9bfb-24eee91bd3bc"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 316632000000.0,
+    "unit": "USD",
+    "description": "AMZN Total Liabilities for FY: $316,632,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0ecf10ce-d9fc-4e65-88e5-3d4ac84eb29d",
+    "chunk_ids": [
+      "428ed045-8916-4414-9259-810edf6829bc"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 146043000000.0,
+    "unit": "USD",
+    "description": "AMZN Stockholders' Equity for FY: $146,043,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3a2b775b-a33d-473b-95a0-e174bcd50139",
+    "chunk_ids": [
+      "53845a39-d99e-4394-8ce3-86939b6046dd"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 53888000000.0,
+    "unit": "USD",
+    "description": "AMZN Cash & Equivalents for FY: $53,888,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b58f9222-6c13-4c76-b4a9-f4efeacdd5bb",
+    "chunk_ids": [
+      "f09dfdbe-ac6e-4ef2-aa34-4394f3bd966e"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 140118000000.0,
+    "unit": "USD",
+    "description": "AMZN Total Debt for FY: $140,118,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a8787244-0224-4a19-b949-6c81afe7e296",
+    "chunk_ids": [
+      "67b501b1-1e5b-4e51-8941-8249266431b1"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 67150000000.0,
+    "unit": "USD",
+    "description": "AMZN Long-Term Debt for FY: $67,150,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8907e9c3-bc4e-4c52-a978-84bb2ab170eb",
+    "chunk_ids": [
+      "b9fe8313-fe36-43b7-9e1c-69c7315a8da8"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 146791000000.0,
+    "unit": "USD",
+    "description": "AMZN Total Current Assets for FY: $146,791,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "5ea1aa3c-58a9-40ac-8912-b2e7afcfd7e9",
+    "chunk_ids": [
+      "fa884f78-ac21-43e9-a299-a6478d7c1d84"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 155393000000.0,
+    "unit": "USD",
+    "description": "AMZN Total Current Liabilities for FY: $155,393,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "81c12852-6c55-4cc6-ab28-5219fba1c58b",
+    "chunk_ids": [
+      "22214780-af88-4f9a-a791-7d7c89b580c8"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": 46752000000.0,
+    "unit": "USD",
+    "description": "AMZN Operating Cash Flow for FY: $46,752,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d98a4d77-7c12-4541-8da8-2bdee3dde55b",
+    "chunk_ids": [
+      "dfb349a3-0a9d-4e21-b4a3-44502d50aba7"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": -63645000000.0,
+    "unit": "USD",
+    "description": "AMZN Capital Expenditure for FY: $-63,645,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8e7640ec-dd52-44f6-9f95-e1e0837215e3",
+    "chunk_ids": [
+      "59b2eee1-efeb-443a-8a24-2f272de29d5c"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": -16893000000.0,
+    "unit": "USD",
+    "description": "AMZN Free Cash Flow for FY: $-16,893,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2ab1a519-57d2-4f1f-bcf8-a480afb382cc",
+    "chunk_ids": [
+      "fc3efb97-f51f-4ec5-ac8e-3f910e924bba"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AMZN",
+    "period": "FY",
+    "value": -6000000000.0,
+    "unit": "USD",
+    "description": "AMZN Stock Buybacks for FY: $-6,000,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3bf23ebf-2765-476c-9765-cfd6f756776a",
+    "chunk_ids": [
+      "d54b78f5-6a56-4987-b5ff-ef2e7fcaad6a",
+      "7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47",
+      "33a15f77-bd65-4f10-b483-938e6c1f5145",
+      "f3922ad9-85d8-409b-916a-444e08a6a248"
+    ],
+    "fact_type": "financial_result",
+    "subject": "AMZN",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Amazon (AMZN) is scheduled to report quarterly earnings during the week of July 28, 2025, as part of the 'Magnificent Seven' tech earnings releases.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "2208d7d6-9ed1-4586-b9bf-1ecc3713a2eb",
+    "chunk_ids": [
+      "758f8efe-00fb-498c-93e6-263f42d2d0d9"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "AMZN",
+    "period": "2025-07-28",
+    "value": null,
+    "unit": null,
+    "description": "UBS lifted its price target on Amazon stock, signaling strength in the company and sparking a stock rally.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "7370bd96-e640-403e-9cc9-48b6d118205e",
+    "chunk_ids": [
+      "f3922ad9-85d8-409b-916a-444e08a6a248"
+    ],
+    "fact_type": "financial_result",
+    "subject": "AMZN",
+    "period": "2025-Q2",
+    "value": null,
+    "unit": null,
+    "description": "Amazon's Q2 earnings outlook is expected to be upbeat, underpinned by AI-powered AWS growth and advertising revenue.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "43b71d1e-29ba-4cf0-a579-480a001e4fe7",
+    "chunk_ids": [
+      "7ae84ac3-79a9-4c17-bd6f-36e1287d71f0"
+    ],
+    "fact_type": "geopolitical",
+    "subject": "AMZN",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Amazon published a rebuttal disputing a Wall Street Journal report that claimed the company raised prices on popular items following President Trump's tariff announcements.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "54e8a1ef-4775-41e6-8572-5472c0950403",
+    "chunk_ids": [
+      "0e1b4f71-a372-4872-823f-87fda164a587"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AMZN",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Amazon is positioned to benefit from rising demand for chips and AI tools as competitors like Google boost AI spending.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "b585cb64-f5e6-44db-a54a-87038679a841",
+    "chunk_ids": [
+      "95e75447-3c30-49f6-861e-b4c471cfa261",
+      "d54b78f5-6a56-4987-b5ff-ef2e7fcaad6a"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AMZN",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Amazon is one of four technology behemoths representing a combined $11.3 trillion market cap reporting earnings, posing a crucial test for the S&P 500.",
+    "confidence": 0.9
+  }
+]

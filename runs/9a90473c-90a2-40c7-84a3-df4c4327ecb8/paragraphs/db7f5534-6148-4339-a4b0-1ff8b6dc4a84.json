@@ -1,0 +1,114 @@
+{
+  "paragraph_id": "db7f5534-6148-4339-a4b0-1ff8b6dc4a84",
+  "section_name": "Risk Analysis",
+  "text": "Revenue concentration and margin sustainability present potential risk factors. Revenue grew from $26,974,000,000 in FY 2023 to $215,938,000,000 in FY 2026, representing substantial expansion that may be difficult to sustain at similar rates [CHUNK_ID: 81f38fe0-8081-4f24-8b98-ad1f02449fab, CHUNK_ID: d9715ca6-9ea9-4dfa-978c-0f9b46c5ec7b]. Gross profit increased from $15,356,000,000 to $153,463,000,000 over the same period, with FY 2023 gross margin at approximately 56.93% [CHUNK_ID: 13d776a2-5c4c-45d8-9f79-d7dfc9d82d90, CHUNK_ID: bb71bc88-ddc4-4b1f-ab5b-277bf6280c37, CALC_ID: fa1892bc-aa54-4657-b161-d3604764ec70]. The company sells to diverse customers including OEMs, cloud service providers, automotive manufacturers, and distributors across multiple geographies [CHUNK_ID: 812d4743-83b4-43d7-b5ee-dfc8624a5328]. While this diversification may mitigate single-customer dependency, the rapid revenue growth trajectory suggests elevated expectations that could pressure margins if growth moderates or competitive dynamics intensify. Evidence on specific customer concentration or geographic revenue breakdown is insufficient to quantify this risk more precisely.",
+  "citations": [
+    {
+      "citation_id": "bc59ec78-ba1e-448d-ad23-1128e838c0af",
+      "chunk_id": "81f38fe0-8081-4f24-8b98-ad1f02449fab",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Revenue for FY: $26,974,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e06daaa1-ce25-4d69-a0bd-a43ebd57e7f2",
+      "chunk_id": "d9715ca6-9ea9-4dfa-978c-0f9b46c5ec7b",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Revenue for FY: $215,938,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9b96a72b-58db-4ddf-adc3-e6095856935a",
+      "chunk_id": "13d776a2-5c4c-45d8-9f79-d7dfc9d82d90",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Gross Profit for FY: $15,356,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4c88c10a-ca53-40ce-a81e-b8b4217c41f3",
+      "chunk_id": "bb71bc88-ddc4-4b1f-ab5b-277bf6280c37",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Gross Profit for FY: $153,463,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1067f0c7-5e5e-4277-afa6-3559b5dd4bfa",
+      "chunk_id": "812d4743-83b4-43d7-b5ee-dfc8624a5328",
+      "source_id": "a8362987-27be-4ba9-b8e7-dc156ad32235",
+      "source_type": "company_profile",
+      "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "81f38fe0-8081-4f24-8b98-ad1f02449fab",
+    "d9715ca6-9ea9-4dfa-978c-0f9b46c5ec7b",
+    "13d776a2-5c4c-45d8-9f79-d7dfc9d82d90",
+    "bb71bc88-ddc4-4b1f-ab5b-277bf6280c37",
+    "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+  ],
+  "calc_ids": [
+    "fa1892bc-aa54-4657-b161-d3604764ec70"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "7cbcb0a0-6dce-4097-8d69-808b20db40b2",
+      "paragraph_id": "db7f5534-6148-4339-a4b0-1ff8b6dc4a84",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "469ca4fe-2124-4a2b-8f65-4fa592aa546c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "db7f5534-6148-4339-a4b0-1ff8b6dc4a84",
+          "offending_span": "Revenue grew from $26,974,000,000 in FY 2023 to $215,938,000,000 in FY 2026",
+          "explanation": "The cited chunks (81f38fe0-8081-4f24-8b98-ad1f02449fab and d9715ca6-9ea9-4dfa-978c-0f9b46c5ec7b) contain the revenue figures but only state 'NVDA Revenue for FY' without specifying which fiscal years. The paragraph claims FY 2023 and FY 2026 specifically, but this year attribution cannot be verified from the chunk content alone.",
+          "relevant_chunk_ids": [
+            "81f38fe0-8081-4f24-8b98-ad1f02449fab",
+            "d9715ca6-9ea9-4dfa-978c-0f9b46c5ec7b"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite chunks that explicitly specify the fiscal years, or revise the text to state that the fiscal year attribution comes from a different source not currently cited."
+        },
+        {
+          "issue_id": "72e952cf-ec29-4882-8519-ba2042ac946e",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "db7f5534-6148-4339-a4b0-1ff8b6dc4a84",
+          "offending_span": "Gross profit increased from $15,356,000,000 to $153,463,000,000 over the same period, with FY 2023 gross margin at approximately 56.93%",
+          "explanation": "The cited chunks (13d776a2-5c4c-45d8-9f79-d7dfc9d82d90 and bb71bc88-ddc4-4b1f-ab5b-277bf6280c37) contain the gross profit figures but only state 'NVDA Gross Profit for FY' without specifying which fiscal years. The FY 2023 attribution for the gross margin calculation cannot be verified from the chunk content.",
+          "relevant_chunk_ids": [
+            "13d776a2-5c4c-45d8-9f79-d7dfc9d82d90",
+            "bb71bc88-ddc4-4b1f-ab5b-277bf6280c37"
+          ],
+          "relevant_calc_ids": [
+            "fa1892bc-aa54-4657-b161-d3604764ec70"
+          ],
+          "recommended_fix": "Either cite chunks that explicitly specify the fiscal years, or revise the text to clarify the source of the fiscal year attribution."
+        },
+        {
+          "issue_id": "88fa271e-aca1-4b7e-9adc-cebd7b3d7bc4",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "db7f5534-6148-4339-a4b0-1ff8b6dc4a84",
+          "offending_span": "The company sells to diverse customers including OEMs, cloud service providers, automotive manufacturers, and distributors across multiple geographies",
+          "explanation": "The cited chunk (812d4743-83b4-43d7-b5ee-dfc8624a5328) describes NVIDIA's product segments and mentions geographies (United States, Taiwan, China, and internationally), but does not explicitly list customer types such as OEMs, cloud service providers, automotive manufacturers, or distributors. The chunk mentions 'automotive platforms' but this refers to products, not customer types.",
+          "relevant_chunk_ids": [
+            "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite a chunk that explicitly describes NVIDIA's customer types, or revise the claim to reflect what the chunk actually states (product segments and geographies rather than specific customer categories)."
+        }
+      ],
+      "checked_at": "2026-03-11T14:28:34.125372",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

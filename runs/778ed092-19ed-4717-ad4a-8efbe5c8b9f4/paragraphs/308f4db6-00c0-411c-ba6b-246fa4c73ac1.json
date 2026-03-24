@@ -1,0 +1,60 @@
+{
+  "paragraph_id": "308f4db6-00c0-411c-ba6b-246fa4c73ac1",
+  "section_name": "Financial Analysis",
+  "text": "R&D investment intensity remained elevated at 8.09% of revenue in Q4 2026, with R&D expenses totaling $5,512,000,000 [1562353d-db39-4a2f-b994-c550365403ac][7d0701ad-9c93-41dc-a668-c80da89edf75]. This level of R&D spending relative to revenue indicates NVIDIA's continued commitment to maintaining technological leadership in AI chips and data center solutions. The absolute R&D spend increased from $3,989,000,000 in Q1 to $5,512,000,000 in Q4, reflecting scaled investment alongside revenue growth [e937267f-ef09-459a-b5a9-972db6375197][1562353d-db39-4a2f-b994-c550365403ac].",
+  "citations": [
+    {
+      "citation_id": "93dec432-aff2-4858-a34c-ba87468e0879",
+      "chunk_id": "1562353d-db39-4a2f-b994-c550365403ac",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA R&D Expenses for Q4: $5,512,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0dd837b0-5995-452e-bf77-9ff0d429a7e5",
+      "chunk_id": "e937267f-ef09-459a-b5a9-972db6375197",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA R&D Expenses for Q1: $3,989,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "1562353d-db39-4a2f-b994-c550365403ac",
+    "e937267f-ef09-459a-b5a9-972db6375197"
+  ],
+  "calc_ids": [
+    "7d0701ad-9c93-41dc-a668-c80da89edf75"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9ac1a7f9-28d9-4367-8ba1-ea6b64f3421d",
+      "paragraph_id": "308f4db6-00c0-411c-ba6b-246fa4c73ac1",
+      "status": "pass",
+      "issues": [
+        {
+          "issue_id": "bcf31a9d-eefa-43d3-a978-f57b35ded477",
+          "issue_type": "citation_mismatch",
+          "severity": "minor",
+          "paragraph_id": "308f4db6-00c0-411c-ba6b-246fa4c73ac1",
+          "offending_span": "reflecting scaled investment alongside revenue growth",
+          "explanation": "The paragraph claims R&D spending increased 'alongside revenue growth,' but the cited chunks (1562353d-db39-4a2f-b994-c550365403ac and e937267f-ef09-459a-b5a9-972db6375197) only contain R&D expense figures for Q4 and Q1 respectively. No revenue data is provided in the cited chunks to substantiate the revenue growth claim. While the calculation result shows Q4 revenue of $68,127,000,000, Q1 revenue is not cited to confirm growth occurred.",
+          "relevant_chunk_ids": [
+            "1562353d-db39-4a2f-b994-c550365403ac",
+            "e937267f-ef09-459a-b5a9-972db6375197"
+          ],
+          "relevant_calc_ids": [
+            "7d0701ad-9c93-41dc-a668-c80da89edf75"
+          ],
+          "recommended_fix": "Either cite additional chunks containing Q1 revenue data to support the revenue growth claim, or rephrase to state 'reflecting scaled investment' without referencing revenue growth, or add a citation to revenue data if available in other chunks."
+        }
+      ],
+      "checked_at": "2026-03-23T05:31:49.452482",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

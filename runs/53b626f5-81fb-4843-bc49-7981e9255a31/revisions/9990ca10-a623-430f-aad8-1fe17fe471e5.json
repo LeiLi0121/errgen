@@ -1,0 +1,12 @@
+{
+  "revision_id": "9990ca10-a623-430f-aad8-1fe17fe471e5",
+  "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+  "iteration": 3,
+  "original_text": "Historical data reflects operating margin expansion, with Operating Income growing from $12,248,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e] to $68,593,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e] and forecasted at $79,975,000,000 in FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. This growth outpaced Revenue, which rose from $513,983,000,000 [CHUNK_ID: ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357] to $637,959,000,000 [CHUNK_ID: 797dd08f-68f3-4278-b421-6ffa73be3aa2] and $716,924,000,000 [CHUNK_ID: 55489966-bd81-4933-81bb-49a968c49e6a] over the same period. The Operating Margin was 2.38% in FY2022 [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]. Evidence on specific regulatory, competitive, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "revised_text": "Historical data reflects operating margin expansion, with Operating Income growing from $12,248,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e] to $68,593,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e] and forecasted at $79,975,000,000 in FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. This growth outpaced Revenue, which rose from $513,983,000,000 [CHUNK_ID: ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357] to $637,959,000,000 [CHUNK_ID: 797dd08f-68f3-4278-b421-6ffa73be3aa2] and $716,924,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc] over the same period. The Operating Margin was 2.38% in FY2022 [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]. Evidence on specific regulatory, competitive, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "issues_addressed": [
+    "e486d588-1264-4a80-94a8-e279cfe1a94c"
+  ],
+  "changes_summary": "Fixed citation mismatch for FY2025 Revenue figure. Changed chunk ID from 55489966-bd81-4933-81bb-49a968c49e6a (which does not exist in evidence) to 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, which is the correct chunk containing the $716,924,000,000 Revenue data for FY2025. This chunk was already cited for Operating Income in the same paragraph.",
+  "revised_at": "2026-03-12T12:35:05.202701"
+}

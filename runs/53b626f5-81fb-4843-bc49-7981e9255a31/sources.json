@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+    "source_type": "company_profile",
+    "url": "https://financialmodelingprep.com/financial-summary/AMZN",
+    "api_source": "fmp",
+    "document_identifier": "fmp_profile_AMZN",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-12T10:00:55.306524",
+    "ticker": "AMZN",
+    "metadata": {
+      "endpoint": "profile",
+      "symbol": "AMZN"
+    }
+  },
+  {
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_income_AMZN_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-12T10:00:56.486770",
+    "ticker": "AMZN",
+    "metadata": {
+      "endpoint": "income-statement",
+      "symbol": "AMZN",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_balance_AMZN_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-12T10:00:57.672168",
+    "ticker": "AMZN",
+    "metadata": {
+      "endpoint": "balance-sheet-statement",
+      "symbol": "AMZN",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_cashflow_AMZN_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-12T10:00:58.750040",
+    "ticker": "AMZN",
+    "metadata": {
+      "endpoint": "cash-flow-statement",
+      "symbol": "AMZN",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "url": null,
+    "api_source": "finnhub",
+    "document_identifier": "finnhub_news_AMZN",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-12T10:01:02.395111",
+    "ticker": "AMZN",
+    "metadata": {
+      "endpoint": "/company-news",
+      "ticker": "AMZN",
+      "from_date": "2024-07-01",
+      "to_date": "2025-07-28"
+    }
+  }
+]

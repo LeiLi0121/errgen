@@ -1,0 +1,12 @@
+{
+  "revision_id": "79e53ac1-5425-4e03-b785-b5624ba0176e",
+  "paragraph_id": "aced9d2c-b1c8-43f3-90c3-f49f4087abc6",
+  "iteration": 1,
+  "original_text": "NVIDIA's competitive positioning in AI chips appears reinforced by strategic capacity investments in advanced optics. According to news reports, NVIDIA entered multiyear, nonexclusive agreements to invest US$2 billion each in Coherent and Lumentum, alongside multibillion-dollar purchase commitments and future capacity rights [0aa6a797-836f-43db-8358-724d2dac0a0b]. This suggests the company is proactively securing supply chain capacity for critical components, which could strengthen its moat against competitors [0aa6a797-836f-43db-8358-724d2dac0a0b]. The company maintains a strategic collaboration with Kroger Co. and serves diverse markets including gaming, professional visualization, datacenter, and automotive [812d4743-83b4-43d7-b5ee-dfc8624a5328]. However, specific market share data for AI chips is not available in the provided evidence.",
+  "revised_text": "NVIDIA Corporation provides graphics, compute, and networking solutions in the United States, Taiwan, China, and internationally [812d4743-83b4-43d7-b5ee-dfc8624a5328]. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service, Quadro/NVIDIA RTX GPUs for enterprise workstation graphics, vGPU software for cloud-based visual and virtual computing, automotive platforms for infotainment systems, and Omniverse software [812d4743-83b4-43d7-b5ee-dfc8624a5328].",
+  "issues_addressed": [
+    "e494851d-b3d4-4746-a237-c3e9fdaf8453"
+  ],
+  "changes_summary": "Removed unsupported claim regarding strategic collaboration with Kroger Co. as it was not found in the cited chunk. Removed claims about investments in Coherent and Lumentum because the cited chunk [0aa6a797-836f-43db-8358-724d2dac0a0b] was not provided in the available evidence. Removed meta-commentary on market share data availability. Retained business scope and product portfolio details strictly supported by chunk [812d4743-83b4-43d7-b5ee-dfc8624a5328].",
+  "revised_at": "2026-03-11T15:09:26.480498"
+}

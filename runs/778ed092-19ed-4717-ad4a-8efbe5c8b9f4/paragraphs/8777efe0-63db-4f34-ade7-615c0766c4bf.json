@@ -1,0 +1,69 @@
+{
+  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+  "section_name": "Recent Developments",
+  "text": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13]. According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd]. The news catalyzed positive momentum for both NVIDIA and Alibaba shares, suggesting renewed market access opportunities in the world's second-largest semiconductor market.",
+  "citations": [
+    {
+      "citation_id": "954ea0b3-b7dd-40bb-b439-ec76faf43678",
+      "chunk_id": "4a442330-590e-4455-af91-db05eff6ba13",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:26:09Z | Yahoo\nTitle: Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank\nURL: https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3\n↗️ Nvidia (NVDA): China has approved purchases of Nvidia’s popular H200 chip for the first t",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4b2d28b1-b152-4e23-82c9-96af7a76a32b",
+      "chunk_id": "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T21:44:32Z | Yahoo\nTitle: Nvidia: Is China falling behind in AI chip production race?\nURL: https://finnhub.io/api/news?id=aa32e341e99c2aea08bf42657beebdf7a7a9a83f4548f6d25d2adeac05ae0c53\nChina has given its domestic tech companies approval to purchase Nvidia's (NVDA) H200 AI chips, ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4a442330-590e-4455-af91-db05eff6ba13",
+    "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "39334dbb-8901-4932-8e79-c7b969b4eafc",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "9637a1af-7d50-44e3-aa2b-411c72d286f5",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+          "offending_span": "According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy",
+          "explanation": "Chunk d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd states that Wall Street Journal reported the approval itself, but does NOT state that WSJ characterized it as 'a notable shift in China's semiconductor procurement policy.' This characterization is attributed to WSJ in the paragraph but is not found in the cited evidence.",
+          "relevant_chunk_ids": [
+            "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either remove the attribution to Wall Street Journal for the 'notable shift' characterization, or find evidence that WSJ specifically made this claim. Consider rephrasing to: 'According to Wall Street Journal reporting, China approved the purchases, which analysts view as a notable shift...'"
+        },
+        {
+          "issue_id": "70e40220-0908-494f-8a5e-1aceb9153eb2",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+          "offending_span": "NVIDIA received a significant regulatory breakthrough",
+          "explanation": "The phrase 'significant regulatory breakthrough' implies a stronger characterization than what the evidence supports. The cited chunks report the approval factually without characterizing it as a 'breakthrough.' This is editorial interpretation presented as fact.",
+          "relevant_chunk_ids": [
+            "4a442330-590e-4455-af91-db05eff6ba13",
+            "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Soften the language to match the evidence tone, e.g., 'NVIDIA received regulatory approval' or 'NVIDIA received approval that represents a breakthrough' with appropriate attribution."
+        }
+      ],
+      "checked_at": "2026-03-23T05:03:10.843794",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,63 @@
+{
+  "paragraph_id": "4bdd99d0-2f53-4401-af72-c5b8aefd13c8",
+  "section_name": "Risk Analysis",
+  "text": "Financial leverage and liquidity present moderate risk for Adobe. As of Q4 2025, the company carries total debt of $6,648,000,000 against stockholders' equity of $11,623,000,000, resulting in a debt-to-equity ratio of 0.57 (K009, C049, C047). Net debt stands at $1,217,000,000 after accounting for cash and equivalents of $5,431,000,000 (K010, C048). More notably, the current ratio at Q4 2025 is approximately 1.00, with current assets of $10,163,000,000 against current liabilities of $10,200,000,000 (K008, C051, C052). This tight liquidity position suggests limited short-term financial flexibility, though the company maintains positive net cash positioning overall.",
+  "citations": [
+    {
+      "citation_id": "7b39acce-b925-46db-84c5-a5c2f7ab3580",
+      "chunk_id": "af6c2a54-0b7e-45dc-be75-47391e6b3ef6",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Stockholders' Equity for Q4: $11,623,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "944f57f4-25a2-4f85-9e7e-a61f7d6b9cfd",
+      "chunk_id": "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Cash & Equivalents for Q4: $5,431,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9d4baf3b-9c5c-4a6e-a302-3b7dc80dbc95",
+      "chunk_id": "4df4e625-3969-43a3-b113-1221bfeff5da",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Debt for Q4: $6,648,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e9e47eb6-913d-45ff-9470-6e326f5ba9a4",
+      "chunk_id": "0cc438e1-cd60-460c-803d-5629400efec5",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Current Assets for Q4: $10,163,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9be4444c-01e2-4fb6-b0e7-36add942883d",
+      "chunk_id": "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Current Liabilities for Q4: $10,200,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "af6c2a54-0b7e-45dc-be75-47391e6b3ef6",
+    "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+    "4df4e625-3969-43a3-b113-1221bfeff5da",
+    "0cc438e1-cd60-460c-803d-5629400efec5",
+    "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9"
+  ],
+  "calc_ids": [
+    "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+    "90712dd2-8fcf-419e-bc11-6c9b1f50c235",
+    "cc126119-69b0-4364-9543-52985dee2d4f"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

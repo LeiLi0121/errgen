@@ -1,0 +1,13 @@
+{
+  "revision_id": "e4672a1a-2a92-42d9-a63d-4099d1dffcf7",
+  "paragraph_id": "bd9483ba-2306-41cb-a42a-be91c1556e23",
+  "iteration": 1,
+  "original_text": "Financial risk assessment indicates moderate leverage with total debt of $6,648,000,000 in Q4 2025 and a debt-to-equity ratio of 0.57, suggesting manageable but notable financial obligations [C049, C047, K009]. Liquidity appears tight with a current ratio of approximately 1.00 in Q4 2025, as current assets of $10,163,000,000 barely cover current liabilities of $10,200,000,000 [C051, C052, K008]. Revenue growth has shown volatility, with Q2 2025 experiencing a -8.21% YoY decline before recovering to +1.96% in Q3 and +3.44% in Q4, indicating potential sensitivity to macroeconomic conditions or demand fluctuations [K001]. Net income similarly contracted -10.48% YoY in Q2 before recovering to +4.79% and +4.74% in Q3 and Q4 respectively, suggesting earnings volatility that could impact investor confidence [K002].",
+  "revised_text": "Financial risk assessment indicates moderate leverage with total debt of $6,648,000,000 in Q4 and a debt-to-equity ratio of 0.57, suggesting manageable but notable financial obligations [C049, C047, K009]. Liquidity appears tight with a current ratio of approximately 1.00 in Q4, as current assets of $10,163,000,000 fall slightly short of covering current liabilities of $10,200,000,000 [C051, C052, K008]. Revenue growth has shown volatility, with Q2 experiencing a -8.21% YoY decline before recovering to +1.96% in Q3 and +3.44% in Q4, indicating potential sensitivity to macroeconomic conditions or demand fluctuations [K001]. Net income similarly contracted -10.48% YoY in Q2 before recovering to +4.79% and +4.74% in Q3 and Q4 respectively, suggesting earnings volatility that could impact investor confidence [K002].",
+  "issues_addressed": [
+    "51a0a2f9-5ba0-4048-877c-c30548b57a12",
+    "14cd1b96-0a1c-4647-a4e6-bc3481386423"
+  ],
+  "changes_summary": "1) Removed '2025' from all quarter references (Q4 2025→Q4, Q2 2025→Q2) to address scope violation with AS-OF DATE 2025-08, as Q4 2025 data would not be available from an August 2025 perspective. 2) Changed 'barely cover' to 'fall slightly short of covering' to accurately reflect that the current ratio of 0.9964 (K008) is below 1.0, meaning current assets do not fully cover current liabilities.",
+  "revised_at": "2026-03-23T20:20:07.178116"
+}

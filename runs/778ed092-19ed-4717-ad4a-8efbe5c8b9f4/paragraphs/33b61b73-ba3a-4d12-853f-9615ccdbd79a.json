@@ -1,0 +1,45 @@
+{
+  "paragraph_id": "33b61b73-ba3a-4d12-853f-9615ccdbd79a",
+  "section_name": "Financial Analysis",
+  "text": "The balance sheet reflects a conservative capital structure with strong liquidity positioning. As of Q4 2026, the current ratio stood at 3.91, indicating ample short-term liquidity coverage [fc6898e7-0436-452a-b590-9dcb2bcb2d1d]. Total debt was $11,412,000,000 against stockholders' equity of $157,293,000,000, yielding a debt-to-equity ratio of 0.07 [4bc124d0-55c5-43b2-8ab4-271e8fceebfa][e377f583-1e0e-4775-a1f9-d8e3eb7738e7][329a2749-65f3-4d5f-b78e-9d344e984ed5]. Net debt was minimal at $807,000,000, suggesting the company maintains a nearly net-cash position [36dc1d31-f0f0-44e7-b628-679358946106].",
+  "citations": [
+    {
+      "citation_id": "f9c7c523-ff87-4b2c-a9bc-466d06b9037c",
+      "chunk_id": "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Debt for Q4: $11,412,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "36c92d3c-946b-4142-aa7e-89d572b641e3",
+      "chunk_id": "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+    "e377f583-1e0e-4775-a1f9-d8e3eb7738e7"
+  ],
+  "calc_ids": [
+    "fc6898e7-0436-452a-b590-9dcb2bcb2d1d",
+    "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+    "36dc1d31-f0f0-44e7-b628-679358946106"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "2850fb93-6c9a-4e2e-b832-be2086c4e296",
+      "paragraph_id": "33b61b73-ba3a-4d12-853f-9615ccdbd79a",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T05:31:15.820192",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "8c18e688-7443-4515-9bad-3dfd0492c3eb",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Evidence limitations constrain our ability to provide a more definitive recommendation. The available financial data does not provide segment-level revenue breakdown to assess customer or geographic concentration risks, and specific information regarding export controls and regulatory proceedings remains incomplete. While China's recent approval of H200 chip purchases for customers including Alibaba represents a positive development [4a442330-590e-4455-af91-db05eff6ba13], and reports of NVIDIA considering Intel foundry partnerships suggest supply chain diversification efforts [d221dbaa-f872-4882-943c-5d5c765f3698], these factors introduce additional execution uncertainty. Given the combination of exceptional fundamentals, significant prior outperformance, and material regulatory uncertainties, we recommend a Hold rating pending greater clarity on geopolitical risk exposure and growth sustainability.",
+  "citations": [
+    {
+      "citation_id": "f2acfd12-f0ab-4c38-b997-12215dca534c",
+      "chunk_id": "4a442330-590e-4455-af91-db05eff6ba13",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:26:09Z | Yahoo\nTitle: Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank\nURL: https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3\n↗️ Nvidia (NVDA): China has approved purchases of Nvidia’s popular H200 chip for the first t",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "786133f0-d066-409b-b028-2eb83946f688",
+      "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4a442330-590e-4455-af91-db05eff6ba13",
+    "d221dbaa-f872-4882-943c-5d5c765f3698"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "58d53c89-126e-4c12-ab87-af4dc8b76f48",
+      "paragraph_id": "8c18e688-7443-4515-9bad-3dfd0492c3eb",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T07:21:13.624061",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

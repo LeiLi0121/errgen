@@ -1,0 +1,22 @@
+{
+  "verdict_id": "001590f6-8c17-4742-9dcd-27d28d3f5b45",
+  "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "efee371f-3b73-4086-b6ed-1ca8e282aa42",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+      "offending_span": "with the House Select Committee on China revealing NVIDIA personnel assisted the firm through optimized technical support",
+      "explanation": "The cited chunk (4f614cf7-7e8b-4918-9137-cce8663f2afd) mentions 'a letter from Representative John Moolenaar' but does not explicitly reference the 'House Select Committee on China.' Additionally, the chunk describes 'extensive technical assistance' and 'collaboration enabled significant efficiency gains,' not 'optimized technical support.' These are materially different characterizations that are not supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to match the cited evidence: 'with a letter from Representative John Moolenaar revealing NVIDIA provided extensive technical assistance to the firm' or verify the House Select Committee on China connection from an additional source and cite it appropriately."
+    }
+  ],
+  "checked_at": "2026-03-23T05:35:30.588819",
+  "iteration": 0
+}

@@ -1,0 +1,12 @@
+{
+  "revision_id": "73b48648-fe02-4b04-b7dd-a8469eb6d49c",
+  "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+  "iteration": 2,
+  "original_text": "EBITDA generation demonstrates consistency across quarters, with Q4 2025 EBITDA at $2,448,000,000 (C016), compared to $2,462,000,000 in Q3 2025 (C024), and $2,378,000,000 in Q2 2025 (C032). Cash flow quality appears strong, with free cash flow margin in Q4 2025 at 50.47% (K011), indicating exceptional cash conversion capabilities relative to revenue. This FCF margin suggests Adobe generates substantial cash from operations after accounting for capital expenditures, supporting potential shareholder returns and strategic investments.",
+  "revised_text": "EBITDA generation demonstrates consistency across recent quarters, with Q3 2025 EBITDA at $2,462,000,000 (C024), compared to $2,378,000,000 in Q2 2025 (C032). Revenue trends aligned with this performance, recording $5,988,000,000 in Q3 2025 (C020) versus $5,873,000,000 in Q2 2025 (C028).",
+  "issues_addressed": [
+    "86142798-7258-45cc-a7a7-ee3e0dc96269"
+  ],
+  "changes_summary": "Removed Q4 2025 EBITDA and FCF Margin references due to scope violation (as-of date August 2025 precedes Q4 close). Updated EBITDA comparison to Q3 and Q2 2025. Replaced unsupported FCF claim with Revenue data for the same periods to maintain analytical depth using available evidence.",
+  "revised_at": "2026-03-23T20:54:44.082200"
+}

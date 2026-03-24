@@ -1,0 +1,16 @@
+{
+  "revision_id": "e4cbe3a2-4c17-4c6f-9d3b-94fc2875cbed",
+  "paragraph_id": "40e0168e-34ef-46a9-90e9-91531a45515c",
+  "iteration": 1,
+  "original_text": "Adobe Inc. operates as a diversified software company worldwide through three primary segments: Digital Media, Digital Experience, and Publishing and Advertising [C002]. The Digital Media segment serves as the company's core revenue driver, offering Creative Cloud subscription services that enable individuals, teams, and enterprises to create, publish, and promote content, alongside Document Cloud, a unified cloud-based document services platform [C002]. The Digital Experience segment provides an integrated platform enabling brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce [C002]. The Publishing and Advertising segment offers e-learning solutions, technical document publishing, web conferencing, and Advertising Cloud offerings [C002]. Adobe distributes products directly to enterprise customers through its sales force and local field offices, as well as to end users through app stores and adobe.com, supplemented by a network of distributors, value-added resellers, systems integrators, and OEMs [C002]. The company employs 30,709 full-time employees and is headquartered in San Jose, California [C001].",
+  "revised_text": "Adobe Inc. operates as a diversified software company worldwide through three primary segments: Digital Media, Digital Experience, and Publishing and Advertising [C002]. The Digital Media segment offers Creative Cloud as its flagship product, a subscription service that enables individuals, teams, and enterprises to create, publish, and promote content, alongside Document Cloud, a unified cloud-based document services platform [C002]. The company also operates Digital Experience and Publishing and Advertising segments [C002]. Adobe employs 30,709 full-time employees and is headquartered in the United States [C001].",
+  "issues_addressed": [
+    "13c6ed56-a38d-452e-8740-fd2cfba8fc2b",
+    "8d1e6dc6-155c-482a-8700-0de36cfe66a0",
+    "d9e9c726-77f5-40ae-bc72-e3476ab2a6fc",
+    "28a1911f-9dc4-469f-a8a6-94c8bd47b4f0",
+    "f20e6567-9107-42e4-887c-0a79092af15f"
+  ],
+  "changes_summary": "Fixed 5 major issues: (1) Changed 'core revenue driver' to 'flagship product' for Digital Media/Creative Cloud per C002 evidence; (2) Removed unsupported Digital Experience segment capabilities description as C002 is truncated before this info; (3) Removed unsupported Publishing and Advertising segment offerings details as not in visible C002; (4) Removed entire distribution channels claim as no evidence supports this; (5) Changed 'San Jose, California' to 'United States' as C001 only shows Country: US without city/state specification.",
+  "revised_at": "2026-03-23T20:06:20.717222"
+}

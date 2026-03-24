@@ -1,0 +1,55 @@
+{
+  "paragraph_id": "5be7ff05-bf18-46df-bf2c-9217413b9c75",
+  "section_name": "Recent Developments",
+  "text": "Regulatory developments continue to affect NVIDIA's operations. The company must comply with strict U.S. licensing terms for its H200 AI chips destined for China exports. Reuters reported on March 8, 2026, that NVIDIA Corporation halted China-bound H200 output, indicating ongoing geopolitical constraints on the company's ability to serve certain markets. These licensing requirements represent a material consideration for NVIDIA's international revenue potential.",
+  "citations": [
+    {
+      "citation_id": "cb5eaf7a-1f43-493e-a139-86f37f399df3",
+      "chunk_id": "6e65d4a1-1d32-45c5-8b26-b90431e08cff",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-11T19:26:14Z | Yahoo Entertainment | Author: Faheem Tahir\nTitle: NVIDIA (NVDA) Must Comply with Strict U.S. Licensing Terms for Its H200 AI Chips China Exports\nURL: https://finance.yahoo.com/news/nvidia-nvda-must-comply-strict-192614699.html\nNVIDIA Corporation (NASDAQ:NVDA) is one of ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "16d258fa-ef75-4b72-b35b-c8c2afc5dab3",
+      "chunk_id": "d45d9018-653b-41c6-9a57-50f69a9996d6",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-03-08T12:11:00Z | Yahoo Entertainment\nTitle: NVIDIA Corporation (NVDA) Halts China-bound H200 Output, Reuters Reports\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5ec118d0-26eb-427b-893a-643f8553d7ad\nIf you click 'Accept all', we and our partners, including 245",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "6e65d4a1-1d32-45c5-8b26-b90431e08cff",
+    "d45d9018-653b-41c6-9a57-50f69a9996d6"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "f0f30516-2b52-454e-b97b-36795aeb9961",
+      "paragraph_id": "5be7ff05-bf18-46df-bf2c-9217413b9c75",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "7e32562e-fa58-45f7-a635-b5daadfd0cbb",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "5be7ff05-bf18-46df-bf2c-9217413b9c75",
+          "offending_span": "Reuters reported on March 8, 2026, that NVIDIA Corporation halted China-bound H200 output",
+          "explanation": "The cited chunk (d45d9018-653b-41c6-9a57-50f69a9996d6) contains only a cookie consent banner in its body text ('If you click 'Accept all', we and our partners...'), not the actual news article content. While the chunk title matches the claim, the body evidence provided does not substantiate the specific details of the report (e.g., that Reuters was the source, or the specific details of the halt). Relying on a title of a page that failed to load properly (indicated by the cookie text) is insufficient for rigorous verification.",
+          "relevant_chunk_ids": [
+            "d45d9018-653b-41c6-9a57-50f69a9996d6"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Replace the cited chunk with a valid news snippet that contains the actual article body text confirming the Reuters report and the halt of H200 output. Alternatively, verify if the chunk retrieval failed and re-fetch the correct content."
+        }
+      ],
+      "checked_at": "2026-03-11T12:38:25.627893",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

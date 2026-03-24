@@ -1,0 +1,34 @@
+{
+  "paragraph_id": "353e58c2-5441-4fe2-bda5-e110b13c11de",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Based on the verified analysis, we maintain a Cautious stance on NVIDIA Corporation (NVDA). While the company has demonstrated exceptional financial performance with revenue expanding from $26.97 billion in FY2023 to $215.94 billion in FY2026 [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a], and EBITDA growing from $5.99 billion to $144.55 billion over the same period [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a], recent market reaction suggests valuation concerns may be emerging.",
+  "citations": [
+    {
+      "citation_id": "dc473e1b-4796-4a58-8d61-678da9f20716",
+      "chunk_id": "cdffc354-305b-4c6d-9459-624d8d18147a",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2026-01-25\n  Revenue:            $215,938,000,000\n  Gross Profit:       $153,463,000,000 (margin N/A)\n  Operating Income:   $130,387,000,000 (margin N/A)\n  Net Income:         $120,067,000,000 (margin N/A)\n  EBITDA:             $144,552,000,000\n  EPS:    ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "cdffc354-305b-4c6d-9459-624d8d18147a"
+  ],
+  "calc_ids": [
+    "0bceccc1-b1ac-4b8c-be53-06259e251673"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "50a5b110-0d42-4d00-98c0-500f1aea74eb",
+      "paragraph_id": "353e58c2-5441-4fe2-bda5-e110b13c11de",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T15:33:09.793176",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

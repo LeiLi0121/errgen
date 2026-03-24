@@ -1,0 +1,27 @@
+{
+  "paragraph_id": "ae48d010-bf37-41d3-94dc-e60ef0cca2dd",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "In summary, while Adobe's profitability metrics and cash generation capabilities are exceptional, the combination of revenue growth volatility, significant stock underperformance versus the SPY benchmark, and competitive pressures in the AI-enabled creative software space preclude a Buy recommendation at this time. However, strong fundamentals and analyst confidence in long-term AI monetization upside argue against a Sell rating. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI monetization before upgrading to a more constructive stance. This Hold rating reflects the view that current risk-reward dynamics are balanced, with neither clear upside catalysts nor fundamental deterioration warranting a more decisive position.",
+  "citations": [
+    {
+      "citation_id": "1f51574b-74a4-4e1f-a22d-402e5db4a58e",
+      "chunk_id": "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Net Income for Q4: $1,856,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7"
+  ],
+  "calc_ids": [
+    "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+    "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+    "d4126c43-6ca1-4432-9d41-c54b5e543718"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

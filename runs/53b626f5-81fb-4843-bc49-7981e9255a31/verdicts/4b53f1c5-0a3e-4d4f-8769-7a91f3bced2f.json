@@ -1,0 +1,50 @@
+{
+  "verdict_id": "4b53f1c5-0a3e-4d4f-8769-7a91f3bced2f",
+  "paragraph_id": "54a305fd-52bc-4fee-a73e-fd80a6498b0c",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "17b905ac-0dd5-4322-a748-811d640a4531",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "54a305fd-52bc-4fee-a73e-fd80a6498b0c",
+      "offending_span": "FY2022",
+      "explanation": "The cited chunk (0eece3ef-3e1b-4c42-935a-1d34e429cf70) states 'AMZN R&D Expenses for FY: $73,213,000,000' but does not specify the fiscal year as 2022. The paragraph assigns the year 2022 without evidence in the chunk.",
+      "relevant_chunk_ids": [
+        "0eece3ef-3e1b-4c42-935a-1d34e429cf70"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific year '2022' unless supported by a chunk that explicitly labels the fiscal year, or cite a chunk that contains the year information."
+    },
+    {
+      "issue_id": "b6a58eb6-9465-4c7c-8dd3-64c45ed22fd2",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "54a305fd-52bc-4fee-a73e-fd80a6498b0c",
+      "offending_span": "FY2025",
+      "explanation": "The cited chunks (534dacac-29c9-481c-8845-b786f27f197d, 55489966-bd81-4933-81bb-49a96e1be734) state 'for FY' but do not explicitly label the fiscal year as 2025. The paragraph assigns the year 2025 without textual evidence in the chunks.",
+      "relevant_chunk_ids": [
+        "534dacac-29c9-481c-8845-b786f27f197d",
+        "55489966-bd81-4933-81bb-49a96e1be734"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific year '2025' unless supported by a chunk that explicitly labels the fiscal year, or cite a chunk that contains the year information."
+    },
+    {
+      "issue_id": "5a47a352-5a2c-431f-af34-6da21a3c7163",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "54a305fd-52bc-4fee-a73e-fd80a6498b0c",
+      "offending_span": "$108,521,000,000 in FY2025",
+      "explanation": "The report As-Of Date is 2025-07. Claiming actual Income Statement data (R&D Expenses, Revenue) for the full Fiscal Year 2025 implies the year is complete. However, in July 2025, FY2025 (typically ending Dec 2025 for US companies) would not be closed, making this data unavailable as actuals. This references future/ongoing period data as historical fact.",
+      "relevant_chunk_ids": [
+        "534dacac-29c9-481c-8845-b786f27f197d",
+        "55489966-bd81-4933-81bb-49a96e1be734"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Verify the fiscal year end date. If FY2025 is not complete as of 2025-07, label the data as projected/estimated or use the last completed fiscal year (e.g., FY2024)."
+    }
+  ],
+  "checked_at": "2026-03-12T10:27:00.556049",
+  "iteration": 0
+}

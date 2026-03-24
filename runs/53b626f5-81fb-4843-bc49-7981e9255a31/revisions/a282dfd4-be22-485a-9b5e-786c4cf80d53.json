@@ -1,0 +1,13 @@
+{
+  "revision_id": "a282dfd4-be22-485a-9b5e-786c4cf80d53",
+  "paragraph_id": "ea81fd78-d7ae-4243-89e4-979d3b38cb9b",
+  "iteration": 2,
+  "original_text": "EBITDA generation has strengthened considerably, with FY2025 EBITDA projected at $165,341,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], up from $123,815,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e], $89,402,000,000 in FY2023 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], and $38,352,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. EBITDA margin was 7.46% [CALC_ID: cd2a13f8-6996-4b54-a953-05d0ed25f82c], while free cash flow margin was negative at -3.29% [CALC_ID: a65e9487-8763-4d3c-aaba-17a6ad8077c0]. The substantial EBITDA growth suggests improved cash flow quality, though specific FY2025 operating cash flow and free cash flow figures are not available in the provided evidence to calculate current FCF margins.",
+  "revised_text": "EBITDA generation has strengthened considerably, with FY2025 EBITDA projected at $165,341,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], up from $123,815,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e], $89,402,000,000 in FY2023 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], and $38,352,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. In FY2022, the EBITDA margin was 7.46% [CALC_ID: cd2a13f8-6996-4b54-a953-05d0ed25f82c], while free cash flow margin was negative at -3.29% [CALC_ID: a65e9487-8763-4d3c-aaba-17a6ad8077c0]. The substantial EBITDA growth suggests improved cash flow quality, though specific FY2025 operating cash flow and free cash flow figures are not available in the provided evidence to calculate current FCF margins.",
+  "issues_addressed": [
+    "fbeac9cf-328a-48e4-b78f-b262b46b7c2d",
+    "3b03cc32-8220-4359-b8e8-45f5d6814ed0"
+  ],
+  "changes_summary": "Added 'In FY2022' qualifier to the EBITDA margin and FCF margin statements to explicitly identify the historical period associated with the cited calculations. This resolves the citation mismatch and internal inconsistency issues by distinguishing historical FY2022 margins from the unavailable FY2025 FCF data mentioned in the subsequent sentence.",
+  "revised_at": "2026-03-12T12:19:36.142332"
+}

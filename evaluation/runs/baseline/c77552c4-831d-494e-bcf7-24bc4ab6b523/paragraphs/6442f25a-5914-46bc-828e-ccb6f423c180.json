@@ -1,0 +1,63 @@
+{
+  "paragraph_id": "6442f25a-5914-46bc-828e-ccb6f423c180",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "We assign a Hold rating to Adobe Inc. (ADBE) based on a balanced assessment of strong fundamental profitability metrics against meaningful growth volatility and competitive headwinds. While the company maintains industry-leading margins with gross margin at 88.92% (K003) and operating margin at 36.50% (K004), revenue growth has demonstrated notable inconsistency, contracting -8.21% YoY in Q2 before recovering to +3.44% in Q4 (K001). This volatility suggests susceptibility to macroeconomic conditions and competitive pressures that warrant a cautious stance.",
+  "citations": [
+    {
+      "citation_id": "ed625065-e3c9-4576-8e76-6449e7409363",
+      "chunk_id": "09b0caab-7540-4026-bc0e-44feb87d9ef0",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q1: $1,110,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7dc23c1e-b789-446c-b31b-7321f94acf89",
+      "chunk_id": "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – ADBE | Period: Q4 | Date: 2025-11-28\n  Revenue:            $6,194,000,000\n  Gross Profit:       $5,508,000,000 (margin N/A)\n  Operating Income:   $2,261,000,000 (margin N/A)\n  Net Income:         $1,856,000,000 (margin N/A)\n  EBITDA:             $2,448,000,000\n  EPS:              ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9760ce02-ddd0-43c9-ac5a-ae9d573a6fd8",
+      "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "16facc20-efd9-4407-bb14-cf1e9fb147fa",
+      "chunk_id": "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Gross Profit for Q4: $5,508,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fe826fce-a840-49cd-ad09-b57de8a42c7b",
+      "chunk_id": "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Operating Income for Q4: $2,261,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "09b0caab-7540-4026-bc0e-44feb87d9ef0",
+    "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+    "df1312ec-0551-4faf-bb73-22ccbee090a1",
+    "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+    "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2"
+  ],
+  "calc_ids": [
+    "aa6b080f-af63-474f-9419-8dbeca0d5b07",
+    "426b5804-bdf9-4613-904d-04a5ed365685",
+    "15c36992-22c3-492d-a197-fce0951e9593"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

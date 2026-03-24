@@ -1,0 +1,29 @@
+{
+  "run_id": "9a90473c-90a2-40c7-84a3-df4c4327ecb8",
+  "ticker": "NVDA",
+  "as_of_date": null,
+  "status": "completed",
+  "started_at": "2026-03-11T15:48:33.204947",
+  "completed_at": "2026-03-11T15:48:33.204950",
+  "n_sources": 5,
+  "n_chunks": 114,
+  "n_facts": 29,
+  "n_calculations": 9,
+  "n_paragraphs": 24,
+  "n_verdicts": 40,
+  "n_revisions": 16,
+  "errors": [],
+  "warnings": [],
+  "overall_report_status": "pass",
+  "config_snapshot": {
+    "openai_model": "qwen3.5-plus",
+    "openai_fast_model": "qwen3.5-plus",
+    "fmp_base_url": "https://financialmodelingprep.com/stable",
+    "newsapi_base_url": "https://newsapi.org/v2",
+    "finnhub_base_url": "https://finnhub.io/api/v1",
+    "max_revision_iterations": 3,
+    "max_news_articles": 20,
+    "max_financial_periods": 4,
+    "runs_dir": "runs"
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "calc_id": "edade71e-0bfb-4746-a37b-e3e09c550cd3",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 225152000000.0,
+      "denominator": 513983000000.0
+    },
+    "result": 0.43805339865326287,
+    "formula_description": "225152000000.0 / 513983000000.0 = 0.4381 (43.81%)",
+    "description": "AMZN Gross Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "c0a44539-99d5-4b5d-b6e9-551d675efa31",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 12248000000.0,
+      "denominator": 513983000000.0
+    },
+    "result": 0.023829581912242232,
+    "formula_description": "12248000000.0 / 513983000000.0 = 0.0238 (2.38%)",
+    "description": "AMZN Operating Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "8a641992-c5cf-4f11-90ac-1eca33419a4c",
+    "operation": "margin",
+    "inputs": {
+      "numerator": -2722000000.0,
+      "denominator": 513983000000.0
+    },
+    "result": -0.005295895000418302,
+    "formula_description": "-2722000000.0 / 513983000000.0 = -0.0053 (-0.53%)",
+    "description": "AMZN Net Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "cd2a13f8-6996-4b54-a953-05d0ed25f82c",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 38352000000.0,
+      "denominator": 513983000000.0
+    },
+    "result": 0.07461725387804655,
+    "formula_description": "38352000000.0 / 513983000000.0 = 0.0746 (7.46%)",
+    "description": "AMZN EBITDA Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "067e0511-a49a-4cdb-847f-c0470722fc7b",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 73213000000.0,
+      "revenue": 513983000000.0
+    },
+    "result": 0.14244245432241923,
+    "formula_description": "R&D (73213000000.0) / revenue (513983000000.0) = 0.1424 (14.24%)",
+    "description": "AMZN R&D Intensity (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 146791000000.0,
+      "current_liabilities": 155393000000.0
+    },
+    "result": 0.9446435811136924,
+    "formula_description": "current_assets (146791000000.0) / current_liabilities (155393000000.0) = 0.94",
+    "description": "AMZN Current Ratio (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "ec64f479-08ea-449f-bb49-a0efd33c4b1d",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 140118000000.0,
+      "equity": 146043000000.0
+    },
+    "result": 0.9594297569893798,
+    "formula_description": "total_debt (140118000000.0) / equity (146043000000.0) = 0.96",
+    "description": "AMZN Debt-to-Equity (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "7682229a-d413-422b-8ec1-a4236848f957",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 140118000000.0,
+      "cash": 53888000000.0
+    },
+    "result": 86230000000.0,
+    "formula_description": "total_debt (140118000000.0) - cash (53888000000.0) = 86230000000.0",
+    "description": "AMZN Net Debt (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "a65e9487-8763-4d3c-aaba-17a6ad8077c0",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": -16893000000.0,
+      "revenue": 513983000000.0
+    },
+    "result": -0.032866845790619534,
+    "formula_description": "FCF (-16893000000.0) / revenue (513983000000.0) = -0.0329 (-3.29%)",
+    "description": "AMZN FCF Margin (FY)",
+    "error": null
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "verdict_id": "bfa14c56-9c76-448b-ae07-aeaea907ce54",
+  "paragraph_id": "e412b830-165c-4bdd-96ae-7505da5f63dd",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "55e785e3-368e-44a8-916a-afbd3b01fbe3",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "e412b830-165c-4bdd-96ae-7505da5f63dd",
+      "offending_span": "Microsoft, Meta, Apple, and Amazon",
+      "explanation": "The cited chunk (95e75447) states 'four technology behemoths worth a combined $11.3 trillion' but does not explicitly name Microsoft, Meta, or Apple. While the aggregate value and count match, and Amazon is confirmed elsewhere, the specific identities of the other three companies are not explicitly found in the provided evidence text.",
+      "relevant_chunk_ids": [
+        "95e75447-3c30-49f6-861e-b4c471cfa261"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Modify the text to reflect the chunk's wording (e.g., 'four technology behemoths including Amazon') or ensure the citation explicitly lists the company names if available in the full source."
+    }
+  ],
+  "checked_at": "2026-03-12T10:08:52.565105",
+  "iteration": 0
+}

@@ -1,0 +1,12 @@
+{
+  "revision_id": "d54f8b95-3c57-4b6b-8070-0ea017551111",
+  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+  "iteration": 2,
+  "original_text": "NVIDIA maintains a dominant competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% and gross margin of 75.00%. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion representing 19.51% YoY growth. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+  "revised_text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+  "issues_addressed": [
+    "f796dc91-99d7-499e-ac7b-11c27ef68a77"
+  ],
+  "changes_summary": "Rephrased the opening claim about NVIDIA's 'dominant competitive position' to 'suggests a competitive position' to frame it as interpretive analysis rather than an unsupported factual claim, per the checker's guidance. All financial metrics (margins, revenue, growth rates) are now properly cited with their corresponding calc_ids and chunk_ids. The revenue figure of $68.13 billion is supported by chunk db68e3f3-b4e9-49cf-86fe-9602627ec55b which shows $68,127,000,000.",
+  "revised_at": "2026-03-23T06:58:37.503590"
+}

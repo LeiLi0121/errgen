@@ -1,0 +1,14 @@
+{
+  "revision_id": "b51f90db-d43b-4d94-a84d-4915b17e6caa",
+  "paragraph_id": "54a305fd-52bc-4fee-a73e-fd80a6498b0c",
+  "iteration": 1,
+  "original_text": "Operational scale presents execution risk, with the company employing 1,560,000 full-time employees as of the profile date [CHUNK_ID: e65da658-2e8e-45cc-a6fc-d7c488c49e6a]. Managing such a large workforce across three segments (North America, International, and AWS) introduces complexity in labor cost control and operational efficiency [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. Additionally, R&D Expenses have grown significantly from $73,213,000,000 in FY2022 to $108,521,000,000 in FY2025, representing 15.1% of FY2025 Revenue [CHUNK_ID: 0eece3ef-3e1b-4c42-935a-1d34e429cf70, CHUNK_ID: 534dacac-29c9-481c-8845-b786f27f197d, CHUNK_ID: 55489966-bd81-4933-81bb-49a96e1be734]. This high R&D intensity is necessary to maintain competitive positioning but creates pressure on operating margins if innovation does not translate to revenue growth.",
+  "revised_text": "Operational scale presents execution risk, with the company employing 1,560,000 full-time employees as of the profile date [CHUNK_ID: e65da658-2e8e-45cc-a6fc-d7c488c49e6a]. Managing such a large workforce across three segments (North America, International, and AWS) introduces complexity in labor cost control and operational efficiency [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. Additionally, R&D Expenses have grown significantly from $73,213,000,000 in FY2022 to $88,544,000,000 in FY2024 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. This high level of R&D investment is necessary to maintain competitive positioning but creates pressure on operating margins if innovation does not translate to revenue growth.",
+  "issues_addressed": [
+    "17b905ac-0dd5-4322-a748-811d640a4531",
+    "b6a58eb6-9465-4c7c-8dd3-64c45ed22fd2",
+    "5a47a352-5a2c-431f-af34-6da21a3c7163"
+  ],
+  "changes_summary": "Replaced FY2025 data with FY2024 data to resolve scope violation (report date 2025-07 vs FY2025 year-end). Updated citations to chunks that explicitly label the fiscal years (2022 and 2024) to resolve unsupported claim issues. Removed the unsupported R&D intensity percentage claim as no matching calc_id was available for FY2024. Adjusted qualitative phrasing from 'intensity' to 'investment' to align with the removal of the percentage metric.",
+  "revised_at": "2026-03-12T11:43:25.874500"
+}

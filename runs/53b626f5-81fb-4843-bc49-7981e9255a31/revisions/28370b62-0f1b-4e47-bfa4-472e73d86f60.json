@@ -1,0 +1,12 @@
+{
+  "revision_id": "28370b62-0f1b-4e47-bfa4-472e73d86f60",
+  "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+  "iteration": 2,
+  "original_text": "Profitability metrics show dramatic expansion from FY2022 baseline levels. FY2025 gross profit is projected to reach $360,510,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], operating income to climb to $79,975,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], and net income to achieve $77,670,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. This represents substantial improvement from FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e], where gross margin stood at 43.81% [CALC_ID: edade71e-0bfb-4746-a37b-e3e09c550cd3], operating margin at 2.38% [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31], and net margin at -0.53% [CALC_ID: 8a641992-c5cf-4f11-90ac-1eca33419a4c]. The margin expansion trajectory indicates successful cost optimization initiatives and a favorable shift toward higher-margin businesses including AWS and advertising.",
+  "revised_text": "Profitability metrics show dramatic expansion from FY2022 baseline levels. FY2025 gross profit is projected to reach $360,510,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], operating income to climb to $79,975,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], and net income to achieve $77,670,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. This represents substantial improvement from FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e], where gross margin stood at 43.81% [CALC_ID: edade71e-0bfb-4746-a37b-e3e09c550cd3], operating margin at 2.38% [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31], and net margin at -0.53% [CALC_ID: 8a641992-c5cf-4f11-90ac-1eca33419a4c].",
+  "issues_addressed": [
+    "080512c8-254b-43f9-8c29-31ae79971167"
+  ],
+  "changes_summary": "Removed the final sentence attributing margin expansion to cost optimization initiatives and specific business segments (AWS, advertising). The provided evidence chunks contain only high-level income statement data and do not include segment-level reporting or management commentary required to substantiate these causal drivers.",
+  "revised_at": "2026-03-12T12:18:46.933505"
+}

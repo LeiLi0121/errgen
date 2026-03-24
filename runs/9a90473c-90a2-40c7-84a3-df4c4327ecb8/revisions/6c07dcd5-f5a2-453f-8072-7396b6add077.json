@@ -1,0 +1,13 @@
+{
+  "revision_id": "6c07dcd5-f5a2-453f-8072-7396b6add077",
+  "paragraph_id": "be3a2204-4d45-4991-9023-7de533c3f498",
+  "iteration": 1,
+  "original_text": "R&D investment intensity reflects NVIDIA's commitment to maintaining technological leadership in AI chips and accelerated computing. R&D expenses grew from $7,339,000,000 in FY2023 [652072cd-9c52-4e2e-9c98-6fbc1649ceec] to $18,497,000,000 in FY2026 [65dcb847-39b8-4238-948f-874660fd6a4a], representing a 2.5x increase over three years. The FY2023 R&D intensity was 27.21% of revenue [73be37ab-34a6-483d-af59-5a255b1c4eea]. While absolute R&D spending has increased substantially, the intensity percentage has likely declined in FY2024-FY2026 given that revenue growth has outpaced R&D expense growth. This suggests NVIDIA is benefiting from operating leverage while still investing meaningfully in next-generation AI chip architectures and software platforms.",
+  "revised_text": "R&D investment intensity reflects NVIDIA's commitment to maintaining technological leadership in AI chips and accelerated computing. R&D expenses grew from $7,339,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $18,497,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a], representing a 2.5x increase over three years. The FY2023 R&D intensity was 27.21% of revenue [73be37ab-34a6-483d-af59-5a255b1c4eea]. R&D expenses were $8,675,000,000 in FY2024 [a78faaef-912e-4ab2-9b19-d139c047b1bc] and $12,914,000,000 in FY2025 [93b368f3-dee2-424f-8a66-93f166f9b1f8], while revenue grew from $60,922,000,000 in FY2024 [a78faaef-912e-4ab2-9b19-d139c047b1bc] to $130,497,000,000 in FY2025 [93b368f3-dee2-424f-8a66-93f166f9b1f8] to $215,938,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a]. This revenue growth outpaced R&D expense growth, resulting in declining R&D intensity from FY2024 through FY2026. This suggests NVIDIA is benefiting from operating leverage while still investing meaningfully in next-generation AI chip architectures and software platforms.",
+  "issues_addressed": [
+    "449d22bf-9cbb-4708-b659-77a2c8fbce5b",
+    "a18d7cbc-cf43-4938-957b-7179ff678ebf"
+  ],
+  "changes_summary": "Fixed Issue 1 by replacing R&D expense chunks (652072cd, 65dcb847) with income statement chunks (76fd1884, cdffc354) that explicitly show fiscal year dates, properly supporting FY2023 and FY2026 attributions. Fixed Issue 2 by adding cited evidence for FY2024-FY2026 revenue and R&D figures (chunks a78faaef, 93b368f3, cdffc354) to substantiate the claim that revenue growth outpaced R&D expense growth, replacing the unsupported 'likely declined' language with evidence-backed statements showing the actual trend.",
+  "revised_at": "2026-03-11T14:46:07.071881"
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "fact_id": "91c3b669-266d-4fa7-a38c-d27adfa87c1a",
+    "chunk_ids": [
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ],
+    "fact_type": "revenue",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 68127000000.0,
+    "unit": "USD",
+    "description": "NVDA Revenue for Q4: $68,127,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "209654dc-d60b-459d-80d2-150777e0ed1a",
+    "chunk_ids": [
+      "9e098a69-50b0-4f72-94df-f7f89d77665f"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 51093000000.0,
+    "unit": "USD",
+    "description": "NVDA Gross Profit for Q4: $51,093,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "50461e55-c68a-45a2-a4ba-8f4708737d58",
+    "chunk_ids": [
+      "e9879c6d-3dc3-4ab3-965e-49e1fc30114d"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 44299000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Income for Q4: $44,299,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4b5b2d81-83de-4025-9fe7-d8c4a9ed3fda",
+    "chunk_ids": [
+      "2a591c75-6166-4d2f-86f4-3a8b7edc6359"
+    ],
+    "fact_type": "netIncome",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 42960000000.0,
+    "unit": "USD",
+    "description": "NVDA Net Income for Q4: $42,960,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "5972fe2b-17bf-482e-aa26-53b4e37446c1",
+    "chunk_ids": [
+      "0bb38bcc-0b49-4e55-a1c5-eb790c883a09"
+    ],
+    "fact_type": "ebitda",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 51283000000.0,
+    "unit": "USD",
+    "description": "NVDA EBITDA for Q4: $51,283,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "9b5b7d27-f7ad-4aea-9866-ec410c8710ad",
+    "chunk_ids": [
+      "ce262d49-a259-4700-a18f-35bc0ee9d2ed"
+    ],
+    "fact_type": "eps",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 1.77,
+    "unit": "USD",
+    "description": "NVDA EPS (Diluted) for Q4: $2",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f99df416-9a67-41b5-82ac-06bada44d36b",
+    "chunk_ids": [
+      "1562353d-db39-4a2f-b994-c550365403ac"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 5512000000.0,
+    "unit": "USD",
+    "description": "NVDA R&D Expenses for Q4: $5,512,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "83128254-42de-4f5f-b979-a6ea99fcead7",
+    "chunk_ids": [
+      "be9aaefa-d273-4270-b2da-199d69a0de1f"
+    ],
+    "fact_type": "revenue",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 57006000000.0,
+    "unit": "USD",
+    "description": "NVDA Revenue for Q3: $57,006,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b0244543-b8b9-4a76-8f87-f0c808c032f2",
+    "chunk_ids": [
+      "bad0a893-5dd1-4e70-97f6-58cf8580ae64"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 41849000000.0,
+    "unit": "USD",
+    "description": "NVDA Gross Profit for Q3: $41,849,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "dda9ffb0-d8b4-4406-8a8b-4f4cbec774f9",
+    "chunk_ids": [
+      "bab42a84-eb04-42f9-8bac-019a4bbe8251"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 36010000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Income for Q3: $36,010,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0d3bf432-4a18-4198-8d45-5bc9d812dc14",
+    "chunk_ids": [
+      "ea1d1a05-f1f4-4565-9bf8-51cad03efc06"
+    ],
+    "fact_type": "netIncome",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 31910000000.0,
+    "unit": "USD",
+    "description": "NVDA Net Income for Q3: $31,910,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "769ceef6-2883-4eef-8ce1-d080012f31e0",
+    "chunk_ids": [
+      "28352b2a-2955-40ab-b306-c1f7dc13328b"
+    ],
+    "fact_type": "ebitda",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 38748000000.0,
+    "unit": "USD",
+    "description": "NVDA EBITDA for Q3: $38,748,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "dd1f6db7-622b-40cd-85d3-6b64def4906e",
+    "chunk_ids": [
+      "7ddffaf5-91e4-4720-afae-d258c9b17f07"
+    ],
+    "fact_type": "eps",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 1.31,
+    "unit": "USD",
+    "description": "NVDA EPS (Diluted) for Q3: $1",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "405b743e-2b3e-4ef6-aa53-f29c9dcd8e08",
+    "chunk_ids": [
+      "cea63704-2a53-4a60-a83b-5a9f3dde73bf"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 4705000000.0,
+    "unit": "USD",
+    "description": "NVDA R&D Expenses for Q3: $4,705,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4ce4b984-25b5-45f0-959a-821e4552fa82",
+    "chunk_ids": [
+      "71f157b3-965e-4d3a-aa29-e9e0ff45980a"
+    ],
+    "fact_type": "revenue",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 46743000000.0,
+    "unit": "USD",
+    "description": "NVDA Revenue for Q2: $46,743,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e76c531a-2aa8-42c9-9616-ec7223b86f2f",
+    "chunk_ids": [
+      "a5a00267-d004-4f18-a287-337bf95b2e33"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 33853000000.0,
+    "unit": "USD",
+    "description": "NVDA Gross Profit for Q2: $33,853,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "eea9a958-869c-49ff-a256-681c72dea715",
+    "chunk_ids": [
+      "eb4eef32-598a-4e88-a254-8e9ffca8013f"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 28440000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Income for Q2: $28,440,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2184835f-421e-4a55-a931-088dc456005b",
+    "chunk_ids": [
+      "6c1f8526-7139-4a3c-981b-18f67ee0eb90"
+    ],
+    "fact_type": "netIncome",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 26422000000.0,
+    "unit": "USD",
+    "description": "NVDA Net Income for Q2: $26,422,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "fd24d18d-5ceb-4513-b9ab-2cdb9187e99c",
+    "chunk_ids": [
+      "98b83af5-3177-4d06-a943-91b9c739fa41"
+    ],
+    "fact_type": "ebitda",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 31937000000.0,
+    "unit": "USD",
+    "description": "NVDA EBITDA for Q2: $31,937,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "72d312c6-9a33-4421-806d-5ee126b06f99",
+    "chunk_ids": [
+      "c444ff55-ed34-4087-bb30-0fd69f97633e"
+    ],
+    "fact_type": "eps",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 1.08,
+    "unit": "USD",
+    "description": "NVDA EPS (Diluted) for Q2: $1",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c5ecf62d-4fcc-4485-9cff-adc86a6dcaac",
+    "chunk_ids": [
+      "0e9a7c33-d1ed-4004-aa14-b22823181430"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 4291000000.0,
+    "unit": "USD",
+    "description": "NVDA R&D Expenses for Q2: $4,291,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ea7a1934-39a7-47a0-b92a-76dc15a380ae",
+    "chunk_ids": [
+      "0f02741a-d0ea-4bca-99a1-43ba2bf309de"
+    ],
+    "fact_type": "revenue",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 44062000000.0,
+    "unit": "USD",
+    "description": "NVDA Revenue for Q1: $44,062,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "115cc130-4573-4c0d-a261-4a52ce8fb2bb",
+    "chunk_ids": [
+      "adbe2e2a-3e59-459b-aadc-4bd3d758a443"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 26668000000.0,
+    "unit": "USD",
+    "description": "NVDA Gross Profit for Q1: $26,668,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4da83c4a-7944-42db-ac09-1017154c73d7",
+    "chunk_ids": [
+      "99f1feb2-e92a-4e92-9af2-a77cc1effb43"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 21638000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Income for Q1: $21,638,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "198afb36-bb44-4f4d-ad32-64e45905115a",
+    "chunk_ids": [
+      "e98145ee-cb16-4aed-9b06-1899855a40d5"
+    ],
+    "fact_type": "netIncome",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 18775000000.0,
+    "unit": "USD",
+    "description": "NVDA Net Income for Q1: $18,775,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "21074324-a972-43ed-b799-60626970eed7",
+    "chunk_ids": [
+      "915d9b27-9709-4557-84a5-61866465576d"
+    ],
+    "fact_type": "ebitda",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 22584000000.0,
+    "unit": "USD",
+    "description": "NVDA EBITDA for Q1: $22,584,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "85b90d9c-1ed1-4246-84f9-325c3f6f5fb2",
+    "chunk_ids": [
+      "3f2796d8-db93-4b08-a7cc-72ac0954e859"
+    ],
+    "fact_type": "eps",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 0.77,
+    "unit": "USD",
+    "description": "NVDA EPS (Diluted) for Q1: $1",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cb62fc1b-99e8-456b-b751-94e353979808",
+    "chunk_ids": [
+      "e937267f-ef09-459a-b5a9-972db6375197"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 3989000000.0,
+    "unit": "USD",
+    "description": "NVDA R&D Expenses for Q1: $3,989,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8e262cbf-2c43-4aff-a71c-b9670ace0e28",
+    "chunk_ids": [
+      "8504ebb5-07ca-4dcd-952a-530c7069845f"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 206803000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Assets for Q4: $206,803,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "bd889cea-83d5-43db-8c2c-e64e1c22164d",
+    "chunk_ids": [
+      "94f64eb0-1d91-4487-ac04-c4ebe9a5b669"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 49510000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Liabilities for Q4: $49,510,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3c55885a-e7b1-480f-9c63-cdc67ae1c065",
+    "chunk_ids": [
+      "e377f583-1e0e-4775-a1f9-d8e3eb7738e7"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 157293000000.0,
+    "unit": "USD",
+    "description": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "5c21e355-99ff-4ddc-91f4-ca295128cf36",
+    "chunk_ids": [
+      "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 10605000000.0,
+    "unit": "USD",
+    "description": "NVDA Cash & Equivalents for Q4: $10,605,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c8c47380-a5d3-437f-8ef2-e55b7010bfa5",
+    "chunk_ids": [
+      "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 11412000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Debt for Q4: $11,412,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b71b8671-08fa-4515-8274-ce6fb346549f",
+    "chunk_ids": [
+      "09ed668b-8b47-4530-8f2f-8d3c29324193"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 7469000000.0,
+    "unit": "USD",
+    "description": "NVDA Long-Term Debt for Q4: $7,469,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "49b50387-0af5-4408-a538-f32df05e6950",
+    "chunk_ids": [
+      "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 125605000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Assets for Q4: $125,605,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7a88474b-60d0-4269-9c97-f59c213383f0",
+    "chunk_ids": [
+      "00de1d29-d626-45ec-974e-bc91eede4c2c"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 32163000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Liabilities for Q4: $32,163,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "09fd1453-5a06-420b-b4cc-a2084a3b1bea",
+    "chunk_ids": [
+      "688f14ba-dacd-47d2-b3f0-94b6f86e922e"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 161148000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Assets for Q3: $161,148,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8b691c62-a963-4e6f-b798-f9b059a2f69c",
+    "chunk_ids": [
+      "56e0db31-ee93-4ffa-99bb-fe1da50d107b"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 42251000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Liabilities for Q3: $42,251,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "89461e85-9053-4c77-bced-55bfb7c62a6d",
+    "chunk_ids": [
+      "d5c942c4-4feb-4fb3-8612-a75cdc6ac0b7"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 118897000000.0,
+    "unit": "USD",
+    "description": "NVDA Stockholders' Equity for Q3: $118,897,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ff20d352-d797-42a1-98d5-3cef213454c4",
+    "chunk_ids": [
+      "63797864-0088-4cf2-b8af-fd5732dea6a0"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 11486000000.0,
+    "unit": "USD",
+    "description": "NVDA Cash & Equivalents for Q3: $11,486,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b1589de8-b995-44f4-a4ad-ef4cbed71cdf",
+    "chunk_ids": [
+      "b36a345a-6bae-4c89-bb62-5795350bc288"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 10822000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Debt for Q3: $10,822,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d2228788-c722-4f6f-87b6-bc9227a4cb62",
+    "chunk_ids": [
+      "1f49935b-3b28-44b3-ba44-693c0fad3bd2"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 7468000000.0,
+    "unit": "USD",
+    "description": "NVDA Long-Term Debt for Q3: $7,468,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3040d924-2034-48c6-9aa0-4c5ae7f9ddec",
+    "chunk_ids": [
+      "633f42e2-6fa3-436c-8ccf-f712ad5c4b74"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 116492000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Assets for Q3: $116,492,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ee549e2b-ea3f-45c4-9247-50ea4ef6102a",
+    "chunk_ids": [
+      "c2e690c4-7fe6-48be-bd2a-0dde5f3c050f"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 26075000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Liabilities for Q3: $26,075,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b8c22b45-8181-425f-87db-69bb8930737c",
+    "chunk_ids": [
+      "816fcf07-6a62-4a3c-ad67-8d19d6824fa7"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 140740000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Assets for Q2: $140,740,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0f9064a9-5e44-4cd7-8abe-c67fc9f52a55",
+    "chunk_ids": [
+      "265ac384-c4fb-4717-910a-0be21c4d3181"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 40609000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Liabilities for Q2: $40,609,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "278c2b6f-27ad-4414-94dc-6d6c2fd97ed4",
+    "chunk_ids": [
+      "4d4ecb27-04d1-4ef6-99be-af77904428f5"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 100131000000.0,
+    "unit": "USD",
+    "description": "NVDA Stockholders' Equity for Q2: $100,131,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a73aeda4-5455-4fde-9d64-44b6a7a009bf",
+    "chunk_ids": [
+      "ee3c37aa-8faa-4540-961c-e5f30f133a35"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 11639000000.0,
+    "unit": "USD",
+    "description": "NVDA Cash & Equivalents for Q2: $11,639,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "51433577-024a-42ad-8c7a-178baa005a2b",
+    "chunk_ids": [
+      "f3a0f3f3-e50c-4cf3-8128-9edf35cebda6"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 10598000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Debt for Q2: $10,598,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "43d10ecd-1864-49d9-97e5-151e3f78d2f9",
+    "chunk_ids": [
+      "c05e3b7f-4fdf-43b2-903f-303c6c5360a1"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 8466000000.0,
+    "unit": "USD",
+    "description": "NVDA Long-Term Debt for Q2: $8,466,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ab8ee649-2bbb-43bd-bdc3-b7f90b0e53d7",
+    "chunk_ids": [
+      "4e52f28b-c20e-4284-aefc-5a148c3e1e23"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 102219000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Assets for Q2: $102,219,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ce76ed99-ad67-431f-97a0-3e2fd1e1b25b",
+    "chunk_ids": [
+      "13beeb27-6eef-4a23-97c8-9c3be124978f"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 24257000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Liabilities for Q2: $24,257,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1ec1830a-34bc-46cc-b3d3-3d571c910e2b",
+    "chunk_ids": [
+      "e8ae00dc-7b18-47e4-bdf6-a80545dc32b0"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 125254000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Assets for Q1: $125,254,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d541edb1-24fb-4565-9771-368827832d6d",
+    "chunk_ids": [
+      "383723e5-d5bf-4491-8100-4a7caae4fa62"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 41411000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Liabilities for Q1: $41,411,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "44b82d3e-4afd-4d7e-b34d-11b6ea35906b",
+    "chunk_ids": [
+      "be8650b0-31cb-4bba-8809-3ecf37f6bcd2"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 83843000000.0,
+    "unit": "USD",
+    "description": "NVDA Stockholders' Equity for Q1: $83,843,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4299cbca-2554-4b71-92af-f1e33a14bea1",
+    "chunk_ids": [
+      "777c1f43-4d31-4994-8841-d1078b15a84c"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 15234000000.0,
+    "unit": "USD",
+    "description": "NVDA Cash & Equivalents for Q1: $15,234,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f9ea800d-2d55-4a83-aeb5-80d6163c1d1f",
+    "chunk_ids": [
+      "59b3174a-5495-47d8-8524-ed1d2dbe6b55"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 10285000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Debt for Q1: $10,285,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d5ff52db-9296-4dd4-bf7e-04be2d51e668",
+    "chunk_ids": [
+      "75ae1aa7-225e-45bd-9809-a2dfed2ed5d2"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 8464000000.0,
+    "unit": "USD",
+    "description": "NVDA Long-Term Debt for Q1: $8,464,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "45fab3fa-35ff-4235-992f-72f385eb29f1",
+    "chunk_ids": [
+      "b44bdb0a-0f23-4534-a72f-77f7924fdb77"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 89935000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Assets for Q1: $89,935,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3d7cd459-5870-467d-8081-a90292015e60",
+    "chunk_ids": [
+      "3747d0e6-7fd1-47e9-9f34-7cab315f7484"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 26542000000.0,
+    "unit": "USD",
+    "description": "NVDA Total Current Liabilities for Q1: $26,542,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1b680c52-181c-4ef3-af7f-e497a42d6074",
+    "chunk_ids": [
+      "d5fca481-ef47-4db0-b9d1-6545f30b13c9"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 36188000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Cash Flow for Q4: $36,188,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a6834967-c637-49c5-a8dd-b5670de116ef",
+    "chunk_ids": [
+      "e46fdc95-4cad-4ef9-adca-7a05b4545e86"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": -1284000000.0,
+    "unit": "USD",
+    "description": "NVDA Capital Expenditure for Q4: $-1,284,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "334b0435-51e2-4b13-bc8e-7f637224a78e",
+    "chunk_ids": [
+      "08be315a-0f2a-4165-8eac-96c5c8df3bcd"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": 34904000000.0,
+    "unit": "USD",
+    "description": "NVDA Free Cash Flow for Q4: $34,904,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "84726e7a-78ee-438c-b1b1-6ff304fcb8a9",
+    "chunk_ids": [
+      "a7a026d3-e48a-43cf-b71b-41b4b0a815b2"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "NVDA",
+    "period": "Q4",
+    "value": -3815000000.0,
+    "unit": "USD",
+    "description": "NVDA Stock Buybacks for Q4: $-3,815,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "9ef81fd7-781c-45ed-9125-fd8fc6a77b07",
+    "chunk_ids": [
+      "4ab58e55-26f7-44f1-a246-7f8e163ab73b"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 23751000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Cash Flow for Q3: $23,751,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "805f6d9f-aebc-4dd5-a595-4bf06f7167fb",
+    "chunk_ids": [
+      "54b12a6c-a20f-4f82-9b1d-9809277022aa"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": -1636000000.0,
+    "unit": "USD",
+    "description": "NVDA Capital Expenditure for Q3: $-1,636,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ec784c2c-1346-4f65-b1ce-de310f07ca44",
+    "chunk_ids": [
+      "c29bd4ec-8a5c-4409-a231-69759716b3a0"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": 22115000000.0,
+    "unit": "USD",
+    "description": "NVDA Free Cash Flow for Q3: $22,115,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "09546bbf-07a0-45ab-83d8-e62e5af60d85",
+    "chunk_ids": [
+      "b0a3a48e-6105-45ea-bb3f-7fb1c11cff11"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "NVDA",
+    "period": "Q3",
+    "value": -12456000000.0,
+    "unit": "USD",
+    "description": "NVDA Stock Buybacks for Q3: $-12,456,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "434f78e9-c24d-40a3-8ae8-c0202ec3711e",
+    "chunk_ids": [
+      "f6ac07dc-1d08-4944-bb6b-aee34535d31e"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 15365000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Cash Flow for Q2: $15,365,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3b1484c1-ceaf-4a62-baec-6d52db789b17",
+    "chunk_ids": [
+      "3a898fd9-d7e5-446b-b802-ff255afd622f"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": -1895000000.0,
+    "unit": "USD",
+    "description": "NVDA Capital Expenditure for Q2: $-1,895,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7ecb18d5-7e58-4255-8458-d89db541ec1c",
+    "chunk_ids": [
+      "02b7e647-e977-4634-a43a-3f3af3400a82"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": 13470000000.0,
+    "unit": "USD",
+    "description": "NVDA Free Cash Flow for Q2: $13,470,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a243919e-ed7d-4b6f-ac02-362a366659ee",
+    "chunk_ids": [
+      "59851b4c-4918-4c34-b57c-a0aba0e67fcc"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "NVDA",
+    "period": "Q2",
+    "value": -9720000000.0,
+    "unit": "USD",
+    "description": "NVDA Stock Buybacks for Q2: $-9,720,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f3b719af-2e5e-4782-8ef2-b39707a62798",
+    "chunk_ids": [
+      "036e7419-ad52-4d02-a503-0d2f3f9fcb37"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 27414000000.0,
+    "unit": "USD",
+    "description": "NVDA Operating Cash Flow for Q1: $27,414,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "80cf5e31-d23c-4ead-b6db-e0e42e8686eb",
+    "chunk_ids": [
+      "f7d01cc9-ba91-4bc2-9924-df45f440e36b"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": -1227000000.0,
+    "unit": "USD",
+    "description": "NVDA Capital Expenditure for Q1: $-1,227,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6008e236-a525-4291-9a75-16c8deb3f4c3",
+    "chunk_ids": [
+      "6c2239f8-45b3-4706-8cba-b7061321677e"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": 26187000000.0,
+    "unit": "USD",
+    "description": "NVDA Free Cash Flow for Q1: $26,187,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1d93f59a-07b0-49ac-a3f3-5b610e970f3a",
+    "chunk_ids": [
+      "e67dad3d-3a9e-4760-97de-495473dd58ca"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "NVDA",
+    "period": "Q1",
+    "value": -14095000000.0,
+    "unit": "USD",
+    "description": "NVDA Stock Buybacks for Q1: $-14,095,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0529747d-baf9-448d-9ceb-6e52ab5c0ee3",
+    "chunk_ids": [
+      "4a442330-590e-4455-af91-db05eff6ba13"
+    ],
+    "fact_type": "regulatory",
+    "subject": "NVDA",
+    "period": "2026-01",
+    "value": null,
+    "unit": null,
+    "description": "China has approved purchases of Nvidia's H200 AI chips for the first time, granting authorization to several customers including Alibaba, leading to a rise in Nvidia and Alibaba shares.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "d2babad1-63e4-4f98-b8fe-5058a7f2a79a",
+    "chunk_ids": [
+      "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+    ],
+    "fact_type": "regulatory",
+    "subject": "NVDA",
+    "period": "2026-01",
+    "value": null,
+    "unit": null,
+    "description": "Nvidia faces congressional scrutiny from the U.S. House Select Committee on China over reports it provided extensive technical assistance to Chinese AI startup DeepSeek, whose models were allegedly utilized by the Chinese military.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "fdab9c47-c70d-44bf-9dbd-637ba756bba8",
+    "chunk_ids": [
+      "d221dbaa-f872-4882-943c-5d5c765f3698",
+      "86614e96-8811-4dd9-8a29-de604af39043",
+      "915307c0-c1d2-4232-a603-3de1f933fa52",
+      "68f6cb3a-3180-4dc4-9d14-ae6adc8c473d"
+    ],
+    "fact_type": "partnership",
+    "subject": "NVDA",
+    "period": "2026-01",
+    "value": null,
+    "unit": null,
+    "description": "Reports indicate Nvidia and Apple are considering using Intel's foundry services for future chip production, causing Intel shares to surge over 10% on the news.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "a1f62883-dbe9-471c-a52e-9ad3cd806ef0",
+    "chunk_ids": [
+      "679c2f95-b7a5-4235-b904-6b3b22ea121c"
+    ],
+    "fact_type": "financial_result",
+    "subject": "NVDA",
+    "period": "2026-Q4",
+    "value": null,
+    "unit": null,
+    "description": "Nvidia scheduled a conference call for February 25, 2026, to discuss financial results for the fourth quarter and fiscal year 2026, which ended January 25, 2026.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "94d21b03-1fed-46bd-9bcf-df5e6b8fce2d",
+    "chunk_ids": [
+      "163132e4-10ea-41bc-9202-e5eb0356c9f3"
+    ],
+    "fact_type": "financial_result",
+    "subject": "NVDA",
+    "period": "2026",
+    "value": null,
+    "unit": null,
+    "description": "Nvidia is highlighted as a top profitable semiconductor stock for 2026, boasting a 53% net income ratio as investors favor companies with strong bottom lines.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "0a8a5e4d-3fad-44b1-a112-b9e0722ff54a",
+    "chunk_ids": [
+      "bd2be37c-114a-47ed-9c6a-8570ade66726"
+    ],
+    "fact_type": "market_trend",
+    "subject": "NVDA",
+    "period": "2026-01",
+    "value": null,
+    "unit": null,
+    "description": "AI infrastructure stocks such as Arista Networks and CoreWeave are rallying as investors rotate back into AI plays linked to Nvidia's ecosystem.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "70838c94-c2d6-472a-bb52-9084d982eade",
+    "chunk_ids": [],
+    "fact_type": "latest_price",
+    "subject": "NVDA",
+    "period": "2026-01-28",
+    "value": 191.52,
+    "unit": "USD",
+    "description": "NVDA latest close price: $191.52",
+    "confidence": 1.0
+  }
+]

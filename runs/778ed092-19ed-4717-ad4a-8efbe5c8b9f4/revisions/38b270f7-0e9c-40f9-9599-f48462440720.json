@@ -1,0 +1,12 @@
+{
+  "revision_id": "38b270f7-0e9c-40f9-9599-f48462440720",
+  "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+  "iteration": 1,
+  "original_text": "EBITDA for Q4 2026 stood at $51,283,000,000, translating to an EBITDA margin of 75.28% [0bb38bcc-0b49-4e55-a1c5-eb790c883a09][be596dad-ea77-43d3-ac22-0b5f55d06a2e]. Free cash flow margin reached 51.23% for the quarter, indicating strong cash conversion quality [4919779e-20bb-413b-9fe6-e611a6e0baea]. This high FCF margin suggests the company generates substantial cash relative to revenue, supporting capital allocation flexibility for shareholders and strategic investments.",
+  "revised_text": "Gross profit for Q4 2026 stood at $51,093,000,000, translating to a gross margin of 75.00% [9e098a69-50b0-4f72-94df-f7f89d77665f][34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Operating income was $44,299,000,000, yielding an operating margin of 65.02% [e9879c6d-3dc3-4ab3-965e-49e1fc30114d][7f7d2b84-616e-4a4c-ac53-882e55fed295]. Free cash flow margin reached 51.23% for the quarter, indicating strong cash conversion quality [4919779e-20bb-413b-9fe6-e611a6e0baea]. This high FCF margin suggests the company generates substantial cash relative to revenue, supporting capital allocation flexibility for shareholders and strategic investments.",
+  "issues_addressed": [
+    "35f68b7a-7d57-418e-86a6-b5bb221a25cf"
+  ],
+  "changes_summary": "Removed the inconsistent EBITDA margin claim (75.28%) which exceeded the verified Gross Margin (75.00%), violating financial logic. Replaced with verified Gross Profit/Margin and Operating Income/Margin figures supported by specific income statement chunks and calculation IDs. Retained the FCF margin claim as it was not flagged by the checker. Updated citations to match the new data points.",
+  "revised_at": "2026-03-23T05:53:08.070262"
+}

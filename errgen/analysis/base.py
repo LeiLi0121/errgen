@@ -27,6 +27,7 @@ from errgen.models import (
     SourceType,
     VerificationStatus,
 )
+from errgen.prompt_aliases import PromptAliasMaps, build_prompt_alias_maps
 
 logger = logging.getLogger(__name__)
 
@@ -57,20 +58,25 @@ Return a JSON object with this exact structure:
   ]
 }
 
-- chunk_ids: list of EvidenceChunk.chunk_id values that support this paragraph.
-- calc_ids: list of CalculationResult.calc_id values whose numbers appear in the text.
+- chunk_ids: list of prompt chunk references such as C001, C002.
+- calc_ids: list of prompt calc references such as K001, K002.
 - Each paragraph must have at least one chunk_id.
 - Write 2–4 focused paragraphs per section unless stated otherwise.
 """
 
 
-def _format_chunks_for_prompt(chunks: list[EvidenceChunk], max_chars: int = 12000) -> str:
+def _format_chunks_for_prompt(
+    chunks: list[EvidenceChunk],
+    alias_maps: PromptAliasMaps,
+    max_chars: int = 12000,
+) -> str:
     """Serialize evidence chunks to a numbered reference block for the prompt."""
     lines: list[str] = []
     total = 0
     for chunk in chunks:
+        alias = alias_maps.chunk_id_to_alias.get(chunk.chunk_id, chunk.chunk_id)
         entry = (
-            f"[CHUNK_ID: {chunk.chunk_id}]\n"
+            f"[CHUNK_REF: {alias}]\n"
             f"Type: {chunk.source_type.value} | Period: {chunk.period or 'N/A'} | "
             f"Field: {chunk.field_name or 'N/A'}\n"
             f"{chunk.text}\n---\n"
@@ -83,15 +89,19 @@ def _format_chunks_for_prompt(chunks: list[EvidenceChunk], max_chars: int = 1200
     return "\n".join(lines)
 
 
-def _format_calcs_for_prompt(calcs: list[CalculationResult]) -> str:
+def _format_calcs_for_prompt(
+    calcs: list[CalculationResult],
+    alias_maps: PromptAliasMaps,
+) -> str:
     """Serialize calculation results to a reference block for the prompt."""
     if not calcs:
         return "(no calculations available)"
     lines: list[str] = []
     for calc in calcs:
+        alias = alias_maps.calc_id_to_alias.get(calc.calc_id, calc.calc_id)
         if calc.error:
             lines.append(
-                f"[CALC_ID: {calc.calc_id}]\n"
+                f"[CALC_REF: {alias}]\n"
                 f"Operation: {calc.operation} | ERROR: {calc.error}\n---"
             )
         else:
@@ -99,7 +109,7 @@ def _format_calcs_for_prompt(calcs: list[CalculationResult]) -> str:
                 f"{calc.result:.4f}" if isinstance(calc.result, float) else str(calc.result)
             )
             lines.append(
-                f"[CALC_ID: {calc.calc_id}]\n"
+                f"[CALC_REF: {alias}]\n"
                 f"Description: {calc.description}\n"
                 f"Formula: {calc.formula_description}\n"
                 f"Result: {result_str}\n---"
@@ -139,8 +149,9 @@ class BaseAnalysisAgent:
             )
             return []
 
-        chunk_block = _format_chunks_for_prompt(chunks)
-        calc_block = _format_calcs_for_prompt(calc_results)
+        alias_maps = build_prompt_alias_maps(chunks, calc_results)
+        chunk_block = _format_chunks_for_prompt(chunks, alias_maps)
+        calc_block = _format_calcs_for_prompt(calc_results, alias_maps)
 
         system_prompt = self._build_system_prompt(as_of_date)
         user_prompt = self._build_user_prompt(
@@ -165,8 +176,7 @@ class BaseAnalysisAgent:
         paragraphs = self._parse_response(
             raw=raw,
             section_name=self.section_name,
-            available_chunk_ids={c.chunk_id for c in chunks},
-            available_calc_ids={c.calc_id for c in calc_results},
+            alias_maps=alias_maps,
             chunk_map={c.chunk_id: c for c in chunks},
         )
 
@@ -210,8 +220,7 @@ class BaseAnalysisAgent:
     def _parse_response(
         raw: dict[str, Any],
         section_name: str,
-        available_chunk_ids: set[str],
-        available_calc_ids: set[str],
+        alias_maps: PromptAliasMaps,
         chunk_map: dict[str, EvidenceChunk],
     ) -> list[AnalysisParagraph]:
         """
@@ -229,24 +238,30 @@ class BaseAnalysisAgent:
             if not text:
                 continue
 
+            raw_chunk_aliases = item.get("chunk_ids", [])
             cited_chunk_ids = [
-                cid for cid in item.get("chunk_ids", [])
-                if cid in available_chunk_ids
+                alias_maps.chunk_alias_to_id[alias]
+                for alias in raw_chunk_aliases
+                if alias in alias_maps.chunk_alias_to_id
             ]
             invalid_cids = [
-                cid for cid in item.get("chunk_ids", [])
-                if cid not in available_chunk_ids
+                cid for cid in raw_chunk_aliases
+                if cid not in alias_maps.chunk_alias_to_id
             ]
             if invalid_cids:
                 logger.warning(
-                    "Analysis agent cited non-existent chunk IDs %s in section '%s'. "
-                    "These will be stripped; checker will flag unsupported claims.",
+                    "Analysis agent cited unknown chunk refs %s in section '%s'. "
+                    "These references will be stripped. In full errgen runs the "
+                    "checker may later flag unsupported claims; in baseline runs "
+                    "they remain as unverified output.",
                     invalid_cids, section_name,
                 )
 
+            raw_calc_aliases = item.get("calc_ids", [])
             cited_calc_ids = [
-                cid for cid in item.get("calc_ids", [])
-                if cid in available_calc_ids
+                alias_maps.calc_alias_to_id[alias]
+                for alias in raw_calc_aliases
+                if alias in alias_maps.calc_alias_to_id
             ]
 
             # Build Citation objects for each valid chunk reference

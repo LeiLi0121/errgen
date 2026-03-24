@@ -1,0 +1,83 @@
+[
+  {
+    "source_id": "a8362987-27be-4ba9-b8e7-dc156ad32235",
+    "source_type": "company_profile",
+    "url": "https://financialmodelingprep.com/financial-summary/NVDA",
+    "api_source": "fmp",
+    "document_identifier": "fmp_profile_NVDA",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T12:23:42.392189",
+    "ticker": "NVDA",
+    "metadata": {
+      "endpoint": "profile",
+      "symbol": "NVDA"
+    }
+  },
+  {
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_income_NVDA_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T12:23:44.532385",
+    "ticker": "NVDA",
+    "metadata": {
+      "endpoint": "income-statement",
+      "symbol": "NVDA",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_balance_NVDA_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T12:23:45.684557",
+    "ticker": "NVDA",
+    "metadata": {
+      "endpoint": "balance-sheet-statement",
+      "symbol": "NVDA",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "url": null,
+    "api_source": "fmp",
+    "document_identifier": "fmp_cashflow_NVDA_annual",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T12:23:47.055739",
+    "ticker": "NVDA",
+    "metadata": {
+      "endpoint": "cash-flow-statement",
+      "symbol": "NVDA",
+      "period": "annual"
+    }
+  },
+  {
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "url": null,
+    "api_source": "newsapi",
+    "document_identifier": "newsapi_\"NVDA\"_OR_\"NVIDIA_Corporation\"",
+    "filing_section": null,
+    "statement_field": null,
+    "retrieved_at": "2026-03-11T12:23:48.832344",
+    "ticker": "\"NVDA\" OR \"NVIDIA Corporation\"",
+    "metadata": {
+      "endpoint": "/v2/everything",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\"",
+      "from_date": null,
+      "to_date": null,
+      "total_results": 303
+    }
+  }
+]

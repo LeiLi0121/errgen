@@ -1,0 +1,12 @@
+{
+  "revision_id": "63cc93b6-e999-4ae4-ba73-5693a9f0ed53",
+  "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+  "iteration": 1,
+  "original_text": "Key growth drivers include continued AI infrastructure demand and geographic market expansion. In January 2026, China approved purchases of NVIDIA's H200 chip for the first time, granting authorization to several customers including Alibaba, which indicates potential revenue expansion in previously restricted markets. The broader semiconductor industry is reporting accelerating demand, with chip makers indicating willingness to invest in additional capacity. NVIDIA's stock performance reflects this momentum, with 1-year price return of 48.48% significantly outpacing the S&P 500's 15.04% return over the same period, suggesting investor confidence in the company's AI market positioning.",
+  "revised_text": "NVIDIA's stock performance demonstrates strong momentum, with a 1-year price return of 48.48% significantly outpacing the S&P 500's 15.04% return over the same period.",
+  "issues_addressed": [
+    "0e680c04-3d30-4d62-ae28-ea918e857f22"
+  ],
+  "changes_summary": "Removed unsupported claims about China H200 chip approval (January 2026), Alibaba authorization, broader semiconductor industry demand, and AI infrastructure growth drivers as no evidence chunks support these statements. Retained only the stock performance comparison which is supported by calculation IDs: e2b73cf5-3c6d-4457-8b25-515a7e8f9880 (NVDA 1y return 48.48%) and 4e7134c1-290f-4b49-bb42-eed50a873427 (SPY 1y return 15.04%). Removed interpretive language about 'investor confidence' and 'AI market positioning' as these are analytical conclusions not directly supported by evidence.",
+  "revised_at": "2026-03-23T05:55:08.069958"
+}

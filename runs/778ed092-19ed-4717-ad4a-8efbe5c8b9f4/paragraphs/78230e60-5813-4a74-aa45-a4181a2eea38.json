@@ -1,0 +1,63 @@
+{
+  "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "NVIDIA's stock performance has significantly outpaced the broader market, with a 1-year price return of 48.48% compared to the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427], generating 33.44% excess return [e3f7e76f-d911-42d3-9058-e42900f1f116]. Recent momentum remains positive with a 30-day return of 1.75% versus SPY's 1.10% [78e868b2-287e-44f3-8d6f-dd8431dc47ec, 6493c5ac-e843-4e69-9dca-8644c1e857fb]. However, this substantial outperformance suggests much of the near-term upside may already be reflected in the current valuation. The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75] indicates management's commitment to maintaining technological leadership in AI infrastructure markets.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+    "4e7134c1-290f-4b49-bb42-eed50a873427",
+    "e3f7e76f-d911-42d3-9058-e42900f1f116",
+    "78e868b2-287e-44f3-8d6f-dd8431dc47ec",
+    "6493c5ac-e843-4e69-9dca-8644c1e857fb",
+    "7d0701ad-9c93-41dc-a668-c80da89edf75"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "cfd2bd68-1ad8-4724-8ef0-44047eafe1c7",
+      "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "4b1fdbe8-048c-4639-8f6b-98b870b057fe",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+          "offending_span": "The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75]",
+          "explanation": "The paragraph cites chunk ID [7d0701ad-9c93-41dc-a668-c80da89edf75] to support the 8.09% R&D claim, but this chunk is not provided in the CITED EVIDENCE CHUNKS section (which states 'none cited'). While this chunk ID appears in the Previously Verified Facts section, it cannot be directly verified against the evidence provided for this paragraph check. All other numerical claims (1-year returns, 30-day returns, excess return) are properly supported by the cited calculation results.",
+          "relevant_chunk_ids": [
+            "7d0701ad-9c93-41dc-a668-c80da89edf75"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either include the actual content of chunk [7d0701ad-9c93-41dc-a668-c80da89edf75] in the CITED EVIDENCE CHUNKS section, or remove the citation bracket if the fact has been previously verified and doesn't require re-citation in this context."
+        }
+      ],
+      "checked_at": "2026-03-23T07:17:47.107362",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "99d31dd6-9287-4ba5-bb71-87df4571843a",
+      "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T07:18:48.037670",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "af3a03c6-3d4c-4b55-b24b-b0531ecaf719",
+      "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+      "iteration": 1,
+      "original_text": "NVIDIA's stock performance has significantly outpaced the broader market, with a 1-year price return of 48.48% compared to the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427], generating 33.44% excess return [e3f7e76f-d911-42d3-9058-e42900f1f116]. Recent momentum remains positive with a 30-day return of 1.75% versus SPY's 1.10% [78e868b2-287e-44f3-8d6f-dd8431dc47ec, 6493c5ac-e843-4e69-9dca-8644c1e857fb]. However, this substantial outperformance suggests much of the near-term upside may already be reflected in the current valuation. The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75] indicates management's commitment to maintaining technological leadership in AI infrastructure markets.",
+      "revised_text": "NVIDIA's stock performance has significantly outpaced the broader market, with a 1-year price return of 48.48% compared to the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427], generating 33.44% excess return [e3f7e76f-d911-42d3-9058-e42900f1f116]. Recent momentum remains positive with a 30-day return of 1.75% versus SPY's 1.10% [78e868b2-287e-44f3-8d6f-dd8431dc47ec, 6493c5ac-e843-4e69-9dca-8644c1e857fb]. However, this substantial outperformance suggests much of the near-term upside may already be reflected in the current valuation. The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75] indicates management's commitment to maintaining technological leadership in AI infrastructure markets.",
+      "issues_addressed": [
+        "4b1fdbe8-048c-4639-8f6b-98b870b057fe"
+      ],
+      "changes_summary": "Added calc_id 7d0701ad-9c93-41dc-a668-c80da89edf75 to the calc_ids array. This ID was already cited in the paragraph text for the 8.09% R&D intensity claim but was missing from the output's calc_ids list. The checker flagged this as a citation_mismatch because the ID exists as a calculation result (NVDA R&D Intensity Q4 = 0.0809) in the CALCULATION RESULTS section, not as a text chunk. All paragraph text remains unchanged as all factual claims are properly supported by the available calculation results.",
+      "revised_at": "2026-03-23T07:18:28.316976"
+    }
+  ],
+  "iteration": 0
+}

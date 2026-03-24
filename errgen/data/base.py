@@ -46,7 +46,7 @@ class BaseDataClient:
                 resp = requests.get(
                     url,
                     params=params,
-                    headers=headers,
+                    headers=self._merge_headers(headers),
                     timeout=REQUEST_TIMEOUT,
                 )
                 if resp.status_code == 429:
@@ -85,3 +85,72 @@ class BaseDataClient:
             f"HTTP GET {url} failed after {HTTP_RETRY_ATTEMPTS} attempts. "
             f"Last error: {last_exc}"
         )
+
+    def _get_text(
+        self,
+        url: str,
+        params: dict[str, Any] | None = None,
+        headers: dict[str, str] | None = None,
+    ) -> str:
+        """
+        Perform a GET request and return the raw text body.
+
+        Useful for HTML pages such as SEC filing documents that are not JSON.
+        """
+        last_exc: Exception | None = None
+
+        for attempt in range(HTTP_RETRY_ATTEMPTS):
+            try:
+                resp = requests.get(
+                    url,
+                    params=params,
+                    headers=self._merge_headers(headers),
+                    timeout=REQUEST_TIMEOUT,
+                )
+                if resp.status_code == 429:
+                    wait = HTTP_RETRY_DELAY * (2 ** attempt)
+                    logger.warning(
+                        "HTTP 429 from %s (attempt %d/%d). Waiting %.1fs.",
+                        url,
+                        attempt + 1,
+                        HTTP_RETRY_ATTEMPTS,
+                        wait,
+                    )
+                    time.sleep(wait)
+                    continue
+
+                resp.raise_for_status()
+                logger.debug("HTTP GET TEXT %s → %s", url, resp.status_code)
+                return resp.text
+
+            except requests.HTTPError as exc:
+                raise exc
+            except (requests.ConnectionError, requests.Timeout) as exc:
+                wait = HTTP_RETRY_DELAY * (2 ** attempt)
+                logger.warning(
+                    "Connection error to %s (attempt %d/%d). Waiting %.1fs. %s",
+                    url,
+                    attempt + 1,
+                    HTTP_RETRY_ATTEMPTS,
+                    wait,
+                    exc,
+                )
+                last_exc = exc
+                time.sleep(wait)
+
+        raise RuntimeError(
+            f"HTTP GET text {url} failed after {HTTP_RETRY_ATTEMPTS} attempts. "
+            f"Last error: {last_exc}"
+        )
+
+    @staticmethod
+    def _merge_headers(headers: dict[str, str] | None = None) -> dict[str, str]:
+        merged = {
+            "User-Agent": (
+                "ERRGen/1.0 research pipeline "
+                "(contact: support@example.com)"
+            )
+        }
+        if headers:
+            merged.update(headers)
+        return merged

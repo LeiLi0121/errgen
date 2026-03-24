@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "d92847ca-0df8-4cb9-8586-e3adddf4271f",
+  "section_name": "Financial Analysis",
+  "text": "Cash flow generation remains a key strength, with Q4 EBITDA of $2,448,000,000 (C014) demonstrating strong earnings quality. The free cash flow margin of 50.47% (K011) indicates exceptional cash conversion, significantly exceeding net margins and highlighting the capital-light nature of Adobe's business model. In Q1, operating cash flow reached $2,958,000,000 (C070), with free cash flow of $2,921,000,000 (C072) after minimal capital expenditures of $-37,000,000 (C071). This robust cash generation provides substantial flexibility for strategic investments, shareholder returns, and potential M&A activity while maintaining a strong liquidity position.",
+  "citations": [
+    {
+      "citation_id": "27795a2c-6a94-431d-9628-baf109f723ea",
+      "chunk_id": "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q4: $2,448,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "cefbe659-21c4-4e0f-8f56-8e020e407ae5",
+      "chunk_id": "b6a66352-5031-445a-aaa6-e7041960d5d0",
+      "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+      "source_type": "cash_flow",
+      "text_snippet": "ADBE Operating Cash Flow for Q1: $2,958,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d7882f8e-797b-4043-8a33-3677433632b5",
+      "chunk_id": "d1bcc1f2-6321-46d1-8222-28c4bb3f8d3f",
+      "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+      "source_type": "cash_flow",
+      "text_snippet": "ADBE Capital Expenditure for Q1: $-37,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "83cbea25-dadc-42a0-9e1a-8231807119ba",
+      "chunk_id": "d2df2944-6c37-4b50-93d5-3f082bd2854a",
+      "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+      "source_type": "cash_flow",
+      "text_snippet": "ADBE Free Cash Flow for Q1: $2,921,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+    "b6a66352-5031-445a-aaa6-e7041960d5d0",
+    "d1bcc1f2-6321-46d1-8222-28c4bb3f8d3f",
+    "d2df2944-6c37-4b50-93d5-3f082bd2854a"
+  ],
+  "calc_ids": [
+    "ecabb3b3-d1c6-4088-a412-eaef40cadc30"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

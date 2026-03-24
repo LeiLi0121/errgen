@@ -21,6 +21,7 @@ from errgen.models import (
     FinalReport,
     IssueType,
     IssueSeverity,
+    ReportTable,
     ReportSection,
     RunArtifact,
     SourceMetadata,
@@ -228,10 +229,25 @@ def test_final_report_empty():
     report = FinalReport(request=req)
     assert report.overall_status == VerificationStatus.FAIL
     assert len(report.sections) == 0
+    assert len(report.tables) == 0
 
     # Ensure full JSON serialisation works
     data = json.loads(report.model_dump_json())
     assert data["request"]["ticker"] == "NVDA"
+
+
+def test_final_report_with_table_roundtrip():
+    req = UserRequest(raw_text="Test", ticker="NVDA")
+    table = ReportTable(
+        title="Company Snapshot",
+        columns=["Metric", "Value"],
+        rows=[["Ticker", "NVDA"], ["Exchange", "NASDAQ"]],
+    )
+    report = FinalReport(request=req, tables=[table])
+    payload = report.model_dump(mode="json")
+    restored = FinalReport(**payload)
+    assert restored.tables[0].title == "Company Snapshot"
+    assert restored.tables[0].rows[1][1] == "NASDAQ"
 
 
 # ---------------------------------------------------------------------------

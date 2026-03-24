@@ -1,0 +1,59 @@
+{
+  "paragraph_id": "7d5a5651-b039-439f-88b4-17ebf77c1c39",
+  "section_name": "Recent Developments",
+  "text": "Following the earnings release, several analyst firms adjusted their positions on NVIDIA. Bank of America reset its price target after the earnings report. Deutsche Bank raised its price target to $220 on February 26. Morgan Stanley reiterated an Overweight rating on February 23, with analyst Joseph Moore maintaining a positive stance. Goldman Sachs had previously revised its Buy rating on February 5 with a $250 price target, expecting a beat and raise quarter.",
+  "citations": [
+    {
+      "citation_id": "62c241e8-5567-4f67-8faa-f78be66d4837",
+      "chunk_id": "09dfa05d-8767-4033-aeaf-3505912b5a4c",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-27T02:03:00Z | TheStreet | Author: Vuk Zdinjak\nTitle: Bank of America resets Nvidia price target after earnings\nURL: https://www.thestreet.com/investing/stocks/bank-of-america-resets-nvidia-price-target-after-earnings\nNvidia (NVDA) reported its Q4 earnings on Feb. 25 after the bell. D",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e45bf970-31cc-4102-a090-384103faf4e6",
+      "chunk_id": "d0762dbe-8467-4ce8-a9d6-df97eaa407bd",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-03-06T17:29:08Z | Yahoo Entertainment | Author: Sajjl Nooranne\nTitle: NVIDIA Corporation (NVDA) Price Target Increased to $220 at Deutsche Bank\nURL: https://finance.yahoo.com/news/nvidia-corporation-nvda-price-target-172908747.html\nNVIDIA Corporation (NASDAQ:NVDA) is among the 10 Stocks ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "19ec3d56-568a-48e0-adcf-778f12856396",
+      "chunk_id": "84885452-1a5e-4e2e-9afd-33540bbee965",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-25T16:10:25Z | Yahoo Entertainment | Author: Talha Qureshi\nTitle: Morgan Stanley Remains a Buy on NVIDIA Corporation (NVDA)\nURL: https://finance.yahoo.com/news/morgan-stanley-remains-buy-nvidia-161025284.html\nNVIDIA Corporation (NASDAQ:NVDA) is one of the Best Stocks to Buy and Hold F",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "cd69fdf9-528e-4d99-9412-8fac4179b265",
+      "chunk_id": "51b24d4c-69bf-4f23-96d2-d68414bb5e0d",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-13T14:54:43Z | Yahoo Entertainment | Author: Sheryar Siddiq\nTitle: Goldman Sachs Expects Beat and Raise Quarter for NVIDIA (NVDA)\nURL: https://finance.yahoo.com/news/goldman-sachs-expects-beat-raise-145443095.html\nNVIDIA Corporation (NASDAQ:NVDA) ranks among the best high growth high ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "09dfa05d-8767-4033-aeaf-3505912b5a4c",
+    "d0762dbe-8467-4ce8-a9d6-df97eaa407bd",
+    "84885452-1a5e-4e2e-9afd-33540bbee965",
+    "51b24d4c-69bf-4f23-96d2-d68414bb5e0d"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "e6266cf7-e39d-41fb-bfd1-e855796ca5d5",
+      "paragraph_id": "7d5a5651-b039-439f-88b4-17ebf77c1c39",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T12:33:43.408380",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -15,12 +15,17 @@ the list-add reducer.
 from __future__ import annotations
 
 import logging
+from datetime import date, timedelta
 
 from errgen.config import Config
-from errgen.data import FMPClient, FinnhubClient, NewsAPIClient
+from errgen.data import FMPClient, FinnhubClient, NewsAPIClient, SECClient
 from errgen.models import EvidenceChunk, SourceMetadata
 
 logger = logging.getLogger(__name__)
+
+
+def _source_has_history(source: SourceMetadata | None) -> bool:
+    return bool(source and source.metadata.get("historical"))
 
 
 def _date_range(as_of_date: str | None) -> tuple[str | None, str | None]:
@@ -40,6 +45,22 @@ def _date_range(as_of_date: str | None) -> tuple[str | None, str | None]:
         return None, None
 
 
+def _lookback_window(as_of_date: str | None, days: int) -> tuple[str, str]:
+    """Return YYYY-MM-DD window ending at as_of_date (or today if not set)."""
+    if as_of_date:
+        try:
+            if len(as_of_date) == 7:
+                end = date.fromisoformat(f"{as_of_date}-28")
+            else:
+                end = date.fromisoformat(as_of_date[:10])
+        except ValueError:
+            end = date.today()
+    else:
+        end = date.today()
+    start = end - timedelta(days=days)
+    return start.isoformat(), end.isoformat()
+
+
 def retrieve_data(state: dict) -> dict:
     """Fetch financial statements and news; return new sources and chunks."""
     ticker: str = state["ticker"]
@@ -51,8 +72,11 @@ def retrieve_data(state: dict) -> dict:
     fmp = FMPClient()
     newsapi = NewsAPIClient()
     finnhub = FinnhubClient() if Config.FINNHUB_API_KEY else None
+    sec = SECClient()
 
     from_date, to_date = _date_range(as_of)
+    filing_from, filing_to = _lookback_window(as_of, days=540)
+    price_from, price_to = _lookback_window(as_of, days=Config.PRICE_LOOKBACK_DAYS)
     new_sources: list[SourceMetadata] = []
     new_chunks: list[EvidenceChunk] = []
     updates: dict = {}
@@ -76,9 +100,9 @@ def retrieve_data(state: dict) -> dict:
 
     # -- Financial statements ---------------------------------------------
     for label, fetch in [
-        ("income statement", lambda: fmp.get_income_statement(ticker, "annual")),
-        ("balance sheet",    lambda: fmp.get_balance_sheet(ticker, "annual")),
-        ("cash flow",        lambda: fmp.get_cash_flow(ticker, "annual")),
+        ("income statement", lambda: fmp.get_income_statement(ticker, "quarter")),
+        ("balance sheet",    lambda: fmp.get_balance_sheet(ticker, "quarter")),
+        ("cash flow",        lambda: fmp.get_cash_flow(ticker, "quarter")),
     ]:
         try:
             src, cks = fetch()
@@ -118,12 +142,19 @@ def retrieve_data(state: dict) -> dict:
         logger.warning("retrieve_data: NewsAPI failed: %s", exc)
 
     # -- Finnhub (optional) -----------------------------------------------
+    # Finnhub company-news API requires both "from" and "to" (YYYY-MM-DD).
+    # When as_of_date is not set we use a default range (past year → today).
     if finnhub:
         try:
+            fh_from, fh_to = from_date, to_date
+            if fh_from is None and fh_to is None:
+                end = date.today()
+                fh_from = (end - timedelta(days=365)).strftime("%Y-%m-%d")
+                fh_to = end.strftime("%Y-%m-%d")
             src, cks = finnhub.get_company_news(
                 ticker=ticker,
-                from_date=from_date,
-                to_date=to_date,
+                from_date=fh_from,
+                to_date=fh_to,
                 limit=Config.MAX_NEWS_ARTICLES,
             )
             new_sources.append(src)
@@ -131,6 +162,62 @@ def retrieve_data(state: dict) -> dict:
             logger.info("retrieve_data: Finnhub – %d chunks", len(cks))
         except Exception as exc:
             logger.warning("retrieve_data: Finnhub failed: %s", exc)
+
+    # -- SEC filings (10-K / 10-Q) ---------------------------------------
+    try:
+        src, cks = sec.get_sec_filings(
+            ticker=ticker,
+            from_date=filing_from,
+            to_date=filing_to,
+            limit=Config.MAX_SEC_FILINGS,
+        )
+        new_sources.append(src)
+        new_chunks.extend(cks)
+        logger.info("retrieve_data: SEC filings – %d chunks", len(cks))
+    except Exception as exc:
+        logger.warning("retrieve_data: SEC filings failed: %s", exc)
+
+    # -- Price history: company + benchmark -------------------------------
+    for symbol, role in [
+        (ticker, "stock"),
+        (Config.BENCHMARK_TICKER, "benchmark"),
+    ]:
+        src: SourceMetadata | None = None
+        cks: list[EvidenceChunk] = []
+        try:
+            src, cks = fmp.get_price_history(
+                ticker=symbol,
+                from_date=price_from,
+                to_date=price_to,
+            )
+        except Exception as exc:
+            logger.warning("retrieve_data: FMP %s price history failed: %s", role, exc)
+
+        if not _source_has_history(src) and finnhub:
+            try:
+                logger.info(
+                    "retrieve_data: FMP %s price history unavailable, falling back to Finnhub",
+                    role,
+                )
+                src, cks = finnhub.get_price_history(
+                    ticker=symbol,
+                    from_date=price_from,
+                    to_date=price_to,
+                )
+            except Exception as exc:
+                logger.warning("retrieve_data: Finnhub %s price history failed: %s", role, exc)
+
+        if src is None:
+            continue
+
+        src.metadata["series_role"] = role
+        src.metadata["benchmark_ticker"] = Config.BENCHMARK_TICKER
+        for chunk in cks:
+            chunk.metadata["series_role"] = role
+            chunk.metadata["benchmark_ticker"] = Config.BENCHMARK_TICKER
+        new_sources.append(src)
+        new_chunks.extend(cks)
+        logger.info("retrieve_data: %s price history – %d chunks", role, len(cks))
 
     logger.info(
         "retrieve_data: complete – %d sources, %d chunks",

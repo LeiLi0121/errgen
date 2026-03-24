@@ -1,0 +1,13 @@
+{
+  "revision_id": "4d25a357-7aaf-4931-b8f7-52e95011dcd3",
+  "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+  "iteration": 1,
+  "original_text": "NVIDIA Corporation operates through two primary segments: Graphics and Compute & Networking. The Graphics segment offers GeForce GPUs for gaming and PCs, GeForce NOW game streaming service, Quadro/NVIDIA RTX GPUs for enterprise workstations, and Omniverse software for 3D designs and virtual worlds. The Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing, Mellanox networking solutions, automotive AI Cockpit, and NVIDIA AI Enterprise software. The company sells to OEMs, ODMs, system builders, cloud service providers, automotive manufacturers, and other ecosystem participants across the United States, Taiwan, China, and internationally. NVIDIA employs approximately 36,000 full-time employees and is headquartered in Santa Clara, California.",
+  "revised_text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, Quadro/NVIDIA RTX GPUs for enterprise workstation graphics, vGPU software for cloud-based visual and virtual computing, automotive platforms for infotainment systems, and Omniverse software. NVIDIA employs approximately 36,000 full-time employees and is based in the United States.",
+  "issues_addressed": [
+    "7727b284-3926-462e-a054-18663d213f65",
+    "cd857cde-8161-4b05-a5d9-d4a8f14d97b8"
+  ],
+  "changes_summary": "Removed unsupported Compute & Networking segment product details (Mellanox, automotive AI Cockpit, NVIDIA AI Enterprise software) as cited chunks do not contain this information per Issue 1. Removed unsupported customer type list (OEMs, ODMs, system builders, cloud service providers, automotive manufacturers) as no evidence supports these specific categories per Issue 2. Changed headquarters location from 'Santa Clara, California' to 'United States' based on available evidence (Country: US in chunk 0571a4ea). Retained supported Graphics segment offerings, geographic presence, and employee count with proper citations.",
+  "revised_at": "2026-03-23T05:54:24.331116"
+}

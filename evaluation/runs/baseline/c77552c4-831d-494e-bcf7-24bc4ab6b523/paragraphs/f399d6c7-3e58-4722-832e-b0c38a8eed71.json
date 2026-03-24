@@ -1,0 +1,54 @@
+{
+  "paragraph_id": "f399d6c7-3e58-4722-832e-b0c38a8eed71",
+  "section_name": "Financial Analysis",
+  "text": "The balance sheet presents a mixed liquidity picture with manageable leverage. The current ratio of 0.9964 (K008) indicates current assets of $10,163,000,000 (C049) nearly match current liabilities of $10,200,000,000 (C050), suggesting tight but adequate working capital management. Leverage remains conservative with a debt-to-equity ratio of 0.5720 (K009), based on total debt of $6,648,000,000 (C047) and stockholders' equity of $11,623,000,000 (C045). Net debt of $1,217,000,000 (K010) is modest relative to cash and equivalents of $5,431,000,000 (C046), providing a comfortable cushion. This balance sheet structure supports continued investment in growth initiatives while maintaining financial flexibility.",
+  "citations": [
+    {
+      "citation_id": "5dcb59e0-d372-4eab-915b-08c7cdf4d1ce",
+      "chunk_id": "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Cash & Equivalents for Q4: $5,431,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3432477c-1ca9-4768-b24d-58b71d8108b0",
+      "chunk_id": "4df4e625-3969-43a3-b113-1221bfeff5da",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Debt for Q4: $6,648,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1b9a67be-a8d1-4431-b99a-6229fd82b8e2",
+      "chunk_id": "0cc438e1-cd60-460c-803d-5629400efec5",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Current Assets for Q4: $10,163,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e00aefc0-d08f-45ce-96c0-7608994820c4",
+      "chunk_id": "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Current Liabilities for Q4: $10,200,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+    "4df4e625-3969-43a3-b113-1221bfeff5da",
+    "0cc438e1-cd60-460c-803d-5629400efec5",
+    "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9"
+  ],
+  "calc_ids": [
+    "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+    "90712dd2-8fcf-419e-bc11-6c9b1f50c235",
+    "cc126119-69b0-4364-9543-52985dee2d4f"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

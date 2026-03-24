@@ -1,0 +1,22 @@
+{
+  "verdict_id": "f5a19041-d425-41e9-bb0c-5a11f12811cb",
+  "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "e486d588-1264-4a80-94a8-e279cfe1a94c",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+      "offending_span": "$716,924,000,000 [CHUNK_ID: 55489966-bd81-4933-81bb-49a968c49e6a]",
+      "explanation": "The paragraph cites chunk ID 55489966-bd81-4933-81bb-49a968c49e6a for the FY2025 Revenue figure of $716,924,000,000, but this chunk ID is not in the provided evidence chunks and is not in the 'Cited chunk IDs' list. The correct chunk containing this FY2025 Revenue data is 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc (Income Statement – AMZN | Period: FY | Date: 2025-12-31), which is already cited elsewhere in the paragraph for Operating Income.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change the citation from [CHUNK_ID: 55489966-bd81-4933-81bb-49a968c49e6a] to [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc] for the FY2025 Revenue figure, as this is the chunk that actually contains the $716,924,000,000 Revenue data."
+    }
+  ],
+  "checked_at": "2026-03-12T12:34:23.564810",
+  "iteration": 2
+}

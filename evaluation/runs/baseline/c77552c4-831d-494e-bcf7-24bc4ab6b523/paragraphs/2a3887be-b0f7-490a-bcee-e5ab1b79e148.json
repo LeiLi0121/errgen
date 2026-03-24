@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "2a3887be-b0f7-490a-bcee-e5ab1b79e148",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Adobe maintains leadership positioning across multiple software categories, recognized as one of the top 15 leaders among over 100 evaluated companies in the global eCommerce platform market (C028, C005). The Digital Media segment serves as the company's flagship, offering Creative Cloud subscription services to content creators, marketers, and enterprises worldwide (C002). This diversified business model across Digital Media, Digital Experience, and Publishing and Advertising segments provides multiple revenue streams, though the company faces increasing competitive pressure from established players and new AI-enabled entrants (Recent Developments summary).",
+  "citations": [
+    {
+      "citation_id": "239b81bb-9c34-4e40-95e8-7aa9de67692f",
+      "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+      "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f871d234-8709-46f7-ad5c-6c2bc784ca5f",
+      "chunk_id": "c89f21ca-ca8b-49f0-b940-42321c0e252e",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Gross Profit for Q1: $5,699,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3b865471-3507-4354-b4d6-7c45a8eab296",
+      "chunk_id": "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+    "c89f21ca-ca8b-49f0-b940-42321c0e252e",
+    "26c1d781-8beb-42b1-8fb3-a2081ace82f9"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

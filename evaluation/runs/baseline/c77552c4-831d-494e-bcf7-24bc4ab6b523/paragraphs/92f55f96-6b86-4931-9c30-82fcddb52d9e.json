@@ -1,0 +1,30 @@
+{
+  "paragraph_id": "92f55f96-6b86-4931-9c30-82fcddb52d9e",
+  "section_name": "Risk Analysis",
+  "text": "Market valuation and investor sentiment risk is evident from significant stock underperformance. Over the 1-year period ending near the as-of date, ADBE returned -36.85% compared to the SPY benchmark return of +16.23%, resulting in an excess return of -53.09% (K015, K016, K017). Even over the recent 30-day period, the stock declined -4.52% while SPY gained 2.15% (K012, K013, K014). This sustained underperformance suggests potential concerns among investors regarding growth prospects, competitive positioning, or valuation levels that could constrain the stock's multiple expansion and increase cost of capital.",
+  "citations": [
+    {
+      "citation_id": "13f7db31-1070-4e59-b151-f49645ee2f88",
+      "chunk_id": "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+      "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ce45bc81-14ae-433f-b057-b76f9a0ac623"
+  ],
+  "calc_ids": [
+    "ea4272d5-9041-427c-b6c6-8eea6106b0ad",
+    "babb7b3c-4fc7-4156-9542-6957c34cfb79",
+    "2a01edbc-f53b-4fe8-8acc-273d0478beeb",
+    "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+    "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+    "d4126c43-6ca1-4432-9d41-c54b5e543718"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

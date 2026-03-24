@@ -1,0 +1,12 @@
+{
+  "revision_id": "cee71f5f-027c-4dec-abed-e4a04146f167",
+  "paragraph_id": "55d0a8a5-f901-4394-a0d9-00cb95e6e933",
+  "iteration": 1,
+  "original_text": "Our Hold rating acknowledges that while Adobe's fundamentals show recovery momentum and the current valuation may reflect significant pessimism, the evidence is insufficient for a more conviction-driven Buy recommendation. The substantial underperformance versus the benchmark (-53.09% excess return over 1 year) [K017] could present opportunity for patient investors, but competitive threats from technology giants [C112], AI monetization uncertainty [C100], and tight liquidity positioning [K008] create near-term headwinds. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI-driven revenue contribution before upgrading to a more bullish stance.",
+  "revised_text": "Our Hold rating acknowledges that while Adobe's [C001] fundamentals show recovery momentum [K001] and the current valuation may reflect significant pessimism, the evidence is insufficient for a more conviction-driven Buy recommendation. The substantial underperformance versus the benchmark (-53.09% excess return over 1 year) [K017] could present opportunity for patient investors, but tight liquidity positioning [K008] creates near-term headwinds. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI-driven revenue contribution before upgrading to a more bullish stance.",
+  "issues_addressed": [
+    "8a2568b7-23d8-40ab-8911-20c38ca0012b"
+  ],
+  "changes_summary": "Removed unsupported claims regarding 'competitive threats from technology giants' and 'AI monetization uncertainty' as chunks C112 and C100 are not available in the provided evidence list. Added C001 to support company identity. Added K001 to support 'recovery momentum' claim based on revenue growth trends. Retained K008 and K017 for liquidity and performance metrics. Adjusted grammar ('create' to 'creates') to match singular subject after removal of list items.",
+  "revised_at": "2026-03-23T21:47:21.871037"
+}

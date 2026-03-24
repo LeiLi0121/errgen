@@ -1,0 +1,12 @@
+{
+  "revision_id": "59547dd8-9456-48a5-9da9-6fdb99dfa128",
+  "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+  "iteration": 2,
+  "original_text": "Amazon demonstrated robust revenue growth trajectory over the past four fiscal years. FY2025 revenue is projected to reach $716,924,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], representing approximately 12.4% growth versus FY2024 revenue of $637,959,000,000 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. FY2024 itself grew approximately 11.0% from FY2023 revenue of $574,785,000,000 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], while FY2023 expanded approximately 11.8% from FY2022 revenue of $513,983,000,000 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. This consistent double-digit growth demonstrates sustained revenue expansion over the four-year period.",
+  "revised_text": "Amazon demonstrated robust revenue growth over the past three completed fiscal years (FY2022-FY2024), with FY2025 revenue projected to reach $716,924,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], representing approximately 12.4% growth versus FY2024 revenue of $637,959,000,000 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. FY2024 itself grew approximately 11.0% from FY2023 revenue of $574,785,000,000 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], while FY2023 expanded approximately 11.8% from FY2022 revenue of $513,983,000,000 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. This consistent double-digit growth demonstrates sustained revenue expansion over the three-year historical period, with projections indicating continued momentum into FY2025.",
+  "issues_addressed": [
+    "16a8531e-b99b-4e03-87a2-272f3c717715"
+  ],
+  "changes_summary": "Revised opening sentence to clarify that only FY2022-FY2024 are completed historical periods (three years), while FY2025 is a projection. Changed 'past four fiscal years' to 'past three completed fiscal years (FY2022-FY2024), with FY2025 revenue projected'. Updated closing sentence to reflect 'three-year historical period' with projections for FY2025. This addresses the scope_violation issue where FY2025 was incorrectly framed as historical performance when it is a future period relative to the as-of date (2025-07).",
+  "revised_at": "2026-03-12T12:17:22.708842"
+}

@@ -1,0 +1,64 @@
+{
+  "paragraph_id": "b9629c26-92b5-400d-a3dc-20f8d2ca0284",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Adobe's core financial metrics support a constructive medium-term outlook. The company maintains exceptional profitability with Q4 2025 gross margins at 88.92% [K003], operating margins at 36.50% [K004], and free cash flow margins reaching 50.47% [K011]. EBITDA generation has remained consistent, with Q4 2025 EBITDA at $2,448 million [C016] compared to $2,462 million in Q3 2025 [C024]. Management's sustained commitment to innovation is evident in R&D spending of $1,098 million in Q4, representing 17.73% of revenue [K007, C018, C012].",
+  "citations": [
+    {
+      "citation_id": "cf5e0bf5-d155-43be-b866-33cd834078e8",
+      "chunk_id": "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q4: $2,448,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "beafe08e-4606-4641-96f3-85be4b2d0b61",
+      "chunk_id": "f335b083-02a8-4b3b-8400-3424e79dfb47",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q3: $2,462,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "049859eb-aa5e-431d-9aeb-3cbc3d99b382",
+      "chunk_id": "9c3e647c-bfea-4b52-bb4c-9703c7ba84cf",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q4: $1,098,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e54a8656-5fc2-4ae9-b72d-8ad542c9bc5e",
+      "chunk_id": "b9ab47a5-9300-4a18-b941-a25f0e62ae89",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+    "f335b083-02a8-4b3b-8400-3424e79dfb47",
+    "9c3e647c-bfea-4b52-bb4c-9703c7ba84cf",
+    "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+  ],
+  "calc_ids": [
+    "8c1b9a10-2466-4694-92fa-5cf89f5d11b4",
+    "dab61c03-e2fc-41b7-9755-7fee316bd3e9",
+    "a7c4f13d-840e-4f02-a7f3-7175e7c43a49",
+    "3ef631ef-031f-4a8e-b8ab-607f92c2153d"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b0792856-c54d-4eb4-bb0b-9248bdd1b1b2",
+      "paragraph_id": "b9629c26-92b5-400d-a3dc-20f8d2ca0284",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T21:06:01.984426",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

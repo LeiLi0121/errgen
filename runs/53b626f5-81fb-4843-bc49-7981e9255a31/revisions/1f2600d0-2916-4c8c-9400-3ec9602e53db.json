@@ -1,0 +1,12 @@
+{
+  "revision_id": "1f2600d0-2916-4c8c-9400-3ec9602e53db",
+  "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+  "iteration": 2,
+  "original_text": "Margin compression risk exists given the historical volatility in Operating Income, which ranged from $12,248,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e] to $68,593,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e], with FY2025 forecasted at $79,975,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. The Operating Margin improved from 2.38% in FY2022 [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]. Evidence on specific regulatory, competitive, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "revised_text": "Historical data reflects operating margin expansion, with Operating Income growing from $12,248,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e] to $68,593,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e] and forecasted at $79,975,000,000 in FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. This growth outpaced Revenue, which rose from $513,983,000,000 [CHUNK_ID: ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357] to $637,959,000,000 [CHUNK_ID: 797dd08f-68f3-4278-b421-6ffa73be3aa2] and $716,924,000,000 [CHUNK_ID: 55489966-bd81-4933-81bb-49a968c49e6a] over the same period. The Operating Margin was 2.38% in FY2022 [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]. Evidence on specific regulatory, competitive, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "issues_addressed": [
+    "5bce6710-a7e0-4c79-b266-5ebdabdaaaa0"
+  ],
+  "changes_summary": "Removed the unsupported claim of 'margin compression risk' which contradicted the data showing margin expansion. Revised the narrative to accurately reflect the historical trend of Operating Income growing faster than Revenue (indicating margin expansion) from FY2022 to FY2025. Added Revenue chunks to support the comparative growth analysis. Retained the disclaimer regarding insufficient evidence for other specific risks.",
+  "revised_at": "2026-03-12T12:27:10.895009"
+}

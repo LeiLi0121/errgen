@@ -1,0 +1,78 @@
+{
+  "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Key risks warrant caution despite the strong fundamental backdrop. NVIDIA faces mounting congressional scrutiny regarding technical assistance provided to Chinese AI startup DeepSeek, with Reuters reporting that a letter from Representative John Moolenaar revealed collaboration that enabled efficiency gains for models later utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. This regulatory overhang introduces uncertainty around future export controls and geopolitical constraints. Additionally, revenue growth sustainability represents a consideration given the exceptional recent performance trajectory, with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. The company's concentrated business model focused on graphics, compute, and networking solutions creates operational risk exposure [cd7d7972-79b5-433f-b378-e23ffc087d85].",
+  "citations": [
+    {
+      "citation_id": "62657b80-9e9a-423b-9086-6339cb501e42",
+      "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a6d90700-c1a3-4590-afed-1e7b1a1ec644",
+      "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+      "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+      "source_type": "company_profile",
+      "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+    "cd7d7972-79b5-433f-b378-e23ffc087d85"
+  ],
+  "calc_ids": [
+    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "6f502163-0b15-435e-abd6-bb73b32a76db",
+      "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "d0352a61-6e80-4a69-8ae8-b90c6bc6d20c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+          "offending_span": "with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]",
+          "explanation": "The paragraph cites chunk ID [0e671c19-4b44-47a7-9234-5d3634f7be27] for the revenue growth rate claims, but this chunk ID is not included in the 'Cited chunk IDs' list provided for this paragraph (only ['4f614cf7-7e8b-4918-9137-cce8663f2afd'] is listed). Additionally, this chunk ID does not appear in the 'Other available (but uncited) chunk IDs' list either, meaning the cited source is not available in the provided evidence. While the numerical values (6.08%, 21.96%, 19.51%) are consistent with previously verified facts from the Risk Analysis section, the specific citation is invalid/unavailable.",
+          "relevant_chunk_ids": [
+            "0e671c19-4b44-47a7-9234-5d3634f7be27"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either (1) replace the citation with a valid chunk ID from the available evidence that contains the revenue growth data (e.g., chunks referenced in the Risk Analysis verified facts), or (2) remove the inline citation if the data is drawn from previously verified facts rather than a specific chunk."
+        }
+      ],
+      "checked_at": "2026-03-23T07:19:26.026529",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "a64bebbc-e29b-4d08-bd86-fdc6d730eb5c",
+      "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T07:20:44.851405",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "99a7ee9a-64c2-4847-a6ef-741fe2dcdd02",
+      "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+      "iteration": 1,
+      "original_text": "Key risks warrant caution despite the strong fundamental backdrop. NVIDIA faces mounting congressional scrutiny regarding technical assistance provided to Chinese AI startup DeepSeek, with Reuters reporting that a letter from Representative John Moolenaar revealed collaboration that enabled efficiency gains for models later utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. This regulatory overhang introduces uncertainty around future export controls and geopolitical constraints. Additionally, revenue growth sustainability represents a consideration given the exceptional recent performance trajectory, with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. The company's concentrated business model focused on graphics, compute, and networking solutions creates operational risk exposure.",
+      "revised_text": "Key risks warrant caution despite the strong fundamental backdrop. NVIDIA faces mounting congressional scrutiny regarding technical assistance provided to Chinese AI startup DeepSeek, with Reuters reporting that a letter from Representative John Moolenaar revealed collaboration that enabled efficiency gains for models later utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. This regulatory overhang introduces uncertainty around future export controls and geopolitical constraints. Additionally, revenue growth sustainability represents a consideration given the exceptional recent performance trajectory, with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. The company's concentrated business model focused on graphics, compute, and networking solutions creates operational risk exposure [cd7d7972-79b5-433f-b378-e23ffc087d85].",
+      "issues_addressed": [
+        "d0352a61-6e80-4a69-8ae8-b90c6bc6d20c"
+      ],
+      "changes_summary": "Fixed citation mismatch for revenue growth rates by moving calc_id 0e671c19-4b44-47a7-9234-5d3634f7be27 from chunk_ids to calc_ids list (it contains calculated YoY growth percentages, not raw chunk data). Added chunk_id cd7d7972-79b5-433f-b378-e23ffc087d85 to support the business model claim about graphics, compute, and networking solutions. Maintained original DeepSeek scrutiny citation (4f614cf7-7e8b-4918-9137-cce8663f2afd). All numerical values now properly sourced from cited calc_id.",
+      "revised_at": "2026-03-23T07:20:14.724327"
+    }
+  ],
+  "iteration": 0
+}

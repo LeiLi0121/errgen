@@ -1,0 +1,24 @@
+{
+  "verdict_id": "15013ada-6c04-4de1-9dac-dc9e595160bb",
+  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "86b10c0a-735b-435f-b2f0-8aedaff1475e",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+      "offending_span": "with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b]",
+      "explanation": "The citation [db68e3f3-b4e9-49cf-86fe-9602627ec55b] is placed to support both the Q3 YoY growth claim (21.96%) and the Q4 revenue claim ($68.13 billion). However, chunk db68e3f3 only contains Q4 income statement data and does not include any Q3 growth information. The Q3 21.96% YoY growth figure actually comes from calc ID 0e671c19, not from the cited chunk.",
+      "relevant_chunk_ids": [
+        "db68e3f3-b4e9-49cf-86fe-9602627ec55b"
+      ],
+      "relevant_calc_ids": [
+        "0e671c19-4b44-47a7-9234-5d3634f7be27"
+      ],
+      "recommended_fix": "Add calc ID 0e671c19-4b44-47a7-9234-5d3634f7be27 as a citation immediately after the Q3 21.96% YoY growth claim, or restructure the sentence to clearly separate the citations: 'with Q3 showing 21.96% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27] and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b]'"
+    }
+  ],
+  "checked_at": "2026-03-23T07:01:06.366026",
+  "iteration": 2
+}

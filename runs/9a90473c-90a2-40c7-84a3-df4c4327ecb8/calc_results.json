@@ -1,0 +1,110 @@
+[
+  {
+    "calc_id": "fa1892bc-aa54-4657-b161-d3604764ec70",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 15356000000.0,
+      "denominator": 26974000000.0
+    },
+    "result": 0.5692889449099132,
+    "formula_description": "15356000000.0 / 26974000000.0 = 0.5693 (56.93%)",
+    "description": "NVDA Gross Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "3ffe9f64-65dd-443d-900d-ba16f3a72e7d",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 4224000000.0,
+      "denominator": 26974000000.0
+    },
+    "result": 0.1565952398606065,
+    "formula_description": "4224000000.0 / 26974000000.0 = 0.1566 (15.66%)",
+    "description": "NVDA Operating Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "2359a7d3-9892-4791-b7a9-c15cbdcb56dd",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 4368000000.0,
+      "denominator": 26974000000.0
+    },
+    "result": 0.16193371394676356,
+    "formula_description": "4368000000.0 / 26974000000.0 = 0.1619 (16.19%)",
+    "description": "NVDA Net Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "0bceccc1-b1ac-4b8c-be53-06259e251673",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 5986000000.0,
+      "denominator": 26974000000.0
+    },
+    "result": 0.2219174019426114,
+    "formula_description": "5986000000.0 / 26974000000.0 = 0.2219 (22.19%)",
+    "description": "NVDA EBITDA Margin (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "73be37ab-34a6-483d-af59-5a255b1c4eea",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 7339000000.0,
+      "revenue": 26974000000.0
+    },
+    "result": 0.2720768147104619,
+    "formula_description": "R&D (7339000000.0) / revenue (26974000000.0) = 0.2721 (27.21%)",
+    "description": "NVDA R&D Intensity (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "dcf4279e-1371-4751-bd24-4e95f04e04d6",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 23073000000.0,
+      "current_liabilities": 6563000000.0
+    },
+    "result": 3.515617857687033,
+    "formula_description": "current_assets (23073000000.0) / current_liabilities (6563000000.0) = 3.52",
+    "description": "NVDA Current Ratio (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "3477fe4d-1239-44a2-890f-559a5bc428f3",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 12031000000.0,
+      "equity": 22101000000.0
+    },
+    "result": 0.5443645083932853,
+    "formula_description": "total_debt (12031000000.0) / equity (22101000000.0) = 0.54",
+    "description": "NVDA Debt-to-Equity (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "b3dbd66d-086c-4370-b308-440bfd31dc76",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 12031000000.0,
+      "cash": 3389000000.0
+    },
+    "result": 8642000000.0,
+    "formula_description": "total_debt (12031000000.0) - cash (3389000000.0) = 8642000000.0",
+    "description": "NVDA Net Debt (FY)",
+    "error": null
+  },
+  {
+    "calc_id": "ebb13bfd-8f73-4522-821f-7cd77f0787f2",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 3808000000.0,
+      "revenue": 26974000000.0
+    },
+    "result": 0.14117298138948617,
+    "formula_description": "FCF (3808000000.0) / revenue (26974000000.0) = 0.1412 (14.12%)",
+    "description": "NVDA FCF Margin (FY)",
+    "error": null
+  }
+]

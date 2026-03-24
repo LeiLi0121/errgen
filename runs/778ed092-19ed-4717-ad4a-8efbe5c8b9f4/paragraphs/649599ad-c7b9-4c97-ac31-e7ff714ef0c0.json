@@ -1,0 +1,46 @@
+{
+  "paragraph_id": "649599ad-c7b9-4c97-ac31-e7ff714ef0c0",
+  "section_name": "Recent Developments",
+  "text": "On the financial front, NVIDIA scheduled its fourth-quarter and fiscal year 2026 earnings conference call for February 25, 2026, with the fiscal year ending January 25, 2026 [679c2f95-b7a5-4235-b904-6b3b22ea121c]. Based on available calculation data, Q4 FY2026 revenue reached $68.127 billion with a net margin of 63.06% [0e671c19-4b44-47a7-9234-5d3634f7be27, 01915efa-aaa7-42eb-b9e2-9b56d3881324]. The stock has demonstrated strong performance with a 1-year price return of 48.48%, significantly outperforming the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427].",
+  "citations": [
+    {
+      "citation_id": "b7993c97-cf73-44d2-a7d2-3da4eb14a5b0",
+      "chunk_id": "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:00:00Z | Yahoo\nTitle: NVIDIA Sets Conference Call for Fourth-Quarter Financial Results\nURL: https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4\nWritten CFO Commentary to Be Provided Ahead of CallSANTA CLARA, Calif., Jan. 28, 2026 (GLOB",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e7d5a917-73ab-4820-8e31-2f92086480e6",
+      "chunk_id": "163132e4-10ea-41bc-9202-e5eb0356c9f3",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T20:00:00Z | Yahoo\nTitle: Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026\nURL: https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb\nNVIDIA stands out in 2026 as a top profitable semiconductor pick, boasting a 53% net inco",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+    "163132e4-10ea-41bc-9202-e5eb0356c9f3"
+  ],
+  "calc_ids": [
+    "0e671c19-4b44-47a7-9234-5d3634f7be27",
+    "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+    "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+    "4e7134c1-290f-4b49-bb42-eed50a873427"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "0d5f02ce-577e-4a87-adac-5e7ff008eeb4",
+      "paragraph_id": "649599ad-c7b9-4c97-ac31-e7ff714ef0c0",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T05:15:51.014838",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

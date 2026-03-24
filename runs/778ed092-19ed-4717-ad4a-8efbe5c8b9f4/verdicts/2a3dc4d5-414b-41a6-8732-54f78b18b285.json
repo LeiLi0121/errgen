@@ -1,0 +1,42 @@
+{
+  "verdict_id": "2a3dc4d5-414b-41a6-8732-54f78b18b285",
+  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "b673bbe0-5fd3-4eb8-95b9-a61a9bc8123b",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "offending_span": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13].",
+      "explanation": "The paragraph makes a material factual claim regarding regulatory approval and customer authorization but cites a chunk ID (4a442330-590e-4455-af91-db05eff6ba13) that is not present in the provided evidence list. The 'Cited chunk IDs' list is empty, meaning there is no evidence available to verify this significant financial news.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the claim or provide valid, accessible evidence chunks that confirm the regulatory approval and customer details. Ensure citation IDs match the available evidence database."
+    },
+    {
+      "issue_id": "268504f1-7b84-4833-9bda-1145f7a86113",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "offending_span": "According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd].",
+      "explanation": "This sentence attributes information to the Wall Street Journal and experts but cites a chunk ID (d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd) that is not provided in the evidence list. The claim cannot be verified without the source.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the specific WSJ article chunk or remove the attribution and specific policy analysis if evidence is unavailable."
+    },
+    {
+      "issue_id": "fd0378a0-8905-437f-a5ed-370d1713ee81",
+      "issue_type": "hallucination",
+      "severity": "critical",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "offending_span": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time",
+      "explanation": "The specific event (China approving H200 in Jan 2026) is not traceable to any provided source. The cited evidence IDs do not exist in the provided context, suggesting the event and citations may be invented.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Verify the event with external reliable sources or remove the speculative content. Do not fabricate regulatory approvals."
+    }
+  ],
+  "checked_at": "2026-03-23T06:48:21.632699",
+  "iteration": 1
+}

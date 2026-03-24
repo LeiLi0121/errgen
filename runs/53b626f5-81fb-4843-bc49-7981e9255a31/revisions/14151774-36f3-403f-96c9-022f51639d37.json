@@ -1,0 +1,14 @@
+{
+  "revision_id": "14151774-36f3-403f-96c9-022f51639d37",
+  "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+  "iteration": 2,
+  "original_text": "R&D investment remains a strategic priority for Amazon, with projected FY2025 R&D expenses of $108,521,000,000 [CHUNK_ID: 534dacac-29c9-481c-8845-b786f27f197d], up from $88,544,000,000 in FY2024 [CHUNK_ID: a34693a5-e557-42e6-92f5-aa5998f8da7f], $85,622,000,000 in FY2023 [CHUNK_ID: 2fdd530a-a7d5-4c8e-aaa5-10ab743173e5], and $73,213,000,000 in FY2022 [CHUNK_ID: 0eece3ef-3e1b-4c42-935a-1d34e429cf70]. FY2022 R&D intensity was 14.24% of revenue [CALC_ID: 067e0511-a49a-4cdb-847f-c0470722fc7b]. This elevated R&D spending intensity indicates continued investment in AWS infrastructure, AI capabilities, and logistics automation to sustain competitive advantages across Amazon's diversified business portfolio.",
+  "revised_text": "R&D investment remains a strategic priority for Amazon, with R&D expenses of $88,544,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e], $85,622,000,000 in FY2023 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], and $73,213,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. FY2022 R&D intensity was 14.24% of revenue [CALC_ID: 067e0511-a49a-4cdb-847f-c0470722fc7b], based on FY2022 revenue of $513,983,000,000 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. This elevated R&D spending intensity indicates continued investment in AWS infrastructure, AI capabilities, and logistics automation to sustain competitive advantages across Amazon's diversified business portfolio.",
+  "issues_addressed": [
+    "8a11ce6b-39bb-488b-81f7-bbd2205b9235",
+    "a84580d9-7ccd-4799-b5de-9f1ed18c4a9d",
+    "11559c32-c279-495f-bfd5-a09f063cb456"
+  ],
+  "changes_summary": "Removed FY2025 R&D projection ($108,521,000,000) because the as-of date (2025-07) precedes FY2025 year-end (2025-12-31), making it unverifiable as actual data. Replaced standalone R&D expense chunks with full income statement chunks that explicitly contain fiscal year dates (2022-12-31, 2023-12-31, 2024-12-31) to properly support year attributions. Added FY2022 revenue chunk citation to support the R&D intensity calculation's fiscal year attribution.",
+  "revised_at": "2026-03-12T12:22:58.221168"
+}

@@ -1,0 +1,84 @@
+{
+  "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+  "section_name": "Financial Analysis",
+  "text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. As of FY2025, current assets totaled $229,083,000,000 [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650] against current liabilities of $218,005,000,000 [CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1], implying a current ratio of approximately 1.05. Total debt stood at $152,987,000,000 [CHUNK_ID: 76888285-3b76-46aa-bfd7-4aaf00b22d90] with stockholders' equity of $411,065,000,000 [CHUNK_ID: e1a89938-1e17-4235-ba31-82444d67f675], suggesting a debt-to-equity ratio of approximately 0.37, an improvement from the FY2022 level of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d]. Cash and equivalents of $86,810,000,000 [CHUNK_ID: 119bd75b-f6e2-4495-b285-afbac6cb99aa] provides substantial liquidity buffer, though net debt calculations for FY2025 are not available in the provided evidence.",
+  "citations": [
+    {
+      "citation_id": "0d04f85e-4e48-4ea1-962c-ef1901214840",
+      "chunk_id": "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Assets for FY: $229,083,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "51629c92-96b2-4ab4-ae0e-53823f79a35a",
+      "chunk_id": "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Liabilities for FY: $218,005,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "56031e6b-f344-4352-89cb-821f6813c4fb",
+      "chunk_id": "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Debt for FY: $152,987,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fd6ca089-a492-4041-ac26-951baf3230b0",
+      "chunk_id": "e1a89938-1e17-4235-ba31-82444d67f675",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Stockholders' Equity for FY: $411,065,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0844e291-642c-4bb3-bed0-3a1f7d85293f",
+      "chunk_id": "119bd75b-f6e2-4495-b285-afbac6cb99aa",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Cash & Equivalents for FY: $86,810,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+    "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+    "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+    "e1a89938-1e17-4235-ba31-82444d67f675",
+    "119bd75b-f6e2-4495-b285-afbac6cb99aa"
+  ],
+  "calc_ids": [
+    "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "7bbc5a43-e4e2-4825-8c93-eb2260908689",
+      "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "8027c026-3c10-44ee-8c56-31e63aebb980",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+          "offending_span": "an improvement from the FY2022 level of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d]",
+          "explanation": "The paragraph claims the 0.96 debt-to-equity ratio is from FY2022, but the cited calculation result (ec64f479-08ea-449f-bb49-a0efd33c4b1d) does not specify which fiscal year this represents. The calculation description only states 'AMZN Debt-to-Equity (FY)' without indicating FY2022. While the 0.96 value itself matches the calculation result, the specific fiscal year attribution cannot be verified from the cited evidence.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+          ],
+          "recommended_fix": "Either remove the specific FY2022 reference and state 'a prior fiscal year' or 'historical level', or cite additional evidence that explicitly confirms this 0.96 ratio is from FY2022."
+        }
+      ],
+      "checked_at": "2026-03-12T10:18:11.633021",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

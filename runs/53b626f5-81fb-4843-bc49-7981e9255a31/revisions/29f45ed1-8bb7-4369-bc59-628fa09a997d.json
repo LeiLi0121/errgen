@@ -1,0 +1,14 @@
+{
+  "revision_id": "29f45ed1-8bb7-4369-bc59-628fa09a997d",
+  "paragraph_id": "ea81fd78-d7ae-4243-89e4-979d3b38cb9b",
+  "iteration": 1,
+  "original_text": "EBITDA generation has strengthened considerably, with FY2025 EBITDA reaching $165,341,000,000 [CHUNK_ID: a0eaec82-9374-4c40-ae69-5ff4202160a8], up from $123,815,000,000 in FY2024 [CHUNK_ID: fae7ca76-ecce-40c0-a9db-c6cccdcf1d38], $89,402,000,000 in FY2023 [CHUNK_ID: 84302f37-2022-45a2-8a76-3be91ebe9e6b], and $38,352,000,000 in FY2022 [CHUNK_ID: d1ad7d52-3b2c-4db3-9d43-359a9062fd06]. FY2022 EBITDA margin was 7.46% [CALC_ID: cd2a13f8-6996-4b54-a953-05d0ed25f82c], while FY2022 free cash flow margin was negative at -3.29% [CALC_ID: a65e9487-8763-4d3c-aaba-17a6ad8077c0]. The substantial EBITDA growth suggests improved cash flow quality, though specific FY2025 operating cash flow and free cash flow figures are not available in the provided evidence to calculate current FCF margins.",
+  "revised_text": "EBITDA generation has strengthened considerably, with FY2025 EBITDA projected at $165,341,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], up from $123,815,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e], $89,402,000,000 in FY2023 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], and $38,352,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. EBITDA margin was 7.46% [CALC_ID: cd2a13f8-6996-4b54-a953-05d0ed25f82c], while free cash flow margin was negative at -3.29% [CALC_ID: a65e9487-8763-4d3c-aaba-17a6ad8077c0]. The substantial EBITDA growth suggests improved cash flow quality, though specific FY2025 operating cash flow and free cash flow figures are not available in the provided evidence to calculate current FCF margins.",
+  "issues_addressed": [
+    "4e20dd56-ab35-485a-badc-d2eb908a6337",
+    "412568fe-a230-4d82-8754-b239f6bfc39d",
+    "1f1454e9-3638-47be-b3f3-05fab06e7b12"
+  ],
+  "changes_summary": "Fixed three issues: (1) Changed FY2025 EBITDA from 'reaching' to 'projected at' to clarify it's a forecast since the report date is 2025-07 and FY2025 ends 2025-12-31, citing the income statement chunk with the future date. (2) Replaced standalone EBITDA chunks with income statement chunks that have explicit dates (2024-12-31, 2023-12-31, 2022-12-31) to properly support the fiscal year attributions for FY2024, FY2023, and FY2022. (3) Removed 'FY2022' attribution from margin claims since the calculation IDs don't specify the fiscal year, keeping only the calc IDs for the margin percentages.",
+  "revised_at": "2026-03-12T11:02:10.139174"
+}

@@ -1,0 +1,24 @@
+{
+  "verdict_id": "e5655f41-bb5c-45ed-8f1d-cc2dd58f273f",
+  "paragraph_id": "80f0d9fa-491b-416a-bbc0-030e2ce06470",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "3c0b072c-690c-428f-bfb3-72db1666f78d",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "80f0d9fa-491b-416a-bbc0-030e2ce06470",
+      "offending_span": "Current assets of $125,605,000,000 significantly exceed current liabilities of $32,163,000,000, indicating strong short-term liquidity positioning [CHUNK_ID: ddd19628-39a7-4266-b351-b98f50e9f67f, CHUNK_ID: 4c087484-a2fb-4e6e-8a85-4bbe05a76ef4]",
+      "explanation": "The chunk ddd19628-39a7-4266-b351-b98f50e9f67f is cited for current assets but is not provided in the evidence chunks. The current assets figure ($125,605,000,000) is actually found in chunk 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c (which is already cited elsewhere in the paragraph for cash and short-term investments). This prevents verification of the claim from the cited source.",
+      "relevant_chunk_ids": [
+        "ddd19628-39a7-4266-b351-b98f50e9f67f",
+        "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c",
+        "4c087484-a2fb-4e6e-8a85-4bbe05a76ef4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the citation to use chunk 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c for current assets instead of ddd19628-39a7-4266-b351-b98f50e9f67f. The corrected citation should read: [CHUNK_ID: 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c, CHUNK_ID: 4c087484-a2fb-4e6e-8a85-4bbe05a76ef4]"
+    }
+  ],
+  "checked_at": "2026-03-11T14:27:01.312007",
+  "iteration": 0
+}

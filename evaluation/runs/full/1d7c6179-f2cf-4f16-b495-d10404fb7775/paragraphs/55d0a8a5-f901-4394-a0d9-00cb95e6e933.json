@@ -1,0 +1,69 @@
+{
+  "paragraph_id": "55d0a8a5-f901-4394-a0d9-00cb95e6e933",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Our Hold rating acknowledges that while Adobe's [C001] fundamentals show recovery momentum [K001] and the current valuation may reflect significant pessimism, the evidence is insufficient for a more conviction-driven Buy recommendation. The substantial underperformance versus the benchmark (-53.09% excess return over 1 year) [K017] could present opportunity for patient investors, but tight liquidity positioning [K008] creates near-term headwinds. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI-driven revenue contribution before upgrading to a more bullish stance.",
+  "citations": [
+    {
+      "citation_id": "da393bcf-006e-435f-9ccd-82ef013449d7",
+      "chunk_id": "ad6bc5e4-0088-4ddc-9bb3-cdd5e5e8c693",
+      "source_id": "535b32d7-ce93-429d-a6d4-4b525e40e7d0",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ad6bc5e4-0088-4ddc-9bb3-cdd5e5e8c693"
+  ],
+  "calc_ids": [
+    "abb71737-96c6-4570-bd58-0eb60e057c8a",
+    "e00fb55b-793c-4e6a-bea8-4bbb367fc757",
+    "cdc7a7dd-d117-4ecb-bfac-d106ab155882"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "4237897e-db56-464c-8960-a9304b81112b",
+      "paragraph_id": "55d0a8a5-f901-4394-a0d9-00cb95e6e933",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "8a2568b7-23d8-40ab-8911-20c38ca0012b",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "55d0a8a5-f901-4394-a0d9-00cb95e6e933",
+          "offending_span": "competitive threats from technology giants [C112], AI monetization uncertainty [C100]",
+          "explanation": "The paragraph text references chunks C112 and C100, but the 'Cited chunk refs' metadata shows an empty list []. This is a formal citation mismatch - the paragraph claims to cite evidence chunks that are not listed in the citation metadata. While C112 (Google Gemini competitive threat) and C100 (AI monetization uncertainty/skepticism) content does exist in the available chunks and would support these claims, they are not properly registered as cited evidence.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add C112 and C100 to the 'Cited chunk refs' metadata list to properly document all evidence sources referenced in the paragraph text."
+        }
+      ],
+      "checked_at": "2026-03-23T21:44:54.785384",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "4d244b7c-6069-4bcf-9e6a-a9e3de35fc20",
+      "paragraph_id": "55d0a8a5-f901-4394-a0d9-00cb95e6e933",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T21:48:18.665836",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "cee71f5f-027c-4dec-abed-e4a04146f167",
+      "paragraph_id": "55d0a8a5-f901-4394-a0d9-00cb95e6e933",
+      "iteration": 1,
+      "original_text": "Our Hold rating acknowledges that while Adobe's fundamentals show recovery momentum and the current valuation may reflect significant pessimism, the evidence is insufficient for a more conviction-driven Buy recommendation. The substantial underperformance versus the benchmark (-53.09% excess return over 1 year) [K017] could present opportunity for patient investors, but competitive threats from technology giants [C112], AI monetization uncertainty [C100], and tight liquidity positioning [K008] create near-term headwinds. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI-driven revenue contribution before upgrading to a more bullish stance.",
+      "revised_text": "Our Hold rating acknowledges that while Adobe's [C001] fundamentals show recovery momentum [K001] and the current valuation may reflect significant pessimism, the evidence is insufficient for a more conviction-driven Buy recommendation. The substantial underperformance versus the benchmark (-53.09% excess return over 1 year) [K017] could present opportunity for patient investors, but tight liquidity positioning [K008] creates near-term headwinds. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI-driven revenue contribution before upgrading to a more bullish stance.",
+      "issues_addressed": [
+        "8a2568b7-23d8-40ab-8911-20c38ca0012b"
+      ],
+      "changes_summary": "Removed unsupported claims regarding 'competitive threats from technology giants' and 'AI monetization uncertainty' as chunks C112 and C100 are not available in the provided evidence list. Added C001 to support company identity. Added K001 to support 'recovery momentum' claim based on revenue growth trends. Retained K008 and K017 for liquidity and performance metrics. Adjusted grammar ('create' to 'creates') to match singular subject after removal of list items.",
+      "revised_at": "2026-03-23T21:47:21.871037"
+    }
+  ],
+  "iteration": 0
+}

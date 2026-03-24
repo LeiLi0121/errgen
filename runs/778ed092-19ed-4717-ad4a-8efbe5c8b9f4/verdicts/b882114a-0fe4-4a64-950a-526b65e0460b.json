@@ -1,0 +1,41 @@
+{
+  "verdict_id": "b882114a-0fe4-4a64-950a-526b65e0460b",
+  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "f796dc91-99d7-499e-ac7b-11c27ef68a77",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+      "offending_span": "NVIDIA maintains a dominant competitive position in the AI infrastructure market.",
+      "explanation": "This is a factual claim about competitive positioning that is not supported by the cited evidence chunks. The cited chunks (db68e3f3-b4e9-49cf-86fe-9602627ec55b and 8673c861-f8b6-4f0f-8801-373630314eeb) contain only income statement data and do not provide evidence about NVIDIA's competitive position in the AI infrastructure market.",
+      "relevant_chunk_ids": [
+        "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+        "8673c861-f8b6-4f0f-8801-373630314eeb"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional chunks that contain market share data or competitive analysis, or rephrase as interpretive analysis clearly distinguished from factual claims (e.g., 'NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market')."
+    },
+    {
+      "issue_id": "fc96a7e7-3613-473d-9991-ed7a1b854695",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+      "offending_span": "This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+      "explanation": "While high margins and revenue growth can indicate pricing power, the cited evidence chunks do not directly support claims about pricing power or demand relative to competitors. This is interpretive language that implies more certainty than the financial data alone warrants.",
+      "relevant_chunk_ids": [
+        "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+        "8673c861-f8b6-4f0f-8801-373630314eeb"
+      ],
+      "relevant_calc_ids": [
+        "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+        "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+        "0e671c19-4b44-47a7-9234-5d3634f7be27"
+      ],
+      "recommended_fix": "Soften the language to reflect that this is an inference rather than a conclusion (e.g., 'This financial performance may indicate strong pricing power...' or 'The high margins are consistent with strong pricing power...')."
+    }
+  ],
+  "checked_at": "2026-03-23T06:52:44.436386",
+  "iteration": 1
+}

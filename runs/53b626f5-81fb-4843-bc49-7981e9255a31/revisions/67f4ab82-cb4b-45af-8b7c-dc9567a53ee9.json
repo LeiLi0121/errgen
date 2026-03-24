@@ -1,0 +1,12 @@
+{
+  "revision_id": "67f4ab82-cb4b-45af-8b7c-dc9567a53ee9",
+  "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+  "iteration": 2,
+  "original_text": "Amazon.com, Inc. operates through three segments: North America, International, and Amazon Web Services (AWS) [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The company engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally [43e13619-4c35-4dd4-a32b-ceaa18319a42]. AWS represents a critical segment within the company's three-segment structure [43e13619-4c35-4dd4-a32b-ceaa18319a42]. For FY 2025, Amazon reported revenue of $716,924,000,000 and operating income of $79,975,000,000 [4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, 98d37e7b-d9b8-4798-8d78-32c8508a1ff4]. Evidence on specific advertising revenue figures, AWS growth rates, and detailed segment profitability is not provided in the available data.",
+  "revised_text": "Amazon.com, Inc. operates through three segments: North America, International, and Amazon Web Services (AWS) [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The company engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally [43e13619-4c35-4dd4-a32b-ceaa18319a42]. AWS represents a segment within the company's three-segment structure [43e13619-4c35-4dd4-a32b-ceaa18319a42]. For FY 2024, Amazon reported revenue of $637,959,000,000 and operating income of $68,593,000,000 [7f42935f-2962-4418-812e-c92a56b27b2e]. Evidence on specific advertising revenue figures, AWS growth rates, and detailed segment profitability is not provided in the available data.",
+  "issues_addressed": [
+    "18c11c69-61b3-4659-841a-25fadb505473"
+  ],
+  "changes_summary": "Updated fiscal year from FY 2025 to FY 2024 and corresponding financial figures to align with the report's As-Of Date (2025-07), as FY 2025 results were not yet reported. Updated citations to reference FY 2024 income statement data. Removed the unsupported claim that AWS is 'critical' to ensure all factual claims are supported by the cited chunk.",
+  "revised_at": "2026-03-12T12:24:36.570742"
+}

@@ -15,7 +15,9 @@ Free tier: 250 API calls/day.
 
 from __future__ import annotations
 
+import html
 import logging
+import re
 from typing import Any
 
 from errgen.config import Config
@@ -41,6 +43,25 @@ def _fmt_pct(val: Any) -> str:
         return f"{float(val):.2%}"
     except (TypeError, ValueError):
         return str(val)
+
+
+def _normalise_whitespace(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _strip_html(text: str) -> str:
+    no_script = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", text)
+    no_tags = re.sub(r"(?s)<[^>]+>", " ", no_script)
+    return _normalise_whitespace(html.unescape(no_tags))
+
+
+def _coerce_float(val: Any) -> float | None:
+    try:
+        if val is None:
+            return None
+        return float(val)
+    except (TypeError, ValueError):
+        return None
 
 
 class FMPClient(BaseDataClient):
@@ -497,6 +518,144 @@ class FMPClient(BaseDataClient):
         return chunks
 
     # ------------------------------------------------------------------
+    # SEC filings
+    # ------------------------------------------------------------------
+
+    def get_sec_filings(
+        self,
+        ticker: str,
+        from_date: str,
+        to_date: str,
+        limit: int | None = None,
+    ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
+        """
+        Fetch recent SEC filings and build filing-summary / section chunks.
+
+        The FMP filings API returns links to the primary filing documents.
+        We fetch the filing HTML and extract lightweight text snippets for
+        MD&A / Business / Risk Factors when possible.
+        """
+        limit = limit or Config.MAX_SEC_FILINGS
+        raw = self._fmp_get(
+            "sec-filings-search/symbol",
+            {
+                "symbol": ticker,
+                "from": from_date,
+                "to": to_date,
+                "page": 0,
+                "limit": limit,
+            },
+        )
+
+        filings = raw if isinstance(raw, list) else []
+        filings = [
+            item for item in filings
+            if (item.get("formType") or item.get("type") or "").upper() in {"10-K", "10-Q"}
+        ][:limit]
+
+        source = SourceMetadata(
+            source_type=SourceType.FILING,
+            api_source="fmp",
+            document_identifier=f"fmp_sec_filings_{ticker}_{from_date}_{to_date}",
+            ticker=ticker,
+            metadata={
+                "endpoint": "sec-filings-search/symbol",
+                "symbol": ticker,
+                "from": from_date,
+                "to": to_date,
+                "n_filings": len(filings),
+            },
+        )
+
+        chunks: list[EvidenceChunk] = []
+        for filing in filings:
+            form_type = (filing.get("formType") or filing.get("type") or "").upper()
+            filed_at = filing.get("filingDate") or filing.get("fillingDate") or ""
+            accepted_at = filing.get("acceptedDate") or ""
+            final_link = filing.get("finalLink") or filing.get("link") or filing.get("url") or ""
+            filing_title = filing.get("title") or f"{ticker} {form_type} filing"
+
+            metadata = {
+                "ticker": ticker,
+                "form_type": form_type,
+                "filed_at": filed_at,
+                "accepted_at": accepted_at,
+                "url": final_link,
+                "filing_title": filing_title,
+            }
+            summary_text = (
+                f"[FILING] {ticker} {form_type} | Filed: {filed_at} | Accepted: {accepted_at}\n"
+                f"Title: {filing_title}\n"
+                f"URL: {final_link or 'N/A'}"
+            )
+            chunks.append(
+                EvidenceChunk(
+                    source_id=source.source_id,
+                    source_type=SourceType.FILING,
+                    text=summary_text,
+                    field_name="filing_summary",
+                    period=filed_at[:10] if filed_at else None,
+                    metadata=metadata,
+                )
+            )
+
+            if not final_link:
+                continue
+
+            try:
+                raw_text = self._get_text(final_link)
+                cleaned = _strip_html(raw_text)
+            except Exception as exc:
+                logger.warning("FMP: failed to fetch filing body for %s %s: %s", ticker, form_type, exc)
+                continue
+
+            if not cleaned:
+                continue
+
+            for section_name, excerpt in self._extract_filing_sections(cleaned, form_type):
+                chunks.append(
+                    EvidenceChunk(
+                        source_id=source.source_id,
+                        source_type=SourceType.FILING,
+                        text=excerpt,
+                        field_name=section_name,
+                        period=filed_at[:10] if filed_at else None,
+                        metadata=metadata,
+                    )
+                )
+
+        logger.info("FMP: fetched %d filing chunks for %s", len(chunks), ticker)
+        return source, chunks
+
+    @staticmethod
+    def _extract_filing_sections(text: str, form_type: str) -> list[tuple[str, str]]:
+        section_specs = [
+            ("filing_business", [r"item\s*1\.?\s*business", r"business overview"]),
+            ("filing_mda", [r"management['’]s discussion and analysis", r"item\s*2\.?\s*management"]),
+            ("filing_risk_factors", [r"item\s*1a\.?\s*risk factors", r"risk factors"]),
+        ]
+        lower = text.lower()
+        snippets: list[tuple[str, str]] = []
+        for field_name, patterns in section_specs:
+            start = -1
+            for pattern in patterns:
+                match = re.search(pattern, lower, flags=re.IGNORECASE)
+                if match:
+                    start = match.start()
+                    break
+            if start < 0:
+                continue
+            excerpt = text[start:start + 2400].strip()
+            if excerpt:
+                snippets.append((field_name, excerpt))
+
+        if snippets:
+            return snippets
+
+        fallback = text[:2400].strip()
+        return [("filing_excerpt", fallback)] if fallback else []
+
+    # ------------------------------------------------------------------
     # News from FMP
     # ------------------------------------------------------------------
 
@@ -579,7 +738,23 @@ class FMPClient(BaseDataClient):
             {"symbol": ticker, "from": from_date, "to": to_date},
         )
 
-        historical = raw.get("historical", []) if isinstance(raw, dict) else []
+        if isinstance(raw, list):
+            historical = raw
+        elif isinstance(raw, dict):
+            historical = (
+                raw.get("historical")
+                or raw.get("prices")
+                or raw.get("results")
+                or []
+            )
+        else:
+            historical = []
+
+        historical = [
+            item for item in historical
+            if isinstance(item, dict) and item.get("date") and item.get("close") is not None
+        ]
+        historical.sort(key=lambda item: str(item.get("date")))
         if not historical:
             logger.warning("FMP: no price history for %s (%s – %s)", ticker, from_date, to_date)
 
@@ -593,20 +768,29 @@ class FMPClient(BaseDataClient):
                 "symbol": ticker,
                 "from": from_date,
                 "to": to_date,
+                "historical": historical,
             },
         )
 
         chunks: list[EvidenceChunk] = []
         if historical:
-            # One summary chunk with first/last price for context
-            first = historical[-1]  # FMP returns newest-first
-            last = historical[0]
+            first = historical[0]
+            last = historical[-1]
+            first_close = _coerce_float(first.get("close"))
+            last_close = _coerce_float(last.get("close"))
+            highs = [_coerce_float(item.get("high")) for item in historical]
+            lows = [_coerce_float(item.get("low")) for item in historical]
+            highs = [val for val in highs if val is not None]
+            lows = [val for val in lows if val is not None]
+            if first_close is None or last_close is None or not highs or not lows:
+                logger.warning("FMP: incomplete close prices for %s", ticker)
+                return source, chunks
             summary = (
                 f"Price history for {ticker} from {from_date} to {to_date}: "
-                f"Opening price on {first['date']}: ${first['close']:.2f}, "
-                f"Closing price on {last['date']}: ${last['close']:.2f}. "
-                f"52-week high: ${max(d['high'] for d in historical):.2f}, "
-                f"52-week low: ${min(d['low'] for d in historical):.2f}."
+                f"Opening price on {first['date']}: ${first_close:.2f}, "
+                f"Closing price on {last['date']}: ${last_close:.2f}. "
+                f"52-week high: ${max(highs):.2f}, "
+                f"52-week low: ${min(lows):.2f}."
             )
             chunks.append(
                 EvidenceChunk(
@@ -618,6 +802,10 @@ class FMPClient(BaseDataClient):
                         "from_date": from_date,
                         "to_date": to_date,
                         "data_points": len(historical),
+                        "price_start": first_close,
+                        "price_end": last_close,
+                        "price_high": max(highs),
+                        "price_low": min(lows),
                     },
                 )
             )

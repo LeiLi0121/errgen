@@ -1,0 +1,48 @@
+{
+  "verdict_id": "f1e510a5-28fd-493d-8927-1246b29bf7db",
+  "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0a3dd1f4-4d81-499b-a466-bf40ccf656dd",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+      "offending_span": "Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]",
+      "explanation": "The paragraph cites chunk ID [0e671c19-4b44-47a7-9234-5d3634f7be27] for the revenue growth claim, but this chunk ID is not present in the provided Cited Evidence Chunks. The claim cannot be verified against the provided evidence.",
+      "relevant_chunk_ids": [
+        "0e671c19-4b44-47a7-9234-5d3634f7be27"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide the actual evidence chunk [0e671c19-4b44-47a7-9234-5d3634f7be27] containing the revenue growth data, or cite a chunk that is actually available in the evidence set. Alternatively, reference the Previously Verified Facts section where this growth rate information appears."
+    },
+    {
+      "issue_id": "40224864-610d-4e67-86d1-58a380de7d7d",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+      "offending_span": "the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d]",
+      "explanation": "The paragraph cites chunk ID [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] for the current ratio claim, but this chunk ID is not present in the provided Cited Evidence Chunks. The claim cannot be verified against the provided evidence.",
+      "relevant_chunk_ids": [
+        "fc6898e7-0436-452a-b590-9dcb2bcb2d1d"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide the actual evidence chunk [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] containing the current ratio data, or cite a chunk that is actually available in the evidence set. Alternatively, reference the Previously Verified Facts section where this current ratio information appears."
+    },
+    {
+      "issue_id": "b41ed626-5cce-42f9-b6e9-9f708a4f1b17",
+      "issue_type": "numerical_error",
+      "severity": "minor",
+      "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+      "offending_span": "debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5]",
+      "explanation": "The paragraph states the debt-to-equity ratio as 0.07, but the cited calculation result [329a2749-65f3-4d5f-b78e-9d344e984ed5] shows Result: 0.0726. While 0.07 is a reasonable rounding to 2 decimal places, there is a technical discrepancy between the stated value and the calculation result.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "329a2749-65f3-4d5f-b78e-9d344e984ed5"
+      ],
+      "recommended_fix": "Either state the debt-to-equity ratio as 0.073 (rounded to 3 decimal places) or 0.0726 (exact), or explicitly note that the value is rounded to 2 decimal places."
+    }
+  ],
+  "checked_at": "2026-03-23T07:15:04.412916",
+  "iteration": 0
+}

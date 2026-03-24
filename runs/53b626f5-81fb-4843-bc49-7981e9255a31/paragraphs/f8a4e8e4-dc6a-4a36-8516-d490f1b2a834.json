@@ -1,0 +1,94 @@
+{
+  "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Amazon.com, Inc. operates through three primary segments: North America, International, and Amazon Web Services (AWS) [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The company engages in retail sale of consumer products and subscriptions through online and physical stores, offering merchandise purchased for resale alongside products from third-party sellers [43e13619-4c35-4dd4-a32b-ceaa18319a42]. Beyond retail, Amazon manufactures electronic devices including Kindle, Fire tablets, Fire TVs, Ring, Blink, eero, and Echo, while also developing media content [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The company provides compute, storage, database, analytics, machine learning, and other cloud services through AWS, alongside fulfillment, advertising, and digital content subscriptions [43e13619-4c35-4dd4-a32b-ceaa18319a42]. Amazon Prime membership program serves as a key customer retention mechanism [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The company serves consumers, sellers, developers, enterprises, content creators, and advertisers across North America and internationally [43e13619-4c35-4dd4-a32b-ceaa18319a42]. As of the reporting period, Amazon employs approximately 1,560,000 full-time employees under CEO Andrew R. Jassy [e65da658-2e8e-45cc-a6fc-d7c488c49e6a].",
+  "citations": [
+    {
+      "citation_id": "9e643654-edf9-482a-84aa-18c743619e5e",
+      "chunk_id": "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its store",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "59ca845e-25c1-4b06-bd31-c5f8daa5e7e8",
+      "chunk_id": "e65da658-2e8e-45cc-a6fc-d7c488c49e6a",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: https://www.amazon.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+    "e65da658-2e8e-45cc-a6fc-d7c488c49e6a"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "a521599c-0eb4-403a-9031-c8078188a4d7",
+      "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "65ff0b09-fd1d-4b88-8c7e-28223d2a145b",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+          "offending_span": "The company provides compute, storage, database, analytics, machine learning, and other cloud services through AWS, alongside fulfillment, advertising, and digital content subscriptions",
+          "explanation": "The cited chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 is truncated and does not contain information about specific AWS services (compute, storage, database, analytics, machine learning) or fulfillment, advertising, and digital content subscriptions. These claims cannot be verified from the provided evidence.",
+          "relevant_chunk_ids": [
+            "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite a different chunk that contains AWS service details, or remove the specific service listings that cannot be verified from the current evidence."
+        },
+        {
+          "issue_id": "77f2b5db-ffb0-4b84-a23d-a0c577d61dd7",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+          "offending_span": "Amazon Prime membership program serves as a key customer retention mechanism",
+          "explanation": "The cited chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 does not mention Amazon Prime or characterize it as a customer retention mechanism. This claim is not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove this claim or cite a different chunk that specifically discusses Amazon Prime and its role in customer retention."
+        },
+        {
+          "issue_id": "eeba1c66-9312-4501-9e85-c33e9d22b3dd",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+          "offending_span": "The company serves consumers, sellers, developers, enterprises, content creators, and advertisers across North America and internationally",
+          "explanation": "The cited chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 does not explicitly list these customer segments (consumers, sellers, developers, enterprises, content creators, advertisers). This detailed breakdown is not supported by the visible evidence.",
+          "relevant_chunk_ids": [
+            "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the specific customer segment list or cite a chunk that explicitly identifies these stakeholder groups."
+        },
+        {
+          "issue_id": "50fd2d73-5dbf-4921-9ac6-e08203f055b8",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+          "offending_span": "serves as a key customer retention mechanism",
+          "explanation": "The language implies certainty about Prime's function as a retention mechanism without evidence to support this characterization. Even if Prime were mentioned, calling it a 'key customer retention mechanism' is an interpretive claim.",
+          "relevant_chunk_ids": [
+            "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Use more neutral language such as 'Amazon Prime membership program is offered to customers' unless evidence explicitly supports the retention mechanism claim."
+        }
+      ],
+      "checked_at": "2026-03-12T10:19:42.744973",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

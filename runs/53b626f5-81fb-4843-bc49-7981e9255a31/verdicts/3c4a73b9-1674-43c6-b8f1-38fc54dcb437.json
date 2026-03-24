@@ -1,0 +1,27 @@
+{
+  "verdict_id": "3c4a73b9-1674-43c6-b8f1-38fc54dcb437",
+  "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "080512c8-254b-43f9-8c29-31ae79971167",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+      "offending_span": "The margin expansion trajectory indicates successful cost optimization initiatives and a favorable shift toward higher-margin businesses including AWS and advertising.",
+      "explanation": "The paragraph claims specific drivers for the margin expansion (cost optimization initiatives, shift to AWS and advertising). However, the cited evidence chunks are high-level income statement summaries and do not contain segment-level data (AWS, Advertising) or qualitative information regarding management initiatives. This causal attribution is not supported by the provided evidence.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+        "bc591e33-ea87-4e39-a4cb-9ca56789b93e"
+      ],
+      "relevant_calc_ids": [
+        "edade71e-0bfb-4746-a37b-e3e09c550cd3",
+        "c0a44539-99d5-4b5d-b6e9-551d675efa31",
+        "8a641992-c5cf-4f11-90ac-1eca33419a4c"
+      ],
+      "recommended_fix": "Remove the specific attribution to AWS, advertising, and cost optimization initiatives, or provide citations from segment reporting or management commentary chunks that substantiate these drivers."
+    }
+  ],
+  "checked_at": "2026-03-12T11:57:05.357668",
+  "iteration": 1
+}

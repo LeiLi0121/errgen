@@ -109,6 +109,12 @@ def parse_args() -> argparse.Namespace:
         help="Override MAX_REVISION_ITERATIONS from .env.",
     )
     parser.add_argument(
+        "--mode",
+        choices=["full", "baseline"],
+        default="full",
+        help="Run full errgen or the no-checker/no-reviser baseline.",
+    )
+    parser.add_argument(
         "--print-report", action="store_true",
         help="Print the rendered Markdown report to stdout after generation.",
     )
@@ -169,6 +175,7 @@ def main() -> None:
     query = _build_query(args)
 
     log.info("Starting ERRGen (LangGraph)")
+    log.info("  Mode:         %s", args.mode)
     log.info("  Query:        %s", query[:120])
     log.info("  Runs dir:     %s", Config.RUNS_DIR)
     log.info("  Max iters:    %d", Config.MAX_REVISION_ITERATIONS)
@@ -177,7 +184,7 @@ def main() -> None:
     # Run the LangGraph pipeline
     # ------------------------------------------------------------------
     try:
-        graph = get_graph()
+        graph = get_graph(mode=args.mode)
         final_state = graph.invoke(initial_state(query))
     except ValueError as exc:
         print(f"\n[ERROR] {exc}\n", file=sys.stderr)

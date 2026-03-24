@@ -1,0 +1,22 @@
+{
+  "verdict_id": "ba77ed62-3761-43c2-bd15-72c093460b37",
+  "paragraph_id": "0f099a9d-8f4e-429c-8f11-23df58ee122e",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "8616b5dd-8b2d-4c91-9ef0-314e803b401d",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "0f099a9d-8f4e-429c-8f11-23df58ee122e",
+      "offending_span": "dependence on subscription-based revenue models across its Creative Cloud and Document Cloud platforms",
+      "explanation": "C002 explicitly states Creative Cloud is 'a subscription service' but only describes Document Cloud as 'a unified cloud-based document services platform' without explicitly confirming it is subscription-based. The claim that BOTH platforms use subscription-based revenue models is not fully supported by the cited chunk.",
+      "relevant_chunk_ids": [
+        "facaa50e-cacb-47c6-92ba-0dfb64831a7e"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional evidence that confirms Document Cloud's subscription model, or revise language to 'Creative Cloud subscription services and Document Cloud platform' to accurately reflect what C002 supports."
+    }
+  ],
+  "checked_at": "2026-03-23T21:02:29.992535",
+  "iteration": 2
+}

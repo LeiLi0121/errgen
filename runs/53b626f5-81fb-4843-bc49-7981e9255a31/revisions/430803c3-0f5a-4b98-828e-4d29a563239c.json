@@ -1,0 +1,15 @@
+{
+  "revision_id": "430803c3-0f5a-4b98-828e-4d29a563239c",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "iteration": 1,
+  "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. As of FY2024, current assets totaled $229.1 billion against current liabilities of $218.0 billion [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650, CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]. The company maintains substantial liquidity with Cash & Equivalents of $78.8 billion and Short-Term Investments of $22.4 billion as of FY2024 [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db]. Total debt stood at $130.9 billion in FY2024 [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+  "revised_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating adequate short-term liquidity coverage. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+  "issues_addressed": [
+    "9439523c-807d-45a1-a4ab-977af1854f62",
+    "5dc26b4e-8fdb-47df-93ec-1a9ccba69844",
+    "ed018ee3-88e0-4009-b296-0b77523cbe28",
+    "09667b4e-b5f0-4f4a-b32b-8f94c7ac63c9"
+  ],
+  "changes_summary": "Removed all unsupported balance sheet figures (current assets $229.1B, current liabilities $218.0B, Cash & Equivalents $78.8B, Short-Term Investments $22.4B, Total debt $130.9B) as the cited chunk IDs were not available in the evidence. Replaced with supported metrics from available calc_ids: current ratio (0.94), net debt ($86.2B), and debt-to-equity ratio (0.96). Removed FY2024 year specification as the calc_ids do not specify the fiscal year. Maintained professional tone and overall message about liquidity and leverage positioning.",
+  "revised_at": "2026-03-12T12:44:25.582299"
+}

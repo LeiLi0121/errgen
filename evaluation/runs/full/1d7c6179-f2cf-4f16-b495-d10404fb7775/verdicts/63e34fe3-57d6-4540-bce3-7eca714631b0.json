@@ -1,0 +1,63 @@
+{
+  "verdict_id": "63e34fe3-57d6-4540-bce3-7eca714631b0",
+  "paragraph_id": "80cb3d69-1ef5-4128-a724-c3a1f2848ca5",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "2a371c0f-89a7-41d9-92d9-94ac0359de01",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "80cb3d69-1ef5-4128-a724-c3a1f2848ca5",
+      "offending_span": "revenue declined 8.21% year-over-year in Q2 2025 at $5,873,000,000 (C026)",
+      "explanation": "The paragraph cites C026 for Q2 2025 revenue, but C026 is not in the cited chunk refs list. The correct chunk for Q2 revenue is C028, which is properly cited. C026 appears in the 'uncited' chunk list.",
+      "relevant_chunk_ids": [
+        "55b6933e-f836-4799-a708-66bdb6ec3f42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C026) to (C028) to match the actual cited evidence chunk for Q2 revenue."
+    },
+    {
+      "issue_id": "7f170c37-edd4-46ec-b686-972c36f2dfb6",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "80cb3d69-1ef5-4128-a724-c3a1f2848ca5",
+      "offending_span": "improved to 1.96% growth in Q3 2025 with revenue of $5,988,000,000 (C018)",
+      "explanation": "The paragraph cites C018 for Q3 2025 revenue, but C018 is not in the cited chunk refs list. The correct chunk for Q3 revenue is C020, which is properly cited. C018 appears in the 'uncited' chunk list.",
+      "relevant_chunk_ids": [
+        "be204724-0c9b-4495-a393-b209817b0a7e"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C018) to (C020) to match the actual cited evidence chunk for Q3 revenue."
+    },
+    {
+      "issue_id": "89f47807-a079-46f4-ad51-ca190f6c0940",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "80cb3d69-1ef5-4128-a724-c3a1f2848ca5",
+      "offending_span": "further accelerated to 3.44% in Q4 2025 at $6,194,000,000 (C010)",
+      "explanation": "The paragraph cites C010 for Q4 2025 revenue, but C010 is not in the cited chunk refs list. The correct chunk for Q4 revenue is C012, which is properly cited. C010 appears in the 'uncited' chunk list.",
+      "relevant_chunk_ids": [
+        "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C010) to (C012) to match the actual cited evidence chunk for Q4 revenue."
+    },
+    {
+      "issue_id": "9051cf10-513d-48d7-aa19-580447814802",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "80cb3d69-1ef5-4128-a724-c3a1f2848ca5",
+      "offending_span": "Q4 2025 at $6,194,000,000",
+      "explanation": "The as-of date is 2025-08 (August 2025). Adobe's fiscal year typically ends in November, meaning Q4 2025 would run September-November 2025. Q4 2025 data would not be available or reportable as of August 2025, making this a scope violation referencing future period data.",
+      "relevant_chunk_ids": [
+        "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+      ],
+      "relevant_calc_ids": [
+        "abb71737-96c6-4570-bd58-0eb60e057c8a"
+      ],
+      "recommended_fix": "Verify Adobe's fiscal calendar. If fiscal Q4 ends after August 2025, either update the as-of date to reflect when Q4 2025 data became available, or limit the analysis to periods that had concluded by the as-of date (Q2 2025 and potentially Q3 2025)."
+    }
+  ],
+  "checked_at": "2026-03-23T19:28:08.170295",
+  "iteration": 0
+}

@@ -1,0 +1,73 @@
+{
+  "verdict_id": "d002b990-b6fc-4fff-8996-8f02a7832e34",
+  "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "1acc4bf9-1616-440c-a80c-2bbbcc902905",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+      "offending_span": "FY2025 gross profit reached $360,510,000,000",
+      "explanation": "The as-of date is 2025-07 (July 2025). Amazon's fiscal year follows the calendar year (ending December 31). FY2025 would not be complete until December 2025, so claiming actual FY2025 results in July 2025 is a scope violation. The paragraph presents these as achieved facts ('reached', 'climbed to', 'achieved') rather than projections.",
+      "relevant_chunk_ids": [
+        "acb368e0-60f2-4431-9044-b8d2820f4da9",
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4",
+        "702aed43-27c7-4250-b493-cced0fb3ad06"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either clarify these are projected/estimated FY2025 figures (not actuals), or revise to reference the most recent completed fiscal year (FY2024) with appropriate supporting evidence."
+    },
+    {
+      "issue_id": "e390bb22-ab9f-4ce9-957c-c112294e15a0",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+      "offending_span": "FY2025 gross profit reached $360,510,000,000 [CHUNK_ID: acb368e0-60f2-4431-9044-b8d2820f4da9], operating income climbed to $79,975,000,000 [CHUNK_ID: 98d37e7b-d9b8-4798-8d78-32c8508a1ff4], and net income achieved $77,670,000,000 [CHUNK_ID: 702aed43-27c7-4250-b493-cced0fb3ad06]",
+      "explanation": "The cited chunks state 'AMZN Gross/Operating/Net Income for FY' without specifying which fiscal year. The paragraph explicitly claims these are FY2025 figures, but the chunks do not support this specific year attribution.",
+      "relevant_chunk_ids": [
+        "acb368e0-60f2-4431-9044-b8d2820f4da9",
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4",
+        "702aed43-27c7-4250-b493-cced0fb3ad06"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite chunks that explicitly specify FY2025, or remove the FY2025 attribution if the chunks refer to a different fiscal year."
+    },
+    {
+      "issue_id": "fc148b2e-55d3-4ade-89fb-ea643919b597",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+      "offending_span": "FY2022, where gross margin stood at 43.81% [CALC_ID: edade71e-0bfb-4746-a37b-e3e09c550cd3], operating margin at 2.38% [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31], and net margin at -0.53% [CALC_ID: 8a641992-c5cf-4f11-90ac-1eca33419a4c]",
+      "explanation": "The cited calculation results show margin percentages but do not specify FY2022. The calculation descriptions only state 'AMZN Gross/Operating/Net Margin (FY)' without year attribution. The paragraph's FY2022 claim is not explicitly supported by the cited evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "edade71e-0bfb-4746-a37b-e3e09c550cd3",
+        "c0a44539-99d5-4b5d-b6e9-551d675efa31",
+        "8a641992-c5cf-4f11-90ac-1eca33419a4c"
+      ],
+      "recommended_fix": "Either cite calculations that explicitly specify FY2022, or verify and correct the fiscal year attribution based on available evidence."
+    },
+    {
+      "issue_id": "33ef514d-dfa8-4252-b0fc-8c405ad7a10b",
+      "issue_type": "hallucination",
+      "severity": "minor",
+      "paragraph_id": "21832dd9-cfc3-4835-ad9d-5dda5ac7f28e",
+      "offending_span": "The margin expansion trajectory indicates successful cost optimization initiatives and a favorable shift toward higher-margin businesses including AWS and advertising.",
+      "explanation": "This causal attribution (cost optimization initiatives, shift toward AWS and advertising) is not supported by any of the cited chunks or calculations. The evidence only shows numerical margin values, not the reasons behind margin changes.",
+      "relevant_chunk_ids": [
+        "acb368e0-60f2-4431-9044-b8d2820f4da9",
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4",
+        "702aed43-27c7-4250-b493-cced0fb3ad06"
+      ],
+      "relevant_calc_ids": [
+        "edade71e-0bfb-4746-a37b-e3e09c550cd3",
+        "c0a44539-99d5-4b5d-b6e9-551d675efa31",
+        "8a641992-c5cf-4f11-90ac-1eca33419a4c"
+      ],
+      "recommended_fix": "Either cite additional evidence supporting the causal claims about cost optimization and business mix shifts, or rephrase as analytical interpretation rather than factual assertion."
+    }
+  ],
+  "checked_at": "2026-03-12T10:14:39.633301",
+  "iteration": 0
+}

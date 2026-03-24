@@ -1,0 +1,23 @@
+{
+  "verdict_id": "f43ed642-5b78-4579-a1f6-05d60688a243",
+  "paragraph_id": "462f5d07-bb67-4eec-8c4e-3bd1f3376871",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0dcdb184-d52e-498d-af99-f55814236e15",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "462f5d07-bb67-4eec-8c4e-3bd1f3376871",
+      "offending_span": "NVIDIA's fundamental financial metrics demonstrate exceptional operational performance and the company maintains a strong balance sheet, the recent market reaction to earnings, combined with insufficient evidence on key risk factors (competitive, regulatory, geopolitical, and supply chain)",
+      "explanation": "The paragraph makes multiple factual claims regarding financial performance, balance sheet strength, market reaction, and risk evidence assessment. However, the 'Cited chunk IDs' list is empty. While these claims align with the 'Previously Verified Facts', the paragraph fails to cite the specific evidence chunks required to substantiate these assertions per verification standards.",
+      "relevant_chunk_ids": [
+        "cdffc354-305b-4c6d-9459-624d8d18147a",
+        "a78faaef-912e-4ab2-9b19-d139c047b1bc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Add citations to the specific evidence chunks that support the claims about financial metrics, balance sheet, market reaction, and risk evidence (e.g., chunks referenced in the Financial Analysis and Risk Analysis verified facts)."
+    }
+  ],
+  "checked_at": "2026-03-11T15:46:10.127424",
+  "iteration": 0
+}

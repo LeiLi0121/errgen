@@ -1,0 +1,22 @@
+{
+  "verdict_id": "db802711-1ee3-44c3-9ba0-397e6be430bf",
+  "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "a7322cae-12bd-45bd-806f-c4120be42373",
+      "issue_type": "internal_inconsistency",
+      "severity": "major",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "offending_span": "projected revenue of $215.94 billion in FY2026",
+      "explanation": "The paragraph describes FY2026 revenue as 'projected', which contradicts the 'Previously Verified Facts' in the Risk Analysis section that state 'Revenue grew from ... to $215,938,000,000 in FY 2026' (using past tense 'grew', implying actuals). Additionally, the 'Recent Developments' section confirms NVIDIA reported Q4 earnings on February 25, 2026, meaning FY2026 results are finalized, not projected.",
+      "relevant_chunk_ids": [
+        "cdffc354-305b-4c6d-9459-624d8d18147a"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change 'projected revenue' to 'revenue' or 'reported revenue' to accurately reflect the finalized status of FY2026 financials as established in the verified context."
+    }
+  ],
+  "checked_at": "2026-03-11T15:39:27.622956",
+  "iteration": 1
+}

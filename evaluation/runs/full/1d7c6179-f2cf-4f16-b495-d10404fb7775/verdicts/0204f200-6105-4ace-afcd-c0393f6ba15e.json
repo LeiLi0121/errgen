@@ -1,0 +1,24 @@
+{
+  "verdict_id": "0204f200-6105-4ace-afcd-c0393f6ba15e",
+  "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "86142798-7258-45cc-a7a7-ee3e0dc96269",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+      "offending_span": "Q4 2025 EBITDA at $2,448,000,000 (C016), compared to $2,462,000,000 in Q3 2025 (C024), and $2,378,000,000 in Q2 2025 (C032)",
+      "explanation": "The paragraph references Q4 2025 data when the as-of date is 2025-08 (August 2025). For any standard fiscal calendar, Q4 2025 would end after August 2025 (calendar year Q4 = Oct-Dec; Adobe fiscal year ending November Q4 = Sep-Nov). Complete Q4 2025 financial data should not be available at an August 2025 as-of date, making this a scope violation.",
+      "relevant_chunk_ids": [
+        "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+        "f335b083-02a8-4b3b-8400-3424e79dfb47",
+        "082b1419-c5bf-488b-9a0d-8bb6076a831c"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either update the as-of date to a period after Q4 2025 closes (e.g., 2025-12 or later), or revise the paragraph to only reference quarters that would be complete as of August 2025 (e.g., Q1 2025, Q2 2025, and potentially preliminary Q3 2025)."
+    }
+  ],
+  "checked_at": "2026-03-23T20:31:15.636437",
+  "iteration": 1
+}

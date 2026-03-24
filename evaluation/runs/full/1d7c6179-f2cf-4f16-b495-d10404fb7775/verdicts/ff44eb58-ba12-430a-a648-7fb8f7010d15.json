@@ -1,0 +1,20 @@
+{
+  "verdict_id": "ff44eb58-ba12-430a-a648-7fb8f7010d15",
+  "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "680d4a73-6531-4b71-8d06-93a9e3b17645",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+      "offending_span": "Investor skepticism about AI product monetization continues to weigh on sentiment [C100]",
+      "explanation": "The paragraph references chunk C100 in the text, but the 'Cited chunk refs' metadata for this paragraph shows an empty list []. Additionally, C100 is not included in the available chunks list provided for this verification (which only includes C001-C020). This means the claim about investor skepticism is not properly supported by the cited evidence for this paragraph.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either add C100 to the official cited chunk refs for this paragraph if it should be cited, or remove the [C100] citation and rephrase the claim to not require specific chunk support (e.g., frame as general market observation), or cite an available chunk from C001-C020 that supports this claim."
+    }
+  ],
+  "checked_at": "2026-03-23T21:41:00.250082",
+  "iteration": 0
+}

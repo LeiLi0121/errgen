@@ -1,0 +1,86 @@
+{
+  "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Adobe retains strong competitive positioning as a recognized leader in the Ecommerce Platform Companies Quadrant alongside Shopify and Wix [C028]. The company is well-positioned to capitalize on the Global Motion Graphics Market, which is projected to reach $280 billion by 2034 at a 12.2% CAGR [C033].",
+  "citations": [
+    {
+      "citation_id": "5dbfebb5-a7e6-4177-b9a2-e38f93bfee23",
+      "chunk_id": "ebd5e9ce-edf2-4f32-815d-d9660e9cae35",
+      "source_id": "4664af22-fbca-4e38-9e05-f1536cca9d64",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6079bd1e-df29-4f0d-8517-6ee878ef785e",
+      "chunk_id": "8f95231c-377c-445d-a7db-8a57385d7c4a",
+      "source_id": "4664af22-fbca-4e38-9e05-f1536cca9d64",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-27T17:30:00Z | Yahoo\nTitle: [Latest] Global Motion Graphics Market Size/Share Worth USD 280 Billion by 2034 at a 12.2% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)\nURL: https://finnhub.io/api/news?",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ebd5e9ce-edf2-4f32-815d-d9660e9cae35",
+    "8f95231c-377c-445d-a7db-8a57385d7c4a"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "7479b760-48ad-4c27-b7bc-5a1eaeb58e49",
+      "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "5b56200a-2209-4717-967f-f2e83f3913a4",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+          "offending_span": "RBC Capital identifies long-term AI monetization upside for Adobe, suggesting the company is well-positioned to integrate AI into creative and experience tools [C107]",
+          "explanation": "The paragraph cites C107 to support the RBC Capital AI monetization claim, but C107 is not included in the provided cited chunk refs list ['C028', 'C033'] and is not available for verification. This claim cannot be validated against the provided evidence.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide chunk C107 for verification, or remove the citation and rephrase the claim to reflect that this is based on previously verified information from other sections, or remove the claim entirely if it cannot be substantiated."
+        },
+        {
+          "issue_id": "a8fedee1-8ee1-48e0-9d36-354b41d3e6b1",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+          "offending_span": "However, competitive dynamics have intensified following Google's announcement of enhanced image editing capabilities in its Gemini app, which contributed to investor concerns about Adobe's dominance in digital imaging [C112]",
+          "explanation": "The paragraph cites C112 to support the Google Gemini competitive dynamics claim, but C112 is not included in the provided cited chunk refs list ['C028', 'C033'] and is not available for verification. This claim cannot be validated against the provided evidence.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide chunk C112 for verification, or remove the citation and rephrase the claim to reflect that this is based on previously verified information from other sections, or remove the claim entirely if it cannot be substantiated."
+        }
+      ],
+      "checked_at": "2026-03-23T21:27:57.947207",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "2cd821d8-4600-481e-bcd7-0d8fbf20ac18",
+      "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T21:39:58.366893",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "b7416e7e-d78f-4a5b-8a00-4a98b581d72e",
+      "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+      "iteration": 1,
+      "original_text": "Adobe retains strong competitive positioning as a recognized leader in the Ecommerce Platform Companies Quadrant alongside Shopify and Wix [C097, C028]. The company is well-positioned to capitalize on the Global Motion Graphics Market, which is projected to reach $280 billion by 2034 at a 12.2% CAGR [C033]. RBC Capital identifies long-term AI monetization upside for Adobe, suggesting the company is well-positioned to integrate AI into creative and experience tools [C107]. However, competitive dynamics have intensified following Google's announcement of enhanced image editing capabilities in its Gemini app, which contributed to investor concerns about Adobe's dominance in digital imaging [C112].",
+      "revised_text": "Adobe retains strong competitive positioning as a recognized leader in the Ecommerce Platform Companies Quadrant alongside Shopify and Wix [C028]. The company is well-positioned to capitalize on the Global Motion Graphics Market, which is projected to reach $280 billion by 2034 at a 12.2% CAGR [C033].",
+      "issues_addressed": [
+        "5b56200a-2209-4717-967f-f2e83f3913a4",
+        "a8fedee1-8ee1-48e0-9d36-354b41d3e6b1"
+      ],
+      "changes_summary": "Removed the claim regarding RBC Capital AI monetization upside as citation C107 is not available in the provided evidence. Removed the claim regarding Google Gemini competitive dynamics as citation C112 is not available in the provided evidence. Removed citation C097 from the Ecommerce Quadrant claim as it is not available in the provided evidence, retaining C028 which supports the statement. Retained valid claims supported by available chunks C028 and C033.",
+      "revised_at": "2026-03-23T21:28:49.045570"
+    }
+  ],
+  "iteration": 0
+}

@@ -1,0 +1,69 @@
+{
+  "paragraph_id": "be3a2204-4d45-4991-9023-7de533c3f498",
+  "section_name": "Financial Analysis",
+  "text": "R&D investment intensity reflects NVIDIA's commitment to maintaining technological leadership in AI chips and accelerated computing. R&D expenses grew from $7,339,000,000 in FY2023 [652072cd-9c52-4e2e-9c98-6fbc1649ceec] to $18,497,000,000 in FY2026 [65dcb847-39b8-4238-948f-874660fd6a4a], representing a 2.5x increase over three years. The FY2023 R&D intensity was 27.21% of revenue [73be37ab-34a6-483d-af59-5a255b1c4eea]. While absolute R&D spending has increased substantially, the intensity percentage has likely declined in FY2024-FY2026 given that revenue growth has outpaced R&D expense growth. This suggests NVIDIA is benefiting from operating leverage while still investing meaningfully in next-generation AI chip architectures and software platforms.",
+  "citations": [
+    {
+      "citation_id": "3741f465-9fc0-41db-aa24-9e1293fdab1a",
+      "chunk_id": "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA R&D Expenses for FY: $7,339,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0702e150-2388-4d39-8ee1-62be06181a8c",
+      "chunk_id": "65dcb847-39b8-4238-948f-874660fd6a4a",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA R&D Expenses for FY: $18,497,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+    "65dcb847-39b8-4238-948f-874660fd6a4a"
+  ],
+  "calc_ids": [
+    "73be37ab-34a6-483d-af59-5a255b1c4eea"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "5e5d5f5b-ff0e-4f3a-addf-8e15c5a4ced2",
+      "paragraph_id": "be3a2204-4d45-4991-9023-7de533c3f498",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "449d22bf-9cbb-4708-b659-77a2c8fbce5b",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "be3a2204-4d45-4991-9023-7de533c3f498",
+          "offending_span": "R&D expenses grew from $7,339,000,000 in FY2023 [652072cd-9c52-4e2e-9c98-6fbc1649ceec] to $18,497,000,000 in FY2026 [65dcb847-39b8-4238-948f-874660fd6a4a]",
+          "explanation": "The cited chunks show the exact dollar amounts for R&D expenses but do not explicitly state which fiscal years they correspond to. The chunk metadata only indicates 'Period: FY' without specifying FY2023 or FY2026. The paragraph makes specific fiscal year claims that are not confirmed in the chunk content.",
+          "relevant_chunk_ids": [
+            "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+            "65dcb847-39b8-4238-948f-874660fd6a4a"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite chunks that explicitly state the fiscal year, or add a note clarifying that the fiscal year attribution comes from source document metadata not displayed in the chunk text. Alternatively, verify that the chunk IDs map to specific fiscal years in the data system."
+        },
+        {
+          "issue_id": "a18d7cbc-cf43-4938-957b-7179ff678ebf",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "be3a2204-4d45-4991-9023-7de533c3f498",
+          "offending_span": "the intensity percentage has likely declined in FY2024-FY2026 given that revenue growth has outpaced R&D expense growth",
+          "explanation": "This claim about R&D intensity trends in FY2024-FY2026 is not supported by any cited evidence. No chunks or calculations are provided for FY2024-FY2026 revenue or R&D data to substantiate the assertion that revenue growth outpaced R&D expense growth during this period.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide cited evidence (chunks or calculations) showing FY2024-FY2026 revenue and R&D figures to support this trend claim, or rephrase as general commentary without implying it is based on verified data. If this is analyst inference, clearly label it as such."
+        }
+      ],
+      "checked_at": "2026-03-11T14:10:16.813563",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,12 @@
+{
+  "revision_id": "f3bc7969-6fdf-4531-a44c-9ced0b79c4d2",
+  "paragraph_id": "0e27392a-2dab-4d4b-8884-61d09284c270",
+  "iteration": 1,
+  "original_text": "NVIDIA's revenue has demonstrated exceptional growth trajectory over the past four fiscal years, driven primarily by surging demand for AI chips and data center solutions. Revenue expanded from $26,974,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $60,922,000,000 in FY2024 [a78faaef-912e-4ab2-9b19-d139c047b1bc], then accelerated to $130,497,000,000 in FY2025 [93b368f3-dee2-424f-8a66-93f166f9b1f8], and reached $215,938,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a]. This represents approximately 8-fold revenue growth over the three-year period, indicating the company has successfully capitalized on the AI infrastructure buildout cycle. The consistent year-over-year expansion suggests strong market positioning in AI accelerators and data center GPUs.",
+  "revised_text": "NVIDIA's revenue has demonstrated exceptional growth trajectory over the past four fiscal years. Revenue expanded from $26,974,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $60,922,000,000 in FY2024 [a78faaef-912e-4ab2-9b19-d139c047b1bc], then accelerated to $130,497,000,000 in FY2025 [93b368f3-dee2-424f-8a66-93f166f9b1f8], and reached $215,938,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a]. This represents approximately 8-fold revenue growth over the three-year period. The consistent year-over-year expansion highlights substantial top-line performance.",
+  "issues_addressed": [
+    "8d9b881d-3f1e-4073-a750-80b5bffe919b"
+  ],
+  "changes_summary": "Removed unsupported causal claims attributing revenue growth to 'AI chips and data center solutions' and 'AI infrastructure buildout cycle' as the cited income statement chunks do not contain segment or qualitative data to support these drivers. Removed specific product positioning claims ('AI accelerators and data center GPUs') for the same reason. Retained all revenue figures with original citations and the mathematically verifiable '8-fold growth' claim derived from the cited revenue numbers. Adjusted the concluding sentence to reflect top-line performance without unsupported qualitative attributions.",
+  "revised_at": "2026-03-11T14:31:35.686313"
+}

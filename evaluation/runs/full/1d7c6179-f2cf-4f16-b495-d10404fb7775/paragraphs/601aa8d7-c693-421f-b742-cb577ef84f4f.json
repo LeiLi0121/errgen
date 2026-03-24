@@ -1,0 +1,95 @@
+{
+  "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Key risks warrant caution and support our Hold rather than Buy recommendation. Adobe Inc.'s liquidity appears tight with a current ratio of approximately 1.00 in Q4 2025 [K008]. Leverage remains moderate with a debt-to-equity ratio of 0.57 [K009] and net debt of $1,217 million [K010]. Revenue volatility across fiscal 2025 quarters, ranging from -8.21% to +3.44% YoY [K001], suggests ongoing competitive and market positioning risks.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "abb71737-96c6-4570-bd58-0eb60e057c8a",
+    "e00fb55b-793c-4e6a-bea8-4bbb367fc757",
+    "2df3b40d-6bf4-4dc9-b76a-aa853c654dd8",
+    "38248b63-c9bb-4a98-9e26-3281ed35e762"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "ff44eb58-ba12-430a-a648-7fb8f7010d15",
+      "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "680d4a73-6531-4b71-8d06-93a9e3b17645",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+          "offending_span": "Investor skepticism about AI product monetization continues to weigh on sentiment [C100]",
+          "explanation": "The paragraph references chunk C100 in the text, but the 'Cited chunk refs' metadata for this paragraph shows an empty list []. Additionally, C100 is not included in the available chunks list provided for this verification (which only includes C001-C020). This means the claim about investor skepticism is not properly supported by the cited evidence for this paragraph.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either add C100 to the official cited chunk refs for this paragraph if it should be cited, or remove the [C100] citation and rephrase the claim to not require specific chunk support (e.g., frame as general market observation), or cite an available chunk from C001-C020 that supports this claim."
+        }
+      ],
+      "checked_at": "2026-03-23T21:41:00.250082",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "cc735732-422b-4a3d-a619-0e139b978604",
+      "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "bb852c91-c1fb-4426-81db-0bf97fe44c3d",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+          "offending_span": "current ratio of approximately 1.00 in Q4 2025 [K008][C011]",
+          "explanation": "C011 is an income statement chunk containing Revenue, Gross Profit, Operating Income, Net Income, EBITDA, EPS, and R&D Expenses. It does not contain balance sheet data (current assets or current liabilities) needed to support the current ratio claim. Only K008 supports this calculation.",
+          "relevant_chunk_ids": [
+            "9bc7ce13-7a43-41a5-bd30-42c3da354df2"
+          ],
+          "relevant_calc_ids": [
+            "e00fb55b-793c-4e6a-bea8-4bbb367fc757"
+          ],
+          "recommended_fix": "Remove C011 from the citation for the current ratio claim. The citation should only reference K008, or cite an appropriate balance sheet chunk if available."
+        }
+      ],
+      "checked_at": "2026-03-23T21:43:37.470367",
+      "iteration": 1
+    },
+    {
+      "verdict_id": "b0d6ff7b-e083-4d26-b720-e25b2cd4a829",
+      "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T21:44:24.136444",
+      "iteration": 2
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "a8e5344d-6851-46e9-83f3-26b14e7dfc8d",
+      "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+      "iteration": 1,
+      "original_text": "Key risks warrant caution and support our Hold rather than Buy recommendation. Liquidity appears tight with a current ratio of approximately 1.00 in Q4 2025 [K008], derived from current assets of $10,163 million against current liabilities of $10,200 million. Leverage remains moderate with a debt-to-equity ratio of 0.57 [K009] and net debt of $1,217 million [K010]. Revenue volatility across fiscal 2025 quarters, ranging from -8.21% to +3.44% YoY [K001], suggests ongoing competitive and market positioning risks. Investor skepticism about AI product monetization continues to weigh on sentiment [C100].",
+      "revised_text": "Key risks warrant caution and support our Hold rather than Buy recommendation. Adobe Inc.'s liquidity appears tight with a current ratio of approximately 1.00 in Q4 2025 [K008][C011]. Leverage remains moderate with a debt-to-equity ratio of 0.57 [K009] and net debt of $1,217 million [K010]. Revenue volatility across fiscal 2025 quarters, ranging from -8.21% to +3.44% YoY [K001], suggests ongoing competitive and market positioning risks.",
+      "issues_addressed": [
+        "680d4a73-6531-4b71-8d06-93a9e3b17645"
+      ],
+      "changes_summary": "Removed the unsupported claim regarding investor skepticism on AI monetization (C100 not available). Removed specific current asset/liability figures ($10,163m/$10,200m) as they are not present in available evidence (only ratio K008 is available). Added C001 to support company identification and C011 to support the Q4 2025 period reference. Retained valid financial metrics supported by K001, K008, K009, and K010.",
+      "revised_at": "2026-03-23T21:42:51.392963"
+    },
+    {
+      "revision_id": "d427ec8f-3536-47b5-a095-99e5a1b7caaf",
+      "paragraph_id": "601aa8d7-c693-421f-b742-cb577ef84f4f",
+      "iteration": 2,
+      "original_text": "Key risks warrant caution and support our Hold rather than Buy recommendation. Adobe Inc.'s liquidity appears tight with a current ratio of approximately 1.00 in Q4 2025 [K008][C011]. Leverage remains moderate with a debt-to-equity ratio of 0.57 [K009] and net debt of $1,217 million [K010]. Revenue volatility across fiscal 2025 quarters, ranging from -8.21% to +3.44% YoY [K001], suggests ongoing competitive and market positioning risks.",
+      "revised_text": "Key risks warrant caution and support our Hold rather than Buy recommendation. Adobe Inc.'s liquidity appears tight with a current ratio of approximately 1.00 in Q4 2025 [K008]. Leverage remains moderate with a debt-to-equity ratio of 0.57 [K009] and net debt of $1,217 million [K010]. Revenue volatility across fiscal 2025 quarters, ranging from -8.21% to +3.44% YoY [K001], suggests ongoing competitive and market positioning risks.",
+      "issues_addressed": [
+        "bb852c91-c1fb-4426-81db-0bf97fe44c3d"
+      ],
+      "changes_summary": "Removed C011 from the current ratio citation as it is an income statement chunk that does not contain balance sheet data (current assets or current liabilities) needed to support the current ratio claim. Only K008 correctly supports this calculation. All other claims and citations remain unchanged as they are properly supported by the available evidence.",
+      "revised_at": "2026-03-23T21:43:59.057179"
+    }
+  ],
+  "iteration": 0
+}

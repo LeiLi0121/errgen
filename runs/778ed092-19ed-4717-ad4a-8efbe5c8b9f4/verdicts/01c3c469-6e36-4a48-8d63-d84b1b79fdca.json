@@ -1,0 +1,22 @@
+{
+  "verdict_id": "01c3c469-6e36-4a48-8d63-d84b1b79fdca",
+  "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "4e5d3562-0f2f-42df-a746-a080bae8d194",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+      "offending_span": "NVIDIA's Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing",
+      "explanation": "The cited chunk (cd7d7972-79b5-433f-b378-e23ffc087d85) is truncated and only shows 'Data Center platf' without the specific mention of 'AI, HPC, and accelerated computing'. The claim about what the segment provides cannot be fully verified from the visible evidence in the cited chunk.",
+      "relevant_chunk_ids": [
+        "cd7d7972-79b5-433f-b378-e23ffc087d85"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite a complete chunk that contains the full description of the Compute & Networking segment's offerings including AI, HPC, and accelerated computing capabilities, or rephrase the claim to only include information visible in the cited evidence (e.g., 'provides Data Center platforms')"
+    }
+  ],
+  "checked_at": "2026-03-23T05:37:11.942722",
+  "iteration": 0
+}

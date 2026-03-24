@@ -1,0 +1,12 @@
+{
+  "revision_id": "a0b54609-c60c-4a1e-ae89-3afc402e7a00",
+  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+  "iteration": 1,
+  "original_text": "NVIDIA maintains a dominant competitive position in the AI infrastructure market, with news sources identifying the chipmaker as a top play in the booming AI infrastructure buildout. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% and gross margin of 75.00%, with one analysis noting NVIDIA's 53% net income ratio as a distinguishing factor among semiconductor peers. Revenue growth accelerated through the fiscal year, with Q4 revenue reaching $68.13 billion representing 19.51% YoY growth, while Q3 showed 21.96% YoY growth. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+  "revised_text": "NVIDIA maintains a dominant competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% and gross margin of 75.00%. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion representing 19.51% YoY growth. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+  "issues_addressed": [
+    "2b7b28c6-ee42-4bfc-839e-e8b392f97e13"
+  ],
+  "changes_summary": "Fixed the revenue growth acceleration claim to accurately reflect the growth pattern (Q3 at 21.96% YoY was higher than Q4 at 19.51% YoY, indicating deceleration not acceleration). Removed the unsupported claim about 'news sources identifying the chipmaker as a top play' as no news source evidence exists. Removed the unsupported '53% net income ratio' claim as no evidence supports this figure. Added chunk citations for Q4 revenue figures. Maintained valid margin claims with proper calc_id citations.",
+  "revised_at": "2026-03-23T05:54:43.584517"
+}

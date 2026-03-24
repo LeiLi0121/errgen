@@ -1,0 +1,35 @@
+{
+  "verdict_id": "5e9f0cc3-9562-4696-b39d-32fe64b6dc0d",
+  "paragraph_id": "8f058054-eff7-4507-bc93-a4fb2d5df61d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "05cc3d03-a5ac-4a33-9688-c8a423847d55",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "8f058054-eff7-4507-bc93-a4fb2d5df61d",
+      "offending_span": "Key growth drivers center on Data Center platforms for AI, HPC, and accelerated computing within the Compute & Networking segment",
+      "explanation": "The cited chunk (812d4743-83b4-43d7-b5ee-dfc8624a5328) is truncated and only shows 'Data Center platf' without explicitly mentioning AI, HPC, or accelerated computing as growth drivers. These specific terms are not visible in the provided evidence.",
+      "relevant_chunk_ids": [
+        "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional chunks that explicitly mention AI, HPC, and accelerated computing as growth drivers, or revise the claim to only include information visible in the cited evidence (e.g., 'Data Center platforms within the Compute & Networking segment')."
+    },
+    {
+      "issue_id": "7aa96b1e-a2b2-412f-89c4-1b6696cd66f6",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "8f058054-eff7-4507-bc93-a4fb2d5df61d",
+      "offending_span": "The company's products target high-growth markets including AI infrastructure, autonomous driving development, and robotics through its Jetson embedded platforms",
+      "explanation": "The cited chunk (812d4743-83b4-43d7-b5ee-dfc8624a5328) does not contain visible references to 'Jetson embedded platforms,' 'autonomous driving development,' or 'robotics.' The chunk only mentions 'automotive platforms for infotainment systems' which is different from autonomous driving. These specific product names and market applications are not supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional chunks that explicitly mention Jetson platforms and these specific markets, or revise the claim to match the visible evidence (e.g., 'automotive platforms for infotainment systems')."
+    }
+  ],
+  "checked_at": "2026-03-11T14:14:29.626379",
+  "iteration": 0
+}

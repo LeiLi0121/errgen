@@ -1,0 +1,13 @@
+{
+  "revision_id": "5f703181-33ca-4f49-8eb5-baf0eddb9b3b",
+  "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+  "iteration": 1,
+  "original_text": "NVIDIA demonstrated robust revenue expansion throughout fiscal 2025, with quarterly revenue progressing from $44,062,000,000 in Q1 to $68,127,000,000 in Q4 2026 [0f02741a-d0ea-4bca-99a1-43ba2bf309de][8673c861-f8b6-4f0f-8801-373630314eeb]. Year-over-year growth rates accelerated from 6.08% in Q2 to 21.96% in Q3, before moderating slightly to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. This sequential growth trajectory indicates sustained demand momentum across the company's product portfolio, particularly in data center and AI-related segments.",
+  "revised_text": "NVIDIA demonstrated robust revenue expansion throughout fiscal 2026, with quarterly revenue progressing from $44,062,000,000 in Q1 to $68,127,000,000 in Q4 2026 [0f02741a-d0ea-4bca-99a1-43ba2bf309de][8673c861-f8b6-4f0f-8801-373630314eeb]. Year-over-year growth rates accelerated from 6.08% in Q2 to 21.96% in Q3, before moderating slightly to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. This sequential growth trajectory indicates sustained demand momentum across the company's product portfolio.",
+  "issues_addressed": [
+    "6871f37c-083d-4248-932d-867543dc9d84",
+    "05539830-f0c6-421b-b3c1-ff968f7d7c9e"
+  ],
+  "changes_summary": "Fixed two issues: (1) Changed 'fiscal 2025' to 'fiscal 2026' to resolve internal inconsistency with Q4 2026 reference and verified fiscal year end date; (2) Removed unsupported claim about 'data center and AI-related segments' as the cited revenue chunks contain only overall figures without segment-level breakdown. All remaining factual claims retain proper citations.",
+  "revised_at": "2026-03-23T05:50:42.295692"
+}

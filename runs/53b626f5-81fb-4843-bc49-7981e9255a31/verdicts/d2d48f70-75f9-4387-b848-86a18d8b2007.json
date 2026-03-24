@@ -1,0 +1,65 @@
+{
+  "verdict_id": "d2d48f70-75f9-4387-b848-86a18d8b2007",
+  "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "7f78af1f-241e-4c80-a9a3-59607aa4a542",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+      "offending_span": "Total Debt rising from $130,900,000,000 in FY2024 to $152,987,000,000 in FY2025",
+      "explanation": "The paragraph references FY2025 data with a balance sheet date of 2025-12-31 (per chunk da7f2cde-7295-4548-9884-3701db8f1124), but the as-of date is 2025-07. Full FY2025 data would not be available as of July 2025 since the fiscal year ends December 2025.",
+      "relevant_chunk_ids": [
+        "76dfb521-ff30-47b0-a294-0fb3a2edbc5e",
+        "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+        "da7f2cde-7295-4548-9884-3701db8f1124"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either update the as-of date to after FY2025 closes (post-December 2025), or revise the paragraph to reference only data available as of July 2025 (e.g., FY2024 actuals and FY2025 estimates if available)."
+    },
+    {
+      "issue_id": "2eea7078-093a-47a3-9099-576cfa9ac586",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+      "offending_span": "Cash & Equivalents of $86,810,000,000 and Short-Term Investments of $36,219,000,000 as of FY2025",
+      "explanation": "The liquidity figures are tied to FY2025 (balance sheet date 2025-12-31 per chunk da7f2cde-7295-4548-9884-3701db8f1124), which is after the as-of date of 2025-07. This data would not be available at the report date.",
+      "relevant_chunk_ids": [
+        "119bd75b-f6e2-4495-b285-afbac6cb99aa",
+        "da7f2cde-7295-4548-9884-3701db8f1124"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Reference only balance sheet data available as of July 2025, or update the as-of date to reflect when FY2025 data becomes available."
+    },
+    {
+      "issue_id": "7296e834-e3da-4c27-a954-f216d8d29edb",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+      "offending_span": "Net Income of $77,670,000,000 in FY2025",
+      "explanation": "FY2025 net income data (ending 2025-12-31) is referenced when the as-of date is 2025-07. Full-year FY2025 results would not be available until after the fiscal year closes.",
+      "relevant_chunk_ids": [
+        "702aed43-27c7-4250-b493-cced0fb3ad06"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Use only FY2024 or earlier actual net income data, or clearly label FY2025 figures as estimates/projections if that is the intent."
+    },
+    {
+      "issue_id": "713db922-37c6-4cc2-a54e-684e5424cb88",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+      "offending_span": "Net Loss of -$2,722,000,000 in FY2022 before recovering to Net Income of $77,670,000,000 in FY2025",
+      "explanation": "The cited income statement chunks (5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36 and 702aed43-27c7-4250-b493-cced0fb3ad06) show the net income figures but do not specify which fiscal years they correspond to. The paragraph claims FY2022 and FY2025 specifically, but this attribution is not supported by the chunk content.",
+      "relevant_chunk_ids": [
+        "5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36",
+        "702aed43-27c7-4250-b493-cced0fb3ad06"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite chunks that explicitly specify the fiscal years, or add qualifying language indicating the fiscal year attribution comes from another source."
+    }
+  ],
+  "checked_at": "2026-03-12T10:24:40.930332",
+  "iteration": 0
+}

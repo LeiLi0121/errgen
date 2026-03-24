@@ -1,0 +1,13 @@
+{
+  "revision_id": "b7416e7e-d78f-4a5b-8a00-4a98b581d72e",
+  "paragraph_id": "9ef1b56c-7793-4ae9-aa06-93e66c199455",
+  "iteration": 1,
+  "original_text": "Adobe retains strong competitive positioning as a recognized leader in the Ecommerce Platform Companies Quadrant alongside Shopify and Wix [C097, C028]. The company is well-positioned to capitalize on the Global Motion Graphics Market, which is projected to reach $280 billion by 2034 at a 12.2% CAGR [C033]. RBC Capital identifies long-term AI monetization upside for Adobe, suggesting the company is well-positioned to integrate AI into creative and experience tools [C107]. However, competitive dynamics have intensified following Google's announcement of enhanced image editing capabilities in its Gemini app, which contributed to investor concerns about Adobe's dominance in digital imaging [C112].",
+  "revised_text": "Adobe retains strong competitive positioning as a recognized leader in the Ecommerce Platform Companies Quadrant alongside Shopify and Wix [C028]. The company is well-positioned to capitalize on the Global Motion Graphics Market, which is projected to reach $280 billion by 2034 at a 12.2% CAGR [C033].",
+  "issues_addressed": [
+    "5b56200a-2209-4717-967f-f2e83f3913a4",
+    "a8fedee1-8ee1-48e0-9d36-354b41d3e6b1"
+  ],
+  "changes_summary": "Removed the claim regarding RBC Capital AI monetization upside as citation C107 is not available in the provided evidence. Removed the claim regarding Google Gemini competitive dynamics as citation C112 is not available in the provided evidence. Removed citation C097 from the Ecommerce Quadrant claim as it is not available in the provided evidence, retaining C028 which supports the statement. Retained valid claims supported by available chunks C028 and C033.",
+  "revised_at": "2026-03-23T21:28:49.045570"
+}

@@ -1,0 +1,59 @@
+{
+  "paragraph_id": "1349646c-53ff-445a-ba82-a12e2308aca4",
+  "section_name": "Recent Developments",
+  "text": "The broader market impact of NVIDIA's earnings was significant. US stock futures stalled and subsequently slid following the earnings release, with the Nvidia-led slump dampening AI market sentiment. The S&P 500 and Nasdaq retreated as Nvidia fell despite stellar earnings, suggesting investor concerns extend beyond company-specific fundamentals to broader AI trade valuations. Zacks Equity Research highlighted NVIDIA among key stocks impacting market events in late February 2026.",
+  "citations": [
+    {
+      "citation_id": "ef631845-49f7-4a11-a4dc-9cdc27a1bf9c",
+      "chunk_id": "dd4ebc75-b8c2-4b83-a876-1d98563bddd1",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-25T23:48:39Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures falter after Nvidia's big beats on earnings and forecast\nURL: https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-falter-after-nvidias-big-bea",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "28b42f17-364a-48b5-964b-49792b7ba9bc",
+      "chunk_id": "7061f02f-e7fd-42b7-a96f-79963f629ca5",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-26T23:52:02Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures slide after Nvidia-led slump dampens AI mood again\nURL: https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slide-after-nvidia-led-slump-dampe",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "06c6a61d-6335-4bd7-91f9-55b0d146ab14",
+      "chunk_id": "cb85b2af-3729-4e26-bd25-0c8002da7ea9",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-26T21:00:34Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: S&P 500, Nasdaq retreat as Nvidia falls 5% despite stellar earnings\nURL: https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-retreat-as-nvidia-falls-5-despite-stellar-earnings-2100348",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "00a7a25b-166c-41b9-aeed-8b6d70c72424",
+      "chunk_id": "88747ac9-a3f8-4624-90a1-2e8a489f883d",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-24T15:16:00Z | Yahoo Entertainment | Author: Zacks Equity Research\nTitle: The Zacks Analyst Blog Highlights NVIDIA, Taiwan Semiconductor, Micron Technology and Super Micro Computer\nURL: https://finance.yahoo.com/news/zacks-analyst-blog-highlights-nvidia-151600066.html\nChicago, IL – Fe",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "dd4ebc75-b8c2-4b83-a876-1d98563bddd1",
+    "7061f02f-e7fd-42b7-a96f-79963f629ca5",
+    "cb85b2af-3729-4e26-bd25-0c8002da7ea9",
+    "88747ac9-a3f8-4624-90a1-2e8a489f883d"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "57e1d32f-c4b9-4130-895d-a6af24bc8ed9",
+      "paragraph_id": "1349646c-53ff-445a-ba82-a12e2308aca4",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T12:40:23.016431",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,150 @@
+{
+  "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+  "section_name": "Financial Analysis",
+  "text": "R&D investment intensity in Q4 2025 was 17.73% of revenue (K007), with R&D expenses of $1,098,000,000 (C016) on revenue of $6,194,000,000 (C010). This compares to $1,088,000,000 in Q3 2025 (C024), $1,082,000,000 in Q2 2025 (C032), and $1,110,000,000 in Q1 2026 (C008), suggesting sustained commitment to product development despite revenue fluctuations. The consistent R&D spending level, representing approximately one-sixth of revenue, indicates Adobe prioritizes innovation and product enhancement, which is critical for maintaining competitive positioning in the creative software and digital experience markets.",
+  "citations": [
+    {
+      "citation_id": "2732e3f6-ed08-403c-a033-065af5c6da6a",
+      "chunk_id": "2ffd3ccd-3213-44c5-bd77-5860d4de34a0",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q1: $1,110,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8adb7d67-77f9-4f27-87cb-fc8bb95c59d5",
+      "chunk_id": "b9ab47a5-9300-4a18-b941-a25f0e62ae89",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8161d9e2-79f0-43ff-9c77-d1e0074e98fb",
+      "chunk_id": "9c3e647c-bfea-4b52-bb4c-9703c7ba84cf",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q4: $1,098,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "38b6647a-94e7-42ea-b7a8-e74aa014534b",
+      "chunk_id": "7be26197-aa33-4407-9e2e-47450611dcea",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q3: $1,088,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "01e3d403-08fa-4f73-b118-fbd0420a43c3",
+      "chunk_id": "06668592-3db5-4d4c-b06d-e4a5bd59f0f1",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q2: $1,082,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "2ffd3ccd-3213-44c5-bd77-5860d4de34a0",
+    "b9ab47a5-9300-4a18-b941-a25f0e62ae89",
+    "9c3e647c-bfea-4b52-bb4c-9703c7ba84cf",
+    "7be26197-aa33-4407-9e2e-47450611dcea",
+    "06668592-3db5-4d4c-b06d-e4a5bd59f0f1"
+  ],
+  "calc_ids": [
+    "a7c4f13d-840e-4f02-a7f3-7175e7c43a49"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "eadb711b-9e00-42b6-a31a-faef9eb5dd27",
+      "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "2f3d0189-b4d0-4944-b90d-e773fbdbbe7c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+          "offending_span": "R&D expenses of $1,098,000,000 (C016)",
+          "explanation": "The paragraph cites C016 for R&D expenses, but C016 is not in the cited chunks list. The actual evidence for Q4 R&D expenses ($1,098,000,000) is in C018, not C016.",
+          "relevant_chunk_ids": [
+            "9c3e647c-bfea-4b52-bb4c-9703c7ba84cf"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C016 to C018"
+        },
+        {
+          "issue_id": "bad62ec6-60ae-40ab-b1be-1acc6ea6521c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+          "offending_span": "revenue of $6,194,000,000 (C010)",
+          "explanation": "The paragraph cites C010 for revenue, but C010 contains R&D Expenses for Q1 ($1,110,000,000), not revenue. The correct chunk for Q4 revenue ($6,194,000,000) is C012.",
+          "relevant_chunk_ids": [
+            "2ffd3ccd-3213-44c5-bd77-5860d4de34a0",
+            "b9ab47a5-9300-4a18-b941-a25f0e62ae89"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C010 to C012"
+        },
+        {
+          "issue_id": "ece54098-f3d1-4c87-a929-336a916a6420",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+          "offending_span": "$1,088,000,000 in Q3 2025 (C024)",
+          "explanation": "The paragraph cites C024 for Q3 R&D expenses, but C024 is not in the cited chunks list. The actual evidence for Q3 R&D expenses ($1,088,000,000) is in C026.",
+          "relevant_chunk_ids": [
+            "7be26197-aa33-4407-9e2e-47450611dcea"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C024 to C026"
+        },
+        {
+          "issue_id": "c1324dfb-0d83-42ca-a9ca-c3f3207b6a37",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+          "offending_span": "$1,082,000,000 in Q2 2025 (C032)",
+          "explanation": "The paragraph cites C032 for Q2 R&D expenses, but C032 is not in the cited chunks list. The actual evidence for Q2 R&D expenses ($1,082,000,000) is in C034.",
+          "relevant_chunk_ids": [
+            "06668592-3db5-4d4c-b06d-e4a5bd59f0f1"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C032 to C034"
+        },
+        {
+          "issue_id": "583845d3-4086-4ec6-be48-8e5aeae56e28",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+          "offending_span": "$1,110,000,000 in Q1 2026 (C008)",
+          "explanation": "The paragraph cites C008 for Q1 R&D expenses, but C008 is not in the cited chunks list. The actual evidence for Q1 R&D expenses ($1,110,000,000) is in C010.",
+          "relevant_chunk_ids": [
+            "2ffd3ccd-3213-44c5-bd77-5860d4de34a0"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C008 to C010"
+        },
+        {
+          "issue_id": "413f8947-f110-4d5d-b3f3-acbaff81182f",
+          "issue_type": "scope_violation",
+          "severity": "critical",
+          "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+          "offending_span": "$1,110,000,000 in Q1 2026",
+          "explanation": "The as-of date is 2025-08, but the paragraph references Q1 2026 data, which is a future period beyond the as-of date. This data would not be available at the time of report preparation.",
+          "relevant_chunk_ids": [
+            "2ffd3ccd-3213-44c5-bd77-5860d4de34a0"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove Q1 2026 reference or clarify this is projected/forward-looking data with appropriate disclaimers"
+        }
+      ],
+      "checked_at": "2026-03-23T19:30:42.406242",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,102 @@
+{
+  "paragraph_id": "80f0d9fa-491b-416a-bbc0-030e2ce06470",
+  "section_name": "Risk Analysis",
+  "text": "Financial leverage and liquidity present moderate risk considerations for NVIDIA. As of FY 2026, the company carries total debt of $11,412,000,000 against stockholders' equity of $157,293,000,000, suggesting a relatively conservative capital structure [CHUNK_ID: 002baa36-95e2-486c-afa8-d265c7e9fe50, CHUNK_ID: 117f2257-f140-4159-b752-a38580031e8e]. Current assets of $125,605,000,000 significantly exceed current liabilities of $32,163,000,000, indicating strong short-term liquidity positioning [CHUNK_ID: ddd19628-39a7-4266-b351-b98f50e9f67f, CHUNK_ID: 4c087484-a2fb-4e6e-8a85-4bbe05a76ef4]. Cash and equivalents of $10,605,000,000 plus short-term investments of $51,951,000,000 provide substantial financial flexibility [CHUNK_ID: 65e5f471-1f9f-44ef-9c50-b48d301fd16e, CHUNK_ID: 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c]. However, the rapid growth in balance sheet size from FY 2025 to FY 2026 (total assets increasing from $111,601,000,000 to $206,803,000,000) suggests the company is scaling operations quickly, which could introduce execution risk if growth moderates [CHUNK_ID: e8892d11-f5da-452f-bb20-628f07c83fae, CHUNK_ID: bb96f8f5-7873-4001-a467-fb02c63c2fff].",
+  "citations": [
+    {
+      "citation_id": "d0f63163-5d90-4bcc-9bb5-60b72a63cff7",
+      "chunk_id": "002baa36-95e2-486c-afa8-d265c7e9fe50",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Debt for FY: $11,412,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0264919d-5e93-4985-9ba5-3fe40babd0fb",
+      "chunk_id": "117f2257-f140-4159-b752-a38580031e8e",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Stockholders' Equity for FY: $157,293,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1c3bf174-2ea1-49a7-a438-ec691b3e3561",
+      "chunk_id": "4c087484-a2fb-4e6e-8a85-4bbe05a76ef4",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Current Liabilities for FY: $32,163,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "42de964b-a0d8-4f19-9479-d771831cf5ab",
+      "chunk_id": "65e5f471-1f9f-44ef-9c50-b48d301fd16e",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Cash & Equivalents for FY: $10,605,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "54eb67ce-9d10-4f52-ba2f-34f1384325ce",
+      "chunk_id": "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – NVDA | Period: FY | Date: 2026-01-25\n  Total Assets:              $206,803,000,000\n  Total Liabilities:         $49,510,000,000\n  Total Stockholders' Equity:$157,293,000,000\n  Cash & Equivalents:        $10,605,000,000\n  Short-Term Investments:    $51,951,000,000\n  Total Debt:       ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e318c5f5-4451-440a-8e3b-215d09640181",
+      "chunk_id": "e8892d11-f5da-452f-bb20-628f07c83fae",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Assets for FY: $111,601,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4924444c-dedd-490f-88a3-632ec7e95c65",
+      "chunk_id": "bb96f8f5-7873-4001-a467-fb02c63c2fff",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Assets for FY: $206,803,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "002baa36-95e2-486c-afa8-d265c7e9fe50",
+    "117f2257-f140-4159-b752-a38580031e8e",
+    "4c087484-a2fb-4e6e-8a85-4bbe05a76ef4",
+    "65e5f471-1f9f-44ef-9c50-b48d301fd16e",
+    "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c",
+    "e8892d11-f5da-452f-bb20-628f07c83fae",
+    "bb96f8f5-7873-4001-a467-fb02c63c2fff"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "e5655f41-bb5c-45ed-8f1d-cc2dd58f273f",
+      "paragraph_id": "80f0d9fa-491b-416a-bbc0-030e2ce06470",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "3c0b072c-690c-428f-bfb3-72db1666f78d",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "80f0d9fa-491b-416a-bbc0-030e2ce06470",
+          "offending_span": "Current assets of $125,605,000,000 significantly exceed current liabilities of $32,163,000,000, indicating strong short-term liquidity positioning [CHUNK_ID: ddd19628-39a7-4266-b351-b98f50e9f67f, CHUNK_ID: 4c087484-a2fb-4e6e-8a85-4bbe05a76ef4]",
+          "explanation": "The chunk ddd19628-39a7-4266-b351-b98f50e9f67f is cited for current assets but is not provided in the evidence chunks. The current assets figure ($125,605,000,000) is actually found in chunk 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c (which is already cited elsewhere in the paragraph for cash and short-term investments). This prevents verification of the claim from the cited source.",
+          "relevant_chunk_ids": [
+            "ddd19628-39a7-4266-b351-b98f50e9f67f",
+            "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c",
+            "4c087484-a2fb-4e6e-8a85-4bbe05a76ef4"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation to use chunk 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c for current assets instead of ddd19628-39a7-4266-b351-b98f50e9f67f. The corrected citation should read: [CHUNK_ID: 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c, CHUNK_ID: 4c087484-a2fb-4e6e-8a85-4bbe05a76ef4]"
+        }
+      ],
+      "checked_at": "2026-03-11T14:27:01.312007",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

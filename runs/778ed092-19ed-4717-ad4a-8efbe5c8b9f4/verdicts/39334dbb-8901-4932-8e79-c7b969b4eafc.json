@@ -1,0 +1,36 @@
+{
+  "verdict_id": "39334dbb-8901-4932-8e79-c7b969b4eafc",
+  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "9637a1af-7d50-44e3-aa2b-411c72d286f5",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "offending_span": "According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy",
+      "explanation": "Chunk d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd states that Wall Street Journal reported the approval itself, but does NOT state that WSJ characterized it as 'a notable shift in China's semiconductor procurement policy.' This characterization is attributed to WSJ in the paragraph but is not found in the cited evidence.",
+      "relevant_chunk_ids": [
+        "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either remove the attribution to Wall Street Journal for the 'notable shift' characterization, or find evidence that WSJ specifically made this claim. Consider rephrasing to: 'According to Wall Street Journal reporting, China approved the purchases, which analysts view as a notable shift...'"
+    },
+    {
+      "issue_id": "70e40220-0908-494f-8a5e-1aceb9153eb2",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "offending_span": "NVIDIA received a significant regulatory breakthrough",
+      "explanation": "The phrase 'significant regulatory breakthrough' implies a stronger characterization than what the evidence supports. The cited chunks report the approval factually without characterizing it as a 'breakthrough.' This is editorial interpretation presented as fact.",
+      "relevant_chunk_ids": [
+        "4a442330-590e-4455-af91-db05eff6ba13",
+        "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Soften the language to match the evidence tone, e.g., 'NVIDIA received regulatory approval' or 'NVIDIA received approval that represents a breakthrough' with appropriate attribution."
+    }
+  ],
+  "checked_at": "2026-03-23T05:03:10.843794",
+  "iteration": 0
+}

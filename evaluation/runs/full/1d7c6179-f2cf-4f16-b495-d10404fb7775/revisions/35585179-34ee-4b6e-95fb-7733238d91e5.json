@@ -1,0 +1,16 @@
+{
+  "revision_id": "35585179-34ee-4b6e-95fb-7733238d91e5",
+  "paragraph_id": "8599b7a8-13e7-4f19-8f40-c3a337af2d8a",
+  "iteration": 1,
+  "original_text": "Key growth drivers for Adobe center on AI monetization opportunities and expanding market tailwinds. RBC Capital sees long-term AI monetization upside for Adobe, suggesting the company is well-positioned to capitalize on AI integration in creative and experience tools [C015]. The Motion Graphics Market growth trajectory (12.2% CAGR to 2034) indicates favorable industry dynamics for Adobe's creative products [C010]. Similarly, the Web Conferencing Market expansion (8.40% CAGR 2025-2034) suggests continued demand for Adobe's collaboration tools [C014]. A bullish thesis on Rebound Capital's Substack highlights Adobe's attractive valuation metrics, with trailing and forward P/E ratios of 22.89 and 15.41 respectively as of mid-August 2025 [C013]. However, specific details on recent partnerships, acquisitions, or new market entries are not covered in the provided evidence, limiting analysis of strategic initiatives beyond AI integration [C002].",
+  "revised_text": "Key growth drivers for Adobe center on AI monetization opportunities and expanding market tailwinds. RBC Capital sees long-term AI monetization upside for Adobe, suggesting the company is well-positioned to capitalize on AI integration in creative and experience tools [C107]. The Motion Graphics Market growth trajectory (12.2% CAGR to 2034) indicates favorable industry dynamics for Adobe's creative products [C102]. Similarly, the Web Conferencing Market expansion suggests continued demand for Adobe's collaboration tools [C106]. A bullish thesis on Rebound Capital's Substack highlights Adobe's attractive valuation metrics, with trailing and forward P/E ratios of 22.89 and 15.41 respectively as of mid-August 2025 [C105]. However, specific details on recent partnerships, acquisitions, or new market entries are not covered in the provided evidence, limiting analysis of strategic initiatives beyond AI integration [C002].",
+  "issues_addressed": [
+    "79f0c6ae-1856-4e12-974f-06bb11c36156",
+    "9f3c71f6-8a3b-48dd-b136-4521357706fd",
+    "cd676913-365f-460f-a3a8-3fad5dcc77d6",
+    "1fac4f55-fd35-4d63-9179-be07bda7ea38",
+    "f3475dfb-7866-4fc8-bfd0-ed8f350c3307"
+  ],
+  "changes_summary": "Corrected citation IDs to match available evidence: C015 to C107 (RBC Capital), C010 to C102 (Motion Graphics), C014 to C106 (Web Conferencing), and C013 to C105 (Rebound Capital). Removed the unsupported '8.40% CAGR' figure from the Web Conferencing Market claim as it was not present in chunk C106. Retained C002 for the limitation statement.",
+  "revised_at": "2026-03-23T20:07:58.334932"
+}

@@ -1,0 +1,1974 @@
+[
+  {
+    "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+    "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+    "source_type": "company_profile",
+    "text": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+    "metadata": {
+      "ticker": "NVDA",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+    "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+    "source_type": "company_profile",
+    "text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds. Its Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; cryptocurrency mining processors; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software. The company's products are used in gaming, professional visualization, datacenter, and automotive markets. NVIDIA Corporation sells its products to original equipment manufacturers, original device manufacturers, system builders, add-in board manufacturers, retailers/distributors, independent software vendors, Internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants. It has a strategic collaboration with Kroger Co. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+    "metadata": {
+      "ticker": "NVDA",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: Q4 | Date: 2026-01-25\n  Revenue:            $68,127,000,000\n  Gross Profit:       $51,093,000,000 (margin N/A)\n  Operating Income:   $44,299,000,000 (margin N/A)\n  Net Income:         $42,960,000,000 (margin N/A)\n  EBITDA:             $51,283,000,000\n  EPS:                1.77\n  R&D Expenses:       $5,512,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "date": "2026-01-25"
+    },
+    "period": "Q4",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for Q4: $68,127,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "revenue"
+    },
+    "period": "Q4",
+    "field_name": "revenue",
+    "numeric_value": 68127000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9e098a69-50b0-4f72-94df-f7f89d77665f",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for Q4: $51,093,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "grossProfit"
+    },
+    "period": "Q4",
+    "field_name": "grossProfit",
+    "numeric_value": 51093000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e9879c6d-3dc3-4ab3-965e-49e1fc30114d",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for Q4: $44,299,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "operatingIncome"
+    },
+    "period": "Q4",
+    "field_name": "operatingIncome",
+    "numeric_value": 44299000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2a591c75-6166-4d2f-86f4-3a8b7edc6359",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for Q4: $42,960,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "netIncome"
+    },
+    "period": "Q4",
+    "field_name": "netIncome",
+    "numeric_value": 42960000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0bb38bcc-0b49-4e55-a1c5-eb790c883a09",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for Q4: $51,283,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "ebitda"
+    },
+    "period": "Q4",
+    "field_name": "ebitda",
+    "numeric_value": 51283000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ce262d49-a259-4700-a18f-35bc0ee9d2ed",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for Q4: $2",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "eps"
+    },
+    "period": "Q4",
+    "field_name": "eps",
+    "numeric_value": 1.77,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1562353d-db39-4a2f-b994-c550365403ac",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for Q4: $5,512,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q4",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 5512000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3f26379b-0ca6-43fa-889e-6de8f215a9d4",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: Q3 | Date: 2025-10-26\n  Revenue:            $57,006,000,000\n  Gross Profit:       $41,849,000,000 (margin N/A)\n  Operating Income:   $36,010,000,000 (margin N/A)\n  Net Income:         $31,910,000,000 (margin N/A)\n  EBITDA:             $38,748,000,000\n  EPS:                1.31\n  R&D Expenses:       $4,705,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "date": "2025-10-26"
+    },
+    "period": "Q3",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "be9aaefa-d273-4270-b2da-199d69a0de1f",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for Q3: $57,006,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "revenue"
+    },
+    "period": "Q3",
+    "field_name": "revenue",
+    "numeric_value": 57006000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bad0a893-5dd1-4e70-97f6-58cf8580ae64",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for Q3: $41,849,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "grossProfit"
+    },
+    "period": "Q3",
+    "field_name": "grossProfit",
+    "numeric_value": 41849000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bab42a84-eb04-42f9-8bac-019a4bbe8251",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for Q3: $36,010,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "operatingIncome"
+    },
+    "period": "Q3",
+    "field_name": "operatingIncome",
+    "numeric_value": 36010000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ea1d1a05-f1f4-4565-9bf8-51cad03efc06",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for Q3: $31,910,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "netIncome"
+    },
+    "period": "Q3",
+    "field_name": "netIncome",
+    "numeric_value": 31910000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "28352b2a-2955-40ab-b306-c1f7dc13328b",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for Q3: $38,748,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "ebitda"
+    },
+    "period": "Q3",
+    "field_name": "ebitda",
+    "numeric_value": 38748000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7ddffaf5-91e4-4720-afae-d258c9b17f07",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for Q3: $1",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "eps"
+    },
+    "period": "Q3",
+    "field_name": "eps",
+    "numeric_value": 1.31,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "cea63704-2a53-4a60-a83b-5a9f3dde73bf",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for Q3: $4,705,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q3",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 4705000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4b5ca487-28c6-45ce-a2a2-869b6489a892",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: Q2 | Date: 2025-07-27\n  Revenue:            $46,743,000,000\n  Gross Profit:       $33,853,000,000 (margin N/A)\n  Operating Income:   $28,440,000,000 (margin N/A)\n  Net Income:         $26,422,000,000 (margin N/A)\n  EBITDA:             $31,937,000,000\n  EPS:                1.08\n  R&D Expenses:       $4,291,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "date": "2025-07-27"
+    },
+    "period": "Q2",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "71f157b3-965e-4d3a-aa29-e9e0ff45980a",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for Q2: $46,743,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "revenue"
+    },
+    "period": "Q2",
+    "field_name": "revenue",
+    "numeric_value": 46743000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a5a00267-d004-4f18-a287-337bf95b2e33",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for Q2: $33,853,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "grossProfit"
+    },
+    "period": "Q2",
+    "field_name": "grossProfit",
+    "numeric_value": 33853000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "eb4eef32-598a-4e88-a254-8e9ffca8013f",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for Q2: $28,440,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "operatingIncome"
+    },
+    "period": "Q2",
+    "field_name": "operatingIncome",
+    "numeric_value": 28440000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6c1f8526-7139-4a3c-981b-18f67ee0eb90",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for Q2: $26,422,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "netIncome"
+    },
+    "period": "Q2",
+    "field_name": "netIncome",
+    "numeric_value": 26422000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "98b83af5-3177-4d06-a943-91b9c739fa41",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for Q2: $31,937,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "ebitda"
+    },
+    "period": "Q2",
+    "field_name": "ebitda",
+    "numeric_value": 31937000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c444ff55-ed34-4087-bb30-0fd69f97633e",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for Q2: $1",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "eps"
+    },
+    "period": "Q2",
+    "field_name": "eps",
+    "numeric_value": 1.08,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0e9a7c33-d1ed-4004-aa14-b22823181430",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for Q2: $4,291,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q2",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 4291000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c89f5390-af9c-47a4-bb4c-1092f63c3731",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: Q1 | Date: 2025-04-27\n  Revenue:            $44,062,000,000\n  Gross Profit:       $26,668,000,000 (margin N/A)\n  Operating Income:   $21,638,000,000 (margin N/A)\n  Net Income:         $18,775,000,000 (margin N/A)\n  EBITDA:             $22,584,000,000\n  EPS:                0.77\n  R&D Expenses:       $3,989,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "date": "2025-04-27"
+    },
+    "period": "Q1",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for Q1: $44,062,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "revenue"
+    },
+    "period": "Q1",
+    "field_name": "revenue",
+    "numeric_value": 44062000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "adbe2e2a-3e59-459b-aadc-4bd3d758a443",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for Q1: $26,668,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "grossProfit"
+    },
+    "period": "Q1",
+    "field_name": "grossProfit",
+    "numeric_value": 26668000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "99f1feb2-e92a-4e92-9af2-a77cc1effb43",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for Q1: $21,638,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "operatingIncome"
+    },
+    "period": "Q1",
+    "field_name": "operatingIncome",
+    "numeric_value": 21638000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e98145ee-cb16-4aed-9b06-1899855a40d5",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for Q1: $18,775,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "netIncome"
+    },
+    "period": "Q1",
+    "field_name": "netIncome",
+    "numeric_value": 18775000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "915d9b27-9709-4557-84a5-61866465576d",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for Q1: $22,584,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "ebitda"
+    },
+    "period": "Q1",
+    "field_name": "ebitda",
+    "numeric_value": 22584000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3f2796d8-db93-4b08-a7cc-72ac0954e859",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for Q1: $1",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "eps"
+    },
+    "period": "Q1",
+    "field_name": "eps",
+    "numeric_value": 0.77,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e937267f-ef09-459a-b5a9-972db6375197",
+    "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for Q1: $3,989,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q1",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 3989000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "67dc1f3e-2ee7-4a56-822f-bf81c5335e08",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: Q4 | Date: 2026-01-25\n  Total Assets:              $206,803,000,000\n  Total Liabilities:         $49,510,000,000\n  Total Stockholders' Equity:$157,293,000,000\n  Cash & Equivalents:        $10,605,000,000\n  Short-Term Investments:    $51,951,000,000\n  Total Debt:                $11,412,000,000\n  Long-Term Debt:            $7,469,000,000\n  Current Assets:            $125,605,000,000\n  Current Liabilities:       $32,163,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "date": "2026-01-25"
+    },
+    "period": "Q4",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8504ebb5-07ca-4dcd-952a-530c7069845f",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for Q4: $206,803,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "totalAssets"
+    },
+    "period": "Q4",
+    "field_name": "totalAssets",
+    "numeric_value": 206803000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "94f64eb0-1d91-4487-ac04-c4ebe9a5b669",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for Q4: $49,510,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "totalLiabilities"
+    },
+    "period": "Q4",
+    "field_name": "totalLiabilities",
+    "numeric_value": 49510000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q4",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 157293000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for Q4: $10,605,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q4",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 10605000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for Q4: $11,412,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "totalDebt"
+    },
+    "period": "Q4",
+    "field_name": "totalDebt",
+    "numeric_value": 11412000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "09ed668b-8b47-4530-8f2f-8d3c29324193",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for Q4: $7,469,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "longTermDebt"
+    },
+    "period": "Q4",
+    "field_name": "longTermDebt",
+    "numeric_value": 7469000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for Q4: $125,605,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q4",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 125605000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "00de1d29-d626-45ec-974e-bc91eede4c2c",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for Q4: $32,163,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q4",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 32163000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5e7c24f7-7fa1-451f-bb6c-185fbcedc778",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: Q3 | Date: 2025-10-26\n  Total Assets:              $161,148,000,000\n  Total Liabilities:         $42,251,000,000\n  Total Stockholders' Equity:$118,897,000,000\n  Cash & Equivalents:        $11,486,000,000\n  Short-Term Investments:    $49,122,000,000\n  Total Debt:                $10,822,000,000\n  Long-Term Debt:            $7,468,000,000\n  Current Assets:            $116,492,000,000\n  Current Liabilities:       $26,075,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "date": "2025-10-26"
+    },
+    "period": "Q3",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "688f14ba-dacd-47d2-b3f0-94b6f86e922e",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for Q3: $161,148,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "totalAssets"
+    },
+    "period": "Q3",
+    "field_name": "totalAssets",
+    "numeric_value": 161148000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "56e0db31-ee93-4ffa-99bb-fe1da50d107b",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for Q3: $42,251,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "totalLiabilities"
+    },
+    "period": "Q3",
+    "field_name": "totalLiabilities",
+    "numeric_value": 42251000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d5c942c4-4feb-4fb3-8612-a75cdc6ac0b7",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for Q3: $118,897,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q3",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 118897000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "63797864-0088-4cf2-b8af-fd5732dea6a0",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for Q3: $11,486,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q3",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 11486000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b36a345a-6bae-4c89-bb62-5795350bc288",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for Q3: $10,822,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "totalDebt"
+    },
+    "period": "Q3",
+    "field_name": "totalDebt",
+    "numeric_value": 10822000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1f49935b-3b28-44b3-ba44-693c0fad3bd2",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for Q3: $7,468,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "longTermDebt"
+    },
+    "period": "Q3",
+    "field_name": "longTermDebt",
+    "numeric_value": 7468000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "633f42e2-6fa3-436c-8ccf-f712ad5c4b74",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for Q3: $116,492,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q3",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 116492000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c2e690c4-7fe6-48be-bd2a-0dde5f3c050f",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for Q3: $26,075,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q3",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 26075000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3b2213a6-1efb-47b7-ad11-686a8555fbf9",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: Q2 | Date: 2025-07-27\n  Total Assets:              $140,740,000,000\n  Total Liabilities:         $40,609,000,000\n  Total Stockholders' Equity:$100,131,000,000\n  Cash & Equivalents:        $11,639,000,000\n  Short-Term Investments:    $45,152,000,000\n  Total Debt:                $10,598,000,000\n  Long-Term Debt:            $8,466,000,000\n  Current Assets:            $102,219,000,000\n  Current Liabilities:       $24,257,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "date": "2025-07-27"
+    },
+    "period": "Q2",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "816fcf07-6a62-4a3c-ad67-8d19d6824fa7",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for Q2: $140,740,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "totalAssets"
+    },
+    "period": "Q2",
+    "field_name": "totalAssets",
+    "numeric_value": 140740000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "265ac384-c4fb-4717-910a-0be21c4d3181",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for Q2: $40,609,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "totalLiabilities"
+    },
+    "period": "Q2",
+    "field_name": "totalLiabilities",
+    "numeric_value": 40609000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4d4ecb27-04d1-4ef6-99be-af77904428f5",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for Q2: $100,131,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q2",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 100131000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ee3c37aa-8faa-4540-961c-e5f30f133a35",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for Q2: $11,639,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q2",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 11639000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f3a0f3f3-e50c-4cf3-8128-9edf35cebda6",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for Q2: $10,598,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "totalDebt"
+    },
+    "period": "Q2",
+    "field_name": "totalDebt",
+    "numeric_value": 10598000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c05e3b7f-4fdf-43b2-903f-303c6c5360a1",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for Q2: $8,466,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "longTermDebt"
+    },
+    "period": "Q2",
+    "field_name": "longTermDebt",
+    "numeric_value": 8466000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4e52f28b-c20e-4284-aefc-5a148c3e1e23",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for Q2: $102,219,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q2",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 102219000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "13beeb27-6eef-4a23-97c8-9c3be124978f",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for Q2: $24,257,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q2",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 24257000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8d853bb8-0a62-4271-86b4-32fe58a051d3",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: Q1 | Date: 2025-04-27\n  Total Assets:              $125,254,000,000\n  Total Liabilities:         $41,411,000,000\n  Total Stockholders' Equity:$83,843,000,000\n  Cash & Equivalents:        $15,234,000,000\n  Short-Term Investments:    $38,457,000,000\n  Total Debt:                $10,285,000,000\n  Long-Term Debt:            $8,464,000,000\n  Current Assets:            $89,935,000,000\n  Current Liabilities:       $26,542,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "date": "2025-04-27"
+    },
+    "period": "Q1",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e8ae00dc-7b18-47e4-bdf6-a80545dc32b0",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for Q1: $125,254,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "totalAssets"
+    },
+    "period": "Q1",
+    "field_name": "totalAssets",
+    "numeric_value": 125254000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "383723e5-d5bf-4491-8100-4a7caae4fa62",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for Q1: $41,411,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "totalLiabilities"
+    },
+    "period": "Q1",
+    "field_name": "totalLiabilities",
+    "numeric_value": 41411000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "be8650b0-31cb-4bba-8809-3ecf37f6bcd2",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for Q1: $83,843,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q1",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 83843000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "777c1f43-4d31-4994-8841-d1078b15a84c",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for Q1: $15,234,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q1",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 15234000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "59b3174a-5495-47d8-8524-ed1d2dbe6b55",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for Q1: $10,285,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "totalDebt"
+    },
+    "period": "Q1",
+    "field_name": "totalDebt",
+    "numeric_value": 10285000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "75ae1aa7-225e-45bd-9809-a2dfed2ed5d2",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for Q1: $8,464,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "longTermDebt"
+    },
+    "period": "Q1",
+    "field_name": "longTermDebt",
+    "numeric_value": 8464000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b44bdb0a-0f23-4534-a72f-77f7924fdb77",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for Q1: $89,935,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q1",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 89935000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3747d0e6-7fd1-47e9-9f34-7cab315f7484",
+    "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for Q1: $26,542,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q1",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 26542000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c4b97820-37f0-4607-a52a-908a78a04a4d",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: Q4 | Date: 2026-01-25\n  Operating Cash Flow:     $36,188,000,000\n  Capital Expenditure:     $-1,284,000,000\n  Free Cash Flow:          $34,904,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-3,815,000,000\n  Depreciation & Amort.:   $812,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "date": "2026-01-25"
+    },
+    "period": "Q4",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d5fca481-ef47-4db0-b9d1-6545f30b13c9",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for Q4: $36,188,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q4",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 36188000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e46fdc95-4cad-4ef9-adca-7a05b4545e86",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for Q4: $-1,284,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q4",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -1284000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "08be315a-0f2a-4165-8eac-96c5c8df3bcd",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for Q4: $34,904,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "freeCashFlow"
+    },
+    "period": "Q4",
+    "field_name": "freeCashFlow",
+    "numeric_value": 34904000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a7a026d3-e48a-43cf-b71b-41b4b0a815b2",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for Q4: $-3,815,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q4",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -3815000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2473b834-e1c3-45dc-a7aa-fc042bdca3a3",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for Q4: $812,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q4",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q4",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 812000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0f9eeceb-9ff3-40f5-834a-773d94ad66ee",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: Q3 | Date: 2025-10-26\n  Operating Cash Flow:     $23,751,000,000\n  Capital Expenditure:     $-1,636,000,000\n  Free Cash Flow:          $22,115,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-12,456,000,000\n  Depreciation & Amort.:   $751,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "date": "2025-10-26"
+    },
+    "period": "Q3",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4ab58e55-26f7-44f1-a246-7f8e163ab73b",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for Q3: $23,751,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q3",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 23751000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "54b12a6c-a20f-4f82-9b1d-9809277022aa",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for Q3: $-1,636,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q3",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -1636000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c29bd4ec-8a5c-4409-a231-69759716b3a0",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for Q3: $22,115,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "freeCashFlow"
+    },
+    "period": "Q3",
+    "field_name": "freeCashFlow",
+    "numeric_value": 22115000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b0a3a48e-6105-45ea-bb3f-7fb1c11cff11",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for Q3: $-12,456,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q3",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -12456000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e19bdd85-07c2-4e35-a552-48087557589a",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for Q3: $751,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q3",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q3",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 751000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "efdf5b59-1873-40d0-a8b6-2f9ee413048e",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: Q2 | Date: 2025-07-27\n  Operating Cash Flow:     $15,365,000,000\n  Capital Expenditure:     $-1,895,000,000\n  Free Cash Flow:          $13,470,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-9,720,000,000\n  Depreciation & Amort.:   $669,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "date": "2025-07-27"
+    },
+    "period": "Q2",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f6ac07dc-1d08-4944-bb6b-aee34535d31e",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for Q2: $15,365,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q2",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 15365000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3a898fd9-d7e5-446b-b802-ff255afd622f",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for Q2: $-1,895,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q2",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -1895000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "02b7e647-e977-4634-a43a-3f3af3400a82",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for Q2: $13,470,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "freeCashFlow"
+    },
+    "period": "Q2",
+    "field_name": "freeCashFlow",
+    "numeric_value": 13470000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "59851b4c-4918-4c34-b57c-a0aba0e67fcc",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for Q2: $-9,720,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q2",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -9720000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7ed07262-2df0-4186-8043-646c25780176",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for Q2: $669,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q2",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q2",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 669000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8be41ce8-a682-4b13-bb19-1481c6da802b",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: Q1 | Date: 2025-04-27\n  Operating Cash Flow:     $27,414,000,000\n  Capital Expenditure:     $-1,227,000,000\n  Free Cash Flow:          $26,187,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-14,095,000,000\n  Depreciation & Amort.:   $611,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "date": "2025-04-27"
+    },
+    "period": "Q1",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "036e7419-ad52-4d02-a503-0d2f3f9fcb37",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for Q1: $27,414,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 27414000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f7d01cc9-ba91-4bc2-9924-df45f440e36b",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for Q1: $-1,227,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -1227000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6c2239f8-45b3-4706-8cba-b7061321677e",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for Q1: $26,187,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1",
+    "field_name": "freeCashFlow",
+    "numeric_value": 26187000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e67dad3d-3a9e-4760-97de-495473dd58ca",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for Q1: $-14,095,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -14095000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "53430d22-4541-4631-998a-4c27ce6e255b",
+    "source_id": "916385d5-7a89-43fb-a91e-6af23b38761e",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for Q1: $611,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "Q1",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 611000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "461a702b-582f-42e4-bb4f-7c5eac066bb6",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:51:30Z | Yahoo\nTitle: Dow Jones Futures: Meta Jumps On Earnings, Microsoft Slumps; Tesla Pares Gain On Elon Musk Spending Plans\nURL: https://finnhub.io/api/news?id=145068c9ab77aa336a94bd7939043cb7a99182fee73b34c963f114d1e85550c7\nTesla, Microsoft and Meta headlined huge earnings late after the stock market paused at record highs.",
+    "metadata": {
+      "title": "Dow Jones Futures: Meta Jumps On Earnings, Microsoft Slumps; Tesla Pares Gain On Elon Musk Spending Plans",
+      "published_at": "2026-01-28T23:51:30Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=145068c9ab77aa336a94bd7939043cb7a99182fee73b34c963f114d1e85550c7",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d84cf4e8-54af-41dc-91d3-46bb7413d96b",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:33:07Z | Yahoo\nTitle: The Latest Things to Know About Tesla's Optimus Robot\nURL: https://finnhub.io/api/news?id=7d5d5780f02564d237262b275c0bd47291c533e0e6a25d74507bef0f3605b587\nMusk said on Wednesday evening that Tesla’s humanoid robot, Optimus, was still in the R&D phase.  Tesla also plans to convert its Model S and X assembly capacity in California to a robot assembly line.  Musk also discussed Tesla’s AI chip strategy on the call.",
+    "metadata": {
+      "title": "The Latest Things to Know About Tesla's Optimus Robot",
+      "published_at": "2026-01-28T23:33:07Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7d5d5780f02564d237262b275c0bd47291c533e0e6a25d74507bef0f3605b587",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4a442330-590e-4455-af91-db05eff6ba13",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:26:09Z | Yahoo\nTitle: Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank\nURL: https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3\n↗️ Nvidia (NVDA): China has approved purchases of Nvidia’s popular H200 chip for the first time, giving authorization to several customers, including Alibaba (BABA, HK:9988). Nvidia and Alibaba shares rose.",
+    "metadata": {
+      "title": "Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank",
+      "published_at": "2026-01-28T23:26:09Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ec23227b-4b61-4075-8f3b-eea139d05ad4",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:24:00Z | Yahoo\nTitle: Could This Chip Stock Be the Best Way to Play the AI Infrastructure Buildout?\nURL: https://finnhub.io/api/news?id=1b572220b925b5068f2ae64599e800001749bb2d55519ff97e597dc824b5a3d4\nBroadcom is an easy way to profit from the secular expansion of the AI market.",
+    "metadata": {
+      "title": "Could This Chip Stock Be the Best Way to Play the AI Infrastructure Buildout?",
+      "published_at": "2026-01-28T23:24:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1b572220b925b5068f2ae64599e800001749bb2d55519ff97e597dc824b5a3d4",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8ea6204c-b60c-43ed-b244-62338e311dd0",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:23:00Z | Yahoo\nTitle: 1 Reason Nvidia Stock Could Surge in 2026\nURL: https://finnhub.io/api/news?id=67eb7d7038de9cbe6670b0bd075f9acef65602d433162d1ea21c25acb89fdbcd\nThe chipmaker remains a top play in the booming AI infrastructure market.",
+    "metadata": {
+      "title": "1 Reason Nvidia Stock Could Surge in 2026",
+      "published_at": "2026-01-28T23:23:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=67eb7d7038de9cbe6670b0bd075f9acef65602d433162d1ea21c25acb89fdbcd",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical assistance to Chinese AI startup DeepSeek, which helped the firm develop models later utilized by the Chinese military. According to reporting from Reuters, citing a letter from Representative John Moolenaar, the U.S. chipmaker’s collaboration enabled significant efficiency gains for the Beijing-based company. The House Select Committee on China revealed that Nvidia’s personnel assisted DeepSeek through an \"optimized",
+    "metadata": {
+      "title": "Nvidia face congressional scrutiny over DeepSeek technical support - Reuters",
+      "published_at": "2026-01-28T23:20:17Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bd2be37c-114a-47ed-9c6a-8570ade66726",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T23:05:00Z | Yahoo\nTitle: These AI Cloud Stocks Are Starting to Soar Again Thanks to Nvidia: ANET, CRWV\nURL: https://finnhub.io/api/news?id=d45f77e523ab7a8c7045dbb18d7d4a6f77549f9366a71ff4e46c8600dd763356\nArista Networks (ANET) and CoreWeave (CRWV) stock have been on a tremendous rally again as investors rotate back into AI infrastructure plays.",
+    "metadata": {
+      "title": "These AI Cloud Stocks Are Starting to Soar Again Thanks to Nvidia: ANET, CRWV",
+      "published_at": "2026-01-28T23:05:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d45f77e523ab7a8c7045dbb18d7d4a6f77549f9366a71ff4e46c8600dd763356",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "1d5d82a7-ff41-4d66-81c6-35b3addbab91",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T22:49:09Z | CNBC\nTitle: SK Hynix overtakes Samsung in annual profit for the first time as AI reshapes rivalry\nURL: https://finnhub.io/api/news?id=8e82bc2998937fbfaf6867ddebfe4b0e85f970795cc1296753fa9a81729b9106\nSK Hynix beats rival Samsung Electronics in profits for 2025 for the first time ever, as the memory maker retains a lead in AI products. ",
+    "metadata": {
+      "title": "SK Hynix overtakes Samsung in annual profit for the first time as AI reshapes rivalry",
+      "published_at": "2026-01-28T22:49:09Z",
+      "source_name": "CNBC",
+      "url": "https://finnhub.io/api/news?id=8e82bc2998937fbfaf6867ddebfe4b0e85f970795cc1296753fa9a81729b9106",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry talks, insider buying, and AI optimism against Intel’s recent losses.",
+    "metadata": {
+      "title": "Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships",
+      "published_at": "2026-01-28T22:23:55Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T22:00:00Z | Yahoo\nTitle: NVIDIA Sets Conference Call for Fourth-Quarter Financial Results\nURL: https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4\nWritten CFO Commentary to Be Provided Ahead of CallSANTA CLARA, Calif., Jan. 28, 2026 (GLOBE NEWSWIRE) -- NVIDIA will host a conference call on Wednesday, February 25, at 2 p.m. PT (5 p.m. ET) to discuss its financial results for the fourth quarter and fiscal year 2026, which ended January 25, 2026. The call will be webcast live (in listen-only mode) on investor.nvidia.com. The company’s prepared remarks will be followed by a Q&A session, which will be limited to questions from financial analyst",
+    "metadata": {
+      "title": "NVIDIA Sets Conference Call for Fourth-Quarter Financial Results",
+      "published_at": "2026-01-28T22:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6137748c-9221-4199-95a3-889a3a95f5db",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T21:52:21Z | Yahoo\nTitle: Tesla invested $2B in Elon Musk’s xAI\nURL: https://finnhub.io/api/news?id=8f1e25b8a74ac7dc774113c796d5bfae39027d226e41c792e4e4abefe6bf7955\nElon Musk's AI company xAI disclosed earlier this month it had raised $20 billion.",
+    "metadata": {
+      "title": "Tesla invested $2B in Elon Musk’s xAI",
+      "published_at": "2026-01-28T21:52:21Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8f1e25b8a74ac7dc774113c796d5bfae39027d226e41c792e4e4abefe6bf7955",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "3ae9f5ce-b3d0-4b0a-805c-1833d85d6d76",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T21:45:00Z | Yahoo\nTitle: Why Less Than 10% of AI Investors Plan to Reduce Their Holdings in 2026, and 3 Stocks Worth Buying in 2026\nURL: https://finnhub.io/api/news?id=933b3b0345cabe4ef1297dca624cc31e9ca0df34e68a86aa2820e1548894e344\nArtificial intelligence is still in its early innings. These are the stocks to get behind for this year.",
+    "metadata": {
+      "title": "Why Less Than 10% of AI Investors Plan to Reduce Their Holdings in 2026, and 3 Stocks Worth Buying in 2026",
+      "published_at": "2026-01-28T21:45:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=933b3b0345cabe4ef1297dca624cc31e9ca0df34e68a86aa2820e1548894e344",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T21:44:32Z | Yahoo\nTitle: Nvidia: Is China falling behind in AI chip production race?\nURL: https://finnhub.io/api/news?id=aa32e341e99c2aea08bf42657beebdf7a7a9a83f4548f6d25d2adeac05ae0c53\nChina has given its domestic tech companies approval to purchase Nvidia's (NVDA) H200 AI chips, according to Wall Street Journal reporting.Christopher Miller, professor at Tufts University's Fletcher School, speaks with Josh Lipton about China's ultimate goal to become self-sufficient around artificial intelligence semiconductors.Miller is also the author of \"Chip War: The Fight for the World's Most Critical Technology.\"To watch more expert insights and analysis on the latest market action, check out more Market Domination.",
+    "metadata": {
+      "title": "Nvidia: Is China falling behind in AI chip production race?",
+      "published_at": "2026-01-28T21:44:32Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=aa32e341e99c2aea08bf42657beebdf7a7a9a83f4548f6d25d2adeac05ae0c53",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "86614e96-8811-4dd9-8a29-de604af39043",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T21:03:06Z | Yahoo\nTitle: Intel's Stock Soars as Client Rumors Swirl: Could Nvidia and Apple Deals Be on the Way?\nURL: https://finnhub.io/api/news?id=f560cbcfec40544cdefd58f515f63f118037032883d54d3ca9569a7abd0618c5\nCould Intel be closer to winning new chipmaking contracts from Nvidia and Apple?",
+    "metadata": {
+      "title": "Intel's Stock Soars as Client Rumors Swirl: Could Nvidia and Apple Deals Be on the Way?",
+      "published_at": "2026-01-28T21:03:06Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f560cbcfec40544cdefd58f515f63f118037032883d54d3ca9569a7abd0618c5",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "342037b2-6223-4ad2-81a9-50ce56a4454f",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T21:02:00Z | Yahoo\nTitle: Chip Makers Point to Accelerating Demand. It’s a Big Deal.\nURL: https://finnhub.io/api/news?id=55d8d3e113970b49fd7c6e62518922927ad838713c1ecedff44d482ddf2bb893\nRobust earnings commentary suggests chip makers are seeing rising demand and are willing to invest to add capacity going into next year.",
+    "metadata": {
+      "title": "Chip Makers Point to Accelerating Demand. It’s a Big Deal.",
+      "published_at": "2026-01-28T21:02:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=55d8d3e113970b49fd7c6e62518922927ad838713c1ecedff44d482ddf2bb893",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "441f497d-2712-42dd-b049-6caccbbad2ed",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T21:01:19Z | Yahoo\nTitle: Stock market today: S&P 500 slips from record as Fed stands pat, Nasdaq rises before Big Tech earnings flurry\nURL: https://finnhub.io/api/news?id=f7fa70c3b9786b84cd0d668ebe5424c777cabfbbfdd0fecbe952431263533289\nThe Fed's rate decision and 'Magnificent Seven' earnings from Microsoft, Meta, and Tesla are in focus.",
+    "metadata": {
+      "title": "Stock market today: S&P 500 slips from record as Fed stands pat, Nasdaq rises before Big Tech earnings flurry",
+      "published_at": "2026-01-28T21:01:19Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f7fa70c3b9786b84cd0d668ebe5424c777cabfbbfdd0fecbe952431263533289",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b71e5c7e-7612-4c9e-93b4-be0f1f3d3e5a",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T20:35:00Z | Yahoo\nTitle: Only 2 \"Magnificent Seven\" Stocks Outperformed the S&P 500 in 2025. Are They Both Buys for 2026?\nURL: https://finnhub.io/api/news?id=7573fa92133b52911ca82fc39c94d3b6c1eda61b53ff4b7763f4d1e6c2e82ab5\nIf you can stomach volatility, the long-term potential remains strong.",
+    "metadata": {
+      "title": "Only 2 \"Magnificent Seven\" Stocks Outperformed the S&P 500 in 2025. Are They Both Buys for 2026?",
+      "published_at": "2026-01-28T20:35:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7573fa92133b52911ca82fc39c94d3b6c1eda61b53ff4b7763f4d1e6c2e82ab5",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "68f6cb3a-3180-4dc4-9d14-ae6adc8c473d",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T20:07:09Z | Yahoo\nTitle: Intel Stock Just Got a New Street-High Price Target. Should You Buy INTC Here?\nURL: https://finnhub.io/api/news?id=1bb22c232826c87ba4111bb11fff406a5ef8665f7f55b837bfb4561069339939\nIntel stock rallies as Tigress Financial announces a Street-high price target of $66. Major Nvidia news is pushing INTC shares higher today as well.",
+    "metadata": {
+      "title": "Intel Stock Just Got a New Street-High Price Target. Should You Buy INTC Here?",
+      "published_at": "2026-01-28T20:07:09Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1bb22c232826c87ba4111bb11fff406a5ef8665f7f55b837bfb4561069339939",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "915307c0-c1d2-4232-a603-3de1f933fa52",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that chip giants Nvidia and Apple were considering using Intel's foundry services for future chip production.",
+    "metadata": {
+      "title": "Why Intel (INTC) Stock Is Up Today",
+      "published_at": "2026-01-28T20:01:43Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "163132e4-10ea-41bc-9202-e5eb0356c9f3",
+    "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+    "source_type": "news",
+    "text": "[NEWS] 2026-01-28T20:00:00Z | Yahoo\nTitle: Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026\nURL: https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb\nNVIDIA stands out in 2026 as a top profitable semiconductor pick, boasting a 53% net income ratio as investors favor companies with strong bottom lines.",
+    "metadata": {
+      "title": "Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026",
+      "published_at": "2026-01-28T20:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb",
+      "ticker": "NVDA"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0dd0d2d0-33e6-444f-8d2f-8f3e8eb5cda9",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "[FILING] NVDA 10-Q | Filed: 2025-11-19 | Accepted: 2025-11-19T21:36:17.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-11-19",
+      "accepted_at": "2025-11-19T21:36:17.000Z",
+      "accession_number": "0001045810-25-000230",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-11-19",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d5026255-f0a7-4032-b3f9-6535d4472dc5",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 25 Item 3. Quantitative and Qualitative Disclosures About Market Risk 32 Item 4. Controls and Procedures 33 Part II : Other Information Item 1. Legal Proceedings 33 Item 1A. Risk Factors 33 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 41 Item 5. Other Information 42 Item 6. Exhibits 43 Signature 44 Where You Can Find More Information Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters, and for complying with our disclosure obligations under Regulation FD: NVIDIA Corporate Blog (http://blogs.nvidia.com) NVIDIA Technical Blog (http://developer.nvidia.com/blog/) NVIDIA LinkedIn Page (http://www.linkedin.com/company/nvidia) NVIDIA Facebook Page (https://www.facebook.com/nvidia) NVIDIA Instagram Page (https://www.instagram.com/nvidia) NVIDIA X Account (https://x.com/nvidia) NVIDIA Threads Page (https://www.threads.com/@nvidia) NVIDIA Investor Relations Page (https://investor.nvidia.com) In addition, investors and others can view NVIDIA videos on YouTube (https://www.YouTube.com/nvidia). The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q. These channels may be updated from time to time on NVIDIA's investor relations website. 2 Part I. Financial Information Item 1. Financial Statements (Unaudited) NVIDIA Corporation and Subsidiaries Condensed Consolidated Statements of Income (In millions, except per share data) (Unaudited) Three Months Ended Nine Months Ended Oct 26, 2025 Oct 27, 2024 Oct 26, 2025 Oct 27, 2024 Revenue $ 57,006 $ 35,082 $ 147,811 $ 91,166 Cost of revenue 15,157 8,926 45,441 22,031 Gross profit 41,849 26,156 102,370",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-11-19",
+      "accepted_at": "2025-11-19T21:36:17.000Z",
+      "accession_number": "0001045810-25-000230",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-11-19",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "78860967-c1d9-421e-a662-0d2e3592c94a",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 33 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 41 Item 5. Other Information 42 Item 6. Exhibits 43 Signature 44 Where You Can Find More Information Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters, and for complying with our disclosure obligations under Regulation FD: NVIDIA Corporate Blog (http://blogs.nvidia.com) NVIDIA Technical Blog (http://developer.nvidia.com/blog/) NVIDIA LinkedIn Page (http://www.linkedin.com/company/nvidia) NVIDIA Facebook Page (https://www.facebook.com/nvidia) NVIDIA Instagram Page (https://www.instagram.com/nvidia) NVIDIA X Account (https://x.com/nvidia) NVIDIA Threads Page (https://www.threads.com/@nvidia) NVIDIA Investor Relations Page (https://investor.nvidia.com) In addition, investors and others can view NVIDIA videos on YouTube (https://www.YouTube.com/nvidia). The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q. These channels may be updated from time to time on NVIDIA's investor relations website. 2 Part I. Financial Information Item 1. Financial Statements (Unaudited) NVIDIA Corporation and Subsidiaries Condensed Consolidated Statements of Income (In millions, except per share data) (Unaudited) Three Months Ended Nine Months Ended Oct 26, 2025 Oct 27, 2024 Oct 26, 2025 Oct 27, 2024 Revenue $ 57,006 $ 35,082 $ 147,811 $ 91,166 Cost of revenue 15,157 8,926 45,441 22,031 Gross profit 41,849 26,156 102,370 69,135 Operating expenses Research and development 4,705 3,390 12,985 9,200 Sales, general and administrative 1,134 897 3,297 2,516 Total operating expenses 5,839 4,287 16,282 11,716 Operating income 36,010 21,869 86,088 57,419 Interest income 624 472",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-11-19",
+      "accepted_at": "2025-11-19T21:36:17.000Z",
+      "accession_number": "0001045810-25-000230",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-11-19",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d5027077-e960-4208-ad5e-674648e45932",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "[FILING] NVDA 10-Q | Filed: 2025-08-27 | Accepted: 2025-08-27T20:52:07.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-08-27",
+      "accepted_at": "2025-08-27T20:52:07.000Z",
+      "accession_number": "0001045810-25-000209",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-08-27",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7c2afacb-0b75-4b69-a7a5-1fb23f334a29",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 24 Item 3. Quantitative and Qualitative Disclosures About Market Risk 31 Item 4. Controls and Procedures 32 Part II : Other Information Item 1. Legal Proceedings 32 Item 1A. Risk Factors 32 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 37 Item 5. Other Information 38 Item 6. Exhibits 39 Signature 40 Where You Can Find More Information Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters, and for complying with our disclosure obligations under Regulation FD: NVIDIA Corporate Blog (http://blogs.nvidia.com) NVIDIA Technical Blog (http://developer.nvidia.com/blog/) NVIDIA LinkedIn Page (http://www.linkedin.com/company/nvidia) NVIDIA Facebook Page (https://www.facebook.com/nvidia) NVIDIA Instagram Page (https://www.instagram.com/nvidia) NVIDIA X Account (https://x.com/nvidia) NVIDIA Threads Page (https://www.threads.com/@nvidia) In addition, investors and others can view NVIDIA videos on YouTube (https://www.YouTube.com/nvidia). The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q. These channels may be updated from time to time on NVIDIA's investor relations website. 2 Part I. Financial Information Item 1. Financial Statements (Unaudited) NVIDIA Corporation and Subsidiaries Condensed Consolidated Statements of Income (In millions, except per share data) (Unaudited) Three Months Ended Six Months Ended Jul 27, 2025 Jul 28, 2024 Jul 27, 2025 Jul 28, 2024 Revenue $ 46,743 $ 30,040 $ 90,805 $ 56,084 Cost of revenue 12,890 7,466 30,284 13,105 Gross profit 33,853 22,574 60,521 42,979 Operating expenses Research and development 4,291 3,090 8",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-08-27",
+      "accepted_at": "2025-08-27T20:52:07.000Z",
+      "accession_number": "0001045810-25-000209",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-08-27",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d9db0291-26ad-4823-9a4f-73e5390fbd96",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 32 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 37 Item 5. Other Information 38 Item 6. Exhibits 39 Signature 40 Where You Can Find More Information Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters, and for complying with our disclosure obligations under Regulation FD: NVIDIA Corporate Blog (http://blogs.nvidia.com) NVIDIA Technical Blog (http://developer.nvidia.com/blog/) NVIDIA LinkedIn Page (http://www.linkedin.com/company/nvidia) NVIDIA Facebook Page (https://www.facebook.com/nvidia) NVIDIA Instagram Page (https://www.instagram.com/nvidia) NVIDIA X Account (https://x.com/nvidia) NVIDIA Threads Page (https://www.threads.com/@nvidia) In addition, investors and others can view NVIDIA videos on YouTube (https://www.YouTube.com/nvidia). The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q. These channels may be updated from time to time on NVIDIA's investor relations website. 2 Part I. Financial Information Item 1. Financial Statements (Unaudited) NVIDIA Corporation and Subsidiaries Condensed Consolidated Statements of Income (In millions, except per share data) (Unaudited) Three Months Ended Six Months Ended Jul 27, 2025 Jul 28, 2024 Jul 27, 2025 Jul 28, 2024 Revenue $ 46,743 $ 30,040 $ 90,805 $ 56,084 Cost of revenue 12,890 7,466 30,284 13,105 Gross profit 33,853 22,574 60,521 42,979 Operating expenses Research and development 4,291 3,090 8,280 5,810 Sales, general and administrative 1,122 842 2,163 1,618 Total operating expenses 5,413 3,932 10,443 7,428 Operating income 28,440 18,642 50,078 35,551 Interest income 592 444 1,108 803 Interest expense ( 62 ) ( 61 ) ( 124 ) ( 125 ) Other in",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-08-27",
+      "accepted_at": "2025-08-27T20:52:07.000Z",
+      "accession_number": "0001045810-25-000209",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-08-27",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b4d26ce7-b771-4e74-bd19-51f8d658e552",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "[FILING] NVDA 10-Q | Filed: 2025-05-28 | Accepted: 2025-05-28T20:32:57.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-28",
+      "accepted_at": "2025-05-28T20:32:57.000Z",
+      "accession_number": "0001045810-25-000116",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-28",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b4da789c-92e4-4a79-b4e2-1e621544647b",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 22 Item 3. Quantitative and Qualitative Disclosures About Market Risk 29 Item 4. Controls and Procedures 30 Part II : Other Information Item 1. Legal Proceedings 30 Item 1A. Risk Factors 30 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 36 Item 5. Other Information 37 Item 6. Exhibits 38 Signature 39 Where You Can Find More Information Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters, and for complying with our disclosure obligations under Regulation FD: NVIDIA Corporate Blog (http://blogs.nvidia.com) NVIDIA Technical Blog (http://developer.nvidia.com/blog/) NVIDIA LinkedIn Page (http://www.linkedin.com/company/nvidia) NVIDIA Facebook Page (https://www.facebook.com/nvidia) NVIDIA Instagram Page (https://www.instagram.com/nvidia) NVIDIA X Account (https://x.com/nvidia) In addition, investors and others can view NVIDIA videos on YouTube (https://www.YouTube.com/nvidia). The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q. These channels may be updated from time to time on NVIDIA's investor relations website. 2 Part I. Financial Information Item 1. Financial Statements (Unaudited) NVIDIA Corporation and Subsidiaries Condensed Consolidated Statements of Income (In millions, except per share data) (Unaudited) Three Months Ended Apr 27, 2025 Apr 28, 2024 Revenue $ 44,062 $ 26,044 Cost of revenue 17,394 5,638 Gross profit 26,668 20,406 Operating expenses Research and development 3,989 2,720 Sales, general and administrative 1,041 777 Total operating expenses 5,030 3,497 Operating income 21,638 16,909 Interest income 515 359 Interest",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-28",
+      "accepted_at": "2025-05-28T20:32:57.000Z",
+      "accession_number": "0001045810-25-000116",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-28",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e185cafb-b2ea-4e5b-a050-d87da6b32290",
+    "source_id": "6936a35d-6a24-40fe-bae2-a7ecd0fd2dbc",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 30 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 36 Item 5. Other Information 37 Item 6. Exhibits 38 Signature 39 Where You Can Find More Information Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We also use the following social media channels as a means of disclosing information about the company, our products, our planned financial and other announcements and attendance at upcoming investor and industry conferences, and other matters, and for complying with our disclosure obligations under Regulation FD: NVIDIA Corporate Blog (http://blogs.nvidia.com) NVIDIA Technical Blog (http://developer.nvidia.com/blog/) NVIDIA LinkedIn Page (http://www.linkedin.com/company/nvidia) NVIDIA Facebook Page (https://www.facebook.com/nvidia) NVIDIA Instagram Page (https://www.instagram.com/nvidia) NVIDIA X Account (https://x.com/nvidia) In addition, investors and others can view NVIDIA videos on YouTube (https://www.YouTube.com/nvidia). The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. The information we post through these channels is not a part of this Quarterly Report on Form 10-Q. These channels may be updated from time to time on NVIDIA's investor relations website. 2 Part I. Financial Information Item 1. Financial Statements (Unaudited) NVIDIA Corporation and Subsidiaries Condensed Consolidated Statements of Income (In millions, except per share data) (Unaudited) Three Months Ended Apr 27, 2025 Apr 28, 2024 Revenue $ 44,062 $ 26,044 Cost of revenue 17,394 5,638 Gross profit 26,668 20,406 Operating expenses Research and development 3,989 2,720 Sales, general and administrative 1,041 777 Total operating expenses 5,030 3,497 Operating income 21,638 16,909 Interest income 515 359 Interest expense ( 63 ) ( 64 ) Other income (expense), net ( 180 ) 75 Total other income (expense), net 272 370 Income before income tax 21,910 17,279 Income tax expense 3,135 2,398 Net income $ 18,775 $ 14,881 Net income per share: Basic $ 0.77 $ 0.60 Dilute",
+    "metadata": {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-28",
+      "accepted_at": "2025-05-28T20:32:57.000Z",
+      "accession_number": "0001045810-25-000116",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-28",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "9bcfe8db-10b4-4f04-ae98-3b9be50d43e0",
+    "source_id": "e99e5c23-7a70-4071-a633-6d1d008ad591",
+    "source_type": "price_data",
+    "text": "Price history for NVDA from 2025-01-28 to 2026-01-28: Opening price on 2025-01-28: $128.99, Closing price on 2026-01-28: $191.52. 52-week high: $212.19, 52-week low: $86.62.",
+    "metadata": {
+      "ticker": "NVDA",
+      "from_date": "2025-01-28",
+      "to_date": "2026-01-28",
+      "data_points": 252,
+      "price_start": 128.99,
+      "price_end": 191.52,
+      "price_high": 212.19,
+      "price_low": 86.62,
+      "series_role": "stock",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b7bd839a-4a6f-4bb3-a24d-2582d07de431",
+    "source_id": "490c4fb3-c5b4-4c0b-8a3c-55336b7d611d",
+    "source_type": "price_data",
+    "text": "Price history for SPY from 2025-01-28 to 2026-01-28: Opening price on 2025-01-28: $604.52, Closing price on 2026-01-28: $695.42. 52-week high: $697.84, 52-week low: $481.80.",
+    "metadata": {
+      "ticker": "SPY",
+      "from_date": "2025-01-28",
+      "to_date": "2026-01-28",
+      "data_points": 252,
+      "price_start": 604.52,
+      "price_end": 695.42,
+      "price_high": 697.84,
+      "price_low": 481.8,
+      "series_role": "benchmark",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

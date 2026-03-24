@@ -28,6 +28,7 @@ from errgen.models import (
     RevisionRecord,
     VerificationStatus,
 )
+from errgen.prompt_aliases import aliases_for_ids, build_prompt_alias_maps, ids_for_aliases
 
 logger = logging.getLogger(__name__)
 
@@ -46,8 +47,8 @@ Your task:
 Return a JSON object:
 {
   "text": "The revised paragraph text.",
-  "chunk_ids": ["id1", "id2"],
-  "calc_ids": ["calc_id1"],
+  "chunk_ids": ["C001", "C002"],
+  "calc_ids": ["K001"],
   "changes_summary": "Brief description of what was changed and why."
 }
 """
@@ -93,9 +94,14 @@ class ReviserAgent:
             )
             return paragraph, record
 
-        issues_block = self._format_issues(blocking_issues)
-        chunk_block = self._format_chunks(chunks)
-        calc_block = self._format_calcs(calc_results)
+        alias_maps = build_prompt_alias_maps(chunks, calc_results)
+        issues_block = self._format_issues(
+            blocking_issues,
+            alias_maps.chunk_id_to_alias,
+            alias_maps.calc_id_to_alias,
+        )
+        chunk_block = self._format_chunks(chunks, alias_maps.chunk_id_to_alias)
+        calc_block = self._format_calcs(calc_results, alias_maps.calc_id_to_alias)
 
         user_prompt = (
             f"=== ORIGINAL PARAGRAPH (Section: {paragraph.section_name}) ===\n"
@@ -103,8 +109,8 @@ class ReviserAgent:
             f"=== CHECKER ISSUES TO FIX ===\n{issues_block}\n\n"
             f"=== ALL AVAILABLE EVIDENCE CHUNKS ===\n{chunk_block}\n\n"
             f"=== CALCULATION RESULTS ===\n{calc_block}\n\n"
-            f"Current cited chunk IDs: {paragraph.chunk_ids}\n"
-            f"Current cited calc IDs:  {paragraph.calc_ids}\n\n"
+            f"Current cited chunk refs: {aliases_for_ids(paragraph.chunk_ids, alias_maps.chunk_id_to_alias)}\n"
+            f"Current cited calc refs:  {aliases_for_ids(paragraph.calc_ids, alias_maps.calc_id_to_alias)}\n\n"
             f"Revise the paragraph to fix all critical and major issues. "
             f"Return the JSON as specified."
         )
@@ -138,18 +144,16 @@ class ReviserAgent:
             )
 
         # Validate cited IDs
-        available_chunk_ids = {c.chunk_id for c in chunks}
-        available_calc_ids = {c.calc_id for c in calc_results}
         chunk_map = {c.chunk_id: c for c in chunks}
 
-        new_chunk_ids = [
-            cid for cid in raw.get("chunk_ids", [])
-            if cid in available_chunk_ids
-        ]
-        new_calc_ids = [
-            cid for cid in raw.get("calc_ids", [])
-            if cid in available_calc_ids
-        ]
+        new_chunk_ids = ids_for_aliases(
+            raw.get("chunk_ids", []),
+            alias_maps.chunk_alias_to_id,
+        )
+        new_calc_ids = ids_for_aliases(
+            raw.get("calc_ids", []),
+            alias_maps.calc_alias_to_id,
+        )
 
         # Rebuild citations
         new_citations: list[Citation] = []
@@ -194,25 +198,34 @@ class ReviserAgent:
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _format_issues(issues: list[CheckerIssue]) -> str:
+    def _format_issues(
+        issues: list[CheckerIssue],
+        chunk_id_to_alias: dict[str, str],
+        calc_id_to_alias: dict[str, str],
+    ) -> str:
         lines = []
         for i, issue in enumerate(issues, 1):
             lines.append(
                 f"Issue {i}: [{issue.severity.value.upper()}] {issue.issue_type.value}\n"
                 f"  Offending: {issue.offending_span or 'N/A'}\n"
                 f"  Explanation: {issue.explanation}\n"
-                f"  Relevant chunks: {issue.relevant_chunk_ids}\n"
+                f"  Relevant chunks: {aliases_for_ids(issue.relevant_chunk_ids, chunk_id_to_alias)}\n"
+                f"  Relevant calcs: {aliases_for_ids(issue.relevant_calc_ids, calc_id_to_alias)}\n"
                 f"  Fix direction: {issue.recommended_fix}\n"
             )
         return "\n".join(lines)
 
     @staticmethod
-    def _format_chunks(chunks: list[EvidenceChunk], max_chars: int = 10000) -> str:
+    def _format_chunks(
+        chunks: list[EvidenceChunk],
+        chunk_id_to_alias: dict[str, str],
+        max_chars: int = 10000,
+    ) -> str:
         lines = []
         total = 0
         for chunk in chunks:
             entry = (
-                f"[CHUNK_ID: {chunk.chunk_id}]\n"
+                f"[CHUNK_REF: {chunk_id_to_alias.get(chunk.chunk_id, chunk.chunk_id)}]\n"
                 f"Type: {chunk.source_type.value} | Period: {chunk.period or 'N/A'}\n"
                 f"{chunk.text[:500]}\n---\n"
             )
@@ -224,13 +237,17 @@ class ReviserAgent:
         return "\n".join(lines)
 
     @staticmethod
-    def _format_calcs(calcs: list[CalculationResult]) -> str:
+    def _format_calcs(
+        calcs: list[CalculationResult],
+        calc_id_to_alias: dict[str, str],
+    ) -> str:
         if not calcs:
             return "(none)"
         lines = []
         for calc in calcs:
+            alias = calc_id_to_alias.get(calc.calc_id, calc.calc_id)
             if calc.error:
-                lines.append(f"[CALC_ID: {calc.calc_id}] ERROR: {calc.error}")
+                lines.append(f"[CALC_REF: {alias}] ERROR: {calc.error}")
             else:
                 result_str = (
                     f"{calc.result:.4f}"
@@ -238,6 +255,6 @@ class ReviserAgent:
                     else str(calc.result)
                 )
                 lines.append(
-                    f"[CALC_ID: {calc.calc_id}] {calc.description} → {result_str}"
+                    f"[CALC_REF: {alias}] {calc.description} → {result_str}"
                 )
         return "\n".join(lines)

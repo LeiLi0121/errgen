@@ -1,0 +1,14 @@
+{
+  "revision_id": "3ca23375-e110-49cf-ae6b-da97a77b3afe",
+  "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+  "iteration": 1,
+  "original_text": "Key growth drivers for Amazon center on AWS cloud services and the advertising business, both identified as high-margin segments supporting earnings expectations [f3922ad9-85d8-409b-916a-444e08a6a248]. AWS provides compute, storage, database, analytics, and machine learning services to enterprises, representing a critical profit driver within the three-segment structure [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The advertising business complements the retail ecosystem by enabling sellers and brands to reach customers across Amazon's platforms [43e13619-4c35-4dd4-a32b-ceaa18319a42]. Amazon was among the 'Magnificent Seven' technology companies reporting earnings in late July 2025, with combined market capitalization of approximately $11.3 trillion for the group facing investor scrutiny [95e75447-3c30-49f6-861e-b4c471cfa261, 7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47]. Evidence on specific advertising revenue figures, AWS growth rates, and detailed segment profitability is not provided in the available data.",
+  "revised_text": "Amazon.com, Inc. operates through three segments: North America, International, and Amazon Web Services (AWS) [43e13619-4c35-4dd4-a32b-ceaa18319a42]. The company engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally [43e13619-4c35-4dd4-a32b-ceaa18319a42]. AWS represents a critical segment within the company's three-segment structure [43e13619-4c35-4dd4-a32b-ceaa18319a42]. For FY 2025, Amazon reported revenue of $716,924,000,000 and operating income of $79,975,000,000 [4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, 98d37e7b-d9b8-4798-8d78-32c8508a1ff4]. Evidence on specific advertising revenue figures, AWS growth rates, and detailed segment profitability is not provided in the available data.",
+  "issues_addressed": [
+    "0b52402a-8c8b-4d81-8f76-827d42c4418f",
+    "08b8b320-67ed-4aec-a545-38b2f19ec0de",
+    "9daecbdb-116d-4d7b-a08c-278f55ff779e"
+  ],
+  "changes_summary": "Removed unsupported claims: (1) 'high-margin segments' descriptor as no chunk supports this characterization, (2) specific AWS service offerings (compute, storage, database, etc.) as chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 only names AWS as a segment without detailing services, (3) advertising business description as no available chunk discusses Amazon's advertising segment, (4) 'Magnificent Seven' and $11.3 trillion market cap claims as chunks 95e75447-3c30-49f6-861e-b4c471cfa261 and 7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47 are not in available evidence. Retained verified information about three-segment structure and added supported FY 2025 financial figures from available income statement chunks.",
+  "revised_at": "2026-03-12T11:17:25.349620"
+}

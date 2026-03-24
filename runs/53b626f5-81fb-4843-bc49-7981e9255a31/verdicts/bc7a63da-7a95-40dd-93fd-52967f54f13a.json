@@ -1,0 +1,22 @@
+{
+  "verdict_id": "bc7a63da-7a95-40dd-93fd-52967f54f13a",
+  "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "23a5bdcd-e5e8-4d81-8d2c-bf7ebacb3d2c",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+      "offending_span": "Operating income has demonstrated dramatic expansion from $12.2 billion in FY2022",
+      "explanation": "The paragraph cites chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e for the FY2022 operating income figure of $12.2 billion, but this chunk is not provided in the CITED EVIDENCE CHUNKS section. The claim cannot be verified from the available evidence provided for this paragraph check. While this figure was verified in previous sections (Risk Analysis), the specific evidence chunk is not available for independent verification of this paragraph.",
+      "relevant_chunk_ids": [
+        "bc591e33-ea87-4e39-a4cb-9ca56789b93e"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide the cited chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e in the evidence section, or revise the sentence to focus only on FY2024-FY2025 operating income figures which are fully supported by the provided chunks (4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc and 7f42935f-2962-4418-812e-c92a56b27b2e)."
+    }
+  ],
+  "checked_at": "2026-03-12T12:38:27.594580",
+  "iteration": 0
+}

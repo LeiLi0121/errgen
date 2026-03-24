@@ -36,6 +36,7 @@ from errgen.models import (
     IssueType,
     VerificationStatus,
 )
+from errgen.prompt_aliases import aliases_for_ids, build_prompt_alias_maps
 
 logger = logging.getLogger(__name__)
 
@@ -71,8 +72,8 @@ Return a JSON object:
       "severity": "critical | major | minor",
       "offending_span": "<the exact problematic text from the paragraph, or null>",
       "explanation": "<why this is an issue>",
-      "relevant_chunk_ids": ["id1", ...],
-      "relevant_calc_ids": ["calc_id1", ...],
+      "relevant_chunk_ids": ["C001", ...],
+      "relevant_calc_ids": ["K001", ...],
       "recommended_fix": "<specific actionable guidance for revision>"
     }
   ]
@@ -129,25 +130,30 @@ class CheckerAgent:
         # summary of all available chunks to detect missing citations)
         cited_chunks = [c for c in chunks if c.chunk_id in paragraph.chunk_ids]
         uncited_chunks = [c for c in chunks if c.chunk_id not in paragraph.chunk_ids]
+        alias_maps = build_prompt_alias_maps(chunks, calc_results)
 
-        cited_block = self._format_chunks(cited_chunks, label="CITED CHUNKS")
+        cited_block = self._format_chunks(
+            cited_chunks,
+            alias_maps.chunk_id_to_alias,
+            label="CITED CHUNKS",
+        )
         available_ids_note = (
             f"\nOther available (but uncited) chunk IDs: "
-            f"{[c.chunk_id for c in uncited_chunks[:20]]}"
+            f"{aliases_for_ids([c.chunk_id for c in uncited_chunks[:20]], alias_maps.chunk_id_to_alias)}"
             if uncited_chunks
             else ""
         )
 
         cited_calcs = [c for c in calc_results if c.calc_id in paragraph.calc_ids]
-        calc_block = self._format_calcs(cited_calcs)
+        calc_block = self._format_calcs(cited_calcs, alias_maps.calc_id_to_alias)
 
         user_prompt = (
             f"=== PARAGRAPH TO CHECK ===\n"
             f"Paragraph ID: {paragraph.paragraph_id}\n"
             f"Section: {paragraph.section_name}\n\n"
             f"{paragraph.text}\n\n"
-            f"Cited chunk IDs: {paragraph.chunk_ids}\n"
-            f"Cited calc IDs:  {paragraph.calc_ids}\n\n"
+            f"Cited chunk refs: {aliases_for_ids(paragraph.chunk_ids, alias_maps.chunk_id_to_alias)}\n"
+            f"Cited calc refs:  {aliases_for_ids(paragraph.calc_ids, alias_maps.calc_id_to_alias)}\n\n"
             f"=== CITED EVIDENCE CHUNKS ===\n{cited_block}{available_ids_note}\n\n"
             f"=== CITED CALCULATION RESULTS ===\n{calc_block}\n\n"
             + (f"=== AS-OF DATE ===\n{as_of_date}\n\n" if as_of_date else "")
@@ -185,20 +191,30 @@ class CheckerAgent:
                 iteration=iteration,
             )
 
-        return self._parse_verdict(raw, paragraph.paragraph_id, iteration)
+        return self._parse_verdict(
+            raw,
+            paragraph.paragraph_id,
+            iteration,
+            alias_maps.chunk_alias_to_id,
+            alias_maps.calc_alias_to_id,
+        )
 
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _format_chunks(chunks: list[EvidenceChunk], label: str = "CHUNKS") -> str:
+    def _format_chunks(
+        chunks: list[EvidenceChunk],
+        chunk_id_to_alias: dict[str, str],
+        label: str = "CHUNKS",
+    ) -> str:
         if not chunks:
             return f"({label}: none cited)\n"
         lines = []
         for chunk in chunks:
             lines.append(
-                f"[CHUNK_ID: {chunk.chunk_id}]\n"
+                f"[CHUNK_REF: {chunk_id_to_alias.get(chunk.chunk_id, chunk.chunk_id)}]\n"
                 f"Type: {chunk.source_type.value} | Period: {chunk.period or 'N/A'} | "
                 f"Field: {chunk.field_name or 'N/A'}\n"
                 f"{chunk.text[:600]}\n---"
@@ -206,14 +222,18 @@ class CheckerAgent:
         return "\n".join(lines)
 
     @staticmethod
-    def _format_calcs(calcs: list[CalculationResult]) -> str:
+    def _format_calcs(
+        calcs: list[CalculationResult],
+        calc_id_to_alias: dict[str, str],
+    ) -> str:
         if not calcs:
             return "(no calculations cited)\n"
         lines = []
         for calc in calcs:
+            alias = calc_id_to_alias.get(calc.calc_id, calc.calc_id)
             if calc.error:
                 lines.append(
-                    f"[CALC_ID: {calc.calc_id}] ERROR: {calc.error}\n---"
+                    f"[CALC_REF: {alias}] ERROR: {calc.error}\n---"
                 )
             else:
                 result_str = (
@@ -222,7 +242,7 @@ class CheckerAgent:
                     else str(calc.result)
                 )
                 lines.append(
-                    f"[CALC_ID: {calc.calc_id}]\n"
+                    f"[CALC_REF: {alias}]\n"
                     f"Description: {calc.description}\n"
                     f"Formula: {calc.formula_description}\n"
                     f"Result: {result_str}\n---"
@@ -231,7 +251,11 @@ class CheckerAgent:
 
     @staticmethod
     def _parse_verdict(
-        raw: dict, paragraph_id: str, iteration: int
+        raw: dict,
+        paragraph_id: str,
+        iteration: int,
+        chunk_alias_to_id: dict[str, str],
+        calc_alias_to_id: dict[str, str],
     ) -> CheckerVerdict:
         """Parse the LLM JSON response into a CheckerVerdict."""
         status_str = raw.get("status", "fail").lower()
@@ -260,8 +284,16 @@ class CheckerAgent:
                     paragraph_id=paragraph_id,
                     offending_span=item.get("offending_span"),
                     explanation=item.get("explanation", ""),
-                    relevant_chunk_ids=item.get("relevant_chunk_ids", []),
-                    relevant_calc_ids=item.get("relevant_calc_ids", []),
+                    relevant_chunk_ids=[
+                        chunk_alias_to_id[alias]
+                        for alias in item.get("relevant_chunk_ids", [])
+                        if alias in chunk_alias_to_id
+                    ],
+                    relevant_calc_ids=[
+                        calc_alias_to_id[alias]
+                        for alias in item.get("relevant_calc_ids", [])
+                        if alias in calc_alias_to_id
+                    ],
                     recommended_fix=item.get("recommended_fix", ""),
                 )
             )

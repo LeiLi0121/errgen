@@ -1,0 +1,110 @@
+{
+  "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Revenue concentration and margin sustainability present potential risk factors, as reported revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a, 93b368f3-dee2-424f-8a66-93f166f9b1f8].",
+  "citations": [
+    {
+      "citation_id": "9ecec49e-ddf2-4ef1-a42b-eff9d509da25",
+      "chunk_id": "cdffc354-305b-4c6d-9459-624d8d18147a",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2026-01-25\n  Revenue:            $215,938,000,000\n  Gross Profit:       $153,463,000,000 (margin N/A)\n  Operating Income:   $130,387,000,000 (margin N/A)\n  Net Income:         $120,067,000,000 (margin N/A)\n  EBITDA:             $144,552,000,000\n  EPS:    ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "72ccb821-8d12-4848-bae3-79f28fe3eb4a",
+      "chunk_id": "93b368f3-dee2-424f-8a66-93f166f9b1f8",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2025-01-26\n  Revenue:            $130,497,000,000\n  Gross Profit:       $97,858,000,000 (margin N/A)\n  Operating Income:   $81,453,000,000 (margin N/A)\n  Net Income:         $72,880,000,000 (margin N/A)\n  EBITDA:             $86,137,000,000\n  EPS:        ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "cdffc354-305b-4c6d-9459-624d8d18147a",
+    "93b368f3-dee2-424f-8a66-93f166f9b1f8"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "34c2ca82-33ea-41d8-9180-04b9bb80983d",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "12ca11e9-9929-4b02-b4b3-ec9368965975",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+          "offending_span": "revenue growth from $26.97 billion in FY2023 to $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a]",
+          "explanation": "The paragraph cites chunk 76fd1884-5c53-4fe5-97f0-d7b7352ee252 for the FY2023 revenue figure ($26.97 billion), but this chunk ID is NOT included in the 'Cited chunk IDs' list provided for this paragraph (only cdffc354-305b-4c6d-9459-624d8d18147a is listed). While the FY2023 revenue figure was verified in the Previously Verified Facts section, the current paragraph's citation metadata does not properly support this claim with the available cited evidence.",
+          "relevant_chunk_ids": [
+            "cdffc354-305b-4c6d-9459-624d8d18147a"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add chunk 76fd1884-5c53-4fe5-97f0-d7b7352ee252 to the Cited chunk IDs list for this paragraph, or revise the citation to only reference cdffc354-305b-4c6d-9459-624d8d18147a if that chunk contains both FY2023 and FY2026 revenue data. Alternatively, restructure the sentence to cite only the FY2026 figure from the available chunk and reference the FY2023 figure through Previously Verified Facts."
+        }
+      ],
+      "checked_at": "2026-03-11T15:36:33.742553",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "db802711-1ee3-44c3-9ba0-397e6be430bf",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "a7322cae-12bd-45bd-806f-c4120be42373",
+          "issue_type": "internal_inconsistency",
+          "severity": "major",
+          "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+          "offending_span": "projected revenue of $215.94 billion in FY2026",
+          "explanation": "The paragraph describes FY2026 revenue as 'projected', which contradicts the 'Previously Verified Facts' in the Risk Analysis section that state 'Revenue grew from ... to $215,938,000,000 in FY 2026' (using past tense 'grew', implying actuals). Additionally, the 'Recent Developments' section confirms NVIDIA reported Q4 earnings on February 25, 2026, meaning FY2026 results are finalized, not projected.",
+          "relevant_chunk_ids": [
+            "cdffc354-305b-4c6d-9459-624d8d18147a"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change 'projected revenue' to 'revenue' or 'reported revenue' to accurately reflect the finalized status of FY2026 financials as established in the verified context."
+        }
+      ],
+      "checked_at": "2026-03-11T15:39:27.622956",
+      "iteration": 1
+    },
+    {
+      "verdict_id": "2fd9fb50-08c6-478f-954e-d4b927861936",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T15:40:53.964137",
+      "iteration": 2
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "a30e5592-f711-4429-b75d-e89dd43b8167",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "iteration": 1,
+      "original_text": "Revenue concentration and margin sustainability present potential risk factors, as revenue growth from $26.97 billion in FY2023 to $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a]. Additionally, evidence regarding macro/geopolitical risks, competitive landscape threats, regulatory/antitrust exposure, and supply chain vulnerabilities is insufficient in the provided data to quantify these risk categories with specificity [Risk Analysis section].",
+      "revised_text": "Revenue concentration and margin sustainability present potential risk factors, as projected revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a].",
+      "issues_addressed": [
+        "12ca11e9-9929-4b02-b4b3-ec9368965975"
+      ],
+      "changes_summary": "Removed the unsupported FY2023 revenue figure ($26.97 billion) as no corresponding evidence chunk exists in the provided data. Removed the claim regarding insufficient evidence for specific risk categories as this meta-claim could not be supported by a cited chunk. Retained the FY2026 revenue projection ($215.94 billion) which is supported by chunk cdffc354-305b-4c6d-9459-624d8d18147a. Updated citations to match the available evidence.",
+      "revised_at": "2026-03-11T15:37:49.007807"
+    },
+    {
+      "revision_id": "f977e83d-36df-4fde-b5fc-f6207c622d2c",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "iteration": 2,
+      "original_text": "Revenue concentration and margin sustainability present potential risk factors, as projected revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a].",
+      "revised_text": "Revenue concentration and margin sustainability present potential risk factors, as reported revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a, 93b368f3-dee2-424f-8a66-93f166f9b1f8].",
+      "issues_addressed": [
+        "a7322cae-12bd-45bd-806f-c4120be42373"
+      ],
+      "changes_summary": "Changed 'projected revenue' to 'reported revenue' to accurately reflect FY2026 actuals as per income statement and earnings reports. Added FY2025 revenue chunk to support the factual claim of 'substantial expansion'.",
+      "revised_at": "2026-03-11T15:40:29.773187"
+    }
+  ],
+  "iteration": 0
+}

@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "d8762dc6-77f3-405b-924c-a87c009e8f8e",
+  "section_name": "Company Overview",
+  "text": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: https://www.amazon.com",
+  "citations": [
+    {
+      "citation_id": "942a864e-e176-4b5c-baa9-8b064887454b",
+      "chunk_id": "e65da658-2e8e-45cc-a6fc-d7c488c49e6a",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: https://www.amazon.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e65da658-2e8e-45cc-a6fc-d7c488c49e6a"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

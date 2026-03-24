@@ -1,0 +1,23 @@
+{
+  "verdict_id": "86da0817-f898-4995-b541-ef38b134c946",
+  "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "47b05693-4b0d-43ee-9560-d9d1dfb39c92",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+      "offending_span": "Deutsche Bank raising its price target to $220 while Bank of America reset its price target following the earnings report [de81755d-f657-4d81-ac51-0e4d3302477e, 09dfa05d-8767-4033-aeaf-3505912b5a4c]",
+      "explanation": "The cited chunks do not contain the specific information about Deutsche Bank raising its price target to $220. Chunk [de81755d-f657-4d81-ac51-0e4d3302477e] is titled 'Veteran analyst sends shocking message on Nvidia after earnings' but the visible snippet does not mention Deutsche Bank or the $220 price target. Chunk [09dfa05d-8767-4033-aeaf-3505912b5a4c] only covers Bank of America's price target reset. While the factual claims are consistent with Previously Verified Facts, the specific citations do not support the Deutsche Bank claim.",
+      "relevant_chunk_ids": [
+        "de81755d-f657-4d81-ac51-0e4d3302477e",
+        "09dfa05d-8767-4033-aeaf-3505912b5a4c"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite the correct chunk(s) that contain the Deutsche Bank $220 price target information, or restructure the citation to only attribute the Bank of America claim to chunk [09dfa05d-8767-4033-aeaf-3505912b5a4c] and find appropriate support for the Deutsche Bank claim."
+    }
+  ],
+  "checked_at": "2026-03-11T15:41:23.660779",
+  "iteration": 0
+}

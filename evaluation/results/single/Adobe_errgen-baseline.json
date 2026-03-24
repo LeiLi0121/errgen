@@ -1,0 +1,78 @@
+{
+  "sample_id": "Adobe",
+  "model_name": "errgen-baseline",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "run_id": "0b1f1e3c-4b8a-432c-b339-7c6555961e57",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Claims are cited with evidence IDs, but the evidence provided often post-dates the report as-of date, invalidating the support for an as-of analysis."
+    },
+    "numerical_accuracy": {
+      "score": 3,
+      "reason": "Calculations (margins, ratios) are mathematically consistent with the provided figures. However, the reporting of 'Q4' financials in an August report is highly suspect for Adobe (typically fiscal year-end November), suggesting potential data hallucination or mislabeling of periods."
+    },
+    "citation_precision": {
+      "score": 2,
+      "reason": "Citations point to specific evidence IDs, but the evidence content reveals publication dates after the report as-of date, making the citations invalid for the stated timeframe."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe violations. The report as-of date is 2025-08-22, but multiple evidence sources cited in the text are dated 2025-08-26, 2025-08-27, and 2025-08-28. This constitutes look-ahead bias."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Severe inconsistency. Paragraph 4 explicitly states that news events dated after the as-of date were excluded, yet Paragraphs 1-3 cite news evidence dated 2025-08-26 to 2025-08-28."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 2,
+    "temporal_violations": 2,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 2,
+    "temporal_violations": 2,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Detailed financial metrics and calculations are provided, but the fiscal period availability (Q4 in August) is questionable, reducing reliability."
+    },
+    "news": {
+      "score": 2,
+      "reason": "News integration is flawed due to the use of future-dated articles relative to the report as-of date."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Good coverage of company segments and market positioning, though market size data relies on future-dated reports."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Investment view is clear but based on temporally invalid data points."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Identifies key risks like competition and AI monetization, consistent with the narrative."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone and structure, despite the underlying data integrity issues."
+    }
+  },
+  "q_score": 2.95,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Comprehensive financial breakdown with detailed margin and ratio calculations supported by internal evidence tags.",
+    "primary_weakness": "Severe temporal validity violations where evidence dated after the report as-of date (Aug 26-28) is used in an Aug 22 report, compounded by an internal contradiction claiming such data was excluded."
+  }
+}

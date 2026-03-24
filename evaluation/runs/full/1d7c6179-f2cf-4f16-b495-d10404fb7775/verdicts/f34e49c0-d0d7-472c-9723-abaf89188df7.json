@@ -1,0 +1,22 @@
+{
+  "verdict_id": "f34e49c0-d0d7-472c-9723-abaf89188df7",
+  "paragraph_id": "6cb67709-1b4c-444f-b897-6ab34610d93f",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "7183a039-f5b3-47d4-a570-cf8497f50179",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "6cb67709-1b4c-444f-b897-6ab34610d93f",
+      "offending_span": "The Digital Experience segment, which serves marketers, advertisers, agencies, and enterprises, operates in a highly competitive landscape where pricing pressure and market share threats from both established competitors and new entrants could impact margins [C002]",
+      "explanation": "C002 describes Adobe's three segments and provides details about the Digital Media segment's customers (content creators, workers, marketers, educators, enthusiasts). However, C002 does NOT contain information about the Digital Experience segment's specific customers (marketers, advertisers, agencies, enterprises) nor does it mention competitive landscape, pricing pressure, or market share threats. The cited chunk does not support these specific claims about the Digital Experience segment.",
+      "relevant_chunk_ids": [
+        "facaa50e-cacb-47c6-92ba-0dfb64831a7e"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite a different chunk that contains information about Digital Experience segment customers and competitive dynamics, or remove the specific customer descriptions and competitive landscape claims that are not supported by C002. Consider adding qualifying language like 'industry analysis suggests' if this is general knowledge not from the provided evidence."
+    }
+  ],
+  "checked_at": "2026-03-23T19:37:35.658871",
+  "iteration": 0
+}

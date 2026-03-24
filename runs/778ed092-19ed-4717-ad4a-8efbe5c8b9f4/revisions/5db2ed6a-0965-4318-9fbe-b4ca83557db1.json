@@ -1,0 +1,14 @@
+{
+  "revision_id": "5db2ed6a-0965-4318-9fbe-b4ca83557db1",
+  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+  "iteration": 1,
+  "original_text": "However, NVIDIA faces mounting regulatory scrutiny in the United States. According to Reuters reporting cited in a letter from Representative John Moolenaar, the House Select Committee on China revealed that NVIDIA provided extensive technical assistance to Chinese AI startup DeepSeek, which subsequently developed models utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. The committee indicated that NVIDIA personnel assisted DeepSeek through optimized technical support that enabled significant efficiency gains for the Beijing-based company. This development suggests potential congressional oversight risks that could complicate NVIDIA's China strategy going forward.",
+  "revised_text": "However, NVIDIA faces mounting congressional scrutiny in the United States. According to Reuters reporting, which cites a letter from Representative John Moolenaar, NVIDIA provided extensive technical assistance to Chinese AI startup DeepSeek, which subsequently developed models utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. The reporting indicated that NVIDIA personnel assisted DeepSeek through optimized technical support that enabled significant efficiency gains for the Beijing-based company. This development suggests potential congressional oversight risks that could complicate NVIDIA's China strategy going forward.",
+  "issues_addressed": [
+    "e33d9cf4-e2c0-406d-9662-7cf17ad4ffd6",
+    "f772446b-1166-44d7-b104-a5ac8ffb59f1",
+    "eaf27b18-2bdd-41cf-a19e-dc54986b7de9"
+  ],
+  "changes_summary": "Fixed three major issues: (1) Corrected citation direction from 'Reuters reporting cited in a letter' to 'Reuters reporting, which cites a letter' to accurately reflect that Reuters cited Moolenaar's letter, not vice versa. (2) Removed unsupported reference to 'House Select Committee on China' since the evidence chunk does not explicitly name this committee; replaced with 'The reporting indicated'. (3) Changed 'regulatory scrutiny' to 'congressional scrutiny' to accurately reflect the evidence which specifies congressional rather than regulatory agency oversight.",
+  "revised_at": "2026-03-23T05:50:22.986759"
+}

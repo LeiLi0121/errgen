@@ -1,0 +1,241 @@
+[
+  {
+    "calc_id": "0e671c19-4b44-47a7-9234-5d3634f7be27",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 44062000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 46743000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 57006000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 68127000000.0
+        }
+      ]
+    },
+    "description": "NVDA Revenue YoY Growth Table",
+    "chunk_ids_used": [
+      "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+      "71f157b3-965e-4d3a-aa29-e9e0ff45980a",
+      "be9aaefa-d273-4270-b2da-199d69a0de1f",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "525afef8-3424-4069-a604-dd87b2bc8dfb",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 18775000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 26422000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 31910000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 42960000000.0
+        }
+      ]
+    },
+    "description": "NVDA Net Income YoY Growth Table",
+    "chunk_ids_used": [
+      "e98145ee-cb16-4aed-9b06-1899855a40d5",
+      "6c1f8526-7139-4a3c-981b-18f67ee0eb90",
+      "ea1d1a05-f1f4-4565-9bf8-51cad03efc06",
+      "2a591c75-6166-4d2f-86f4-3a8b7edc6359"
+    ]
+  },
+  {
+    "calc_id": "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 51093000000.0,
+      "denominator": 68127000000.0
+    },
+    "description": "NVDA Gross Margin (Q4)",
+    "chunk_ids_used": [
+      "9e098a69-50b0-4f72-94df-f7f89d77665f",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 44299000000.0,
+      "denominator": 68127000000.0
+    },
+    "description": "NVDA Operating Margin (Q4)",
+    "chunk_ids_used": [
+      "e9879c6d-3dc3-4ab3-965e-49e1fc30114d",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 42960000000.0,
+      "denominator": 68127000000.0
+    },
+    "description": "NVDA Net Margin (Q4)",
+    "chunk_ids_used": [
+      "2a591c75-6166-4d2f-86f4-3a8b7edc6359",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "be596dad-ea77-43d3-ac22-0b5f55d06a2e",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 51283000000.0,
+      "denominator": 68127000000.0
+    },
+    "description": "NVDA EBITDA Margin (Q4)",
+    "chunk_ids_used": [
+      "0bb38bcc-0b49-4e55-a1c5-eb790c883a09",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "7d0701ad-9c93-41dc-a668-c80da89edf75",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 5512000000.0,
+      "revenue": 68127000000.0
+    },
+    "description": "NVDA R&D Intensity (Q4)",
+    "chunk_ids_used": [
+      "1562353d-db39-4a2f-b994-c550365403ac",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "fc6898e7-0436-452a-b590-9dcb2bcb2d1d",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 125605000000.0,
+      "current_liabilities": 32163000000.0
+    },
+    "description": "NVDA Current Ratio (Q4)",
+    "chunk_ids_used": [
+      "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+      "00de1d29-d626-45ec-974e-bc91eede4c2c"
+    ]
+  },
+  {
+    "calc_id": "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 11412000000.0,
+      "equity": 157293000000.0
+    },
+    "description": "NVDA Debt-to-Equity (Q4)",
+    "chunk_ids_used": [
+      "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+      "e377f583-1e0e-4775-a1f9-d8e3eb7738e7"
+    ]
+  },
+  {
+    "calc_id": "36dc1d31-f0f0-44e7-b628-679358946106",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 11412000000.0,
+      "cash": 10605000000.0
+    },
+    "description": "NVDA Net Debt (Q4)",
+    "chunk_ids_used": [
+      "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+      "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b"
+    ]
+  },
+  {
+    "calc_id": "4919779e-20bb-413b-9fe6-e611a6e0baea",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 34904000000.0,
+      "revenue": 68127000000.0
+    },
+    "description": "NVDA FCF Margin (Q4)",
+    "chunk_ids_used": [
+      "08be315a-0f2a-4165-8eac-96c5c8df3bcd",
+      "8673c861-f8b6-4f0f-8801-373630314eeb"
+    ]
+  },
+  {
+    "calc_id": "78e868b2-287e-44f3-8d6f-dd8431dc47ec",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 191.52,
+      "previous": 188.22
+    },
+    "description": "NVDA 30d price return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "6493c5ac-e843-4e69-9dca-8644c1e857fb",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 695.42,
+      "previous": 687.85
+    },
+    "description": "SPY 30d benchmark return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "9f2476a4-01a3-4aa3-99d9-9851ee244884",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.017532674529805607,
+      "b": 0.011005306389474357
+    },
+    "description": "NVDA 30d excess return vs SPY",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 191.52,
+      "previous": 128.99
+    },
+    "description": "NVDA 1y price return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "4e7134c1-290f-4b49-bb42-eed50a873427",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 695.42,
+      "previous": 604.52
+    },
+    "description": "SPY 1y benchmark return",
+    "chunk_ids_used": []
+  },
+  {
+    "calc_id": "e3f7e76f-d911-42d3-9058-e42900f1f116",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.48476626095046127,
+      "b": 0.15036723350757622
+    },
+    "description": "NVDA 1y excess return vs SPY",
+    "chunk_ids_used": []
+  }
+]

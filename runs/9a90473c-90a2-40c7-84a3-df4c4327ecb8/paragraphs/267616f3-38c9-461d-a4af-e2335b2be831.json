@@ -1,0 +1,36 @@
+{
+  "paragraph_id": "267616f3-38c9-461d-a4af-e2335b2be831",
+  "section_name": "Financial Analysis",
+  "text": "NVIDIA maintains a robust balance sheet with strong liquidity and conservative leverage. As of FY2026, current assets totaled $125,605,000,000 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c] against current liabilities of $32,163,000,000 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c], implying a current ratio of approximately 3.9x. Total debt stood at $11,412,000,000 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c] versus stockholders' equity of $157,293,000,000 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c], indicating a debt-to-equity ratio of approximately 0.07x. For reference, FY2023 metrics showed a current ratio of 3.52 [dcf4279e-1371-4751-bd24-4e95f04e04d6] and debt-to-equity of 0.54 [3477fe4d-1239-44a2-890f-559a5bc428f3], suggesting the balance sheet has strengthened considerably. Net debt was $8,642,000,000 in FY2023 [b3dbd66d-086c-4370-b308-440bfd31dc76], but with FY2026 cash and equivalents of $10,605,000,000 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c] plus short-term investments of $51,951,000,000 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c], the company appears to hold a net cash position.",
+  "citations": [
+    {
+      "citation_id": "9b60fc56-e725-4527-bb2a-fb409fd3ede9",
+      "chunk_id": "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c",
+      "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – NVDA | Period: FY | Date: 2026-01-25\n  Total Assets:              $206,803,000,000\n  Total Liabilities:         $49,510,000,000\n  Total Stockholders' Equity:$157,293,000,000\n  Cash & Equivalents:        $10,605,000,000\n  Short-Term Investments:    $51,951,000,000\n  Total Debt:       ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c"
+  ],
+  "calc_ids": [
+    "dcf4279e-1371-4751-bd24-4e95f04e04d6",
+    "3477fe4d-1239-44a2-890f-559a5bc428f3",
+    "b3dbd66d-086c-4370-b308-440bfd31dc76"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b739ee7a-857e-4b21-96eb-b51b4fcf7622",
+      "paragraph_id": "267616f3-38c9-461d-a4af-e2335b2be831",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T14:09:12.598259",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,64 @@
+{
+  "verdict_id": "cdf39598-4be7-4f08-b431-3b769592b545",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "9439523c-807d-45a1-a4ab-977af1854f62",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "[CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650, CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]",
+      "explanation": "The paragraph cites specific chunk IDs (cb5732e2-5d57-4f01-b4ba-a2e30bc25650, e12ef106-d193-40c8-8525-6b0a89e35fb1, ace0e34a-b9b0-4e41-bbc3-236425f663db) but the 'CITED EVIDENCE CHUNKS' section shows '(CITED CHUNKS: none cited)'. The cited chunks are not provided in the evidence for this verification task, making it impossible to verify the claims against the actual source material.",
+      "relevant_chunk_ids": [
+        "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+        "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+        "ace0e34a-b9b0-4e41-bbc3-236425f663db"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide the cited chunks in the evidence section for verification, or remove the chunk ID citations from the paragraph text if the evidence is not available for this verification task."
+    },
+    {
+      "issue_id": "5dc26b4e-8fdb-47df-93ec-1a9ccba69844",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "As of FY2024, current assets totaled $229.1 billion against current liabilities of $218.0 billion",
+      "explanation": "The factual claims about current assets ($229.1B) and current liabilities ($218.0B) cite chunk IDs that are not provided in the 'CITED EVIDENCE CHUNKS' section. While these numbers match previously verified facts in the Financial Analysis section, they cannot be independently verified against the cited evidence for this specific verification task.",
+      "relevant_chunk_ids": [
+        "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+        "e12ef106-d193-40c8-8525-6b0a89e35fb1"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure the cited chunks are provided in the evidence section, or verify claims against the 'PREVIOUSLY VERIFIED FACTS' section and cite those sections appropriately."
+    },
+    {
+      "issue_id": "ed018ee3-88e0-4009-b296-0b77523cbe28",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "Cash & Equivalents of $78.8 billion and Short-Term Investments of $22.4 billion as of FY2024",
+      "explanation": "The claims about Cash & Equivalents and Short-Term Investments cite chunk ID ace0e34a-b9b0-4e41-bbc3-236425f663db which is not provided in the 'CITED EVIDENCE CHUNKS' section. These claims cannot be verified against the cited evidence.",
+      "relevant_chunk_ids": [
+        "ace0e34a-b9b0-4e41-bbc3-236425f663db"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the cited chunk in the evidence section or remove the citation if evidence is unavailable."
+    },
+    {
+      "issue_id": "09667b4e-b5f0-4f4a-b32b-8f94c7ac63c9",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "Total debt stood at $130.9 billion in FY2024",
+      "explanation": "The claim about Total debt cites chunk ID ace0e34a-b9b0-4e41-bbc3-236425f663db which is not provided in the 'CITED EVIDENCE CHUNKS' section. This claim cannot be verified against the cited evidence.",
+      "relevant_chunk_ids": [
+        "ace0e34a-b9b0-4e41-bbc3-236425f663db"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the cited chunk in the evidence section or remove the citation if evidence is unavailable."
+    }
+  ],
+  "checked_at": "2026-03-12T12:43:38.627711",
+  "iteration": 0
+}

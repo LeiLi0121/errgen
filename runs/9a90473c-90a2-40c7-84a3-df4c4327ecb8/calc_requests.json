@@ -1,0 +1,119 @@
+[
+  {
+    "calc_id": "fa1892bc-aa54-4657-b161-d3604764ec70",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 15356000000.0,
+      "denominator": 26974000000.0
+    },
+    "description": "NVDA Gross Margin (FY)",
+    "chunk_ids_used": [
+      "13d776a2-5c4c-45d8-9f79-d7dfc9d82d90",
+      "81f38fe0-8081-4f24-8b98-ad1f02449fab"
+    ]
+  },
+  {
+    "calc_id": "3ffe9f64-65dd-443d-900d-ba16f3a72e7d",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 4224000000.0,
+      "denominator": 26974000000.0
+    },
+    "description": "NVDA Operating Margin (FY)",
+    "chunk_ids_used": [
+      "c252e282-3457-4773-8dcb-dfc9983bc35b",
+      "81f38fe0-8081-4f24-8b98-ad1f02449fab"
+    ]
+  },
+  {
+    "calc_id": "2359a7d3-9892-4791-b7a9-c15cbdcb56dd",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 4368000000.0,
+      "denominator": 26974000000.0
+    },
+    "description": "NVDA Net Margin (FY)",
+    "chunk_ids_used": [
+      "6c6518c9-dc66-4548-ae07-9dc7d7ba5bd5",
+      "81f38fe0-8081-4f24-8b98-ad1f02449fab"
+    ]
+  },
+  {
+    "calc_id": "0bceccc1-b1ac-4b8c-be53-06259e251673",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 5986000000.0,
+      "denominator": 26974000000.0
+    },
+    "description": "NVDA EBITDA Margin (FY)",
+    "chunk_ids_used": [
+      "7930dfb2-cff5-4dc1-a6fc-3b43ffb42848",
+      "81f38fe0-8081-4f24-8b98-ad1f02449fab"
+    ]
+  },
+  {
+    "calc_id": "73be37ab-34a6-483d-af59-5a255b1c4eea",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 7339000000.0,
+      "revenue": 26974000000.0
+    },
+    "description": "NVDA R&D Intensity (FY)",
+    "chunk_ids_used": [
+      "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+      "81f38fe0-8081-4f24-8b98-ad1f02449fab"
+    ]
+  },
+  {
+    "calc_id": "dcf4279e-1371-4751-bd24-4e95f04e04d6",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 23073000000.0,
+      "current_liabilities": 6563000000.0
+    },
+    "description": "NVDA Current Ratio (FY)",
+    "chunk_ids_used": [
+      "43bd5339-fa6d-4bdf-8483-b26df7ea3ec1",
+      "60c097a3-ce1c-448b-85c0-74d4af349548"
+    ]
+  },
+  {
+    "calc_id": "3477fe4d-1239-44a2-890f-559a5bc428f3",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 12031000000.0,
+      "equity": 22101000000.0
+    },
+    "description": "NVDA Debt-to-Equity (FY)",
+    "chunk_ids_used": [
+      "6444bb17-c457-4665-b350-cf68a2b7acf6",
+      "86c08d23-80f8-4242-9bda-ab22b9f05d3e"
+    ]
+  },
+  {
+    "calc_id": "b3dbd66d-086c-4370-b308-440bfd31dc76",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 12031000000.0,
+      "cash": 3389000000.0
+    },
+    "description": "NVDA Net Debt (FY)",
+    "chunk_ids_used": [
+      "6444bb17-c457-4665-b350-cf68a2b7acf6",
+      "2ed5ee1c-0245-4b1e-b677-894d6efddb56"
+    ]
+  },
+  {
+    "calc_id": "ebb13bfd-8f73-4522-821f-7cd77f0787f2",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 3808000000.0,
+      "revenue": 26974000000.0
+    },
+    "description": "NVDA FCF Margin (FY)",
+    "chunk_ids_used": [
+      "e24fb925-4977-4d45-8657-9444d51cd6ed",
+      "81f38fe0-8081-4f24-8b98-ad1f02449fab"
+    ]
+  }
+]

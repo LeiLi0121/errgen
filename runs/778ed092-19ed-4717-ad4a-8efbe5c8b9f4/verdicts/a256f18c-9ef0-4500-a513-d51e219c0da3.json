@@ -1,0 +1,22 @@
+{
+  "verdict_id": "a256f18c-9ef0-4500-a513-d51e219c0da3",
+  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "d408bf10-e60a-4f3c-992e-abdbabd77130",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+      "offending_span": "released its fiscal Q4 2026 financial statements on January 25, 2026",
+      "explanation": "The cited chunk (db68e3f3-b4e9-49cf-86fe-9602627ec55b) indicates 'Date: 2026-01-25' for an Income Statement, which conventionally refers to the fiscal period end date, not the date the statements were released to the public. The chunk does not contain evidence supporting the specific claim that the statements were 'released' on this date.",
+      "relevant_chunk_ids": [
+        "db68e3f3-b4e9-49cf-86fe-9602627ec55b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise the text to state that the financial statements are 'for the quarter ended January 25, 2026' or remove the specific release date claim unless supported by a chunk explicitly stating the filing or release date."
+    }
+  ],
+  "checked_at": "2026-03-23T07:00:24.474276",
+  "iteration": 2
+}

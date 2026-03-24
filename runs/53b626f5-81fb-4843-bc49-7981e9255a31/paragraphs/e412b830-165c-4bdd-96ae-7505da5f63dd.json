@@ -1,0 +1,64 @@
+{
+  "paragraph_id": "e412b830-165c-4bdd-96ae-7505da5f63dd",
+  "section_name": "Recent Developments",
+  "text": "Amazon is scheduled to report Q2 2025 earnings this week as part of a critical earnings period for Big Tech, with Microsoft, Meta, Apple, and Amazon collectively representing approximately $11.3 trillion in market value [CHUNK_ID: 95e75447-3c30-49f6-861e-b4c471cfa261]. Market analysts are closely monitoring the results, with expectations centered on AI-powered AWS growth and advertising revenue as key drivers for an upbeat Q2 outlook [CHUNK_ID: f3922ad9-85d8-409b-916a-444e08a6a248]. The earnings release comes during a broader Q2 season that has shown more positive surprises than negative ones so far [CHUNK_ID: b5fd3368-74d2-4486-bb11-85141dc4fcd8].",
+  "citations": [
+    {
+      "citation_id": "b7f05a93-8a5f-4590-9dd9-6344c2353e3b",
+      "chunk_id": "95e75447-3c30-49f6-861e-b4c471cfa261",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T19:10:24Z | Yahoo\nTitle: S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings\nURL: https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83\n(Bloomberg) -- The S&P 500 Index’s relentless advance to record highs faces a crucial test th",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f37de582-8af6-4087-b846-8e0dca6c9f3d",
+      "chunk_id": "f3922ad9-85d8-409b-916a-444e08a6a248",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T18:44:10Z | Yahoo\nTitle: Amazon Q2 Earnings Preview: What to Expect From Upcoming Report\nURL: https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6\nAI?powered AWS growth and ad revenue underpin upbeat Q2 outlook for Amazon",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0d84b4c2-c0ff-43af-861a-4c2c2e0b4170",
+      "chunk_id": "b5fd3368-74d2-4486-bb11-85141dc4fcd8",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats\nURL: https://finnhub.io/api/news?id=1d4f1455f465afbfedb585370db05f3c467eff3ae44790575cab7e36e9c2e5f0\nSecond quarter earnings season is in full swing, and the results have be",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "95e75447-3c30-49f6-861e-b4c471cfa261",
+    "f3922ad9-85d8-409b-916a-444e08a6a248",
+    "b5fd3368-74d2-4486-bb11-85141dc4fcd8"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "bfa14c56-9c76-448b-ae07-aeaea907ce54",
+      "paragraph_id": "e412b830-165c-4bdd-96ae-7505da5f63dd",
+      "status": "pass",
+      "issues": [
+        {
+          "issue_id": "55e785e3-368e-44a8-916a-afbd3b01fbe3",
+          "issue_type": "unsupported_claim",
+          "severity": "minor",
+          "paragraph_id": "e412b830-165c-4bdd-96ae-7505da5f63dd",
+          "offending_span": "Microsoft, Meta, Apple, and Amazon",
+          "explanation": "The cited chunk (95e75447) states 'four technology behemoths worth a combined $11.3 trillion' but does not explicitly name Microsoft, Meta, or Apple. While the aggregate value and count match, and Amazon is confirmed elsewhere, the specific identities of the other three companies are not explicitly found in the provided evidence text.",
+          "relevant_chunk_ids": [
+            "95e75447-3c30-49f6-861e-b4c471cfa261"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Modify the text to reflect the chunk's wording (e.g., 'four technology behemoths including Amazon') or ensure the citation explicitly lists the company names if available in the full source."
+        }
+      ],
+      "checked_at": "2026-03-12T10:08:52.565105",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

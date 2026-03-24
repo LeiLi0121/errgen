@@ -51,8 +51,9 @@ RULES:
 3. Acknowledge key risks and uncertainties explicitly.
 4. Use language appropriate to the evidence certainty level.
 5. Do NOT promise returns or guarantee outcomes.
-6. State your overall stance: Positive / Neutral / Cautious / Negative (and why).
-7. If evidence is insufficient for a firm recommendation, say so clearly.
+6. State an explicit rating in the text: Buy / Hold / Sell.
+7. Compare the company to the benchmark signal when benchmark data is provided.
+8. If evidence is insufficient for a firm recommendation, say so clearly and default to Hold.
 
 Return JSON:
 {
@@ -83,11 +84,15 @@ class _PredictionAgent(BaseAnalysisAgent):
     ) -> str:
         return (
             f"Ticker: {ticker}\n"
+            f"Benchmark: {Config.BENCHMARK_TICKER}\n"
             f"As-of date: {as_of_date or 'not specified'}\n\n"
             f"=== VERIFIED SECTION SUMMARIES ===\n{request_context}\n\n"
             f"=== KEY EVIDENCE CHUNKS ===\n{chunk_block}\n\n"
             f"=== CALCULATION RESULTS ===\n{calc_block}\n\n"
-            "Write the 'Investment Recommendation & Outlook' section."
+            "Write the 'Investment Recommendation & Outlook' section.\n"
+            "Use the recent company-vs-benchmark price signal when it is available, "
+            "but do not rely on market momentum alone: reconcile it with fundamentals, "
+            "filings, recent developments, and risks."
         )
 
 
@@ -196,7 +201,7 @@ def prediction_agent(state: dict) -> dict:
     # -- Generate recommendation section ------------------------------------
     section_summary = _build_section_summary(sections)
     key_chunks: list[EvidenceChunk] = (
-        [c for c in all_chunks if c.source_type != SourceType.NEWS][:20]
+        [c for c in all_chunks if c.source_type != SourceType.NEWS][:25]
         + [c for c in all_chunks if c.source_type == SourceType.NEWS][:10]
     )
 

@@ -1,0 +1,76 @@
+{
+  "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "We maintain a Positive investment stance on Amazon.com, Inc. (AMZN), supported by robust revenue growth trajectory and significant profitability expansion over the past three fiscal years. FY2025 revenue is projected to reach $716.9 billion, representing approximately 12.4% growth versus FY2024 revenue of $638.0 billion [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. Operating income has demonstrated dramatic expansion from $68.6 billion in FY2024 to $80.0 billion in FY2025 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. EBITDA generation has strengthened considerably, with FY2025 EBITDA projected at $165.3 billion, up from $123.8 billion in FY2024 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e].",
+  "citations": [
+    {
+      "citation_id": "8b9b622e-6095-4fc2-b9bc-886734db79d5",
+      "chunk_id": "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AMZN | Period: FY | Date: 2025-12-31\n  Revenue:            $716,924,000,000\n  Gross Profit:       $360,510,000,000 (margin N/A)\n  Operating Income:   $79,975,000,000 (margin N/A)\n  Net Income:         $77,670,000,000 (margin N/A)\n  EBITDA:             $165,341,000,000\n  EPS:      ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e24156c2-85df-42a3-bf31-3c0ee94c5c52",
+      "chunk_id": "7f42935f-2962-4418-812e-c92a56b27b2e",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AMZN | Period: FY | Date: 2024-12-31\n  Revenue:            $637,959,000,000\n  Gross Profit:       $311,671,000,000 (margin N/A)\n  Operating Income:   $68,593,000,000 (margin N/A)\n  Net Income:         $59,248,000,000 (margin N/A)\n  EBITDA:             $123,815,000,000\n  EPS:      ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+    "7f42935f-2962-4418-812e-c92a56b27b2e"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "bc7a63da-7a95-40dd-93fd-52967f54f13a",
+      "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "23a5bdcd-e5e8-4d81-8d2c-bf7ebacb3d2c",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+          "offending_span": "Operating income has demonstrated dramatic expansion from $12.2 billion in FY2022",
+          "explanation": "The paragraph cites chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e for the FY2022 operating income figure of $12.2 billion, but this chunk is not provided in the CITED EVIDENCE CHUNKS section. The claim cannot be verified from the available evidence provided for this paragraph check. While this figure was verified in previous sections (Risk Analysis), the specific evidence chunk is not available for independent verification of this paragraph.",
+          "relevant_chunk_ids": [
+            "bc591e33-ea87-4e39-a4cb-9ca56789b93e"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide the cited chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e in the evidence section, or revise the sentence to focus only on FY2024-FY2025 operating income figures which are fully supported by the provided chunks (4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc and 7f42935f-2962-4418-812e-c92a56b27b2e)."
+        }
+      ],
+      "checked_at": "2026-03-12T12:38:27.594580",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "5ad5a97b-3ca1-4656-b537-65b4eba3116a",
+      "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-12T12:39:24.424329",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "7b344556-65e7-4ab8-ae7d-2dea71dc5f8d",
+      "paragraph_id": "7c276908-ea37-4b65-9541-09358d5d132d",
+      "iteration": 1,
+      "original_text": "We maintain a Positive investment stance on Amazon.com, Inc. (AMZN), supported by robust revenue growth trajectory and significant profitability expansion over the past three fiscal years. FY2025 revenue is projected to reach $716.9 billion, representing approximately 12.4% growth versus FY2024 revenue of $638.0 billion [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. Operating income has demonstrated dramatic expansion from $12.2 billion in FY2022 to $68.6 billion in FY2024, with FY2025 projected at $80.0 billion [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. EBITDA generation has strengthened considerably, with FY2025 EBITDA projected at $165.3 billion, up from $123.8 billion in FY2024 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e].",
+      "revised_text": "We maintain a Positive investment stance on Amazon.com, Inc. (AMZN), supported by robust revenue growth trajectory and significant profitability expansion over the past three fiscal years. FY2025 revenue is projected to reach $716.9 billion, representing approximately 12.4% growth versus FY2024 revenue of $638.0 billion [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. Operating income has demonstrated dramatic expansion from $68.6 billion in FY2024 to $80.0 billion in FY2025 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. EBITDA generation has strengthened considerably, with FY2025 EBITDA projected at $165.3 billion, up from $123.8 billion in FY2024 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e].",
+      "issues_addressed": [
+        "23a5bdcd-e5e8-4d81-8d2c-bf7ebacb3d2c"
+      ],
+      "changes_summary": "Removed the unsupported FY2022 operating income claim ($12.2 billion) that cited chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e, which is not available in the evidence chunks. Revised the operating income sentence to focus only on FY2024-FY2025 figures ($68.6 billion to $80.0 billion) which are fully supported by the available chunks 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc and 7f42935f-2962-4418-812e-c92a56b27b2e. All other claims and figures remain unchanged as they were already properly supported.",
+      "revised_at": "2026-03-12T12:38:57.287271"
+    }
+  ],
+  "iteration": 0
+}

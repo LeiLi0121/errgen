@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "b42d29a4-ea24-4bbc-a16f-5fc434538319",
+  "section_name": "Recent Developments",
+  "text": "Despite the share price pressure, analyst sentiment remains constructive on Adobe's long-term prospects. RBC Capital analyst Matthew Swanson reiterated an Outperform rating on August 21 with a $480.00 price target, citing long-term AI monetization upside for the company C013. The firm acknowledges increasing competition in the creative tools market but maintains a bullish stance on Adobe's positioning C013. A bullish thesis published on Rebound Capital's Substack noted Adobe's trailing and forward P/E ratios of 22.89 and 15.41 respectively as of August 18th, suggesting potential valuation attractiveness for growth-oriented investors C011.",
+  "citations": [
+    {
+      "citation_id": "8cdb170a-96da-42b2-9767-b1f9094c210a",
+      "chunk_id": "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-27T01:31:45Z | Yahoo\nTitle: RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT\nURL: https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910\nAdobe Inc. (NASDAQ:ADBE) is one of the Hot AI Stocks to Keep on Your Radar. On Aug",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7de6aaf0-872c-4c0a-b269-c36287dd6f80",
+      "chunk_id": "30eedfee-60b4-43de-9c15-16c58d06b5d1",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-27T09:15:46Z | Yahoo\nTitle: Adobe Inc. (ADBE): A Bull Case Theory\nURL: https://finnhub.io/api/news?id=d233ee800d3179f2a15d1a43e00403899d2896681b4f5ba2187ae9d93fed573f\nWe came across a bullish thesis on Adobe Inc. on Rebound Capital’s Substack. In this article, we will summarize the bu",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+    "30eedfee-60b4-43de-9c15-16c58d06b5d1"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

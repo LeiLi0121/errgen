@@ -1,0 +1,22 @@
+{
+  "verdict_id": "5fa36bf9-4daf-4fe2-8a59-435d3f5d7d4e",
+  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "a52d7329-c184-4070-97aa-9f57d1c2298d",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+      "offending_span": "mounting",
+      "explanation": "The cited chunk confirms that NVIDIA faces congressional scrutiny but does not explicitly characterize the scrutiny as 'mounting' (increasing or accumulating). While a letter from a Representative implies pressure, the specific descriptor 'mounting' is an inference not directly stated in the evidence.",
+      "relevant_chunk_ids": [
+        "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Consider removing 'mounting' or qualifying the statement to reflect that the scrutiny is based on the specific reporting/letter cited, unless additional evidence of a trend is available."
+    }
+  ],
+  "checked_at": "2026-03-23T06:50:44.098286",
+  "iteration": 1
+}

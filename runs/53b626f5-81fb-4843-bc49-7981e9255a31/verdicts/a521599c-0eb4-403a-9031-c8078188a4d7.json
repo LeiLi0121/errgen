@@ -1,0 +1,61 @@
+{
+  "verdict_id": "a521599c-0eb4-403a-9031-c8078188a4d7",
+  "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "65ff0b09-fd1d-4b88-8c7e-28223d2a145b",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+      "offending_span": "The company provides compute, storage, database, analytics, machine learning, and other cloud services through AWS, alongside fulfillment, advertising, and digital content subscriptions",
+      "explanation": "The cited chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 is truncated and does not contain information about specific AWS services (compute, storage, database, analytics, machine learning) or fulfillment, advertising, and digital content subscriptions. These claims cannot be verified from the provided evidence.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite a different chunk that contains AWS service details, or remove the specific service listings that cannot be verified from the current evidence."
+    },
+    {
+      "issue_id": "77f2b5db-ffb0-4b84-a23d-a0c577d61dd7",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+      "offending_span": "Amazon Prime membership program serves as a key customer retention mechanism",
+      "explanation": "The cited chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 does not mention Amazon Prime or characterize it as a customer retention mechanism. This claim is not supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove this claim or cite a different chunk that specifically discusses Amazon Prime and its role in customer retention."
+    },
+    {
+      "issue_id": "eeba1c66-9312-4501-9e85-c33e9d22b3dd",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+      "offending_span": "The company serves consumers, sellers, developers, enterprises, content creators, and advertisers across North America and internationally",
+      "explanation": "The cited chunk 43e13619-4c35-4dd4-a32b-ceaa18319a42 does not explicitly list these customer segments (consumers, sellers, developers, enterprises, content creators, advertisers). This detailed breakdown is not supported by the visible evidence.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific customer segment list or cite a chunk that explicitly identifies these stakeholder groups."
+    },
+    {
+      "issue_id": "50fd2d73-5dbf-4921-9ac6-e08203f055b8",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "f8a4e8e4-dc6a-4a36-8516-d490f1b2a834",
+      "offending_span": "serves as a key customer retention mechanism",
+      "explanation": "The language implies certainty about Prime's function as a retention mechanism without evidence to support this characterization. Even if Prime were mentioned, calling it a 'key customer retention mechanism' is an interpretive claim.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Use more neutral language such as 'Amazon Prime membership program is offered to customers' unless evidence explicitly supports the retention mechanism claim."
+    }
+  ],
+  "checked_at": "2026-03-12T10:19:42.744973",
+  "iteration": 0
+}

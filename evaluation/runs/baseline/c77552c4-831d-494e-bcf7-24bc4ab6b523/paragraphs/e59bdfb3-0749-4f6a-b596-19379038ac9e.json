@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "e59bdfb3-0749-4f6a-b596-19379038ac9e",
+  "section_name": "Recent Developments",
+  "text": "Competitive dynamics in the AI-enabled creative software market remain a key focus for investors. Google's Gemini upgrade with enhanced image editing capabilities represents a notable competitive development that sent Adobe stock lower C016. The competitive landscape includes established players like Autodesk, which recently raised annual forecasts on growing software demand across construction, infrastructure and manufacturing industries C001. Market observers note that Adobe stock underperforms when compared to competitors on certain trading days, reflecting ongoing investor scrutiny of the company's ability to maintain its market leadership position amid intensifying AI competition C017.",
+  "citations": [
+    {
+      "citation_id": "62cee1a5-c372-4378-a1ba-ee9cceefeb34",
+      "chunk_id": "62f4f88f-bc07-430a-8d4e-e3c3ee0b45f6",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-26T18:05:59Z | Yahoo\nTitle: Why Adobe (ADBE) Shares Are Falling Today\nURL: https://finnhub.io/api/news?id=843106d7553ff6dece9bf4148bed2ccd07380b21b083266f10cc6365a469be64\nADBE: Google's Gemini Upgrade Sends Adobe Stock Lower",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "639fcea0-e092-4b57-b36b-df58504eb8f1",
+      "chunk_id": "131c545d-416c-4c16-b206-b83d357a8b33",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-28T21:30:41Z | Yahoo\nTitle: Autodesk raises annual forecasts on growing software demand, shares rise\nURL: https://finnhub.io/api/news?id=fa45f49736470f8732ae612e49decf75015f4f00241ab76eb9822dd618c3377f\nAutodesk raised its annual revenue and profit forecasts on Thursday, betting on gro",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ce60b44f-02a9-4166-a2ee-676d2d0e2063",
+      "chunk_id": "ef2aa5e4-ee53-4c6f-95f2-86f1b0b9c35b",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-26T16:36:00Z | MarketWatch\nTitle: Adobe Inc. stock underperforms Tuesday when compared to competitors\nURL: https://finnhub.io/api/news?id=2bc5490e6dfbfb9d90c3012db757f38ce8b9779100c2639005074b92b31507fa\nAdobe Inc. stock underperforms Tuesday when compared to competitors",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "62f4f88f-bc07-430a-8d4e-e3c3ee0b45f6",
+    "131c545d-416c-4c16-b206-b83d357a8b33",
+    "ef2aa5e4-ee53-4c6f-95f2-86f1b0b9c35b"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -26,6 +26,7 @@ class SourceType(str, Enum):
     BALANCE_SHEET = "balance_sheet"
     CASH_FLOW = "cash_flow"
     COMPANY_PROFILE = "company_profile"
+    FILING = "filing"
     PRICE_DATA = "price_data"
     PEER_DATA = "peer_data"
     OTHER = "other"
@@ -255,6 +256,16 @@ class ReportSection(BaseModel):
     unresolved_issues: list[CheckerIssue] = Field(default_factory=list)
 
 
+class ReportTable(BaseModel):
+    """Structured deterministic table rendered in the final report."""
+
+    table_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    title: str
+    columns: list[str] = Field(default_factory=list)
+    rows: list[list[str]] = Field(default_factory=list)
+    description: str = ""
+
+
 class FinalReport(BaseModel):
     """
     The assembled equity research report.
@@ -266,6 +277,7 @@ class FinalReport(BaseModel):
     report_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     request: UserRequest
     sections: list[ReportSection] = Field(default_factory=list)
+    tables: list[ReportTable] = Field(default_factory=list)
     evidence_appendix: list[EvidenceChunk] = Field(default_factory=list)
     calculation_appendix: list[CalculationResult] = Field(default_factory=list)
     generated_at: datetime = Field(default_factory=datetime.utcnow)

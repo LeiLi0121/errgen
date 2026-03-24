@@ -1,0 +1,43 @@
+{
+  "verdict_id": "ef37d5d8-53cf-4f66-8727-31b9a9e4fe14",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "53a0fe0e-fc11-42e0-93a3-812338ae9270",
+      "issue_type": "scope_violation",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94",
+      "explanation": "The paragraph presents FY2025 financial metrics as historical fact using past tense ('was', 'stood at'), but the as-of date is 2025-07. FY2025 ends on 2025-12-31 per the chunk metadata, meaning this data is projected/forecasted, not actual historical results. Previously verified facts consistently use 'projected' and 'forecasted' language for FY2025 data. Presenting projections as completed facts misrepresents the temporal status of the information.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [
+        "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+        "7682229a-d413-422b-8ec1-a4236848f957",
+        "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+      ],
+      "recommended_fix": "Revise language to indicate FY2025 figures are projected/estimated (e.g., 'is projected to be', 'is expected to stand at') rather than stating them as historical facts. Alternatively, clarify that these are full-year projections as of the report date."
+    },
+    {
+      "issue_id": "bd948d2f-4f55-412b-a891-e0d858e4ede9",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94",
+      "explanation": "The cited chunk (4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc) is an income statement containing revenue, profit, and expense items. It does not contain balance sheet data (current assets, current liabilities, debt, equity, cash) needed to support the current ratio, net debt, or debt-to-equity claims. While the CALC_IDs provide the actual calculations, the chunk citation implies the chunk itself supports these balance sheet metrics, which it does not.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [
+        "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+        "7682229a-d413-422b-8ec1-a4236848f957",
+        "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+      ],
+      "recommended_fix": "Either cite the appropriate balance sheet chunk(s) that contain the underlying current assets, liabilities, debt, equity, and cash figures, or remove the chunk citation for balance sheet metrics and rely solely on the calculation IDs which do contain the supporting data."
+    }
+  ],
+  "checked_at": "2026-03-12T13:00:50.036156",
+  "iteration": 3
+}

@@ -1,0 +1,73 @@
+{
+  "verdict_id": "35ee75c0-35fc-406e-85b3-3efeaf8fe88e",
+  "paragraph_id": "ab24e771-4018-454f-b948-ac11065220f4",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "316ece52-f088-4620-83cd-510a3f8caffa",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "ab24e771-4018-454f-b948-ac11065220f4",
+      "offending_span": "Q4 2025 gross margin reached 88.92%",
+      "explanation": "The as-of date is 2025-08 (August 2025). Adobe's fiscal Q4 typically ends in November, meaning Q4 2025 data would not be available at the August 2025 as-of date. This references financial data from a period that has not yet concluded.",
+      "relevant_chunk_ids": [
+        "b9ab47a5-9300-4a18-b941-a25f0e62ae89",
+        "33f5f663-feee-4785-add0-7c83bf354b8c"
+      ],
+      "relevant_calc_ids": [
+        "8c1b9a10-2466-4694-92fa-5cf89f5d11b4"
+      ],
+      "recommended_fix": "Verify the correct fiscal quarter for the as-of date. If the as-of date is August 2025, this should reference Q3 2025 data (which typically ends August 31 for Adobe), or update the as-of date to reflect when Q4 2025 data became available."
+    },
+    {
+      "issue_id": "cb23720d-2258-4dfe-b73a-b9c5d8a57666",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "ab24e771-4018-454f-b948-ac11065220f4",
+      "offending_span": "Operating margin stood at 36.50% (K004) based on operating income of $2,261,000,000 (C014), while net margin was 29.96% (K005) with net income of $1,856,000,000 (C015)",
+      "explanation": "Same scope violation - all Q4 2025 financial metrics (operating income, net income, and derived margins) reference a period that extends beyond the August 2025 as-of date.",
+      "relevant_chunk_ids": [
+        "72ace5e4-1b1a-44bb-a9ac-8579ce5740c3",
+        "ca0291be-20f6-4248-a088-267c3b51f017"
+      ],
+      "relevant_calc_ids": [
+        "dab61c03-e2fc-41b7-9755-7fee316bd3e9",
+        "ba975ec2-0bc6-4522-9a0f-d6447a44f2d7"
+      ],
+      "recommended_fix": "Use financial data from quarters that concluded before or at the August 2025 as-of date (Q1-Q3 2025)."
+    },
+    {
+      "issue_id": "4bb771ae-9905-43b3-ba04-632b13251676",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "ab24e771-4018-454f-b948-ac11065220f4",
+      "offending_span": "reflecting Adobe's strong pricing power and operational efficiency",
+      "explanation": "This causal attribution is not directly supported by the cited evidence chunks. The chunks provide financial figures but do not contain information about pricing power or operational efficiency drivers. This is an inference beyond what the evidence allows.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional evidence supporting the pricing power/efficiency claim, or rephrase to indicate this is an analyst interpretation rather than a fact supported by the cited data (e.g., 'which may reflect' or 'consistent with')."
+    },
+    {
+      "issue_id": "0cf8ea83-26a8-45df-9b2b-d00929996e23",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "ab24e771-4018-454f-b948-ac11065220f4",
+      "offending_span": "Margin profiles remain robust throughout the reporting period",
+      "explanation": "The phrase 'throughout the reporting period' implies multiple periods are being referenced, but only Q4 2025 data is cited. This creates an impression of broader temporal coverage than the evidence supports.",
+      "relevant_chunk_ids": [
+        "b9ab47a5-9300-4a18-b941-a25f0e62ae89",
+        "33f5f663-feee-4785-add0-7c83bf354b8c",
+        "72ace5e4-1b1a-44bb-a9ac-8579ce5740c3",
+        "ca0291be-20f6-4248-a088-267c3b51f017"
+      ],
+      "relevant_calc_ids": [
+        "8c1b9a10-2466-4694-92fa-5cf89f5d11b4",
+        "dab61c03-e2fc-41b7-9755-7fee316bd3e9",
+        "ba975ec2-0bc6-4522-9a0f-d6447a44f2d7"
+      ],
+      "recommended_fix": "Rephrase to specify the period being discussed (e.g., 'Margin profiles in Q4 2025 remain robust') or cite additional quarterly data to support the 'throughout' claim."
+    }
+  ],
+  "checked_at": "2026-03-23T20:30:33.938531",
+  "iteration": 1
+}

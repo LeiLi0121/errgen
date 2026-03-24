@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "0f5da60b-af30-4ca1-8863-e0e460dc183f",
+  "section_name": "Financial Analysis",
+  "text": "Adobe's revenue trajectory demonstrates sequential improvement across recent quarters, with Q4 revenue reaching $6,194,000,000 (C010), up from $5,988,000,000 in Q3 (C018) and $5,873,000,000 in Q2 (C026). According to the YoY growth analysis (K001), revenue growth accelerated from -8.21% in Q2 to 1.96% in Q3 and further to 3.44% in Q4, indicating a meaningful recovery in top-line momentum. The most recent Q1 period shows revenue of $6,398,000,000 (C002), continuing the upward sequential trend. This progression suggests Adobe is successfully navigating through its growth transition, with the acceleration in YoY growth rates reflecting improved demand dynamics in its core digital media and digital experience segments.",
+  "citations": [
+    {
+      "citation_id": "6ce38b80-a5a3-4fa0-81c9-7b6b35f518d4",
+      "chunk_id": "6fba50d7-e1a4-4312-b2fa-f0554195ff08",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q1: $6,398,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c792221b-d3c0-4fef-ab0a-9d761c0edd78",
+      "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "53849d81-9549-4bd1-8557-aa42f8959107",
+      "chunk_id": "627f9da6-15ec-46b5-ba7e-c911683eaf3e",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q3: $5,988,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "709065a3-b761-49a3-8884-54f67f0656a7",
+      "chunk_id": "2ac2206a-9671-4fd4-bc11-4ce053b95b4b",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q2: $5,873,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "6fba50d7-e1a4-4312-b2fa-f0554195ff08",
+    "df1312ec-0551-4faf-bb73-22ccbee090a1",
+    "627f9da6-15ec-46b5-ba7e-c911683eaf3e",
+    "2ac2206a-9671-4fd4-bc11-4ce053b95b4b"
+  ],
+  "calc_ids": [
+    "aa6b080f-af63-474f-9419-8dbeca0d5b07"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

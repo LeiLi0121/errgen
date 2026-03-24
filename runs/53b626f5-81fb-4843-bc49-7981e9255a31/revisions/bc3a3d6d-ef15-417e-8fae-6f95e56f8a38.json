@@ -1,0 +1,15 @@
+{
+  "revision_id": "bc3a3d6d-ef15-417e-8fae-6f95e56f8a38",
+  "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+  "iteration": 1,
+  "original_text": "Amazon demonstrated robust revenue growth trajectory over the past four fiscal years. FY2025 revenue reached $716,924,000,000 [CHUNK_ID: 55489966-bd81-4933-81bb-49a96e1be734], representing approximately 12.4% growth versus FY2024 revenue of $637,959,000,000 [CHUNK_ID: 797dd08f-68f3-4278-b421-6ffa73be3aa2]. FY2024 itself grew approximately 11.0% from FY2023 revenue of $574,785,000,000 [CHUNK_ID: 507ef8bd-51b2-45bc-aa54-b1a23e17d82c], while FY2023 expanded approximately 11.8% from FY2022 revenue of $513,983,000,000 [CHUNK_ID: ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357]. This consistent double-digit growth suggests sustained momentum across Amazon's e-commerce and cloud segments, indicating successful market share gains and pricing power in core businesses.",
+  "revised_text": "Amazon demonstrated robust revenue growth trajectory over the past four fiscal years. FY2025 revenue is projected to reach $716,924,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], representing approximately 12.4% growth versus FY2024 revenue of $637,959,000,000 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e]. FY2024 itself grew approximately 11.0% from FY2023 revenue of $574,785,000,000 [CHUNK_ID: 8c11e4fa-9777-4150-ac9b-45b391e7312c], while FY2023 expanded approximately 11.8% from FY2022 revenue of $513,983,000,000 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e]. This consistent double-digit growth demonstrates sustained revenue expansion over the four-year period.",
+  "issues_addressed": [
+    "80409302-e655-40a2-9476-a442f9496d58",
+    "c2d6160e-9bff-400a-a24d-634289434b5f",
+    "042cebe9-36bd-4865-ac93-88cb598429e4",
+    "969a3611-9b12-4830-8e3e-6102dfb16953"
+  ],
+  "changes_summary": "Fixed citation mismatch by replacing generic revenue chunks with income statement chunks that explicitly specify fiscal year end dates (2022-2025). Changed FY2025 language from 'reached' to 'is projected to reach' to address scope violation (as-of date 2025-07 means FY2025 not complete). Removed unsupported claims about e-commerce segment, cloud segment, market share gains, and pricing power that constituted hallucination. Replaced analytical conclusion with factual observation about revenue expansion directly supported by the revenue data.",
+  "revised_at": "2026-03-12T10:59:43.678882"
+}

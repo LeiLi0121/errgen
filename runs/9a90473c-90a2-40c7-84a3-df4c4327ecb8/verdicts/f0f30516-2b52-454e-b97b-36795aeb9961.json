@@ -1,0 +1,22 @@
+{
+  "verdict_id": "f0f30516-2b52-454e-b97b-36795aeb9961",
+  "paragraph_id": "5be7ff05-bf18-46df-bf2c-9217413b9c75",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "7e32562e-fa58-45f7-a635-b5daadfd0cbb",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "5be7ff05-bf18-46df-bf2c-9217413b9c75",
+      "offending_span": "Reuters reported on March 8, 2026, that NVIDIA Corporation halted China-bound H200 output",
+      "explanation": "The cited chunk (d45d9018-653b-41c6-9a57-50f69a9996d6) contains only a cookie consent banner in its body text ('If you click 'Accept all', we and our partners...'), not the actual news article content. While the chunk title matches the claim, the body evidence provided does not substantiate the specific details of the report (e.g., that Reuters was the source, or the specific details of the halt). Relying on a title of a page that failed to load properly (indicated by the cookie text) is insufficient for rigorous verification.",
+      "relevant_chunk_ids": [
+        "d45d9018-653b-41c6-9a57-50f69a9996d6"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Replace the cited chunk with a valid news snippet that contains the actual article body text confirming the Reuters report and the halt of H200 output. Alternatively, verify if the chunk retrieval failed and re-fetch the correct content."
+    }
+  ],
+  "checked_at": "2026-03-11T12:38:25.627893",
+  "iteration": 0
+}

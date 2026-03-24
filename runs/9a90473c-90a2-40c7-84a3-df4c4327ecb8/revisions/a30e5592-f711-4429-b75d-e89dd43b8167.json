@@ -1,0 +1,12 @@
+{
+  "revision_id": "a30e5592-f711-4429-b75d-e89dd43b8167",
+  "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+  "iteration": 1,
+  "original_text": "Revenue concentration and margin sustainability present potential risk factors, as revenue growth from $26.97 billion in FY2023 to $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a]. Additionally, evidence regarding macro/geopolitical risks, competitive landscape threats, regulatory/antitrust exposure, and supply chain vulnerabilities is insufficient in the provided data to quantify these risk categories with specificity [Risk Analysis section].",
+  "revised_text": "Revenue concentration and margin sustainability present potential risk factors, as projected revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a].",
+  "issues_addressed": [
+    "12ca11e9-9929-4b02-b4b3-ec9368965975"
+  ],
+  "changes_summary": "Removed the unsupported FY2023 revenue figure ($26.97 billion) as no corresponding evidence chunk exists in the provided data. Removed the claim regarding insufficient evidence for specific risk categories as this meta-claim could not be supported by a cited chunk. Retained the FY2026 revenue projection ($215.94 billion) which is supported by chunk cdffc354-305b-4c6d-9459-624d8d18147a. Updated citations to match the available evidence.",
+  "revised_at": "2026-03-11T15:37:49.007807"
+}

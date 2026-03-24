@@ -1,0 +1,37 @@
+{
+  "verdict_id": "31ed9275-0030-409c-a735-09c076863395",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "7a164702-8ca0-4283-97a4-7e2e1972c6ae",
+      "issue_type": "internal_inconsistency",
+      "severity": "critical",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "The company maintains a current ratio of 0.94",
+      "explanation": "The Previously Verified Facts section (Financial Analysis, status: pass) states that as of FY2024, current assets totaled $229,083,000,000 against current liabilities of $218,005,000,000, which would yield a current ratio of approximately 1.05. However, this paragraph cites calculations showing current assets of $146,791,000,000 and current liabilities of $155,393,000,000 (ratio 0.94). Similarly, the Previously Verified Facts state Total Debt of $130,900,000,000 and Cash & Equivalents of $78,779,000,000 plus Short-Term Investments of $22,423,000,000 for FY2024, while the cited calculations use Total Debt of $140,118,000,000 and Cash of $53,888,000,000. These material discrepancies in balance sheet figures contradict previously verified facts without explanation.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "a8238c0b-0eb7-4a01-b910-5c83f9e1296b",
+        "7682229a-d413-422b-8ec1-a4236848f957",
+        "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+      ],
+      "recommended_fix": "Clarify which fiscal period these calculations represent. If this is updated FY2025 data, explicitly state the period and reconcile with the FY2024 figures in the Previously Verified Facts. If this is intended to be FY2024 data, correct the figures to match the previously verified balance sheet amounts."
+    },
+    {
+      "issue_id": "0d510805-1235-4264-a0b1-b7ad35fa4ea5",
+      "issue_type": "overclaiming",
+      "severity": "major",
+      "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+      "offending_span": "indicating adequate short-term liquidity coverage",
+      "explanation": "A current ratio of 0.94 is below 1.0, which typically indicates the company cannot fully cover its short-term obligations with current assets. This is generally viewed as a potential liquidity concern in financial analysis, not 'adequate' coverage. The language implies a level of liquidity strength that the metric does not support.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "a8238c0b-0eb7-4a01-b910-5c83f9e1296b"
+      ],
+      "recommended_fix": "Revise the characterization to accurately reflect the liquidity position. Consider phrasing such as 'indicating current assets cover approximately 94% of short-term obligations' or acknowledge the ratio is below the conventional 1.0 threshold while providing context for why this may be acceptable for Amazon's business model."
+    }
+  ],
+  "checked_at": "2026-03-12T12:45:13.126571",
+  "iteration": 1
+}

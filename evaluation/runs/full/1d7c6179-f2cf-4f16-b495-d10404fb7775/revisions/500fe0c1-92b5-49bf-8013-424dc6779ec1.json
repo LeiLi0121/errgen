@@ -1,0 +1,12 @@
+{
+  "revision_id": "500fe0c1-92b5-49bf-8013-424dc6779ec1",
+  "paragraph_id": "7699836e-dc77-45a1-ac0a-34e5c2b43320",
+  "iteration": 1,
+  "original_text": "Technology and disruption risks are indicated by the company's substantial R&D investment of $1,098,000,000 in Q4 2025, representing 17.73% of revenue, which suggests the need for continuous innovation to maintain competitive positioning [C018, C012, K007]. The stock's significant underperformance of -36.85% over 1 year versus SPY's +16.23% return indicates market concerns about the company's growth trajectory or competitive positioning [K015, K016]. As a diversified software company operating through Digital Media, Digital Experience, and Publishing and Advertising segments, Adobe faces ongoing pressure to adapt its product portfolio to evolving customer needs and technological shifts [C002].",
+  "revised_text": "Technology and disruption risks are indicated by the company's substantial R&D investment of $1,098,000,000 in Q4, representing 17.73% of revenue, which suggests the need for continuous innovation to maintain competitive positioning [C018, C012, K007]. The stock's significant underperformance of -36.85% over 1 year versus SPY's +16.23% return indicates market concerns about the company's growth trajectory or competitive positioning [K015, K016]. As a diversified software company operating through Digital Media, Digital Experience, and Publishing and Advertising segments, Adobe faces ongoing pressure to adapt its product portfolio to evolving customer needs and technological shifts [C002].",
+  "issues_addressed": [
+    "deefac30-f16d-4a43-9a86-a12c6525df1e"
+  ],
+  "changes_summary": "Removed '2025' from 'Q4 2025' to resolve the critical scope violation, as the report as-of date is August 2025 and the cited chunks (C012, C018) specify the period as 'Q4' without a year.",
+  "revised_at": "2026-03-23T20:21:05.818820"
+}

@@ -1,0 +1,152 @@
+{
+  "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+  "section_name": "Risk Analysis",
+  "text": "Financial leverage has increased, with Total Debt rising from $130,900,000,000 in FY2024 to $152,987,000,000 in FY2025, representing a 16.9% year-over-year increase [CHUNK_ID: 76dfb521-ff30-47b0-a294-0fb3a2edbc5e, CHUNK_ID: 76888285-3b76-46aa-bfd7-4aaf00b22d90]. While the company maintains substantial liquidity with Cash & Equivalents of $86,810,000,000 and Short-Term Investments of $36,219,000,000 as of FY2025 [CHUNK_ID: 119bd75b-f6e2-4495-b285-afbac6cb99aa, CHUNK_ID: da7f2cde-7295-4548-9884-3701db8f1124], the Current Ratio of approximately 1.05 (Current Assets of $229,083,000,000 / Current Liabilities of $218,005,000,000) suggests limited short-term liquidity cushion [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650, CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]. Historical volatility is evident, as the company recorded a Net Loss of -$2,722,000,000 in FY2022 before recovering to Net Income of $77,670,000,000 in FY2025 [CHUNK_ID: 5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36, CHUNK_ID: 702aed43-27c7-4250-b493-cced0fb3ad06].",
+  "citations": [
+    {
+      "citation_id": "dd0aaae7-a204-45d3-8d05-c7f5aee7815f",
+      "chunk_id": "76dfb521-ff30-47b0-a294-0fb3a2edbc5e",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Debt for FY: $130,900,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fa643c6d-fb1d-49ed-9f89-f3334ac5bafd",
+      "chunk_id": "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Debt for FY: $152,987,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f4debcae-eb1e-4a9e-b03d-48672ddbc8ab",
+      "chunk_id": "119bd75b-f6e2-4495-b285-afbac6cb99aa",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Cash & Equivalents for FY: $86,810,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4e1aa7d9-76c5-4d79-a8c7-b4cacc1cedb4",
+      "chunk_id": "da7f2cde-7295-4548-9884-3701db8f1124",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – AMZN | Period: FY | Date: 2025-12-31\n  Total Assets:              $818,042,000,000\n  Total Liabilities:         $406,977,000,000\n  Total Stockholders' Equity:$411,065,000,000\n  Cash & Equivalents:        $86,810,000,000\n  Short-Term Investments:    $36,219,000,000\n  Total Debt:      ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "32eb8549-eb13-4386-98ce-f37b32e6b905",
+      "chunk_id": "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Assets for FY: $229,083,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "83d4f500-bce7-49e6-8d43-84a570e46d49",
+      "chunk_id": "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+      "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Liabilities for FY: $218,005,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "58bd0340-afa4-4581-b6ba-a69a66173977",
+      "chunk_id": "5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Net Income for FY: $-2,722,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0e82f0ff-c458-45a4-b6c1-5bec0576a2ee",
+      "chunk_id": "702aed43-27c7-4250-b493-cced0fb3ad06",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Net Income for FY: $77,670,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "76dfb521-ff30-47b0-a294-0fb3a2edbc5e",
+    "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+    "119bd75b-f6e2-4495-b285-afbac6cb99aa",
+    "da7f2cde-7295-4548-9884-3701db8f1124",
+    "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+    "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+    "5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36",
+    "702aed43-27c7-4250-b493-cced0fb3ad06"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "d2d48f70-75f9-4387-b848-86a18d8b2007",
+      "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "7f78af1f-241e-4c80-a9a3-59607aa4a542",
+          "issue_type": "scope_violation",
+          "severity": "critical",
+          "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+          "offending_span": "Total Debt rising from $130,900,000,000 in FY2024 to $152,987,000,000 in FY2025",
+          "explanation": "The paragraph references FY2025 data with a balance sheet date of 2025-12-31 (per chunk da7f2cde-7295-4548-9884-3701db8f1124), but the as-of date is 2025-07. Full FY2025 data would not be available as of July 2025 since the fiscal year ends December 2025.",
+          "relevant_chunk_ids": [
+            "76dfb521-ff30-47b0-a294-0fb3a2edbc5e",
+            "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+            "da7f2cde-7295-4548-9884-3701db8f1124"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either update the as-of date to after FY2025 closes (post-December 2025), or revise the paragraph to reference only data available as of July 2025 (e.g., FY2024 actuals and FY2025 estimates if available)."
+        },
+        {
+          "issue_id": "2eea7078-093a-47a3-9099-576cfa9ac586",
+          "issue_type": "scope_violation",
+          "severity": "critical",
+          "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+          "offending_span": "Cash & Equivalents of $86,810,000,000 and Short-Term Investments of $36,219,000,000 as of FY2025",
+          "explanation": "The liquidity figures are tied to FY2025 (balance sheet date 2025-12-31 per chunk da7f2cde-7295-4548-9884-3701db8f1124), which is after the as-of date of 2025-07. This data would not be available at the report date.",
+          "relevant_chunk_ids": [
+            "119bd75b-f6e2-4495-b285-afbac6cb99aa",
+            "da7f2cde-7295-4548-9884-3701db8f1124"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Reference only balance sheet data available as of July 2025, or update the as-of date to reflect when FY2025 data becomes available."
+        },
+        {
+          "issue_id": "7296e834-e3da-4c27-a954-f216d8d29edb",
+          "issue_type": "scope_violation",
+          "severity": "critical",
+          "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+          "offending_span": "Net Income of $77,670,000,000 in FY2025",
+          "explanation": "FY2025 net income data (ending 2025-12-31) is referenced when the as-of date is 2025-07. Full-year FY2025 results would not be available until after the fiscal year closes.",
+          "relevant_chunk_ids": [
+            "702aed43-27c7-4250-b493-cced0fb3ad06"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Use only FY2024 or earlier actual net income data, or clearly label FY2025 figures as estimates/projections if that is the intent."
+        },
+        {
+          "issue_id": "713db922-37c6-4cc2-a54e-684e5424cb88",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+          "offending_span": "Net Loss of -$2,722,000,000 in FY2022 before recovering to Net Income of $77,670,000,000 in FY2025",
+          "explanation": "The cited income statement chunks (5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36 and 702aed43-27c7-4250-b493-cced0fb3ad06) show the net income figures but do not specify which fiscal years they correspond to. The paragraph claims FY2022 and FY2025 specifically, but this attribution is not supported by the chunk content.",
+          "relevant_chunk_ids": [
+            "5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36",
+            "702aed43-27c7-4250-b493-cced0fb3ad06"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite chunks that explicitly specify the fiscal years, or add qualifying language indicating the fiscal year attribution comes from another source."
+        }
+      ],
+      "checked_at": "2026-03-12T10:24:40.930332",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

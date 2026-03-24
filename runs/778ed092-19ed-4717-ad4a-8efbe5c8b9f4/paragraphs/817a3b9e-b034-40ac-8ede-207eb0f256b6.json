@@ -1,0 +1,69 @@
+{
+  "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+  "section_name": "Financial Analysis",
+  "text": "NVIDIA demonstrated robust revenue expansion throughout fiscal 2025, with quarterly revenue progressing from $44,062,000,000 in Q1 to $68,127,000,000 in Q4 2026 [0f02741a-d0ea-4bca-99a1-43ba2bf309de][8673c861-f8b6-4f0f-8801-373630314eeb]. Year-over-year growth rates accelerated from 6.08% in Q2 to 21.96% in Q3, before moderating slightly to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. This sequential growth trajectory indicates sustained demand momentum across the company's product portfolio, particularly in data center and AI-related segments.",
+  "citations": [
+    {
+      "citation_id": "ddad5ea8-e5c5-44aa-a490-3dfff6028cf1",
+      "chunk_id": "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Revenue for Q1: $44,062,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c401e37f-cfe5-4141-8bf4-d161a44bc118",
+      "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Revenue for Q4: $68,127,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+    "8673c861-f8b6-4f0f-8801-373630314eeb"
+  ],
+  "calc_ids": [
+    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "71390143-37eb-4476-8301-0e9fab10caa6",
+      "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "6871f37c-083d-4248-932d-867543dc9d84",
+          "issue_type": "internal_inconsistency",
+          "severity": "critical",
+          "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+          "offending_span": "fiscal 2025",
+          "explanation": "The paragraph states 'fiscal 2025' but references 'Q4 2026' and the verified facts confirm the fiscal year ends January 25, 2026 (fiscal 2026). This is a direct contradiction with the previously verified facts about NVIDIA's fiscal year 2026.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change 'fiscal 2025' to 'fiscal 2026' to align with the verified company information and the Q4 2026 reference in the same sentence."
+        },
+        {
+          "issue_id": "05539830-f0c6-421b-b3c1-ff968f7d7c9e",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+          "offending_span": "particularly in data center and AI-related segments",
+          "explanation": "The cited chunks (0f02741a-d0ea-4bca-99a1-43ba2bf309de and 8673c861-f8b6-4f0f-8801-373630314eeb) only contain overall revenue figures. There is no segment-level breakdown or mention of data center/AI performance in the cited evidence to support this specific claim.",
+          "relevant_chunk_ids": [
+            "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+            "8673c861-f8b6-4f0f-8801-373630314eeb"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the segment-specific claim or cite additional evidence chunks that contain segment-level revenue data for data center and AI products."
+        }
+      ],
+      "checked_at": "2026-03-23T05:16:50.983838",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

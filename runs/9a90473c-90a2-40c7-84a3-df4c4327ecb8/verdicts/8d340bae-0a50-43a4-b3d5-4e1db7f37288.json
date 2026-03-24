@@ -1,0 +1,70 @@
+{
+  "verdict_id": "8d340bae-0a50-43a4-b3d5-4e1db7f37288",
+  "paragraph_id": "ab146e0a-c007-4b53-89bb-5f3ce657367d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "7d2f9a2f-a198-4e57-b2f6-778597d3a4a3",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ab146e0a-c007-4b53-89bb-5f3ce657367d",
+      "offending_span": "Gross profit increased from $15,356,000,000 in FY2023 [13d776a2-5c4c-45d8-9f79-d7dfc9d82d90] to $153,463,000,000 in FY2026 [bb71bc88-ddc4-4b1f-ab5b-277bf6280c37]",
+      "explanation": "The cited income statement chunks do not specify which fiscal year they represent. Chunk metadata only states 'Period: FY' without year specification (FY2023 or FY2026). The paragraph makes specific year claims that cannot be verified from the chunk content alone.",
+      "relevant_chunk_ids": [
+        "13d776a2-5c4c-45d8-9f79-d7dfc9d82d90",
+        "bb71bc88-ddc4-4b1f-ab5b-277bf6280c37",
+        "c252e282-3457-4773-8dcb-dfc9983bc35b",
+        "cc584676-ac46-4524-a2c6-2e2bb1097a6b",
+        "6c6518c9-dc66-4548-ae07-9dc7d7ba5bd5",
+        "28f9dab4-07b2-47bf-ab98-ebaaf92714f1"
+      ],
+      "relevant_calc_ids": [
+        "fa1892bc-aa54-4657-b161-d3604764ec70",
+        "3ffe9f64-65dd-443d-900d-ba16f3a72e7d",
+        "2359a7d3-9892-4791-b7a9-c15cbdcb56dd"
+      ],
+      "recommended_fix": "Cite chunks that explicitly specify the fiscal year in their content or metadata, or add a clarifying note explaining how the FY2023/FY2026 assignments were determined from the source material. Alternatively, restructure the paragraph to avoid specific year claims if the evidence does not support them."
+    },
+    {
+      "issue_id": "7f591dec-cd1a-46f4-8016-4fe7e7a7a60c",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ab146e0a-c007-4b53-89bb-5f3ce657367d",
+      "offending_span": "FY2023 gross margin stood at 56.93% [fa1892bc-aa54-4657-b161-d3604764ec70]",
+      "explanation": "The cited calculation result shows the gross margin formula and result but does not specify which fiscal year it represents. The paragraph claims this is FY2023, but the calculation metadata does not support this specific year assignment.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "fa1892bc-aa54-4657-b161-d3604764ec70"
+      ],
+      "recommended_fix": "Use calculation results that explicitly specify the fiscal year, or provide additional evidence linking this calculation to FY2023 specifically."
+    },
+    {
+      "issue_id": "cc280d1b-06d0-40c9-93e3-88b8fd6439ef",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ab146e0a-c007-4b53-89bb-5f3ce657367d",
+      "offending_span": "FY2023 operating margin at 15.66% [3ffe9f64-65dd-443d-900d-ba16f3a72e7d]",
+      "explanation": "The cited calculation result shows the operating margin formula and result but does not specify which fiscal year it represents. The paragraph claims this is FY2023, but the calculation metadata does not support this specific year assignment.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "3ffe9f64-65dd-443d-900d-ba16f3a72e7d"
+      ],
+      "recommended_fix": "Use calculation results that explicitly specify the fiscal year, or provide additional evidence linking this calculation to FY2023 specifically."
+    },
+    {
+      "issue_id": "15d34d03-0be9-435e-8979-7d7d2be949a2",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ab146e0a-c007-4b53-89bb-5f3ce657367d",
+      "offending_span": "FY2023 net margin of 16.19% [2359a7d3-9892-4791-b7a9-c15cbdcb56dd]",
+      "explanation": "The cited calculation result shows the net margin formula and result but does not specify which fiscal year it represents. The paragraph claims this is FY2023, but the calculation metadata does not support this specific year assignment.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "2359a7d3-9892-4791-b7a9-c15cbdcb56dd"
+      ],
+      "recommended_fix": "Use calculation results that explicitly specify the fiscal year, or provide additional evidence linking this calculation to FY2023 specifically."
+    }
+  ],
+  "checked_at": "2026-03-11T12:44:42.976857",
+  "iteration": 0
+}

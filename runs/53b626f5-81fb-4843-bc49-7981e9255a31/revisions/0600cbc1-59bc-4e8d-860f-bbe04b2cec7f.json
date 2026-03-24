@@ -1,0 +1,12 @@
+{
+  "revision_id": "0600cbc1-59bc-4e8d-860f-bbe04b2cec7f",
+  "paragraph_id": "661b9549-7db5-4edd-ba9f-51c404dad83a",
+  "iteration": 3,
+  "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage as of FY2025 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. The company maintains a current ratio of 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d], indicating reasonable financial leverage relative to equity base.",
+  "revised_text": "For the FY2025 period [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], Amazon's current ratio was 0.94 [CALC_ID: a8238c0b-0eb7-4a01-b910-5c83f9e1296b], indicating current assets cover approximately 94% of short-term obligations. Net debt stood at $86.2 billion [CALC_ID: 7682229a-d413-422b-8ec1-a4236848f957], with a debt-to-equity ratio of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d].",
+  "issues_addressed": [
+    "8037d433-d3ef-499e-80ca-a61aac32803e"
+  ],
+  "changes_summary": "Removed unsupported qualitative claims ('solid liquidity positioning', 'manageable leverage', 'reasonable financial leverage') as no evidence chunks support these assessments. Removed inappropriate chunk citation from the balance sheet metrics claim. Retained chunk citation solely to support the FY2025 reporting period context. Retained quantitative metrics (current ratio, net debt, debt-to-equity) with their respective CALC_IDs.",
+  "revised_at": "2026-03-12T12:50:06.376255"
+}

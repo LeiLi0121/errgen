@@ -1,0 +1,2308 @@
+{
+  "report_id": "c22ed8a6-af6e-4684-8dc0-b58723e53c9a",
+  "request": {
+    "request_id": "6a9db8f1-2dc5-4c0f-8389-83e2a050e4e7",
+    "raw_text": "Provide an equity research analysis for Adobe Inc (ADBE US) as of 2025-08-22, evaluating financial performance, recent developments, company and industry positioning, key risks, and an investment view.",
+    "ticker": "ADBE",
+    "company_name": "Adobe Inc.",
+    "market": "US",
+    "as_of_date": "2025-08",
+    "focus_areas": [
+      "financial performance",
+      "recent developments",
+      "industry positioning",
+      "key risks",
+      "investment view"
+    ],
+    "report_style": "standard",
+    "language": "en",
+    "created_at": "2026-03-23T19:07:08.200493"
+  },
+  "sections": [
+    {
+      "section_id": "0dacb883-7391-4661-96b4-a3a6be82b2f1",
+      "section_name": "Company Overview",
+      "section_order": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "9f6071a1-c73e-4a72-be77-3f88bfb98511",
+          "section_name": "Company Overview",
+          "text": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+          "citations": [
+            {
+              "citation_id": "7e9f174c-add8-4548-b802-0bf2f15f7ea0",
+              "chunk_id": "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "ce45bc81-14ae-433f-b057-b76f9a0ac623"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "815d7e54-e564-46e1-884c-ddf38746235e",
+          "section_name": "Company Overview",
+          "text": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publish, and promote content; and Document Cloud, a unified cloud-based document services platform. Its flagship product is Creative Cloud, a subscription service that allows members to access its creative products. This segment serves content creators, workers, marketers, educators, enthusiasts, communicators, and consumers. The Digital Experience segment provides an integrated platform and set of applications and services that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers products and services, such as e-learning solutions, technical document publishing, web conferencing, document and forms platform, web application development, and high-end printing, as well as Advertising Cloud offerings. The company offers its products and services directly to enterprise customers through its sales force and local field offices, as well as to end users through app stores and through its website at adobe.com. It also distributes products and services through a network of distributors, value-added resellers, systems integrators, software vendors and developers, retailers, and original equipment manufacturers. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California.",
+          "citations": [
+            {
+              "citation_id": "6476ad06-8826-4f15-ad53-8024232fd24e",
+              "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "dab1219c-1746-4b8c-a048-ecb4f59ee221",
+      "section_name": "Recent Developments",
+      "section_order": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "898a5cf6-c582-4fb8-acd5-43970ddbffb2",
+          "section_name": "Recent Developments",
+          "text": "Adobe's stock has experienced notable volatility in recent trading sessions, with shares declining amid broader market concerns about AI competition in the creative software space. According to market commentary, Adobe stock fell approximately 1.7% following Google's announcement of enhanced image editing capabilities in its Gemini app, which investors viewed as potentially threatening Adobe's dominance in digital imaging C018. The stock closed at $354.91 in one recent session, representing a -2.29% shift from the previous trading day C014. Year-to-date, Adobe shares have lost 17.8% as investors remain skeptical about the company's AI product monetization strategy C015. Over the past six months, shareholders have lost 18.6% of their capital, underperforming the S&P 500 which climbed 8.8% during the same period C006.",
+          "citations": [
+            {
+              "citation_id": "adfc3dff-5cc1-489f-bfcc-ca9df824001f",
+              "chunk_id": "0977127c-7fc9-4fd5-af77-6d45a3b0d3b3",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-26T15:13:23Z | Yahoo\nTitle: Adobe stock falls after Google unveils enhanced image editing in Gemini\nURL: https://finnhub.io/api/news?id=92dd266ee25cbd5d2e2d4a86051594576682d49f167eae0900c78412d2734cd6\nInvesting.com -- Adobe (NASDAQ:ADBE) stock declined 1.7% Tuesday following Google’s ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "0dbdecc5-1bf0-4be7-b2c9-32276a9e5a99",
+              "chunk_id": "3d73965e-7d1f-4673-9f21-872bce88025c",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-26T21:45:01Z | Yahoo\nTitle: Adobe Systems (ADBE) Stock Slides as Market Rises: Facts to Know Before You Trade\nURL: https://finnhub.io/api/news?id=e7ddd5d04bbf85d089b1706b2ceb81ca238c730218df379f4df8745510206110\nIn the most recent trading session, Adobe Systems (ADBE) closed at $354.91",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "6fb2bece-c6a3-4d87-a5ae-b88ea34e5d0c",
+              "chunk_id": "c9d90c47-5bcb-4d7b-9d29-1204656bd2a6",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-26T21:23:28Z | Yahoo\nTitle: AI Stock Adobe (ADBE) Has Lost 13% Since Jim Cramer Expressed His Doubts\nURL: https://finnhub.io/api/news?id=8b2e15f65ec672f255753dac2d30a552fb74dbf6b61db62a832f856e7b0d9205\nWe recently published Jim Cramer’s 20 Bold AI Predictions – See How They Played Out",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "d6c52ff7-6c7b-48bd-b39b-adabbaca2b2b",
+              "chunk_id": "590958a2-459f-468a-b69f-a6df1102fbb8",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T04:02:44Z | Yahoo\nTitle: 2 Reasons to Like ADBE and 1 to Stay Skeptical\nURL: https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e\nOver the past six months, Adobe’s stock price fell to $356.95. Shareholders have lost 18.6% of their capital,",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0977127c-7fc9-4fd5-af77-6d45a3b0d3b3",
+            "3d73965e-7d1f-4673-9f21-872bce88025c",
+            "c9d90c47-5bcb-4d7b-9d29-1204656bd2a6",
+            "590958a2-459f-468a-b69f-a6df1102fbb8"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "b42d29a4-ea24-4bbc-a16f-5fc434538319",
+          "section_name": "Recent Developments",
+          "text": "Despite the share price pressure, analyst sentiment remains constructive on Adobe's long-term prospects. RBC Capital analyst Matthew Swanson reiterated an Outperform rating on August 21 with a $480.00 price target, citing long-term AI monetization upside for the company C013. The firm acknowledges increasing competition in the creative tools market but maintains a bullish stance on Adobe's positioning C013. A bullish thesis published on Rebound Capital's Substack noted Adobe's trailing and forward P/E ratios of 22.89 and 15.41 respectively as of August 18th, suggesting potential valuation attractiveness for growth-oriented investors C011.",
+          "citations": [
+            {
+              "citation_id": "8cdb170a-96da-42b2-9767-b1f9094c210a",
+              "chunk_id": "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T01:31:45Z | Yahoo\nTitle: RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT\nURL: https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910\nAdobe Inc. (NASDAQ:ADBE) is one of the Hot AI Stocks to Keep on Your Radar. On Aug",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "7de6aaf0-872c-4c0a-b269-c36287dd6f80",
+              "chunk_id": "30eedfee-60b4-43de-9c15-16c58d06b5d1",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T09:15:46Z | Yahoo\nTitle: Adobe Inc. (ADBE): A Bull Case Theory\nURL: https://finnhub.io/api/news?id=d233ee800d3179f2a15d1a43e00403899d2896681b4f5ba2187ae9d93fed573f\nWe came across a bullish thesis on Adobe Inc. on Rebound Capital’s Substack. In this article, we will summarize the bu",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+            "30eedfee-60b4-43de-9c15-16c58d06b5d1"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "f3e4e3a6-8215-4b2f-a9fe-71ed43f09d53",
+          "section_name": "Recent Developments",
+          "text": "Adobe continues to maintain leadership positioning across multiple software categories according to third-party market evaluations. The company was recognized as a leader in the Ecommerce Platform Companies Quadrant report, which evaluated over 100 companies with the top 15 recognized as leaders in online sales, marketing, and operations solutions C003. Adobe was also listed as a key market player in the Global Motion Graphics Market, which was valued at approximately USD 85.5 Billion in 2024 and expected to reach USD 280 Billion by 2034 at a 12.2% CAGR C008. Additionally, Adobe appears in the Web Conferencing Market Report and Forecast 2025-2034, benefiting from remote work trends and AI integration demand C012.",
+          "citations": [
+            {
+              "citation_id": "9c60a4f6-470b-401e-b4f8-ebff441c6100",
+              "chunk_id": "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "79c49e23-e38a-4b4a-aac8-005cad92a634",
+              "chunk_id": "24aec485-cab3-4684-af25-4fea89e0c663",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T17:30:00Z | Yahoo\nTitle: [Latest] Global Motion Graphics Market Size/Share Worth USD 280 Billion by 2034 at a 12.2% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)\nURL: https://finnhub.io/api/news?",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "4733468e-1acb-41d4-81f2-cf125f2c96bd",
+              "chunk_id": "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T08:53:00Z | Yahoo\nTitle: Web Conferencing Market Trends and Growth Forecast 2025-2034 Featuring Adobe, AURA Presence, Avaya, Cisco, Huawei, Logitech International, Microsoft, Plantronics, and Vidyo\nURL: https://finnhub.io/api/news?id=2da590d3367af539e953b420004da8d284774c5aadf4be6d",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+            "24aec485-cab3-4684-af25-4fea89e0c663",
+            "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "e59bdfb3-0749-4f6a-b596-19379038ac9e",
+          "section_name": "Recent Developments",
+          "text": "Competitive dynamics in the AI-enabled creative software market remain a key focus for investors. Google's Gemini upgrade with enhanced image editing capabilities represents a notable competitive development that sent Adobe stock lower C016. The competitive landscape includes established players like Autodesk, which recently raised annual forecasts on growing software demand across construction, infrastructure and manufacturing industries C001. Market observers note that Adobe stock underperforms when compared to competitors on certain trading days, reflecting ongoing investor scrutiny of the company's ability to maintain its market leadership position amid intensifying AI competition C017.",
+          "citations": [
+            {
+              "citation_id": "62cee1a5-c372-4378-a1ba-ee9cceefeb34",
+              "chunk_id": "62f4f88f-bc07-430a-8d4e-e3c3ee0b45f6",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-26T18:05:59Z | Yahoo\nTitle: Why Adobe (ADBE) Shares Are Falling Today\nURL: https://finnhub.io/api/news?id=843106d7553ff6dece9bf4148bed2ccd07380b21b083266f10cc6365a469be64\nADBE: Google's Gemini Upgrade Sends Adobe Stock Lower",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "639fcea0-e092-4b57-b36b-df58504eb8f1",
+              "chunk_id": "131c545d-416c-4c16-b206-b83d357a8b33",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T21:30:41Z | Yahoo\nTitle: Autodesk raises annual forecasts on growing software demand, shares rise\nURL: https://finnhub.io/api/news?id=fa45f49736470f8732ae612e49decf75015f4f00241ab76eb9822dd618c3377f\nAutodesk raised its annual revenue and profit forecasts on Thursday, betting on gro",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "ce60b44f-02a9-4166-a2ee-676d2d0e2063",
+              "chunk_id": "ef2aa5e4-ee53-4c6f-95f2-86f1b0b9c35b",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-26T16:36:00Z | MarketWatch\nTitle: Adobe Inc. stock underperforms Tuesday when compared to competitors\nURL: https://finnhub.io/api/news?id=2bc5490e6dfbfb9d90c3012db757f38ce8b9779100c2639005074b92b31507fa\nAdobe Inc. stock underperforms Tuesday when compared to competitors",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "62f4f88f-bc07-430a-8d4e-e3c3ee0b45f6",
+            "131c545d-416c-4c16-b206-b83d357a8b33",
+            "ef2aa5e4-ee53-4c6f-95f2-86f1b0b9c35b"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "102aa520-8985-4344-93ec-1adf2ba0ff83",
+      "section_name": "Financial Analysis",
+      "section_order": 3,
+      "paragraphs": [
+        {
+          "paragraph_id": "0f5da60b-af30-4ca1-8863-e0e460dc183f",
+          "section_name": "Financial Analysis",
+          "text": "Adobe's revenue trajectory demonstrates sequential improvement across recent quarters, with Q4 revenue reaching $6,194,000,000 (C010), up from $5,988,000,000 in Q3 (C018) and $5,873,000,000 in Q2 (C026). According to the YoY growth analysis (K001), revenue growth accelerated from -8.21% in Q2 to 1.96% in Q3 and further to 3.44% in Q4, indicating a meaningful recovery in top-line momentum. The most recent Q1 period shows revenue of $6,398,000,000 (C002), continuing the upward sequential trend. This progression suggests Adobe is successfully navigating through its growth transition, with the acceleration in YoY growth rates reflecting improved demand dynamics in its core digital media and digital experience segments.",
+          "citations": [
+            {
+              "citation_id": "6ce38b80-a5a3-4fa0-81c9-7b6b35f518d4",
+              "chunk_id": "6fba50d7-e1a4-4312-b2fa-f0554195ff08",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Revenue for Q1: $6,398,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "c792221b-d3c0-4fef-ab0a-9d761c0edd78",
+              "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "53849d81-9549-4bd1-8557-aa42f8959107",
+              "chunk_id": "627f9da6-15ec-46b5-ba7e-c911683eaf3e",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Revenue for Q3: $5,988,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "709065a3-b761-49a3-8884-54f67f0656a7",
+              "chunk_id": "2ac2206a-9671-4fd4-bc11-4ce053b95b4b",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Revenue for Q2: $5,873,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "6fba50d7-e1a4-4312-b2fa-f0554195ff08",
+            "df1312ec-0551-4faf-bb73-22ccbee090a1",
+            "627f9da6-15ec-46b5-ba7e-c911683eaf3e",
+            "2ac2206a-9671-4fd4-bc11-4ce053b95b4b"
+          ],
+          "calc_ids": [
+            "aa6b080f-af63-474f-9419-8dbeca0d5b07"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "edecc2bc-069c-43aa-b669-fc4f496809e5",
+          "section_name": "Financial Analysis",
+          "text": "Profitability metrics remain robust, with Adobe maintaining industry-leading margins across all key measures. In Q4, gross margin stood at 88.92% (K003), supported by gross profit of $5,508,000,000 (C011). Operating margin reached 36.50% (K004) on operating income of $2,261,000,000 (C012), while net margin was 29.96% (K005) based on net income of $1,856,000,000 (C013). EBITDA margin of 39.52% (K006) further underscores the company's strong operational efficiency. These margin levels reflect Adobe's scalable software business model and pricing power, though investors should monitor for any compression as the company continues investing in AI capabilities and product innovation.",
+          "citations": [
+            {
+              "citation_id": "64c02b59-8d68-45cd-9aaa-36ec7136ac55",
+              "chunk_id": "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Gross Profit for Q4: $5,508,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "ff5c0599-1bcf-4a4e-a511-9474e985296e",
+              "chunk_id": "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Operating Income for Q4: $2,261,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "ca7656a7-ad9f-40f5-8afb-ed292b2aa350",
+              "chunk_id": "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Net Income for Q4: $1,856,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+            "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2",
+            "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7"
+          ],
+          "calc_ids": [
+            "426b5804-bdf9-4613-904d-04a5ed365685",
+            "15c36992-22c3-492d-a197-fce0951e9593",
+            "ce227766-487c-4ec1-89c8-a80aeb88860a",
+            "6e643ee3-f3a9-457e-a4de-56f007b09777"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "d92847ca-0df8-4cb9-8586-e3adddf4271f",
+          "section_name": "Financial Analysis",
+          "text": "Cash flow generation remains a key strength, with Q4 EBITDA of $2,448,000,000 (C014) demonstrating strong earnings quality. The free cash flow margin of 50.47% (K011) indicates exceptional cash conversion, significantly exceeding net margins and highlighting the capital-light nature of Adobe's business model. In Q1, operating cash flow reached $2,958,000,000 (C070), with free cash flow of $2,921,000,000 (C072) after minimal capital expenditures of $-37,000,000 (C071). This robust cash generation provides substantial flexibility for strategic investments, shareholder returns, and potential M&A activity while maintaining a strong liquidity position.",
+          "citations": [
+            {
+              "citation_id": "27795a2c-6a94-431d-9628-baf109f723ea",
+              "chunk_id": "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE EBITDA for Q4: $2,448,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "cefbe659-21c4-4e0f-8f56-8e020e407ae5",
+              "chunk_id": "b6a66352-5031-445a-aaa6-e7041960d5d0",
+              "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+              "source_type": "cash_flow",
+              "text_snippet": "ADBE Operating Cash Flow for Q1: $2,958,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "d7882f8e-797b-4043-8a33-3677433632b5",
+              "chunk_id": "d1bcc1f2-6321-46d1-8222-28c4bb3f8d3f",
+              "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+              "source_type": "cash_flow",
+              "text_snippet": "ADBE Capital Expenditure for Q1: $-37,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "83cbea25-dadc-42a0-9e1a-8231807119ba",
+              "chunk_id": "d2df2944-6c37-4b50-93d5-3f082bd2854a",
+              "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+              "source_type": "cash_flow",
+              "text_snippet": "ADBE Free Cash Flow for Q1: $2,921,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+            "b6a66352-5031-445a-aaa6-e7041960d5d0",
+            "d1bcc1f2-6321-46d1-8222-28c4bb3f8d3f",
+            "d2df2944-6c37-4b50-93d5-3f082bd2854a"
+          ],
+          "calc_ids": [
+            "ecabb3b3-d1c6-4088-a412-eaef40cadc30"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "f399d6c7-3e58-4722-832e-b0c38a8eed71",
+          "section_name": "Financial Analysis",
+          "text": "The balance sheet presents a mixed liquidity picture with manageable leverage. The current ratio of 0.9964 (K008) indicates current assets of $10,163,000,000 (C049) nearly match current liabilities of $10,200,000,000 (C050), suggesting tight but adequate working capital management. Leverage remains conservative with a debt-to-equity ratio of 0.5720 (K009), based on total debt of $6,648,000,000 (C047) and stockholders' equity of $11,623,000,000 (C045). Net debt of $1,217,000,000 (K010) is modest relative to cash and equivalents of $5,431,000,000 (C046), providing a comfortable cushion. This balance sheet structure supports continued investment in growth initiatives while maintaining financial flexibility.",
+          "citations": [
+            {
+              "citation_id": "5dcb59e0-d372-4eab-915b-08c7cdf4d1ce",
+              "chunk_id": "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Cash & Equivalents for Q4: $5,431,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "3432477c-1ca9-4768-b24d-58b71d8108b0",
+              "chunk_id": "4df4e625-3969-43a3-b113-1221bfeff5da",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Total Debt for Q4: $6,648,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "1b9a67be-a8d1-4431-b99a-6229fd82b8e2",
+              "chunk_id": "0cc438e1-cd60-460c-803d-5629400efec5",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Total Current Assets for Q4: $10,163,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "e00aefc0-d08f-45ce-96c0-7608994820c4",
+              "chunk_id": "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Total Current Liabilities for Q4: $10,200,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+            "4df4e625-3969-43a3-b113-1221bfeff5da",
+            "0cc438e1-cd60-460c-803d-5629400efec5",
+            "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9"
+          ],
+          "calc_ids": [
+            "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+            "90712dd2-8fcf-419e-bc11-6c9b1f50c235",
+            "cc126119-69b0-4364-9543-52985dee2d4f"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "80f02863-eee9-4e6c-a1c0-2c166242c243",
+          "section_name": "Financial Analysis",
+          "text": "Adobe maintains substantial R&D investment intensity at 17.73% of revenue in Q4 (K007), with R&D expenses of $1,098,000,000 (C016) against revenue of $6,194,000,000 (C010). This elevated investment level reflects the company's commitment to advancing its AI-powered capabilities across the Creative Cloud, Document Cloud, and Experience Cloud portfolios. R&D spending has grown sequentially from $1,082,000,000 in Q2 (C032) to $1,088,000,000 in Q3 (C024) and $1,098,000,000 in Q4 (C016), demonstrating sustained commitment to innovation. While this intensity pressures near-term operating margins, it positions Adobe competitively in the rapidly evolving generative AI landscape and supports long-term product differentiation.",
+          "citations": [
+            {
+              "citation_id": "b36032eb-726b-411c-8be6-6e0b5c60f1f9",
+              "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "5ddd8f0f-b88a-49f1-8e32-d1db4e281c52",
+              "chunk_id": "ceb34687-af1f-4b8e-b2b2-c1af57130483",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE R&D Expenses for Q4: $1,098,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "5bc2bcee-0b85-4d5e-b7b6-63ab778f2440",
+              "chunk_id": "6c87562b-858b-452f-a498-6027e8187882",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE R&D Expenses for Q3: $1,088,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "7aa87d52-6534-411b-b076-1da43f8f95b5",
+              "chunk_id": "3f748114-e2f9-4dff-bc2d-19523b92b5c2",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE R&D Expenses for Q2: $1,082,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "df1312ec-0551-4faf-bb73-22ccbee090a1",
+            "ceb34687-af1f-4b8e-b2b2-c1af57130483",
+            "6c87562b-858b-452f-a498-6027e8187882",
+            "3f748114-e2f9-4dff-bc2d-19523b92b5c2"
+          ],
+          "calc_ids": [
+            "0364ba40-fea2-4649-be81-86c5c859c3fd"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "8af072d4-6bf9-4eb3-9433-fb12e2fb6a49",
+      "section_name": "Business & Competitive Analysis",
+      "section_order": 4,
+      "paragraphs": [
+        {
+          "paragraph_id": "41cb8fda-4a84-49df-991d-a481b95c0894",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Adobe Inc. operates as a diversified software company worldwide through three primary segments: Digital Media, Digital Experience, and Publishing and Advertising [C002]. The Digital Media segment serves as the company's flagship, offering Creative Cloud subscription services that enable individuals, teams, and enterprises to create, publish, and promote content, alongside Document Cloud, a unified cloud-based document services platform [C002]. The Digital Experience segment provides an integrated platform enabling brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce [C002]. The Publishing and Advertising segment offers e-learning solutions, technical document publishing, web conferencing, document and forms platform, web application development, high-end printing, and Advertising Cloud offerings [C002]. Adobe distributes products directly to enterprise customers through its sales force and local field offices, as well as to end users through app stores and adobe.com, supplemented by a network of distributors, value-added resellers, systems integrators, and OEMs [C002]. The company employs 30,709 full-time employees and is headquartered in San Jose, California [C001].",
+          "citations": [
+            {
+              "citation_id": "a05d27d2-e5be-4671-9ff7-37b329ce4550",
+              "chunk_id": "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "0fb5c294-6d44-4b90-b9b8-6f5fe4b8fb70",
+              "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+            "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "8f1c84a3-2287-4e20-91bd-5ba072536ac4",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Adobe maintains a leadership position across multiple software markets, though faces increasing competitive pressure. In the global eCommerce platform market, Adobe is recognized as one of the top 15 leaders among over 100 evaluated companies, alongside Shopify, Wix, Oracle, and Square [C005]. In the motion graphics market, Adobe is listed as a key market player alongside Autodesk Inc. and Maxon, with the market expected to grow from approximately $98.3 billion in 2025 to around $280 billion by 2034 at a 12.2% CAGR [C010]. Adobe also competes in the web conferencing market, which is set to expand at an 8.40% CAGR from 2025 to 2034, driven by increased adoption in corporate and educational sectors [C014]. However, analyst commentary indicates increasing competition in the creative tools market, which RBC Capital acknowledges while maintaining an Outperform rating on the stock [C015]. The company's recent stock performance reflects market concerns, with shares falling 18.6% over six months as of late August 2025, underperforming the S&P 500 which climbed 8.8% during the same period [C008].",
+          "citations": [
+            {
+              "citation_id": "9c9dc7e3-2f0e-40d0-8642-5372794af23c",
+              "chunk_id": "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "74a98340-7c01-437a-bb2e-9e55526cb323",
+              "chunk_id": "590958a2-459f-468a-b69f-a6df1102fbb8",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T04:02:44Z | Yahoo\nTitle: 2 Reasons to Like ADBE and 1 to Stay Skeptical\nURL: https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e\nOver the past six months, Adobe’s stock price fell to $356.95. Shareholders have lost 18.6% of their capital,",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "0b42109c-4d66-4d79-82ec-21fe4304959b",
+              "chunk_id": "24aec485-cab3-4684-af25-4fea89e0c663",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T17:30:00Z | Yahoo\nTitle: [Latest] Global Motion Graphics Market Size/Share Worth USD 280 Billion by 2034 at a 12.2% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)\nURL: https://finnhub.io/api/news?",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "7998e12d-0ac1-429a-a1b7-5e2ed8919665",
+              "chunk_id": "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T08:53:00Z | Yahoo\nTitle: Web Conferencing Market Trends and Growth Forecast 2025-2034 Featuring Adobe, AURA Presence, Avaya, Cisco, Huawei, Logitech International, Microsoft, Plantronics, and Vidyo\nURL: https://finnhub.io/api/news?id=2da590d3367af539e953b420004da8d284774c5aadf4be6d",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "8948540c-a91e-480c-9f38-c0e50792fda2",
+              "chunk_id": "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T01:31:45Z | Yahoo\nTitle: RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT\nURL: https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910\nAdobe Inc. (NASDAQ:ADBE) is one of the Hot AI Stocks to Keep on Your Radar. On Aug",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+            "590958a2-459f-468a-b69f-a6df1102fbb8",
+            "24aec485-cab3-4684-af25-4fea89e0c663",
+            "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde",
+            "1791b1e0-8e87-4ce8-9c19-c28204e4ef41"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "69e7c49c-463b-4cba-90fe-795274b19827",
+          "section_name": "Business & Competitive Analysis",
+          "text": "AI-powered capabilities and monetization opportunities represent key growth drivers for Adobe. RBC Capital sees long-term AI monetization upside for Adobe, maintaining a $480 price target despite competitive pressures [C015]. The company is positioned to benefit from AI-powered personalization trends in the eCommerce sector, where Adobe is recognized alongside Shopify and Wix for shaping the future of eCommerce with market leadership and AI-powered platforms [C005]. Industry trends indicate growing demand for design and engineering software across construction, infrastructure, and manufacturing industries, driven by expanding enterprise agreements with large customers, though this specific trend is noted for competitor Autodesk [C003]. The motion graphics and web conferencing markets offer substantial growth opportunities, with projected CAGRs of 12.2% and 8.40% respectively through 2034 [C010][C014]. Evidence regarding specific strategic initiatives such as partnerships, acquisitions, or new market entries is insufficient in the provided materials to detail comprehensively.",
+          "citations": [
+            {
+              "citation_id": "f3264aeb-60b2-4470-b1c8-2167de3ac548",
+              "chunk_id": "131c545d-416c-4c16-b206-b83d357a8b33",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T21:30:41Z | Yahoo\nTitle: Autodesk raises annual forecasts on growing software demand, shares rise\nURL: https://finnhub.io/api/news?id=fa45f49736470f8732ae612e49decf75015f4f00241ab76eb9822dd618c3377f\nAutodesk raised its annual revenue and profit forecasts on Thursday, betting on gro",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "25e1d3dc-b847-46dd-a91a-829d5016a387",
+              "chunk_id": "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "8dfb76fb-909d-4c05-a684-357214e47320",
+              "chunk_id": "24aec485-cab3-4684-af25-4fea89e0c663",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T17:30:00Z | Yahoo\nTitle: [Latest] Global Motion Graphics Market Size/Share Worth USD 280 Billion by 2034 at a 12.2% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)\nURL: https://finnhub.io/api/news?",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "b04296e7-9b76-45b9-bae3-968f4e5197a5",
+              "chunk_id": "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T08:53:00Z | Yahoo\nTitle: Web Conferencing Market Trends and Growth Forecast 2025-2034 Featuring Adobe, AURA Presence, Avaya, Cisco, Huawei, Logitech International, Microsoft, Plantronics, and Vidyo\nURL: https://finnhub.io/api/news?id=2da590d3367af539e953b420004da8d284774c5aadf4be6d",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "a41346c2-1d93-48ce-9431-208a87811e4c",
+              "chunk_id": "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T01:31:45Z | Yahoo\nTitle: RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT\nURL: https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910\nAdobe Inc. (NASDAQ:ADBE) is one of the Hot AI Stocks to Keep on Your Radar. On Aug",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "131c545d-416c-4c16-b206-b83d357a8b33",
+            "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+            "24aec485-cab3-4684-af25-4fea89e0c663",
+            "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde",
+            "1791b1e0-8e87-4ce8-9c19-c28204e4ef41"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "09e543ce-8d18-4558-962a-ce42ef9d7dbc",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Management quality signals from analyst sources suggest continued confidence in Adobe's long-term positioning despite near-term headwinds. RBC Capital analyst Matthew Swanson reiterated an Outperform rating on August 21, 2025, with a $480 price target, indicating analyst belief in the company's AI monetization potential [C015]. Bullish thesis commentary from Rebound Capital's Substack highlights Adobe's valuation metrics, noting trailing and forward P/E ratios of 22.89 and 15.41 respectively as of August 18th, suggesting the stock may present opportunity at current levels [C013]. However, the stock has experienced significant volatility, with shares closing at approximately $354.91 to $357.24 in late August 2025, reflecting mixed market signals [C007][C013][C016]. Evidence regarding specific management commentary from filings or direct executive statements is insufficient in the provided materials to assess management quality signals comprehensively.",
+          "citations": [
+            {
+              "citation_id": "912afe53-1318-49b5-b412-fb807199bc27",
+              "chunk_id": "12067509-1bde-4c79-878d-0fbc4056d7ba",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T10:08:26Z | Yahoo\nTitle: Is Adobe's Share Price Slide Creating an Opportunity for Investors in 2025?\nURL: https://finnhub.io/api/news?id=973ef94c8676e39f65af66b97caf64cbfee1ab2461ba322a2c33bd804bb92018\nThinking about what to do with Adobe stock? You are not alone. Whether you are c",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "4a0d9ad6-87ea-4b16-a52d-4712df531913",
+              "chunk_id": "30eedfee-60b4-43de-9c15-16c58d06b5d1",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T09:15:46Z | Yahoo\nTitle: Adobe Inc. (ADBE): A Bull Case Theory\nURL: https://finnhub.io/api/news?id=d233ee800d3179f2a15d1a43e00403899d2896681b4f5ba2187ae9d93fed573f\nWe came across a bullish thesis on Adobe Inc. on Rebound Capital’s Substack. In this article, we will summarize the bu",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9e82333a-c1e3-4a61-97dc-152a6b459c33",
+              "chunk_id": "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-27T01:31:45Z | Yahoo\nTitle: RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT\nURL: https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910\nAdobe Inc. (NASDAQ:ADBE) is one of the Hot AI Stocks to Keep on Your Radar. On Aug",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "cd56f070-4bf5-404b-8757-5c86cc7ddff3",
+              "chunk_id": "3d73965e-7d1f-4673-9f21-872bce88025c",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-26T21:45:01Z | Yahoo\nTitle: Adobe Systems (ADBE) Stock Slides as Market Rises: Facts to Know Before You Trade\nURL: https://finnhub.io/api/news?id=e7ddd5d04bbf85d089b1706b2ceb81ca238c730218df379f4df8745510206110\nIn the most recent trading session, Adobe Systems (ADBE) closed at $354.91",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "12067509-1bde-4c79-878d-0fbc4056d7ba",
+            "30eedfee-60b4-43de-9c15-16c58d06b5d1",
+            "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+            "3d73965e-7d1f-4673-9f21-872bce88025c"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "f07788d2-7be7-4b61-898d-95853af08688",
+      "section_name": "Risk Analysis",
+      "section_order": 5,
+      "paragraphs": [
+        {
+          "paragraph_id": "4bdd99d0-2f53-4401-af72-c5b8aefd13c8",
+          "section_name": "Risk Analysis",
+          "text": "Financial leverage and liquidity present moderate risk for Adobe. As of Q4 2025, the company carries total debt of $6,648,000,000 against stockholders' equity of $11,623,000,000, resulting in a debt-to-equity ratio of 0.57 (K009, C049, C047). Net debt stands at $1,217,000,000 after accounting for cash and equivalents of $5,431,000,000 (K010, C048). More notably, the current ratio at Q4 2025 is approximately 1.00, with current assets of $10,163,000,000 against current liabilities of $10,200,000,000 (K008, C051, C052). This tight liquidity position suggests limited short-term financial flexibility, though the company maintains positive net cash positioning overall.",
+          "citations": [
+            {
+              "citation_id": "7b39acce-b925-46db-84c5-a5c2f7ab3580",
+              "chunk_id": "af6c2a54-0b7e-45dc-be75-47391e6b3ef6",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Stockholders' Equity for Q4: $11,623,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "944f57f4-25a2-4f85-9e7e-a61f7d6b9cfd",
+              "chunk_id": "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Cash & Equivalents for Q4: $5,431,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9d4baf3b-9c5c-4a6e-a302-3b7dc80dbc95",
+              "chunk_id": "4df4e625-3969-43a3-b113-1221bfeff5da",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Total Debt for Q4: $6,648,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "e9e47eb6-913d-45ff-9470-6e326f5ba9a4",
+              "chunk_id": "0cc438e1-cd60-460c-803d-5629400efec5",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Total Current Assets for Q4: $10,163,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9be4444c-01e2-4fb6-b0e7-36add942883d",
+              "chunk_id": "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9",
+              "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+              "source_type": "balance_sheet",
+              "text_snippet": "ADBE Total Current Liabilities for Q4: $10,200,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "af6c2a54-0b7e-45dc-be75-47391e6b3ef6",
+            "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+            "4df4e625-3969-43a3-b113-1221bfeff5da",
+            "0cc438e1-cd60-460c-803d-5629400efec5",
+            "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9"
+          ],
+          "calc_ids": [
+            "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+            "90712dd2-8fcf-419e-bc11-6c9b1f50c235",
+            "cc126119-69b0-4364-9543-52985dee2d4f"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "6309012f-94dd-44e9-b575-d7bcc0be8b79",
+          "section_name": "Risk Analysis",
+          "text": "Revenue growth volatility represents a material business risk. While Q4 2025 showed 3.44% YoY revenue growth and Q3 2025 demonstrated 1.96% growth, Q2 2025 experienced a significant contraction of -8.21% YoY (K001). This inconsistency in top-line performance suggests susceptibility to macroeconomic conditions, customer spending patterns, or competitive pressures. Net income growth followed a similar pattern, with Q2 2025 declining -10.48% YoY before recovering to +4.79% in Q3 and +4.74% in Q4 (K002). The volatility indicates potential sensitivity to economic cycles or execution challenges that could impact future periods.",
+          "citations": [
+            {
+              "citation_id": "48115c9e-f248-4720-93ff-97db2f38fa72",
+              "chunk_id": "9b38cd6c-4d0b-4694-b394-5d469ae59c23",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – ADBE | Period: Q1 | Date: 2026-02-27\n  Revenue:            $6,398,000,000\n  Gross Profit:       $5,699,000,000 (margin N/A)\n  Operating Income:   $2,418,000,000 (margin N/A)\n  Net Income:         $1,889,000,000 (margin N/A)\n  EBITDA:             $2,592,000,000\n  EPS:              ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "f5b8bd89-5c7b-4329-978e-619ee5be742a",
+              "chunk_id": "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – ADBE | Period: Q4 | Date: 2025-11-28\n  Revenue:            $6,194,000,000\n  Gross Profit:       $5,508,000,000 (margin N/A)\n  Operating Income:   $2,261,000,000 (margin N/A)\n  Net Income:         $1,856,000,000 (margin N/A)\n  EBITDA:             $2,448,000,000\n  EPS:              ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9fb1ec96-a0db-42ca-8e43-73480f973c29",
+              "chunk_id": "4096901d-ce2f-4ca3-8cba-89a4fdf331ed",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – ADBE | Period: Q3 | Date: 2025-08-29\n  Revenue:            $5,988,000,000\n  Gross Profit:       $5,346,000,000 (margin N/A)\n  Operating Income:   $2,173,000,000 (margin N/A)\n  Net Income:         $1,772,000,000 (margin N/A)\n  EBITDA:             $2,462,000,000\n  EPS:              ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "2eb9a5db-4c26-420a-b98b-62cfb645b8d9",
+              "chunk_id": "e00b3bc7-1093-4897-bea3-873e55293d06",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – ADBE | Period: Q2 | Date: 2025-05-30\n  Revenue:            $5,873,000,000\n  Gross Profit:       $5,235,000,000 (margin N/A)\n  Operating Income:   $2,109,000,000 (margin N/A)\n  Net Income:         $1,691,000,000 (margin N/A)\n  EBITDA:             $2,378,000,000\n  EPS:              ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "9b38cd6c-4d0b-4694-b394-5d469ae59c23",
+            "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+            "4096901d-ce2f-4ca3-8cba-89a4fdf331ed",
+            "e00b3bc7-1093-4897-bea3-873e55293d06"
+          ],
+          "calc_ids": [
+            "aa6b080f-af63-474f-9419-8dbeca0d5b07",
+            "b0eab616-36ac-427b-9f6d-9148465f95a3"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "92f55f96-6b86-4931-9c30-82fcddb52d9e",
+          "section_name": "Risk Analysis",
+          "text": "Market valuation and investor sentiment risk is evident from significant stock underperformance. Over the 1-year period ending near the as-of date, ADBE returned -36.85% compared to the SPY benchmark return of +16.23%, resulting in an excess return of -53.09% (K015, K016, K017). Even over the recent 30-day period, the stock declined -4.52% while SPY gained 2.15% (K012, K013, K014). This sustained underperformance suggests potential concerns among investors regarding growth prospects, competitive positioning, or valuation levels that could constrain the stock's multiple expansion and increase cost of capital.",
+          "citations": [
+            {
+              "citation_id": "13f7db31-1070-4e59-b151-f49645ee2f88",
+              "chunk_id": "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "ce45bc81-14ae-433f-b057-b76f9a0ac623"
+          ],
+          "calc_ids": [
+            "ea4272d5-9041-427c-b6c6-8eea6106b0ad",
+            "babb7b3c-4fc7-4156-9542-6957c34cfb79",
+            "2a01edbc-f53b-4fe8-8acc-273d0478beeb",
+            "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+            "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+            "d4126c43-6ca1-4432-9d41-c54b5e543718"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "38c9d0cd-b18e-4f2b-9337-6b8c0553f628",
+          "section_name": "Risk Analysis",
+          "text": "Evidence for macro/geopolitical, competitive, regulatory, operational, and technology disruption risks is insufficient in the provided data. The available chunks contain financial statements and company profile information but do not include specific news on export controls, currency exposure, interest rate impacts, competitive market share changes, antitrust actions, supply chain issues, talent retention challenges, or platform obsolescence threats. While Adobe operates globally across Digital Media, Digital Experience, and Publishing and Advertising segments (C002), specific risk exposures in these categories cannot be quantified without additional evidence. Investors should monitor these areas through company disclosures and industry reports.",
+          "citations": [
+            {
+              "citation_id": "c8a3dce5-3eee-47ae-ab5c-dfdeaa6e2f06",
+              "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "8b9ebe77-4c19-414f-936a-a8f74fdb0f9f",
+      "section_name": "Investment Recommendation & Outlook",
+      "section_order": 6,
+      "paragraphs": [
+        {
+          "paragraph_id": "6442f25a-5914-46bc-828e-ccb6f423c180",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "We assign a Hold rating to Adobe Inc. (ADBE) based on a balanced assessment of strong fundamental profitability metrics against meaningful growth volatility and competitive headwinds. While the company maintains industry-leading margins with gross margin at 88.92% (K003) and operating margin at 36.50% (K004), revenue growth has demonstrated notable inconsistency, contracting -8.21% YoY in Q2 before recovering to +3.44% in Q4 (K001). This volatility suggests susceptibility to macroeconomic conditions and competitive pressures that warrant a cautious stance.",
+          "citations": [
+            {
+              "citation_id": "ed625065-e3c9-4576-8e76-6449e7409363",
+              "chunk_id": "09b0caab-7540-4026-bc0e-44feb87d9ef0",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE R&D Expenses for Q1: $1,110,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "7dc23c1e-b789-446c-b31b-7321f94acf89",
+              "chunk_id": "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – ADBE | Period: Q4 | Date: 2025-11-28\n  Revenue:            $6,194,000,000\n  Gross Profit:       $5,508,000,000 (margin N/A)\n  Operating Income:   $2,261,000,000 (margin N/A)\n  Net Income:         $1,856,000,000 (margin N/A)\n  EBITDA:             $2,448,000,000\n  EPS:              ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9760ce02-ddd0-43c9-ac5a-ae9d573a6fd8",
+              "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "16facc20-efd9-4407-bb14-cf1e9fb147fa",
+              "chunk_id": "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Gross Profit for Q4: $5,508,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "fe826fce-a840-49cd-ad09-b57de8a42c7b",
+              "chunk_id": "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Operating Income for Q4: $2,261,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "09b0caab-7540-4026-bc0e-44feb87d9ef0",
+            "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+            "df1312ec-0551-4faf-bb73-22ccbee090a1",
+            "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+            "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2"
+          ],
+          "calc_ids": [
+            "aa6b080f-af63-474f-9419-8dbeca0d5b07",
+            "426b5804-bdf9-4613-904d-04a5ed365685",
+            "15c36992-22c3-492d-a197-fce0951e9593"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "26dce1b6-1ddf-42ce-8517-43e1898eb4bb",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Stock performance has significantly underperformed the broader market, with ADBE returning -36.85% over the past year compared to SPY's +16.23%, resulting in an excess return of -53.09% (K015, K016, K017). Recent trading sessions have shown continued pressure, with shares declining approximately 1.7% following Google's announcement of enhanced image editing capabilities via Gemini (Recent Developments summary). This competitive dynamic in the AI-enabled creative software market represents a key focus for investors and contributes to near-term sentiment headwinds.",
+          "citations": [
+            {
+              "citation_id": "18d46e53-7a3d-4a82-8491-1757180bc27c",
+              "chunk_id": "12067509-1bde-4c79-878d-0fbc4056d7ba",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T10:08:26Z | Yahoo\nTitle: Is Adobe's Share Price Slide Creating an Opportunity for Investors in 2025?\nURL: https://finnhub.io/api/news?id=973ef94c8676e39f65af66b97caf64cbfee1ab2461ba322a2c33bd804bb92018\nThinking about what to do with Adobe stock? You are not alone. Whether you are c",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "62af027d-3e44-46aa-ba12-592de664129c",
+              "chunk_id": "590958a2-459f-468a-b69f-a6df1102fbb8",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T04:02:44Z | Yahoo\nTitle: 2 Reasons to Like ADBE and 1 to Stay Skeptical\nURL: https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e\nOver the past six months, Adobe’s stock price fell to $356.95. Shareholders have lost 18.6% of their capital,",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "12067509-1bde-4c79-878d-0fbc4056d7ba",
+            "590958a2-459f-468a-b69f-a6df1102fbb8"
+          ],
+          "calc_ids": [
+            "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+            "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+            "d4126c43-6ca1-4432-9d41-c54b5e543718"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "cace73fa-bd1c-4cdd-93b0-c88b7c31c413",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Despite near-term challenges, several fundamental strengths support a constructive long-term view. Adobe generates exceptional cash flow with a free cash flow margin of 50.47% (K011), highlighting the capital-light nature of its business model. The company maintains substantial R&D investment at 17.73% of revenue in Q4 (K007, C018), reflecting commitment to advancing AI-powered capabilities across Creative Cloud. Analyst sentiment remains constructive, with RBC Capital reiterating an Outperform rating and $480 price target in August 2025, citing long-term AI monetization upside (Recent Developments summary, C015).",
+          "citations": [
+            {
+              "citation_id": "94cc7cb0-dbd4-46e4-a1da-1a3bbffa44c4",
+              "chunk_id": "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Net Income for Q4: $1,856,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "1a1f2021-6253-4b32-93fe-3b21539c0461",
+              "chunk_id": "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE EBITDA for Q4: $2,448,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "246eba99-24aa-4ef9-9fc7-24b8532f348f",
+              "chunk_id": "ceb34687-af1f-4b8e-b2b2-c1af57130483",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE R&D Expenses for Q4: $1,098,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7",
+            "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+            "ceb34687-af1f-4b8e-b2b2-c1af57130483"
+          ],
+          "calc_ids": [
+            "0364ba40-fea2-4649-be81-86c5c859c3fd",
+            "ecabb3b3-d1c6-4088-a412-eaef40cadc30"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "2a3887be-b0f7-490a-bcee-e5ab1b79e148",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Adobe maintains leadership positioning across multiple software categories, recognized as one of the top 15 leaders among over 100 evaluated companies in the global eCommerce platform market (C028, C005). The Digital Media segment serves as the company's flagship, offering Creative Cloud subscription services to content creators, marketers, and enterprises worldwide (C002). This diversified business model across Digital Media, Digital Experience, and Publishing and Advertising segments provides multiple revenue streams, though the company faces increasing competitive pressure from established players and new AI-enabled entrants (Recent Developments summary).",
+          "citations": [
+            {
+              "citation_id": "239b81bb-9c34-4e40-95e8-7aa9de67692f",
+              "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+              "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+              "source_type": "company_profile",
+              "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "f871d234-8709-46f7-ad5c-6c2bc784ca5f",
+              "chunk_id": "c89f21ca-ca8b-49f0-b940-42321c0e252e",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Gross Profit for Q1: $5,699,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "3b865471-3507-4354-b4d6-7c45a8eab296",
+              "chunk_id": "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+              "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+            "c89f21ca-ca8b-49f0-b940-42321c0e252e",
+            "26c1d781-8beb-42b1-8fb3-a2081ace82f9"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "3e5b0a5e-8c1d-4a8c-9628-3d6d2c8b83fe",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Key risks warrant explicit acknowledgment. Revenue growth volatility remains a material business risk, with YoY growth swinging from -8.21% to +3.44% across recent quarters (K001). Balance sheet liquidity presents moderate risk, with a current ratio of 0.9964 indicating current assets nearly match current liabilities (K008, C049, C050). The company carries total debt of $6.65B against stockholders' equity of $11.62B, resulting in a debt-to-equity ratio of 0.57 (K009). Additionally, evidence for macro/geopolitical, regulatory, and technology disruption risks is insufficient in the provided data, creating uncertainty around potential headwinds not captured in this analysis (Risk Analysis summary).",
+          "citations": [],
+          "chunk_ids": [],
+          "calc_ids": [
+            "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+            "90712dd2-8fcf-419e-bc11-6c9b1f50c235"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "ae48d010-bf37-41d3-94dc-e60ef0cca2dd",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "In summary, while Adobe's profitability metrics and cash generation capabilities are exceptional, the combination of revenue growth volatility, significant stock underperformance versus the SPY benchmark, and competitive pressures in the AI-enabled creative software space preclude a Buy recommendation at this time. However, strong fundamentals and analyst confidence in long-term AI monetization upside argue against a Sell rating. Investors should monitor upcoming quarters for sustained revenue growth acceleration and clearer evidence of AI monetization before upgrading to a more constructive stance. This Hold rating reflects the view that current risk-reward dynamics are balanced, with neither clear upside catalysts nor fundamental deterioration warranting a more decisive position.",
+          "citations": [
+            {
+              "citation_id": "1f51574b-74a4-4e1f-a22d-402e5db4a58e",
+              "chunk_id": "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7",
+              "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+              "source_type": "income_statement",
+              "text_snippet": "ADBE Net Income for Q4: $1,856,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7"
+          ],
+          "calc_ids": [
+            "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+            "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+            "d4126c43-6ca1-4432-9d41-c54b5e543718"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "0fabad03-bec5-432e-b57e-189095852ba7",
+      "title": "Company Snapshot",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Company",
+          "Adobe Inc."
+        ],
+        [
+          "Ticker",
+          "ADBE"
+        ],
+        [
+          "Exchange",
+          "NASDAQ"
+        ],
+        [
+          "Sector",
+          "Technology"
+        ],
+        [
+          "Industry",
+          "Software - Infrastructure"
+        ],
+        [
+          "Market Cap",
+          "N/A"
+        ],
+        [
+          "Country",
+          "US"
+        ],
+        [
+          "Employees",
+          "30709"
+        ]
+      ],
+      "description": "Deterministic company metadata pulled from the company profile source."
+    },
+    {
+      "table_id": "b38828e7-077a-4837-98c1-1bae8f19ab39",
+      "title": "Market Performance",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Benchmark",
+          "SPY"
+        ],
+        [
+          "Company start price",
+          "$560.54"
+        ],
+        [
+          "Company end price",
+          "$353.96"
+        ],
+        [
+          "Company 52-week high",
+          "$587.75"
+        ],
+        [
+          "Company 52-week low",
+          "$330.04"
+        ],
+        [
+          "Benchmark start price",
+          "$558.30"
+        ],
+        [
+          "Benchmark end price",
+          "$648.92"
+        ],
+        [
+          "30-day company return",
+          "-4.52%"
+        ],
+        [
+          "30-day benchmark return",
+          "2.15%"
+        ],
+        [
+          "30-day excess return",
+          "-6.67%"
+        ],
+        [
+          "1-year company return",
+          "-36.85%"
+        ],
+        [
+          "1-year benchmark return",
+          "16.23%"
+        ],
+        [
+          "1-year excess return",
+          "-53.09%"
+        ]
+      ],
+      "description": "Recent company-versus-benchmark price performance used by the prediction agent."
+    },
+    {
+      "table_id": "9dd574b9-2404-45d5-bf5c-e8ed38d0f26a",
+      "title": "Key Financials",
+      "columns": [
+        "Metric",
+        "Q3",
+        "Q1",
+        "Q4",
+        "Q2"
+      ],
+      "rows": [
+        [
+          "Revenue",
+          "$5.99B",
+          "$6.40B",
+          "$6.19B",
+          "$5.87B"
+        ],
+        [
+          "Gross Profit",
+          "$5.35B",
+          "$5.70B",
+          "$5.51B",
+          "$5.24B"
+        ],
+        [
+          "Operating Income",
+          "$2.17B",
+          "$2.42B",
+          "$2.26B",
+          "$2.11B"
+        ],
+        [
+          "Net Income",
+          "$1.77B",
+          "$1.89B",
+          "$1.86B",
+          "$1.69B"
+        ],
+        [
+          "EPS",
+          "4.18",
+          "4.61",
+          "4.45",
+          "3.95"
+        ],
+        [
+          "Operating Cash Flow",
+          "$2.20B",
+          "$2.96B",
+          "$3.16B",
+          "$2.19B"
+        ],
+        [
+          "Free Cash Flow",
+          "$2.13B",
+          "$2.92B",
+          "$3.13B",
+          "$2.14B"
+        ]
+      ],
+      "description": "Recent reported financial metrics sourced directly from structured statement data."
+    },
+    {
+      "table_id": "be558c1b-61e5-408a-b2fe-a2efaa0fa4f5",
+      "title": "Key Ratios",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Gross Margin",
+          "88.92%"
+        ],
+        [
+          "Operating Margin",
+          "36.50%"
+        ],
+        [
+          "Net Margin",
+          "29.96%"
+        ],
+        [
+          "EBITDA Margin",
+          "39.52%"
+        ],
+        [
+          "R&D Intensity",
+          "17.73%"
+        ],
+        [
+          "Current Ratio",
+          "1.00"
+        ],
+        [
+          "Debt-to-Equity",
+          "0.57"
+        ],
+        [
+          "Net Debt",
+          "$1.22B"
+        ],
+        [
+          "FCF Margin",
+          "50.47%"
+        ]
+      ],
+      "description": "Deterministic ratios computed from statement data and price signals."
+    },
+    {
+      "table_id": "ab2b04ad-422a-4794-ba67-8d143b32e72b",
+      "title": "Recent Filings",
+      "columns": [
+        "Form",
+        "Filed",
+        "Title",
+        "Source"
+      ],
+      "rows": [
+        [
+          "10-Q",
+          "2025-06-25",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/796343/000079634325000073/adbe-20250530."
+        ],
+        [
+          "10-Q",
+          "2025-03-26",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/796343/000079634325000059/adbe-20250228."
+        ],
+        [
+          "10-K",
+          "2025-01-13",
+          "10-K",
+          "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129."
+        ]
+      ],
+      "description": "Recent annual and quarterly filings made available to the analysis agents."
+    }
+  ],
+  "evidence_appendix": [
+    {
+      "chunk_id": "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+      "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+      "source_type": "company_profile",
+      "text": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+      "metadata": {
+        "ticker": "ADBE",
+        "field": "overview"
+      },
+      "period": null,
+      "field_name": "overview",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+      "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+      "source_type": "company_profile",
+      "text": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publish, and promote content; and Document Cloud, a unified cloud-based document services platform. Its flagship product is Creative Cloud, a subscription service that allows members to access its creative products. This segment serves content creators, workers, marketers, educators, enthusiasts, communicators, and consumers. The Digital Experience segment provides an integrated platform and set of applications and services that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers products and services, such as e-learning solutions, technical document publishing, web conferencing, document and forms platform, web application development, and high-end printing, as well as Advertising Cloud offerings. The company offers its products and services directly to enterprise customers through its sales force and local field offices, as well as to end users through app stores and through its website at adobe.com. It also distributes products and services through a network of distributors, value-added resellers, systems integrators, software vendors and developers, retailers, and original equipment manufacturers. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California.",
+      "metadata": {
+        "ticker": "ADBE",
+        "field": "description"
+      },
+      "period": null,
+      "field_name": "description",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "9b38cd6c-4d0b-4694-b394-5d469ae59c23",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "Income Statement – ADBE | Period: Q1 | Date: 2026-02-27\n  Revenue:            $6,398,000,000\n  Gross Profit:       $5,699,000,000 (margin N/A)\n  Operating Income:   $2,418,000,000 (margin N/A)\n  Net Income:         $1,889,000,000 (margin N/A)\n  EBITDA:             $2,592,000,000\n  EPS:                4.61\n  R&D Expenses:       $1,110,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "date": "2026-02-27"
+      },
+      "period": "Q1",
+      "field_name": "income_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "6fba50d7-e1a4-4312-b2fa-f0554195ff08",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Revenue for Q1: $6,398,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "field": "revenue"
+      },
+      "period": "Q1",
+      "field_name": "revenue",
+      "numeric_value": 6398000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "c89f21ca-ca8b-49f0-b940-42321c0e252e",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Gross Profit for Q1: $5,699,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "field": "grossProfit"
+      },
+      "period": "Q1",
+      "field_name": "grossProfit",
+      "numeric_value": 5699000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "09b0caab-7540-4026-bc0e-44feb87d9ef0",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE R&D Expenses for Q1: $1,110,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q1",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 1110000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "c5ff6b78-635a-4b6c-bd5b-c559d343ef1e",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "Income Statement – ADBE | Period: Q4 | Date: 2025-11-28\n  Revenue:            $6,194,000,000\n  Gross Profit:       $5,508,000,000 (margin N/A)\n  Operating Income:   $2,261,000,000 (margin N/A)\n  Net Income:         $1,856,000,000 (margin N/A)\n  EBITDA:             $2,448,000,000\n  EPS:                4.45\n  R&D Expenses:       $1,098,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "date": "2025-11-28"
+      },
+      "period": "Q4",
+      "field_name": "income_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Revenue for Q4: $6,194,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "revenue"
+      },
+      "period": "Q4",
+      "field_name": "revenue",
+      "numeric_value": 6194000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "b66541a5-e7b4-459b-abb4-bc5050ecdf84",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Gross Profit for Q4: $5,508,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "grossProfit"
+      },
+      "period": "Q4",
+      "field_name": "grossProfit",
+      "numeric_value": 5508000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "dd846f67-d6dd-4370-9eb2-4153fbfdd1b2",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Operating Income for Q4: $2,261,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "operatingIncome"
+      },
+      "period": "Q4",
+      "field_name": "operatingIncome",
+      "numeric_value": 2261000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "f9b49580-2dd3-4ca6-8b91-48bf0c871ab7",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Net Income for Q4: $1,856,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "netIncome"
+      },
+      "period": "Q4",
+      "field_name": "netIncome",
+      "numeric_value": 1856000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "d47800e3-0a43-4f8e-a145-9ab6f5189ae6",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE EBITDA for Q4: $2,448,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "ebitda"
+      },
+      "period": "Q4",
+      "field_name": "ebitda",
+      "numeric_value": 2448000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "ceb34687-af1f-4b8e-b2b2-c1af57130483",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE R&D Expenses for Q4: $1,098,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q4",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 1098000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "4096901d-ce2f-4ca3-8cba-89a4fdf331ed",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "Income Statement – ADBE | Period: Q3 | Date: 2025-08-29\n  Revenue:            $5,988,000,000\n  Gross Profit:       $5,346,000,000 (margin N/A)\n  Operating Income:   $2,173,000,000 (margin N/A)\n  Net Income:         $1,772,000,000 (margin N/A)\n  EBITDA:             $2,462,000,000\n  EPS:                4.18\n  R&D Expenses:       $1,088,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q3",
+        "date": "2025-08-29"
+      },
+      "period": "Q3",
+      "field_name": "income_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "627f9da6-15ec-46b5-ba7e-c911683eaf3e",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Revenue for Q3: $5,988,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q3",
+        "field": "revenue"
+      },
+      "period": "Q3",
+      "field_name": "revenue",
+      "numeric_value": 5988000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "6c87562b-858b-452f-a498-6027e8187882",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE R&D Expenses for Q3: $1,088,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q3",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q3",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 1088000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "e00b3bc7-1093-4897-bea3-873e55293d06",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "Income Statement – ADBE | Period: Q2 | Date: 2025-05-30\n  Revenue:            $5,873,000,000\n  Gross Profit:       $5,235,000,000 (margin N/A)\n  Operating Income:   $2,109,000,000 (margin N/A)\n  Net Income:         $1,691,000,000 (margin N/A)\n  EBITDA:             $2,378,000,000\n  EPS:                3.95\n  R&D Expenses:       $1,082,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q2",
+        "date": "2025-05-30"
+      },
+      "period": "Q2",
+      "field_name": "income_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "2ac2206a-9671-4fd4-bc11-4ce053b95b4b",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE Revenue for Q2: $5,873,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q2",
+        "field": "revenue"
+      },
+      "period": "Q2",
+      "field_name": "revenue",
+      "numeric_value": 5873000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "3f748114-e2f9-4dff-bc2d-19523b92b5c2",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text": "ADBE R&D Expenses for Q2: $1,082,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q2",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q2",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 1082000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "af6c2a54-0b7e-45dc-be75-47391e6b3ef6",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text": "ADBE Stockholders' Equity for Q4: $11,623,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "totalStockholdersEquity"
+      },
+      "period": "Q4",
+      "field_name": "totalStockholdersEquity",
+      "numeric_value": 11623000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "d5b41677-4d4b-40be-8b4d-95f249b6f09b",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text": "ADBE Cash & Equivalents for Q4: $5,431,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "cashAndCashEquivalents"
+      },
+      "period": "Q4",
+      "field_name": "cashAndCashEquivalents",
+      "numeric_value": 5431000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "4df4e625-3969-43a3-b113-1221bfeff5da",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text": "ADBE Total Debt for Q4: $6,648,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "totalDebt"
+      },
+      "period": "Q4",
+      "field_name": "totalDebt",
+      "numeric_value": 6648000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "0cc438e1-cd60-460c-803d-5629400efec5",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text": "ADBE Total Current Assets for Q4: $10,163,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "totalCurrentAssets"
+      },
+      "period": "Q4",
+      "field_name": "totalCurrentAssets",
+      "numeric_value": 10163000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "8140dc93-4b20-47e9-8b5f-ee287fbb7ff9",
+      "source_id": "f73ea367-46ff-48af-bf8b-b07f1f148729",
+      "source_type": "balance_sheet",
+      "text": "ADBE Total Current Liabilities for Q4: $10,200,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q4",
+        "field": "totalCurrentLiabilities"
+      },
+      "period": "Q4",
+      "field_name": "totalCurrentLiabilities",
+      "numeric_value": 10200000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "b6a66352-5031-445a-aaa6-e7041960d5d0",
+      "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+      "source_type": "cash_flow",
+      "text": "ADBE Operating Cash Flow for Q1: $2,958,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "field": "operatingCashFlow"
+      },
+      "period": "Q1",
+      "field_name": "operatingCashFlow",
+      "numeric_value": 2958000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "d1bcc1f2-6321-46d1-8222-28c4bb3f8d3f",
+      "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+      "source_type": "cash_flow",
+      "text": "ADBE Capital Expenditure for Q1: $-37,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "field": "capitalExpenditure"
+      },
+      "period": "Q1",
+      "field_name": "capitalExpenditure",
+      "numeric_value": -37000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "d2df2944-6c37-4b50-93d5-3f082bd2854a",
+      "source_id": "ac1ddb34-2146-4af4-b7ab-c9e5c3ed5fb9",
+      "source_type": "cash_flow",
+      "text": "ADBE Free Cash Flow for Q1: $2,921,000,000",
+      "metadata": {
+        "ticker": "ADBE",
+        "period": "Q1",
+        "field": "freeCashFlow"
+      },
+      "period": "Q1",
+      "field_name": "freeCashFlow",
+      "numeric_value": 2921000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "131c545d-416c-4c16-b206-b83d357a8b33",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-28T21:30:41Z | Yahoo\nTitle: Autodesk raises annual forecasts on growing software demand, shares rise\nURL: https://finnhub.io/api/news?id=fa45f49736470f8732ae612e49decf75015f4f00241ab76eb9822dd618c3377f\nAutodesk raised its annual revenue and profit forecasts on Thursday, betting on growing demand for its design and engineering software, sending its shares surging around 12% in extended trading. Demand for the company's products is steadily increasing across construction, infrastructure and manufacturing industries, driven by growing subscription renewals and expanding enterprise agreements with large customers. Autodesk offers software that enables users to design buildings, infrastructure and products using data-rich 3D models rather than traditional blueprints.",
+      "metadata": {
+        "title": "Autodesk raises annual forecasts on growing software demand, shares rise",
+        "published_at": "2025-08-28T21:30:41Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fa45f49736470f8732ae612e49decf75015f4f00241ab76eb9822dd618c3377f",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "26c1d781-8beb-42b1-8fb3-a2081ace82f9",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-28T15:19:00Z | Yahoo\nTitle: E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms\nURL: https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc536fbe94e1c8c1ec988d00b4c4b372\nThe Ecommerce Platform Companies Quadrant provides an in-depth analysis of the global eCommerce market, spotlighting key players, innovations, and trends. The \"360 Quadrants\" report evaluates over 100 companies, with the top 15 recognized as leaders. This competitive market features notable platforms like Shopify, Wix, Adobe, Oracle, and Square, offering businesses solutions for online sales, marketing, and operations. Key criteria for evaluation include revenue, geographic presence, and product",
+      "metadata": {
+        "title": "E-commerce Platform Company Evaluation Report 2025 | Shopify, Adobe, and Wix Shape the Future of eCommerce with Market Leadership, AI-Powered Personalization, and User-Friendly Platforms",
+        "published_at": "2025-08-28T15:19:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cc3dd18112b447508ade9e4b2ca84894fc536fbe94e1c8c1ec988d00b4c4b372",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "12067509-1bde-4c79-878d-0fbc4056d7ba",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-28T10:08:26Z | Yahoo\nTitle: Is Adobe's Share Price Slide Creating an Opportunity for Investors in 2025?\nURL: https://finnhub.io/api/news?id=973ef94c8676e39f65af66b97caf64cbfee1ab2461ba322a2c33bd804bb92018\nThinking about what to do with Adobe stock? You are not alone. Whether you are considering doubling down, trimming your position, or stepping into a brand new investment, Adobe’s recent price swings have certainly created some buzz. With its share price closing most recently at $356.35, it is hard to miss the mixed signals from various timeframes. Over the last week, Adobe managed a slight gain of 0.8%. But zoom out a bit, and the numbers get more dramatic: a dip of 3.6% in the past month,...",
+      "metadata": {
+        "title": "Is Adobe's Share Price Slide Creating an Opportunity for Investors in 2025?",
+        "published_at": "2025-08-28T10:08:26Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=973ef94c8676e39f65af66b97caf64cbfee1ab2461ba322a2c33bd804bb92018",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "590958a2-459f-468a-b69f-a6df1102fbb8",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-28T04:02:44Z | Yahoo\nTitle: 2 Reasons to Like ADBE and 1 to Stay Skeptical\nURL: https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e\nOver the past six months, Adobe’s stock price fell to $356.95. Shareholders have lost 18.6% of their capital, which is disappointing considering the S&P 500 has climbed by 8.8%. This might have investors contemplating their next move.",
+      "metadata": {
+        "title": "2 Reasons to Like ADBE and 1 to Stay Skeptical",
+        "published_at": "2025-08-28T04:02:44Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "24aec485-cab3-4684-af25-4fea89e0c663",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-27T17:30:00Z | Yahoo\nTitle: [Latest] Global Motion Graphics Market Size/Share Worth USD 280 Billion by 2034 at a 12.2% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)\nURL: https://finnhub.io/api/news?id=e6f397e64732b302a0646b559119b00c38feacf9f0c5daffee527ec2fb030208\n[220+ Pages Latest Report] According to a market research study published by Custom Market Insights, the demand analysis of Global Motion Graphics Market size & share revenue was valued at approximately USD 85.5 Billion in 2024 and is expected to reach USD 98.3 Billion in 2025 and is expected to reach around USD 280 Billion by 2034, at a CAGR of 12.2% between 2025 and 2034. The key market players listed in the report with their sales, revenues and strategies are Adobe Inc., Autodesk Inc., Maxon",
+      "metadata": {
+        "title": "[Latest] Global Motion Graphics Market Size/Share Worth USD 280 Billion by 2034 at a 12.2% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
+        "published_at": "2025-08-27T17:30:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e6f397e64732b302a0646b559119b00c38feacf9f0c5daffee527ec2fb030208",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "30eedfee-60b4-43de-9c15-16c58d06b5d1",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-27T09:15:46Z | Yahoo\nTitle: Adobe Inc. (ADBE): A Bull Case Theory\nURL: https://finnhub.io/api/news?id=d233ee800d3179f2a15d1a43e00403899d2896681b4f5ba2187ae9d93fed573f\nWe came across a bullish thesis on Adobe Inc. on Rebound Capital’s Substack. In this article, we will summarize the bulls’ thesis on ADBE. Adobe Inc.’s share was trading at $357.24 as of August 18th. ADBE’s trailing and forward P/E were 22.89 and 15.41 respectively according to Yahoo Finance. Adobe Inc. (ADBE) is a leading software company […]",
+      "metadata": {
+        "title": "Adobe Inc. (ADBE): A Bull Case Theory",
+        "published_at": "2025-08-27T09:15:46Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d233ee800d3179f2a15d1a43e00403899d2896681b4f5ba2187ae9d93fed573f",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "169d9b76-fb6b-4a2b-8edb-8d5c7a2a5fde",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-27T08:53:00Z | Yahoo\nTitle: Web Conferencing Market Trends and Growth Forecast 2025-2034 Featuring Adobe, AURA Presence, Avaya, Cisco, Huawei, Logitech International, Microsoft, Plantronics, and Vidyo\nURL: https://finnhub.io/api/news?id=2da590d3367af539e953b420004da8d284774c5aadf4be6d5bd7bd48951a5024\nThe web conferencing market offers opportunities driven by remote work trends, integration of AI & IoT, and demand in sectors like finance and educationDublin, Aug. 27, 2025 (GLOBE NEWSWIRE) -- The \"Web Conferencing Market Report and Forecast 2025-2034\" has been added to ResearchAndMarkets.com's offering.The global web conferencing market is set to expand at a compound annual growth rate (CAGR) of 8.40% from 2025 to 2034, driven by its increased adoption in corporate and educational sectors, alo",
+      "metadata": {
+        "title": "Web Conferencing Market Trends and Growth Forecast 2025-2034 Featuring Adobe, AURA Presence, Avaya, Cisco, Huawei, Logitech International, Microsoft, Plantronics, and Vidyo",
+        "published_at": "2025-08-27T08:53:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2da590d3367af539e953b420004da8d284774c5aadf4be6d5bd7bd48951a5024",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "1791b1e0-8e87-4ce8-9c19-c28204e4ef41",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-27T01:31:45Z | Yahoo\nTitle: RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT\nURL: https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910\nAdobe Inc. (NASDAQ:ADBE) is one of the Hot AI Stocks to Keep on Your Radar. On August 21, RBC Capital analyst Matthew Swanson reiterated an Outperform rating on the stock with a $480.00 price target. The firm remains bullish on the stock despite increasing competition in the creative tools market. The firm acknowledges that a key […]",
+      "metadata": {
+        "title": "RBC Sees Long-Term AI Monetization Upside for Adobe (ADBE), Keeps $480 PT",
+        "published_at": "2025-08-27T01:31:45Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9928c64d6096f4aff11218f0ec6e9798ff17e2fe428421256cd47d7f91156910",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "3d73965e-7d1f-4673-9f21-872bce88025c",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-26T21:45:01Z | Yahoo\nTitle: Adobe Systems (ADBE) Stock Slides as Market Rises: Facts to Know Before You Trade\nURL: https://finnhub.io/api/news?id=e7ddd5d04bbf85d089b1706b2ceb81ca238c730218df379f4df8745510206110\nIn the most recent trading session, Adobe Systems (ADBE) closed at $354.91, indicating a -2.29% shift from the previous trading day.",
+      "metadata": {
+        "title": "Adobe Systems (ADBE) Stock Slides as Market Rises: Facts to Know Before You Trade",
+        "published_at": "2025-08-26T21:45:01Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e7ddd5d04bbf85d089b1706b2ceb81ca238c730218df379f4df8745510206110",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "c9d90c47-5bcb-4d7b-9d29-1204656bd2a6",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-26T21:23:28Z | Yahoo\nTitle: AI Stock Adobe (ADBE) Has Lost 13% Since Jim Cramer Expressed His Doubts\nURL: https://finnhub.io/api/news?id=8b2e15f65ec672f255753dac2d30a552fb74dbf6b61db62a832f856e7b0d9205\nWe recently published Jim Cramer’s 20 Bold AI Predictions – See How They Played Out! Adobe Inc. (NASDAQ:ADBE) is one of the stocks Jim Cramer recently discussed. Adobe Inc. (NASDAQ:ADBE) is a productivity software firm whose shares have struggled as investors remain skeptical about its AI products. Year-to-date, the stock has lost 17.8%, and it […]",
+      "metadata": {
+        "title": "AI Stock Adobe (ADBE) Has Lost 13% Since Jim Cramer Expressed His Doubts",
+        "published_at": "2025-08-26T21:23:28Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8b2e15f65ec672f255753dac2d30a552fb74dbf6b61db62a832f856e7b0d9205",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "62f4f88f-bc07-430a-8d4e-e3c3ee0b45f6",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-26T18:05:59Z | Yahoo\nTitle: Why Adobe (ADBE) Shares Are Falling Today\nURL: https://finnhub.io/api/news?id=843106d7553ff6dece9bf4148bed2ccd07380b21b083266f10cc6365a469be64\nADBE: Google's Gemini Upgrade Sends Adobe Stock Lower",
+      "metadata": {
+        "title": "Why Adobe (ADBE) Shares Are Falling Today",
+        "published_at": "2025-08-26T18:05:59Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=843106d7553ff6dece9bf4148bed2ccd07380b21b083266f10cc6365a469be64",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "ef2aa5e4-ee53-4c6f-95f2-86f1b0b9c35b",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-26T16:36:00Z | MarketWatch\nTitle: Adobe Inc. stock underperforms Tuesday when compared to competitors\nURL: https://finnhub.io/api/news?id=2bc5490e6dfbfb9d90c3012db757f38ce8b9779100c2639005074b92b31507fa\nAdobe Inc. stock underperforms Tuesday when compared to competitors",
+      "metadata": {
+        "title": "Adobe Inc. stock underperforms Tuesday when compared to competitors",
+        "published_at": "2025-08-26T16:36:00Z",
+        "source_name": "MarketWatch",
+        "url": "https://finnhub.io/api/news?id=2bc5490e6dfbfb9d90c3012db757f38ce8b9779100c2639005074b92b31507fa",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "0977127c-7fc9-4fd5-af77-6d45a3b0d3b3",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text": "[NEWS] 2025-08-26T15:13:23Z | Yahoo\nTitle: Adobe stock falls after Google unveils enhanced image editing in Gemini\nURL: https://finnhub.io/api/news?id=92dd266ee25cbd5d2e2d4a86051594576682d49f167eae0900c78412d2734cd6\nInvesting.com -- Adobe (NASDAQ:ADBE) stock declined 1.7% Tuesday following Google’s announcement of significant upgrades to its Gemini app’s image editing capabilities, potentially threatening Adobe’s dominance in the digital imaging market.",
+      "metadata": {
+        "title": "Adobe stock falls after Google unveils enhanced image editing in Gemini",
+        "published_at": "2025-08-26T15:13:23Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=92dd266ee25cbd5d2e2d4a86051594576682d49f167eae0900c78412d2734cd6",
+        "ticker": "ADBE"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    }
+  ],
+  "calculation_appendix": [
+    {
+      "calc_id": "aa6b080f-af63-474f-9419-8dbeca0d5b07",
+      "operation": "yoy_growth_table",
+      "inputs": {
+        "series": [
+          {
+            "period": "Q1",
+            "value": 6398000000.0
+          },
+          {
+            "period": "Q2",
+            "value": 5873000000.0
+          },
+          {
+            "period": "Q3",
+            "value": 5988000000.0
+          },
+          {
+            "period": "Q4",
+            "value": 6194000000.0
+          }
+        ]
+      },
+      "result": {
+        "table": [
+          {
+            "period": "Q1",
+            "value": 6398000000.0,
+            "yoy_growth": null,
+            "yoy_growth_pct": "N/A (base period)"
+          },
+          {
+            "period": "Q2",
+            "value": 5873000000.0,
+            "yoy_growth": -0.08205689277899343,
+            "yoy_growth_pct": "-8.21%"
+          },
+          {
+            "period": "Q3",
+            "value": 5988000000.0,
+            "yoy_growth": 0.019581134003064875,
+            "yoy_growth_pct": "1.96%"
+          },
+          {
+            "period": "Q4",
+            "value": 6194000000.0,
+            "yoy_growth": 0.03440213760855043,
+            "yoy_growth_pct": "3.44%"
+          }
+        ]
+      },
+      "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+      "description": "ADBE Revenue YoY Growth Table",
+      "error": null
+    },
+    {
+      "calc_id": "b0eab616-36ac-427b-9f6d-9148465f95a3",
+      "operation": "yoy_growth_table",
+      "inputs": {
+        "series": [
+          {
+            "period": "Q1",
+            "value": 1889000000.0
+          },
+          {
+            "period": "Q2",
+            "value": 1691000000.0
+          },
+          {
+            "period": "Q3",
+            "value": 1772000000.0
+          },
+          {
+            "period": "Q4",
+            "value": 1856000000.0
+          }
+        ]
+      },
+      "result": {
+        "table": [
+          {
+            "period": "Q1",
+            "value": 1889000000.0,
+            "yoy_growth": null,
+            "yoy_growth_pct": "N/A (base period)"
+          },
+          {
+            "period": "Q2",
+            "value": 1691000000.0,
+            "yoy_growth": -0.10481736368448914,
+            "yoy_growth_pct": "-10.48%"
+          },
+          {
+            "period": "Q3",
+            "value": 1772000000.0,
+            "yoy_growth": 0.047900650502661145,
+            "yoy_growth_pct": "4.79%"
+          },
+          {
+            "period": "Q4",
+            "value": 1856000000.0,
+            "yoy_growth": 0.04740406320541761,
+            "yoy_growth_pct": "4.74%"
+          }
+        ]
+      },
+      "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+      "description": "ADBE Net Income YoY Growth Table",
+      "error": null
+    },
+    {
+      "calc_id": "426b5804-bdf9-4613-904d-04a5ed365685",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 5508000000.0,
+        "denominator": 6194000000.0
+      },
+      "result": 0.8892476590248628,
+      "formula_description": "5508000000.0 / 6194000000.0 = 0.8892 (88.92%)",
+      "description": "ADBE Gross Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "15c36992-22c3-492d-a197-fce0951e9593",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 2261000000.0,
+        "denominator": 6194000000.0
+      },
+      "result": 0.36503067484662577,
+      "formula_description": "2261000000.0 / 6194000000.0 = 0.3650 (36.50%)",
+      "description": "ADBE Operating Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "ce227766-487c-4ec1-89c8-a80aeb88860a",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 1856000000.0,
+        "denominator": 6194000000.0
+      },
+      "result": 0.29964481756538586,
+      "formula_description": "1856000000.0 / 6194000000.0 = 0.2996 (29.96%)",
+      "description": "ADBE Net Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "6e643ee3-f3a9-457e-a4de-56f007b09777",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 2448000000.0,
+        "denominator": 6194000000.0
+      },
+      "result": 0.3952211817888279,
+      "formula_description": "2448000000.0 / 6194000000.0 = 0.3952 (39.52%)",
+      "description": "ADBE EBITDA Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "0364ba40-fea2-4649-be81-86c5c859c3fd",
+      "operation": "rd_intensity",
+      "inputs": {
+        "rd_expenses": 1098000000.0,
+        "revenue": 6194000000.0
+      },
+      "result": 0.17726832418469488,
+      "formula_description": "R&D (1098000000.0) / revenue (6194000000.0) = 0.1773 (17.73%)",
+      "description": "ADBE R&D Intensity (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "34b1d4d3-eb8d-491c-bbd3-3565eb430350",
+      "operation": "current_ratio",
+      "inputs": {
+        "current_assets": 10163000000.0,
+        "current_liabilities": 10200000000.0
+      },
+      "result": 0.9963725490196078,
+      "formula_description": "current_assets (10163000000.0) / current_liabilities (10200000000.0) = 1.00",
+      "description": "ADBE Current Ratio (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "90712dd2-8fcf-419e-bc11-6c9b1f50c235",
+      "operation": "debt_to_equity",
+      "inputs": {
+        "total_debt": 6648000000.0,
+        "equity": 11623000000.0
+      },
+      "result": 0.5719693710745934,
+      "formula_description": "total_debt (6648000000.0) / equity (11623000000.0) = 0.57",
+      "description": "ADBE Debt-to-Equity (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "cc126119-69b0-4364-9543-52985dee2d4f",
+      "operation": "net_debt",
+      "inputs": {
+        "total_debt": 6648000000.0,
+        "cash": 5431000000.0
+      },
+      "result": 1217000000.0,
+      "formula_description": "total_debt (6648000000.0) - cash (5431000000.0) = 1217000000.0",
+      "description": "ADBE Net Debt (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "ecabb3b3-d1c6-4088-a412-eaef40cadc30",
+      "operation": "fcf_margin",
+      "inputs": {
+        "free_cash_flow": 3126000000.0,
+        "revenue": 6194000000.0
+      },
+      "result": 0.5046819502744592,
+      "formula_description": "FCF (3126000000.0) / revenue (6194000000.0) = 0.5047 (50.47%)",
+      "description": "ADBE FCF Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "ea4272d5-9041-427c-b6c6-8eea6106b0ad",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 353.96,
+        "previous": 370.7
+      },
+      "result": -0.04515780954950097,
+      "formula_description": "(353.96 - 370.7) / |370.7| = -0.0452 (-4.52%)",
+      "description": "ADBE 30d price return",
+      "error": null
+    },
+    {
+      "calc_id": "babb7b3c-4fc7-4156-9542-6957c34cfb79",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 648.92,
+        "previous": 635.26
+      },
+      "result": 0.021503006642949293,
+      "formula_description": "(648.92 - 635.26) / |635.26| = 0.0215 (2.15%)",
+      "description": "SPY 30d benchmark return",
+      "error": null
+    },
+    {
+      "calc_id": "2a01edbc-f53b-4fe8-8acc-273d0478beeb",
+      "operation": "difference",
+      "inputs": {
+        "a": -0.04515780954950097,
+        "b": 0.021503006642949293
+      },
+      "result": -0.06666081619245026,
+      "formula_description": "-0.04515780954950097 - 0.021503006642949293 = -0.0667",
+      "description": "ADBE 30d excess return vs SPY",
+      "error": null
+    },
+    {
+      "calc_id": "9e4b7ef6-a99b-411e-84c0-59ce9b714e31",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 353.96,
+        "previous": 560.54
+      },
+      "result": -0.3685374817140614,
+      "formula_description": "(353.96 - 560.54) / |560.54| = -0.3685 (-36.85%)",
+      "description": "ADBE 1y price return",
+      "error": null
+    },
+    {
+      "calc_id": "c081dd2c-eac8-4f41-aafc-5d827387e41e",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 648.92,
+        "previous": 558.3
+      },
+      "result": 0.16231416801003046,
+      "formula_description": "(648.92 - 558.3) / |558.3| = 0.1623 (16.23%)",
+      "description": "SPY 1y benchmark return",
+      "error": null
+    },
+    {
+      "calc_id": "d4126c43-6ca1-4432-9d41-c54b5e543718",
+      "operation": "difference",
+      "inputs": {
+        "a": -0.3685374817140614,
+        "b": 0.16231416801003046
+      },
+      "result": -0.5308516497240918,
+      "formula_description": "-0.3685374817140614 - 0.16231416801003046 = -0.5309",
+      "description": "ADBE 1y excess return vs SPY",
+      "error": null
+    }
+  ],
+  "generated_at": "2026-03-23T19:07:08.201075",
+  "overall_status": "fail",
+  "warnings": []
+}

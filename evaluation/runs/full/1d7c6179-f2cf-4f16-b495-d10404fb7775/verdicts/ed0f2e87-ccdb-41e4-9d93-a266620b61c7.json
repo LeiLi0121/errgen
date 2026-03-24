@@ -1,0 +1,51 @@
+{
+  "verdict_id": "ed0f2e87-ccdb-41e4-9d93-a266620b61c7",
+  "paragraph_id": "0f099a9d-8f4e-429c-8f11-23df58ee122e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "e5b87fb9-9570-4525-8e40-f1879dfd7d35",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "0f099a9d-8f4e-429c-8f11-23df58ee122e",
+      "offending_span": "Net debt of $1,217,000,000 in Q4 2025",
+      "explanation": "The paragraph claims Q4 2025 data, but the as-of date is 2025-08 (August 2025). Q4 2025 would be October-December 2025, which is after the as-of date. The cited chunks (C048, C049, K010) only specify 'Q4' without a year designation, so adding '2025' is unsupported and represents future data relative to the report date.",
+      "relevant_chunk_ids": [
+        "6a40e0f1-d6ca-4f8a-b7cb-307e0b03bd94",
+        "0a70efb3-9006-4876-b1d6-0a7a9e807517"
+      ],
+      "relevant_calc_ids": [
+        "38248b63-c9bb-4a98-9e26-3281ed35e762"
+      ],
+      "recommended_fix": "Remove the year specification '2025' and state only 'Q4' or clarify the actual fiscal period covered by the evidence. Alternatively, verify the correct fiscal year from source documents."
+    },
+    {
+      "issue_id": "7d8d81e9-87fd-4c2c-80a3-988c1234aeb9",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "0f099a9d-8f4e-429c-8f11-23df58ee122e",
+      "offending_span": "requires consistent customer retention and renewal rates",
+      "explanation": "While C002 confirms Creative Cloud is a subscription service, it does not explicitly state that the model 'requires consistent customer retention and renewal rates.' This is a reasonable business inference but not directly supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "facaa50e-cacb-47c6-92ba-0dfb64831a7e"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Qualify the language to indicate this is an analytical inference (e.g., 'which typically requires' or 'implying a need for') or cite additional evidence that explicitly discusses retention/renewal requirements."
+    },
+    {
+      "issue_id": "fafbb445-afb2-4582-b3c5-6cf3437edcf2",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "0f099a9d-8f4e-429c-8f11-23df58ee122e",
+      "offending_span": "expose it to currency fluctuations and regional economic variations",
+      "explanation": "C002 mentions worldwide operations and three segments but does not explicitly discuss currency fluctuations or regional economic variations. This is a standard analytical inference from 'worldwide' operations but not directly stated in the evidence.",
+      "relevant_chunk_ids": [
+        "facaa50e-cacb-47c6-92ba-0dfb64831a7e"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Qualify the language (e.g., 'may expose it to' or 'typically exposes companies with worldwide operations to') or cite additional evidence that explicitly discusses currency/economic exposure."
+    }
+  ],
+  "checked_at": "2026-03-23T19:37:00.550839",
+  "iteration": 0
+}

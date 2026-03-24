@@ -1,0 +1,12 @@
+{
+  "revision_id": "0989031a-0fa6-4e16-a0da-07e291713fd3",
+  "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+  "iteration": 1,
+  "original_text": "Strategic initiatives and management signals present a mixed picture. Reports indicate NVIDIA is considering using Intel's foundry services for future chip production, which could represent a diversification of manufacturing partnerships. However, the company faces congressional scrutiny over technical assistance provided to Chinese AI startup DeepSeek, with the House Select Committee on China revealing NVIDIA personnel assisted the firm through optimized technical support. CEO Jen-Hsun Huang leads the company, which scheduled its Q4 FY2026 earnings call for February 25, 2026. Evidence on specific partnerships, acquisitions, or new market entries beyond these items is limited in the available documentation.",
+  "revised_text": "Strategic initiatives and management signals present a mixed picture. The company faces scrutiny over technical assistance provided to Chinese AI startup DeepSeek, with a letter from Representative John Moolenaar revealing NVIDIA provided extensive technical assistance to the firm. CEO Jen-Hsun Huang leads the company. Evidence on specific partnerships, acquisitions, or new market entries beyond these items is limited in the available documentation.",
+  "issues_addressed": [
+    "efee371f-3b73-4086-b6ed-1ca8e282aa42"
+  ],
+  "changes_summary": "Removed unsupported claim about NVIDIA considering Intel's foundry services (no evidence in available chunks). Removed unsupported claim about Q4 FY2026 earnings call date of February 25, 2026 (no evidence in available chunks). Fixed citation mismatch on DeepSeek matter: changed 'House Select Committee on China' to 'a letter from Representative John Moolenaar' and changed 'optimized technical support' to 'extensive technical assistance' to match the cited evidence in chunk 4f614cf7-7e8b-4918-9137-cce8663f2afd. Retained CEO information supported by chunk 0571a4ea-26e6-49fc-b4d5-1f2654462e02.",
+  "revised_at": "2026-03-23T06:35:37.951991"
+}

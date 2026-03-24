@@ -63,6 +63,7 @@ from langgraph.graph import END, START, StateGraph
 from errgen.config import Config
 from errgen.nodes import (
     analysis_agent,
+    baseline_prediction_agent,
     extract_evidence,
     parse_query,
     prediction_agent,
@@ -75,8 +76,11 @@ from errgen.nodes.verification_agent import route_after_verification
 from errgen.state import ErrGenState
 
 
-def build_graph() -> StateGraph:
+def build_graph(mode: str = "full") -> StateGraph:
     """Construct and compile the ERRGen StateGraph."""
+    if mode not in {"full", "baseline"}:
+        raise ValueError(f"Unsupported graph mode: {mode}")
+
     graph = StateGraph(ErrGenState)
 
     # ------------------------------------------------------------------ #
@@ -86,9 +90,12 @@ def build_graph() -> StateGraph:
     graph.add_node("retrieve_data",      retrieve_data)
     graph.add_node("extract_evidence",   extract_evidence)
     graph.add_node("analysis_agent",     analysis_agent)
-    graph.add_node("verification_agent", verification_agent)
-    graph.add_node("revise_sections",    revise_sections)
-    graph.add_node("prediction_agent",   prediction_agent)
+    if mode == "full":
+        graph.add_node("verification_agent", verification_agent)
+        graph.add_node("revise_sections",    revise_sections)
+        graph.add_node("prediction_agent",   prediction_agent)
+    else:
+        graph.add_node("baseline_prediction_agent", baseline_prediction_agent)
     graph.add_node("report_writer",      report_writer)
 
     # ------------------------------------------------------------------ #
@@ -98,22 +105,27 @@ def build_graph() -> StateGraph:
     graph.add_edge("parse_query",        "retrieve_data")
     graph.add_edge("retrieve_data",      "extract_evidence")
     graph.add_edge("extract_evidence",   "analysis_agent")
-    graph.add_edge("analysis_agent",     "verification_agent")
-    graph.add_edge("revise_sections",    "verification_agent")   # loop back
-    graph.add_edge("prediction_agent",   "report_writer")
+    if mode == "full":
+        graph.add_edge("analysis_agent",     "verification_agent")
+        graph.add_edge("revise_sections",    "verification_agent")   # loop back
+        graph.add_edge("prediction_agent",   "report_writer")
+    else:
+        graph.add_edge("analysis_agent",     "baseline_prediction_agent")
+        graph.add_edge("baseline_prediction_agent", "report_writer")
     graph.add_edge("report_writer",      END)
 
     # ------------------------------------------------------------------ #
     # Conditional edge: verification loop                                  #
     # ------------------------------------------------------------------ #
-    graph.add_conditional_edges(
-        "verification_agent",
-        route_after_verification,
-        {
-            "revise_sections":  "revise_sections",
-            "prediction_agent": "prediction_agent",
-        },
-    )
+    if mode == "full":
+        graph.add_conditional_edges(
+            "verification_agent",
+            route_after_verification,
+            {
+                "revise_sections":  "revise_sections",
+                "prediction_agent": "prediction_agent",
+            },
+        )
 
     return graph.compile()
 
@@ -155,19 +167,18 @@ def initial_state(query: str) -> dict:
 # Module-level compiled graph (lazy singleton)
 # ---------------------------------------------------------------------------
 
-_graph = None
+_graphs: dict[str, object] = {}
 
 
-def get_graph():
-    """Return the compiled graph (singleton; validates config on first call)."""
-    global _graph
-    if _graph is None:
+def get_graph(mode: str = "full"):
+    """Return the compiled graph for the requested mode."""
+    if mode not in _graphs:
         Config.validate_required()
-        _graph = build_graph()
-    return _graph
+        _graphs[mode] = build_graph(mode=mode)
+    return _graphs[mode]
 
 
-def run(query: str) -> dict:
+def run(query: str, mode: str = "full") -> dict:
     """
     Run the full ERRGen pipeline with a natural-language query.
 
@@ -180,5 +191,5 @@ def run(query: str) -> dict:
           state["report_md"] – rendered Markdown string
           state["run_id"]    – UUID of this run (for locating saved artifacts)
     """
-    graph = get_graph()
+    graph = get_graph(mode=mode)
     return graph.invoke(initial_state(query))

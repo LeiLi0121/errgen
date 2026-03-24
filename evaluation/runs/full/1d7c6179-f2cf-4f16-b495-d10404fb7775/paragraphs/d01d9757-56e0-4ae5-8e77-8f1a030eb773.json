@@ -1,0 +1,107 @@
+{
+  "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+  "section_name": "Financial Analysis",
+  "text": "EBITDA generation demonstrates consistency across quarters, with Q4 2025 EBITDA at $2,448,000,000 (C014), compared to $2,462,000,000 in Q3 2025 (C022), $2,378,000,000 in Q2 2025 (C030), and $2,592,000,000 in Q1 2026 (C006). Cash flow quality appears strong, with free cash flow margin in Q4 2025 at 50.47% (K011), indicating exceptional cash conversion capabilities relative to revenue. This FCF margin suggests Adobe generates substantial cash from operations after accounting for capital expenditures, supporting potential shareholder returns and strategic investments.",
+  "citations": [
+    {
+      "citation_id": "09afd115-162a-42b9-b318-ae555854afa2",
+      "chunk_id": "e02b3bb0-5447-4b86-a958-20af025de604",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q1: $2,592,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "98beb589-6aba-43bb-a5db-205cbe0f84dc",
+      "chunk_id": "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q4: $2,448,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9952489b-dc05-4b9c-a375-1eced43cd31a",
+      "chunk_id": "f335b083-02a8-4b3b-8400-3424e79dfb47",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q3: $2,462,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1c3b31b4-f206-4b29-a954-d689f44d2d3b",
+      "chunk_id": "082b1419-c5bf-488b-9a0d-8bb6076a831c",
+      "source_id": "800eb318-6df9-462e-87ff-5c06d5faccf7",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE EBITDA for Q2: $2,378,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e02b3bb0-5447-4b86-a958-20af025de604",
+    "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+    "f335b083-02a8-4b3b-8400-3424e79dfb47",
+    "082b1419-c5bf-488b-9a0d-8bb6076a831c"
+  ],
+  "calc_ids": [
+    "3ef631ef-031f-4a8e-b8ab-607f92c2153d"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "92a4025f-f19e-418a-a2c6-5973ac55a270",
+      "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "96c8ce6f-cbab-48f5-9e82-8db71ef49692",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+          "offending_span": "Q4 2025 EBITDA at $2,448,000,000 (C014), compared to $2,462,000,000 in Q3 2025 (C022), $2,378,000,000 in Q2 2025 (C030), and $2,592,000,000 in Q1 2026 (C006)",
+          "explanation": "The paragraph cites chunk IDs C014, C022, C030, and C006 for the EBITDA figures, but the actual evidence chunks containing this data are C016 (Q4), C024 (Q3), C032 (Q2), and C008 (Q1). The cited chunk IDs do not correspond to the provided evidence, making verification impossible.",
+          "relevant_chunk_ids": [
+            "e02b3bb0-5447-4b86-a958-20af025de604",
+            "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+            "f335b083-02a8-4b3b-8400-3424e79dfb47",
+            "082b1419-c5bf-488b-9a0d-8bb6076a831c"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation references to match the actual chunk IDs: C016 for Q4, C024 for Q3, C032 for Q2, and C008 for Q1."
+        },
+        {
+          "issue_id": "ec87570a-cce3-45a9-aa8b-a108304c8ec8",
+          "issue_type": "scope_violation",
+          "severity": "critical",
+          "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+          "offending_span": "$2,592,000,000 in Q1 2026 (C006)",
+          "explanation": "The as-of date is 2025-08 (August 2025). Q1 2026 is a future period relative to this date and cannot contain actual historical EBITDA data. Presenting future quarter data as actual results is a critical factual error.",
+          "relevant_chunk_ids": [
+            "e02b3bb0-5447-4b86-a958-20af025de604"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove Q1 2026 from the historical EBITDA comparison, or clearly label it as projected/forecasted data if it is forward-looking. Alternatively, verify the correct fiscal year labeling for the Q1 data."
+        },
+        {
+          "issue_id": "c306801c-3bdb-4f7a-984f-645db24afc9f",
+          "issue_type": "citation_mismatch",
+          "severity": "minor",
+          "paragraph_id": "d01d9757-56e0-4ae5-8e77-8f1a030eb773",
+          "offending_span": "Cited chunk refs: ['C008', 'C016', 'C024', 'C032']",
+          "explanation": "The 'Cited chunk refs' listed at the bottom of the paragraph (C008, C016, C024, C032) do not match the chunk IDs actually cited in the paragraph text (C014, C022, C030, C006). This creates internal inconsistency in the citation system.",
+          "relevant_chunk_ids": [
+            "e02b3bb0-5447-4b86-a958-20af025de604",
+            "3beddea5-35c7-4a6e-b5df-760c4e5476a7",
+            "f335b083-02a8-4b3b-8400-3424e79dfb47",
+            "082b1419-c5bf-488b-9a0d-8bb6076a831c"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Ensure the chunk IDs cited in the paragraph text match the 'Cited chunk refs' metadata section."
+        }
+      ],
+      "checked_at": "2026-03-23T19:29:14.217094",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,55 @@
+{
+  "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Key growth drivers include continued AI infrastructure demand and geographic market expansion. In January 2026, China approved purchases of NVIDIA's H200 chip for the first time, granting authorization to several customers including Alibaba, which indicates potential revenue expansion in previously restricted markets. The broader semiconductor industry is reporting accelerating demand, with chip makers indicating willingness to invest in additional capacity. NVIDIA's stock performance reflects this momentum, with 1-year price return of 48.48% significantly outpacing the S&P 500's 15.04% return over the same period, suggesting investor confidence in the company's AI market positioning.",
+  "citations": [
+    {
+      "citation_id": "bf0b9caf-3cda-470b-a53b-f1521f7b68c7",
+      "chunk_id": "4a442330-590e-4455-af91-db05eff6ba13",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:26:09Z | Yahoo\nTitle: Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank\nURL: https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3\n↗️ Nvidia (NVDA): China has approved purchases of Nvidia’s popular H200 chip for the first t",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f8f5f27a-8009-423f-8c08-2f6dc1c15fe4",
+      "chunk_id": "342037b2-6223-4ad2-81a9-50ce56a4454f",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T21:02:00Z | Yahoo\nTitle: Chip Makers Point to Accelerating Demand. It’s a Big Deal.\nURL: https://finnhub.io/api/news?id=55d8d3e113970b49fd7c6e62518922927ad838713c1ecedff44d482ddf2bb893\nRobust earnings commentary suggests chip makers are seeing rising demand and are willing to inves",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4a442330-590e-4455-af91-db05eff6ba13",
+    "342037b2-6223-4ad2-81a9-50ce56a4454f"
+  ],
+  "calc_ids": [
+    "4e7134c1-290f-4b49-bb42-eed50a873427"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "0e467e88-c0b7-4cd6-ad5c-6c37457ecae1",
+      "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "0e680c04-3d30-4d62-ae28-ea918e857f22",
+          "issue_type": "unsupported_claim",
+          "severity": "critical",
+          "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+          "offending_span": "1-year price return of 48.48%",
+          "explanation": "The paragraph claims NVIDIA's 1-year price return is 48.48%, but this figure is not found in any of the cited evidence chunks. The only cited calculation (4e7134c1-290f-4b49-bb42-eed50a873427) provides the S&P 500 return of 15.04%, not NVIDIA's return. There is no source provided for the 48.48% NVIDIA figure.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite a specific chunk or calculation that supports the 48.48% NVIDIA return figure, or remove this specific number if it cannot be verified from available evidence."
+        }
+      ],
+      "checked_at": "2026-03-23T05:34:37.039334",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

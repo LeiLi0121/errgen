@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "41cb8fda-4a84-49df-991d-a481b95c0894",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Adobe Inc. operates as a diversified software company worldwide through three primary segments: Digital Media, Digital Experience, and Publishing and Advertising [C002]. The Digital Media segment serves as the company's flagship, offering Creative Cloud subscription services that enable individuals, teams, and enterprises to create, publish, and promote content, alongside Document Cloud, a unified cloud-based document services platform [C002]. The Digital Experience segment provides an integrated platform enabling brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce [C002]. The Publishing and Advertising segment offers e-learning solutions, technical document publishing, web conferencing, document and forms platform, web application development, high-end printing, and Advertising Cloud offerings [C002]. Adobe distributes products directly to enterprise customers through its sales force and local field offices, as well as to end users through app stores and adobe.com, supplemented by a network of distributors, value-added resellers, systems integrators, and OEMs [C002]. The company employs 30,709 full-time employees and is headquartered in San Jose, California [C001].",
+  "citations": [
+    {
+      "citation_id": "a05d27d2-e5be-4671-9ff7-37b329ce4550",
+      "chunk_id": "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+      "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0fb5c294-6d44-4b90-b9b8-6f5fe4b8fb70",
+      "chunk_id": "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16",
+      "source_id": "7092418f-e3a9-4458-9d36-202e7f8851a2",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ce45bc81-14ae-433f-b057-b76f9a0ac623",
+    "cb0fbb55-5cea-4d94-bdb7-fb1713aa8a16"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

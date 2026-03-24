@@ -1,0 +1,69 @@
+{
+  "paragraph_id": "9f65c16d-a86a-4c11-8705-48938a8e363a",
+  "section_name": "Risk Analysis",
+  "text": "Operational execution risk exists given the substantial R&D investment required to maintain competitive positioning in AI chips and accelerated computing. R&D expenses increased from $7,339,000,000 in FY 2023 to $18,497,000,000 in FY 2026, representing significant capital commitment to innovation [CHUNK_ID: 652072cd-9c52-4e2e-9c98-6fbc1649ceec, CHUNK_ID: 65dcb847-39b8-4238-948f-874660fd6a4a]. In FY 2023, R&D intensity was approximately 27.21% of revenue, indicating the capital-intensive nature of maintaining technology leadership [CALC_ID: 73be37ab-34a6-483d-af59-5a255b1c4eea]. The company's business model spans multiple segments including gaming, datacenter, automotive, and professional visualization, requiring sustained investment across diverse product lines [CHUNK_ID: 812d4743-83b4-43d7-b5ee-dfc8624a5328]. Failure to maintain R&D spending levels or achieve expected innovation outcomes could impact the company's ability to compete in rapidly evolving semiconductor markets.",
+  "citations": [
+    {
+      "citation_id": "ffb47bb1-34e9-43d9-91e7-feed70d275a0",
+      "chunk_id": "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA R&D Expenses for FY: $7,339,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9ff99e96-5597-45cc-9e82-c9a399de4b0e",
+      "chunk_id": "65dcb847-39b8-4238-948f-874660fd6a4a",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA R&D Expenses for FY: $18,497,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "37a74351-461c-4e39-9e08-78f5637e9c2a",
+      "chunk_id": "812d4743-83b4-43d7-b5ee-dfc8624a5328",
+      "source_id": "a8362987-27be-4ba9-b8e7-dc156ad32235",
+      "source_type": "company_profile",
+      "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+    "65dcb847-39b8-4238-948f-874660fd6a4a",
+    "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+  ],
+  "calc_ids": [
+    "73be37ab-34a6-483d-af59-5a255b1c4eea"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b54716a3-5d67-4355-999c-d635c2cb96b9",
+      "paragraph_id": "9f65c16d-a86a-4c11-8705-48938a8e363a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "ff6f74e8-ee04-4a0d-8a27-5bd79cf5ebdc",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "9f65c16d-a86a-4c11-8705-48938a8e363a",
+          "offending_span": "R&D expenses increased from $7,339,000,000 in FY 2023 to $18,497,000,000 in FY 2026... In FY 2023, R&D intensity was approximately 27.21% of revenue",
+          "explanation": "The cited chunks (652072cd, 65dcb847) show R&D expense figures ($7,339,000,000 and $18,497,000,000) but do not specify which fiscal years they correspond to - they only state 'for FY' without year identification. Similarly, the calculation result (73be37ab) shows R&D intensity of 27.21% but does not specify FY 2023. The paragraph makes specific year claims (FY 2023, FY 2026) that are not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+            "65dcb847-39b8-4238-948f-874660fd6a4a"
+          ],
+          "relevant_calc_ids": [
+            "73be37ab-34a6-483d-af59-5a255b1c4eea"
+          ],
+          "recommended_fix": "Either cite additional evidence that explicitly specifies the fiscal years for these R&D expense figures and intensity calculation, or remove the specific year attributions (FY 2023, FY 2026) if they cannot be verified from the available evidence. Alternatively, ensure the chunk metadata includes the specific fiscal year information."
+        }
+      ],
+      "checked_at": "2026-03-11T14:27:52.387366",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

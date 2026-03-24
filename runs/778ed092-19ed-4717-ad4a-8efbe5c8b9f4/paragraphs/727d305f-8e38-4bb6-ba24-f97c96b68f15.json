@@ -1,0 +1,49 @@
+{
+  "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+  "section_name": "Financial Analysis",
+  "text": "EBITDA for Q4 2026 stood at $51,283,000,000, translating to an EBITDA margin of 75.28% [0bb38bcc-0b49-4e55-a1c5-eb790c883a09][be596dad-ea77-43d3-ac22-0b5f55d06a2e]. Free cash flow margin reached 51.23% for the quarter, indicating strong cash conversion quality [4919779e-20bb-413b-9fe6-e611a6e0baea]. This high FCF margin suggests the company generates substantial cash relative to revenue, supporting capital allocation flexibility for shareholders and strategic investments.",
+  "citations": [
+    {
+      "citation_id": "aa075cb4-72e7-436c-a02c-7326806f8a18",
+      "chunk_id": "0bb38bcc-0b49-4e55-a1c5-eb790c883a09",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA EBITDA for Q4: $51,283,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0bb38bcc-0b49-4e55-a1c5-eb790c883a09"
+  ],
+  "calc_ids": [
+    "be596dad-ea77-43d3-ac22-0b5f55d06a2e",
+    "4919779e-20bb-413b-9fe6-e611a6e0baea"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "af04d9ac-5eaa-49ee-8282-e83352623f52",
+      "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "35f68b7a-7d57-418e-86a6-b5bb221a25cf",
+          "issue_type": "internal_inconsistency",
+          "severity": "critical",
+          "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+          "offending_span": "EBITDA margin of 75.28%",
+          "explanation": "The claimed EBITDA margin (75.28%) contradicts the Previously Verified Facts which state Gross Margin was 75.00% and Operating Margin was 65.02% for Q4 2026. Mathematically, EBITDA Margin cannot exceed Gross Margin (as EBITDA = Gross Profit - Non-D&A Operating Expenses). Additionally, the implied Depreciation & Amortization (10.26% of revenue, derived from EBITDA - Operating Margin) exceeds the Total Operating Expenses (9.98% of revenue, derived from Gross Margin - Operating Margin), which is impossible as D&A is a component of Operating Expenses.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [
+            "be596dad-ea77-43d3-ac22-0b5f55d06a2e"
+          ],
+          "recommended_fix": "Reconcile the EBITDA margin figure with the verified Gross and Operating margins. Ensure EBITDA Margin is lower than Gross Margin and that implied D&A does not exceed Total Operating Expenses. Verify the source data for EBITDA or the verified margins for accuracy."
+        }
+      ],
+      "checked_at": "2026-03-23T05:30:23.780610",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

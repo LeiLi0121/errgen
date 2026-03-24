@@ -1,0 +1,13 @@
+{
+  "revision_id": "864e1c2b-b64a-468e-b9ff-d82cdf270404",
+  "paragraph_id": "ab24e771-4018-454f-b948-ac11065220f4",
+  "iteration": 2,
+  "original_text": "Margin profiles remain robust throughout the reporting period, reflecting Adobe's strong pricing power and operational efficiency. Q4 2025 gross margin reached 88.92% (K003), calculated from gross profit of $5,508,000,000 (C013) on revenue of $6,194,000,000 (C012). Operating margin stood at 36.50% (K004) based on operating income of $2,261,000,000 (C014), while net margin was 29.96% (K005) with net income of $1,856,000,000 (C015). These margin levels suggest Adobe maintains its characteristic high-margin software business model.",
+  "revised_text": "Margin profiles remain robust throughout the reporting period, reflecting Adobe's strong pricing power and operational efficiency. Q3 2025 gross profit reached $5,346,000,000 (C021) on revenue of $5,988,000,000 (C020). Operating income stood at $2,173,000,000 (C022), while net income was $1,772,000,000 (C023). These margin levels suggest Adobe maintains its characteristic high-margin software business model.",
+  "issues_addressed": [
+    "316ece52-f088-4620-83cd-510a3f8caffa",
+    "cb23720d-2258-4dfe-b73a-b9c5d8a57666"
+  ],
+  "changes_summary": "Replaced Q4 2025 references with Q3 2025 to align with the August 2025 as-of date, resolving critical scope violations. Updated all financial figures (Revenue, Gross Profit, Operating Income, Net Income) to Q3 2025 values using chunks C020-C023 and C019 for period verification. Removed specific margin percentages (88.92%, 36.50%, 29.96%) and associated calc_ids (K003-K005) as Q3 margin calculations were not available in the provided evidence; substituted with absolute profit figures to support the margin profile claim without violating citation rules.",
+  "revised_at": "2026-03-23T20:52:31.000941"
+}

@@ -1,0 +1,13 @@
+{
+  "revision_id": "afc2cb13-7ba4-4a8d-8b36-f63194508c96",
+  "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+  "iteration": 1,
+  "original_text": "Amazon's competitive positioning is reinforced by diversified revenue streams spanning retail, cloud computing, and advertising. Recent analyst commentary indicates AI-powered AWS growth and advertising revenue underpin an upbeat Q2 2025 outlook [CHUNK_ID: f3922ad9-85d8-409b-916a-444e08a6a248]. The company operates through three primary segments: North America, International, and Amazon Web Services (AWS) [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. R&D investment remains a strategic priority, with expenses increasing from $73.2 billion in FY2022 to $88.5 billion in FY2024, and projected at $108.5 billion for FY2025 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], reflecting continued commitment to innovation and AI capabilities.",
+  "revised_text": "Amazon's competitive positioning is reinforced by diversified revenue streams spanning retail and cloud computing. The company operates through three primary segments: North America, International, and Amazon Web Services (AWS) [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. R&D investment remains a strategic priority, with expenses increasing from $88.5 billion in FY2024 to $108.5 billion in FY2025 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], reflecting continued commitment to innovation and AI capabilities.",
+  "issues_addressed": [
+    "550eddcb-cd19-48d8-ba9b-0c766f898dd1",
+    "7d356117-d8fc-407b-a287-b78be61cc667"
+  ],
+  "changes_summary": "Removed the claim about analyst commentary on AI-powered AWS growth and Q2 2025 outlook (chunk f3922ad9-85d8-409b-916a-444e08a6a248 not in evidence). Removed advertising from revenue streams as not explicitly supported in available chunks. Removed FY2022 R&D figure ($73.2B) as chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e not in evidence. Kept FY2024 ($88.5B) and FY2025 ($108.5B) R&D figures with valid chunk citations. Simplified opening claim to only mention retail and cloud computing which are supported by segment information.",
+  "revised_at": "2026-03-12T12:41:16.858465"
+}

@@ -1,0 +1,67 @@
+{
+  "paragraph_id": "abdf0aa5-fffe-4241-8e02-89afb610e914",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Amazon's competitive positioning is reinforced by its diversified revenue streams spanning retail, cloud computing, and advertising. Recent analyst commentary indicates AI-powered AWS growth and advertising revenue underpin an upbeat Q2 2025 outlook [f3922ad9-85d8-409b-916a-444e08a6a248]. As Google boosts AI spending, Amazon appears positioned to gain from rising demand for chips and AI tools [0e1b4f71-a372-4872-823f-87fda164a587]. UBS recently signaled Amazon strength by lifting its price target, which sparked a stock rally [758f8efe-00fb-498c-93e6-263f42d2d0d9]. Historical financial metrics show a gross margin of 43.81% and EBITDA margin of 7.46%, though operating margin remains at 2.38% [edade71e-0bfb-4746-a37b-e3e09c550cd3, cd2a13f8-6996-4b54-a953-05d0ed25f82c, c0a44539-99d5-4b5d-b6e9-551d675efa31]. The company maintains significant R&D intensity at 14.24% of revenue, suggesting continued investment in innovation and competitive differentiation [067e0511-a49a-4cdb-847f-c0470722fc7b]. Evidence on specific e-commerce market share figures is not provided in the available data.",
+  "citations": [
+    {
+      "citation_id": "6b5cee78-9daf-41cb-9fcd-7e96cade9278",
+      "chunk_id": "f3922ad9-85d8-409b-916a-444e08a6a248",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T18:44:10Z | Yahoo\nTitle: Amazon Q2 Earnings Preview: What to Expect From Upcoming Report\nURL: https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6\nAI?powered AWS growth and ad revenue underpin upbeat Q2 outlook for Amazon",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3965c473-7e29-449c-a923-ef7ca48f5902",
+      "chunk_id": "0e1b4f71-a372-4872-823f-87fda164a587",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T20:46:08Z | Yahoo\nTitle: Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.\nURL: https://finnhub.io/api/news?id=0c149f3507ff4140b781c206eca97d91ca425f88c2aeb83513659f43b3ce0c7c\nAs Google boosts AI spending, Amazon looks primed to gain from rising d",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f00979cc-2b79-43c4-a73f-342b1d7b6512",
+      "chunk_id": "758f8efe-00fb-498c-93e6-263f42d2d0d9",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T19:27:46Z | Yahoo\nTitle: Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS\nURL: https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca\nUBS Signals Amazon Strength, Lifts Target and Sparks Rally",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "f3922ad9-85d8-409b-916a-444e08a6a248",
+    "0e1b4f71-a372-4872-823f-87fda164a587",
+    "758f8efe-00fb-498c-93e6-263f42d2d0d9"
+  ],
+  "calc_ids": [
+    "edade71e-0bfb-4746-a37b-e3e09c550cd3",
+    "cd2a13f8-6996-4b54-a953-05d0ed25f82c",
+    "c0a44539-99d5-4b5d-b6e9-551d675efa31",
+    "067e0511-a49a-4cdb-847f-c0470722fc7b"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "1df49c8b-75d8-4b00-9ddc-aacec2f89131",
+      "paragraph_id": "abdf0aa5-fffe-4241-8e02-89afb610e914",
+      "status": "pass",
+      "issues": [
+        {
+          "issue_id": "48b9f59d-3ac0-4498-8d3f-966001d4d75a",
+          "issue_type": "unsupported_claim",
+          "severity": "minor",
+          "paragraph_id": "abdf0aa5-fffe-4241-8e02-89afb610e914",
+          "offending_span": "Amazon's competitive positioning is reinforced by its diversified revenue streams spanning retail, cloud computing, and advertising.",
+          "explanation": "This opening sentence makes a factual claim about Amazon's business segments (retail, cloud computing, advertising) but is not supported by any cited chunk or calculation. While this is generally well-known public information about Amazon, for rigorous fact-checking purposes, specific claims about business structure should be traced to source evidence. The Previously Verified Facts section mentions retail operations but does not explicitly confirm cloud computing (AWS) or advertising segments.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add a citation to a chunk or company filing that explicitly describes Amazon's three main revenue streams (retail, AWS/cloud, advertising), or rephrase as general context without presenting it as a verified claim."
+        }
+      ],
+      "checked_at": "2026-03-12T10:20:47.790963",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

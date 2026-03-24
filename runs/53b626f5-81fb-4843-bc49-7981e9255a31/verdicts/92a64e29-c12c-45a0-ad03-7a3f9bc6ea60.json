@@ -1,0 +1,66 @@
+{
+  "verdict_id": "92a64e29-c12c-45a0-ad03-7a3f9bc6ea60",
+  "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "80409302-e655-40a2-9476-a442f9496d58",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+      "offending_span": "FY2025 revenue reached $716,924,000,000 [CHUNK_ID: 55489966-bd81-4933-81bb-49a96e1be734]",
+      "explanation": "The cited chunk only states 'AMZN Revenue for FY: $716,924,000,000' without specifying which fiscal year. The paragraph assigns this to FY2025, but this year assignment cannot be verified from the chunk content alone.",
+      "relevant_chunk_ids": [
+        "55489966-bd81-4933-81bb-49a96e1be734"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite a chunk that explicitly specifies the fiscal year, or add a note clarifying the source of the year assignment."
+    },
+    {
+      "issue_id": "c2d6160e-9bff-400a-a24d-634289434b5f",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+      "offending_span": "FY2024 revenue of $637,959,000,000 [CHUNK_ID: 797dd08f-68f3-4278-b421-6ffa73be3aa2], while FY2023 revenue of $574,785,000,000 [CHUNK_ID: 507ef8bd-51b2-45bc-aa54-b1a23e17d82c], while FY2022 revenue of $513,983,000,000 [CHUNK_ID: ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357]",
+      "explanation": "Similar to above, none of the cited chunks specify which fiscal year each revenue figure corresponds to. All chunks only state 'AMZN Revenue for FY' without year identification.",
+      "relevant_chunk_ids": [
+        "797dd08f-68f3-4278-b421-6ffa73be3aa2",
+        "507ef8bd-51b2-45bc-aa54-b1a23e17d82c",
+        "ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Cite chunks that explicitly identify the fiscal year for each revenue figure, or provide additional documentation supporting the year assignments."
+    },
+    {
+      "issue_id": "042cebe9-36bd-4865-ac93-88cb598429e4",
+      "issue_type": "hallucination",
+      "severity": "major",
+      "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+      "offending_span": "This consistent double-digit growth suggests sustained momentum across Amazon's e-commerce and cloud segments, indicating successful market share gains and pricing power in core businesses.",
+      "explanation": "The cited chunks only contain total revenue figures. They do not provide any information about: (1) e-commerce segment performance, (2) cloud segment performance, (3) market share gains, or (4) pricing power. These analytical conclusions cannot be derived from revenue-only data.",
+      "relevant_chunk_ids": [
+        "55489966-bd81-4933-81bb-49a96e1be734",
+        "797dd08f-68f3-4278-b421-6ffa73be3aa2",
+        "507ef8bd-51b2-45bc-aa54-b1a23e17d82c",
+        "ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional chunks containing segment-level data and market analysis to support these claims, or rephrase as general observation without specific attribution to segments, market share, or pricing power."
+    },
+    {
+      "issue_id": "969a3611-9b12-4830-8e3e-6102dfb16953",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+      "offending_span": "FY2025 revenue reached $716,924,000,000",
+      "explanation": "The as-of date is 2025-07. Amazon's fiscal year ends December 31 (calendar year). As of July 2025, FY2025 would not be complete (~6 months into the fiscal year), so full-year FY2025 revenue should not be available as actual data. Presenting it as 'reached' implies actual completed fiscal year data.",
+      "relevant_chunk_ids": [
+        "55489966-bd81-4933-81bb-49a96e1be734"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Clarify whether this is projected/estimated FY2025 revenue rather than actual. If projected, use language like 'is projected to reach' or 'is estimated at'. If this is actually FY2024 data mislabeled as FY2025, correct the fiscal year designation."
+    }
+  ],
+  "checked_at": "2026-03-12T10:13:28.737523",
+  "iteration": 0
+}

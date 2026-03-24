@@ -1,0 +1,44 @@
+{
+  "verdict_id": "d4c40e49-63a5-42f0-9df1-d9efb908f9e0",
+  "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "5320dffe-0a2e-4f39-b631-77a0a1ad2ee3",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+      "offending_span": "FY2025 R&D expenses reaching $108,521,000,000",
+      "explanation": "The as-of date is 2025-07 (July 2025), but the paragraph presents FY2025 as a completed fiscal year with full-year data. Amazon's fiscal year ends in December, so FY2025 full-year financial data would not be available until early 2026. This presents future/completed year data as historical fact when only partial year data should exist at the as-of date.",
+      "relevant_chunk_ids": [
+        "534dacac-29c9-481c-8845-b786f27f197d"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either clarify that FY2025 figures are projections/estimates, or adjust to reference only available periods (e.g., TTM or H1 2025). Verify the fiscal year end date and ensure data availability aligns with the as-of date."
+    },
+    {
+      "issue_id": "076c72dd-d0ae-4fd2-bd53-e219887cc3d6",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+      "offending_span": "FY2025 R&D intensity appears to have increased to approximately 15.1% based on the revenue and R&D figures provided",
+      "explanation": "The paragraph claims FY2025 R&D intensity of 15.1% but provides no cited calculation result or revenue chunk to support this figure. Unlike FY2022 intensity (which has CALC_ID citation), there is no evidence source for the FY2025 intensity calculation. The FY2025 revenue figure needed for this calculation is not cited.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Add a calculation result ID showing the FY2025 R&D intensity computation with the corresponding FY2025 revenue figure, or remove the specific percentage if it cannot be verified."
+    },
+    {
+      "issue_id": "d97dd57b-8fe1-4547-879b-51ed0f512902",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+      "offending_span": "This elevated R&D spending intensity indicates continued investment in AWS infrastructure, AI capabilities, and logistics automation",
+      "explanation": "This analytical claim about what the R&D spending is specifically invested in (AWS infrastructure, AI capabilities, logistics automation) is not supported by any cited evidence chunks. The chunks only show R&D expense amounts, not the breakdown or purpose of the spending.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite specific evidence chunks that detail R&D spending allocation, or qualify this as analyst interpretation rather than stated fact (e.g., 'suggests potential investment in...' or 'consistent with Amazon's stated priorities in...')."
+    }
+  ],
+  "checked_at": "2026-03-12T10:18:59.830144",
+  "iteration": 0
+}

@@ -1,0 +1,35 @@
+{
+  "verdict_id": "38fc3049-f6d4-424b-8c02-d0743071486d",
+  "paragraph_id": "87ab8ee4-5ed3-424b-96a9-a3300edbd670",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "6d48afbf-6f3e-46d6-8ac8-da2f9590c851",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "87ab8ee4-5ed3-424b-96a9-a3300edbd670",
+      "offending_span": "The Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing, Mellanox networking and interconnect solutions, automotive AI Cockpit, autonomous driving solutions, and NVIDIA AI Enterprise software [812d4743-83b4-43d7-b5ee-dfc8624a5328].",
+      "explanation": "The cited chunk (812d4743-83b4-43d7-b5ee-dfc8624a5328) is truncated and ends at 'Data Center platf'. It does not contain the specific details about Mellanox, automotive AI Cockpit, autonomous driving solutions, or NVIDIA AI Enterprise software claimed in the text.",
+      "relevant_chunk_ids": [
+        "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the unsupported details or cite a different chunk that contains the full description of the Compute & Networking segment offerings."
+    },
+    {
+      "issue_id": "9abd8256-b958-45bf-8d59-8ca8e23a4cdd",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "87ab8ee4-5ed3-424b-96a9-a3300edbd670",
+      "offending_span": "The company sells to original equipment manufacturers, system builders, cloud service providers, automotive manufacturers, and other ecosystem participants [812d4743-83b4-43d7-b5ee-dfc8624a5328].",
+      "explanation": "The cited chunk (812d4743-83b4-43d7-b5ee-dfc8624a5328) does not contain any information regarding the company's customer base or sales channels (OEMs, system builders, etc.).",
+      "relevant_chunk_ids": [
+        "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the claim or provide a valid citation that supports the customer type information."
+    }
+  ],
+  "checked_at": "2026-03-11T14:12:14.545499",
+  "iteration": 0
+}

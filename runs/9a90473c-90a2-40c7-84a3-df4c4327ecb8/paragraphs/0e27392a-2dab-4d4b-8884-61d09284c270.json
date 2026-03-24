@@ -1,0 +1,76 @@
+{
+  "paragraph_id": "0e27392a-2dab-4d4b-8884-61d09284c270",
+  "section_name": "Financial Analysis",
+  "text": "NVIDIA's revenue has demonstrated exceptional growth trajectory over the past four fiscal years, driven primarily by surging demand for AI chips and data center solutions. Revenue expanded from $26,974,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $60,922,000,000 in FY2024 [a78faaef-912e-4ab2-9b19-d139c047b1bc], then accelerated to $130,497,000,000 in FY2025 [93b368f3-dee2-424f-8a66-93f166f9b1f8], and reached $215,938,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a]. This represents approximately 8-fold revenue growth over the three-year period, indicating the company has successfully capitalized on the AI infrastructure buildout cycle. The consistent year-over-year expansion suggests strong market positioning in AI accelerators and data center GPUs.",
+  "citations": [
+    {
+      "citation_id": "eaf7f3c1-674f-4a8d-9013-ed2097f6290c",
+      "chunk_id": "76fd1884-5c53-4fe5-97f0-d7b7352ee252",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2023-01-29\n  Revenue:            $26,974,000,000\n  Gross Profit:       $15,356,000,000 (margin N/A)\n  Operating Income:   $4,224,000,000 (margin N/A)\n  Net Income:         $4,368,000,000 (margin N/A)\n  EBITDA:             $5,986,000,000\n  EPS:            ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "cb51c2ea-05bf-4489-965f-4776f0c7eed4",
+      "chunk_id": "a78faaef-912e-4ab2-9b19-d139c047b1bc",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2024-01-28\n  Revenue:            $60,922,000,000\n  Gross Profit:       $44,301,000,000 (margin N/A)\n  Operating Income:   $32,972,000,000 (margin N/A)\n  Net Income:         $29,760,000,000 (margin N/A)\n  EBITDA:             $35,583,000,000\n  EPS:         ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "06f15d29-e84d-480c-bfe0-1f53802e2e39",
+      "chunk_id": "93b368f3-dee2-424f-8a66-93f166f9b1f8",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2025-01-26\n  Revenue:            $130,497,000,000\n  Gross Profit:       $97,858,000,000 (margin N/A)\n  Operating Income:   $81,453,000,000 (margin N/A)\n  Net Income:         $72,880,000,000 (margin N/A)\n  EBITDA:             $86,137,000,000\n  EPS:        ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4fb3400a-d190-4209-9449-86a200dbd1ef",
+      "chunk_id": "cdffc354-305b-4c6d-9459-624d8d18147a",
+      "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – NVDA | Period: FY | Date: 2026-01-25\n  Revenue:            $215,938,000,000\n  Gross Profit:       $153,463,000,000 (margin N/A)\n  Operating Income:   $130,387,000,000 (margin N/A)\n  Net Income:         $120,067,000,000 (margin N/A)\n  EBITDA:             $144,552,000,000\n  EPS:    ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "76fd1884-5c53-4fe5-97f0-d7b7352ee252",
+    "a78faaef-912e-4ab2-9b19-d139c047b1bc",
+    "93b368f3-dee2-424f-8a66-93f166f9b1f8",
+    "cdffc354-305b-4c6d-9459-624d8d18147a"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "7872acd2-9248-4c2a-9619-146049819c58",
+      "paragraph_id": "0e27392a-2dab-4d4b-8884-61d09284c270",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "8d9b881d-3f1e-4073-a750-80b5bffe919b",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "0e27392a-2dab-4d4b-8884-61d09284c270",
+          "offending_span": "driven primarily by surging demand for AI chips and data center solutions",
+          "explanation": "The paragraph asserts that revenue growth is 'driven primarily by surging demand for AI chips and data center solutions.' However, the cited evidence chunks are consolidated Income Statements which provide top-line revenue figures but do not contain segment breakdowns, management discussion, or qualitative data explaining the drivers of revenue growth. Therefore, this causal claim is not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "76fd1884-5c53-4fe5-97f0-d7b7352ee252",
+            "a78faaef-912e-4ab2-9b19-d139c047b1bc",
+            "93b368f3-dee2-424f-8a66-93f166f9b1f8",
+            "cdffc354-305b-4c6d-9459-624d8d18147a"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the specific attribution of growth drivers ('driven primarily by...') unless supported by a cited chunk containing segment revenue data or MD&A text. Alternatively, cite a specific source (e.g., Segment Reporting or Earnings Call Transcript) that confirms the revenue mix."
+        }
+      ],
+      "checked_at": "2026-03-11T12:42:46.958272",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

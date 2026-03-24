@@ -1,0 +1,22 @@
+{
+  "verdict_id": "7bbc5a43-e4e2-4825-8c93-eb2260908689",
+  "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "8027c026-3c10-44ee-8c56-31e63aebb980",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+      "offending_span": "an improvement from the FY2022 level of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d]",
+      "explanation": "The paragraph claims the 0.96 debt-to-equity ratio is from FY2022, but the cited calculation result (ec64f479-08ea-449f-bb49-a0efd33c4b1d) does not specify which fiscal year this represents. The calculation description only states 'AMZN Debt-to-Equity (FY)' without indicating FY2022. While the 0.96 value itself matches the calculation result, the specific fiscal year attribution cannot be verified from the cited evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "ec64f479-08ea-449f-bb49-a0efd33c4b1d"
+      ],
+      "recommended_fix": "Either remove the specific FY2022 reference and state 'a prior fiscal year' or 'historical level', or cite additional evidence that explicitly confirms this 0.96 ratio is from FY2022."
+    }
+  ],
+  "checked_at": "2026-03-12T10:18:11.633021",
+  "iteration": 0
+}

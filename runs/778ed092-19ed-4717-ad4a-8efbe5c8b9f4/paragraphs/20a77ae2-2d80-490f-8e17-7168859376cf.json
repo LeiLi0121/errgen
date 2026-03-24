@@ -1,0 +1,45 @@
+{
+  "paragraph_id": "20a77ae2-2d80-490f-8e17-7168859376cf",
+  "section_name": "Financial Analysis",
+  "text": "Profitability metrics reached exceptional levels in Q4 2026, with gross margin at 75.00%, operating margin at 65.02%, and net margin at 63.06% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2][7f7d2b84-616e-4a4c-ac53-882e55fed295][01915efa-aaa7-42eb-b9e2-9b56d3881324]. These margins reflect NVIDIA's pricing power and operational efficiency in the AI chip market. Gross profit totaled $51,093,000,000 while operating income reached $44,299,000,000 for the quarter [9e098a69-50b0-4f72-94df-f7f89d77665f][e9879c6d-3dc3-4ab3-965e-49e1fc30114d].",
+  "citations": [
+    {
+      "citation_id": "986e216e-79be-4e63-8b3a-ca3d5d0ac250",
+      "chunk_id": "9e098a69-50b0-4f72-94df-f7f89d77665f",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Gross Profit for Q4: $51,093,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2743cb14-f7c7-46d2-b7ca-13747ddc4f82",
+      "chunk_id": "e9879c6d-3dc3-4ab3-965e-49e1fc30114d",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text_snippet": "NVDA Operating Income for Q4: $44,299,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "9e098a69-50b0-4f72-94df-f7f89d77665f",
+    "e9879c6d-3dc3-4ab3-965e-49e1fc30114d"
+  ],
+  "calc_ids": [
+    "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+    "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+    "01915efa-aaa7-42eb-b9e2-9b56d3881324"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "fbdaea93-1b43-4e25-840f-277fbb85d750",
+      "paragraph_id": "20a77ae2-2d80-490f-8e17-7168859376cf",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-23T05:17:22.323704",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

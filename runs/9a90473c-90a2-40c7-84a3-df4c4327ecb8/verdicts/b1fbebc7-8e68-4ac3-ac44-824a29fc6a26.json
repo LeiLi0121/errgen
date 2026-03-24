@@ -1,0 +1,49 @@
+{
+  "verdict_id": "b1fbebc7-8e68-4ac3-ac44-824a29fc6a26",
+  "paragraph_id": "3598f498-6e97-4713-8fdc-31a06eafcdda",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "4de51fe2-d9f3-43eb-9ec2-701fd2ef02bd",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "3598f498-6e97-4713-8fdc-31a06eafcdda",
+      "offending_span": "current assets of $125.6 billion against current liabilities of $32.16 billion as of FY2026 [72e56d8c-e080-4b6a-9589-a1f25d2e6b7c]",
+      "explanation": "Chunk 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c is cited but not provided in the available evidence chunks for this verification. The claim cannot be directly verified against the provided evidence, though the numbers are consistent with Previously Verified Facts from the Financial Analysis section.",
+      "relevant_chunk_ids": [
+        "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure chunk 72e56d8c-e080-4b6a-9589-a1f25d2e6b7c is included in the evidence set for this verification, or cite an alternative available chunk that contains the balance sheet data."
+    },
+    {
+      "issue_id": "ed0a3438-dceb-4b5e-b477-0d652fee7b70",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "3598f498-6e97-4713-8fdc-31a06eafcdda",
+      "offending_span": "total debt of $11.41 billion against stockholders' equity of $157.29 billion [002baa36-95e2-486c-afa8-d265c7e9fe50]",
+      "explanation": "Chunk 002baa36-95e2-486c-afa8-d265c7e9fe50 is cited but not provided in the available evidence chunks for this verification. The claim cannot be directly verified against the provided evidence, though the numbers are consistent with Previously Verified Facts from the Risk Analysis section.",
+      "relevant_chunk_ids": [
+        "002baa36-95e2-486c-afa8-d265c7e9fe50"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure chunk 002baa36-95e2-486c-afa8-d265c7e9fe50 is included in the evidence set for this verification, or cite an alternative available chunk that contains the debt and equity data."
+    },
+    {
+      "issue_id": "5f2ad03f-8d46-4e43-a6b5-e6d31582951c",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "3598f498-6e97-4713-8fdc-31a06eafcdda",
+      "offending_span": "R&D expenses growing from $7.34 billion in FY2023 to $18.50 billion in FY2026 [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a]",
+      "explanation": "Chunk 76fd1884-5c53-4fe5-97f0-d7b7352ee252 (for FY2023 R&D) is cited but not provided in the available evidence chunks. Only chunk cdffc354-305b-4c6d-9459-624d8d18147a (for FY2026 R&D of $18,497,000,000 ≈ $18.50 billion) is available and supports that portion of the claim. The FY2023 figure cannot be directly verified against provided evidence.",
+      "relevant_chunk_ids": [
+        "76fd1884-5c53-4fe5-97f0-d7b7352ee252",
+        "cdffc354-305b-4c6d-9459-624d8d18147a"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure chunk 76fd1884-5c53-4fe5-97f0-d7b7352ee252 is included in the evidence set, or separately cite available chunks for each fiscal year's R&D data."
+    }
+  ],
+  "checked_at": "2026-03-11T15:34:24.305550",
+  "iteration": 0
+}

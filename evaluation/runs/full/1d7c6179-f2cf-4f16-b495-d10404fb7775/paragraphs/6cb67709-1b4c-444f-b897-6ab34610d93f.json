@@ -1,0 +1,60 @@
+{
+  "paragraph_id": "6cb67709-1b4c-444f-b897-6ab34610d93f",
+  "section_name": "Risk Analysis",
+  "text": "Competitive and market positioning risks are suggested by the revenue volatility observed across fiscal 2025 quarters, with growth rates ranging from -8.21% to +3.44% YoY [K001]. The Digital Experience segment, which serves marketers, advertisers, agencies, and enterprises, operates in a highly competitive landscape where pricing pressure and market share threats from both established competitors and new entrants could impact margins [C002]. Gross margins remain strong at 88.92% in Q4 2025, but any compression from competitive pricing or increased infrastructure costs would directly affect the 36.50% operating margin and 29.96% net margin [K003, K004, K005]. The evidence does not provide specific details on regulatory, antitrust, or geopolitical risks beyond the company's US headquarters and global operations [C001, C002].",
+  "citations": [
+    {
+      "citation_id": "c6f53497-c23c-48bd-8379-ddaffcf3a9fc",
+      "chunk_id": "facaa50e-cacb-47c6-92ba-0dfb64831a7e",
+      "source_id": "535b32d7-ce93-429d-a6d4-4b525e40e7d0",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publis",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "94744a8e-a26b-4f66-96d6-61660e014d7a",
+      "chunk_id": "ad6bc5e4-0088-4ddc-9bb3-cdd5e5e8c693",
+      "source_id": "535b32d7-ce93-429d-a6d4-4b525e40e7d0",
+      "source_type": "company_profile",
+      "text_snippet": "Adobe Inc. (Ticker: ADBE) | Exchange: NASDAQ | Sector: Technology | Industry: Software - Infrastructure | Market Cap: N/A | CEO: Shantanu Narayen | Full-Time Employees: 30709 | IPO Date: 1986-08-13 | Country: US | Website: https://www.adobe.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "facaa50e-cacb-47c6-92ba-0dfb64831a7e",
+    "ad6bc5e4-0088-4ddc-9bb3-cdd5e5e8c693"
+  ],
+  "calc_ids": [
+    "abb71737-96c6-4570-bd58-0eb60e057c8a",
+    "8c1b9a10-2466-4694-92fa-5cf89f5d11b4",
+    "dab61c03-e2fc-41b7-9755-7fee316bd3e9",
+    "ba975ec2-0bc6-4522-9a0f-d6447a44f2d7"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "f34e49c0-d0d7-472c-9723-abaf89188df7",
+      "paragraph_id": "6cb67709-1b4c-444f-b897-6ab34610d93f",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "7183a039-f5b3-47d4-a570-cf8497f50179",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "6cb67709-1b4c-444f-b897-6ab34610d93f",
+          "offending_span": "The Digital Experience segment, which serves marketers, advertisers, agencies, and enterprises, operates in a highly competitive landscape where pricing pressure and market share threats from both established competitors and new entrants could impact margins [C002]",
+          "explanation": "C002 describes Adobe's three segments and provides details about the Digital Media segment's customers (content creators, workers, marketers, educators, enthusiasts). However, C002 does NOT contain information about the Digital Experience segment's specific customers (marketers, advertisers, agencies, enterprises) nor does it mention competitive landscape, pricing pressure, or market share threats. The cited chunk does not support these specific claims about the Digital Experience segment.",
+          "relevant_chunk_ids": [
+            "facaa50e-cacb-47c6-92ba-0dfb64831a7e"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite a different chunk that contains information about Digital Experience segment customers and competitive dynamics, or remove the specific customer descriptions and competitive landscape claims that are not supported by C002. Consider adding qualifying language like 'industry analysis suggests' if this is general knowledge not from the provided evidence."
+        }
+      ],
+      "checked_at": "2026-03-23T19:37:35.658871",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

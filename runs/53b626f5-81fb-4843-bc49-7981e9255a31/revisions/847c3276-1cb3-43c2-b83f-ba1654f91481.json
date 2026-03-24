@@ -1,0 +1,15 @@
+{
+  "revision_id": "847c3276-1cb3-43c2-b83f-ba1654f91481",
+  "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+  "iteration": 1,
+  "original_text": "Margin compression risk exists given the historical volatility in Operating Income, which ranged from $12,248,000,000 in FY2022 to $79,975,000,000 in FY2025 [CHUNK_ID: 063226d1-d6e5-48c4-8724-78adb5f35e92, CHUNK_ID: 98d37e7b-d9b8-4798-8d78-32c8508a1ff4]. The Operating Margin improved from 2.38% in FY2022 to approximately 11.2% in FY2025, but this expansion may face headwinds from continued heavy investment in infrastructure and technology [CHUNK_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]. Evidence on specific regulatory, competitive, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "revised_text": "Margin compression risk exists given the historical volatility in Operating Income, which ranged from $12,248,000,000 in FY2022 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e] to $68,593,000,000 in FY2024 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e], with FY2025 forecasted at $79,975,000,000 [CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]. The Operating Margin improved from 2.38% in FY2022 [CALC_ID: c0a44539-99d5-4b5d-b6e9-551d675efa31]. Evidence on specific regulatory, competitive, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "issues_addressed": [
+    "32858d42-ad52-4680-bad8-158f31e16c76",
+    "14b05bff-3f48-4fe1-86cf-1e831499f7ed",
+    "c76f5d13-c312-40fd-86fb-b43d8533ab95",
+    "aec3f9e0-44ee-4b96-9541-9a4e42c6eb5a"
+  ],
+  "changes_summary": "Fixed 4 issues: (1) Clarified FY2025 figures as forecasted since fiscal year not complete as of July 2025; (2) Removed unsupported 11.2% FY2025 Operating Margin claim (no calc_id support); (3) Removed investment headwinds claim (cited chunk was calculation result, not qualitative text); (4) Updated chunk citations to use income statement chunks that explicitly contain fiscal year dates (2022-12-31, 2024-12-31, 2025-12-31) rather than summary chunks without year metadata. Added FY2024 as completed period for more accurate historical range.",
+  "revised_at": "2026-03-12T11:54:14.694365"
+}

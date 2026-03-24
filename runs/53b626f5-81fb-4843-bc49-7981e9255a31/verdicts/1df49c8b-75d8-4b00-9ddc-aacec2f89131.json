@@ -1,0 +1,20 @@
+{
+  "verdict_id": "1df49c8b-75d8-4b00-9ddc-aacec2f89131",
+  "paragraph_id": "abdf0aa5-fffe-4241-8e02-89afb610e914",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "48b9f59d-3ac0-4498-8d3f-966001d4d75a",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "abdf0aa5-fffe-4241-8e02-89afb610e914",
+      "offending_span": "Amazon's competitive positioning is reinforced by its diversified revenue streams spanning retail, cloud computing, and advertising.",
+      "explanation": "This opening sentence makes a factual claim about Amazon's business segments (retail, cloud computing, advertising) but is not supported by any cited chunk or calculation. While this is generally well-known public information about Amazon, for rigorous fact-checking purposes, specific claims about business structure should be traced to source evidence. The Previously Verified Facts section mentions retail operations but does not explicitly confirm cloud computing (AWS) or advertising segments.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Add a citation to a chunk or company filing that explicitly describes Amazon's three main revenue streams (retail, AWS/cloud, advertising), or rephrase as general context without presenting it as a verified claim."
+    }
+  ],
+  "checked_at": "2026-03-12T10:20:47.790963",
+  "iteration": 0
+}

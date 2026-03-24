@@ -1,0 +1,77 @@
+{
+  "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "On the strategic front, NVIDIA's recent multiyear agreements to invest $2 billion each in Coherent and Lumentum, alongside multibillion-dollar purchase commitments and future capacity rights, suggests management is proactively redefining its moat by pre-buying advanced optics capacity [0aa6a797-836f-43db-8358-724d2dac0a0b]. Following the earnings report, Bank of America reset its price target [09dfa05d-8767-4033-aeaf-3505912b5a4c].",
+  "citations": [
+    {
+      "citation_id": "17998dd4-1a05-42a2-8d98-b8fb45103d73",
+      "chunk_id": "0aa6a797-836f-43db-8358-724d2dac0a0b",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-03-03T16:12:55Z | Yahoo Entertainment | Author: Simply Wall St\nTitle: Is Nvidia (NVDA) Quietly Redefining Its Moat By Pre‑Buying Advanced Optics Capacity?\nURL: https://finance.yahoo.com/news/nvidia-nvda-quietly-redefining-moat-161255188.html\n<ul><li>Nvidia recently entered multiyear, non",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "384374d6-cc6b-4918-8978-7fabb25ea736",
+      "chunk_id": "09dfa05d-8767-4033-aeaf-3505912b5a4c",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-27T02:03:00Z | TheStreet | Author: Vuk Zdinjak\nTitle: Bank of America resets Nvidia price target after earnings\nURL: https://www.thestreet.com/investing/stocks/bank-of-america-resets-nvidia-price-target-after-earnings\nNvidia (NVDA) reported its Q4 earnings on Feb. 25 after the bell. D",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0aa6a797-836f-43db-8358-724d2dac0a0b",
+    "09dfa05d-8767-4033-aeaf-3505912b5a4c"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "86da0817-f898-4995-b541-ef38b134c946",
+      "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "47b05693-4b0d-43ee-9560-d9d1dfb39c92",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+          "offending_span": "Deutsche Bank raising its price target to $220 while Bank of America reset its price target following the earnings report [de81755d-f657-4d81-ac51-0e4d3302477e, 09dfa05d-8767-4033-aeaf-3505912b5a4c]",
+          "explanation": "The cited chunks do not contain the specific information about Deutsche Bank raising its price target to $220. Chunk [de81755d-f657-4d81-ac51-0e4d3302477e] is titled 'Veteran analyst sends shocking message on Nvidia after earnings' but the visible snippet does not mention Deutsche Bank or the $220 price target. Chunk [09dfa05d-8767-4033-aeaf-3505912b5a4c] only covers Bank of America's price target reset. While the factual claims are consistent with Previously Verified Facts, the specific citations do not support the Deutsche Bank claim.",
+          "relevant_chunk_ids": [
+            "de81755d-f657-4d81-ac51-0e4d3302477e",
+            "09dfa05d-8767-4033-aeaf-3505912b5a4c"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite the correct chunk(s) that contain the Deutsche Bank $220 price target information, or restructure the citation to only attribute the Bank of America claim to chunk [09dfa05d-8767-4033-aeaf-3505912b5a4c] and find appropriate support for the Deutsche Bank claim."
+        }
+      ],
+      "checked_at": "2026-03-11T15:41:23.660779",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "7c3c0af1-95a0-423e-849f-bb57df3dea24",
+      "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T15:44:12.057583",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "5cf6bdcd-a9b6-4118-b06e-e28a4c090a88",
+      "paragraph_id": "584669eb-38a3-4557-9783-6d8fc4418e9f",
+      "iteration": 1,
+      "original_text": "On the strategic front, NVIDIA's recent multiyear agreements to invest $2 billion each in Coherent and Lumentum, alongside multibillion-dollar purchase commitments and future capacity rights, suggests management is proactively redefining its moat by pre-buying advanced optics capacity [0aa6a797-836f-43db-8358-724d2dac0a0b]. Analyst reactions remain mixed, with Deutsche Bank raising its price target to $220 while Bank of America reset its price target following the earnings report [de81755d-f657-4d81-ac51-0e4d3302477e, 09dfa05d-8767-4033-aeaf-3505912b5a4c].",
+      "revised_text": "On the strategic front, NVIDIA's recent multiyear agreements to invest $2 billion each in Coherent and Lumentum, alongside multibillion-dollar purchase commitments and future capacity rights, suggests management is proactively redefining its moat by pre-buying advanced optics capacity [0aa6a797-836f-43db-8358-724d2dac0a0b]. Following the earnings report, Bank of America reset its price target [09dfa05d-8767-4033-aeaf-3505912b5a4c].",
+      "issues_addressed": [
+        "47b05693-4b0d-43ee-9560-d9d1dfb39c92"
+      ],
+      "changes_summary": "Removed the unsupported claim regarding Deutsche Bank raising its price target to $220 and the characterization of analyst reactions as 'mixed' as no evidence was found in the provided chunks. Retained the Bank of America price target reset claim with the correct citation [09dfa05d-8767-4033-aeaf-3505912b5a4c]. Retained the strategic investment details regarding Coherent and Lumentum supported by chunk [0aa6a797-836f-43db-8358-724d2dac0a0b].",
+      "revised_at": "2026-03-11T15:42:34.583320"
+    }
+  ],
+  "iteration": 0
+}

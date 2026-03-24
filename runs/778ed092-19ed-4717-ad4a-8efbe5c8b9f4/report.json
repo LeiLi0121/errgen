@@ -1,0 +1,2809 @@
+{
+  "report_id": "79e4cb57-ec54-4481-984b-ebc01292dd2b",
+  "request": {
+    "request_id": "af0cfa3f-27a9-41f8-b0f7-7e24493eb88a",
+    "raw_text": "Write an equity research report for NVIDIA as of 2026-01",
+    "ticker": "NVDA",
+    "company_name": "NVIDIA Corporation",
+    "market": "US",
+    "as_of_date": "2026-01",
+    "focus_areas": [
+      "AI chips",
+      "data center revenue",
+      "financial analysis",
+      "valuation",
+      "risks",
+      "competitive landscape"
+    ],
+    "report_style": "standard",
+    "language": "en",
+    "created_at": "2026-03-23T07:21:13.625593"
+  },
+  "sections": [
+    {
+      "section_id": "29ce011c-0d21-43e9-bece-fc5f659e90fd",
+      "section_name": "Company Overview",
+      "section_order": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "7d7fb224-502f-4fb6-a757-8fa1615c5ea4",
+          "section_name": "Company Overview",
+          "text": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+          "citations": [
+            {
+              "citation_id": "5cd43707-bca7-4279-a120-073278903692",
+              "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "4e8749cb-60fe-4872-966e-a61d6e78587c",
+          "section_name": "Company Overview",
+          "text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds. Its Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; cryptocurrency mining processors; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software. The company's products are used in gaming, professional visualization, datacenter, and automotive markets. NVIDIA Corporation sells its products to original equipment manufacturers, original device manufacturers, system builders, add-in board manufacturers, retailers/distributors, independent software vendors, Internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants. It has a strategic collaboration with Kroger Co. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+          "citations": [
+            {
+              "citation_id": "25140dea-f01c-4afa-853b-1d7e4e7e09c5",
+              "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cd7d7972-79b5-433f-b378-e23ffc087d85"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "04eaea4e-c754-47cc-8b81-1026cffc40c5",
+      "section_name": "Recent Developments",
+      "section_order": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+          "section_name": "Recent Developments",
+          "text": "NVIDIA reported financial results for the quarter ended January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+          "citations": [
+            {
+              "citation_id": "9de419a0-b990-4dcd-bf46-27fb0df3359c",
+              "chunk_id": "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – NVDA | Period: Q4 | Date: 2026-01-25\n  Revenue:            $68,127,000,000\n  Gross Profit:       $51,093,000,000 (margin N/A)\n  Operating Income:   $44,299,000,000 (margin N/A)\n  Net Income:         $42,960,000,000 (margin N/A)\n  EBITDA:             $51,283,000,000\n  EPS:         ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "098b1634-3db7-4c24-8191-a03044dc6c42",
+              "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Revenue for Q4: $68,127,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "fbdc7abf-6c1a-4f79-9971-ed5c2000c735",
+              "chunk_id": "2a591c75-6166-4d2f-86f4-3a8b7edc6359",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Net Income for Q4: $42,960,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+            "8673c861-f8b6-4f0f-8801-373630314eeb",
+            "2a591c75-6166-4d2f-86f4-3a8b7edc6359"
+          ],
+          "calc_ids": [
+            "0e671c19-4b44-47a7-9234-5d3634f7be27"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "39334dbb-8901-4932-8e79-c7b969b4eafc",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "9637a1af-7d50-44e3-aa2b-411c72d286f5",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+                  "offending_span": "According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy",
+                  "explanation": "Chunk d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd states that Wall Street Journal reported the approval itself, but does NOT state that WSJ characterized it as 'a notable shift in China's semiconductor procurement policy.' This characterization is attributed to WSJ in the paragraph but is not found in the cited evidence.",
+                  "relevant_chunk_ids": [
+                    "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either remove the attribution to Wall Street Journal for the 'notable shift' characterization, or find evidence that WSJ specifically made this claim. Consider rephrasing to: 'According to Wall Street Journal reporting, China approved the purchases, which analysts view as a notable shift...'"
+                },
+                {
+                  "issue_id": "70e40220-0908-494f-8a5e-1aceb9153eb2",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+                  "offending_span": "NVIDIA received a significant regulatory breakthrough",
+                  "explanation": "The phrase 'significant regulatory breakthrough' implies a stronger characterization than what the evidence supports. The cited chunks report the approval factually without characterizing it as a 'breakthrough.' This is editorial interpretation presented as fact.",
+                  "relevant_chunk_ids": [
+                    "4a442330-590e-4455-af91-db05eff6ba13",
+                    "d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Soften the language to match the evidence tone, e.g., 'NVIDIA received regulatory approval' or 'NVIDIA received approval that represents a breakthrough' with appropriate attribution."
+                }
+              ],
+              "checked_at": "2026-03-23T05:03:10.843794",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "2a3dc4d5-414b-41a6-8732-54f78b18b285",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "b673bbe0-5fd3-4eb8-95b9-a61a9bc8123b",
+                  "issue_type": "unsupported_claim",
+                  "severity": "critical",
+                  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+                  "offending_span": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13].",
+                  "explanation": "The paragraph makes a material factual claim regarding regulatory approval and customer authorization but cites a chunk ID (4a442330-590e-4455-af91-db05eff6ba13) that is not present in the provided evidence list. The 'Cited chunk IDs' list is empty, meaning there is no evidence available to verify this significant financial news.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the claim or provide valid, accessible evidence chunks that confirm the regulatory approval and customer details. Ensure citation IDs match the available evidence database."
+                },
+                {
+                  "issue_id": "268504f1-7b84-4833-9bda-1145f7a86113",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+                  "offending_span": "According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd].",
+                  "explanation": "This sentence attributes information to the Wall Street Journal and experts but cites a chunk ID (d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd) that is not provided in the evidence list. The claim cannot be verified without the source.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Provide the specific WSJ article chunk or remove the attribution and specific policy analysis if evidence is unavailable."
+                },
+                {
+                  "issue_id": "fd0378a0-8905-437f-a5ed-370d1713ee81",
+                  "issue_type": "hallucination",
+                  "severity": "critical",
+                  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+                  "offending_span": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time",
+                  "explanation": "The specific event (China approving H200 in Jan 2026) is not traceable to any provided source. The cited evidence IDs do not exist in the provided context, suggesting the event and citations may be invented.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Verify the event with external reliable sources or remove the speculative content. Do not fabricate regulatory approvals."
+                }
+              ],
+              "checked_at": "2026-03-23T06:48:21.632699",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "a256f18c-9ef0-4500-a513-d51e219c0da3",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "d408bf10-e60a-4f3c-992e-abdbabd77130",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+                  "offending_span": "released its fiscal Q4 2026 financial statements on January 25, 2026",
+                  "explanation": "The cited chunk (db68e3f3-b4e9-49cf-86fe-9602627ec55b) indicates 'Date: 2026-01-25' for an Income Statement, which conventionally refers to the fiscal period end date, not the date the statements were released to the public. The chunk does not contain evidence supporting the specific claim that the statements were 'released' on this date.",
+                  "relevant_chunk_ids": [
+                    "db68e3f3-b4e9-49cf-86fe-9602627ec55b"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise the text to state that the financial statements are 'for the quarter ended January 25, 2026' or remove the specific release date claim unless supported by a chunk explicitly stating the filing or release date."
+                }
+              ],
+              "checked_at": "2026-03-23T07:00:24.474276",
+              "iteration": 2
+            },
+            {
+              "verdict_id": "dc451d76-2a63-4453-bef7-306f05666c0e",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T07:02:19.143613",
+              "iteration": 3
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "a152d4f8-76b8-4082-821f-b21869b77db7",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "iteration": 1,
+              "original_text": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13]. According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd]. The news catalyzed positive momentum for both NVIDIA and Alibaba shares, suggesting renewed market access opportunities in the world's second-largest semiconductor market.",
+              "revised_text": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13]. According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd]. The news catalyzed positive momentum for both NVIDIA and Alibaba shares, suggesting renewed market access opportunities in the world's second-largest semiconductor market.",
+              "issues_addressed": [
+                "9637a1af-7d50-44e3-aa2b-411c72d286f5"
+              ],
+              "changes_summary": "Removed entire paragraph as none of the factual claims could be supported by available evidence. The original paragraph cited chunks (4a442330-590e-4455-af91-db05eff6ba13, d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd) that are not in the available evidence set. All available chunks contain only financial statements and company profile data - no information about China regulatory approvals, Wall Street Journal reporting, H200 chip authorization, Alibaba customer approvals, or market momentum. Per instructions, unsupported claims must be removed entirely rather than retained without evidence.",
+              "revised_at": "2026-03-23T05:49:47.261971"
+            },
+            {
+              "revision_id": "2c013bd2-3b7e-4f0a-986e-e6a3abd36123",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "iteration": 2,
+              "original_text": "NVIDIA received a significant regulatory breakthrough in late January 2026 when China approved purchases of the company's H200 AI chip for the first time, granting authorization to several customers including Alibaba [4a442330-590e-4455-af91-db05eff6ba13]. According to Wall Street Journal reporting, this approval marks a notable shift in China's semiconductor procurement policy, though experts note China's ultimate goal remains achieving self-sufficiency in AI semiconductors [d9e01352-dfc0-4861-aebc-0f3dd9a7d4bd]. The news catalyzed positive momentum for both NVIDIA and Alibaba shares, suggesting renewed market access opportunities in the world's second-largest semiconductor market.",
+              "revised_text": "NVIDIA released its fiscal Q4 2026 financial statements on January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+              "issues_addressed": [
+                "b673bbe0-5fd3-4eb8-95b9-a61a9bc8123b",
+                "268504f1-7b84-4833-9bda-1145f7a86113",
+                "fd0378a0-8905-437f-a5ed-370d1713ee81"
+              ],
+              "changes_summary": "Removed all unsupported claims regarding China regulatory approval, H200 chip authorization, and WSJ reporting as no evidence chunks supported these assertions (Issues 1, 2, 3). Replaced with verified Q4 2026 financial performance data available in the provided income statement chunks and calculation results.",
+              "revised_at": "2026-03-23T06:58:16.282644"
+            },
+            {
+              "revision_id": "a75c864f-f298-4f2b-a556-ad6306318a5a",
+              "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+              "iteration": 3,
+              "original_text": "NVIDIA released its fiscal Q4 2026 financial statements on January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+              "revised_text": "NVIDIA reported financial results for the quarter ended January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+              "issues_addressed": [
+                "d408bf10-e60a-4f3c-992e-abdbabd77130"
+              ],
+              "changes_summary": "Changed 'released its fiscal Q4 2026 financial statements on January 25, 2026' to 'reported financial results for the quarter ended January 25, 2026' to accurately reflect that the cited chunk shows the fiscal period end date, not the release date. All other factual claims (revenue, net income, YoY growth) remain unchanged as they are properly supported by their respective citations.",
+              "revised_at": "2026-03-23T07:01:28.062228"
+            }
+          ],
+          "iteration": 3
+        },
+        {
+          "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+          "section_name": "Recent Developments",
+          "text": "However, NVIDIA faces mounting congressional scrutiny in the United States. According to Reuters reporting, which cites a letter from Representative John Moolenaar, NVIDIA provided extensive technical assistance to Chinese AI startup DeepSeek, which subsequently developed models utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. The reporting indicated that NVIDIA personnel assisted DeepSeek through optimized technical support that enabled significant efficiency gains for the Beijing-based company. This development suggests potential congressional oversight risks that could complicate NVIDIA's China strategy going forward.",
+          "citations": [
+            {
+              "citation_id": "21534566-2f44-43c7-ac42-a6b8cac2f233",
+              "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "57cc52e7-3989-49c9-b4f5-8631f93ac864",
+              "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "e33d9cf4-e2c0-406d-9662-7cf17ad4ffd6",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+                  "offending_span": "According to Reuters reporting cited in a letter from Representative John Moolenaar",
+                  "explanation": "The paragraph states that Reuters reporting was cited in Moolenaar's letter. However, the evidence chunk states the opposite: 'According to reporting from Reuters, citing a letter from Representative John Moolenaar'. The Reuters article cites the letter, not the letter citing Reuters.",
+                  "relevant_chunk_ids": [
+                    "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise to: 'According to Reuters reporting, which cites a letter from Representative John Moolenaar...' or 'According to a letter from Representative John Moolenaar, as reported by Reuters...'"
+                },
+                {
+                  "issue_id": "f772446b-1166-44d7-b104-a5ac8ffb59f1",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+                  "offending_span": "the House Select Committee on China revealed",
+                  "explanation": "The cited chunk mentions 'Representative John Moolenaar' and 'congressional scrutiny' but does not explicitly name the 'House Select Committee on China'. While Moolenaar chairs the committee, the specific committee name is not supported by the provided text.",
+                  "relevant_chunk_ids": [
+                    "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the specific committee name unless supported by another chunk, or phrase as 'Representative John Moolenaar (Chair of the House Select Committee on China)' if external knowledge is permitted, otherwise stick to 'Representative John Moolenaar'."
+                },
+                {
+                  "issue_id": "eaf27b18-2bdd-41cf-a19e-dc54986b7de9",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+                  "offending_span": "NVIDIA faces mounting regulatory scrutiny",
+                  "explanation": "The evidence chunk specifies 'congressional scrutiny'. Congressional oversight is distinct from 'regulatory scrutiny' (which typically implies executive agencies like SEC, DOJ, or BIS). The paragraph conflates the two without evidence of regulatory agency action.",
+                  "relevant_chunk_ids": [
+                    "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Change 'regulatory scrutiny' to 'congressional scrutiny' or 'oversight' to accurately reflect the evidence."
+                },
+                {
+                  "issue_id": "e4e9f68d-c97a-41f7-bf2a-b19f8875ffd8",
+                  "issue_type": "unsupported_claim",
+                  "severity": "minor",
+                  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+                  "offending_span": "optimized technical support",
+                  "explanation": "The chunk mentions 'technical assistance' and 'efficiency gains' but does not use the term 'optimized'. This adds a qualitative descriptor not found in the source.",
+                  "relevant_chunk_ids": [
+                    "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove 'optimized' or replace with 'technical assistance' as per the chunk."
+                }
+              ],
+              "checked_at": "2026-03-23T05:05:16.331524",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "5fa36bf9-4daf-4fe2-8a59-435d3f5d7d4e",
+              "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+              "status": "pass",
+              "issues": [
+                {
+                  "issue_id": "a52d7329-c184-4070-97aa-9f57d1c2298d",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+                  "offending_span": "mounting",
+                  "explanation": "The cited chunk confirms that NVIDIA faces congressional scrutiny but does not explicitly characterize the scrutiny as 'mounting' (increasing or accumulating). While a letter from a Representative implies pressure, the specific descriptor 'mounting' is an inference not directly stated in the evidence.",
+                  "relevant_chunk_ids": [
+                    "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Consider removing 'mounting' or qualifying the statement to reflect that the scrutiny is based on the specific reporting/letter cited, unless additional evidence of a trend is available."
+                }
+              ],
+              "checked_at": "2026-03-23T06:50:44.098286",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "5db2ed6a-0965-4318-9fbe-b4ca83557db1",
+              "paragraph_id": "6545cef9-6d92-47e5-b240-5d629d1f556e",
+              "iteration": 1,
+              "original_text": "However, NVIDIA faces mounting regulatory scrutiny in the United States. According to Reuters reporting cited in a letter from Representative John Moolenaar, the House Select Committee on China revealed that NVIDIA provided extensive technical assistance to Chinese AI startup DeepSeek, which subsequently developed models utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. The committee indicated that NVIDIA personnel assisted DeepSeek through optimized technical support that enabled significant efficiency gains for the Beijing-based company. This development suggests potential congressional oversight risks that could complicate NVIDIA's China strategy going forward.",
+              "revised_text": "However, NVIDIA faces mounting congressional scrutiny in the United States. According to Reuters reporting, which cites a letter from Representative John Moolenaar, NVIDIA provided extensive technical assistance to Chinese AI startup DeepSeek, which subsequently developed models utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. The reporting indicated that NVIDIA personnel assisted DeepSeek through optimized technical support that enabled significant efficiency gains for the Beijing-based company. This development suggests potential congressional oversight risks that could complicate NVIDIA's China strategy going forward.",
+              "issues_addressed": [
+                "e33d9cf4-e2c0-406d-9662-7cf17ad4ffd6",
+                "f772446b-1166-44d7-b104-a5ac8ffb59f1",
+                "eaf27b18-2bdd-41cf-a19e-dc54986b7de9"
+              ],
+              "changes_summary": "Fixed three major issues: (1) Corrected citation direction from 'Reuters reporting cited in a letter' to 'Reuters reporting, which cites a letter' to accurately reflect that Reuters cited Moolenaar's letter, not vice versa. (2) Removed unsupported reference to 'House Select Committee on China' since the evidence chunk does not explicitly name this committee; replaced with 'The reporting indicated'. (3) Changed 'regulatory scrutiny' to 'congressional scrutiny' to accurately reflect the evidence which specifies congressional rather than regulatory agency oversight.",
+              "revised_at": "2026-03-23T05:50:22.986759"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "649599ad-c7b9-4c97-ac31-e7ff714ef0c0",
+          "section_name": "Recent Developments",
+          "text": "On the financial front, NVIDIA scheduled its fourth-quarter and fiscal year 2026 earnings conference call for February 25, 2026, with the fiscal year ending January 25, 2026 [679c2f95-b7a5-4235-b904-6b3b22ea121c]. Based on available calculation data, Q4 FY2026 revenue reached $68.127 billion with a net margin of 63.06% [0e671c19-4b44-47a7-9234-5d3634f7be27, 01915efa-aaa7-42eb-b9e2-9b56d3881324]. The stock has demonstrated strong performance with a 1-year price return of 48.48%, significantly outperforming the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427].",
+          "citations": [
+            {
+              "citation_id": "b7993c97-cf73-44d2-a7d2-3da4eb14a5b0",
+              "chunk_id": "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T22:00:00Z | Yahoo\nTitle: NVIDIA Sets Conference Call for Fourth-Quarter Financial Results\nURL: https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4\nWritten CFO Commentary to Be Provided Ahead of CallSANTA CLARA, Calif., Jan. 28, 2026 (GLOB",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "e7d5a917-73ab-4820-8e31-2f92086480e6",
+              "chunk_id": "163132e4-10ea-41bc-9202-e5eb0356c9f3",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T20:00:00Z | Yahoo\nTitle: Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026\nURL: https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb\nNVIDIA stands out in 2026 as a top profitable semiconductor pick, boasting a 53% net inco",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+            "163132e4-10ea-41bc-9202-e5eb0356c9f3"
+          ],
+          "calc_ids": [
+            "0e671c19-4b44-47a7-9234-5d3634f7be27",
+            "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+            "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+            "4e7134c1-290f-4b49-bb42-eed50a873427"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "0d5f02ce-577e-4a87-adac-5e7ff008eeb4",
+              "paragraph_id": "649599ad-c7b9-4c97-ac31-e7ff714ef0c0",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T05:15:51.014838",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "627707be-184a-41ea-840d-4e0e31d0bf58",
+          "section_name": "Recent Developments",
+          "text": "In competitive dynamics, market reports in late January 2026 indicated that NVIDIA and Apple were considering using Intel's foundry services for future chip production, which drove Intel shares up 10.2% in afternoon trading [915307c0-c1d2-4232-a603-3de1f933fa52, d221dbaa-f872-4882-943c-5d5c765f3698]. While these reports remain unconfirmed, they suggest potential supply chain diversification strategies. Meanwhile, NVIDIA's AI infrastructure ecosystem partners, including Arista Networks and CoreWeave, have experienced notable rallies as investors rotate back into AI infrastructure plays [bd2be37c-114a-47ed-9c6a-8570ade66726]. Industry commentary continues to position NVIDIA as a top play in the booming AI infrastructure market, with the company boasting a 53% net income ratio that attracts investors favoring strong profitability [8ea6204c-b60c-43ed-b244-62338e311dd0, 163132e4-10ea-41bc-9202-e5eb0356c9f3].",
+          "citations": [
+            {
+              "citation_id": "4d918798-cb7f-41f6-90bf-38ba9c388d4d",
+              "chunk_id": "915307c0-c1d2-4232-a603-3de1f933fa52",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "8119f943-20b9-4130-bd14-20c0f3c61846",
+              "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "2d66b006-0634-4f37-b4dd-f3a68efcccdd",
+              "chunk_id": "bd2be37c-114a-47ed-9c6a-8570ade66726",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:05:00Z | Yahoo\nTitle: These AI Cloud Stocks Are Starting to Soar Again Thanks to Nvidia: ANET, CRWV\nURL: https://finnhub.io/api/news?id=d45f77e523ab7a8c7045dbb18d7d4a6f77549f9366a71ff4e46c8600dd763356\nArista Networks (ANET) and CoreWeave (CRWV) stock have been on a tremendous ra",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "e4d19df7-f079-47d9-a559-c4bd5d7ea15d",
+              "chunk_id": "8ea6204c-b60c-43ed-b244-62338e311dd0",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:23:00Z | Yahoo\nTitle: 1 Reason Nvidia Stock Could Surge in 2026\nURL: https://finnhub.io/api/news?id=67eb7d7038de9cbe6670b0bd075f9acef65602d433162d1ea21c25acb89fdbcd\nThe chipmaker remains a top play in the booming AI infrastructure market.",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "22cb1eac-9352-47aa-a102-cbab304d1aa9",
+              "chunk_id": "163132e4-10ea-41bc-9202-e5eb0356c9f3",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T20:00:00Z | Yahoo\nTitle: Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026\nURL: https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb\nNVIDIA stands out in 2026 as a top profitable semiconductor pick, boasting a 53% net inco",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "915307c0-c1d2-4232-a603-3de1f933fa52",
+            "d221dbaa-f872-4882-943c-5d5c765f3698",
+            "bd2be37c-114a-47ed-9c6a-8570ade66726",
+            "8ea6204c-b60c-43ed-b244-62338e311dd0",
+            "163132e4-10ea-41bc-9202-e5eb0356c9f3"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "7276f31c-f89f-406f-84ff-e3598c73ebc3",
+              "paragraph_id": "627707be-184a-41ea-840d-4e0e31d0bf58",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T05:16:25.212210",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "07d931f4-fda1-42eb-9ec0-185b9e08cb6b",
+      "section_name": "Financial Analysis",
+      "section_order": 3,
+      "paragraphs": [
+        {
+          "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+          "section_name": "Financial Analysis",
+          "text": "NVIDIA demonstrated robust revenue expansion throughout fiscal 2026, with quarterly revenue progressing from $44,062,000,000 in Q1 to $68,127,000,000 in Q4 2026 [0f02741a-d0ea-4bca-99a1-43ba2bf309de][8673c861-f8b6-4f0f-8801-373630314eeb]. Year-over-year growth rates accelerated from 6.08% in Q2 to 21.96% in Q3, before moderating slightly to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. This sequential growth trajectory indicates sustained demand momentum across the company's product portfolio.",
+          "citations": [
+            {
+              "citation_id": "a19e9c47-0ba3-4e11-9588-a834780a50a1",
+              "chunk_id": "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Revenue for Q1: $44,062,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "2dd3e92e-b00f-4284-8ce3-de666eb94b30",
+              "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Revenue for Q4: $68,127,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+            "8673c861-f8b6-4f0f-8801-373630314eeb"
+          ],
+          "calc_ids": [
+            "0e671c19-4b44-47a7-9234-5d3634f7be27"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "71390143-37eb-4476-8301-0e9fab10caa6",
+              "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "6871f37c-083d-4248-932d-867543dc9d84",
+                  "issue_type": "internal_inconsistency",
+                  "severity": "critical",
+                  "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+                  "offending_span": "fiscal 2025",
+                  "explanation": "The paragraph states 'fiscal 2025' but references 'Q4 2026' and the verified facts confirm the fiscal year ends January 25, 2026 (fiscal 2026). This is a direct contradiction with the previously verified facts about NVIDIA's fiscal year 2026.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Change 'fiscal 2025' to 'fiscal 2026' to align with the verified company information and the Q4 2026 reference in the same sentence."
+                },
+                {
+                  "issue_id": "05539830-f0c6-421b-b3c1-ff968f7d7c9e",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+                  "offending_span": "particularly in data center and AI-related segments",
+                  "explanation": "The cited chunks (0f02741a-d0ea-4bca-99a1-43ba2bf309de and 8673c861-f8b6-4f0f-8801-373630314eeb) only contain overall revenue figures. There is no segment-level breakdown or mention of data center/AI performance in the cited evidence to support this specific claim.",
+                  "relevant_chunk_ids": [
+                    "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+                    "8673c861-f8b6-4f0f-8801-373630314eeb"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the segment-specific claim or cite additional evidence chunks that contain segment-level revenue data for data center and AI products."
+                }
+              ],
+              "checked_at": "2026-03-23T05:16:50.983838",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "eef1f55f-014f-4dd5-aeba-9b6719be9514",
+              "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:51:26.432972",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "5f703181-33ca-4f49-8eb5-baf0eddb9b3b",
+              "paragraph_id": "817a3b9e-b034-40ac-8ede-207eb0f256b6",
+              "iteration": 1,
+              "original_text": "NVIDIA demonstrated robust revenue expansion throughout fiscal 2025, with quarterly revenue progressing from $44,062,000,000 in Q1 to $68,127,000,000 in Q4 2026 [0f02741a-d0ea-4bca-99a1-43ba2bf309de][8673c861-f8b6-4f0f-8801-373630314eeb]. Year-over-year growth rates accelerated from 6.08% in Q2 to 21.96% in Q3, before moderating slightly to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. This sequential growth trajectory indicates sustained demand momentum across the company's product portfolio, particularly in data center and AI-related segments.",
+              "revised_text": "NVIDIA demonstrated robust revenue expansion throughout fiscal 2026, with quarterly revenue progressing from $44,062,000,000 in Q1 to $68,127,000,000 in Q4 2026 [0f02741a-d0ea-4bca-99a1-43ba2bf309de][8673c861-f8b6-4f0f-8801-373630314eeb]. Year-over-year growth rates accelerated from 6.08% in Q2 to 21.96% in Q3, before moderating slightly to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. This sequential growth trajectory indicates sustained demand momentum across the company's product portfolio.",
+              "issues_addressed": [
+                "6871f37c-083d-4248-932d-867543dc9d84",
+                "05539830-f0c6-421b-b3c1-ff968f7d7c9e"
+              ],
+              "changes_summary": "Fixed two issues: (1) Changed 'fiscal 2025' to 'fiscal 2026' to resolve internal inconsistency with Q4 2026 reference and verified fiscal year end date; (2) Removed unsupported claim about 'data center and AI-related segments' as the cited revenue chunks contain only overall figures without segment-level breakdown. All remaining factual claims retain proper citations.",
+              "revised_at": "2026-03-23T05:50:42.295692"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "20a77ae2-2d80-490f-8e17-7168859376cf",
+          "section_name": "Financial Analysis",
+          "text": "Profitability metrics reached exceptional levels in Q4 2026, with gross margin at 75.00%, operating margin at 65.02%, and net margin at 63.06% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2][7f7d2b84-616e-4a4c-ac53-882e55fed295][01915efa-aaa7-42eb-b9e2-9b56d3881324]. These margins reflect NVIDIA's pricing power and operational efficiency in the AI chip market. Gross profit totaled $51,093,000,000 while operating income reached $44,299,000,000 for the quarter [9e098a69-50b0-4f72-94df-f7f89d77665f][e9879c6d-3dc3-4ab3-965e-49e1fc30114d].",
+          "citations": [
+            {
+              "citation_id": "986e216e-79be-4e63-8b3a-ca3d5d0ac250",
+              "chunk_id": "9e098a69-50b0-4f72-94df-f7f89d77665f",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Gross Profit for Q4: $51,093,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "2743cb14-f7c7-46d2-b7ca-13747ddc4f82",
+              "chunk_id": "e9879c6d-3dc3-4ab3-965e-49e1fc30114d",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Operating Income for Q4: $44,299,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "9e098a69-50b0-4f72-94df-f7f89d77665f",
+            "e9879c6d-3dc3-4ab3-965e-49e1fc30114d"
+          ],
+          "calc_ids": [
+            "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+            "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+            "01915efa-aaa7-42eb-b9e2-9b56d3881324"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "fbdaea93-1b43-4e25-840f-277fbb85d750",
+              "paragraph_id": "20a77ae2-2d80-490f-8e17-7168859376cf",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T05:17:22.323704",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+          "section_name": "Financial Analysis",
+          "text": "Gross profit for Q4 2026 stood at $51,093,000,000, translating to a gross margin of 75.00% [9e098a69-50b0-4f72-94df-f7f89d77665f][34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Operating income was $44,299,000,000, yielding an operating margin of 65.02% [e9879c6d-3dc3-4ab3-965e-49e1fc30114d][7f7d2b84-616e-4a4c-ac53-882e55fed295]. Free cash flow margin reached 51.23% for the quarter, indicating strong cash conversion quality [4919779e-20bb-413b-9fe6-e611a6e0baea]. This high FCF margin suggests the company generates substantial cash relative to revenue, supporting capital allocation flexibility for shareholders and strategic investments.",
+          "citations": [
+            {
+              "citation_id": "c2deaa5f-ab52-46e1-a190-5f8c4dbc4465",
+              "chunk_id": "9e098a69-50b0-4f72-94df-f7f89d77665f",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Gross Profit for Q4: $51,093,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "82ac2f61-63c6-4bab-8cdb-3343a83cde32",
+              "chunk_id": "e9879c6d-3dc3-4ab3-965e-49e1fc30114d",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Operating Income for Q4: $44,299,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "9e098a69-50b0-4f72-94df-f7f89d77665f",
+            "e9879c6d-3dc3-4ab3-965e-49e1fc30114d"
+          ],
+          "calc_ids": [
+            "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+            "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+            "4919779e-20bb-413b-9fe6-e611a6e0baea"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "af04d9ac-5eaa-49ee-8282-e83352623f52",
+              "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "35f68b7a-7d57-418e-86a6-b5bb221a25cf",
+                  "issue_type": "internal_inconsistency",
+                  "severity": "critical",
+                  "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+                  "offending_span": "EBITDA margin of 75.28%",
+                  "explanation": "The claimed EBITDA margin (75.28%) contradicts the Previously Verified Facts which state Gross Margin was 75.00% and Operating Margin was 65.02% for Q4 2026. Mathematically, EBITDA Margin cannot exceed Gross Margin (as EBITDA = Gross Profit - Non-D&A Operating Expenses). Additionally, the implied Depreciation & Amortization (10.26% of revenue, derived from EBITDA - Operating Margin) exceeds the Total Operating Expenses (9.98% of revenue, derived from Gross Margin - Operating Margin), which is impossible as D&A is a component of Operating Expenses.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "be596dad-ea77-43d3-ac22-0b5f55d06a2e"
+                  ],
+                  "recommended_fix": "Reconcile the EBITDA margin figure with the verified Gross and Operating margins. Ensure EBITDA Margin is lower than Gross Margin and that implied D&A does not exceed Total Operating Expenses. Verify the source data for EBITDA or the verified margins for accuracy."
+                }
+              ],
+              "checked_at": "2026-03-23T05:30:23.780610",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "63cf3a4b-c338-4437-99df-6c8ac7e5f7d6",
+              "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:51:52.699447",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "38b270f7-0e9c-40f9-9599-f48462440720",
+              "paragraph_id": "727d305f-8e38-4bb6-ba24-f97c96b68f15",
+              "iteration": 1,
+              "original_text": "EBITDA for Q4 2026 stood at $51,283,000,000, translating to an EBITDA margin of 75.28% [0bb38bcc-0b49-4e55-a1c5-eb790c883a09][be596dad-ea77-43d3-ac22-0b5f55d06a2e]. Free cash flow margin reached 51.23% for the quarter, indicating strong cash conversion quality [4919779e-20bb-413b-9fe6-e611a6e0baea]. This high FCF margin suggests the company generates substantial cash relative to revenue, supporting capital allocation flexibility for shareholders and strategic investments.",
+              "revised_text": "Gross profit for Q4 2026 stood at $51,093,000,000, translating to a gross margin of 75.00% [9e098a69-50b0-4f72-94df-f7f89d77665f][34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Operating income was $44,299,000,000, yielding an operating margin of 65.02% [e9879c6d-3dc3-4ab3-965e-49e1fc30114d][7f7d2b84-616e-4a4c-ac53-882e55fed295]. Free cash flow margin reached 51.23% for the quarter, indicating strong cash conversion quality [4919779e-20bb-413b-9fe6-e611a6e0baea]. This high FCF margin suggests the company generates substantial cash relative to revenue, supporting capital allocation flexibility for shareholders and strategic investments.",
+              "issues_addressed": [
+                "35f68b7a-7d57-418e-86a6-b5bb221a25cf"
+              ],
+              "changes_summary": "Removed the inconsistent EBITDA margin claim (75.28%) which exceeded the verified Gross Margin (75.00%), violating financial logic. Replaced with verified Gross Profit/Margin and Operating Income/Margin figures supported by specific income statement chunks and calculation IDs. Retained the FCF margin claim as it was not flagged by the checker. Updated citations to match the new data points.",
+              "revised_at": "2026-03-23T05:53:08.070262"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "33b61b73-ba3a-4d12-853f-9615ccdbd79a",
+          "section_name": "Financial Analysis",
+          "text": "The balance sheet reflects a conservative capital structure with strong liquidity positioning. As of Q4 2026, the current ratio stood at 3.91, indicating ample short-term liquidity coverage [fc6898e7-0436-452a-b590-9dcb2bcb2d1d]. Total debt was $11,412,000,000 against stockholders' equity of $157,293,000,000, yielding a debt-to-equity ratio of 0.07 [4bc124d0-55c5-43b2-8ab4-271e8fceebfa][e377f583-1e0e-4775-a1f9-d8e3eb7738e7][329a2749-65f3-4d5f-b78e-9d344e984ed5]. Net debt was minimal at $807,000,000, suggesting the company maintains a nearly net-cash position [36dc1d31-f0f0-44e7-b628-679358946106].",
+          "citations": [
+            {
+              "citation_id": "f9c7c523-ff87-4b2c-a9bc-466d06b9037c",
+              "chunk_id": "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Total Debt for Q4: $11,412,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "36c92d3c-946b-4142-aa7e-89d572b641e3",
+              "chunk_id": "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+            "e377f583-1e0e-4775-a1f9-d8e3eb7738e7"
+          ],
+          "calc_ids": [
+            "fc6898e7-0436-452a-b590-9dcb2bcb2d1d",
+            "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+            "36dc1d31-f0f0-44e7-b628-679358946106"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "2850fb93-6c9a-4e2e-b832-be2086c4e296",
+              "paragraph_id": "33b61b73-ba3a-4d12-853f-9615ccdbd79a",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T05:31:15.820192",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "308f4db6-00c0-411c-ba6b-246fa4c73ac1",
+          "section_name": "Financial Analysis",
+          "text": "R&D investment intensity remained elevated at 8.09% of revenue in Q4 2026, with R&D expenses totaling $5,512,000,000 [1562353d-db39-4a2f-b994-c550365403ac][7d0701ad-9c93-41dc-a668-c80da89edf75]. This level of R&D spending relative to revenue indicates NVIDIA's continued commitment to maintaining technological leadership in AI chips and data center solutions. The absolute R&D spend increased from $3,989,000,000 in Q1 to $5,512,000,000 in Q4, reflecting scaled investment alongside revenue growth [e937267f-ef09-459a-b5a9-972db6375197][1562353d-db39-4a2f-b994-c550365403ac].",
+          "citations": [
+            {
+              "citation_id": "93dec432-aff2-4858-a34c-ba87468e0879",
+              "chunk_id": "1562353d-db39-4a2f-b994-c550365403ac",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA R&D Expenses for Q4: $5,512,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "0dd837b0-5995-452e-bf77-9ff0d429a7e5",
+              "chunk_id": "e937267f-ef09-459a-b5a9-972db6375197",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA R&D Expenses for Q1: $3,989,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "1562353d-db39-4a2f-b994-c550365403ac",
+            "e937267f-ef09-459a-b5a9-972db6375197"
+          ],
+          "calc_ids": [
+            "7d0701ad-9c93-41dc-a668-c80da89edf75"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "9ac1a7f9-28d9-4367-8ba1-ea6b64f3421d",
+              "paragraph_id": "308f4db6-00c0-411c-ba6b-246fa4c73ac1",
+              "status": "pass",
+              "issues": [
+                {
+                  "issue_id": "bcf31a9d-eefa-43d3-a978-f57b35ded477",
+                  "issue_type": "citation_mismatch",
+                  "severity": "minor",
+                  "paragraph_id": "308f4db6-00c0-411c-ba6b-246fa4c73ac1",
+                  "offending_span": "reflecting scaled investment alongside revenue growth",
+                  "explanation": "The paragraph claims R&D spending increased 'alongside revenue growth,' but the cited chunks (1562353d-db39-4a2f-b994-c550365403ac and e937267f-ef09-459a-b5a9-972db6375197) only contain R&D expense figures for Q4 and Q1 respectively. No revenue data is provided in the cited chunks to substantiate the revenue growth claim. While the calculation result shows Q4 revenue of $68,127,000,000, Q1 revenue is not cited to confirm growth occurred.",
+                  "relevant_chunk_ids": [
+                    "1562353d-db39-4a2f-b994-c550365403ac",
+                    "e937267f-ef09-459a-b5a9-972db6375197"
+                  ],
+                  "relevant_calc_ids": [
+                    "7d0701ad-9c93-41dc-a668-c80da89edf75"
+                  ],
+                  "recommended_fix": "Either cite additional chunks containing Q1 revenue data to support the revenue growth claim, or rephrase to state 'reflecting scaled investment' without referencing revenue growth, or add a citation to revenue data if available in other chunks."
+                }
+              ],
+              "checked_at": "2026-03-23T05:31:49.452482",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "a4cbbe4e-2fdb-4f2c-b93d-83c76a4cc176",
+      "section_name": "Business & Competitive Analysis",
+      "section_order": 4,
+      "paragraphs": [
+        {
+          "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+          "section_name": "Business & Competitive Analysis",
+          "text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, Quadro/NVIDIA RTX GPUs for enterprise workstation graphics, vGPU software for cloud-based visual and virtual computing, automotive platforms for infotainment systems, and Omniverse software. NVIDIA employs approximately 36,000 full-time employees and is based in the United States.",
+          "citations": [
+            {
+              "citation_id": "920b3334-3089-4781-923d-de2efc9ea9f7",
+              "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "0b7835e4-3478-4ef9-aa57-d396004763bf",
+              "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cd7d7972-79b5-433f-b378-e23ffc087d85",
+            "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "4c52cc62-6e45-49a7-96b0-07fbe7d1b64b",
+              "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "7727b284-3926-462e-a054-18663d213f65",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+                  "offending_span": "The Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing, Mellanox networking solutions, automotive AI Cockpit, and NVIDIA AI Enterprise software.",
+                  "explanation": "The cited chunk cd7d7972-79b5-433f-b378-e23ffc087d85 truncates at 'Data Center platf' and does not contain the specific details regarding Mellanox, automotive AI Cockpit, or NVIDIA AI Enterprise software. The other cited chunk does not contain this information either.",
+                  "relevant_chunk_ids": [
+                    "cd7d7972-79b5-433f-b378-e23ffc087d85",
+                    "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the specific product details that are not present in the cited evidence, or locate and cite a chunk that contains the full description of the Compute & Networking segment offerings."
+                },
+                {
+                  "issue_id": "cd857cde-8161-4b05-a5d9-d4a8f14d97b8",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+                  "offending_span": "The company sells to OEMs, ODMs, system builders, cloud service providers, automotive manufacturers, and other ecosystem participants",
+                  "explanation": "Neither of the cited chunks contains information about the specific types of customers (OEMs, ODMs, system builders, etc.). Chunk cd7d7972-79b5-433f-b378-e23ffc087d85 only mentions geographic regions.",
+                  "relevant_chunk_ids": [
+                    "cd7d7972-79b5-433f-b378-e23ffc087d85",
+                    "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the specific customer list or provide a citation that explicitly supports these customer categories."
+                },
+                {
+                  "issue_id": "ac5b08c7-e911-491f-88c0-d7c8fa46858d",
+                  "issue_type": "unsupported_claim",
+                  "severity": "minor",
+                  "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+                  "offending_span": "headquartered in Santa Clara, California.",
+                  "explanation": "Chunk 0571a4ea-26e6-49fc-b4d5-1f2654462e02 only specifies 'Country: US' and does not mention the specific city or state of the headquarters.",
+                  "relevant_chunk_ids": [
+                    "0571a4ea-26e6-49fc-b4d5-1f2654462e02"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Remove the city/state detail or cite a source that explicitly states the headquarters location."
+                }
+              ],
+              "checked_at": "2026-03-23T05:33:26.169150",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "2291f9e6-e5f0-4ce3-807f-bfac09288b89",
+              "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:52:10.823271",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "4d25a357-7aaf-4931-b8f7-52e95011dcd3",
+              "paragraph_id": "0cbddd76-c65c-425a-8176-b50eebbfe988",
+              "iteration": 1,
+              "original_text": "NVIDIA Corporation operates through two primary segments: Graphics and Compute & Networking. The Graphics segment offers GeForce GPUs for gaming and PCs, GeForce NOW game streaming service, Quadro/NVIDIA RTX GPUs for enterprise workstations, and Omniverse software for 3D designs and virtual worlds. The Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing, Mellanox networking solutions, automotive AI Cockpit, and NVIDIA AI Enterprise software. The company sells to OEMs, ODMs, system builders, cloud service providers, automotive manufacturers, and other ecosystem participants across the United States, Taiwan, China, and internationally. NVIDIA employs approximately 36,000 full-time employees and is headquartered in Santa Clara, California.",
+              "revised_text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, Quadro/NVIDIA RTX GPUs for enterprise workstation graphics, vGPU software for cloud-based visual and virtual computing, automotive platforms for infotainment systems, and Omniverse software. NVIDIA employs approximately 36,000 full-time employees and is based in the United States.",
+              "issues_addressed": [
+                "7727b284-3926-462e-a054-18663d213f65",
+                "cd857cde-8161-4b05-a5d9-d4a8f14d97b8"
+              ],
+              "changes_summary": "Removed unsupported Compute & Networking segment product details (Mellanox, automotive AI Cockpit, NVIDIA AI Enterprise software) as cited chunks do not contain this information per Issue 1. Removed unsupported customer type list (OEMs, ODMs, system builders, cloud service providers, automotive manufacturers) as no evidence supports these specific categories per Issue 2. Changed headquarters location from 'Santa Clara, California' to 'United States' based on available evidence (Country: US in chunk 0571a4ea). Retained supported Graphics segment offerings, geographic presence, and employee count with proper citations.",
+              "revised_at": "2026-03-23T05:54:24.331116"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+          "section_name": "Business & Competitive Analysis",
+          "text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27] and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+          "citations": [
+            {
+              "citation_id": "7d28552d-d437-4b57-8e27-c5014b0e6ee1",
+              "chunk_id": "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – NVDA | Period: Q4 | Date: 2026-01-25\n  Revenue:            $68,127,000,000\n  Gross Profit:       $51,093,000,000 (margin N/A)\n  Operating Income:   $44,299,000,000 (margin N/A)\n  Net Income:         $42,960,000,000 (margin N/A)\n  EBITDA:             $51,283,000,000\n  EPS:         ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "db68e3f3-b4e9-49cf-86fe-9602627ec55b"
+          ],
+          "calc_ids": [
+            "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+            "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+            "0e671c19-4b44-47a7-9234-5d3634f7be27"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "60909ed1-2ded-4cea-a6da-1d12f1a0b139",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "2b7b28c6-ee42-4bfc-839e-e8b392f97e13",
+                  "issue_type": "numerical_error",
+                  "severity": "major",
+                  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+                  "offending_span": "Revenue growth accelerated through the fiscal year, with Q4 revenue reaching $68.13 billion representing 19.51% YoY growth, while Q3 showed 21.96% YoY growth.",
+                  "explanation": "The claim that revenue growth 'accelerated through the fiscal year' is contradicted by the cited calculation data. Q3 YoY growth (21.96%) was higher than Q4 YoY growth (19.51%), indicating deceleration from Q3 to Q4, not continuous acceleration through the fiscal year. While growth did accelerate from Q2 (6.08%) to Q3 (21.96%), the statement implies sustained acceleration which is not supported by the data.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+                  ],
+                  "recommended_fix": "Revise to accurately reflect the growth pattern, e.g., 'Revenue growth increased significantly from Q2 to Q3, with Q3 showing 21.96% YoY growth and Q4 at 19.51% YoY growth' or 'Revenue growth remained elevated in the second half of the fiscal year'"
+                },
+                {
+                  "issue_id": "cf6edded-b44e-4e7d-9967-b9f395c38be4",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+                  "offending_span": "This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+                  "explanation": "While the cited chunks support strong demand (chunk 342037b2 mentions 'rising demand'), the claim about 'pricing power' is an inference not directly evidenced in the cited chunks. High margins could result from various factors beyond pricing power (e.g., cost efficiencies, product mix).",
+                  "relevant_chunk_ids": [
+                    "342037b2-6223-4ad2-81a9-50ce56a4454f"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Qualify the pricing power claim or remove it, e.g., 'This financial performance suggests strong demand for NVIDIA's AI accelerator products' or 'This financial performance, combined with high margins, may indicate strong pricing power'"
+                }
+              ],
+              "checked_at": "2026-03-23T05:34:20.220391",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "b882114a-0fe4-4a64-950a-526b65e0460b",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "f796dc91-99d7-499e-ac7b-11c27ef68a77",
+                  "issue_type": "unsupported_claim",
+                  "severity": "major",
+                  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+                  "offending_span": "NVIDIA maintains a dominant competitive position in the AI infrastructure market.",
+                  "explanation": "This is a factual claim about competitive positioning that is not supported by the cited evidence chunks. The cited chunks (db68e3f3-b4e9-49cf-86fe-9602627ec55b and 8673c861-f8b6-4f0f-8801-373630314eeb) contain only income statement data and do not provide evidence about NVIDIA's competitive position in the AI infrastructure market.",
+                  "relevant_chunk_ids": [
+                    "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+                    "8673c861-f8b6-4f0f-8801-373630314eeb"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either cite additional chunks that contain market share data or competitive analysis, or rephrase as interpretive analysis clearly distinguished from factual claims (e.g., 'NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market')."
+                },
+                {
+                  "issue_id": "fc96a7e7-3613-473d-9991-ed7a1b854695",
+                  "issue_type": "overclaiming",
+                  "severity": "minor",
+                  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+                  "offending_span": "This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+                  "explanation": "While high margins and revenue growth can indicate pricing power, the cited evidence chunks do not directly support claims about pricing power or demand relative to competitors. This is interpretive language that implies more certainty than the financial data alone warrants.",
+                  "relevant_chunk_ids": [
+                    "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+                    "8673c861-f8b6-4f0f-8801-373630314eeb"
+                  ],
+                  "relevant_calc_ids": [
+                    "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+                    "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+                    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+                  ],
+                  "recommended_fix": "Soften the language to reflect that this is an inference rather than a conclusion (e.g., 'This financial performance may indicate strong pricing power...' or 'The high margins are consistent with strong pricing power...')."
+                }
+              ],
+              "checked_at": "2026-03-23T06:52:44.436386",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "15013ada-6c04-4de1-9dac-dc9e595160bb",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "86b10c0a-735b-435f-b2f0-8aedaff1475e",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+                  "offending_span": "with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b]",
+                  "explanation": "The citation [db68e3f3-b4e9-49cf-86fe-9602627ec55b] is placed to support both the Q3 YoY growth claim (21.96%) and the Q4 revenue claim ($68.13 billion). However, chunk db68e3f3 only contains Q4 income statement data and does not include any Q3 growth information. The Q3 21.96% YoY growth figure actually comes from calc ID 0e671c19, not from the cited chunk.",
+                  "relevant_chunk_ids": [
+                    "db68e3f3-b4e9-49cf-86fe-9602627ec55b"
+                  ],
+                  "relevant_calc_ids": [
+                    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+                  ],
+                  "recommended_fix": "Add calc ID 0e671c19-4b44-47a7-9234-5d3634f7be27 as a citation immediately after the Q3 21.96% YoY growth claim, or restructure the sentence to clearly separate the citations: 'with Q3 showing 21.96% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27] and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b]'"
+                }
+              ],
+              "checked_at": "2026-03-23T07:01:06.366026",
+              "iteration": 2
+            },
+            {
+              "verdict_id": "b21a81c5-7f2a-4aae-acd0-a35a18c7f9d5",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T07:02:54.987230",
+              "iteration": 3
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "a0b54609-c60c-4a1e-ae89-3afc402e7a00",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "iteration": 1,
+              "original_text": "NVIDIA maintains a dominant competitive position in the AI infrastructure market, with news sources identifying the chipmaker as a top play in the booming AI infrastructure buildout. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% and gross margin of 75.00%, with one analysis noting NVIDIA's 53% net income ratio as a distinguishing factor among semiconductor peers. Revenue growth accelerated through the fiscal year, with Q4 revenue reaching $68.13 billion representing 19.51% YoY growth, while Q3 showed 21.96% YoY growth. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+              "revised_text": "NVIDIA maintains a dominant competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% and gross margin of 75.00%. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion representing 19.51% YoY growth. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+              "issues_addressed": [
+                "2b7b28c6-ee42-4bfc-839e-e8b392f97e13"
+              ],
+              "changes_summary": "Fixed the revenue growth acceleration claim to accurately reflect the growth pattern (Q3 at 21.96% YoY was higher than Q4 at 19.51% YoY, indicating deceleration not acceleration). Removed the unsupported claim about 'news sources identifying the chipmaker as a top play' as no news source evidence exists. Removed the unsupported '53% net income ratio' claim as no evidence supports this figure. Added chunk citations for Q4 revenue figures. Maintained valid margin claims with proper calc_id citations.",
+              "revised_at": "2026-03-23T05:54:43.584517"
+            },
+            {
+              "revision_id": "d54f8b95-3c57-4b6b-8070-0ea017551111",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "iteration": 2,
+              "original_text": "NVIDIA maintains a dominant competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% and gross margin of 75.00%. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion representing 19.51% YoY growth. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+              "revised_text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+              "issues_addressed": [
+                "f796dc91-99d7-499e-ac7b-11c27ef68a77"
+              ],
+              "changes_summary": "Rephrased the opening claim about NVIDIA's 'dominant competitive position' to 'suggests a competitive position' to frame it as interpretive analysis rather than an unsupported factual claim, per the checker's guidance. All financial metrics (margins, revenue, growth rates) are now properly cited with their corresponding calc_ids and chunk_ids. The revenue figure of $68.13 billion is supported by chunk db68e3f3-b4e9-49cf-86fe-9602627ec55b which shows $68,127,000,000.",
+              "revised_at": "2026-03-23T06:58:37.503590"
+            },
+            {
+              "revision_id": "eba84f7e-659b-4c0a-a2d7-b9f6f8deced3",
+              "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+              "iteration": 3,
+              "original_text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+              "revised_text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27] and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+              "issues_addressed": [
+                "86b10c0a-735b-435f-b2f0-8aedaff1475e"
+              ],
+              "changes_summary": "Fixed citation mismatch by separating the Q3 YoY growth claim (21.96%) from the Q4 revenue claim ($68.13 billion). Added calc ID 0e671c19-4b44-47a7-9234-5d3634f7be27 immediately after the Q3 growth figure, and kept chunk ID db68e3f3-b4e9-49cf-86fe-9602627ec55b only for the Q4 revenue figure. The Q4 YoY growth (19.51%) also correctly cites the same calc ID. All other claims and citations remain unchanged as they were already properly supported.",
+              "revised_at": "2026-03-23T07:02:01.242975"
+            }
+          ],
+          "iteration": 3
+        },
+        {
+          "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+          "section_name": "Business & Competitive Analysis",
+          "text": "NVIDIA's stock performance demonstrates strong momentum, with a 1-year price return of 48.48% significantly outpacing the S&P 500's 15.04% return over the same period.",
+          "citations": [],
+          "chunk_ids": [],
+          "calc_ids": [
+            "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+            "4e7134c1-290f-4b49-bb42-eed50a873427"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "0e467e88-c0b7-4cd6-ad5c-6c37457ecae1",
+              "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "0e680c04-3d30-4d62-ae28-ea918e857f22",
+                  "issue_type": "unsupported_claim",
+                  "severity": "critical",
+                  "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+                  "offending_span": "1-year price return of 48.48%",
+                  "explanation": "The paragraph claims NVIDIA's 1-year price return is 48.48%, but this figure is not found in any of the cited evidence chunks. The only cited calculation (4e7134c1-290f-4b49-bb42-eed50a873427) provides the S&P 500 return of 15.04%, not NVIDIA's return. There is no source provided for the 48.48% NVIDIA figure.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either cite a specific chunk or calculation that supports the 48.48% NVIDIA return figure, or remove this specific number if it cannot be verified from available evidence."
+                }
+              ],
+              "checked_at": "2026-03-23T05:34:37.039334",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "f4be7a4c-bd50-46f7-b1c5-b6452315b6d7",
+              "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:53:18.077121",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "63cc93b6-e999-4ae4-ba73-5693a9f0ed53",
+              "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+              "iteration": 1,
+              "original_text": "Key growth drivers include continued AI infrastructure demand and geographic market expansion. In January 2026, China approved purchases of NVIDIA's H200 chip for the first time, granting authorization to several customers including Alibaba, which indicates potential revenue expansion in previously restricted markets. The broader semiconductor industry is reporting accelerating demand, with chip makers indicating willingness to invest in additional capacity. NVIDIA's stock performance reflects this momentum, with 1-year price return of 48.48% significantly outpacing the S&P 500's 15.04% return over the same period, suggesting investor confidence in the company's AI market positioning.",
+              "revised_text": "NVIDIA's stock performance demonstrates strong momentum, with a 1-year price return of 48.48% significantly outpacing the S&P 500's 15.04% return over the same period.",
+              "issues_addressed": [
+                "0e680c04-3d30-4d62-ae28-ea918e857f22"
+              ],
+              "changes_summary": "Removed unsupported claims about China H200 chip approval (January 2026), Alibaba authorization, broader semiconductor industry demand, and AI infrastructure growth drivers as no evidence chunks support these statements. Retained only the stock performance comparison which is supported by calculation IDs: e2b73cf5-3c6d-4457-8b25-515a7e8f9880 (NVDA 1y return 48.48%) and 4e7134c1-290f-4b49-bb42-eed50a873427 (SPY 1y return 15.04%). Removed interpretive language about 'investor confidence' and 'AI market positioning' as these are analytical conclusions not directly supported by evidence.",
+              "revised_at": "2026-03-23T05:55:08.069958"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Strategic initiatives and management signals present a mixed picture. The company faces scrutiny over technical assistance provided to Chinese AI startup DeepSeek, with a letter from Representative John Moolenaar revealing NVIDIA provided extensive technical assistance to the firm. CEO Jen-Hsun Huang leads the company. Evidence on specific partnerships, acquisitions, or new market entries beyond these items is limited in the available documentation.",
+          "citations": [
+            {
+              "citation_id": "bf4aa02d-0e73-4f06-9048-d6a67410ddb2",
+              "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "5cc860d0-5545-4802-bc44-14f5331f62a3",
+              "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+            "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "001590f6-8c17-4742-9dcd-27d28d3f5b45",
+              "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "efee371f-3b73-4086-b6ed-1ca8e282aa42",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+                  "offending_span": "with the House Select Committee on China revealing NVIDIA personnel assisted the firm through optimized technical support",
+                  "explanation": "The cited chunk (4f614cf7-7e8b-4918-9137-cce8663f2afd) mentions 'a letter from Representative John Moolenaar' but does not explicitly reference the 'House Select Committee on China.' Additionally, the chunk describes 'extensive technical assistance' and 'collaboration enabled significant efficiency gains,' not 'optimized technical support.' These are materially different characterizations that are not supported by the cited evidence.",
+                  "relevant_chunk_ids": [
+                    "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise to match the cited evidence: 'with a letter from Representative John Moolenaar revealing NVIDIA provided extensive technical assistance to the firm' or verify the House Select Committee on China connection from an additional source and cite it appropriately."
+                }
+              ],
+              "checked_at": "2026-03-23T05:35:30.588819",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "7b608d49-c26f-403e-a3e8-d71fc1230769",
+              "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:55:59.340941",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "0989031a-0fa6-4e16-a0da-07e291713fd3",
+              "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+              "iteration": 1,
+              "original_text": "Strategic initiatives and management signals present a mixed picture. Reports indicate NVIDIA is considering using Intel's foundry services for future chip production, which could represent a diversification of manufacturing partnerships. However, the company faces congressional scrutiny over technical assistance provided to Chinese AI startup DeepSeek, with the House Select Committee on China revealing NVIDIA personnel assisted the firm through optimized technical support. CEO Jen-Hsun Huang leads the company, which scheduled its Q4 FY2026 earnings call for February 25, 2026. Evidence on specific partnerships, acquisitions, or new market entries beyond these items is limited in the available documentation.",
+              "revised_text": "Strategic initiatives and management signals present a mixed picture. The company faces scrutiny over technical assistance provided to Chinese AI startup DeepSeek, with a letter from Representative John Moolenaar revealing NVIDIA provided extensive technical assistance to the firm. CEO Jen-Hsun Huang leads the company. Evidence on specific partnerships, acquisitions, or new market entries beyond these items is limited in the available documentation.",
+              "issues_addressed": [
+                "efee371f-3b73-4086-b6ed-1ca8e282aa42"
+              ],
+              "changes_summary": "Removed unsupported claim about NVIDIA considering Intel's foundry services (no evidence in available chunks). Removed unsupported claim about Q4 FY2026 earnings call date of February 25, 2026 (no evidence in available chunks). Fixed citation mismatch on DeepSeek matter: changed 'House Select Committee on China' to 'a letter from Representative John Moolenaar' and changed 'optimized technical support' to 'extensive technical assistance' to match the cited evidence in chunk 4f614cf7-7e8b-4918-9137-cce8663f2afd. Retained CEO information supported by chunk 0571a4ea-26e6-49fc-b4d5-1f2654462e02.",
+              "revised_at": "2026-03-23T06:35:37.951991"
+            }
+          ],
+          "iteration": 1
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "860dc520-c7a5-4b47-ad10-15a078d5d1c0",
+      "section_name": "Risk Analysis",
+      "section_order": 5,
+      "paragraphs": [
+        {
+          "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+          "section_name": "Risk Analysis",
+          "text": "NVIDIA maintains a conservative financial risk profile with minimal leverage concerns. As of Q4 2026-01, the company's debt-to-equity ratio stands at 0.07, indicating low financial leverage relative to stockholders' equity of $157,293,000,000 [CHUNK_ID: e377f583-1e0e-4775-a1f9-d8e3eb7738e7, CALC_ID: 329a2749-65f3-4d5f-b78e-9d344e984ed5]. Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 [CHUNK_ID: aa5327bc-c0f8-4853-8d2a-3d41ccc9877b, CHUNK_ID: 4bc124d0-55c5-43b2-8ab4-271e8fceebfa], resulting in net debt of only $807,000,000 [CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106]. The company also holds short-term investments of $51,951,000,000 [CHUNK_ID: 67dc1f3e-2ee7-4a56-822f-bf81c5335e08]. Liquidity appears strong with a current ratio of 3.91, suggesting the company can meet short-term obligations with current assets of $125,605,000,000 against current liabilities of $32,163,000,000 [CHUNK_ID: d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5, CHUNK_ID: 00de1d29-d626-45ec-974e-bc91eede4c2c, CALC_ID: fc6898e7-0436-452a-b590-9dcb2bcb2d1d].",
+          "citations": [
+            {
+              "citation_id": "298d6666-0772-4243-b08d-bc25b9f8800a",
+              "chunk_id": "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "c832e573-cb46-4daf-bc4a-6751f6742cbd",
+              "chunk_id": "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Cash & Equivalents for Q4: $10,605,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "c39e4acd-dd5f-444c-989d-a8167144d359",
+              "chunk_id": "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Total Debt for Q4: $11,412,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "f4673d42-6b3d-4445-a085-04831d0647ac",
+              "chunk_id": "67dc1f3e-2ee7-4a56-822f-bf81c5335e08",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "Balance Sheet – NVDA | Period: Q4 | Date: 2026-01-25\n  Total Assets:              $206,803,000,000\n  Total Liabilities:         $49,510,000,000\n  Total Stockholders' Equity:$157,293,000,000\n  Cash & Equivalents:        $10,605,000,000\n  Short-Term Investments:    $51,951,000,000\n  Total Debt:       ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "6d2c5f4e-ef60-4f9d-a2b2-d7ca5761c8e7",
+              "chunk_id": "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Total Current Assets for Q4: $125,605,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "d2aca8a6-97c6-4a91-bec3-0674394079b5",
+              "chunk_id": "00de1d29-d626-45ec-974e-bc91eede4c2c",
+              "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+              "source_type": "balance_sheet",
+              "text_snippet": "NVDA Total Current Liabilities for Q4: $32,163,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+            "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+            "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+            "67dc1f3e-2ee7-4a56-822f-bf81c5335e08",
+            "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+            "00de1d29-d626-45ec-974e-bc91eede4c2c"
+          ],
+          "calc_ids": [
+            "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+            "36dc1d31-f0f0-44e7-b628-679358946106",
+            "fc6898e7-0436-452a-b590-9dcb2bcb2d1d"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "4c6cb505-bfcc-4358-93bf-92ad3ef630c2",
+              "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "c1334da1-10e1-4ce4-9079-b140f1ccb77f",
+                  "issue_type": "unsupported_claim",
+                  "severity": "critical",
+                  "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+                  "offending_span": "short-term investments of $51,951,000,000",
+                  "explanation": "The paragraph claims short-term investments of $51,951,000,000, but this figure is not found in any of the cited chunks (aa5327bc-c0f8-4853-8d2a-3d41ccc9877b or 4bc124d0-55c5-43b2-8ab4-271e8fceebfa). Chunk aa5327bc only contains cash & equivalents ($10,605,000,000), and chunk 4bc124d0 only contains total debt ($11,412,000,000). No evidence supports the short-term investments figure.",
+                  "relevant_chunk_ids": [
+                    "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+                    "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either remove the short-term investments claim entirely, or locate and cite the correct chunk containing short-term investments data. If short-term investments should be included in net debt calculation, update the calculation accordingly."
+                },
+                {
+                  "issue_id": "cab36035-5217-40ae-8708-c613529cc711",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+                  "offending_span": "Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 plus short-term investments of $51,951,000,000, resulting in net debt of only $807,000,000",
+                  "explanation": "The cited calculation (CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106) computes net debt as total_debt (11,412,000,000) - cash (10,605,000,000) = 807,000,000. This calculation does NOT include short-term investments. The text claims net debt results from subtracting both cash AND short-term investments, but the calculation only subtracts cash. If short-term investments of $51,951,000,000 were actually included, net debt would be approximately -$51,144,000,000, not $807,000,000.",
+                  "relevant_chunk_ids": [
+                    "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+                    "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+                  ],
+                  "relevant_calc_ids": [
+                    "36dc1d31-f0f0-44e7-b628-679358946106"
+                  ],
+                  "recommended_fix": "Revise the text to accurately reflect the calculation methodology. Either: (1) Remove mention of short-term investments from the net debt explanation, stating only cash and equivalents are used; or (2) If short-term investments should be included, update the calculation to include them and report the correct net debt figure."
+                }
+              ],
+              "checked_at": "2026-03-23T05:36:15.224685",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "081b733f-1afb-4ed3-94f2-164de5313c2d",
+              "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:56:30.826508",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "b8bcd7c0-daa5-4a29-8723-aa86b2e3bf0c",
+              "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+              "iteration": 1,
+              "original_text": "NVIDIA maintains a conservative financial risk profile with minimal leverage concerns. As of Q4 2026-01, the company's debt-to-equity ratio stands at 0.07, indicating low financial leverage relative to stockholders' equity of $157,293,000,000 [CHUNK_ID: e377f583-1e0e-4775-a1f9-d8e3eb7738e7, CALC_ID: 329a2749-65f3-4d5f-b78e-9d344e984ed5]. Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 plus short-term investments of $51,951,000,000, resulting in net debt of only $807,000,000 [CHUNK_ID: aa5327bc-c0f8-4853-8d2a-3d41ccc9877b, CHUNK_ID: 4bc124d0-55c5-43b2-8ab4-271e8fceebfa, CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106]. Liquidity appears strong with a current ratio of 3.91, suggesting the company can meet short-term obligations with current assets of $125,605,000,000 against current liabilities of $32,163,000,000 [CHUNK_ID: d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5, CHUNK_ID: 00de1d29-d626-45ec-974e-bc91eede4c2c, CALC_ID: fc6898e7-0436-452a-b590-9dcb2bcb2d1d].",
+              "revised_text": "NVIDIA maintains a conservative financial risk profile with minimal leverage concerns. As of Q4 2026-01, the company's debt-to-equity ratio stands at 0.07, indicating low financial leverage relative to stockholders' equity of $157,293,000,000 [CHUNK_ID: e377f583-1e0e-4775-a1f9-d8e3eb7738e7, CALC_ID: 329a2749-65f3-4d5f-b78e-9d344e984ed5]. Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 [CHUNK_ID: aa5327bc-c0f8-4853-8d2a-3d41ccc9877b, CHUNK_ID: 4bc124d0-55c5-43b2-8ab4-271e8fceebfa], resulting in net debt of only $807,000,000 [CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106]. The company also holds short-term investments of $51,951,000,000 [CHUNK_ID: 67dc1f3e-2ee7-4a56-822f-bf81c5335e08]. Liquidity appears strong with a current ratio of 3.91, suggesting the company can meet short-term obligations with current assets of $125,605,000,000 against current liabilities of $32,163,000,000 [CHUNK_ID: d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5, CHUNK_ID: 00de1d29-d626-45ec-974e-bc91eede4c2c, CALC_ID: fc6898e7-0436-452a-b590-9dcb2bcb2d1d].",
+              "issues_addressed": [
+                "c1334da1-10e1-4ce4-9079-b140f1ccb77f",
+                "cab36035-5217-40ae-8708-c613529cc711"
+              ],
+              "changes_summary": "Fixed two issues: (1) Added chunk 67dc1f3e-2ee7-4a56-822f-bf81c5335e08 to properly cite the short-term investments figure of $51,951,000,000, which was previously unsupported. (2) Revised the net debt explanation to clarify that the calculation uses only cash and equivalents ($10,605,000,000), not short-term investments, accurately reflecting the cited calculation (CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106) which computes net debt as total debt minus cash only. Separated the short-term investments mention into its own sentence to avoid implying it was used in the net debt calculation.",
+              "revised_at": "2026-03-23T06:46:10.020307"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "041bfae5-23df-49a3-b878-95479582b5ab",
+          "section_name": "Risk Analysis",
+          "text": "Revenue growth sustainability represents a key consideration given the company's exceptional recent performance. Q4 2026-01 revenue reached $68,127,000,000, representing 19.51% year-over-year growth, following 21.96% growth in Q3 and 6.08% in Q2 [CHUNK_ID: 8673c861-f8b6-4f0f-8801-373630314eeb, CALC_ID: 0e671c19-4b44-47a7-9234-5d3634f7be27]. Net income growth showed similar patterns at 34.63% in Q4, following 20.77% in Q3 and 40.73% in Q2 [CALC_ID: 525afef8-3424-4069-a604-dd87b2bc8dfb]. The high gross margin of 75.00% and operating margin of 65.02% in Q4 suggest pricing power, but also indicate potential vulnerability to margin compression if competitive dynamics intensify or input costs rise [CALC_ID: 34f47a7f-d779-42fc-a306-dfd0f9e6fdd2, CALC_ID: 7f7d2b84-616e-4a4c-ac53-882e55fed295].",
+          "citations": [
+            {
+              "citation_id": "4c330e06-442c-474b-8e38-4308e0303ff2",
+              "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Revenue for Q4: $68,127,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "8673c861-f8b6-4f0f-8801-373630314eeb"
+          ],
+          "calc_ids": [
+            "0e671c19-4b44-47a7-9234-5d3634f7be27",
+            "525afef8-3424-4069-a604-dd87b2bc8dfb",
+            "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+            "7f7d2b84-616e-4a4c-ac53-882e55fed295"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "78dec6a4-8c46-44e3-977b-0646ab4c5995",
+              "paragraph_id": "041bfae5-23df-49a3-b878-95479582b5ab",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T05:36:34.513782",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+          "section_name": "Risk Analysis",
+          "text": "Operational and technology risks stem from the company's concentrated business model focused on graphics, compute, and networking solutions. According to the company description, NVIDIA provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally, with multiple product segments including GPUs for gaming, enterprise workstation graphics, and automotive platforms [CHUNK_ID: cd7d7972-79b5-433f-b378-e23ffc087d85]. The company employs 36,000 full-time employees and incurred R&D expenses of $5,512,000,000 in Q4 (8.09% of revenue), suggesting ongoing need to maintain technological leadership through substantial investment [CHUNK_ID: 0571a4ea-26e6-49fc-b4d5-1f2654462e02, CHUNK_ID: 1562353d-db39-4a2f-b994-c550365403ac, CALC_ID: 7d0701ad-9c93-41dc-a668-c80da89edf75]. Platform shifts or obsolescence in chip architecture could materially impact the business given this technology-focused product portfolio.",
+          "citations": [
+            {
+              "citation_id": "7a97eeac-0564-4b55-9759-665c6f0018fa",
+              "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "b5ac6b39-61c7-4b9f-8bec-c3ef1f47b548",
+              "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "252c1b1d-c7c1-4957-9cb4-6efe3410d3b4",
+              "chunk_id": "1562353d-db39-4a2f-b994-c550365403ac",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA R&D Expenses for Q4: $5,512,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cd7d7972-79b5-433f-b378-e23ffc087d85",
+            "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+            "1562353d-db39-4a2f-b994-c550365403ac"
+          ],
+          "calc_ids": [
+            "7d0701ad-9c93-41dc-a668-c80da89edf75"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "01c3c469-6e36-4a48-8d63-d84b1b79fdca",
+              "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "4e5d3562-0f2f-42df-a746-a080bae8d194",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+                  "offending_span": "NVIDIA's Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing",
+                  "explanation": "The cited chunk (cd7d7972-79b5-433f-b378-e23ffc087d85) is truncated and only shows 'Data Center platf' without the specific mention of 'AI, HPC, and accelerated computing'. The claim about what the segment provides cannot be fully verified from the visible evidence in the cited chunk.",
+                  "relevant_chunk_ids": [
+                    "cd7d7972-79b5-433f-b378-e23ffc087d85"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either cite a complete chunk that contains the full description of the Compute & Networking segment's offerings including AI, HPC, and accelerated computing capabilities, or rephrase the claim to only include information visible in the cited evidence (e.g., 'provides Data Center platforms')"
+                }
+              ],
+              "checked_at": "2026-03-23T05:37:11.942722",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "4becc278-31b2-4be9-9fbe-3e54ef90f197",
+              "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T06:56:58.135983",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "7913449b-4f3b-4eb8-b091-ef7d62522ebe",
+              "paragraph_id": "5df8e7e9-18f6-4be2-b163-1fa4d3520c54",
+              "iteration": 1,
+              "original_text": "Operational and technology risks stem from the company's concentrated business model focused on AI and data center solutions. According to the company description, NVIDIA's Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing, indicating significant dependence on continued AI infrastructure demand [CHUNK_ID: cd7d7972-79b5-433f-b378-e23ffc087d85]. The company employs 36,000 full-time employees and incurred R&D expenses of $5,512,000,000 in Q4 (8.09% of revenue), suggesting ongoing need to maintain technological leadership through substantial investment [CHUNK_ID: 0571a4ea-26e6-49fc-b4d5-1f2654462e02, CHUNK_ID: 1562353d-db39-4a2f-b994-c550365403ac, CALC_ID: 7d0701ad-9c93-41dc-a668-c80da89edf75]. Platform shifts or obsolescence in AI chip architecture could materially impact the business given this focused product portfolio.",
+              "revised_text": "Operational and technology risks stem from the company's concentrated business model focused on graphics, compute, and networking solutions. According to the company description, NVIDIA provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally, with multiple product segments including GPUs for gaming, enterprise workstation graphics, and automotive platforms [CHUNK_ID: cd7d7972-79b5-433f-b378-e23ffc087d85]. The company employs 36,000 full-time employees and incurred R&D expenses of $5,512,000,000 in Q4 (8.09% of revenue), suggesting ongoing need to maintain technological leadership through substantial investment [CHUNK_ID: 0571a4ea-26e6-49fc-b4d5-1f2654462e02, CHUNK_ID: 1562353d-db39-4a2f-b994-c550365403ac, CALC_ID: 7d0701ad-9c93-41dc-a668-c80da89edf75]. Platform shifts or obsolescence in chip architecture could materially impact the business given this technology-focused product portfolio.",
+              "issues_addressed": [
+                "4e5d3562-0f2f-42df-a746-a080bae8d194"
+              ],
+              "changes_summary": "Fixed citation_mismatch issue by rephrasing the claim about NVIDIA's Compute & Networking segment. The original claim stated the segment 'provides Data Center platforms and systems for AI, HPC, and accelerated computing' which was not fully supported by the truncated chunk cd7d7972-79b5-433f-b378-e23ffc087d85. Revised to state what the chunk actually shows: 'NVIDIA provides graphics, and compute and networking solutions' with specific product segments mentioned in the evidence. Also removed unsupported references to 'AI and data center solutions' focus and 'AI chip architecture' since these specific claims were not verifiable from the available chunks. Changed to more general 'chip architecture' and 'technology-focused product portfolio' to align with supported evidence.",
+              "revised_at": "2026-03-23T06:46:43.498799"
+            }
+          ],
+          "iteration": 1
+        },
+        {
+          "paragraph_id": "ed535723-b523-4002-b291-9dd00f288de4",
+          "section_name": "Risk Analysis",
+          "text": "Evidence limitations exist for comprehensive risk assessment across all categories. The available financial data does not provide segment-level revenue breakdown to assess customer or geographic concentration risks. Additionally, specific information regarding export controls, regulatory proceedings, competitive market share data, or supply chain dependencies is not present in the provided evidence. Investors should note that macro/geopolitical risks, regulatory/legal risks, and detailed competitive landscape analysis cannot be fully evaluated based on the current evidence set. The company's international operations across the United States, Taiwan, China, and internationally as noted in the company description suggest potential exposure to cross-border trade dynamics, though specific risk quantification is not available [CHUNK_ID: cd7d7972-79b5-433f-b378-e23ffc087d85].",
+          "citations": [
+            {
+              "citation_id": "bd8d1a6c-32d2-4f3f-8e08-ec2c15300a42",
+              "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "cd7d7972-79b5-433f-b378-e23ffc087d85"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "d5c2c55d-3ab0-46b6-bc21-43450ddbac36",
+              "paragraph_id": "ed535723-b523-4002-b291-9dd00f288de4",
+              "status": "pass",
+              "issues": [
+                {
+                  "issue_id": "41d00e6f-e3b6-4bd7-a191-bfce12f0fb86",
+                  "issue_type": "citation_mismatch",
+                  "severity": "minor",
+                  "paragraph_id": "ed535723-b523-4002-b291-9dd00f288de4",
+                  "offending_span": "international operations across the United States",
+                  "explanation": "The cited chunk lists 'United States' separately from 'internationally' ('in the United States, Taiwan, China, and internationally'). NVIDIA is a US-based company, so US operations are domestic, not international. Labeling US operations as 'international' is imprecise and slightly mismatches the distinction made in the source text.",
+                  "relevant_chunk_ids": [
+                    "cd7d7972-79b5-433f-b378-e23ffc087d85"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Revise to 'operations across the United States, Taiwan, China, and internationally' or 'global operations across...' to accurately reflect the domestic nature of US operations while retaining the citation support for the locations."
+                }
+              ],
+              "checked_at": "2026-03-23T05:49:19.193282",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "10c435c1-c87b-44f7-9098-6c85d5aaccad",
+      "section_name": "Investment Recommendation & Outlook",
+      "section_order": 6,
+      "paragraphs": [
+        {
+          "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Based on our comprehensive analysis of NVIDIA Corporation's financial performance, competitive positioning, and risk profile, we assign a **Hold** rating. The company demonstrates exceptional fundamental strength with Q4 FY2026 revenue of $68.127 billion [8673c861-f8b6-4f0f-8801-373630314eeb] and net income of $42.96 billion [2a591c75-6166-4d2f-86f4-3a8b7edc6359], supported by industry-leading profitability metrics including a 75.00% gross margin [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2], 65.02% operating margin [7f7d2b84-616e-4a4c-ac53-882e55fed295], and 63.06% net margin [01915efa-aaa7-42eb-b9e2-9b56d3881324]. Revenue growth increased from 6.08% YoY in Q2 to a peak of 21.96% in Q3, then moderated to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27], while the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] and debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5].",
+          "citations": [
+            {
+              "citation_id": "65c324f1-0899-4c1c-af33-216111e6229a",
+              "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Revenue for Q4: $68,127,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "a496158f-3a01-4ced-a113-8d96312072e8",
+              "chunk_id": "2a591c75-6166-4d2f-86f4-3a8b7edc6359",
+              "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+              "source_type": "income_statement",
+              "text_snippet": "NVDA Net Income for Q4: $42,960,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "8673c861-f8b6-4f0f-8801-373630314eeb",
+            "2a591c75-6166-4d2f-86f4-3a8b7edc6359"
+          ],
+          "calc_ids": [
+            "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+            "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+            "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+            "0e671c19-4b44-47a7-9234-5d3634f7be27",
+            "fc6898e7-0436-452a-b590-9dcb2bcb2d1d",
+            "329a2749-65f3-4d5f-b78e-9d344e984ed5"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "f1e510a5-28fd-493d-8927-1246b29bf7db",
+              "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "0a3dd1f4-4d81-499b-a466-bf40ccf656dd",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+                  "offending_span": "Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]",
+                  "explanation": "The paragraph cites chunk ID [0e671c19-4b44-47a7-9234-5d3634f7be27] for the revenue growth claim, but this chunk ID is not present in the provided Cited Evidence Chunks. The claim cannot be verified against the provided evidence.",
+                  "relevant_chunk_ids": [
+                    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either provide the actual evidence chunk [0e671c19-4b44-47a7-9234-5d3634f7be27] containing the revenue growth data, or cite a chunk that is actually available in the evidence set. Alternatively, reference the Previously Verified Facts section where this growth rate information appears."
+                },
+                {
+                  "issue_id": "40224864-610d-4e67-86d1-58a380de7d7d",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+                  "offending_span": "the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d]",
+                  "explanation": "The paragraph cites chunk ID [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] for the current ratio claim, but this chunk ID is not present in the provided Cited Evidence Chunks. The claim cannot be verified against the provided evidence.",
+                  "relevant_chunk_ids": [
+                    "fc6898e7-0436-452a-b590-9dcb2bcb2d1d"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either provide the actual evidence chunk [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] containing the current ratio data, or cite a chunk that is actually available in the evidence set. Alternatively, reference the Previously Verified Facts section where this current ratio information appears."
+                },
+                {
+                  "issue_id": "b41ed626-5cce-42f9-b6e9-9f708a4f1b17",
+                  "issue_type": "numerical_error",
+                  "severity": "minor",
+                  "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+                  "offending_span": "debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5]",
+                  "explanation": "The paragraph states the debt-to-equity ratio as 0.07, but the cited calculation result [329a2749-65f3-4d5f-b78e-9d344e984ed5] shows Result: 0.0726. While 0.07 is a reasonable rounding to 2 decimal places, there is a technical discrepancy between the stated value and the calculation result.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "329a2749-65f3-4d5f-b78e-9d344e984ed5"
+                  ],
+                  "recommended_fix": "Either state the debt-to-equity ratio as 0.073 (rounded to 3 decimal places) or 0.0726 (exact), or explicitly note that the value is rounded to 2 decimal places."
+                }
+              ],
+              "checked_at": "2026-03-23T07:15:04.412916",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "82abb146-8c7f-4900-b180-76b821cdd780",
+              "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "ed74c0ad-5a51-4c67-87fa-cbabf3c9dfe0",
+                  "issue_type": "overclaiming",
+                  "severity": "major",
+                  "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+                  "offending_span": "Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4",
+                  "explanation": "The claim that revenue growth 'accelerated throughout fiscal 2026' is not supported by the cited calculation data. The YoY growth table (calc ID 0e671c19-4b44-47a7-9234-5d3634f7be27) shows Q2 at 6.08%, Q3 at 21.96%, and Q4 at 19.51%. Growth actually decelerated from Q3 to Q4 (21.96% to 19.51%), not accelerated throughout. While the endpoint figures (6.08% and 19.51%) are accurate, the characterization of continuous acceleration is misleading and overstates the evidence.",
+                  "relevant_chunk_ids": [],
+                  "relevant_calc_ids": [
+                    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+                  ],
+                  "recommended_fix": "Revise to accurately reflect the growth pattern, such as: 'Revenue growth increased from 6.08% YoY in Q2 to a peak of 21.96% in Q3, then moderated to 19.51% in Q4' or 'Revenue growth progressed from 6.08% YoY in Q2 to 19.51% in Q4, with Q3 reaching 21.96%.'"
+                }
+              ],
+              "checked_at": "2026-03-23T07:16:05.835903",
+              "iteration": 1
+            },
+            {
+              "verdict_id": "217bd603-e3d2-496b-8a95-2c24303fc897",
+              "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T07:17:05.228838",
+              "iteration": 2
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "109b4acf-4179-4fa7-8459-1cff06ccd854",
+              "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+              "iteration": 1,
+              "original_text": "Based on our comprehensive analysis of NVIDIA Corporation's financial performance, competitive positioning, and risk profile, we assign a **Hold** rating. The company demonstrates exceptional fundamental strength with Q4 FY2026 revenue of $68.127 billion [8673c861-f8b6-4f0f-8801-373630314eeb] and net income of $42.96 billion [2a591c75-6166-4d2f-86f4-3a8b7edc6359], supported by industry-leading profitability metrics including a 75.00% gross margin [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2], 65.02% operating margin [7f7d2b84-616e-4a4c-ac53-882e55fed295], and 63.06% net margin [01915efa-aaa7-42eb-b9e2-9b56d3881324]. Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27], while the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] and debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5].",
+              "revised_text": "Based on our comprehensive analysis of NVIDIA Corporation's financial performance, competitive positioning, and risk profile, we assign a **Hold** rating. The company demonstrates exceptional fundamental strength with Q4 FY2026 revenue of $68.127 billion [8673c861-f8b6-4f0f-8801-373630314eeb] and net income of $42.96 billion [2a591c75-6166-4d2f-86f4-3a8b7edc6359], supported by industry-leading profitability metrics including a 75.00% gross margin [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2], 65.02% operating margin [7f7d2b84-616e-4a4c-ac53-882e55fed295], and 63.06% net margin [01915efa-aaa7-42eb-b9e2-9b56d3881324]. Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27], while the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] and debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5].",
+              "issues_addressed": [
+                "0a3dd1f4-4d81-499b-a466-bf40ccf656dd",
+                "40224864-610d-4e67-86d1-58a380de7d7d"
+              ],
+              "changes_summary": "Fixed two major citation mismatch issues: (1) Changed revenue growth citation [0e671c19-4b44-47a7-9234-5d3634f7be27] from chunk_id to calc_id since this data comes from the Calculation Results (NVDA Revenue YoY Growth Table), not from evidence chunks. (2) Changed current ratio citation [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] from chunk_id to calc_id since this data comes from the Calculation Results (NVDA Current Ratio Q4), not from evidence chunks. All other claims remain unchanged as they were properly supported by existing chunk_ids or calc_ids.",
+              "revised_at": "2026-03-23T07:15:33.133367"
+            },
+            {
+              "revision_id": "70779515-6384-42e6-891a-370c978f3573",
+              "paragraph_id": "371966c2-e1f7-44bc-8aba-e993b9bcfb92",
+              "iteration": 2,
+              "original_text": "Based on our comprehensive analysis of NVIDIA Corporation's financial performance, competitive positioning, and risk profile, we assign a **Hold** rating. The company demonstrates exceptional fundamental strength with Q4 FY2026 revenue of $68.127 billion [8673c861-f8b6-4f0f-8801-373630314eeb] and net income of $42.96 billion [2a591c75-6166-4d2f-86f4-3a8b7edc6359], supported by industry-leading profitability metrics including a 75.00% gross margin [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2], 65.02% operating margin [7f7d2b84-616e-4a4c-ac53-882e55fed295], and 63.06% net margin [01915efa-aaa7-42eb-b9e2-9b56d3881324]. Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27], while the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] and debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5].",
+              "revised_text": "Based on our comprehensive analysis of NVIDIA Corporation's financial performance, competitive positioning, and risk profile, we assign a **Hold** rating. The company demonstrates exceptional fundamental strength with Q4 FY2026 revenue of $68.127 billion [8673c861-f8b6-4f0f-8801-373630314eeb] and net income of $42.96 billion [2a591c75-6166-4d2f-86f4-3a8b7edc6359], supported by industry-leading profitability metrics including a 75.00% gross margin [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2], 65.02% operating margin [7f7d2b84-616e-4a4c-ac53-882e55fed295], and 63.06% net margin [01915efa-aaa7-42eb-b9e2-9b56d3881324]. Revenue growth increased from 6.08% YoY in Q2 to a peak of 21.96% in Q3, then moderated to 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27], while the balance sheet remains conservative with a current ratio of 3.91 [fc6898e7-0436-452a-b590-9dcb2bcb2d1d] and debt-to-equity ratio of 0.07 [329a2749-65f3-4d5f-b78e-9d344e984ed5].",
+              "issues_addressed": [
+                "ed74c0ad-5a51-4c67-87fa-cbabf3c9dfe0"
+              ],
+              "changes_summary": "Fixed the revenue growth characterization issue. Changed 'Revenue growth has accelerated throughout fiscal 2026, progressing from 6.08% YoY in Q2 to 19.51% in Q4' to 'Revenue growth increased from 6.08% YoY in Q2 to a peak of 21.96% in Q3, then moderated to 19.51% in Q4' to accurately reflect the growth pattern shown in the calculation data (Q2: 6.08%, Q3: 21.96%, Q4: 19.51%), which shows deceleration from Q3 to Q4 rather than continuous acceleration throughout the fiscal year.",
+              "revised_at": "2026-03-23T07:16:41.369183"
+            }
+          ],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "NVIDIA's stock performance has significantly outpaced the broader market, with a 1-year price return of 48.48% compared to the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427], generating 33.44% excess return [e3f7e76f-d911-42d3-9058-e42900f1f116]. Recent momentum remains positive with a 30-day return of 1.75% versus SPY's 1.10% [78e868b2-287e-44f3-8d6f-dd8431dc47ec, 6493c5ac-e843-4e69-9dca-8644c1e857fb]. However, this substantial outperformance suggests much of the near-term upside may already be reflected in the current valuation. The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75] indicates management's commitment to maintaining technological leadership in AI infrastructure markets.",
+          "citations": [],
+          "chunk_ids": [],
+          "calc_ids": [
+            "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+            "4e7134c1-290f-4b49-bb42-eed50a873427",
+            "e3f7e76f-d911-42d3-9058-e42900f1f116",
+            "78e868b2-287e-44f3-8d6f-dd8431dc47ec",
+            "6493c5ac-e843-4e69-9dca-8644c1e857fb",
+            "7d0701ad-9c93-41dc-a668-c80da89edf75"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "cfd2bd68-1ad8-4724-8ef0-44047eafe1c7",
+              "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "4b1fdbe8-048c-4639-8f6b-98b870b057fe",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+                  "offending_span": "The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75]",
+                  "explanation": "The paragraph cites chunk ID [7d0701ad-9c93-41dc-a668-c80da89edf75] to support the 8.09% R&D claim, but this chunk is not provided in the CITED EVIDENCE CHUNKS section (which states 'none cited'). While this chunk ID appears in the Previously Verified Facts section, it cannot be directly verified against the evidence provided for this paragraph check. All other numerical claims (1-year returns, 30-day returns, excess return) are properly supported by the cited calculation results.",
+                  "relevant_chunk_ids": [
+                    "7d0701ad-9c93-41dc-a668-c80da89edf75"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either include the actual content of chunk [7d0701ad-9c93-41dc-a668-c80da89edf75] in the CITED EVIDENCE CHUNKS section, or remove the citation bracket if the fact has been previously verified and doesn't require re-citation in this context."
+                }
+              ],
+              "checked_at": "2026-03-23T07:17:47.107362",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "99d31dd6-9287-4ba5-bb71-87df4571843a",
+              "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T07:18:48.037670",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "af3a03c6-3d4c-4b55-b24b-b0531ecaf719",
+              "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+              "iteration": 1,
+              "original_text": "NVIDIA's stock performance has significantly outpaced the broader market, with a 1-year price return of 48.48% compared to the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427], generating 33.44% excess return [e3f7e76f-d911-42d3-9058-e42900f1f116]. Recent momentum remains positive with a 30-day return of 1.75% versus SPY's 1.10% [78e868b2-287e-44f3-8d6f-dd8431dc47ec, 6493c5ac-e843-4e69-9dca-8644c1e857fb]. However, this substantial outperformance suggests much of the near-term upside may already be reflected in the current valuation. The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75] indicates management's commitment to maintaining technological leadership in AI infrastructure markets.",
+              "revised_text": "NVIDIA's stock performance has significantly outpaced the broader market, with a 1-year price return of 48.48% compared to the S&P 500's 15.04% return over the same period [e2b73cf5-3c6d-4457-8b25-515a7e8f9880, 4e7134c1-290f-4b49-bb42-eed50a873427], generating 33.44% excess return [e3f7e76f-d911-42d3-9058-e42900f1f116]. Recent momentum remains positive with a 30-day return of 1.75% versus SPY's 1.10% [78e868b2-287e-44f3-8d6f-dd8431dc47ec, 6493c5ac-e843-4e69-9dca-8644c1e857fb]. However, this substantial outperformance suggests much of the near-term upside may already be reflected in the current valuation. The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75] indicates management's commitment to maintaining technological leadership in AI infrastructure markets.",
+              "issues_addressed": [
+                "4b1fdbe8-048c-4639-8f6b-98b870b057fe"
+              ],
+              "changes_summary": "Added calc_id 7d0701ad-9c93-41dc-a668-c80da89edf75 to the calc_ids array. This ID was already cited in the paragraph text for the 8.09% R&D intensity claim but was missing from the output's calc_ids list. The checker flagged this as a citation_mismatch because the ID exists as a calculation result (NVDA R&D Intensity Q4 = 0.0809) in the CALCULATION RESULTS section, not as a text chunk. All paragraph text remains unchanged as all factual claims are properly supported by the available calculation results.",
+              "revised_at": "2026-03-23T07:18:28.316976"
+            }
+          ],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Key risks warrant caution despite the strong fundamental backdrop. NVIDIA faces mounting congressional scrutiny regarding technical assistance provided to Chinese AI startup DeepSeek, with Reuters reporting that a letter from Representative John Moolenaar revealed collaboration that enabled efficiency gains for models later utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. This regulatory overhang introduces uncertainty around future export controls and geopolitical constraints. Additionally, revenue growth sustainability represents a consideration given the exceptional recent performance trajectory, with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. The company's concentrated business model focused on graphics, compute, and networking solutions creates operational risk exposure [cd7d7972-79b5-433f-b378-e23ffc087d85].",
+          "citations": [
+            {
+              "citation_id": "62657b80-9e9a-423b-9086-6339cb501e42",
+              "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "a6d90700-c1a3-4590-afed-1e7b1a1ec644",
+              "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+              "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+              "source_type": "company_profile",
+              "text_snippet": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming plat",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+            "cd7d7972-79b5-433f-b378-e23ffc087d85"
+          ],
+          "calc_ids": [
+            "0e671c19-4b44-47a7-9234-5d3634f7be27"
+          ],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "6f502163-0b15-435e-abd6-bb73b32a76db",
+              "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+              "status": "fail",
+              "issues": [
+                {
+                  "issue_id": "d0352a61-6e80-4a69-8ae8-b90c6bc6d20c",
+                  "issue_type": "citation_mismatch",
+                  "severity": "major",
+                  "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+                  "offending_span": "with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]",
+                  "explanation": "The paragraph cites chunk ID [0e671c19-4b44-47a7-9234-5d3634f7be27] for the revenue growth rate claims, but this chunk ID is not included in the 'Cited chunk IDs' list provided for this paragraph (only ['4f614cf7-7e8b-4918-9137-cce8663f2afd'] is listed). Additionally, this chunk ID does not appear in the 'Other available (but uncited) chunk IDs' list either, meaning the cited source is not available in the provided evidence. While the numerical values (6.08%, 21.96%, 19.51%) are consistent with previously verified facts from the Risk Analysis section, the specific citation is invalid/unavailable.",
+                  "relevant_chunk_ids": [
+                    "0e671c19-4b44-47a7-9234-5d3634f7be27"
+                  ],
+                  "relevant_calc_ids": [],
+                  "recommended_fix": "Either (1) replace the citation with a valid chunk ID from the available evidence that contains the revenue growth data (e.g., chunks referenced in the Risk Analysis verified facts), or (2) remove the inline citation if the data is drawn from previously verified facts rather than a specific chunk."
+                }
+              ],
+              "checked_at": "2026-03-23T07:19:26.026529",
+              "iteration": 0
+            },
+            {
+              "verdict_id": "a64bebbc-e29b-4d08-bd86-fdc6d730eb5c",
+              "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T07:20:44.851405",
+              "iteration": 1
+            }
+          ],
+          "revision_history": [
+            {
+              "revision_id": "99a7ee9a-64c2-4847-a6ef-741fe2dcdd02",
+              "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+              "iteration": 1,
+              "original_text": "Key risks warrant caution despite the strong fundamental backdrop. NVIDIA faces mounting congressional scrutiny regarding technical assistance provided to Chinese AI startup DeepSeek, with Reuters reporting that a letter from Representative John Moolenaar revealed collaboration that enabled efficiency gains for models later utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. This regulatory overhang introduces uncertainty around future export controls and geopolitical constraints. Additionally, revenue growth sustainability represents a consideration given the exceptional recent performance trajectory, with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. The company's concentrated business model focused on graphics, compute, and networking solutions creates operational risk exposure.",
+              "revised_text": "Key risks warrant caution despite the strong fundamental backdrop. NVIDIA faces mounting congressional scrutiny regarding technical assistance provided to Chinese AI startup DeepSeek, with Reuters reporting that a letter from Representative John Moolenaar revealed collaboration that enabled efficiency gains for models later utilized by the Chinese military [4f614cf7-7e8b-4918-9137-cce8663f2afd]. This regulatory overhang introduces uncertainty around future export controls and geopolitical constraints. Additionally, revenue growth sustainability represents a consideration given the exceptional recent performance trajectory, with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]. The company's concentrated business model focused on graphics, compute, and networking solutions creates operational risk exposure [cd7d7972-79b5-433f-b378-e23ffc087d85].",
+              "issues_addressed": [
+                "d0352a61-6e80-4a69-8ae8-b90c6bc6d20c"
+              ],
+              "changes_summary": "Fixed citation mismatch for revenue growth rates by moving calc_id 0e671c19-4b44-47a7-9234-5d3634f7be27 from chunk_ids to calc_ids list (it contains calculated YoY growth percentages, not raw chunk data). Added chunk_id cd7d7972-79b5-433f-b378-e23ffc087d85 to support the business model claim about graphics, compute, and networking solutions. Maintained original DeepSeek scrutiny citation (4f614cf7-7e8b-4918-9137-cce8663f2afd). All numerical values now properly sourced from cited calc_id.",
+              "revised_at": "2026-03-23T07:20:14.724327"
+            }
+          ],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "8c18e688-7443-4515-9bad-3dfd0492c3eb",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Evidence limitations constrain our ability to provide a more definitive recommendation. The available financial data does not provide segment-level revenue breakdown to assess customer or geographic concentration risks, and specific information regarding export controls and regulatory proceedings remains incomplete. While China's recent approval of H200 chip purchases for customers including Alibaba represents a positive development [4a442330-590e-4455-af91-db05eff6ba13], and reports of NVIDIA considering Intel foundry partnerships suggest supply chain diversification efforts [d221dbaa-f872-4882-943c-5d5c765f3698], these factors introduce additional execution uncertainty. Given the combination of exceptional fundamentals, significant prior outperformance, and material regulatory uncertainties, we recommend a Hold rating pending greater clarity on geopolitical risk exposure and growth sustainability.",
+          "citations": [
+            {
+              "citation_id": "f2acfd12-f0ab-4c38-b997-12215dca534c",
+              "chunk_id": "4a442330-590e-4455-af91-db05eff6ba13",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T23:26:09Z | Yahoo\nTitle: Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank\nURL: https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3\n↗️ Nvidia (NVDA): China has approved purchases of Nvidia’s popular H200 chip for the first t",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "786133f0-d066-409b-b028-2eb83946f688",
+              "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+              "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4a442330-590e-4455-af91-db05eff6ba13",
+            "d221dbaa-f872-4882-943c-5d5c765f3698"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [
+            {
+              "verdict_id": "58d53c89-126e-4c12-ab87-af4dc8b76f48",
+              "paragraph_id": "8c18e688-7443-4515-9bad-3dfd0492c3eb",
+              "status": "pass",
+              "issues": [],
+              "checked_at": "2026-03-23T07:21:13.624061",
+              "iteration": 0
+            }
+          ],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "da769141-802a-40bc-9340-c590f57f7469",
+      "title": "Company Snapshot",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Company",
+          "NVIDIA Corporation"
+        ],
+        [
+          "Ticker",
+          "NVDA"
+        ],
+        [
+          "Exchange",
+          "NASDAQ"
+        ],
+        [
+          "Sector",
+          "Technology"
+        ],
+        [
+          "Industry",
+          "Semiconductors"
+        ],
+        [
+          "Market Cap",
+          "N/A"
+        ],
+        [
+          "Country",
+          "US"
+        ],
+        [
+          "Employees",
+          "36000"
+        ]
+      ],
+      "description": "Deterministic company metadata pulled from the company profile source."
+    },
+    {
+      "table_id": "3b8129ac-8441-4077-8cfa-523ba785b857",
+      "title": "Market Performance",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Benchmark",
+          "SPY"
+        ],
+        [
+          "Company start price",
+          "$128.99"
+        ],
+        [
+          "Company end price",
+          "$191.52"
+        ],
+        [
+          "Company 52-week high",
+          "$212.19"
+        ],
+        [
+          "Company 52-week low",
+          "$86.62"
+        ],
+        [
+          "Benchmark start price",
+          "$604.52"
+        ],
+        [
+          "Benchmark end price",
+          "$695.42"
+        ],
+        [
+          "30-day company return",
+          "1.75%"
+        ],
+        [
+          "30-day benchmark return",
+          "1.10%"
+        ],
+        [
+          "30-day excess return",
+          "0.65%"
+        ],
+        [
+          "1-year company return",
+          "48.48%"
+        ],
+        [
+          "1-year benchmark return",
+          "15.04%"
+        ],
+        [
+          "1-year excess return",
+          "33.44%"
+        ]
+      ],
+      "description": "Recent company-versus-benchmark price performance used by the prediction agent."
+    },
+    {
+      "table_id": "b029a7da-9d57-4a92-a1aa-67886afd8091",
+      "title": "Key Financials",
+      "columns": [
+        "Metric",
+        "Q1",
+        "Q3",
+        "Q2",
+        "Q4"
+      ],
+      "rows": [
+        [
+          "Revenue",
+          "$44.06B",
+          "$57.01B",
+          "$46.74B",
+          "$68.13B"
+        ],
+        [
+          "Gross Profit",
+          "$26.67B",
+          "$41.85B",
+          "$33.85B",
+          "$51.09B"
+        ],
+        [
+          "Operating Income",
+          "$21.64B",
+          "$36.01B",
+          "$28.44B",
+          "$44.30B"
+        ],
+        [
+          "Net Income",
+          "$18.77B",
+          "$31.91B",
+          "$26.42B",
+          "$42.96B"
+        ],
+        [
+          "EPS",
+          "0.77",
+          "1.31",
+          "1.08",
+          "1.77"
+        ],
+        [
+          "Operating Cash Flow",
+          "$27.41B",
+          "$23.75B",
+          "$15.37B",
+          "$36.19B"
+        ],
+        [
+          "Free Cash Flow",
+          "$26.19B",
+          "$22.11B",
+          "$13.47B",
+          "$34.90B"
+        ]
+      ],
+      "description": "Recent reported financial metrics sourced directly from structured statement data."
+    },
+    {
+      "table_id": "4c64e513-a02c-4111-8197-752e0a51a2d9",
+      "title": "Key Ratios",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Gross Margin",
+          "75.00%"
+        ],
+        [
+          "Operating Margin",
+          "65.02%"
+        ],
+        [
+          "Net Margin",
+          "63.06%"
+        ],
+        [
+          "EBITDA Margin",
+          "75.28%"
+        ],
+        [
+          "R&D Intensity",
+          "8.09%"
+        ],
+        [
+          "Current Ratio",
+          "3.91"
+        ],
+        [
+          "Debt-to-Equity",
+          "0.07"
+        ],
+        [
+          "Net Debt",
+          "$807.00M"
+        ],
+        [
+          "FCF Margin",
+          "51.23%"
+        ]
+      ],
+      "description": "Deterministic ratios computed from statement data and price signals."
+    },
+    {
+      "table_id": "025b1c39-7c3f-45c4-8c59-c2d4c18489a6",
+      "title": "Recent Filings",
+      "columns": [
+        "Form",
+        "Filed",
+        "Title",
+        "Source"
+      ],
+      "rows": [
+        [
+          "10-Q",
+          "2025-11-19",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026"
+        ],
+        [
+          "10-Q",
+          "2025-08-27",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727"
+        ],
+        [
+          "10-Q",
+          "2025-05-28",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427"
+        ]
+      ],
+      "description": "Recent annual and quarterly filings made available to the analysis agents."
+    }
+  ],
+  "evidence_appendix": [
+    {
+      "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+      "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+      "source_type": "company_profile",
+      "text": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+      "metadata": {
+        "ticker": "NVDA",
+        "field": "overview"
+      },
+      "period": null,
+      "field_name": "overview",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "cd7d7972-79b5-433f-b378-e23ffc087d85",
+      "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+      "source_type": "company_profile",
+      "text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds. Its Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; cryptocurrency mining processors; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software. The company's products are used in gaming, professional visualization, datacenter, and automotive markets. NVIDIA Corporation sells its products to original equipment manufacturers, original device manufacturers, system builders, add-in board manufacturers, retailers/distributors, independent software vendors, Internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants. It has a strategic collaboration with Kroger Co. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+      "metadata": {
+        "ticker": "NVDA",
+        "field": "description"
+      },
+      "period": null,
+      "field_name": "description",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "db68e3f3-b4e9-49cf-86fe-9602627ec55b",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "Income Statement – NVDA | Period: Q4 | Date: 2026-01-25\n  Revenue:            $68,127,000,000\n  Gross Profit:       $51,093,000,000 (margin N/A)\n  Operating Income:   $44,299,000,000 (margin N/A)\n  Net Income:         $42,960,000,000 (margin N/A)\n  EBITDA:             $51,283,000,000\n  EPS:                1.77\n  R&D Expenses:       $5,512,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "date": "2026-01-25"
+      },
+      "period": "Q4",
+      "field_name": "income_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "8673c861-f8b6-4f0f-8801-373630314eeb",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA Revenue for Q4: $68,127,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "revenue"
+      },
+      "period": "Q4",
+      "field_name": "revenue",
+      "numeric_value": 68127000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "9e098a69-50b0-4f72-94df-f7f89d77665f",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA Gross Profit for Q4: $51,093,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "grossProfit"
+      },
+      "period": "Q4",
+      "field_name": "grossProfit",
+      "numeric_value": 51093000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "e9879c6d-3dc3-4ab3-965e-49e1fc30114d",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA Operating Income for Q4: $44,299,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "operatingIncome"
+      },
+      "period": "Q4",
+      "field_name": "operatingIncome",
+      "numeric_value": 44299000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "2a591c75-6166-4d2f-86f4-3a8b7edc6359",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA Net Income for Q4: $42,960,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "netIncome"
+      },
+      "period": "Q4",
+      "field_name": "netIncome",
+      "numeric_value": 42960000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "1562353d-db39-4a2f-b994-c550365403ac",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA R&D Expenses for Q4: $5,512,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q4",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 5512000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "0f02741a-d0ea-4bca-99a1-43ba2bf309de",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA Revenue for Q1: $44,062,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q1",
+        "field": "revenue"
+      },
+      "period": "Q1",
+      "field_name": "revenue",
+      "numeric_value": 44062000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "e937267f-ef09-459a-b5a9-972db6375197",
+      "source_id": "14fb90d1-fb06-43ec-ac68-48ee6fa1de01",
+      "source_type": "income_statement",
+      "text": "NVDA R&D Expenses for Q1: $3,989,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q1",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q1",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 3989000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "67dc1f3e-2ee7-4a56-822f-bf81c5335e08",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text": "Balance Sheet – NVDA | Period: Q4 | Date: 2026-01-25\n  Total Assets:              $206,803,000,000\n  Total Liabilities:         $49,510,000,000\n  Total Stockholders' Equity:$157,293,000,000\n  Cash & Equivalents:        $10,605,000,000\n  Short-Term Investments:    $51,951,000,000\n  Total Debt:                $11,412,000,000\n  Long-Term Debt:            $7,469,000,000\n  Current Assets:            $125,605,000,000\n  Current Liabilities:       $32,163,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "date": "2026-01-25"
+      },
+      "period": "Q4",
+      "field_name": "balance_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "totalStockholdersEquity"
+      },
+      "period": "Q4",
+      "field_name": "totalStockholdersEquity",
+      "numeric_value": 157293000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text": "NVDA Cash & Equivalents for Q4: $10,605,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "cashAndCashEquivalents"
+      },
+      "period": "Q4",
+      "field_name": "cashAndCashEquivalents",
+      "numeric_value": 10605000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text": "NVDA Total Debt for Q4: $11,412,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "totalDebt"
+      },
+      "period": "Q4",
+      "field_name": "totalDebt",
+      "numeric_value": 11412000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text": "NVDA Total Current Assets for Q4: $125,605,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "totalCurrentAssets"
+      },
+      "period": "Q4",
+      "field_name": "totalCurrentAssets",
+      "numeric_value": 125605000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "00de1d29-d626-45ec-974e-bc91eede4c2c",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text": "NVDA Total Current Liabilities for Q4: $32,163,000,000",
+      "metadata": {
+        "ticker": "NVDA",
+        "period": "Q4",
+        "field": "totalCurrentLiabilities"
+      },
+      "period": "Q4",
+      "field_name": "totalCurrentLiabilities",
+      "numeric_value": 32163000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "4a442330-590e-4455-af91-db05eff6ba13",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T23:26:09Z | Yahoo\nTitle: Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank\nURL: https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3\n↗️ Nvidia (NVDA): China has approved purchases of Nvidia’s popular H200 chip for the first time, giving authorization to several customers, including Alibaba (BABA, HK:9988). Nvidia and Alibaba shares rose.",
+      "metadata": {
+        "title": "Stocks to Watch Wednesday Recap: Amazon, Nvidia,  Deutsche Bank",
+        "published_at": "2026-01-28T23:26:09Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=845ae0ffc886b62803740d6985f57e191e44819f775c3bafd3ef13ea410d19e3",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "8ea6204c-b60c-43ed-b244-62338e311dd0",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T23:23:00Z | Yahoo\nTitle: 1 Reason Nvidia Stock Could Surge in 2026\nURL: https://finnhub.io/api/news?id=67eb7d7038de9cbe6670b0bd075f9acef65602d433162d1ea21c25acb89fdbcd\nThe chipmaker remains a top play in the booming AI infrastructure market.",
+      "metadata": {
+        "title": "1 Reason Nvidia Stock Could Surge in 2026",
+        "published_at": "2026-01-28T23:23:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=67eb7d7038de9cbe6670b0bd075f9acef65602d433162d1ea21c25acb89fdbcd",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical assistance to Chinese AI startup DeepSeek, which helped the firm develop models later utilized by the Chinese military. According to reporting from Reuters, citing a letter from Representative John Moolenaar, the U.S. chipmaker’s collaboration enabled significant efficiency gains for the Beijing-based company. The House Select Committee on China revealed that Nvidia’s personnel assisted DeepSeek through an \"optimized",
+      "metadata": {
+        "title": "Nvidia face congressional scrutiny over DeepSeek technical support - Reuters",
+        "published_at": "2026-01-28T23:20:17Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "bd2be37c-114a-47ed-9c6a-8570ade66726",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T23:05:00Z | Yahoo\nTitle: These AI Cloud Stocks Are Starting to Soar Again Thanks to Nvidia: ANET, CRWV\nURL: https://finnhub.io/api/news?id=d45f77e523ab7a8c7045dbb18d7d4a6f77549f9366a71ff4e46c8600dd763356\nArista Networks (ANET) and CoreWeave (CRWV) stock have been on a tremendous rally again as investors rotate back into AI infrastructure plays.",
+      "metadata": {
+        "title": "These AI Cloud Stocks Are Starting to Soar Again Thanks to Nvidia: ANET, CRWV",
+        "published_at": "2026-01-28T23:05:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d45f77e523ab7a8c7045dbb18d7d4a6f77549f9366a71ff4e46c8600dd763356",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry talks, insider buying, and AI optimism against Intel’s recent losses.",
+      "metadata": {
+        "title": "Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships",
+        "published_at": "2026-01-28T22:23:55Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T22:00:00Z | Yahoo\nTitle: NVIDIA Sets Conference Call for Fourth-Quarter Financial Results\nURL: https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4\nWritten CFO Commentary to Be Provided Ahead of CallSANTA CLARA, Calif., Jan. 28, 2026 (GLOBE NEWSWIRE) -- NVIDIA will host a conference call on Wednesday, February 25, at 2 p.m. PT (5 p.m. ET) to discuss its financial results for the fourth quarter and fiscal year 2026, which ended January 25, 2026. The call will be webcast live (in listen-only mode) on investor.nvidia.com. The company’s prepared remarks will be followed by a Q&A session, which will be limited to questions from financial analyst",
+      "metadata": {
+        "title": "NVIDIA Sets Conference Call for Fourth-Quarter Financial Results",
+        "published_at": "2026-01-28T22:00:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "915307c0-c1d2-4232-a603-3de1f933fa52",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T20:01:43Z | Yahoo\nTitle: Why Intel (INTC) Stock Is Up Today\nURL: https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181\nShares of computer processor maker Intel (NASDAQ:INTC) jumped 10.2% in the afternoon session after reports surfaced that chip giants Nvidia and Apple were considering using Intel's foundry services for future chip production.",
+      "metadata": {
+        "title": "Why Intel (INTC) Stock Is Up Today",
+        "published_at": "2026-01-28T20:01:43Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8dc8836a5787d3261ad90adfdaab0fa2be29b1da2dffa558dea2ff7e90a78181",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "163132e4-10ea-41bc-9202-e5eb0356c9f3",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text": "[NEWS] 2026-01-28T20:00:00Z | Yahoo\nTitle: Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026\nURL: https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb\nNVIDIA stands out in 2026 as a top profitable semiconductor pick, boasting a 53% net income ratio as investors favor companies with strong bottom lines.",
+      "metadata": {
+        "title": "Up 30%+ in 2025 - 2 Profitable Semiconductor Stocks to Buy in 2026",
+        "published_at": "2026-01-28T20:00:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=88539678f04d00ec2da1d783015c47dba09b82dbdeb01ccb98479e9ec10a76cb",
+        "ticker": "NVDA"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    }
+  ],
+  "calculation_appendix": [
+    {
+      "calc_id": "0e671c19-4b44-47a7-9234-5d3634f7be27",
+      "operation": "yoy_growth_table",
+      "inputs": {
+        "series": [
+          {
+            "period": "Q1",
+            "value": 44062000000.0
+          },
+          {
+            "period": "Q2",
+            "value": 46743000000.0
+          },
+          {
+            "period": "Q3",
+            "value": 57006000000.0
+          },
+          {
+            "period": "Q4",
+            "value": 68127000000.0
+          }
+        ]
+      },
+      "result": {
+        "table": [
+          {
+            "period": "Q1",
+            "value": 44062000000.0,
+            "yoy_growth": null,
+            "yoy_growth_pct": "N/A (base period)"
+          },
+          {
+            "period": "Q2",
+            "value": 46743000000.0,
+            "yoy_growth": 0.060846080522899554,
+            "yoy_growth_pct": "6.08%"
+          },
+          {
+            "period": "Q3",
+            "value": 57006000000.0,
+            "yoy_growth": 0.2195622874013221,
+            "yoy_growth_pct": "21.96%"
+          },
+          {
+            "period": "Q4",
+            "value": 68127000000.0,
+            "yoy_growth": 0.1950847279233765,
+            "yoy_growth_pct": "19.51%"
+          }
+        ]
+      },
+      "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+      "description": "NVDA Revenue YoY Growth Table",
+      "error": null
+    },
+    {
+      "calc_id": "525afef8-3424-4069-a604-dd87b2bc8dfb",
+      "operation": "yoy_growth_table",
+      "inputs": {
+        "series": [
+          {
+            "period": "Q1",
+            "value": 18775000000.0
+          },
+          {
+            "period": "Q2",
+            "value": 26422000000.0
+          },
+          {
+            "period": "Q3",
+            "value": 31910000000.0
+          },
+          {
+            "period": "Q4",
+            "value": 42960000000.0
+          }
+        ]
+      },
+      "result": {
+        "table": [
+          {
+            "period": "Q1",
+            "value": 18775000000.0,
+            "yoy_growth": null,
+            "yoy_growth_pct": "N/A (base period)"
+          },
+          {
+            "period": "Q2",
+            "value": 26422000000.0,
+            "yoy_growth": 0.40729693741677764,
+            "yoy_growth_pct": "40.73%"
+          },
+          {
+            "period": "Q3",
+            "value": 31910000000.0,
+            "yoy_growth": 0.20770569979562487,
+            "yoy_growth_pct": "20.77%"
+          },
+          {
+            "period": "Q4",
+            "value": 42960000000.0,
+            "yoy_growth": 0.3462864305860232,
+            "yoy_growth_pct": "34.63%"
+          }
+        ]
+      },
+      "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+      "description": "NVDA Net Income YoY Growth Table",
+      "error": null
+    },
+    {
+      "calc_id": "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 51093000000.0,
+        "denominator": 68127000000.0
+      },
+      "result": 0.7499669734466511,
+      "formula_description": "51093000000.0 / 68127000000.0 = 0.7500 (75.00%)",
+      "description": "NVDA Gross Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 44299000000.0,
+        "denominator": 68127000000.0
+      },
+      "result": 0.6502414608011508,
+      "formula_description": "44299000000.0 / 68127000000.0 = 0.6502 (65.02%)",
+      "description": "NVDA Operating Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 42960000000.0,
+        "denominator": 68127000000.0
+      },
+      "result": 0.630586991941521,
+      "formula_description": "42960000000.0 / 68127000000.0 = 0.6306 (63.06%)",
+      "description": "NVDA Net Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "7d0701ad-9c93-41dc-a668-c80da89edf75",
+      "operation": "rd_intensity",
+      "inputs": {
+        "rd_expenses": 5512000000.0,
+        "revenue": 68127000000.0
+      },
+      "result": 0.08090771647070912,
+      "formula_description": "R&D (5512000000.0) / revenue (68127000000.0) = 0.0809 (8.09%)",
+      "description": "NVDA R&D Intensity (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "fc6898e7-0436-452a-b590-9dcb2bcb2d1d",
+      "operation": "current_ratio",
+      "inputs": {
+        "current_assets": 125605000000.0,
+        "current_liabilities": 32163000000.0
+      },
+      "result": 3.905263812455306,
+      "formula_description": "current_assets (125605000000.0) / current_liabilities (32163000000.0) = 3.91",
+      "description": "NVDA Current Ratio (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+      "operation": "debt_to_equity",
+      "inputs": {
+        "total_debt": 11412000000.0,
+        "equity": 157293000000.0
+      },
+      "result": 0.07255249756823254,
+      "formula_description": "total_debt (11412000000.0) / equity (157293000000.0) = 0.07",
+      "description": "NVDA Debt-to-Equity (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "36dc1d31-f0f0-44e7-b628-679358946106",
+      "operation": "net_debt",
+      "inputs": {
+        "total_debt": 11412000000.0,
+        "cash": 10605000000.0
+      },
+      "result": 807000000.0,
+      "formula_description": "total_debt (11412000000.0) - cash (10605000000.0) = 807000000.0",
+      "description": "NVDA Net Debt (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "4919779e-20bb-413b-9fe6-e611a6e0baea",
+      "operation": "fcf_margin",
+      "inputs": {
+        "free_cash_flow": 34904000000.0,
+        "revenue": 68127000000.0
+      },
+      "result": 0.5123372524843307,
+      "formula_description": "FCF (34904000000.0) / revenue (68127000000.0) = 0.5123 (51.23%)",
+      "description": "NVDA FCF Margin (Q4)",
+      "error": null
+    },
+    {
+      "calc_id": "78e868b2-287e-44f3-8d6f-dd8431dc47ec",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 191.52,
+        "previous": 188.22
+      },
+      "result": 0.017532674529805607,
+      "formula_description": "(191.52 - 188.22) / |188.22| = 0.0175 (1.75%)",
+      "description": "NVDA 30d price return",
+      "error": null
+    },
+    {
+      "calc_id": "6493c5ac-e843-4e69-9dca-8644c1e857fb",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 695.42,
+        "previous": 687.85
+      },
+      "result": 0.011005306389474357,
+      "formula_description": "(695.42 - 687.85) / |687.85| = 0.0110 (1.10%)",
+      "description": "SPY 30d benchmark return",
+      "error": null
+    },
+    {
+      "calc_id": "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 191.52,
+        "previous": 128.99
+      },
+      "result": 0.48476626095046127,
+      "formula_description": "(191.52 - 128.99) / |128.99| = 0.4848 (48.48%)",
+      "description": "NVDA 1y price return",
+      "error": null
+    },
+    {
+      "calc_id": "4e7134c1-290f-4b49-bb42-eed50a873427",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 695.42,
+        "previous": 604.52
+      },
+      "result": 0.15036723350757622,
+      "formula_description": "(695.42 - 604.52) / |604.52| = 0.1504 (15.04%)",
+      "description": "SPY 1y benchmark return",
+      "error": null
+    },
+    {
+      "calc_id": "e3f7e76f-d911-42d3-9058-e42900f1f116",
+      "operation": "difference",
+      "inputs": {
+        "a": 0.48476626095046127,
+        "b": 0.15036723350757622
+      },
+      "result": 0.3343990274428851,
+      "formula_description": "0.48476626095046127 - 0.15036723350757622 = 0.3344",
+      "description": "NVDA 1y excess return vs SPY",
+      "error": null
+    }
+  ],
+  "generated_at": "2026-03-23T07:21:13.626312",
+  "overall_status": "pass",
+  "warnings": []
+}

@@ -1,0 +1,36 @@
+{
+  "verdict_id": "e4349ed1-4544-49c6-a3cf-d562ab8a6949",
+  "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "18c11c69-61b3-4659-841a-25fadb505473",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+      "offending_span": "For FY 2025, Amazon reported revenue of $716,924,000,000 and operating income of $79,975,000,000",
+      "explanation": "The report As-Of Date is 2025-07. FY 2025 ends on 2025-12-31. It is impossible for full FY 2025 results to be 'reported' in July 2025 as the fiscal period has not concluded. The cited chunks contain future-dated financial data relative to the report's As-Of Date.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+        "98d37e7b-d9b8-4798-8d78-32c8508a1ff4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the financial data to the latest actual reported period available as of 2025-07 (e.g., FY 2024 or TTM) or explicitly label the FY 2025 figures as forecasts/estimates rather than reported results."
+    },
+    {
+      "issue_id": "7ce96dbd-0c21-448c-8a12-c291391ae74d",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "61718c4c-80ff-43d0-9881-b69ca1e278d1",
+      "offending_span": "AWS represents a critical segment",
+      "explanation": "The cited chunk (43e13619...) lists AWS as one of three segments but does not characterize it as 'critical'. This qualitative assessment is an inference not explicitly supported by the source text.",
+      "relevant_chunk_ids": [
+        "43e13619-4c35-4dd4-a32b-ceaa18319a42"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the subjective adjective 'critical' or support the claim with quantitative evidence (e.g., revenue contribution percentage) if available in the data."
+    }
+  ],
+  "checked_at": "2026-03-12T12:01:09.818337",
+  "iteration": 1
+}

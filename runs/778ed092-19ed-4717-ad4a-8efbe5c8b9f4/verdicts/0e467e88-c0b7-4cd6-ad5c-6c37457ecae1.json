@@ -1,0 +1,20 @@
+{
+  "verdict_id": "0e467e88-c0b7-4cd6-ad5c-6c37457ecae1",
+  "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0e680c04-3d30-4d62-ae28-ea918e857f22",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "59c1bc7a-0b98-43e5-bb23-a88197589686",
+      "offending_span": "1-year price return of 48.48%",
+      "explanation": "The paragraph claims NVIDIA's 1-year price return is 48.48%, but this figure is not found in any of the cited evidence chunks. The only cited calculation (4e7134c1-290f-4b49-bb42-eed50a873427) provides the S&P 500 return of 15.04%, not NVIDIA's return. There is no source provided for the 48.48% NVIDIA figure.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite a specific chunk or calculation that supports the 48.48% NVIDIA return figure, or remove this specific number if it cannot be verified from available evidence."
+    }
+  ],
+  "checked_at": "2026-03-23T05:34:37.039334",
+  "iteration": 0
+}

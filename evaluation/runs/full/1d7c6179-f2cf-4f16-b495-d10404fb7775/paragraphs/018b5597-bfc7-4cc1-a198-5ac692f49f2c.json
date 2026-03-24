@@ -1,0 +1,59 @@
+{
+  "paragraph_id": "018b5597-bfc7-4cc1-a198-5ac692f49f2c",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "We assign a **Hold** rating to Adobe Inc. (ADBE) as of August 2025. This recommendation reflects a balanced assessment of improving fundamental momentum against meaningful competitive and execution risks. While Adobe's revenue trajectory has recovered from Q2 2025's -8.21% YoY contraction to +3.44% growth in Q4 2025 [K001, C012, C028], the stock has significantly underperformed the broader market, declining 36.85% over the past year compared to the S&P 500's 16.23% gain [K015, K016, K017]. Over the six months leading to late August 2025, shares fell 18.6% while the benchmark climbed 8.8% [C031, C100].",
+  "citations": [
+    {
+      "citation_id": "4e9eb78b-a703-4442-9a92-4d85fae277af",
+      "chunk_id": "31352f52-1386-4a07-8480-09f5164ceef0",
+      "source_id": "4664af22-fbca-4e38-9e05-f1536cca9d64",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-28T04:02:44Z | Yahoo\nTitle: 2 Reasons to Like ADBE and 1 to Stay Skeptical\nURL: https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e\nOver the past six months, Adobe’s stock price fell to $356.95. Shareholders have lost 18.6% of their capital,",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "31352f52-1386-4a07-8480-09f5164ceef0"
+  ],
+  "calc_ids": [
+    "abb71737-96c6-4570-bd58-0eb60e057c8a",
+    "60fe4ed7-0ac0-4a97-aa7c-8c34ca5bf5c3",
+    "a79ace0c-d91b-4a7a-a218-577519dd30b9",
+    "a18fdb9d-ed28-47d0-8a2a-0f52855189cc",
+    "3d9158f9-bc84-46fe-9996-d84fb77498d0",
+    "bb86410d-44ae-46dd-b9a4-dc994997a501",
+    "cdc7a7dd-d117-4ecb-bfac-d106ab155882"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "c447f4bb-a08e-4990-8e36-b6b3a7f7a3f6",
+      "paragraph_id": "018b5597-bfc7-4cc1-a198-5ac692f49f2c",
+      "status": "pass",
+      "issues": [
+        {
+          "issue_id": "9947481f-bae2-4c70-8c17-45154b5e50dc",
+          "issue_type": "citation_mismatch",
+          "severity": "minor",
+          "paragraph_id": "018b5597-bfc7-4cc1-a198-5ac692f49f2c",
+          "offending_span": "[K001, C012, C028]...[C031, C100]",
+          "explanation": "The paragraph cites chunks C012, C028, and C100, but these were not provided in the Cited Evidence Chunks section for verification (only C031 was provided). However, all factual claims are accurately supported by the provided evidence: revenue figures by K001, 1-year performance by K015/K016, and 6-month performance by C031. This is a citation hygiene issue rather than a factual accuracy issue.",
+          "relevant_chunk_ids": [
+            "31352f52-1386-4a07-8480-09f5164ceef0"
+          ],
+          "relevant_calc_ids": [
+            "abb71737-96c6-4570-bd58-0eb60e057c8a",
+            "3d9158f9-bc84-46fe-9996-d84fb77498d0",
+            "bb86410d-44ae-46dd-b9a4-dc994997a501",
+            "cdc7a7dd-d117-4ecb-bfac-d106ab155882"
+          ],
+          "recommended_fix": "Either remove citations to C012, C028, and C100 if they are not essential to the claims, or ensure these chunks are included in the verification package. The claims can be fully supported by citing only K001 (for revenue), K015/K016 (for 1-year performance), and C031 (for 6-month performance)."
+        }
+      ],
+      "checked_at": "2026-03-23T21:05:33.525703",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

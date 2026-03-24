@@ -1,0 +1,37 @@
+{
+  "verdict_id": "59cf21a5-80e8-476f-91b3-32a764c9f177",
+  "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "550eddcb-cd19-48d8-ba9b-0c766f898dd1",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+      "offending_span": "Recent analyst commentary indicates AI-powered AWS growth and advertising revenue underpin an upbeat Q2 2025 outlook [CHUNK_ID: f3922ad9-85d8-409b-916a-444e08a6a248]",
+      "explanation": "The paragraph cites chunk f3922ad9-85d8-409b-916a-444e08a6a248 to support the claim about analyst commentary on AI-powered AWS growth and advertising revenue underpinning Q2 2025 outlook. However, this chunk ID is NOT present in the provided CITED EVIDENCE CHUNKS list. The claim cannot be verified against the available evidence, making this a citation mismatch where the referenced source is unavailable.",
+      "relevant_chunk_ids": [
+        "f3922ad9-85d8-409b-916a-444e08a6a248"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide the actual content of chunk f3922ad9-85d8-409b-916a-444e08a6a248 in the evidence set, or remove this claim and its citation. If the analyst commentary exists elsewhere, cite the correct available chunk ID that contains this information."
+    },
+    {
+      "issue_id": "7d356117-d8fc-407b-a287-b78be61cc667",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+      "offending_span": "expenses increasing from $73.2 billion in FY2022 to $88.5 billion in FY2024, and projected at $108.5 billion for FY2025 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]",
+      "explanation": "The paragraph cites chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e to support the FY2022 R&D expense figure of $73.2 billion. However, this chunk ID is NOT present in the provided CITED EVIDENCE CHUNKS list. While the FY2024 ($88.5B) and FY2025 ($108.5B) figures are correctly supported by chunks 7f42935f-2962-4418-812e-c92a56b27b2e and 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc respectively, the FY2022 figure lacks verifiable evidence in the provided chunks.",
+      "relevant_chunk_ids": [
+        "bc591e33-ea87-4e39-a4cb-9ca56789b93e",
+        "7f42935f-2962-4418-812e-c92a56b27b2e",
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either provide chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e in the evidence set, or remove the FY2022 figure from this claim. Alternatively, cite a different available chunk that contains the FY2022 R&D expense data. Note: The Previously Verified Facts section references this chunk, suggesting it should be included in the evidence set for this paragraph."
+    }
+  ],
+  "checked_at": "2026-03-12T12:40:47.705535",
+  "iteration": 0
+}

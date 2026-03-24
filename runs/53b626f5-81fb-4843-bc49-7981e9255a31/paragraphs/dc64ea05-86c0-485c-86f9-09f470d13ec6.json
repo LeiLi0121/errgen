@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "dc64ea05-86c0-485c-86f9-09f470d13ec6",
+  "section_name": "Recent Developments",
+  "text": "In analyst actions, UBS recently lifted its price target on Amazon stock, signaling strength and sparking a rally in the shares [CHUNK_ID: 758f8efe-00fb-498c-93e6-263f42d2d0d9]. This upgrade reflects growing confidence in Amazon's positioning as the company prepares to deliver quarterly results alongside other Magnificent Seven peers [CHUNK_ID: d54b78f5-6a56-4987-b5ff-ef2e7fcaad6a]. Market observers note that investors are taking a tougher stance on earnings misses, more aggressively dumping stocks that fail to meet profit forecasts or offer positive financial guidance [CHUNK_ID: 4a58a4c1-4682-4564-a49e-67118e9fb015].",
+  "citations": [
+    {
+      "citation_id": "a0fadf77-d019-4f50-90a1-2818a0c17ab3",
+      "chunk_id": "758f8efe-00fb-498c-93e6-263f42d2d0d9",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T19:27:46Z | Yahoo\nTitle: Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS\nURL: https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca\nUBS Signals Amazon Strength, Lifts Target and Sparks Rally",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "425b7d49-674c-446d-99e8-a43a5c2befd7",
+      "chunk_id": "d54b78f5-6a56-4987-b5ff-ef2e7fcaad6a",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T22:54:00Z | Yahoo\nTitle: MSFT, META, AAPL, AMZN: One Chart Stands Above the Others\nURL: https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e\n4 Magnificent 7 stocks are reporting earnings this week. They aren't all equal.",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5f536180-d43f-4e2d-8e31-e2820ff5f118",
+      "chunk_id": "4a58a4c1-4682-4564-a49e-67118e9fb015",
+      "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T20:45:00Z | Yahoo\nTitle: The Stock Market Is Taking a Tougher Line on Earnings Misses\nURL: https://finnhub.io/api/news?id=ff4016ca93574bf281ee58af031ed73775f3cb25c8a1fb578cacd0f0a02201a3\nInvestors are dumping stocks in companies that don’t meet profit forecasts or offer positive fi",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "758f8efe-00fb-498c-93e6-263f42d2d0d9",
+    "d54b78f5-6a56-4987-b5ff-ef2e7fcaad6a",
+    "4a58a4c1-4682-4564-a49e-67118e9fb015"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "61ae623a-fd0a-4061-9c6c-d39f1ec2d05e",
+      "paragraph_id": "dc64ea05-86c0-485c-86f9-09f470d13ec6",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-12T10:10:32.178409",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

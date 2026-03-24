@@ -1,0 +1,37 @@
+{
+  "verdict_id": "55204e41-4388-432d-bf44-fec339ead003",
+  "paragraph_id": "3f34b0f8-2726-4951-83e2-cb1f7a79c409",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "54b2b1d8-b637-4fac-80b0-647827f89690",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "3f34b0f8-2726-4951-83e2-cb1f7a79c409",
+      "offending_span": "growing from $5,986,000,000 in FY2023 [7930dfb2-cff5-4dc1-a6fc-3b43ffb42848] to $144,552,000,000 in FY2026 [47a06f7f-e4c1-4e5d-924a-903870cddb3a]",
+      "explanation": "The cited chunks (7930dfb2-cff5-4dc1-a6fc-3b43ffb42848 and 47a06f7f-e4c1-4e5d-924a-903870cddb3a) only state 'NVDA EBITDA for FY' without specifying which fiscal year. The paragraph claims these figures are for FY2023 and FY2026 specifically, but the evidence does not support this year attribution.",
+      "relevant_chunk_ids": [
+        "7930dfb2-cff5-4dc1-a6fc-3b43ffb42848",
+        "47a06f7f-e4c1-4e5d-924a-903870cddb3a"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either remove the specific fiscal year attributions (FY2023, FY2026) or cite evidence chunks that explicitly specify which fiscal year each EBITDA figure represents."
+    },
+    {
+      "issue_id": "08c4aca1-023b-4872-977d-ce006094aa56",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "3f34b0f8-2726-4951-83e2-cb1f7a79c409",
+      "offending_span": "The FY2023 EBITDA margin was 22.19% [0bceccc1-b1ac-4b8c-be53-06259e251673], and the absolute growth suggests margin expansion in later years. Regarding cash flow quality, the FY2023 free cash flow margin was 14.12% [ebb13bfd-8f73-4522-821f-7cd77f0787f2]",
+      "explanation": "The cited calculation results (0bceccc1-b1ac-4b8c-be53-06259e251673 and ebb13bfd-8f73-4522-821f-7cd77f0787f2) are labeled as 'NVDA EBITDA Margin (FY)' and 'NVDA FCF Margin (FY)' without specifying FY2023. The paragraph attributes these margins specifically to FY2023, but the evidence does not support this year attribution.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "0bceccc1-b1ac-4b8c-be53-06259e251673",
+        "ebb13bfd-8f73-4522-821f-7cd77f0787f2"
+      ],
+      "recommended_fix": "Either remove the FY2023 attribution from the margin figures or cite calculation results that explicitly specify FY2023."
+    }
+  ],
+  "checked_at": "2026-03-11T14:08:36.628433",
+  "iteration": 0
+}

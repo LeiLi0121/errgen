@@ -1,0 +1,22 @@
+{
+  "verdict_id": "0e7bea7a-763d-456a-bb04-fcdf833ed456",
+  "paragraph_id": "f8dc0561-daa2-424b-953e-efc61628d393",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "a73cc9bb-ade3-42af-acc0-d89be4755fc3",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "f8dc0561-daa2-424b-953e-efc61628d393",
+      "offending_span": "A bullish thesis published on Rebound Capital's Substack noted Adobe's trailing and forward P/E ratios at 22.89 and 15.41 respectively",
+      "explanation": "The cited chunk (C105) states that the news article summarizes the bullish thesis and provides the P/E ratios 'according to Yahoo Finance'. It does not explicitly confirm that the Substack thesis itself contained these specific P/E figures, only that the article reporting on the thesis cited Yahoo Finance for them.",
+      "relevant_chunk_ids": [
+        "dd5a2d12-a0a4-42e3-940d-c11384ac76a7"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to clarify that the P/E ratios were reported in the article summarizing the thesis (e.g., 'An article summarizing a bullish thesis... cited Adobe's trailing and forward P/E ratios...')."
+    }
+  ],
+  "checked_at": "2026-03-23T20:29:18.189450",
+  "iteration": 1
+}

@@ -1,0 +1,12 @@
+{
+  "revision_id": "f977e83d-36df-4fde-b5fc-f6207c622d2c",
+  "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+  "iteration": 2,
+  "original_text": "Revenue concentration and margin sustainability present potential risk factors, as projected revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a].",
+  "revised_text": "Revenue concentration and margin sustainability present potential risk factors, as reported revenue of $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [cdffc354-305b-4c6d-9459-624d8d18147a, 93b368f3-dee2-424f-8a66-93f166f9b1f8].",
+  "issues_addressed": [
+    "a7322cae-12bd-45bd-806f-c4120be42373"
+  ],
+  "changes_summary": "Changed 'projected revenue' to 'reported revenue' to accurately reflect FY2026 actuals as per income statement and earnings reports. Added FY2025 revenue chunk to support the factual claim of 'substantial expansion'.",
+  "revised_at": "2026-03-11T15:40:29.773187"
+}

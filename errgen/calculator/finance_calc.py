@@ -11,6 +11,7 @@ Supported operations
   growth_rate       – YoY / QoQ percentage change
   margin            – a / b (e.g. gross profit / revenue)
   ratio             – generic a / b
+  difference        – a - b
   pct_change        – synonym for growth_rate
   safe_divide       – a / b guarded against zero denominator
   yoy_growth_table  – list of (period, value, yoy_growth) for a metric series
@@ -149,6 +150,7 @@ class FinanceCalculator:
             "pct_change": self._growth_rate,
             "margin": self._margin,
             "ratio": self._ratio,
+            "difference": self._difference,
             "safe_divide": self._ratio,
             "yoy_growth_table": self._yoy_growth_table,
             "cagr": self._cagr,
@@ -203,6 +205,14 @@ class FinanceCalculator:
             raise ZeroDivisionError("Denominator b is zero; cannot compute ratio.")
         result = a / b
         formula = f"{a} / {b} = {result:.4f}"
+        return result, formula
+
+    @staticmethod
+    def _difference(inputs: dict) -> tuple[float, str]:
+        a = float(inputs["a"])
+        b = float(inputs["b"])
+        result = a - b
+        formula = f"{a} - {b} = {result:.4f}"
         return result, formula
 
     @staticmethod

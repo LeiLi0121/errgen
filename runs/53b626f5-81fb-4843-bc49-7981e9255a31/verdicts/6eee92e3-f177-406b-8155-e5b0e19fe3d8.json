@@ -1,0 +1,26 @@
+{
+  "verdict_id": "6eee92e3-f177-406b-8155-e5b0e19fe3d8",
+  "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "ddc26001-0215-4948-9d86-e61bb2483b02",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+      "offending_span": "As of FY2025",
+      "explanation": "The as-of date is 2025-07 (July 2025). Amazon's fiscal year ends December 31, meaning FY2025 would not be complete until December 31, 2025. The balance sheet data cited in the chunks (labeled simply as 'FY') would represent FY2024 (the most recent completed fiscal year as of July 2025), not FY2025. Stating 'FY2025' misrepresents the time period of the financial data.",
+      "relevant_chunk_ids": [
+        "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+        "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+        "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+        "e1a89938-1e17-4235-ba31-82444d67f675",
+        "119bd75b-f6e2-4495-b285-afbac6cb99aa"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change 'FY2025' to 'FY2024' or 'the most recent fiscal year' to accurately reflect the period of the balance sheet data available as of July 2025."
+    }
+  ],
+  "checked_at": "2026-03-12T11:58:33.369514",
+  "iteration": 1
+}

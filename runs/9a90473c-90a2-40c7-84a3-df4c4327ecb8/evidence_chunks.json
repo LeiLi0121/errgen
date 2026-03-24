@@ -1,0 +1,1770 @@
+[
+  {
+    "chunk_id": "26e53fa7-316f-4b76-9f24-f86ca08e2a8d",
+    "source_id": "a8362987-27be-4ba9-b8e7-dc156ad32235",
+    "source_type": "company_profile",
+    "text": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+    "metadata": {
+      "ticker": "NVDA",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "812d4743-83b4-43d7-b5ee-dfc8624a5328",
+    "source_id": "a8362987-27be-4ba9-b8e7-dc156ad32235",
+    "source_type": "company_profile",
+    "text": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds. Its Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; cryptocurrency mining processors; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software. The company's products are used in gaming, professional visualization, datacenter, and automotive markets. NVIDIA Corporation sells its products to original equipment manufacturers, original device manufacturers, system builders, add-in board manufacturers, retailers/distributors, independent software vendors, Internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants. It has a strategic collaboration with Kroger Co. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+    "metadata": {
+      "ticker": "NVDA",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cdffc354-305b-4c6d-9459-624d8d18147a",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: FY | Date: 2026-01-25\n  Revenue:            $215,938,000,000\n  Gross Profit:       $153,463,000,000 (margin N/A)\n  Operating Income:   $130,387,000,000 (margin N/A)\n  Net Income:         $120,067,000,000 (margin N/A)\n  EBITDA:             $144,552,000,000\n  EPS:                4.93\n  R&D Expenses:       $18,497,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2026-01-25"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d9715ca6-9ea9-4dfa-978c-0f9b46c5ec7b",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for FY: $215,938,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 215938000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bb71bc88-ddc4-4b1f-ab5b-277bf6280c37",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for FY: $153,463,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 153463000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "cc584676-ac46-4524-a2c6-2e2bb1097a6b",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for FY: $130,387,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 130387000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "28f9dab4-07b2-47bf-ab98-ebaaf92714f1",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for FY: $120,067,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 120067000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "47a06f7f-e4c1-4e5d-924a-903870cddb3a",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for FY: $144,552,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 144552000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1b13f99f-9c0e-4fd3-8062-9a298acfa06e",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for FY: $5",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 4.93,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "65dcb847-39b8-4238-948f-874660fd6a4a",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for FY: $18,497,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 18497000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "93b368f3-dee2-424f-8a66-93f166f9b1f8",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: FY | Date: 2025-01-26\n  Revenue:            $130,497,000,000\n  Gross Profit:       $97,858,000,000 (margin N/A)\n  Operating Income:   $81,453,000,000 (margin N/A)\n  Net Income:         $72,880,000,000 (margin N/A)\n  EBITDA:             $86,137,000,000\n  EPS:                2.97\n  R&D Expenses:       $12,914,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2025-01-26"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "1f94df13-67a8-4961-8602-7c0fb07fead3",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for FY: $130,497,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 130497000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d091f942-2c3d-47f5-8356-94019d8a6108",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for FY: $97,858,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 97858000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b42f2462-c9e6-4b06-99ac-36a189daad1a",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for FY: $81,453,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 81453000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6d2c413c-845c-4568-a1d5-c76e618f176e",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for FY: $72,880,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 72880000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4e3c1c02-bb4b-40e1-bb69-70cbdcb83f5d",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for FY: $86,137,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 86137000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9021c0cd-17a1-402c-a1c0-6a6e589f2598",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for FY: $3",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 2.97,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bca88a6d-4014-4adb-abca-9bebeda8d690",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for FY: $12,914,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 12914000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a78faaef-912e-4ab2-9b19-d139c047b1bc",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: FY | Date: 2024-01-28\n  Revenue:            $60,922,000,000\n  Gross Profit:       $44,301,000,000 (margin N/A)\n  Operating Income:   $32,972,000,000 (margin N/A)\n  Net Income:         $29,760,000,000 (margin N/A)\n  EBITDA:             $35,583,000,000\n  EPS:                1.21\n  R&D Expenses:       $8,675,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2024-01-28"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "dfae02b5-aae5-48ea-be64-04e7de361b54",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for FY: $60,922,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 60922000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b5ab8333-ae0e-4e07-ad48-b133417cabe1",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for FY: $44,301,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 44301000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "99c1dbe1-aaab-4f5c-8030-307144d4fd94",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for FY: $32,972,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 32972000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ed1eed95-866a-43be-85ed-7960a7247af6",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for FY: $29,760,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 29760000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "164cf328-3602-4da6-9b7e-8c1c8bf48025",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for FY: $35,583,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 35583000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6d361783-5c49-4b2c-8519-1444b40e4751",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for FY: $1",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 1.21,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fcc03803-f75a-487d-bc8b-c23cb22f8c2c",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for FY: $8,675,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 8675000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "76fd1884-5c53-4fe5-97f0-d7b7352ee252",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "Income Statement – NVDA | Period: FY | Date: 2023-01-29\n  Revenue:            $26,974,000,000\n  Gross Profit:       $15,356,000,000 (margin N/A)\n  Operating Income:   $4,224,000,000 (margin N/A)\n  Net Income:         $4,368,000,000 (margin N/A)\n  EBITDA:             $5,986,000,000\n  EPS:                0.18\n  R&D Expenses:       $7,339,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2023-01-29"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "81f38fe0-8081-4f24-8b98-ad1f02449fab",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Revenue for FY: $26,974,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 26974000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "13d776a2-5c4c-45d8-9f79-d7dfc9d82d90",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Gross Profit for FY: $15,356,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 15356000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c252e282-3457-4773-8dcb-dfc9983bc35b",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Operating Income for FY: $4,224,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 4224000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6c6518c9-dc66-4548-ae07-9dc7d7ba5bd5",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA Net Income for FY: $4,368,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 4368000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7930dfb2-cff5-4dc1-a6fc-3b43ffb42848",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EBITDA for FY: $5,986,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 5986000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "202e3ef2-0cfc-4576-a896-53f1dad6bbc1",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA EPS (Diluted) for FY: $0",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 0.18,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "652072cd-9c52-4e2e-9c98-6fbc1649ceec",
+    "source_id": "8c3d3761-5028-4d0a-ad60-d4a868bf81fe",
+    "source_type": "income_statement",
+    "text": "NVDA R&D Expenses for FY: $7,339,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 7339000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "72e56d8c-e080-4b6a-9589-a1f25d2e6b7c",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: FY | Date: 2026-01-25\n  Total Assets:              $206,803,000,000\n  Total Liabilities:         $49,510,000,000\n  Total Stockholders' Equity:$157,293,000,000\n  Cash & Equivalents:        $10,605,000,000\n  Short-Term Investments:    $51,951,000,000\n  Total Debt:                $11,412,000,000\n  Long-Term Debt:            $7,469,000,000\n  Current Assets:            $125,605,000,000\n  Current Liabilities:       $32,163,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2026-01-25"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bb96f8f5-7873-4001-a467-fb02c63c2fff",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for FY: $206,803,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 206803000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "cd62b0f9-7927-4d12-a931-a815d83f94d6",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for FY: $49,510,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 49510000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "117f2257-f140-4159-b752-a38580031e8e",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for FY: $157,293,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 157293000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "65e5f471-1f9f-44ef-9c50-b48d301fd16e",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for FY: $10,605,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 10605000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "002baa36-95e2-486c-afa8-d265c7e9fe50",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for FY: $11,412,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 11412000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3f22166c-8a9a-4bb1-a0ab-5dcc9b0a3df2",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for FY: $7,469,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 7469000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ddd19628-39a7-4266-b351-b98f50e8f67f",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for FY: $125,605,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 125605000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4c087484-a2fb-4e6e-8a85-4bbe05a76ef4",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for FY: $32,163,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 32163000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8b1a88ff-0703-4252-b24c-1ede9ef06811",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: FY | Date: 2025-01-26\n  Total Assets:              $111,601,000,000\n  Total Liabilities:         $32,274,000,000\n  Total Stockholders' Equity:$79,327,000,000\n  Cash & Equivalents:        $8,589,000,000\n  Short-Term Investments:    $34,621,000,000\n  Total Debt:                $10,270,000,000\n  Long-Term Debt:            $8,463,000,000\n  Current Assets:            $80,126,000,000\n  Current Liabilities:       $18,047,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2025-01-26"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e8892d11-f5da-452f-bb20-628f07c83fae",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for FY: $111,601,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 111601000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c70f576f-86b4-4e3a-b5bd-3027d6ea0075",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for FY: $32,274,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 32274000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "45ff80a8-2423-45d4-b1d4-0d7220fd0f17",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for FY: $79,327,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 79327000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "504c1ecc-7e7c-4ff6-aa6d-3686a6a7acfc",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for FY: $8,589,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 8589000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7991e7f6-cea3-48ae-be81-5d3812b06d7e",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for FY: $10,270,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 10270000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a3cf185f-4719-492f-9cdf-cc2d3d275220",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for FY: $8,463,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 8463000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2988a93b-a446-4263-8b0d-36319bf8c9ba",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for FY: $80,126,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 80126000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "64b979d5-4f07-4d1a-8466-7b6efe934552",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for FY: $18,047,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 18047000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4f5397a8-49d2-4ade-ab45-5fc8e7bb15fd",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: FY | Date: 2024-01-28\n  Total Assets:              $65,728,000,000\n  Total Liabilities:         $22,750,000,000\n  Total Stockholders' Equity:$42,978,000,000\n  Cash & Equivalents:        $7,280,000,000\n  Short-Term Investments:    $18,704,000,000\n  Total Debt:                $11,056,000,000\n  Long-Term Debt:            $8,459,000,000\n  Current Assets:            $44,345,000,000\n  Current Liabilities:       $10,631,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2024-01-28"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6f9e1418-032d-47d5-89fd-1fee2406e4b3",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for FY: $65,728,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 65728000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "824f60d2-4af8-45ba-aa18-8d983a496348",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for FY: $22,750,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 22750000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "625ba01e-1741-4ef4-8432-eb788207b759",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for FY: $42,978,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 42978000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6f78623f-0576-4afa-a26b-91e2b47ad035",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for FY: $7,280,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 7280000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d043e62b-21b5-4ed3-ae17-6121dfbd1ffa",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for FY: $11,056,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 11056000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3a38bb96-b051-4448-9068-809b16e7c102",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for FY: $8,459,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 8459000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "07a7e6b1-98b4-4def-8657-799599860152",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for FY: $44,345,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 44345000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "33ceae97-2106-461a-a74f-ffdd9b19e7aa",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for FY: $10,631,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 10631000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c7d007c9-40bb-4ed4-8ccb-272b8ba9038b",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – NVDA | Period: FY | Date: 2023-01-29\n  Total Assets:              $41,182,000,000\n  Total Liabilities:         $19,081,000,000\n  Total Stockholders' Equity:$22,101,000,000\n  Cash & Equivalents:        $3,389,000,000\n  Short-Term Investments:    $9,907,000,000\n  Total Debt:                $12,031,000,000\n  Long-Term Debt:            $9,703,000,000\n  Current Assets:            $23,073,000,000\n  Current Liabilities:       $6,563,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2023-01-29"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "762248bf-7f62-424c-888b-e93473871f51",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Assets for FY: $41,182,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 41182000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e8300958-8807-49e4-8444-3851ada54a5a",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Liabilities for FY: $19,081,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 19081000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "86c08d23-80f8-4242-9bda-ab22b9f05d3e",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Stockholders' Equity for FY: $22,101,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 22101000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2ed5ee1c-0245-4b1e-b677-894d6efddb56",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Cash & Equivalents for FY: $3,389,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 3389000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6444bb17-c457-4665-b350-cf68a2b7acf6",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Debt for FY: $12,031,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 12031000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "35b26e5f-6ab4-445f-b8e5-ec7e3bf5de1c",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Long-Term Debt for FY: $9,703,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 9703000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "43bd5339-fa6d-4bdf-8483-b26df7ea3ec1",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Assets for FY: $23,073,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 23073000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "60c097a3-ce1c-448b-85c0-74d4af349548",
+    "source_id": "0ad05f86-9e38-430f-8f9a-659b07339f67",
+    "source_type": "balance_sheet",
+    "text": "NVDA Total Current Liabilities for FY: $6,563,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 6563000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "edc67c33-6ffd-402b-91dc-f4fa7dc351be",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: FY | Date: 2026-01-25\n  Operating Cash Flow:     $102,718,000,000\n  Capital Expenditure:     $-6,042,000,000\n  Free Cash Flow:          $96,676,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-40,086,000,000\n  Depreciation & Amort.:   $2,843,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2026-01-25"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d54d1d58-05c9-4b19-9326-737073042338",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for FY: $102,718,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 102718000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "54b1c7fe-e49b-4aa6-b610-6e2e6b49499c",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for FY: $-6,042,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -6042000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2eec5e90-1282-42c7-9020-b408779fd2d4",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for FY: $96,676,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 96676000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e166046f-c71c-421a-8fba-a5c9f6bf7a33",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for FY: $-40,086,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -40086000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1c3988c1-d2b0-4e05-b498-42e3ad293e6f",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for FY: $2,843,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 2843000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3973ae05-f718-4fa4-9990-53d02e2aa4d0",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: FY | Date: 2025-01-26\n  Operating Cash Flow:     $64,089,000,000\n  Capital Expenditure:     $-3,236,000,000\n  Free Cash Flow:          $60,853,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-33,706,000,000\n  Depreciation & Amort.:   $1,864,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2025-01-26"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4918df88-8d6e-4b61-b0bb-e066ff97c1f8",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for FY: $64,089,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 64089000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6511b557-4748-4c2b-b580-a1fa98b6e1d1",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for FY: $-3,236,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -3236000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b27692e2-d919-448e-8316-658bafbb8b02",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for FY: $60,853,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 60853000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6a4301be-b991-46fc-9892-8f84373f024c",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for FY: $-33,706,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -33706000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6a2d3876-e4a7-4081-8ce6-9b05a2b521ff",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for FY: $1,864,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 1864000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a7fc477f-001d-4f4a-990a-7047a67ea9ff",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: FY | Date: 2024-01-28\n  Operating Cash Flow:     $28,090,000,000\n  Capital Expenditure:     $-1,069,000,000\n  Free Cash Flow:          $27,021,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-9,533,000,000\n  Depreciation & Amort.:   $1,508,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2024-01-28"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "47f32d09-f9c7-4b7b-8491-d15fb004706e",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for FY: $28,090,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 28090000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6d3e591a-718c-451d-a1b6-100539bbf77e",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for FY: $-1,069,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -1069000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ce319de1-e3d8-4b7f-9426-1386ad20a51e",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for FY: $27,021,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 27021000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0e332e6b-aea5-46eb-b466-9a1fbf8a354b",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for FY: $-9,533,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -9533000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e38e96b1-7c61-4ae2-9137-53132a29340b",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for FY: $1,508,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 1508000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "99009021-5e37-4682-af9b-63ca8eee9f3c",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – NVDA | Period: FY | Date: 2023-01-29\n  Operating Cash Flow:     $5,641,000,000\n  Capital Expenditure:     $-1,833,000,000\n  Free Cash Flow:          $3,808,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-10,039,000,000\n  Depreciation & Amort.:   $1,544,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "date": "2023-01-29"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "dcbbca29-4e94-4793-8873-742ff029a3a9",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Operating Cash Flow for FY: $5,641,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 5641000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fa6fcb29-8090-4ee6-be9f-ee9d1dc27805",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Capital Expenditure for FY: $-1,833,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -1833000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e24fb925-4977-4d45-8657-9444d51cd6ed",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Free Cash Flow for FY: $3,808,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 3808000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e29c4f27-7ffe-4229-9e32-9c6fc543960c",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA Stock Buybacks for FY: $-10,039,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -10039000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bfc324ce-aecf-41e3-b246-38993d7d82f8",
+    "source_id": "fec31a86-8ba8-45d1-bc0d-fc8576695606",
+    "source_type": "cash_flow",
+    "text": "NVDA D&A for FY: $1,544,000,000",
+    "metadata": {
+      "ticker": "NVDA",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 1544000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "de81755d-f657-4d81-ac51-0e4d3302477e",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-01T05:37:00Z | TheStreet | Author: Faizan Farooque\nTitle: Veteran analyst sends shocking message on Nvidia after earnings\nURL: https://www.thestreet.com/investing/veteran-analyst-sends-shocking-message-on-nvidia-after-earnings\nNvidia (NVDA) just reported another record quarter, but the markets did not react favorably, with NVDA stock falling roughly 5.5% after reporting earnings on Thursday, Feb. 26, the worst one-day drop… [+5828 chars]",
+    "metadata": {
+      "title": "Veteran analyst sends shocking message on Nvidia after earnings",
+      "published_at": "2026-03-01T05:37:00Z",
+      "source_name": "TheStreet",
+      "url": "https://www.thestreet.com/investing/veteran-analyst-sends-shocking-message-on-nvidia-after-earnings",
+      "author": "Faizan Farooque",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0c20081f-ef50-45a3-bb5b-6f175c9367e7",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-02T10:20:00Z | Yahoo Entertainment\nTitle: Bull of the Day: NVIDIA (NVDA)\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_353d7c03-497f-4449-b8a6-91e16fb09906\nIf you click 'Accept all', we and our partners, including 246 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us… [+1046 chars]",
+    "metadata": {
+      "title": "Bull of the Day: NVIDIA (NVDA)",
+      "published_at": "2026-03-02T10:20:00Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_353d7c03-497f-4449-b8a6-91e16fb09906",
+      "author": "",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "09dfa05d-8767-4033-aeaf-3505912b5a4c",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-27T02:03:00Z | TheStreet | Author: Vuk Zdinjak\nTitle: Bank of America resets Nvidia price target after earnings\nURL: https://www.thestreet.com/investing/stocks/bank-of-america-resets-nvidia-price-target-after-earnings\nNvidia (NVDA) reported its Q4 earnings on Feb. 25 after the bell. Despite the earnings smasher, the stock is trading 5.6% lower at the time of writing, Thursday, Feb. 26, according to Yahoo Finance.\r… [+5504 chars]",
+    "metadata": {
+      "title": "Bank of America resets Nvidia price target after earnings",
+      "published_at": "2026-02-27T02:03:00Z",
+      "source_name": "TheStreet",
+      "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-nvidia-price-target-after-earnings",
+      "author": "Vuk Zdinjak",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0aa6a797-836f-43db-8358-724d2dac0a0b",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-03T16:12:55Z | Yahoo Entertainment | Author: Simply Wall St\nTitle: Is Nvidia (NVDA) Quietly Redefining Its Moat By Pre‑Buying Advanced Optics Capacity?\nURL: https://finance.yahoo.com/news/nvidia-nvda-quietly-redefining-moat-161255188.html\n<ul><li>Nvidia recently entered multiyear, nonexclusive agreements to invest US$2 billion each in Coherent and Lumentum, alongside multibilliondollar purchase commitments and future capacity rights, … [+4429 chars]",
+    "metadata": {
+      "title": "Is Nvidia (NVDA) Quietly Redefining Its Moat By Pre‑Buying Advanced Optics Capacity?",
+      "published_at": "2026-03-03T16:12:55Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/nvidia-nvda-quietly-redefining-moat-161255188.html",
+      "author": "Simply Wall St",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2e4114bf-cf56-447f-9ed7-2bfabaa7f4f7",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-02T16:00:00Z | Yahoo Entertainment\nTitle: Nvidia Stock Forecast: Could NVDA Stock Rise To $300 in 2026?\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_133773fe-9885-4cd9-b5f1-a0e70d38230e\nIf you click 'Accept all', we and our partners, including 246 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us… [+1046 chars]",
+    "metadata": {
+      "title": "Nvidia Stock Forecast: Could NVDA Stock Rise To $300 in 2026?",
+      "published_at": "2026-03-02T16:00:00Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_133773fe-9885-4cd9-b5f1-a0e70d38230e",
+      "author": "",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6f1d5fe6-2bc4-4a48-bdf0-212564496f08",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-02T21:14:49Z | Yahoo Entertainment\nTitle: ‘Hard to Imagine It Getting Much Cheaper’: Cramer Makes Bold Case for NVDA Right Now\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_40f7295a-fc58-4e5f-93a3-554da8a1e0dc\nIf you click 'Accept all', we and our partners, including 246 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us… [+1046 chars]",
+    "metadata": {
+      "title": "‘Hard to Imagine It Getting Much Cheaper’: Cramer Makes Bold Case for NVDA Right Now",
+      "published_at": "2026-03-02T21:14:49Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_40f7295a-fc58-4e5f-93a3-554da8a1e0dc",
+      "author": "",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "88747ac9-a3f8-4624-90a1-2e8a489f883d",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-24T15:16:00Z | Yahoo Entertainment | Author: Zacks Equity Research\nTitle: The Zacks Analyst Blog Highlights NVIDIA, Taiwan Semiconductor, Micron Technology and Super Micro Computer\nURL: https://finance.yahoo.com/news/zacks-analyst-blog-highlights-nvidia-151600066.html\nChicago, IL – February 24, 2026 – Zacks.com announces the list of stocks featured in the Analyst Blog. Every day the Zacks Equity Research analysts discuss the latest news and events impacting stocks… [+6070 chars]",
+    "metadata": {
+      "title": "The Zacks Analyst Blog Highlights NVIDIA, Taiwan Semiconductor, Micron Technology and Super Micro Computer",
+      "published_at": "2026-02-24T15:16:00Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-nvidia-151600066.html",
+      "author": "Zacks Equity Research",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "dd4ebc75-b8c2-4b83-a876-1d98563bddd1",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-25T23:48:39Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures falter after Nvidia's big beats on earnings and forecast\nURL: https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-falter-after-nvidias-big-beats-on-earnings-and-forecast-234839986.html\nUS stock futures stalled on Thursday as investors sifted through earnings from chip heavyweight Nvidia (NVDA) for a steer on the next leg of the AI trade.\r\nDow Jones Industrial Average futures (YM=F)… [+1332 chars]",
+    "metadata": {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures falter after Nvidia's big beats on earnings and forecast",
+      "published_at": "2026-02-25T23:48:39Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-falter-after-nvidias-big-beats-on-earnings-and-forecast-234839986.html",
+      "author": "Rian Howlett",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "48710fe8-408f-4da7-8a07-79b6f2bd42c7",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-04T02:05:00Z | Yahoo Entertainment\nTitle: Prediction: Nvidia (NVDA) Will Be Worth More Than Alphabet, Apple, Amazon, Tesla, Meta, and Microsoft Combined by 2030\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b5891782-8511-492b-91d8-a2f4c8f8a40e\nIf you click 'Accept all', we and our partners, including 246 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us… [+1046 chars]",
+    "metadata": {
+      "title": "Prediction: Nvidia (NVDA) Will Be Worth More Than Alphabet, Apple, Amazon, Tesla, Meta, and Microsoft Combined by 2030",
+      "published_at": "2026-03-04T02:05:00Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b5891782-8511-492b-91d8-a2f4c8f8a40e",
+      "author": "",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7061f02f-e7fd-42b7-a96f-79963f629ca5",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-26T23:52:02Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures slide after Nvidia-led slump dampens AI mood again\nURL: https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slide-after-nvidia-led-slump-dampens-ai-mood-again-235202719.html\nUS stocks fell overnight Thursday following a tech rout led by chip giant Nvidia (NVDA), as Wall Street struggled to regain its footing ahead of a fresh inflation report.\r\nContracts linked to the Dow… [+1595 chars]",
+    "metadata": {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures slide after Nvidia-led slump dampens AI mood again",
+      "published_at": "2026-02-26T23:52:02Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slide-after-nvidia-led-slump-dampens-ai-mood-again-235202719.html",
+      "author": "Rian Howlett",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2980e8e4-5e09-4d07-b17c-0cec77432f34",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-23T17:56:01Z | Business Insider | Author: Theron Mohamed\nTitle: A data center boss hit back at AI skeptics like Michael Burry and Jim Chanos with a nod to 'Superman'\nURL: https://www.businessinsider.com/data-center-ai-michael-burry-chanos-superman-social-media-2026-2\nMichael Burry, investor of \"The Big Short\" fame.Astrid Stawiarz/Getty Images\r\n<ul><li>A data center boss compared AI skeptics to Lex Luthor's monkey army in \"Superman.\"</li><li>Michael Burry of \"The … [+3208 chars]",
+    "metadata": {
+      "title": "A data center boss hit back at AI skeptics like Michael Burry and Jim Chanos with a nod to 'Superman'",
+      "published_at": "2026-02-23T17:56:01Z",
+      "source_name": "Business Insider",
+      "url": "https://www.businessinsider.com/data-center-ai-michael-burry-chanos-superman-social-media-2026-2",
+      "author": "Theron Mohamed",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f616056d-86fb-4c64-b396-d46609f4a5e0",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-17T17:57:50Z | Business Insider | Author: wedwards@businessinsider.com (William Edwards)\nTitle: 3 reasons why Google's Gemini could be the big bogeyman of the AI trade\nURL: https://www.businessinsider.com/google-gemini-stock-market-ai-trade-threaten-openai-nvidia-tsmc-2026-2\nWhile Anthropic's Claude AI has snatched headlines recently for disrupting the software industry, one researcher says there's perhaps an even bigger bogeyman lurking in tech.\r\nTom Essaye, founder and… [+1870 chars]",
+    "metadata": {
+      "title": "3 reasons why Google's Gemini could be the big bogeyman of the AI trade",
+      "published_at": "2026-02-17T17:57:50Z",
+      "source_name": "Business Insider",
+      "url": "https://www.businessinsider.com/google-gemini-stock-market-ai-trade-threaten-openai-nvidia-tsmc-2026-2",
+      "author": "wedwards@businessinsider.com (William Edwards)",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cb85b2af-3729-4e26-bd25-0c8002da7ea9",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-26T21:00:34Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: S&P 500, Nasdaq retreat as Nvidia falls 5% despite stellar earnings\nURL: https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-retreat-as-nvidia-falls-5-despite-stellar-earnings-210034836.html\nFrom Bloomberg:\r\nNvidia Corp. (NVDA), the dominant maker of artificial intelligence processors, failed to impress investors with its latest sales forecast, signaling that concerns about an overheated… [+1182 chars]",
+    "metadata": {
+      "title": "Stock market today: S&P 500, Nasdaq retreat as Nvidia falls 5% despite stellar earnings",
+      "published_at": "2026-02-26T21:00:34Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-retreat-as-nvidia-falls-5-despite-stellar-earnings-210034836.html",
+      "author": "Rian Howlett",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d45d9018-653b-41c6-9a57-50f69a9996d6",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-08T12:11:00Z | Yahoo Entertainment\nTitle: NVIDIA Corporation (NVDA) Halts China-bound H200 Output, Reuters Reports\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5ec118d0-26eb-427b-893a-643f8553d7ad\nIf you click 'Accept all', we and our partners, including 245 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us… [+1046 chars]",
+    "metadata": {
+      "title": "NVIDIA Corporation (NVDA) Halts China-bound H200 Output, Reuters Reports",
+      "published_at": "2026-03-08T12:11:00Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5ec118d0-26eb-427b-893a-643f8553d7ad",
+      "author": "",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "51b24d4c-69bf-4f23-96d2-d68414bb5e0d",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-13T14:54:43Z | Yahoo Entertainment | Author: Sheryar Siddiq\nTitle: Goldman Sachs Expects Beat and Raise Quarter for NVIDIA (NVDA)\nURL: https://finance.yahoo.com/news/goldman-sachs-expects-beat-raise-145443095.html\nNVIDIA Corporation (NASDAQ:NVDA) ranks among the best high growth high margin stocks to buy now. On February 5, Goldman Sachs revised its Buy rating for NVIDIA Corporation (NASDAQ:NVDA), with a $250 … [+1642 chars]",
+    "metadata": {
+      "title": "Goldman Sachs Expects Beat and Raise Quarter for NVIDIA (NVDA)",
+      "published_at": "2026-02-13T14:54:43Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-expects-beat-raise-145443095.html",
+      "author": "Sheryar Siddiq",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "84885452-1a5e-4e2e-9afd-33540bbee965",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-25T16:10:25Z | Yahoo Entertainment | Author: Talha Qureshi\nTitle: Morgan Stanley Remains a Buy on NVIDIA Corporation (NVDA)\nURL: https://finance.yahoo.com/news/morgan-stanley-remains-buy-nvidia-161025284.html\nNVIDIA Corporation (NASDAQ:NVDA) is one of the Best Stocks to Buy and Hold For the Next 3 Years. On February 23, Joseph Moore from Morgan Stanley reiterated an Overweight rating on NVIDIA Corporation… [+1536 chars]",
+    "metadata": {
+      "title": "Morgan Stanley Remains a Buy on NVIDIA Corporation (NVDA)",
+      "published_at": "2026-02-25T16:10:25Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-remains-buy-nvidia-161025284.html",
+      "author": "Talha Qureshi",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "888f5d70-4b04-4fb9-9f9d-acdfe3419afb",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-23T19:49:21Z | Yahoo Entertainment | Author: Abdul Rahman\nTitle: Nvidia (NVDA) Draws Attention Amid Ownership Trends and Strategic Moves\nURL: https://finance.yahoo.com/news/nvidia-nvda-draws-attention-amid-194921626.html\nNVIDIA Corporation (NASDAQ:NVDA) is one of Goldman Sachss top growth stock picks. On February 18, Morgan Stanley analyst Erik Woodring identified NVIDIA Corporation (NASDAQ:NVDA) as the most under-ow… [+2081 chars]",
+    "metadata": {
+      "title": "Nvidia (NVDA) Draws Attention Amid Ownership Trends and Strategic Moves",
+      "published_at": "2026-02-23T19:49:21Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/nvidia-nvda-draws-attention-amid-194921626.html",
+      "author": "Abdul Rahman",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d0762dbe-8467-4ce8-a9d6-df97eaa407bd",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-06T17:29:08Z | Yahoo Entertainment | Author: Sajjl Nooranne\nTitle: NVIDIA Corporation (NVDA) Price Target Increased to $220 at Deutsche Bank\nURL: https://finance.yahoo.com/news/nvidia-corporation-nvda-price-target-172908747.html\nNVIDIA Corporation (NASDAQ:NVDA) is among the 10 Stocks That Could Skyrocket in 2026.\r\nNVIDIA Corporation (NVDA) Price Target Increased to $220 at Deutsche Bank\r\nOn February 26, Deutsche Bank raised … [+2279 chars]",
+    "metadata": {
+      "title": "NVIDIA Corporation (NVDA) Price Target Increased to $220 at Deutsche Bank",
+      "published_at": "2026-03-06T17:29:08Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/nvidia-corporation-nvda-price-target-172908747.html",
+      "author": "Sajjl Nooranne",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6e65d4a1-1d32-45c5-8b26-b90431e08cff",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-02-11T19:26:14Z | Yahoo Entertainment | Author: Faheem Tahir\nTitle: NVIDIA (NVDA) Must Comply with Strict U.S. Licensing Terms for Its H200 AI Chips China Exports\nURL: https://finance.yahoo.com/news/nvidia-nvda-must-comply-strict-192614699.html\nNVIDIA Corporation (NASDAQ:NVDA) is one of the best performing S&amp;P 500 stocks in the last five years.\r\nNVIDIA (NVDA) Must Comply with Strict U.S. Licensing Terms for Its H200 AI Chips China Expor… [+2379 chars]",
+    "metadata": {
+      "title": "NVIDIA (NVDA) Must Comply with Strict U.S. Licensing Terms for Its H200 AI Chips China Exports",
+      "published_at": "2026-02-11T19:26:14Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/nvidia-nvda-must-comply-strict-192614699.html",
+      "author": "Faheem Tahir",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "631f589e-dde8-494f-8b43-61f3950457e5",
+    "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+    "source_type": "news",
+    "text": "[NEWS] 2026-03-05T00:39:41Z | Yahoo Entertainment\nTitle: NVIDIA Corporation (NVDA) Powers the Next Era of Cloud and High-Performance Computing\nURL: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bb766f62-5146-442f-923e-5bfe0917b538\nIf you click 'Accept all', we and our partners, including 246 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us… [+1046 chars]",
+    "metadata": {
+      "title": "NVIDIA Corporation (NVDA) Powers the Next Era of Cloud and High-Performance Computing",
+      "published_at": "2026-03-05T00:39:41Z",
+      "source_name": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bb766f62-5146-442f-923e-5bfe0917b538",
+      "author": "",
+      "query": "\"NVDA\" OR \"NVIDIA Corporation\""
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

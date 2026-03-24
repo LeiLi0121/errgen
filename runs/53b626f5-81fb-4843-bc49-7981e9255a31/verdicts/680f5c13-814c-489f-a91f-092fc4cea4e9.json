@@ -1,0 +1,38 @@
+{
+  "verdict_id": "680f5c13-814c-489f-a91f-092fc4cea4e9",
+  "paragraph_id": "ea81fd78-d7ae-4243-89e4-979d3b38cb9b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "fbeac9cf-328a-48e4-b78f-b262b46b7c2d",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ea81fd78-d7ae-4243-89e4-979d3b38cb9b",
+      "offending_span": "EBITDA margin was 7.46% [CALC_ID: cd2a13f8-6996-4b54-a953-05d0ed25f82c], while free cash flow margin was negative at -3.29% [CALC_ID: a65e9487-8763-4d3c-aaba-17a6ad8077c0]",
+      "explanation": "Both cited calculations (cd2a13f8 and a65e9487) are based on FY2022 data (EBITDA $38,352,000,000 / Revenue $513,983,000,000), but the paragraph presents these margins without specifying the year. In the context of discussing FY2025 projections, this creates ambiguity and could mislead readers into thinking these are current or FY2025 margins.",
+      "relevant_chunk_ids": [
+        "bc591e33-ea87-4e39-a4cb-9ca56789b93e"
+      ],
+      "relevant_calc_ids": [
+        "cd2a13f8-6996-4b54-a953-05d0ed25f82c",
+        "a65e9487-8763-4d3c-aaba-17a6ad8077c0"
+      ],
+      "recommended_fix": "Explicitly state that these margins are from FY2022, e.g., 'EBITDA margin was 7.46% in FY2022' and 'free cash flow margin was negative at -3.29% in FY2022'."
+    },
+    {
+      "issue_id": "3b03cc32-8220-4359-b8e8-45f5d6814ed0",
+      "issue_type": "internal_inconsistency",
+      "severity": "major",
+      "paragraph_id": "ea81fd78-d7ae-4243-89e4-979d3b38cb9b",
+      "offending_span": "while free cash flow margin was negative at -3.29% [CALC_ID: a65e9487-8763-4d3c-aaba-17a6ad8077c0]. The substantial EBITDA growth suggests improved cash flow quality, though specific FY2025 operating cash flow and free cash flow figures are not available in the provided evidence to calculate current FCF margins.",
+      "explanation": "The paragraph states that FY2025 FCF figures are not available to calculate 'current FCF margins,' yet it presents an FCF margin figure (-3.29%) without clarifying it's from FY2022. This creates logical confusion: if current FCF margins can't be calculated, why is an FCF margin being cited without year specification?",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "a65e9487-8763-4d3c-aaba-17a6ad8077c0"
+      ],
+      "recommended_fix": "Clarify that the -3.29% FCF margin is historical (FY2022) and distinguish it from the unavailable FY2025 FCF data. Consider restructuring to avoid presenting historical FCF margins alongside statements about unavailable current FCF data without clear temporal distinction."
+    }
+  ],
+  "checked_at": "2026-03-12T11:57:51.341826",
+  "iteration": 1
+}

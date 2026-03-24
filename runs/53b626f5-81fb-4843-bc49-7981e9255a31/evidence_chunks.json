@@ -1,0 +1,1750 @@
+[
+  {
+    "chunk_id": "e65da658-2e8e-45cc-a6fc-d7c488c49e6a",
+    "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+    "source_type": "company_profile",
+    "text": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: https://www.amazon.com",
+    "metadata": {
+      "ticker": "AMZN",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+    "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+    "source_type": "company_profile",
+    "text": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its stores include merchandise and content purchased for resale; and products offered by third-party sellers The company also manufactures and sells electronic devices, including Kindle, Fire tablets, Fire TVs, Rings, Blink, eero, and Echo; and develops and produces media content. In addition, it offers programs that enable sellers to sell their products in its stores; and programs that allow authors, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, the company provides compute, storage, database, analytics, machine learning, and other services, as well as fulfillment, advertising, and digital content subscriptions. Additionally, it offers Amazon Prime, a membership program. The company serves consumers, sellers, developers, enterprises, content creators, and advertisers. Amazon.com, Inc. was incorporated in 1994 and is headquartered in Seattle, Washington.",
+    "metadata": {
+      "ticker": "AMZN",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "Income Statement – AMZN | Period: FY | Date: 2025-12-31\n  Revenue:            $716,924,000,000\n  Gross Profit:       $360,510,000,000 (margin N/A)\n  Operating Income:   $79,975,000,000 (margin N/A)\n  Net Income:         $77,670,000,000 (margin N/A)\n  EBITDA:             $165,341,000,000\n  EPS:                7.29\n  R&D Expenses:       $108,521,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2025-12-31"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "55489966-bd81-4933-81bb-49a96e1be734",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Revenue for FY: $716,924,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 716924000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "acb368e0-60f2-4431-9044-b8d2820f4da9",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Gross Profit for FY: $360,510,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 360510000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "98d37e7b-d9b8-4798-8d78-32c8508a1ff4",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Operating Income for FY: $79,975,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 79975000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "702aed43-27c7-4250-b493-cced0fb3ad06",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Net Income for FY: $77,670,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 77670000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a0eaec82-9374-4c40-ae69-5ff4202160a8",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EBITDA for FY: $165,341,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 165341000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e318fe5b-6513-43c6-af37-e347f379c043",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EPS (Diluted) for FY: $7",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 7.29,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "534dacac-29c9-481c-8845-b786f27f197d",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN R&D Expenses for FY: $108,521,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 108521000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7f42935f-2962-4418-812e-c92a56b27b2e",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "Income Statement – AMZN | Period: FY | Date: 2024-12-31\n  Revenue:            $637,959,000,000\n  Gross Profit:       $311,671,000,000 (margin N/A)\n  Operating Income:   $68,593,000,000 (margin N/A)\n  Net Income:         $59,248,000,000 (margin N/A)\n  EBITDA:             $123,815,000,000\n  EPS:                5.66\n  R&D Expenses:       $88,544,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2024-12-31"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "797dd08f-68f3-4278-b421-6ffa73be3aa2",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Revenue for FY: $637,959,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 637959000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a05ec92a-2318-47c7-a850-b09e8bd4c885",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Gross Profit for FY: $311,671,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 311671000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "75c2b270-174b-4aa4-ab8b-5bcd6ddc1158",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Operating Income for FY: $68,593,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 68593000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8b328bad-eb0a-4424-bdb3-031cdbf989ad",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Net Income for FY: $59,248,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 59248000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fae7ca76-ecce-40c0-a9db-c6cccdcf1d38",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EBITDA for FY: $123,815,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 123815000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d77354bb-1899-4dfb-92ba-7f0281efb537",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EPS (Diluted) for FY: $6",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 5.66,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a34693a5-e557-42e6-92f5-aa5998f8da7f",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN R&D Expenses for FY: $88,544,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 88544000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8c11e4fa-9777-4150-ac9b-45b391e7312c",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "Income Statement – AMZN | Period: FY | Date: 2023-12-31\n  Revenue:            $574,785,000,000\n  Gross Profit:       $270,046,000,000 (margin N/A)\n  Operating Income:   $36,852,000,000 (margin N/A)\n  Net Income:         $30,425,000,000 (margin N/A)\n  EBITDA:             $89,402,000,000\n  EPS:                2.95\n  R&D Expenses:       $85,622,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2023-12-31"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "507ef8bd-51b2-45bc-aa54-b1a23e17d82c",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Revenue for FY: $574,785,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 574785000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "668bde67-493a-47cb-b785-51b6ca30600b",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Gross Profit for FY: $270,046,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 270046000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "faf8cdd1-97f3-4263-a576-2a6c97a76051",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Operating Income for FY: $36,852,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 36852000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7e52a861-ec9e-4865-99d4-77ffcc7b727c",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Net Income for FY: $30,425,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": 30425000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "84302f37-2022-45a2-8a76-3be91ebe9e6b",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EBITDA for FY: $89,402,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 89402000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "db4701ac-36e5-4ac9-b1a8-a991829c869a",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EPS (Diluted) for FY: $3",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": 2.95,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2fdd530a-a7d5-4c8e-aaa5-10ab743173e5",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN R&D Expenses for FY: $85,622,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 85622000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bc591e33-ea87-4e39-a4cb-9ca56789b93e",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "Income Statement – AMZN | Period: FY | Date: 2022-12-31\n  Revenue:            $513,983,000,000\n  Gross Profit:       $225,152,000,000 (margin N/A)\n  Operating Income:   $12,248,000,000 (margin N/A)\n  Net Income:         $-2,722,000,000 (margin N/A)\n  EBITDA:             $38,352,000,000\n  EPS:                -0.27\n  R&D Expenses:       $73,213,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2022-12-31"
+    },
+    "period": "FY",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ba5bd4cb-7d9a-4baf-bafc-5b80cc72a357",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Revenue for FY: $513,983,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "revenue"
+    },
+    "period": "FY",
+    "field_name": "revenue",
+    "numeric_value": 513983000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5011ec8d-9c11-4ae9-8129-bb1516653d82",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Gross Profit for FY: $225,152,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "grossProfit"
+    },
+    "period": "FY",
+    "field_name": "grossProfit",
+    "numeric_value": 225152000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "063226d1-d6e5-48c4-8724-78adb5f35e92",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Operating Income for FY: $12,248,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingIncome"
+    },
+    "period": "FY",
+    "field_name": "operatingIncome",
+    "numeric_value": 12248000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN Net Income for FY: $-2,722,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "netIncome"
+    },
+    "period": "FY",
+    "field_name": "netIncome",
+    "numeric_value": -2722000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d1ad7d52-3b2c-4db3-9d43-359a9062fd06",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EBITDA for FY: $38,352,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "ebitda"
+    },
+    "period": "FY",
+    "field_name": "ebitda",
+    "numeric_value": 38352000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a2889481-4a1e-49cd-858a-f57cc75c1e8f",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN EPS (Diluted) for FY: $-0",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "eps"
+    },
+    "period": "FY",
+    "field_name": "eps",
+    "numeric_value": -0.27,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0eece3ef-3e1b-4c42-935a-1d34e429cf70",
+    "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+    "source_type": "income_statement",
+    "text": "AMZN R&D Expenses for FY: $73,213,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "FY",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 73213000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "da7f2cde-7295-4548-9884-3701db8f1124",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AMZN | Period: FY | Date: 2025-12-31\n  Total Assets:              $818,042,000,000\n  Total Liabilities:         $406,977,000,000\n  Total Stockholders' Equity:$411,065,000,000\n  Cash & Equivalents:        $86,810,000,000\n  Short-Term Investments:    $36,219,000,000\n  Total Debt:                $152,987,000,000\n  Long-Term Debt:            $65,648,000,000\n  Current Assets:            $229,083,000,000\n  Current Liabilities:       $218,005,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2025-12-31"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "59635266-7480-4ac6-b192-85dd9ae32cbb",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Assets for FY: $818,042,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 818042000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3ece7446-de5e-4766-8a28-9cd0d300d211",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Liabilities for FY: $406,977,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 406977000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e1a89938-1e17-4235-ba31-82444d67f675",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Stockholders' Equity for FY: $411,065,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 411065000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "119bd75b-f6e2-4495-b285-afbac6cb99aa",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Cash & Equivalents for FY: $86,810,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 86810000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "76888285-3b76-46aa-bfd7-4aaf00b22d90",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Debt for FY: $152,987,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 152987000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4e85292b-421b-4fbc-91c3-a2ffe4e45115",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Long-Term Debt for FY: $65,648,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 65648000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "cb5732e2-5d57-4f01-b4ba-a2e30bc25650",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Assets for FY: $229,083,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 229083000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e12ef106-d193-40c8-8525-6b0a89e35fb1",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Liabilities for FY: $218,005,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 218005000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ace0e34a-b9b0-4e41-bbc3-236425f663db",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AMZN | Period: FY | Date: 2024-12-31\n  Total Assets:              $624,894,000,000\n  Total Liabilities:         $338,924,000,000\n  Total Stockholders' Equity:$285,970,000,000\n  Cash & Equivalents:        $78,779,000,000\n  Short-Term Investments:    $22,423,000,000\n  Total Debt:                $130,900,000,000\n  Long-Term Debt:            $52,623,000,000\n  Current Assets:            $190,867,000,000\n  Current Liabilities:       $179,431,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2024-12-31"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "c6e5cc7c-f1ae-494f-a7b5-4a3833bc5ed5",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Assets for FY: $624,894,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 624894000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ca6ee30c-9040-4672-82e4-0f10a95a3b0a",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Liabilities for FY: $338,924,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 338924000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8904156c-4cbc-4652-99bd-af9762c38308",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Stockholders' Equity for FY: $285,970,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 285970000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "08e5cbd0-bb7d-40aa-b983-0bb4a03f5b44",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Cash & Equivalents for FY: $78,779,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 78779000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "76dfb521-ff30-47b0-a294-0fb3a2edbc5e",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Debt for FY: $130,900,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 130900000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "13789fef-ef83-482a-b199-2f29818435c0",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Long-Term Debt for FY: $52,623,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 52623000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0686ce68-b308-469e-bab7-86c902f85d5a",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Assets for FY: $190,867,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 190867000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d6514337-4ec7-4874-85fe-d0eaa244a6fc",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Liabilities for FY: $179,431,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 179431000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fa06d383-430e-4a67-9150-0e6c78b072da",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AMZN | Period: FY | Date: 2023-12-31\n  Total Assets:              $527,854,000,000\n  Total Liabilities:         $325,979,000,000\n  Total Stockholders' Equity:$201,875,000,000\n  Cash & Equivalents:        $73,387,000,000\n  Short-Term Investments:    $13,393,000,000\n  Total Debt:                $135,611,000,000\n  Long-Term Debt:            $58,314,000,000\n  Current Assets:            $172,351,000,000\n  Current Liabilities:       $164,917,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2023-12-31"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8a491eb1-1df9-4692-a5af-a8c301d1f7ee",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Assets for FY: $527,854,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 527854000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5e5661ac-8b80-404c-a915-5585a32b0269",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Liabilities for FY: $325,979,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 325979000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "24bc47b4-83c8-4183-b5b3-745de0e3b18e",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Stockholders' Equity for FY: $201,875,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 201875000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8488816c-802f-48b5-b3e1-e1fc4050fdc7",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Cash & Equivalents for FY: $73,387,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 73387000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7718d29e-c21f-4f35-bf6b-59024bb37756",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Debt for FY: $135,611,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 135611000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "836c9719-b978-45a0-8e4d-378d78919d3c",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Long-Term Debt for FY: $58,314,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 58314000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "17423ad1-67b0-441e-99aa-606cbf752e2d",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Assets for FY: $172,351,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 172351000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "297da650-34cb-4a21-a79d-a54be5eabd26",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Liabilities for FY: $164,917,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 164917000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "537258be-a06f-45d8-9eb2-f404a7cf2855",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AMZN | Period: FY | Date: 2022-12-31\n  Total Assets:              $462,675,000,000\n  Total Liabilities:         $316,632,000,000\n  Total Stockholders' Equity:$146,043,000,000\n  Cash & Equivalents:        $53,888,000,000\n  Short-Term Investments:    $16,138,000,000\n  Total Debt:                $140,118,000,000\n  Long-Term Debt:            $67,150,000,000\n  Current Assets:            $146,791,000,000\n  Current Liabilities:       $155,393,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2022-12-31"
+    },
+    "period": "FY",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d5f82a20-1270-40df-af2c-34ec81afb25e",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Assets for FY: $462,675,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalAssets"
+    },
+    "period": "FY",
+    "field_name": "totalAssets",
+    "numeric_value": 462675000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e0467b85-e109-49b4-9bfb-24eee91bd3bc",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Liabilities for FY: $316,632,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalLiabilities",
+    "numeric_value": 316632000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "428ed045-8916-4414-9259-810edf6829bc",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Stockholders' Equity for FY: $146,043,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "FY",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 146043000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "53845a39-d99e-4394-8ce3-86939b6046dd",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Cash & Equivalents for FY: $53,888,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "FY",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 53888000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f09dfdbe-ac6e-4ef2-aa34-4394f3bd966e",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Debt for FY: $140,118,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalDebt"
+    },
+    "period": "FY",
+    "field_name": "totalDebt",
+    "numeric_value": 140118000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "67b501b1-1e5b-4e51-8941-8249266431b1",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Long-Term Debt for FY: $67,150,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "longTermDebt"
+    },
+    "period": "FY",
+    "field_name": "longTermDebt",
+    "numeric_value": 67150000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b9fe8313-fe36-43b7-9e1c-69c7315a8da8",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Assets for FY: $146,791,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentAssets"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 146791000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fa884f78-ac21-43e9-a299-a6478d7c1d84",
+    "source_id": "14901ca8-9239-4783-9f3c-efc698999966",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Liabilities for FY: $155,393,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "FY",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 155393000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d8fe6472-ebb1-4cab-a97a-0574b918d96f",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AMZN | Period: FY | Date: 2025-12-31\n  Operating Cash Flow:     $139,514,000,000\n  Capital Expenditure:     $-131,819,000,000\n  Free Cash Flow:          $7,695,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $0\n  Depreciation & Amort.:   $65,756,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2025-12-31"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a803faf4-c91a-468d-9f34-39ee8fb51c65",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Operating Cash Flow for FY: $139,514,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 139514000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "cfcd80dc-1c6c-4c7e-ab10-517fe3409b9a",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Capital Expenditure for FY: $-131,819,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -131819000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e3697333-4d24-486b-b341-1a974c18b3df",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Free Cash Flow for FY: $7,695,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 7695000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "449b299c-522d-4c1b-a556-eabfc3b8495b",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Stock Buybacks for FY: $0",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b1e670ec-9a8b-4d56-815b-bf2fb3b38b75",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN D&A for FY: $65,756,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 65756000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e17e97f9-a74b-4de0-8f13-6e5d360e832d",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AMZN | Period: FY | Date: 2024-12-31\n  Operating Cash Flow:     $115,877,000,000\n  Capital Expenditure:     $-82,999,000,000\n  Free Cash Flow:          $32,878,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $0\n  Depreciation & Amort.:   $52,795,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2024-12-31"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "aec2a5fb-7fe6-4725-a37a-414dd18744a2",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Operating Cash Flow for FY: $115,877,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 115877000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "efc3e8b5-8d37-4fde-a95f-67a966497604",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Capital Expenditure for FY: $-82,999,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -82999000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "596f6433-4943-4f59-915b-2795b12d0fa0",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Free Cash Flow for FY: $32,878,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 32878000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "17ae1360-f51a-4694-b08f-fdf87e8bac33",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Stock Buybacks for FY: $0",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7ca67814-2a29-40d2-b9e6-69cc3e01db7d",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN D&A for FY: $52,795,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 52795000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ffe5534b-e98f-4949-b1c8-45e93a1c3024",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AMZN | Period: FY | Date: 2023-12-31\n  Operating Cash Flow:     $84,946,000,000\n  Capital Expenditure:     $-52,729,000,000\n  Free Cash Flow:          $32,217,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $0\n  Depreciation & Amort.:   $48,663,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2023-12-31"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4db20bad-4376-4376-882d-4c6b07689ec8",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Operating Cash Flow for FY: $84,946,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 84946000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "94a16ab7-5f77-417e-997f-1295d53d9606",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Capital Expenditure for FY: $-52,729,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -52729000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fac3fdfc-c5ae-4722-ae65-ed71b732c62f",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Free Cash Flow for FY: $32,217,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": 32217000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "72f0f78d-99ef-4fcb-ac98-29ddaaffd041",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Stock Buybacks for FY: $0",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e4c4f456-872a-4429-a112-53441b840c80",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN D&A for FY: $48,663,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 48663000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d74b5c80-392a-420c-9989-c14cd087f95d",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AMZN | Period: FY | Date: 2022-12-31\n  Operating Cash Flow:     $46,752,000,000\n  Capital Expenditure:     $-63,645,000,000\n  Free Cash Flow:          $-16,893,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-6,000,000,000\n  Depreciation & Amort.:   $41,921,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "date": "2022-12-31"
+    },
+    "period": "FY",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "22214780-af88-4f9a-a791-7d7c89b580c8",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Operating Cash Flow for FY: $46,752,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "operatingCashFlow"
+    },
+    "period": "FY",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 46752000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "dfb349a3-0a9d-4e21-b4a3-44502d50aba7",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Capital Expenditure for FY: $-63,645,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "capitalExpenditure"
+    },
+    "period": "FY",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -63645000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "59b2eee1-efeb-443a-8a24-2f272de29d5c",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Free Cash Flow for FY: $-16,893,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "freeCashFlow"
+    },
+    "period": "FY",
+    "field_name": "freeCashFlow",
+    "numeric_value": -16893000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fc3efb97-f51f-4ec5-ac8e-3f910e924bba",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN Stock Buybacks for FY: $-6,000,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "commonStockRepurchased"
+    },
+    "period": "FY",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -6000000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1959fe2e-0be8-4ddd-b9b9-49acf3287c6f",
+    "source_id": "e0a0d437-8ba4-4e9c-b0ce-939f367f325c",
+    "source_type": "cash_flow",
+    "text": "AMZN D&A for FY: $41,921,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "FY",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "FY",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 41921000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fea345d5-0db3-4d49-80ea-f40063c5c0f0",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck\nURL: https://finnhub.io/api/news?id=b557fdb2657f5992a5214e733fe13e0add42bfeeacbb47a38ebc67edde9199a0\nWall Street prepared for major earnings and economic data ahead of a blockbuster week that could shake markets.",
+    "metadata": {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck",
+      "published_at": "2025-07-28T23:37:20Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b557fdb2657f5992a5214e733fe13e0add42bfeeacbb47a38ebc67edde9199a0",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4b637d6f-ff0e-4a0b-a882-1b875fe6f3a2",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures climb ahead of week poised to shake markets\nURL: https://finnhub.io/api/news?id=da4975e4c6bad2486535417cb14a94aca7e0f6ef527599db5d08bae390ae7deb\nUS stock futures traded flat as Wall Street prepared for major earnings and economic data ahead of a blockbuster week that could shake markets.",
+    "metadata": {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures climb ahead of week poised to shake markets",
+      "published_at": "2025-07-28T23:37:20Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da4975e4c6bad2486535417cb14a94aca7e0f6ef527599db5d08bae390ae7deb",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d54b78f5-6a56-4987-b5ff-ef2e7fcaad6a",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T22:54:00Z | Yahoo\nTitle: MSFT, META, AAPL, AMZN: One Chart Stands Above the Others\nURL: https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e\n4 Magnificent 7 stocks are reporting earnings this week. They aren't all equal.",
+    "metadata": {
+      "title": "MSFT, META, AAPL, AMZN: One Chart Stands Above the Others",
+      "published_at": "2025-07-28T22:54:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "98d4fc9d-06bd-43a2-8fc8-7711edd6387d",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T22:47:00Z | Yahoo\nTitle: August: Time to Unplug from Markets?\nURL: https://finnhub.io/api/news?id=6d4b1dea0953058233e17e9b2b1ae4c7bdf1f2377e74e8f9d1ad2cd0958f3d9c\nWhile stocks continue to print fresh all-time highs, the 'sell the news' phenomenon, August post-election seasonality, and 'The Warren Buffett Indicator,' suggest that August may be a good time for active investors to take their foot off the gas pedal.",
+    "metadata": {
+      "title": "August: Time to Unplug from Markets?",
+      "published_at": "2025-07-28T22:47:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6d4b1dea0953058233e17e9b2b1ae4c7bdf1f2377e74e8f9d1ad2cd0958f3d9c",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "95e89394-c713-43d0-a05f-82ff0fe271e4",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T21:43:00Z | Yahoo\nTitle: UPS’s Earnings Are Here. Growth Is Still Missing.\nURL: https://finnhub.io/api/news?id=4992cd8ce32464cfe88dff4d2e7e5860583f0de84627230f50f2b4f128f442b3\nInvestors in United Parcel Service will be watching, and hoping, for signs growth may return when the logistics company reports what is expected to be another decline in earnings and revenue on Tuesday.  Wall Street is looking for earnings per share of $1.56 from sales of $20.9 billion, according to Bloomberg.  Sales and earnings are expected to drop about 6% and 19%, respectively.",
+    "metadata": {
+      "title": "UPS’s Earnings Are Here. Growth Is Still Missing.",
+      "published_at": "2025-07-28T21:43:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4992cd8ce32464cfe88dff4d2e7e5860583f0de84627230f50f2b4f128f442b3",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b5fd3368-74d2-4486-bb11-85141dc4fcd8",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats\nURL: https://finnhub.io/api/news?id=1d4f1455f465afbfedb585370db05f3c467eff3ae44790575cab7e36e9c2e5f0\nSecond quarter earnings season is in full swing, and the results have been largely positive so far, with more positive surprises than negative ones.",
+    "metadata": {
+      "title": "Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats",
+      "published_at": "2025-07-28T21:33:34Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1d4f1455f465afbfedb585370db05f3c467eff3ae44790575cab7e36e9c2e5f0",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2666e0c2-edde-4588-9600-c59914727e2e",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Whirlpool, Tilray stocks tumble, with Spotify earnings on deck\nURL: https://finnhub.io/api/news?id=82345b9b8cebff9063a2e32ac64714fa69789f690f9ce026b809aa6555330ff9\nSecond quarter earnings season is in full swing, and the results have been largely positive so far, with more positive surprises than negative ones.",
+    "metadata": {
+      "title": "Earnings live: Whirlpool, Tilray stocks tumble, with Spotify earnings on deck",
+      "published_at": "2025-07-28T21:33:34Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=82345b9b8cebff9063a2e32ac64714fa69789f690f9ce026b809aa6555330ff9",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0e1b4f71-a372-4872-823f-87fda164a587",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:46:08Z | Yahoo\nTitle: Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.\nURL: https://finnhub.io/api/news?id=0c149f3507ff4140b781c206eca97d91ca425f88c2aeb83513659f43b3ce0c7c\nAs Google boosts AI spending, Amazon looks primed to gain from rising demand for chips and AI tools.",
+    "metadata": {
+      "title": "Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.",
+      "published_at": "2025-07-28T20:46:08Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0c149f3507ff4140b781c206eca97d91ca425f88c2aeb83513659f43b3ce0c7c",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4a58a4c1-4682-4564-a49e-67118e9fb015",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:45:00Z | Yahoo\nTitle: The Stock Market Is Taking a Tougher Line on Earnings Misses\nURL: https://finnhub.io/api/news?id=ff4016ca93574bf281ee58af031ed73775f3cb25c8a1fb578cacd0f0a02201a3\nInvestors are dumping stocks in companies that don’t meet profit forecasts or offer positive financial guidance more aggressively than usual.",
+    "metadata": {
+      "title": "The Stock Market Is Taking a Tougher Line on Earnings Misses",
+      "published_at": "2025-07-28T20:45:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ff4016ca93574bf281ee58af031ed73775f3cb25c8a1fb578cacd0f0a02201a3",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7b554a0d-5f93-4e3a-8dd1-6077bc1dbb47",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:18:44Z | Yahoo\nTitle: Microsoft, Meta, Apple, Amazon: How to play Big Tech earnings\nURL: https://finnhub.io/api/news?id=7ad71a1b8bba78c04bfb5e3e2e8a88659df61bcbf8f7c681a3c238080e7114f6\n\"Magnificent Seven\" earnings continue with Microsoft (MSFT), Meta (META), Apple (AAPL), and Amazon (AMZN) set to deliver quarterly results this week. Neuberger Berman senior research analyst Dan Flax joins Market Domination to outline what he's watching for as the Big Tech companies release results. To watch more expert insights and analysis on the latest market action, check out more Market Domination here.",
+    "metadata": {
+      "title": "Microsoft, Meta, Apple, Amazon: How to play Big Tech earnings",
+      "published_at": "2025-07-28T20:18:44Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7ad71a1b8bba78c04bfb5e3e2e8a88659df61bcbf8f7c681a3c238080e7114f6",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "63cc6aec-27e2-4bfa-828a-3e261e089896",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:09:37Z | Yahoo\nTitle: Josh Brown Highlights His New Best Industrial Stock Pick in 2025\nURL: https://finnhub.io/api/news?id=b7f634453dab49d320c75b3d1e3dfbbcec7382e371fbfd2d486bd3e74b78e5f9\nFastenal Co (NASDAQ:FAST) is one of the Top 10 Stocks Wall Street is Buzzing About These Days. Josh Brown, CEO of Ritholtz Wealth Management, recently highlighted Fastenal Co (NASDAQ:FAST) as one of his best stock picks in the market. Here is how Brown explained his thesis about the stock: “When you look at a long-term […]",
+    "metadata": {
+      "title": "Josh Brown Highlights His New Best Industrial Stock Pick in 2025",
+      "published_at": "2025-07-28T20:09:37Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b7f634453dab49d320c75b3d1e3dfbbcec7382e371fbfd2d486bd3e74b78e5f9",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "33f22606-78cd-4711-ad04-6226d6d38bca",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:09:31Z | Yahoo\nTitle: US Equity Markets Mixed on US-EU Trade Deal; Fed Rate Decision, Flood of Earnings Loom\nURL: https://finnhub.io/api/news?id=d23d8b463ce6749375c8628532b2aa6500ebe287479bbce0dd0491b369a7aeed\nUS benchmark equity indexes were mixed on Monday after President Donald Trump announced a trade agre",
+    "metadata": {
+      "title": "US Equity Markets Mixed on US-EU Trade Deal; Fed Rate Decision, Flood of Earnings Loom",
+      "published_at": "2025-07-28T20:09:31Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d23d8b463ce6749375c8628532b2aa6500ebe287479bbce0dd0491b369a7aeed",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7505727c-0187-4e36-be0f-bb6c4fe68b39",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:05:00Z | Yahoo\nTitle: Stock market today: S&P 500, Nasdaq eke out records as markets kick off huge week for US economy\nURL: https://finnhub.io/api/news?id=bac5b6d2200e3ea8c64ffc5713ae267e34e73177c6f6d295630c4d15400a4697\nMarkets are cheering a US-EU tariff pact that has eased worries of a trade war.",
+    "metadata": {
+      "title": "Stock market today: S&P 500, Nasdaq eke out records as markets kick off huge week for US economy",
+      "published_at": "2025-07-28T20:05:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bac5b6d2200e3ea8c64ffc5713ae267e34e73177c6f6d295630c4d15400a4697",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d4ebb653-ef50-47bd-96a3-32f146c82685",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:02:28Z | Benzinga\nTitle: Netflix And Disney Quietly Use $545M-Backed Runway For AI Video — And It's Raising Big Questions In Hollywood\nURL: https://finnhub.io/api/news?id=b3d67b312b58e0021486f0995053304ff59b551b1712396a6f496287bbc07758\n ",
+    "metadata": {
+      "title": "Netflix And Disney Quietly Use $545M-Backed Runway For AI Video — And It's Raising Big Questions In Hollywood",
+      "published_at": "2025-07-28T20:02:28Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b3d67b312b58e0021486f0995053304ff59b551b1712396a6f496287bbc07758",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "33a15f77-bd65-4f10-b483-938e6c1f5145",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T19:40:51Z | Yahoo\nTitle: Transitions in the Semiconductor Space\nURL: https://finnhub.io/api/news?id=96647c1a415da948e8bb675cf8c65b32379091cbc5c5037d38fca62e172052ea\nSimplify Asset Management Portfolio Manager Michael Green discusses how investors are preparing for a busy week of tech earnings, as Microsoft, Meta, Apple, and Amazon are set to release quarterly results. Green speaks with Caroline Hyde and Ed Ludlow on \"Bloomberg Tech.\"",
+    "metadata": {
+      "title": "Transitions in the Semiconductor Space",
+      "published_at": "2025-07-28T19:40:51Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=96647c1a415da948e8bb675cf8c65b32379091cbc5c5037d38fca62e172052ea",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "758f8efe-00fb-498c-93e6-263f42d2d0d9",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T19:27:46Z | Yahoo\nTitle: Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS\nURL: https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca\nUBS Signals Amazon Strength, Lifts Target and Sparks Rally",
+    "metadata": {
+      "title": "Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS",
+      "published_at": "2025-07-28T19:27:46Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "95e75447-3c30-49f6-861e-b4c471cfa261",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T19:10:24Z | Yahoo\nTitle: S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings\nURL: https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83\n(Bloomberg) -- The S&P 500 Index’s relentless advance to record highs faces a crucial test this week, with four technology behemoths worth a combined $11.3 trillion reporting earnings over a two-day stretch.Most Read from BloombergBudapest’s Most Historic Site Gets a Controversial RebuildCan This Bridge Ease the Troubled US-Canadian Relationship?Trump Administration Sues NYC Over Sanctuary City PolicyThis earnings season is off to a solid start, but now all eyes are on quarterly results from Mic",
+    "metadata": {
+      "title": "S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings",
+      "published_at": "2025-07-28T19:10:24Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f3922ad9-85d8-409b-916a-444e08a6a248",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T18:44:10Z | Yahoo\nTitle: Amazon Q2 Earnings Preview: What to Expect From Upcoming Report\nURL: https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6\nAI?powered AWS growth and ad revenue underpin upbeat Q2 outlook for Amazon",
+    "metadata": {
+      "title": "Amazon Q2 Earnings Preview: What to Expect From Upcoming Report",
+      "published_at": "2025-07-28T18:44:10Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7ae84ac3-79a9-4c17-bd6f-36e1287d71f0",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T18:39:13Z | Yahoo\nTitle: Amazon disputes report that it raised prices of popular items since Trump took office\nURL: https://finnhub.io/api/news?id=ceb2fb5d2935eb13922fbe938540222ae64ab7f341a2f88fdc9edeb88cf0c557\nAmazon published a lengthy rebuttal to a WSJ report that found that Amazon prices had increased since Trump announced tariff plans.",
+    "metadata": {
+      "title": "Amazon disputes report that it raised prices of popular items since Trump took office",
+      "published_at": "2025-07-28T18:39:13Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ceb2fb5d2935eb13922fbe938540222ae64ab7f341a2f88fdc9edeb88cf0c557",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b089a4fc-da1a-44b7-a9ee-e6ed3d7a02a7",
+    "source_id": "01e0b55a-615b-4e42-90ee-1f397b8071e4",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T18:31:10Z | Yahoo\nTitle: Dollar Climbs Most Since May as Trade Jitters Ease: Markets Wrap\nURL: https://finnhub.io/api/news?id=d88e6691539bd9dff68b90b2c67e6bf78298091f42c1289926ba4b92ed6d283d\n(Bloomberg) -- Wall Street kicked off a pivotal week with the dollar climbing the most since May as a tariff deal between President Donald Trump and the European Union bolstered hopes for an extension of a China trade truce. Stocks halted a five-day advance. Bonds edged lower.Most Read from BloombergBudapest’s Most Historic Site Gets a Controversial RebuildCan This Bridge Ease the Troubled US-Canadian Relationship?Trump Administration Sues NYC Over Sanctuary City PolicyThe start of a week that w",
+    "metadata": {
+      "title": "Dollar Climbs Most Since May as Trade Jitters Ease: Markets Wrap",
+      "published_at": "2025-07-28T18:31:10Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d88e6691539bd9dff68b90b2c67e6bf78298091f42c1289926ba4b92ed6d283d",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

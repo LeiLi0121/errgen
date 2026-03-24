@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "80f02863-eee9-4e6c-a1c0-2c166242c243",
+  "section_name": "Financial Analysis",
+  "text": "Adobe maintains substantial R&D investment intensity at 17.73% of revenue in Q4 (K007), with R&D expenses of $1,098,000,000 (C016) against revenue of $6,194,000,000 (C010). This elevated investment level reflects the company's commitment to advancing its AI-powered capabilities across the Creative Cloud, Document Cloud, and Experience Cloud portfolios. R&D spending has grown sequentially from $1,082,000,000 in Q2 (C032) to $1,088,000,000 in Q3 (C024) and $1,098,000,000 in Q4 (C016), demonstrating sustained commitment to innovation. While this intensity pressures near-term operating margins, it positions Adobe competitively in the rapidly evolving generative AI landscape and supports long-term product differentiation.",
+  "citations": [
+    {
+      "citation_id": "b36032eb-726b-411c-8be6-6e0b5c60f1f9",
+      "chunk_id": "df1312ec-0551-4faf-bb73-22ccbee090a1",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE Revenue for Q4: $6,194,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5ddd8f0f-b88a-49f1-8e32-d1db4e281c52",
+      "chunk_id": "ceb34687-af1f-4b8e-b2b2-c1af57130483",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q4: $1,098,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5bc2bcee-0b85-4d5e-b7b6-63ab778f2440",
+      "chunk_id": "6c87562b-858b-452f-a498-6027e8187882",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q3: $1,088,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7aa87d52-6534-411b-b076-1da43f8f95b5",
+      "chunk_id": "3f748114-e2f9-4dff-bc2d-19523b92b5c2",
+      "source_id": "ddfed046-30fa-40e0-89c5-9ad67f29bd2f",
+      "source_type": "income_statement",
+      "text_snippet": "ADBE R&D Expenses for Q2: $1,082,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "df1312ec-0551-4faf-bb73-22ccbee090a1",
+    "ceb34687-af1f-4b8e-b2b2-c1af57130483",
+    "6c87562b-858b-452f-a498-6027e8187882",
+    "3f748114-e2f9-4dff-bc2d-19523b92b5c2"
+  ],
+  "calc_ids": [
+    "0364ba40-fea2-4649-be81-86c5c859c3fd"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

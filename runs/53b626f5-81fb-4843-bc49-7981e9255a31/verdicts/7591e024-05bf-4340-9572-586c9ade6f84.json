@@ -1,0 +1,22 @@
+{
+  "verdict_id": "7591e024-05bf-4340-9572-586c9ade6f84",
+  "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "16a8531e-b99b-4e03-87a2-272f3c717715",
+      "issue_type": "scope_violation",
+      "severity": "major",
+      "paragraph_id": "9276d8cf-d24f-40b6-a755-80bb033c806d",
+      "offending_span": "Amazon demonstrated robust revenue growth trajectory over the past four fiscal years. FY2025 revenue is projected to reach $716,924,000,000",
+      "explanation": "The as-of date is 2025-07, meaning FY2025 (ending 2025-12-31) has not yet concluded. The paragraph claims revenue growth 'over the past four fiscal years' but includes FY2025, which is a future period relative to the as-of date. Only FY2022, FY2023, and FY2024 are completed historical periods. While 'projected' is used for FY2025 specifically, the opening claim frames all four years as historical performance.",
+      "relevant_chunk_ids": [
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise the opening to clarify that the analysis covers three completed fiscal years (FY2022-FY2024) plus FY2025 projections. For example: 'Amazon demonstrated robust revenue growth over the past three fiscal years, with FY2025 revenue projected to reach...' or 'Amazon has shown strong revenue growth over FY2022-FY2024, with FY2025 projected to continue this trajectory...'"
+    }
+  ],
+  "checked_at": "2026-03-12T11:54:53.669712",
+  "iteration": 1
+}

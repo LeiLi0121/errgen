@@ -1,0 +1,154 @@
+{
+  "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+  "section_name": "Financial Analysis",
+  "text": "Balance sheet metrics indicate moderate leverage with adequate liquidity positioning. The current ratio in Q4 2025 was 0.9964 (K008), derived from current assets of $10,163,000,000 (C049) against current liabilities of $10,200,000,000 (C050), suggesting working capital is roughly balanced. Leverage remains conservative with debt-to-equity at 0.5720 (K009), calculated from total debt of $6,648,000,000 (C047) and stockholders' equity of $11,623,000,000 (C045). Net debt position was $1,217,000,000 (K010) after accounting for cash equivalents of $5,431,000,000 (C046), indicating the company maintains substantial cash reserves relative to its debt obligations.",
+  "citations": [
+    {
+      "citation_id": "209274a4-874f-4734-957e-478718097393",
+      "chunk_id": "8a0a1707-0876-4490-bc74-303d1707cc5a",
+      "source_id": "d17717bc-0755-4d19-99b5-fe2c8976c1e0",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Stockholders' Equity for Q4: $11,623,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "cf9b077d-3491-4df7-905a-3905194bf6f5",
+      "chunk_id": "6a40e0f1-d6ca-4f8a-b7cb-307e0b03bd94",
+      "source_id": "d17717bc-0755-4d19-99b5-fe2c8976c1e0",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Cash & Equivalents for Q4: $5,431,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "bb29fd4d-50cf-45dd-a150-84f092803f09",
+      "chunk_id": "0a70efb3-9006-4876-b1d6-0a7a9e807517",
+      "source_id": "d17717bc-0755-4d19-99b5-fe2c8976c1e0",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Debt for Q4: $6,648,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9affed05-2a5f-48a8-98f0-d28208cb0199",
+      "chunk_id": "c25f35ab-3a45-43b7-9a51-4c9bb0d91fdd",
+      "source_id": "d17717bc-0755-4d19-99b5-fe2c8976c1e0",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Current Assets for Q4: $10,163,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "376f7a4c-4168-4eb9-9fa2-95206a514d3b",
+      "chunk_id": "5c413541-a507-4f5c-9ca4-eeb5f3fe10d1",
+      "source_id": "d17717bc-0755-4d19-99b5-fe2c8976c1e0",
+      "source_type": "balance_sheet",
+      "text_snippet": "ADBE Total Current Liabilities for Q4: $10,200,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "8a0a1707-0876-4490-bc74-303d1707cc5a",
+    "6a40e0f1-d6ca-4f8a-b7cb-307e0b03bd94",
+    "0a70efb3-9006-4876-b1d6-0a7a9e807517",
+    "c25f35ab-3a45-43b7-9a51-4c9bb0d91fdd",
+    "5c413541-a507-4f5c-9ca4-eeb5f3fe10d1"
+  ],
+  "calc_ids": [
+    "e00fb55b-793c-4e6a-bea8-4bbb367fc757",
+    "2df3b40d-6bf4-4dc9-b76a-aa853c654dd8",
+    "38248b63-c9bb-4a98-9e26-3281ed35e762"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "c61cb3d4-499b-4005-9447-d911d07e33bd",
+      "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "515c87ee-3ccf-4432-9f97-a1ee95032e42",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+          "offending_span": "current assets of $10,163,000,000 (C049)",
+          "explanation": "C049 contains Total Debt ($6,648,000,000), not Current Assets. The correct chunk for Current Assets is C051 which shows $10,163,000,000.",
+          "relevant_chunk_ids": [
+            "0a70efb3-9006-4876-b1d6-0a7a9e807517",
+            "c25f35ab-3a45-43b7-9a51-4c9bb0d91fdd"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C049 to C051 for current assets value."
+        },
+        {
+          "issue_id": "e8e7aaab-b148-426c-a7b9-ebd4ee74de62",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+          "offending_span": "current liabilities of $10,200,000,000 (C050)",
+          "explanation": "C050 is not in the provided evidence chunks. C052 contains Total Current Liabilities ($10,200,000,000).",
+          "relevant_chunk_ids": [
+            "b403a6c8-b305-4c51-bb69-738988a76f74",
+            "5c413541-a507-4f5c-9ca4-eeb5f3fe10d1"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C050 to C052 for current liabilities value."
+        },
+        {
+          "issue_id": "dd0287ce-65aa-4a81-abec-e5211634e8e3",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+          "offending_span": "total debt of $6,648,000,000 (C047)",
+          "explanation": "C047 contains Stockholders' Equity ($11,623,000,000), not Total Debt. The correct chunk for Total Debt is C049 which shows $6,648,000,000.",
+          "relevant_chunk_ids": [
+            "8a0a1707-0876-4490-bc74-303d1707cc5a",
+            "0a70efb3-9006-4876-b1d6-0a7a9e807517"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C047 to C049 for total debt value."
+        },
+        {
+          "issue_id": "b8a72db9-4702-4358-ae96-529b07de4127",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+          "offending_span": "stockholders' equity of $11,623,000,000 (C045)",
+          "explanation": "C045 is not in the provided evidence chunks. C047 contains Stockholders' Equity ($11,623,000,000).",
+          "relevant_chunk_ids": [
+            "cdcdbdb3-ab2f-42eb-a2cd-20a8477e1c81",
+            "8a0a1707-0876-4490-bc74-303d1707cc5a"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C045 to C047 for stockholders' equity value."
+        },
+        {
+          "issue_id": "e0bf5767-cca2-433d-a706-da250b9d4f54",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+          "offending_span": "cash equivalents of $5,431,000,000 (C046)",
+          "explanation": "C046 is not in the provided evidence chunks. C048 contains Cash & Equivalents ($5,431,000,000).",
+          "relevant_chunk_ids": [
+            "585d855a-b05a-4cce-9865-7dd68a194913",
+            "6a40e0f1-d6ca-4f8a-b7cb-307e0b03bd94"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C046 to C048 for cash equivalents value."
+        },
+        {
+          "issue_id": "ce4d7e0f-a446-4739-9567-e405f5a055c9",
+          "issue_type": "scope_violation",
+          "severity": "minor",
+          "paragraph_id": "80ad40ec-1c87-4673-b4cc-cad8ed63ab43",
+          "offending_span": "Q4 2025",
+          "explanation": "The as-of date is 2025-08 (August 2025). Q4 2025 (calendar year) would be October-December 2025, which is after the as-of date. This references future period data.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Verify the correct fiscal period and adjust year specification if needed, or clarify if this refers to fiscal Q4 rather than calendar Q4."
+        }
+      ],
+      "checked_at": "2026-03-23T19:30:04.293390",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

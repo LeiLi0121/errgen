@@ -1,0 +1,15 @@
+{
+  "revision_id": "ec517e20-c19f-4e0f-94a0-37470bce6019",
+  "paragraph_id": "ab146e0a-c007-4b53-89bb-5f3ce657367d",
+  "iteration": 1,
+  "original_text": "Profitability metrics have improved dramatically alongside revenue growth, reflecting significant operating leverage in NVIDIA's business model. Gross profit increased from $15,356,000,000 in FY2023 [13d776a2-5c4c-45d8-9f79-d7dfc9d82d90] to $153,463,000,000 in FY2026 [bb71bc88-ddc4-4b1f-ab5b-277bf6280c37], while the FY2023 gross margin stood at 56.93% [fa1892bc-aa54-4657-b161-d3604764ec70]. Operating income grew from $4,224,000,000 in FY2023 [c252e282-3457-4773-8dcb-dfc9983bc35b] to $130,387,000,000 in FY2026 [cc584676-ac46-4524-a2c6-2e2bb1097a6b], with FY2023 operating margin at 15.66% [3ffe9f64-65dd-443d-900d-ba16f3a72e7d]. Net income expanded from $4,368,000,000 in FY2023 [6c6518c9-dc66-4548-ae07-9dc7d7ba5bd5] to $120,067,000,000 in FY2026 [28f9dab4-07b2-47bf-ab98-ebaaf92714f1], indicating the FY2023 net margin of 16.19% [2359a7d3-9892-4791-b7a9-c15cbdcb56dd] has likely improved substantially in subsequent years given the operating leverage demonstrated.",
+  "revised_text": "Profitability metrics have improved dramatically alongside revenue growth, reflecting significant operating leverage in NVIDIA's business model. Gross profit increased from $15,356,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $153,463,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a], while the FY2023 gross margin stood at 56.93% [fa1892bc-aa54-4657-b161-d3604764ec70][76fd1884-5c53-4fe5-97f0-d7b7352ee252]. Operating income grew from $4,224,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $130,387,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a], with FY2023 operating margin at 15.66% [3ffe9f64-65dd-443d-900d-ba16f3a72e7d][76fd1884-5c53-4fe5-97f0-d7b7352ee252]. Net income expanded from $4,368,000,000 in FY2023 [76fd1884-5c53-4fe5-97f0-d7b7352ee252] to $120,067,000,000 in FY2026 [cdffc354-305b-4c6d-9459-624d8d18147a], indicating the FY2023 net margin of 16.19% [2359a7d3-9892-4791-b7a9-c15cbdcb56dd][76fd1884-5c53-4fe5-97f0-d7b7352ee252] has likely improved substantially in subsequent years given the operating leverage demonstrated.",
+  "issues_addressed": [
+    "7d2f9a2f-a198-4e57-b2f6-778597d3a4a3",
+    "7f591dec-cd1a-46f4-8016-4fe7e7a7a60c",
+    "cc280d1b-06d0-40c9-93e3-88b8fd6439ef",
+    "15d34d03-0be9-435e-8979-7d7d2be949a2"
+  ],
+  "changes_summary": "Replaced individual line item chunk citations with income statement summary chunks that contain explicit dates (2023-01-29 for FY2023, 2026-01-25 for FY2026) to resolve citation mismatch issues. For margin percentage claims, cited both the calculation result ID and the income statement chunk ID to link the margin value to the specific fiscal year, addressing the checker's concern that calc_ids alone do not specify which fiscal year they represent.",
+  "revised_at": "2026-03-11T14:32:48.334069"
+}

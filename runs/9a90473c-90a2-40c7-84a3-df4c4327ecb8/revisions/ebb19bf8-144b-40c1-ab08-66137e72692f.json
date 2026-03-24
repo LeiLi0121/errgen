@@ -1,0 +1,12 @@
+{
+  "revision_id": "ebb19bf8-144b-40c1-ab08-66137e72692f",
+  "paragraph_id": "5be7ff05-bf18-46df-bf2c-9217413b9c75",
+  "iteration": 1,
+  "original_text": "Regulatory developments continue to affect NVIDIA's operations. The company must comply with strict U.S. licensing terms for its H200 AI chips destined for China exports. Reuters reported on March 8, 2026, that NVIDIA Corporation halted China-bound H200 output, indicating ongoing geopolitical constraints on the company's ability to serve certain markets. These licensing requirements represent a material consideration for NVIDIA's international revenue potential.",
+  "revised_text": "NVIDIA Corporation provides graphics, compute and networking solutions in the United States, Taiwan, China, and internationally [812d4743-83b4-43d7-b5ee-dfc8624a5328].",
+  "issues_addressed": [
+    "7e32562e-fa58-45f7-a635-b5daadfd0cbb"
+  ],
+  "changes_summary": "Removed all unsupported regulatory claims including: (1) H200 chip export restrictions to China, (2) Reuters report from March 8, 2026 regarding halted China-bound output, (3) U.S. licensing terms for AI chips, and (4) material impact on international revenue. The originally cited chunk (d45d9018-653b-41c6-9a57-50f69a9996d6) contained only a cookie consent banner, not actual news content. None of the regulatory/export restriction claims could be substantiated with available evidence chunks. Retained only the verified company profile information about NVIDIA's international operations.",
+  "revised_at": "2026-03-11T14:30:16.891929"
+}

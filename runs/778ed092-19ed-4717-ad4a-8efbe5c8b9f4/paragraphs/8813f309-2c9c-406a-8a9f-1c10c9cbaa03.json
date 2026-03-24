@@ -1,0 +1,103 @@
+{
+  "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+  "section_name": "Risk Analysis",
+  "text": "NVIDIA maintains a conservative financial risk profile with minimal leverage concerns. As of Q4 2026-01, the company's debt-to-equity ratio stands at 0.07, indicating low financial leverage relative to stockholders' equity of $157,293,000,000 [CHUNK_ID: e377f583-1e0e-4775-a1f9-d8e3eb7738e7, CALC_ID: 329a2749-65f3-4d5f-b78e-9d344e984ed5]. Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 plus short-term investments of $51,951,000,000, resulting in net debt of only $807,000,000 [CHUNK_ID: aa5327bc-c0f8-4853-8d2a-3d41ccc9877b, CHUNK_ID: 4bc124d0-55c5-43b2-8ab4-271e8fceebfa, CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106]. Liquidity appears strong with a current ratio of 3.91, suggesting the company can meet short-term obligations with current assets of $125,605,000,000 against current liabilities of $32,163,000,000 [CHUNK_ID: d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5, CHUNK_ID: 00de1d29-d626-45ec-974e-bc91eede4c2c, CALC_ID: fc6898e7-0436-452a-b590-9dcb2bcb2d1d].",
+  "citations": [
+    {
+      "citation_id": "2528bf0b-d623-4827-aac8-b0fe971c8474",
+      "chunk_id": "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Stockholders' Equity for Q4: $157,293,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d601b1a8-4431-4080-900d-fa8040aab882",
+      "chunk_id": "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Cash & Equivalents for Q4: $10,605,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6ce1b8a4-bff2-422c-b687-a3b458fb9345",
+      "chunk_id": "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Debt for Q4: $11,412,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "21f35d02-7c5d-4e4d-b9bf-f7dbcba1f94d",
+      "chunk_id": "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Current Assets for Q4: $125,605,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "17c87f36-3f01-47d7-974c-55727d323c74",
+      "chunk_id": "00de1d29-d626-45ec-974e-bc91eede4c2c",
+      "source_id": "c52f3515-50b4-4d12-8e47-0fc57c396259",
+      "source_type": "balance_sheet",
+      "text_snippet": "NVDA Total Current Liabilities for Q4: $32,163,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e377f583-1e0e-4775-a1f9-d8e3eb7738e7",
+    "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+    "4bc124d0-55c5-43b2-8ab4-271e8fceebfa",
+    "d0e4d4f1-4a40-4fe1-bd29-3a6a15a847b5",
+    "00de1d29-d626-45ec-974e-bc91eede4c2c"
+  ],
+  "calc_ids": [
+    "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+    "36dc1d31-f0f0-44e7-b628-679358946106",
+    "fc6898e7-0436-452a-b590-9dcb2bcb2d1d"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "4c6cb505-bfcc-4358-93bf-92ad3ef630c2",
+      "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "c1334da1-10e1-4ce4-9079-b140f1ccb77f",
+          "issue_type": "unsupported_claim",
+          "severity": "critical",
+          "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+          "offending_span": "short-term investments of $51,951,000,000",
+          "explanation": "The paragraph claims short-term investments of $51,951,000,000, but this figure is not found in any of the cited chunks (aa5327bc-c0f8-4853-8d2a-3d41ccc9877b or 4bc124d0-55c5-43b2-8ab4-271e8fceebfa). Chunk aa5327bc only contains cash & equivalents ($10,605,000,000), and chunk 4bc124d0 only contains total debt ($11,412,000,000). No evidence supports the short-term investments figure.",
+          "relevant_chunk_ids": [
+            "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+            "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either remove the short-term investments claim entirely, or locate and cite the correct chunk containing short-term investments data. If short-term investments should be included in net debt calculation, update the calculation accordingly."
+        },
+        {
+          "issue_id": "cab36035-5217-40ae-8708-c613529cc711",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "8813f309-2c9c-406a-8a9f-1c10c9cbaa03",
+          "offending_span": "Total debt of $11,412,000,000 is substantially covered by cash and equivalents of $10,605,000,000 plus short-term investments of $51,951,000,000, resulting in net debt of only $807,000,000",
+          "explanation": "The cited calculation (CALC_ID: 36dc1d31-f0f0-44e7-b628-679358946106) computes net debt as total_debt (11,412,000,000) - cash (10,605,000,000) = 807,000,000. This calculation does NOT include short-term investments. The text claims net debt results from subtracting both cash AND short-term investments, but the calculation only subtracts cash. If short-term investments of $51,951,000,000 were actually included, net debt would be approximately -$51,144,000,000, not $807,000,000.",
+          "relevant_chunk_ids": [
+            "aa5327bc-c0f8-4853-8d2a-3d41ccc9877b",
+            "4bc124d0-55c5-43b2-8ab4-271e8fceebfa"
+          ],
+          "relevant_calc_ids": [
+            "36dc1d31-f0f0-44e7-b628-679358946106"
+          ],
+          "recommended_fix": "Revise the text to accurately reflect the calculation methodology. Either: (1) Remove mention of short-term investments from the net debt explanation, stating only cash and equivalents are used; or (2) If short-term investments should be included, update the calculation to include them and report the correct net debt figure."
+        }
+      ],
+      "checked_at": "2026-03-23T05:36:15.224685",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

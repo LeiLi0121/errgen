@@ -1,0 +1,333 @@
+US EQUITY RESEARCH
+11 August 2025
+Upstart Holdings Inc
+AI-powered credit engine
+Company Overview
+UPST is a financial technology company that provides AI-powered lending platform for
+personal loans. Its platform enables banks and other lending institutions to offer loans to
+consumers with little or no credit history, by using alternative data sources and sophisticated
+modeling techniques to assess creditworthiness. UPST has partnerships with a number of
+banks and financial insitutions, and its platform is used to originate loans for a variety of
+purposes, including debt consolidation, credit card refinancing, and personal expenses.
+Investment Overview
+AI-powered credit score unlocks lending opportunities. UPST's AI-driven credit score system
+provides additional loan origination to bank partners. With more feedback and updates during
+different business cycles, UPST's model improves prediction accuracy and, in turn, improves
+the conversion rate. The company recently launched one of the most impactful improvements
+to its model, and has seen 18% of accuracy gains since inception. Repeat customers, loan
+scale expansion, and new bank outsourcing business (platform fee) should drive UPST's
+business growth in the long-term period.
+Rising credit concerns on more in-housed loans. To facilirate expansion into new products
+like auto/home loans, the company has added more loans to balance sheet for R&D purpose.
+This, however raised investor concerns amid elevated macro uncertainty. The sequential
+thinning of fee rate also led to concerns over long-term profitability.
+Rate cuts tailwind is softening. Rate cut expectations were once a key boost to share price, via
+lowering its funding costs and supporting a faster growth in originations. Yet, the recent tariff
+introduction may reignite inflation and adds uncertainty to the rate cut decisions. The
+management currently incorporates no rate cuts in its guidance.
+HOLD rating with USD70TP. Our TP is based on 24 FY26F forward EV/EBITDA, in line with
+historical average, as we think the good traction in new product expansion and the strength
+in AI-led underwriting model offset the risk from macro weakness.
+Risks
+Upside risks include consumer credit quality improving faster than expected, consumer
+demand for unsecured loans improving despite a challenging environment, and institutional
+and bank funding being more resilient than expected.
+Downside risks include deterioration of customer credit profile and stricter regulatory
+supervision.
+Analysts:
+Edmond Fok | dbsvhk@dbs.com
+Manyi Lu | dbsvhk@dbs.com
+Key Financial Data
+Bloomberg Ticker UPST US
+Sector Financials
+Share Price (USD) 69.53
+DBS Rating HOLD
+12-mth Target Price (USD) 70.00
+Market Cap (USDb) 6.7
+Volume (m shares) 8,018.1
+Free float (%) 86.6
+Dividend yield (%) n.a.
+Net Debt to Equity (%) 98.4
+Fwd. P/E (x) 43.1
+P/Book (x) 9.3
+ROE (%) -1.0
+Closing Price as of 7 Aug 2025
+Indexed Share Price vs Composite Index Performance
+0
+50
+100
+150
+200
+250
+300
+350
+Aug-21
+Feb-22
+Aug-22
+Feb-23
+Aug-23
+Feb-24
+Aug-24
+Feb-25
+Aug-25
+Upstart Holdings S&P 500
+(indexed)
+Financial Summary (USD M)
+FY Dec FY2021A FY2022A FY2023A FY2024F FY2025F
+Sales 849 842 560 599 1,050
+% y/y 263.5 -0.7 -33.5 6.9 75.2
+Gross Profit 684 719 410 428 -
+% y/y 257.9 5.2 -43.0 4.3 -
+EBITDA 232 37 -17 -24 215
+% y/y 636.1 -84.0 -146.3 36.8 -1013.2
+Net Profit (Loss) 224 19 -47 -40 172
+% y/y 1181.1 -91.4 -342.3 -15.4 -533.9
+FCF 160 -684 105 136 -109
+CAPEX 8 9 2 29 26
+EBITDA Margin (%) 27.3 4.4 -3.1 -3.9 20.5
+Net Margin (%) 26.4 2.3 -8.4 -6.6 16.4
+ROA (%) 19.5 1.0 -2.4 -3.3 7.3
+ROE (%) 40.5 1.8 -7.2 -8.3 23.3
+Tax Rate (%) -0.8 -2.2 -0.2 0.2 5.3
+Valuation Metrics
+FY Dec FY2021A FY2022A FY2023A FY2024F FY2025F
+P/E 16.4 185.4 - - 43.8
+P/B 4.0 4.8 5.3 11.1 8.4
+Dividend Yield 0.0 0.0 0.0 0.0 0.0
+EV/EBITDA (x) 17.3 108.3 - -327.9 35.9
+FCF Yield % 4.3 -21.2 - - -
+Credit & Cashflow Metrics
+FY Dec FY2021A FY2022A FY2023A FY2024F FY2025F
+Debt / Equity 0.9 1.5 - 1.9 2.0
+Net Debt / Equity CASH 0.8 - 0.9 0.8
+Debt / Assets 0.4 0.5 0.5 0.6 0.6
+Net Debt / Assets CASH 0.3 0.3 0.3 0.2
+EBITDA / Int Exp 70.8 3.4 -0.5 -0.8 11.1
+Debt / EBITDA 3.0 26.5 -60.4 -44.2 4.8
+ST Debt / Total Debt (%) 0.0 0.0 0.0 0.0 0.0
+[Cash + CFO] / ST Debt - - - - -
+Receivables Days 14.5 22.2 31.1 - -
+Days Payable 269.9 217.7 213.7 - -
+Inventory Days - - - - -
+Source: Refinitiv
+Source: Refinitiv
+Source: Refinitiv
+Target Price & Ratings History
+Source: DBS
+Analysts: Edmond Fok
+Manyi Lu
+DBS Group Research recommendations are based on an Absolute Total Return* Rating system, defined as follows:
+STRONG BUY (>20% total return over the next 3 months, with identifiable share price catalysts within this time frame)
+BUY (>15% total return over the next 12 months for small caps, >10% for large caps)
+HOLD (-10% to +15% total return over the next 12 months for small caps, -10% to +10% for large caps)
+FULLY VALUED (negative total return, i.e., > -10% over the next 12 months)
+SELL (negative total return of > -20% over the next 3 months, with identifiable share price catalysts within this time frame)
+*Share price appreciation + dividends
+Sources for all charts and tables are DBS unless otherwise specified.
+GENERAL DISCLOSURE/DISCLAIMER
+This report is prepared by DBS Bank (Hong Kong) Limited (“DBS HK”). This report is solely intended for the clients of DBS Bank Ltd, DBS Vickers
+Securities (Singapore) Pte Ltd, its respective connected and associated corporations and affiliates only and no part of this document may be (i)
+Limited ("DBS HK").
+The research set out in this report is based on information obtained from sources believed to be reliable, but we (which collectively refers to DBS
+Bank Ltd, DBS Vickers Securities (Singapore) Pte Ltd, its respective connected and associated corporations, affiliates and their respective directors,
+officers, employees and agents (collectively, the “DBS Group”) have not conducted due diligence on any of the companies, verified any information
+or sources or taken into account any other factors which we may consider to be relevant or appropriate in preparing the research. Accordingly,
+we do not make any representation or warranty as to the accuracy, completeness or correctness of the research set out in this report. Opinions
+expressed are subject to change without notice. This research is prepared for general circulation. Any recommendation contained in this document
+does not have regard to the specific investment objectives, financial situation and the particular needs of any specific addressee. This document
+is for the information of addressees only and is not to be taken in substitution for the exercise of judgement by addressees, who should obtain
+separate independent legal or financial advice. The DBS Group accepts no liability whatsoever for any direct, indirect and/or consequential loss
+(including any claims for loss of profit) arising from any use of and/or reliance upon this document and/or further communication given in relation
+to this document. This document is not to be construed as an offer or a solicitation of an offer to buy or sell any securities. The DBS Group, along
+with its affiliates and/or persons associated with any of them may from time to time have interests in the securities mentioned in this document.
+The DBS Group, may have positions in, and may effect transactions in securities mentioned herein and may also perform or seek to perform
+broking, investment banking and other banking services for these companies.
+Any valuations, opinions, estimates, forecasts, ratings or risk assessments herein constitutes a judgment as of the date of this report, and there
+can be no assurance that future results or events will be consistent with any such valuations, opinions, estimates, forecasts, ratings or risk
+assessments. The information in this document is subject to change without notice, its accuracy is not guaranteed, it may be incomplete or
+condensed, it may not contain all material information concerning the company (or companies) referred to in this report and the DBS Group is
+under no obligation to update the information in this report.
+This publication has not been reviewed or authorized by any regulatory authority in Singapore, Hong Kong or elsewhere. There is no planned
+schedule or frequency for updating research publication relating to any issuer.
+The valuations, opinions, estimates, forecasts, ratings or risk assessments described in this report were based upon a number of estimates and
+assumptions and are inherently subject to significant uncertainties and contingencies. It can be expected that one or more of the estimates on
+which the valuations, opinions, estimates, forecasts, ratings or risk assessments were based will not materialize or will vary significantly from actual
+results. Therefore, the inclusion of the valuations, opinions, estimates, forecasts, ratings or risk assessments described herein IS NOT TO BE RELIED
+UPON as a representation and/or warranty by the DBS Group (and/or any persons associated with the aforesaid entities), that:
+(a) such valuations, opinions, estimates, forecasts, ratings or risk assessments or their underlying assumptions will be achieved, and
+(b) there is any assurance that future results or events will be consistent with any such valuations, opinions, estimates, forecasts, ratings or risk
+assessments stated therein.
+Please contact the primary analyst for valuation methodologies and assumptions associated with the covered companies or price targets.
+Any assumptions made in this report that refers to commodities, are for the purposes of making forecasts for the company (or companies)
+mentioned herein. They are not to be construed as recommendations to trade in the physical commodity or in the futures contract relating to the
+commodity referred to in this report.
+DBSVUSA, a US-registered broker-dealer, does not have its own investment banking or research department, has not participated in any public
+offering of securities as a manager or co-manager or in any other investment banking transaction in the past twelve months and does not engage
+in market-making.
+ANALYST CERTIFICATION
+The research analyst(s) primarily responsible for the content of this research report, in part or in whole, certifies that the views about the companies
+and their securities expressed in this report accurately reflect his/her personal views. The analyst(s) also certifies that no part of his/her
+compensation was, is, or will be, directly or indirectly, related to specific recommendations or views expressed in the report. The research analyst
+(s) primarily responsible for the content of this research report, in part or in whole, certifies that he or his associate1
+does not serve as an officer
+of the issuer or the new listing applicant (which includes in the case of a real estate investment trust, an officer of the management company of
+the real estate investment trust; and in the case of any other entity, an officer or its equivalent counterparty of the entity who is responsible for
+the management of the issuer or the new listing applicant) and the research analyst(s) primarily responsible for the content of this research report
+or his associate does not have financial interests2
+in relation to an issuer or a new listing applicant that the analyst reviews. DBS Group has
+procedures in place to eliminate, avoid and manage any potential conflicts of interests that may arise in connection with the production of research
+reports. The research analyst(s) responsible for this report operates as part of a separate and independent team to the investment banking
+function of the DBS Group and procedures are in place to ensure that confidential information held by either the research or investment banking
+function is handled appropriately. There is no direct link of DBS Group's compensation to any specific investment banking function of the DBS
+Group.
+COMPANY-SPECIFIC / REGULATORY DISCLOSURES
+1. DBS Bank Ltd, DBS HK, DBS Vickers Securities (Singapore) Pte Ltd (''DBSVS''), DBSVUSA, or their subsidiaries and/or other affiliates have a
+proprietary position in Upstart Holdings Inc recommended in this report as of 31 Jul 2025.
+Compensation for investment banking services:
+2. DBSVUSA does not have its own investment banking or research department, nor has it participated in any public offering of securities as a
+manager or co-manager or in any other investment banking transaction in the past twelve months. Any US persons wishing to obtain further
+information, including any clarification on disclosures in this disclaimer, or to effect a transaction in any security discussed in this document
+should contact DBSVUSA exclusively.
+Disclosure of previous investment recommendation produced:
+3. DBS Bank Ltd, DBS Vickers Securities (Singapore) Pte Ltd (''DBSVS''), their subsidiaries and/or other affiliates may have published other
+investment recommendations in respect of the same securities / instruments recommended in this research report during the preceding 12
+months. Please contact the primary analyst listed on page 1 of this report to view previous investment recommendations published by DBS
+Bank Ltd, DBS Vickers Securities (Singapore) Pte Ltd (''DBSVS''), their subsidiaries and/or other affiliates in the preceding 12 months.
+1
+An associate is defined as (i) the spouse, or any minor child (natural or adopted) or minor step-child, of the analyst; (ii) the trustee of a trust of which the analyst, his
+spouse, minor child (natural or adopted) or minor step-child, is a beneficiary or discretionary object; or (iii) another person accustomed or obliged to act in accordance
+with the directions or instructions of the analyst.
+2
+Financial interest is defined as interests that are commonly known financial interest, such as investment in the securities in respect of an issuer or a new listing applicant,
+or financial accommodation arrangement between the issuer or the new listing applicant and the firm or analysis. This term does not include commercial lending
+conducted at arm's length, or investments in any collective investment scheme other than an issuer or new listing applicant notwithstanding the fact that the scheme
+has investments in securities in respect of an issuer or a new listing applicant.
+RESTRICTIONS ON DISTRIBUTION
+General This report is not directed to, or intended for distribution to or use by, any person or entity who is a citizen or resident of or
+located in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be
+contrary to law or regulation.
+Australia This report is being distributed in Australia by DBS Bank Ltd, DBS Vickers Securities (Singapore) Pte Ltd (“DBSVS”) or DBSV HK.
+DBS Bank Ltd holds Australian Financial Services Licence no. 475946.
+DBS Bank Ltd, DBSVS and DBSV HK are exempted from the requirement to hold an Australian Financial Services Licence under
+the Corporation Act 2001 (“CA”) in respect of financial services provided to the recipients. Both DBS and DBSVS are regulated
+by the Monetary Authority of Singapore under the laws of Singapore, and DBSV HK is regulated by the Hong Kong Securities
+and Futures Commission under the laws of Hong Kong, which differ from Australian laws.
+Distribution of this report is intended only for “wholesale investors” within the meaning of the CA.
+Hong Kong This report is being distributed in Hong Kong by DBS Bank Ltd, DBS Bank (Hong Kong) Limited and DBS Vickers (Hong Kong)
+Limited, all of which are registered with or licensed by the Hong Kong Securities and Futures Commission to carry out the
+regulated activity of advising on securities. DBS Bank Ltd., Hong Kong Branch is a limited liability company incorporated in
+Singapore.
+For any query regarding the materials herein, please contact Dennis Lam (Reg No. AH8290) at dbsvhk@dbs.com
+Indonesia This report is being distributed in Indonesia by PT DBS Vickers Sekuritas Indonesia.
+Malaysia This report is distributed in Malaysia by AllianceDBS Research Sdn Bhd ("ADBSR"). Recipients of this report, received from
+ADBSR are to contact the undersigned at 603-2604 3333 in respect of any matters arising from or in connection with this
+report. In addition to the General Disclosure/Disclaimer found at the preceding page, recipients of this report are advised that
+ADBSR (the preparer of this report), its holding company Alliance Investment Bank Berhad, their respective connected and
+associated corporations, affiliates, their directors, officers, employees, agents and parties related or associated with any of
+them may have positions in, and may effect transactions in the securities mentioned herein and may also perform or seek to
+perform broking, investment banking/corporate advisory and other services for the subject companies. They may also have
+received compensation and/or seek to obtain compensation for broking, investment banking/corporate advisory and other
+services from the subject companies.
+Wong Ming Tek, Executive Director, ADBSR
+Singapore This report is distributed in Singapore by DBS Bank Ltd (Company Regn. No. 196800306E) or DBSVS (Company Regn No.
+198600294G), both of which are Exempt Financial Advisers as defined in the Financial Advisers Act and regulated by the
+Monetary Authority of Singapore. DBS Bank Ltd and/or DBSVS, may distribute reports produced by its respective foreign
+entities, affiliates or other foreign research houses pursuant to an arrangement under Regulation 32C of the Financial Advisers
+Regulations. Where the report is distributed in Singapore to a person who is not an Accredited Investor, Expert Investor or an
+Institutional Investor, DBS Bank Ltd accepts legal responsibility for the contents of the report to such persons only to the
+extent required by law. Singapore recipients should contact DBS Bank Ltd at 6878 8888 for matters arising from, or in
+connection with the report.
+Thailand This report is being distributed in Thailand by DBS Vickers Securities (Thailand) Co Ltd.
+For any query regarding the materials herein, please contact Chanpen Sirithanarattanakul at DBSVTresearch@dbs.com
+United Kingdom This report is produced by DBS Bank (Hong Kong) Limited (“DBS HK”) which is regulated by the Hong Kong Monetary Authority.
+This report is disseminated in the United Kingdom by DBS Bank Ltd, London Branch (“DBS UK”). DBS UK is authorised by the
+Prudential Regulation Authority and is subject to regulation by the Financial Conduct Authority and limited regulation by the
+Prudential Regulation Authority. Details about the extent of our regulation by the Prudential Regulation Authority are available
+from us on request.
+In respect of the United Kingdom, this report is solely intended for the clients of DBS UK, its respective connected and
+associated corporations and affiliates only and no part of this document may be (i) copied, photocopied or duplicated in any
+persons having professional experience in matters relating to investments. Any investment activity following from this
+communication will only be engaged in with such persons. Persons who do not have professional experience in matters
+relating to investments should not rely on this communication.
+Dubai
+International
+Financial Centre
+This communication is provided to you as a Professional Client or Market Counterparty as defined in the DFSA Rulebook
+Conduct of Business Module (the "COB Module"), and should not be relied upon or acted on by any person which does not
+meet the criteria to be classified as a Professional Client or Market Counterparty under the DFSA rules.
+This communication is from the branch of DBS Bank Ltd operating in the Dubai International Financial Centre (the "DIFC")
+under the trading name "DBS Bank Ltd. (DIFC Branch)" ("DBS DIFC"), registered with the DIFC Registrar of Companies under
+number 156 and having its registered office at units 608 - 610, 6th Floor, Gate Precinct Building 5, PO Box 506538, DIFC, Dubai,
+United Arab Emirates.
+DBS DIFC is regulated by the Dubai Financial Services Authority (the "DFSA") with a DFSA reference number F000164. For more
+information on DBS DIFC and its affiliates, please see http://www.dbs.com/ae/our--network/default.page.
+Where this communication contains a research report, this research report is prepared by the entity referred to therein, which
+may be DBS Bank Ltd or a third party, and is provided to you by DBS DIFC. The research report has not been reviewed or
+authorised by the DFSA. Such research report is distributed on the express understanding that, whilst the information
+contained within is believed to be reliable, the information has not been independently verified by DBS DIFC.
+Unless otherwise indicated, this communication does not constitute an "Offer of Securities to the Public" as defined under
+Article 12 of the Markets Law (DIFC Law No.1 of 2012) or an "Offer of a Unit of a Fund" as defined under Article 19(2) of the
+Collective Investment Law (DIFC Law No.2 of 2010).
+The DFSA has no responsibility for reviewing or verifying this communication or any associated documents in connection with
+this investment and it is not subject to any form of regulation or approval by the DFSA. Accordingly, the DFSA has not approved
+this communication or any other associated documents in connection with this investment nor taken any steps to verify the
+information set out in this communication or any associated documents, and has no responsibility for them. The DFSA has not
+assessed the suitability of any investments to which the communication relates and, in respect of any Islamic investments (or
+other investments identified to be Shari'a compliant), neither we nor the DFSA has determined whether they are Shari'a
+compliant in any way.
+Any investments which this communication relates to may be illiquid and/or subject to restrictions on their resale. Prospective
+purchasers should conduct their own due diligence on any investments. If you do not understand the contents of this
+document you should consult an authorised financial adviser.
+United States This report was prepared by DBS Bank (Hong Kong) Limited (“DBS HK”). DBSVUSA did not participate in its preparation. The
+research analyst(s) named on this report are not registered as research analysts with FINRA and are not associated persons
+of DBSVUSA. The research analyst(s) are not subject to FINRA Rule 2241 restrictions on analyst compensation, communications
+with a subject company, public appearances and trading securities held by a research analyst. This report is being distributed
+in the United States by DBSVUSA, which accepts responsibility for its contents. This report may only be distributed to Major
+U.S. Institutional Investors (as defined in SEC Rule 15a-6) and to such other institutional investors and qualified persons as
+DBSVUSA may authorize. Any U.S. person receiving this report who wishes to effect transactions in any securities referred to
+herein should contact DBSVUSA directly and not its affiliate.
+Other
+jurisdictions
+In any other jurisdictions, except if otherwise restricted by laws or regulations, this report is intended only for qualified,
+professional, institutional or sophisticated investors as defined in the laws and regulations of such jurisdictions.
+DBS REGIONAL RESEARCH OFFICES
+HONG KONG
+DBS Bank (Hong Kong) Ltd
+Contact: Dennis Lam
+13th Floor One Island East,
+18 Westlands Road,
+Quarry Bay, Hong Kong
+Tel: 852 3668 4181
+Fax: 852 2521 1812
+e-mail: dbsvhk@dbs.com
+SINGAPORE
+DBS Bank Ltd
+Contact: Andy Sim
+12 Marina Boulevard,
+Marina Bay Financial Centre Tower 3
+Singapore 018982
+Tel: 65 6878 8888
+e-mail: groupresearch@dbs.com
+Company Regn. No. 196800306E
+INDONESIA
+PT DBS Vickers Sekuritas (Indonesia)
+Contact: William Simadiputra
+DBS Bank Tower
+Ciputra World 1, 32/F
+Jl. Prof. Dr. Satrio Kav. 3-5
+Jakarta 12940, Indonesia
+Tel: 62 21 3003 4900
+Fax: 6221 3003 4943
+e-mail: indonesiaresearch@dbs.com
+THAILAND
+DBS Vickers Securities (Thailand) Co Ltd
+Contact: Chanpen Sirithanarattanakul
+989 Siam Piwat Tower Building,
+9th, 14th-15th Floor
+Rama 1 Road, Pathumwan,
+Bangkok Thailand 10330
+Tel. 66 2 857 7831
+Fax: 66 2 658 1269
+e-mail: DBSVTresearch@dbs.com
+Company Regn. No 0105539127012
+Securities and Exchange Commission, Thailand

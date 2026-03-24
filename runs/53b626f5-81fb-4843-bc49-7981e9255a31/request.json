@@ -1,0 +1,19 @@
+{
+  "request_id": "aa785906-932d-4a05-8a37-2707ef25b91d",
+  "raw_text": "Please write a professional US equity research report on Amazon.com (AMZN) as of late July 2025, similar in style and depth to a DBS sell-side report, focusing on e-commerce market share and margin expansion, AWS as the key profit driver, the fast-growing high-margin advertising business, overall valuation and target price, and key risks.",
+  "ticker": "AMZN",
+  "company_name": "Amazon.com, Inc.",
+  "market": "US",
+  "as_of_date": "2025-07",
+  "focus_areas": [
+    "e-commerce market share",
+    "margin expansion",
+    "AWS profit driver",
+    "advertising business",
+    "valuation and target price",
+    "key risks"
+  ],
+  "report_style": "standard",
+  "language": "en",
+  "created_at": "2026-03-12T13:14:41.027989"
+}

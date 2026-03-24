@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "898a5cf6-c582-4fb8-acd5-43970ddbffb2",
+  "section_name": "Recent Developments",
+  "text": "Adobe's stock has experienced notable volatility in recent trading sessions, with shares declining amid broader market concerns about AI competition in the creative software space. According to market commentary, Adobe stock fell approximately 1.7% following Google's announcement of enhanced image editing capabilities in its Gemini app, which investors viewed as potentially threatening Adobe's dominance in digital imaging C018. The stock closed at $354.91 in one recent session, representing a -2.29% shift from the previous trading day C014. Year-to-date, Adobe shares have lost 17.8% as investors remain skeptical about the company's AI product monetization strategy C015. Over the past six months, shareholders have lost 18.6% of their capital, underperforming the S&P 500 which climbed 8.8% during the same period C006.",
+  "citations": [
+    {
+      "citation_id": "adfc3dff-5cc1-489f-bfcc-ca9df824001f",
+      "chunk_id": "0977127c-7fc9-4fd5-af77-6d45a3b0d3b3",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-26T15:13:23Z | Yahoo\nTitle: Adobe stock falls after Google unveils enhanced image editing in Gemini\nURL: https://finnhub.io/api/news?id=92dd266ee25cbd5d2e2d4a86051594576682d49f167eae0900c78412d2734cd6\nInvesting.com -- Adobe (NASDAQ:ADBE) stock declined 1.7% Tuesday following Google’s ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0dbdecc5-1bf0-4be7-b2c9-32276a9e5a99",
+      "chunk_id": "3d73965e-7d1f-4673-9f21-872bce88025c",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-26T21:45:01Z | Yahoo\nTitle: Adobe Systems (ADBE) Stock Slides as Market Rises: Facts to Know Before You Trade\nURL: https://finnhub.io/api/news?id=e7ddd5d04bbf85d089b1706b2ceb81ca238c730218df379f4df8745510206110\nIn the most recent trading session, Adobe Systems (ADBE) closed at $354.91",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6fb2bece-c6a3-4d87-a5ae-b88ea34e5d0c",
+      "chunk_id": "c9d90c47-5bcb-4d7b-9d29-1204656bd2a6",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-26T21:23:28Z | Yahoo\nTitle: AI Stock Adobe (ADBE) Has Lost 13% Since Jim Cramer Expressed His Doubts\nURL: https://finnhub.io/api/news?id=8b2e15f65ec672f255753dac2d30a552fb74dbf6b61db62a832f856e7b0d9205\nWe recently published Jim Cramer’s 20 Bold AI Predictions – See How They Played Out",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d6c52ff7-6c7b-48bd-b39b-adabbaca2b2b",
+      "chunk_id": "590958a2-459f-468a-b69f-a6df1102fbb8",
+      "source_id": "f3f4ec07-94b5-43c7-a8e2-2ef2fb111359",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-28T04:02:44Z | Yahoo\nTitle: 2 Reasons to Like ADBE and 1 to Stay Skeptical\nURL: https://finnhub.io/api/news?id=cd91fb6c00d0cac19fa054e78bd451cf80bd101f0f9b7e5f5aa4c9d5dab2b07e\nOver the past six months, Adobe’s stock price fell to $356.95. Shareholders have lost 18.6% of their capital,",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0977127c-7fc9-4fd5-af77-6d45a3b0d3b3",
+    "3d73965e-7d1f-4673-9f21-872bce88025c",
+    "c9d90c47-5bcb-4d7b-9d29-1204656bd2a6",
+    "590958a2-459f-468a-b69f-a6df1102fbb8"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

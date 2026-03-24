@@ -1,0 +1,15 @@
+{
+  "revision_id": "0ad21e95-4009-478c-935a-0a3349d217c2",
+  "paragraph_id": "019cdb06-d6d0-451b-b6d3-957d28864494",
+  "iteration": 1,
+  "original_text": "Financial leverage has increased, with Total Debt rising from $130,900,000,000 in FY2024 to $152,987,000,000 in FY2025, representing a 16.9% year-over-year increase [CHUNK_ID: 76dfb521-ff30-47b0-a294-0fb3a2edbc5e, CHUNK_ID: 76888285-3b76-46aa-bfd7-4aaf00b22d90]. While the company maintains substantial liquidity with Cash & Equivalents of $86,810,000,000 and Short-Term Investments of $36,219,000,000 as of FY2025 [CHUNK_ID: 119bd75b-f6e2-4495-b285-afbac6cb99aa, CHUNK_ID: da7f2cde-7295-4548-9884-3701db8f1124], the Current Ratio of approximately 1.05 (Current Assets of $229,083,000,000 / Current Liabilities of $218,005,000,000) suggests limited short-term liquidity cushion [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650, CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]. Historical volatility is evident, as the company recorded a Net Loss of -$2,722,000,000 in FY2022 before recovering to Net Income of $77,670,000,000 in FY2025 [CHUNK_ID: 5fa2f3f2-c960-4e6d-9b1c-d87e6d277e36, CHUNK_ID: 702aed43-27c7-4250-b493-cced0fb3ad06].",
+  "revised_text": "Financial leverage remains significant, with Total Debt recorded at $130,900,000,000 in FY2024 [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db]. The company maintains substantial liquidity with Cash & Equivalents of $78,779,000,000 and Short-Term Investments of $22,423,000,000 as of FY2024 [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db]. The Current Ratio of approximately 1.06 (Current Assets of $190,867,000,000 / Current Liabilities of $179,431,000,000) indicates a moderate short-term liquidity cushion [CHUNK_ID: ace0e34a-b9b0-4e41-bbc3-236425f663db]. Historical volatility is evident, as the company recorded a Net Loss of -$2,722,000,000 in FY2022 before recovering to Net Income of $59,248,000,000 in FY2024 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e].",
+  "issues_addressed": [
+    "7f78af1f-241e-4c80-a9a3-59607aa4a542",
+    "2eea7078-093a-47a3-9099-576cfa9ac586",
+    "7296e834-e3da-4c27-a954-f216d8d29edb",
+    "713db922-37c6-4cc2-a54e-684e5424cb88"
+  ],
+  "changes_summary": "Replaced FY2025 data with FY2024 actuals to resolve scope violations (report date is July 2025, FY2025 ends Dec 2025). Removed unsupported debt growth trend due to lack of FY2023 balance sheet evidence. Updated citations to reference full financial statement tables that explicitly state fiscal year end dates (e.g., 2024-12-31, 2022-12-31) to fix citation mismatches regarding fiscal year attribution. Recalculated Current Ratio based on FY2024 figures.",
+  "revised_at": "2026-03-12T11:20:40.822359"
+}

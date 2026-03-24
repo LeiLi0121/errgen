@@ -1,0 +1,12 @@
+{
+  "revision_id": "eba84f7e-659b-4c0a-a2d7-b9f6f8deced3",
+  "paragraph_id": "6821cbef-1777-4489-b627-16676ee1632b",
+  "iteration": 3,
+  "original_text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+  "revised_text": "NVIDIA's strong financial performance suggests a competitive position in the AI infrastructure market. The company demonstrated exceptional profitability in Q4 FY2026, achieving a net margin of 63.06% [01915efa-aaa7-42eb-b9e2-9b56d3881324] and gross margin of 75.00% [34f47a7f-d779-42fc-a306-dfd0f9e6fdd2]. Revenue growth remained elevated in the second half of the fiscal year, with Q3 showing 21.96% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27] and Q4 revenue reaching $68.13 billion [db68e3f3-b4e9-49cf-86fe-9602627ec55b] representing 19.51% YoY growth [0e671c19-4b44-47a7-9234-5d3634f7be27]. This financial performance suggests strong pricing power and demand for NVIDIA's AI accelerator products relative to competitors.",
+  "issues_addressed": [
+    "86b10c0a-735b-435f-b2f0-8aedaff1475e"
+  ],
+  "changes_summary": "Fixed citation mismatch by separating the Q3 YoY growth claim (21.96%) from the Q4 revenue claim ($68.13 billion). Added calc ID 0e671c19-4b44-47a7-9234-5d3634f7be27 immediately after the Q3 growth figure, and kept chunk ID db68e3f3-b4e9-49cf-86fe-9602627ec55b only for the Q4 revenue figure. The Q4 YoY growth (19.51%) also correctly cites the same calc ID. All other claims and citations remain unchanged as they were already properly supported.",
+  "revised_at": "2026-03-23T07:02:01.242975"
+}

@@ -1,0 +1,22 @@
+{
+  "verdict_id": "6f502163-0b15-435e-abd6-bb73b32a76db",
+  "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "d0352a61-6e80-4a69-8ae8-b90c6bc6d20c",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "c39ce27f-d355-426e-8cd2-3612947d4f90",
+      "offending_span": "with growth rates fluctuating from 6.08% in Q2 to 21.96% in Q3 and 19.51% in Q4 [0e671c19-4b44-47a7-9234-5d3634f7be27]",
+      "explanation": "The paragraph cites chunk ID [0e671c19-4b44-47a7-9234-5d3634f7be27] for the revenue growth rate claims, but this chunk ID is not included in the 'Cited chunk IDs' list provided for this paragraph (only ['4f614cf7-7e8b-4918-9137-cce8663f2afd'] is listed). Additionally, this chunk ID does not appear in the 'Other available (but uncited) chunk IDs' list either, meaning the cited source is not available in the provided evidence. While the numerical values (6.08%, 21.96%, 19.51%) are consistent with previously verified facts from the Risk Analysis section, the specific citation is invalid/unavailable.",
+      "relevant_chunk_ids": [
+        "0e671c19-4b44-47a7-9234-5d3634f7be27"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either (1) replace the citation with a valid chunk ID from the available evidence that contains the revenue growth data (e.g., chunks referenced in the Risk Analysis verified facts), or (2) remove the inline citation if the data is drawn from previously verified facts rather than a specific chunk."
+    }
+  ],
+  "checked_at": "2026-03-23T07:19:26.026529",
+  "iteration": 0
+}

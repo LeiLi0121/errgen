@@ -1,0 +1,22 @@
+{
+  "verdict_id": "34c2ca82-33ea-41d8-9180-04b9bb80983d",
+  "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "12ca11e9-9929-4b02-b4b3-ec9368965975",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b753a9ab-0d2d-417f-a3b9-cf1fde755659",
+      "offending_span": "revenue growth from $26.97 billion in FY2023 to $215.94 billion in FY2026 represents substantial expansion that may be difficult to sustain at similar rates [76fd1884-5c53-4fe5-97f0-d7b7352ee252, cdffc354-305b-4c6d-9459-624d8d18147a]",
+      "explanation": "The paragraph cites chunk 76fd1884-5c53-4fe5-97f0-d7b7352ee252 for the FY2023 revenue figure ($26.97 billion), but this chunk ID is NOT included in the 'Cited chunk IDs' list provided for this paragraph (only cdffc354-305b-4c6d-9459-624d8d18147a is listed). While the FY2023 revenue figure was verified in the Previously Verified Facts section, the current paragraph's citation metadata does not properly support this claim with the available cited evidence.",
+      "relevant_chunk_ids": [
+        "cdffc354-305b-4c6d-9459-624d8d18147a"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Add chunk 76fd1884-5c53-4fe5-97f0-d7b7352ee252 to the Cited chunk IDs list for this paragraph, or revise the citation to only reference cdffc354-305b-4c6d-9459-624d8d18147a if that chunk contains both FY2023 and FY2026 revenue data. Alternatively, restructure the sentence to cite only the FY2026 figure from the available chunk and reference the FY2023 figure through Previously Verified Facts."
+    }
+  ],
+  "checked_at": "2026-03-11T15:36:33.742553",
+  "iteration": 0
+}

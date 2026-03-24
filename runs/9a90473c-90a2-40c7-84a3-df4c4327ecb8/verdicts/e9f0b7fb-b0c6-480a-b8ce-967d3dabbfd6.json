@@ -1,0 +1,22 @@
+{
+  "verdict_id": "e9f0b7fb-b0c6-480a-b8ce-967d3dabbfd6",
+  "paragraph_id": "aced9d2c-b1c8-43f3-90c3-f49f4087abc6",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "e494851d-b3d4-4746-a237-c3e9fdaf8453",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "aced9d2c-b1c8-43f3-90c3-f49f4087abc6",
+      "offending_span": "The company maintains a strategic collaboration with Kroger Co.",
+      "explanation": "The claim that NVIDIA maintains a strategic collaboration with Kroger Co. is not supported by the cited chunk [812d4743-83b4-43d7-b5ee-dfc8624a5328]. The cited chunk describes NVIDIA's business segments (Graphics, Compute & Networking) and products (GeForce, RTX, Data Center, Automotive) but does not mention Kroger Co. or any such collaboration. This appears to be a hallucinated or erroneous fact not traceable to the provided evidence.",
+      "relevant_chunk_ids": [
+        "812d4743-83b4-43d7-b5ee-dfc8624a5328"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the reference to Kroger Co. unless valid evidence supporting this specific strategic collaboration can be located and cited. Verify if this was a confusion with another company or a hallucination."
+    }
+  ],
+  "checked_at": "2026-03-11T14:13:54.928268",
+  "iteration": 0
+}

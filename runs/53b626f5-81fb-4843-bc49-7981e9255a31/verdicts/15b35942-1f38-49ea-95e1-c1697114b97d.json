@@ -1,0 +1,52 @@
+{
+  "verdict_id": "15b35942-1f38-49ea-95e1-c1697114b97d",
+  "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "8a11ce6b-39bb-488b-81f7-bbd2205b9235",
+      "issue_type": "scope_violation",
+      "severity": "critical",
+      "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+      "offending_span": "projected FY2025 R&D expenses of $108,521,000,000",
+      "explanation": "The as-of date is 2025-07, and Amazon's fiscal year ends December 31. FY2025 has not yet completed, so this cannot be actual income statement data. The cited chunk (534dacac-29c9-481c-8845-b786f27f197d) is typed as 'income_statement' which typically represents actuals, not projections. The chunk does not indicate this is a projection vs. actual data.",
+      "relevant_chunk_ids": [
+        "534dacac-29c9-481c-8845-b786f27f197d"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either clarify that this is an analyst projection (not from income statement data) with appropriate source citation, or remove FY2025 until actual data is available. If keeping as projection, cite analyst estimates rather than income statement chunks."
+    },
+    {
+      "issue_id": "a84580d9-7ccd-4799-b5de-9f1ed18c4a9d",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+      "offending_span": "up from $88,544,000,000 in FY2024 [CHUNK_ID: a34693a5-e557-42e6-92f5-aa5998f8da7f], $85,622,000,000 in FY2023 [CHUNK_ID: 2fdd530a-a7d5-4c8e-aaa5-10ab743173e5], and $73,213,000,000 in FY2022 [CHUNK_ID: 0eece3ef-3e1b-4c42-935a-1d34e429cf70]",
+      "explanation": "The cited chunks only state 'AMZN R&D Expenses for FY' without specifying which fiscal year each represents. The paragraph assigns specific years (FY2022, FY2023, FY2024) to each chunk, but this year assignment cannot be verified from the chunk content itself. The chunks do not contain year information to support these specific attributions.",
+      "relevant_chunk_ids": [
+        "a34693a5-e557-42e6-92f5-aa5998f8da7f",
+        "2fdd530a-a7d5-4c8e-aaa5-10ab743173e5",
+        "0eece3ef-3e1b-4c42-935a-1d34e429cf70"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Ensure chunks contain explicit fiscal year information, or cite chunks that clearly specify the year (e.g., 'FY2022', 'FY2023', 'FY2024'). Alternatively, add metadata to chunks indicating which fiscal year each represents."
+    },
+    {
+      "issue_id": "11559c32-c279-495f-bfd5-a09f063cb456",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "297eb763-075c-4229-bad1-2c311089e854",
+      "offending_span": "FY2022 R&D intensity was 14.24% of revenue",
+      "explanation": "While the calculation result (CALC_ID: 067e0511-a49a-4cdb-847f-c0470722fc7b) correctly shows 14.24% using R&D of $73,213,000,000, the calculation does not specify which fiscal year this represents. The paragraph attributes this to FY2022, but neither the calculation nor the cited chunk explicitly confirms this is FY2022 data.",
+      "relevant_chunk_ids": [
+        "0eece3ef-3e1b-4c42-935a-1d34e429cf70"
+      ],
+      "relevant_calc_ids": [
+        "067e0511-a49a-4cdb-847f-c0470722fc7b"
+      ],
+      "recommended_fix": "Ensure the calculation result or supporting chunks explicitly indicate the fiscal year. Add year metadata to the calculation or cite a chunk that confirms FY2022 specifically."
+    }
+  ],
+  "checked_at": "2026-03-12T11:59:19.948168",
+  "iteration": 1
+}

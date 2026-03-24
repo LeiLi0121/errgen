@@ -1,0 +1,36 @@
+{
+  "verdict_id": "e0499ea2-64bb-4458-a24c-e68bd0712143",
+  "paragraph_id": "bd9483ba-2306-41cb-a42a-be91c1556e23",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "51a0a2f9-5ba0-4048-877c-c30548b57a12",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "bd9483ba-2306-41cb-a42a-be91c1556e23",
+      "offending_span": "current assets of $10,163,000,000 barely cover current liabilities of $10,200,000,000",
+      "explanation": "The cited evidence (K008) shows a current ratio of 0.9964, which is less than 1.0. This means current assets do NOT cover current liabilities - they fall short by approximately $37 million. The word 'cover' is factually incorrect and contradicts the cited calculation result.",
+      "relevant_chunk_ids": [
+        "c25f35ab-3a45-43b7-9a51-4c9bb0d91fdd",
+        "5c413541-a507-4f5c-9ca4-eeb5f3fe10d1"
+      ],
+      "relevant_calc_ids": [
+        "e00fb55b-793c-4e6a-bea8-4bbb367fc757"
+      ],
+      "recommended_fix": "Change 'barely cover' to 'fall slightly short of covering' or 'are insufficient to cover' to accurately reflect that the current ratio is below 1.0"
+    },
+    {
+      "issue_id": "14cd1b96-0a1c-4647-a4e6-bc3481386423",
+      "issue_type": "scope_violation",
+      "severity": "major",
+      "paragraph_id": "bd9483ba-2306-41cb-a42a-be91c1556e23",
+      "offending_span": "Q4 2025",
+      "explanation": "The paragraph references 'Q4 2025' multiple times (appears 3 times in the paragraph). However, the AS-OF DATE is 2025-08 (August 2025). For Adobe's typical fiscal calendar (Q4 = September-November), Q4 2025 data would not be available as of August 2025. This references future period data beyond the stated as-of date.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either clarify the fiscal year structure if Q4 2025 data is actually available as of August 2025, or remove the year specification and reference only 'Q4' if the evidence chunks do not specify the year"
+    }
+  ],
+  "checked_at": "2026-03-23T19:35:49.082415",
+  "iteration": 0
+}

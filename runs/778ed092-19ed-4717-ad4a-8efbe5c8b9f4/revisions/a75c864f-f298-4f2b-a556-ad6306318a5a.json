@@ -1,0 +1,12 @@
+{
+  "revision_id": "a75c864f-f298-4f2b-a556-ad6306318a5a",
+  "paragraph_id": "8777efe0-63db-4f34-ade7-615c0766c4bf",
+  "iteration": 3,
+  "original_text": "NVIDIA released its fiscal Q4 2026 financial statements on January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+  "revised_text": "NVIDIA reported financial results for the quarter ended January 25, 2026 [db68e3f3-b4e9-49cf-86fe-9602627ec55b]. The company reported revenue of $68,127,000,000 for the quarter [8673c861-f8b6-4f0f-8801-373630314eeb]. Net income totaled $42,960,000,000 [2a591c75-6166-4d2f-86f4-3a8b7edc6359]. Revenue grew 19.51% year-over-year [0e671c19-4b44-47a7-9234-5d3634f7be27].",
+  "issues_addressed": [
+    "d408bf10-e60a-4f3c-992e-abdbabd77130"
+  ],
+  "changes_summary": "Changed 'released its fiscal Q4 2026 financial statements on January 25, 2026' to 'reported financial results for the quarter ended January 25, 2026' to accurately reflect that the cited chunk shows the fiscal period end date, not the release date. All other factual claims (revenue, net income, YoY growth) remain unchanged as they are properly supported by their respective citations.",
+  "revised_at": "2026-03-23T07:01:28.062228"
+}

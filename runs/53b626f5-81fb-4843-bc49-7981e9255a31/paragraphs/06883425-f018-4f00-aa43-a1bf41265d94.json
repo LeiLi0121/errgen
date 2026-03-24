@@ -1,0 +1,101 @@
+{
+  "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Amazon's competitive positioning is reinforced by diversified revenue streams spanning retail and cloud computing. The company operates through three primary segments: North America, International, and Amazon Web Services (AWS) [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. R&D investment remains a strategic priority, with expenses increasing from $88.5 billion in FY2024 to $108.5 billion in FY2025 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], reflecting continued commitment to innovation and AI capabilities.",
+  "citations": [
+    {
+      "citation_id": "8220addf-ac9e-4450-b5bf-082ad32c376e",
+      "chunk_id": "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+      "source_id": "e5cc24b3-58a1-4070-983f-cda7cc0d4c0f",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its store",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2db867a6-7976-4118-86c4-60a62f4471ea",
+      "chunk_id": "7f42935f-2962-4418-812e-c92a56b27b2e",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AMZN | Period: FY | Date: 2024-12-31\n  Revenue:            $637,959,000,000\n  Gross Profit:       $311,671,000,000 (margin N/A)\n  Operating Income:   $68,593,000,000 (margin N/A)\n  Net Income:         $59,248,000,000 (margin N/A)\n  EBITDA:             $123,815,000,000\n  EPS:      ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3fdd74a9-d8e0-4645-830e-af7908cbe064",
+      "chunk_id": "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc",
+      "source_id": "207fe515-21b6-4d9c-a854-e3f73817977c",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AMZN | Period: FY | Date: 2025-12-31\n  Revenue:            $716,924,000,000\n  Gross Profit:       $360,510,000,000 (margin N/A)\n  Operating Income:   $79,975,000,000 (margin N/A)\n  Net Income:         $77,670,000,000 (margin N/A)\n  EBITDA:             $165,341,000,000\n  EPS:      ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "43e13619-4c35-4dd4-a32b-ceaa18319a42",
+    "7f42935f-2962-4418-812e-c92a56b27b2e",
+    "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "59cf21a5-80e8-476f-91b3-32a764c9f177",
+      "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "550eddcb-cd19-48d8-ba9b-0c766f898dd1",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+          "offending_span": "Recent analyst commentary indicates AI-powered AWS growth and advertising revenue underpin an upbeat Q2 2025 outlook [CHUNK_ID: f3922ad9-85d8-409b-916a-444e08a6a248]",
+          "explanation": "The paragraph cites chunk f3922ad9-85d8-409b-916a-444e08a6a248 to support the claim about analyst commentary on AI-powered AWS growth and advertising revenue underpinning Q2 2025 outlook. However, this chunk ID is NOT present in the provided CITED EVIDENCE CHUNKS list. The claim cannot be verified against the available evidence, making this a citation mismatch where the referenced source is unavailable.",
+          "relevant_chunk_ids": [
+            "f3922ad9-85d8-409b-916a-444e08a6a248"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide the actual content of chunk f3922ad9-85d8-409b-916a-444e08a6a248 in the evidence set, or remove this claim and its citation. If the analyst commentary exists elsewhere, cite the correct available chunk ID that contains this information."
+        },
+        {
+          "issue_id": "7d356117-d8fc-407b-a287-b78be61cc667",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+          "offending_span": "expenses increasing from $73.2 billion in FY2022 to $88.5 billion in FY2024, and projected at $108.5 billion for FY2025 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc]",
+          "explanation": "The paragraph cites chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e to support the FY2022 R&D expense figure of $73.2 billion. However, this chunk ID is NOT present in the provided CITED EVIDENCE CHUNKS list. While the FY2024 ($88.5B) and FY2025 ($108.5B) figures are correctly supported by chunks 7f42935f-2962-4418-812e-c92a56b27b2e and 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc respectively, the FY2022 figure lacks verifiable evidence in the provided chunks.",
+          "relevant_chunk_ids": [
+            "bc591e33-ea87-4e39-a4cb-9ca56789b93e",
+            "7f42935f-2962-4418-812e-c92a56b27b2e",
+            "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either provide chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e in the evidence set, or remove the FY2022 figure from this claim. Alternatively, cite a different available chunk that contains the FY2022 R&D expense data. Note: The Previously Verified Facts section references this chunk, suggesting it should be included in the evidence set for this paragraph."
+        }
+      ],
+      "checked_at": "2026-03-12T12:40:47.705535",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "c3950eb8-04b5-453e-856e-1c3d8ee81852",
+      "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-12T12:42:27.623728",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "afc2cb13-7ba4-4a8d-8b36-f63194508c96",
+      "paragraph_id": "06883425-f018-4f00-aa43-a1bf41265d94",
+      "iteration": 1,
+      "original_text": "Amazon's competitive positioning is reinforced by diversified revenue streams spanning retail, cloud computing, and advertising. Recent analyst commentary indicates AI-powered AWS growth and advertising revenue underpin an upbeat Q2 2025 outlook [CHUNK_ID: f3922ad9-85d8-409b-916a-444e08a6a248]. The company operates through three primary segments: North America, International, and Amazon Web Services (AWS) [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. R&D investment remains a strategic priority, with expenses increasing from $73.2 billion in FY2022 to $88.5 billion in FY2024, and projected at $108.5 billion for FY2025 [CHUNK_ID: bc591e33-ea87-4e39-a4cb-9ca56789b93e, CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], reflecting continued commitment to innovation and AI capabilities.",
+      "revised_text": "Amazon's competitive positioning is reinforced by diversified revenue streams spanning retail and cloud computing. The company operates through three primary segments: North America, International, and Amazon Web Services (AWS) [CHUNK_ID: 43e13619-4c35-4dd4-a32b-ceaa18319a42]. R&D investment remains a strategic priority, with expenses increasing from $88.5 billion in FY2024 to $108.5 billion in FY2025 [CHUNK_ID: 7f42935f-2962-4418-812e-c92a56b27b2e, CHUNK_ID: 4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc], reflecting continued commitment to innovation and AI capabilities.",
+      "issues_addressed": [
+        "550eddcb-cd19-48d8-ba9b-0c766f898dd1",
+        "7d356117-d8fc-407b-a287-b78be61cc667"
+      ],
+      "changes_summary": "Removed the claim about analyst commentary on AI-powered AWS growth and Q2 2025 outlook (chunk f3922ad9-85d8-409b-916a-444e08a6a248 not in evidence). Removed advertising from revenue streams as not explicitly supported in available chunks. Removed FY2022 R&D figure ($73.2B) as chunk bc591e33-ea87-4e39-a4cb-9ca56789b93e not in evidence. Kept FY2024 ($88.5B) and FY2025 ($108.5B) R&D figures with valid chunk citations. Simplified opening claim to only mention retail and cloud computing which are supported by segment information.",
+      "revised_at": "2026-03-12T12:41:16.858465"
+    }
+  ],
+  "iteration": 0
+}

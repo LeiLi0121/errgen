@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "187930f7-58b9-4f27-aee4-08624d71a661",
+  "section_name": "Recent Developments",
+  "text": "NVIDIA reported Q4 earnings on February 25, 2026, after the bell, delivering what was characterized as a record quarter. However, market reaction was unfavorable, with NVDA stock falling approximately 5.5% to 5.6% in the session following the earnings release on Thursday, February 26. According to Bloomberg commentary, investors were not impressed by the company's latest sales forecast, signaling concerns about potential overheating in the AI trade despite the stellar earnings beat.",
+  "citations": [
+    {
+      "citation_id": "30e58ad9-c7dc-41eb-9867-68157b2d6ea6",
+      "chunk_id": "de81755d-f657-4d81-ac51-0e4d3302477e",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-03-01T05:37:00Z | TheStreet | Author: Faizan Farooque\nTitle: Veteran analyst sends shocking message on Nvidia after earnings\nURL: https://www.thestreet.com/investing/veteran-analyst-sends-shocking-message-on-nvidia-after-earnings\nNvidia (NVDA) just reported another record quarter, but th",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1c64b17d-05f5-4d13-bb1a-01757b8cbc22",
+      "chunk_id": "09dfa05d-8767-4033-aeaf-3505912b5a4c",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-27T02:03:00Z | TheStreet | Author: Vuk Zdinjak\nTitle: Bank of America resets Nvidia price target after earnings\nURL: https://www.thestreet.com/investing/stocks/bank-of-america-resets-nvidia-price-target-after-earnings\nNvidia (NVDA) reported its Q4 earnings on Feb. 25 after the bell. D",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4aa1cb50-f7b1-4dd7-a226-44919fdbea9b",
+      "chunk_id": "cb85b2af-3729-4e26-bd25-0c8002da7ea9",
+      "source_id": "3bd394d3-82ad-4e14-976c-9b71a94e53ec",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-26T21:00:34Z | Yahoo Entertainment | Author: Rian Howlett\nTitle: Stock market today: S&P 500, Nasdaq retreat as Nvidia falls 5% despite stellar earnings\nURL: https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-retreat-as-nvidia-falls-5-despite-stellar-earnings-2100348",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "de81755d-f657-4d81-ac51-0e4d3302477e",
+    "09dfa05d-8767-4033-aeaf-3505912b5a4c",
+    "cb85b2af-3729-4e26-bd25-0c8002da7ea9"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b75f7de4-2000-4df9-9c73-6dc7c5dad792",
+      "paragraph_id": "187930f7-58b9-4f27-aee4-08624d71a661",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-11T12:33:11.332566",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

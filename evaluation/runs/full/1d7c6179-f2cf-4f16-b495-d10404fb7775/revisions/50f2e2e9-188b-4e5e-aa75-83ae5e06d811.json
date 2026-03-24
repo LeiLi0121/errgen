@@ -1,0 +1,17 @@
+{
+  "revision_id": "50f2e2e9-188b-4e5e-aa75-83ae5e06d811",
+  "paragraph_id": "fe5e9b49-4cfa-4929-8625-ca8d98b28169",
+  "iteration": 1,
+  "original_text": "R&D investment intensity in Q4 2025 was 17.73% of revenue (K007), with R&D expenses of $1,098,000,000 (C016) on revenue of $6,194,000,000 (C010). This compares to $1,088,000,000 in Q3 2025 (C024), $1,082,000,000 in Q2 2025 (C032), and $1,110,000,000 in Q1 2026 (C008), suggesting sustained commitment to product development despite revenue fluctuations. The consistent R&D spending level, representing approximately one-sixth of revenue, indicates Adobe prioritizes innovation and product enhancement, which is critical for maintaining competitive positioning in the creative software and digital experience markets.",
+  "revised_text": "R&D investment intensity in Q4 2025 was 17.73% of revenue (K007), with R&D expenses of $1,098,000,000 (C018) on revenue of $6,194,000,000 (C012). This compares to $1,088,000,000 in Q3 2025 (C026) and $1,082,000,000 in Q2 2025 (C034), suggesting sustained commitment to product development despite revenue fluctuations. The consistent R&D spending level indicates Adobe prioritizes innovation and product enhancement, which is critical for maintaining competitive positioning in the creative software and digital experience markets.",
+  "issues_addressed": [
+    "2f3d0189-b4d0-4944-b90d-e773fbdbbe7c",
+    "bad62ec6-60ae-40ab-b1be-1acc6ea6521c",
+    "ece54098-f3d1-4c87-a929-336a916a6420",
+    "c1324dfb-0d83-42ca-a9ca-c3f3207b6a37",
+    "583845d3-4086-4ec6-be48-8e5aeae56e28",
+    "413f8947-f110-4d5d-b3f3-acbaff81182f"
+  ],
+  "changes_summary": "Fixed five citation mismatches: C016→C018 for Q4 R&D, C010→C012 for Q4 revenue, C024→C026 for Q3 R&D, C032→C034 for Q2 R&D, and removed Q1 2026 reference (C008→C010) due to critical scope violation (future period beyond 2025-08 as-of date). Removed unsupported claim about R&D representing 'approximately one-sixth of revenue' as actual ratios range from 17.35%-18.42%, not 16.67%.",
+  "revised_at": "2026-03-23T20:06:02.507214"
+}

@@ -1,0 +1,73 @@
+{
+  "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Strategic initiatives and management signals present a mixed picture. Reports indicate NVIDIA is considering using Intel's foundry services for future chip production, which could represent a diversification of manufacturing partnerships. However, the company faces congressional scrutiny over technical assistance provided to Chinese AI startup DeepSeek, with the House Select Committee on China revealing NVIDIA personnel assisted the firm through optimized technical support. CEO Jen-Hsun Huang leads the company, which scheduled its Q4 FY2026 earnings call for February 25, 2026. Evidence on specific partnerships, acquisitions, or new market entries beyond these items is limited in the available documentation.",
+  "citations": [
+    {
+      "citation_id": "b04236ec-0beb-4c7b-8998-5a57eb267143",
+      "chunk_id": "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+      "source_id": "b7a03707-9b90-4046-a82c-335552f353a4",
+      "source_type": "company_profile",
+      "text_snippet": "NVIDIA Corporation (Ticker: NVDA) | Exchange: NASDAQ | Sector: Technology | Industry: Semiconductors | Market Cap: N/A | CEO: Jen-Hsun Huang | Full-Time Employees: 36000 | IPO Date: 1999-01-22 | Country: US | Website: https://www.nvidia.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "314c085d-60df-4d18-bf45-2b243dc9dc12",
+      "chunk_id": "d221dbaa-f872-4882-943c-5d5c765f3698",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:23:55Z | Yahoo\nTitle: Stock Market Today, Jan. 28: Intel Surges After Reports of Nvidia and Apple Foundry Partnerships\nURL: https://finnhub.io/api/news?id=8f748c1c81ce7cdeaf349d9f5f09bda43051cedc4ba55c2642e1eca86ea54555\nToday, Jan. 28, 2026, investors are weighing fresh foundry ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "54337abf-c108-4de4-a5a9-e830c803dd3f",
+      "chunk_id": "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T23:20:17Z | Yahoo\nTitle: Nvidia face congressional scrutiny over DeepSeek technical support - Reuters\nURL: https://finnhub.io/api/news?id=6e049df622d3b28e93ba2f93b727ff9e146c41cdd141a2a011a6c28cc7ec7ee4\nInvesting.com -- NVIDIA Corporation (NASDAQ:NVDA) provided extensive technical ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c7134fd1-f1ca-4d3d-bb76-1bb82a8f010a",
+      "chunk_id": "679c2f95-b7a5-4235-b904-6b3b22ea121c",
+      "source_id": "67698229-3d55-44f4-bca6-f6d4b55fd7f2",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-01-28T22:00:00Z | Yahoo\nTitle: NVIDIA Sets Conference Call for Fourth-Quarter Financial Results\nURL: https://finnhub.io/api/news?id=b8427daf1fd5717c4b073aa93d7c3f50872cb138b7d2e0ad865550c1555badf4\nWritten CFO Commentary to Be Provided Ahead of CallSANTA CLARA, Calif., Jan. 28, 2026 (GLOB",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0571a4ea-26e6-49fc-b4d5-1f2654462e02",
+    "d221dbaa-f872-4882-943c-5d5c765f3698",
+    "4f614cf7-7e8b-4918-9137-cce8663f2afd",
+    "679c2f95-b7a5-4235-b904-6b3b22ea121c"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "001590f6-8c17-4742-9dcd-27d28d3f5b45",
+      "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "efee371f-3b73-4086-b6ed-1ca8e282aa42",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "2f18960b-599f-4419-ba7a-d220b03f3178",
+          "offending_span": "with the House Select Committee on China revealing NVIDIA personnel assisted the firm through optimized technical support",
+          "explanation": "The cited chunk (4f614cf7-7e8b-4918-9137-cce8663f2afd) mentions 'a letter from Representative John Moolenaar' but does not explicitly reference the 'House Select Committee on China.' Additionally, the chunk describes 'extensive technical assistance' and 'collaboration enabled significant efficiency gains,' not 'optimized technical support.' These are materially different characterizations that are not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "4f614cf7-7e8b-4918-9137-cce8663f2afd"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Revise to match the cited evidence: 'with a letter from Representative John Moolenaar revealing NVIDIA provided extensive technical assistance to the firm' or verify the House Select Committee on China connection from an additional source and cite it appropriately."
+        }
+      ],
+      "checked_at": "2026-03-23T05:35:30.588819",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

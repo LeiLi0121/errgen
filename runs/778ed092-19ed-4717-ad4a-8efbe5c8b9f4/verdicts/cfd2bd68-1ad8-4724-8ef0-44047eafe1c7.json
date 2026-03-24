@@ -1,0 +1,22 @@
+{
+  "verdict_id": "cfd2bd68-1ad8-4724-8ef0-44047eafe1c7",
+  "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "4b1fdbe8-048c-4639-8f6b-98b870b057fe",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "78230e60-5813-4a74-aa45-a4181a2eea38",
+      "offending_span": "The company's continued R&D investment at 8.09% of revenue [7d0701ad-9c93-41dc-a668-c80da89edf75]",
+      "explanation": "The paragraph cites chunk ID [7d0701ad-9c93-41dc-a668-c80da89edf75] to support the 8.09% R&D claim, but this chunk is not provided in the CITED EVIDENCE CHUNKS section (which states 'none cited'). While this chunk ID appears in the Previously Verified Facts section, it cannot be directly verified against the evidence provided for this paragraph check. All other numerical claims (1-year returns, 30-day returns, excess return) are properly supported by the cited calculation results.",
+      "relevant_chunk_ids": [
+        "7d0701ad-9c93-41dc-a668-c80da89edf75"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either include the actual content of chunk [7d0701ad-9c93-41dc-a668-c80da89edf75] in the CITED EVIDENCE CHUNKS section, or remove the citation bracket if the fact has been previously verified and doesn't require re-citation in this context."
+    }
+  ],
+  "checked_at": "2026-03-23T07:17:47.107362",
+  "iteration": 0
+}

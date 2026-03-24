@@ -1,0 +1,12 @@
+{
+  "revision_id": "6c618e6b-98cf-4df0-bd75-5c4a4595b6a6",
+  "paragraph_id": "f5b5d92e-7ca2-4193-9f40-67983f605fa4",
+  "iteration": 2,
+  "original_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. As of FY2025, current assets totaled $229,083,000,000 [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650] against current liabilities of $218,005,000,000 [CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1], implying a current ratio of approximately 1.05. Total debt stood at $152,987,000,000 [CHUNK_ID: 76888285-3b76-46aa-bfd7-4aaf00b22d90] with stockholders' equity of $411,065,000,000 [CHUNK_ID: e1a89938-1e17-4235-ba31-82444d67f675], suggesting a debt-to-equity ratio of approximately 0.37, an improvement from a prior fiscal year level of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d]. Cash and equivalents of $86,810,000,000 [CHUNK_ID: 119bd75b-f6e2-4495-b285-afbac6cb99aa] provides substantial liquidity buffer.",
+  "revised_text": "Amazon's balance sheet reflects solid liquidity positioning with manageable leverage. As of FY2024, current assets totaled $229,083,000,000 [CHUNK_ID: cb5732e2-5d57-4f01-b4ba-a2e30bc25650] against current liabilities of $218,005,000,000 [CHUNK_ID: e12ef106-d193-40c8-8525-6b0a89e35fb1]. Total debt stood at $152,987,000,000 [CHUNK_ID: 76888285-3b76-46aa-bfd7-4aaf00b22d90] with stockholders' equity of $411,065,000,000 [CHUNK_ID: e1a89938-1e17-4235-ba31-82444d67f675], marking an improvement in leverage from a prior fiscal year debt-to-equity level of 0.96 [CALC_ID: ec64f479-08ea-449f-bb49-a0efd33c4b1d]. Cash and equivalents of $86,810,000,000 [CHUNK_ID: 119bd75b-f6e2-4495-b285-afbac6cb99aa] provides substantial liquidity buffer.",
+  "issues_addressed": [
+    "ddc26001-0215-4948-9d86-e61bb2483b02"
+  ],
+  "changes_summary": "Changed 'FY2025' to 'FY2024' to address the critical scope violation (Issue 1) as FY2025 is not complete as of July 2025. Removed the specific current ratio (1.05) and debt-to-equity ratio (0.37) figures because they lacked supporting calc_ids, ensuring compliance with the requirement that every number must be cited. Retained the prior year D/E ratio (0.96) as it is supported by a calc_id. Kept original chunk citations as indicated by the checker's relevant chunks list.",
+  "revised_at": "2026-03-12T12:22:16.739469"
+}

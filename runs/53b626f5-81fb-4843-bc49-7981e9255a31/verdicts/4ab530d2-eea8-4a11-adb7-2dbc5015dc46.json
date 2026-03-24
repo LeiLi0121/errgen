@@ -1,0 +1,26 @@
+{
+  "verdict_id": "4ab530d2-eea8-4a11-adb7-2dbc5015dc46",
+  "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "5bce6710-a7e0-4c79-b266-5ebdabdaaaa0",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "7754da95-21ba-464a-8114-f9ad67d1c0c9",
+      "offending_span": "Margin compression risk exists given the historical volatility in Operating Income",
+      "explanation": "The cited evidence shows operating margins EXPANDING from 2.38% in FY2022 to approximately 10.75% in FY2024 ($68,593M/$637,959M) to approximately 11.15% in FY2025 ($79,975M/$716,924M). This is margin expansion, not compression. The claim of 'margin compression risk' directly contradicts the actual data trend shown in the cited chunks. While Operating Income did vary significantly in absolute terms, the margin percentage clearly improved over the period.",
+      "relevant_chunk_ids": [
+        "bc591e33-ea87-4e39-a4cb-9ca56789b93e",
+        "7f42935f-2962-4418-812e-c92a56b27b2e",
+        "4a8ce233-eda6-4a1f-abcb-9e2306c3e8dc"
+      ],
+      "relevant_calc_ids": [
+        "c0a44539-99d5-4b5d-b6e9-551d675efa31"
+      ],
+      "recommended_fix": "Revise the claim to accurately reflect the data. Either: (1) Remove the margin compression risk claim entirely, (2) Change to acknowledge margin expansion trend while noting other risk factors, or (3) If compression risk exists for other reasons (e.g., future competitive pressures), cite specific evidence supporting that forward-looking concern rather than historical data that shows the opposite trend."
+    }
+  ],
+  "checked_at": "2026-03-12T12:16:57.527364",
+  "iteration": 1
+}

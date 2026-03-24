@@ -1,0 +1,292 @@
+[
+  {
+    "calc_id": "0e671c19-4b44-47a7-9234-5d3634f7be27",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 44062000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 46743000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 57006000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 68127000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 44062000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 46743000000.0,
+          "yoy_growth": 0.060846080522899554,
+          "yoy_growth_pct": "6.08%"
+        },
+        {
+          "period": "Q3",
+          "value": 57006000000.0,
+          "yoy_growth": 0.2195622874013221,
+          "yoy_growth_pct": "21.96%"
+        },
+        {
+          "period": "Q4",
+          "value": 68127000000.0,
+          "yoy_growth": 0.1950847279233765,
+          "yoy_growth_pct": "19.51%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "NVDA Revenue YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "525afef8-3424-4069-a604-dd87b2bc8dfb",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 18775000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 26422000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 31910000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 42960000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 18775000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 26422000000.0,
+          "yoy_growth": 0.40729693741677764,
+          "yoy_growth_pct": "40.73%"
+        },
+        {
+          "period": "Q3",
+          "value": 31910000000.0,
+          "yoy_growth": 0.20770569979562487,
+          "yoy_growth_pct": "20.77%"
+        },
+        {
+          "period": "Q4",
+          "value": 42960000000.0,
+          "yoy_growth": 0.3462864305860232,
+          "yoy_growth_pct": "34.63%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "NVDA Net Income YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "34f47a7f-d779-42fc-a306-dfd0f9e6fdd2",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 51093000000.0,
+      "denominator": 68127000000.0
+    },
+    "result": 0.7499669734466511,
+    "formula_description": "51093000000.0 / 68127000000.0 = 0.7500 (75.00%)",
+    "description": "NVDA Gross Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "7f7d2b84-616e-4a4c-ac53-882e55fed295",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 44299000000.0,
+      "denominator": 68127000000.0
+    },
+    "result": 0.6502414608011508,
+    "formula_description": "44299000000.0 / 68127000000.0 = 0.6502 (65.02%)",
+    "description": "NVDA Operating Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "01915efa-aaa7-42eb-b9e2-9b56d3881324",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 42960000000.0,
+      "denominator": 68127000000.0
+    },
+    "result": 0.630586991941521,
+    "formula_description": "42960000000.0 / 68127000000.0 = 0.6306 (63.06%)",
+    "description": "NVDA Net Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "be596dad-ea77-43d3-ac22-0b5f55d06a2e",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 51283000000.0,
+      "denominator": 68127000000.0
+    },
+    "result": 0.7527558823961131,
+    "formula_description": "51283000000.0 / 68127000000.0 = 0.7528 (75.28%)",
+    "description": "NVDA EBITDA Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "7d0701ad-9c93-41dc-a668-c80da89edf75",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 5512000000.0,
+      "revenue": 68127000000.0
+    },
+    "result": 0.08090771647070912,
+    "formula_description": "R&D (5512000000.0) / revenue (68127000000.0) = 0.0809 (8.09%)",
+    "description": "NVDA R&D Intensity (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "fc6898e7-0436-452a-b590-9dcb2bcb2d1d",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 125605000000.0,
+      "current_liabilities": 32163000000.0
+    },
+    "result": 3.905263812455306,
+    "formula_description": "current_assets (125605000000.0) / current_liabilities (32163000000.0) = 3.91",
+    "description": "NVDA Current Ratio (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "329a2749-65f3-4d5f-b78e-9d344e984ed5",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 11412000000.0,
+      "equity": 157293000000.0
+    },
+    "result": 0.07255249756823254,
+    "formula_description": "total_debt (11412000000.0) / equity (157293000000.0) = 0.07",
+    "description": "NVDA Debt-to-Equity (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "36dc1d31-f0f0-44e7-b628-679358946106",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 11412000000.0,
+      "cash": 10605000000.0
+    },
+    "result": 807000000.0,
+    "formula_description": "total_debt (11412000000.0) - cash (10605000000.0) = 807000000.0",
+    "description": "NVDA Net Debt (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "4919779e-20bb-413b-9fe6-e611a6e0baea",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 34904000000.0,
+      "revenue": 68127000000.0
+    },
+    "result": 0.5123372524843307,
+    "formula_description": "FCF (34904000000.0) / revenue (68127000000.0) = 0.5123 (51.23%)",
+    "description": "NVDA FCF Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "78e868b2-287e-44f3-8d6f-dd8431dc47ec",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 191.52,
+      "previous": 188.22
+    },
+    "result": 0.017532674529805607,
+    "formula_description": "(191.52 - 188.22) / |188.22| = 0.0175 (1.75%)",
+    "description": "NVDA 30d price return",
+    "error": null
+  },
+  {
+    "calc_id": "6493c5ac-e843-4e69-9dca-8644c1e857fb",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 695.42,
+      "previous": 687.85
+    },
+    "result": 0.011005306389474357,
+    "formula_description": "(695.42 - 687.85) / |687.85| = 0.0110 (1.10%)",
+    "description": "SPY 30d benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "9f2476a4-01a3-4aa3-99d9-9851ee244884",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.017532674529805607,
+      "b": 0.011005306389474357
+    },
+    "result": 0.0065273681403312505,
+    "formula_description": "0.017532674529805607 - 0.011005306389474357 = 0.0065",
+    "description": "NVDA 30d excess return vs SPY",
+    "error": null
+  },
+  {
+    "calc_id": "e2b73cf5-3c6d-4457-8b25-515a7e8f9880",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 191.52,
+      "previous": 128.99
+    },
+    "result": 0.48476626095046127,
+    "formula_description": "(191.52 - 128.99) / |128.99| = 0.4848 (48.48%)",
+    "description": "NVDA 1y price return",
+    "error": null
+  },
+  {
+    "calc_id": "4e7134c1-290f-4b49-bb42-eed50a873427",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 695.42,
+      "previous": 604.52
+    },
+    "result": 0.15036723350757622,
+    "formula_description": "(695.42 - 604.52) / |604.52| = 0.1504 (15.04%)",
+    "description": "SPY 1y benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "e3f7e76f-d911-42d3-9058-e42900f1f116",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.48476626095046127,
+      "b": 0.15036723350757622
+    },
+    "result": 0.3343990274428851,
+    "formula_description": "0.48476626095046127 - 0.15036723350757622 = 0.3344",
+    "description": "NVDA 1y excess return vs SPY",
+    "error": null
+  }
+]
