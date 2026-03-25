@@ -1,0 +1,905 @@
+[
+  {
+    "fact_id": "e0745a9e-20b2-4fcb-89ad-42ebdce51077",
+    "chunk_ids": [
+      "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41"
+    ],
+    "fact_type": "revenue",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 3096000000.0,
+    "unit": "USD",
+    "description": "ABNB Revenue for Q2 2025: $3,096,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "766b3bb2-e4d8-4a4f-9f19-29ae053f0415",
+    "chunk_ids": [
+      "3783b36b-6267-4377-aa8a-bcbbf8527bb0"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 612000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Income for Q2 2025: $612,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4671da70-cfc6-4831-a5a6-c34d7770df2c",
+    "chunk_ids": [
+      "5a317053-60cc-46b6-bf7a-8fab34c18a1c"
+    ],
+    "fact_type": "operatingIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 0.19767441860465115,
+    "unit": "ratio",
+    "description": "ABNB Operating Margin for Q2 2025: 19.77%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "447d9123-3b48-4d5a-b6fc-8577c8893bf5",
+    "chunk_ids": [
+      "72b054a5-be6f-475f-892e-5c2006dca965"
+    ],
+    "fact_type": "netIncome",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 642000000.0,
+    "unit": "USD",
+    "description": "ABNB Net Income for Q2 2025: $642,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f7c43116-f8cb-4100-bbb3-f7481d01eab8",
+    "chunk_ids": [
+      "e1f114b2-12a3-4427-bac4-abec49c5130c"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 0.20736434108527133,
+    "unit": "ratio",
+    "description": "ABNB Net Margin for Q2 2025: 20.74%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "439f82b8-20bb-4365-bb95-b90bfb46eda9",
+    "chunk_ids": [
+      "7f26786b-8e83-49c7-a540-2d046149723d"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 610000000.0,
+    "unit": "USD",
+    "description": "ABNB R&D Expenses for Q2 2025: $610,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3817f11d-aa98-49b2-988d-f376eb5c83e4",
+    "chunk_ids": [
+      "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e"
+    ],
+    "fact_type": "revenue",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 2272000000.0,
+    "unit": "USD",
+    "description": "ABNB Revenue for Q1 2025: $2,272,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ff8d6267-6caf-4563-bbd2-b0e887ff8d11",
+    "chunk_ids": [
+      "31171305-e712-4d9d-b311-b212f8b6204b"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 38000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Income for Q1 2025: $38,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4d0072f0-bcbc-4469-a7b5-f19656f9b5e9",
+    "chunk_ids": [
+      "e55e8895-2155-479d-bcfc-487f3e45110b"
+    ],
+    "fact_type": "operatingIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 0.016725352112676055,
+    "unit": "ratio",
+    "description": "ABNB Operating Margin for Q1 2025: 1.67%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4f055bf6-b02f-4d94-ad90-b6e96dbc4cc6",
+    "chunk_ids": [
+      "f1100617-fb46-46fe-ad2e-437c3a9cfad3"
+    ],
+    "fact_type": "netIncome",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 154000000.0,
+    "unit": "USD",
+    "description": "ABNB Net Income for Q1 2025: $154,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f61e0df9-52fa-4cc4-b5d3-a941e87d2837",
+    "chunk_ids": [
+      "31ec40b4-ceca-433f-9658-905b1c7153ad"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 0.06778169014084508,
+    "unit": "ratio",
+    "description": "ABNB Net Margin for Q1 2025: 6.78%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8790257c-4292-45d7-a2c3-8643e705e1dd",
+    "chunk_ids": [
+      "f415ad58-ce71-42a2-8e1b-d3418d4c0406"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 568000000.0,
+    "unit": "USD",
+    "description": "ABNB R&D Expenses for Q1 2025: $568,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b399eb1f-8e45-43ff-975d-1b9fb3f61158",
+    "chunk_ids": [
+      "56c44370-6ad4-4be0-b29f-381d1958d648"
+    ],
+    "fact_type": "revenue",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 3732000000.0,
+    "unit": "USD",
+    "description": "ABNB Revenue for Q3 2024: $3,732,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "841e2ce0-6926-4a45-8bd3-95304aeb314d",
+    "chunk_ids": [
+      "66f7e26f-a6c3-4720-b47e-bda203420a1c"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 1525000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Income for Q3 2024: $1,525,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7d2872f6-aa9b-45ad-9a01-adc5c5dc2916",
+    "chunk_ids": [
+      "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773"
+    ],
+    "fact_type": "operatingIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 0.40862808145766344,
+    "unit": "ratio",
+    "description": "ABNB Operating Margin for Q3 2024: 40.86%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "fbd3eb2c-4505-4e92-ab35-90298378fe74",
+    "chunk_ids": [
+      "9cafd713-b7db-4cb0-829f-62212ef8943e"
+    ],
+    "fact_type": "netIncome",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 1368000000.0,
+    "unit": "USD",
+    "description": "ABNB Net Income for Q3 2024: $1,368,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "70fc509a-9906-469f-b00b-3c5c689842e1",
+    "chunk_ids": [
+      "30df9e49-26ed-4c39-a697-4612fecc4ba9"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 0.3665594855305466,
+    "unit": "ratio",
+    "description": "ABNB Net Margin for Q3 2024: 36.66%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7f2c9337-d712-4567-b77e-a3d1807e7a9f",
+    "chunk_ids": [
+      "f9813921-f015-4951-9a81-10ac2afbd621"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 524000000.0,
+    "unit": "USD",
+    "description": "ABNB R&D Expenses for Q3 2024: $524,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e6c18cbe-0bb7-4579-bf72-4bf9726e4353",
+    "chunk_ids": [
+      "3d95f2e8-2793-458a-982f-19a622b0ba6a"
+    ],
+    "fact_type": "revenue",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 2748000000.0,
+    "unit": "USD",
+    "description": "ABNB Revenue for Q2 2024: $2,748,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6ced53b7-b0b2-4252-89b7-b68175c65a06",
+    "chunk_ids": [
+      "acff31cb-25be-4a3b-b7c6-374260e04e9c"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 497000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Income for Q2 2024: $497,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0d4d03f7-5505-46ba-9153-55c240749e43",
+    "chunk_ids": [
+      "bd6eb022-effb-4213-8455-f79480865253"
+    ],
+    "fact_type": "operatingIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 0.18085880640465793,
+    "unit": "ratio",
+    "description": "ABNB Operating Margin for Q2 2024: 18.09%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6637e4ee-4ec8-463f-a2b2-8699fed7e874",
+    "chunk_ids": [
+      "00f12ce7-70b5-4fd9-bafa-f3457e50a689"
+    ],
+    "fact_type": "netIncome",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 555000000.0,
+    "unit": "USD",
+    "description": "ABNB Net Income for Q2 2024: $555,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6d1c75e7-6d1d-4504-b76e-b66f42951bc2",
+    "chunk_ids": [
+      "5f25efd1-15fd-4c52-8d8e-32da5db90cbb"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 0.2019650655021834,
+    "unit": "ratio",
+    "description": "ABNB Net Margin for Q2 2024: 20.20%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ccd666df-2c15-4052-84d6-f2d28603a060",
+    "chunk_ids": [
+      "2d9e262d-c017-4ece-acef-69ae7e5b2184"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 519000000.0,
+    "unit": "USD",
+    "description": "ABNB R&D Expenses for Q2 2024: $519,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c73ce873-e43c-4c25-add6-78704fd499a0",
+    "chunk_ids": [
+      "bfb2f5fb-e91c-42d0-8214-90c3634aed74"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 26992000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Assets for Q2 2025: $26,992,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7ee30eda-d952-4d60-a017-38cdf3505a82",
+    "chunk_ids": [
+      "37bfe16f-306e-48d8-9580-8efa35b4d4dc"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 19210000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Liabilities for Q2 2025: $19,210,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "23b77ea8-c995-47e2-a04e-6f056440ce7f",
+    "chunk_ids": [
+      "1ffa518c-b47f-4f02-ba06-201e370a9500"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 7782000000.0,
+    "unit": "USD",
+    "description": "ABNB Stockholders' Equity for Q2 2025: $7,782,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2b1f82bd-c28b-4b08-b638-99b6d475d779",
+    "chunk_ids": [
+      "7a978160-64ac-4175-8492-db001a33e153"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 18444000000.0,
+    "unit": "USD",
+    "description": "ABNB Cash & Equivalents for Q2 2025: $18,444,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "71f947e8-709c-4447-a621-415a90fd250b",
+    "chunk_ids": [
+      "6dca5457-fbd0-4271-a85d-c679ec375dd3"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 23180000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Assets for Q2 2025: $23,180,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4d11604a-1b25-439b-b1ca-d9422640c729",
+    "chunk_ids": [
+      "f4726d69-b5ca-4c99-a4c0-137fdedc2b3e"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "ABNB",
+    "period": "Q2 2025",
+    "value": 18816000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Liabilities for Q2 2025: $18,816,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c7a1c961-066a-4f94-8b8d-419f101e4878",
+    "chunk_ids": [
+      "060eed81-3327-4dd9-b073-599304c7aa63"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 25056000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Assets for Q1 2025: $25,056,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "324b932a-fb28-4385-98a7-b0115d1bf9a6",
+    "chunk_ids": [
+      "fbae7f83-3d9d-4502-8592-d7ac4855c56b"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 17119000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Liabilities for Q1 2025: $17,119,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "fa68714c-92ac-4c17-86eb-87301a1642fa",
+    "chunk_ids": [
+      "170a848c-bfc9-4633-aa13-bb196217eed5"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 7937000000.0,
+    "unit": "USD",
+    "description": "ABNB Stockholders' Equity for Q1 2025: $7,937,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ef12357a-61de-4d30-8f80-e1695745004a",
+    "chunk_ids": [
+      "c66d227f-1bb8-431a-acc1-0ff5e106b63f"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 16750000000.0,
+    "unit": "USD",
+    "description": "ABNB Cash & Equivalents for Q1 2025: $16,750,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "17ca72ce-7367-4832-a6f8-7100f032cf26",
+    "chunk_ids": [
+      "e3ab4c06-98a6-49b2-84f7-8f50fcb96be6"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 21295000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Assets for Q1 2025: $21,295,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c0316c29-5c40-48ce-af62-86cc6f8422b9",
+    "chunk_ids": [
+      "948ea650-0009-4d8b-9def-573dac21b598"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 16730000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Liabilities for Q1 2025: $16,730,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cb487c4a-a620-4453-b195-ec9038f376cd",
+    "chunk_ids": [
+      "5b140f21-b25f-42f7-b394-c7cbb8ed3033"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 22172000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Assets for Q3 2024: $22,172,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4aa1d152-4ec8-435e-ae02-fb974671c418",
+    "chunk_ids": [
+      "8dd183dd-a00e-46ec-bacc-a7c94eb06af5"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 13684000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Liabilities for Q3 2024: $13,684,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "667ebc22-308e-4085-8fd8-ea99c74f945f",
+    "chunk_ids": [
+      "dd46a1ce-6e16-44aa-aeff-ecdeb05c9145"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 8488000000.0,
+    "unit": "USD",
+    "description": "ABNB Stockholders' Equity for Q3 2024: $8,488,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3c832a3d-9f0d-4578-9adc-36c35aa83b63",
+    "chunk_ids": [
+      "f268696b-9ccd-486d-b89c-1958d761d320"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 14198000000.0,
+    "unit": "USD",
+    "description": "ABNB Cash & Equivalents for Q3 2024: $14,198,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8c924eb0-b611-449f-b377-dafb0da8256f",
+    "chunk_ids": [
+      "10be5ab1-2a7c-407c-9bc2-0caf4a4075cc"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 18319000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Assets for Q3 2024: $18,319,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1b5c12d6-85db-4185-9223-7327f6dc9e87",
+    "chunk_ids": [
+      "87dc569e-1e54-4c04-9405-af18b810e2fb"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "ABNB",
+    "period": "Q3 2024",
+    "value": 11336000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Liabilities for Q3 2024: $11,336,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1343b366-7b60-416a-87aa-03a4b5c162e0",
+    "chunk_ids": [
+      "954e7f0a-d8cd-4015-bc35-c800b569128f"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 26320000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Assets for Q2 2024: $26,320,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b84dc803-3108-4386-9fe2-dab52cce5b59",
+    "chunk_ids": [
+      "ab534b6b-d81e-4a61-a8a2-d54c80264826"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 18318000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Liabilities for Q2 2024: $18,318,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "17a91e37-4f7d-49d7-a623-981f3960033e",
+    "chunk_ids": [
+      "22ccb3fa-16c2-4b14-a463-ffd02d8f7bb9"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 8002000000.0,
+    "unit": "USD",
+    "description": "ABNB Stockholders' Equity for Q2 2024: $8,002,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "bb0b1ccd-ee8c-4e87-a33c-b9ab06137900",
+    "chunk_ids": [
+      "d09feeae-5eef-4fd4-9c81-38ab89ba7cd6"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 18190000000.0,
+    "unit": "USD",
+    "description": "ABNB Cash & Equivalents for Q2 2024: $18,190,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ec25be32-d111-4dd3-a398-a840c3a78dac",
+    "chunk_ids": [
+      "82c455d7-32d9-4d15-a54a-ff7df82ac86f"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 22252000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Assets for Q2 2024: $22,252,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6cfcc09f-beb8-447b-8112-c7be0d372433",
+    "chunk_ids": [
+      "b61f940b-0bec-4327-8ad5-0d134b2e7a34"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "ABNB",
+    "period": "Q2 2024",
+    "value": 15828000000.0,
+    "unit": "USD",
+    "description": "ABNB Total Current Liabilities for Q2 2024: $15,828,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "26de993f-13a8-4c9f-b764-4c0f362418c5",
+    "chunk_ids": [
+      "16fdafa0-221f-440e-97ca-edb2dcf2904a"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 1789000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Cash Flow for Q1 2025: $1,789,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a36d3329-9f5b-4acf-8bda-4ff3cb59107b",
+    "chunk_ids": [
+      "284425a3-f955-47b9-88d3-bdc5cb072260"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "ABNB",
+    "period": "Q1 2025",
+    "value": 807000000.0,
+    "unit": "USD",
+    "description": "ABNB Stock Buybacks for Q1 2025: $807,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c338fce3-ea94-4351-9557-277c60de0dfc",
+    "chunk_ids": [
+      "0044ee24-fe45-4f3b-8c7a-e9a1d712ae08"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "ABNB",
+    "period": "Q1 2024",
+    "value": 1923000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Cash Flow for Q1 2024: $1,923,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ce947003-0bf1-41e6-ae0d-6d066fe02ac2",
+    "chunk_ids": [
+      "098770a4-abc3-4c70-b0dd-0f9fbbc2ab77"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "ABNB",
+    "period": "Q1 2024",
+    "value": 750000000.0,
+    "unit": "USD",
+    "description": "ABNB Stock Buybacks for Q1 2024: $750,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4d406b27-8a58-4a14-9103-7194b73408e6",
+    "chunk_ids": [
+      "5ca5baa1-e495-4880-a03b-604fb474fe31"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "ABNB",
+    "period": "Q1 2023",
+    "value": 1587000000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Cash Flow for Q1 2023: $1,587,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d3ecea9f-2f67-4019-9be2-3ee481fa7df8",
+    "chunk_ids": [
+      "a1bdd658-825b-403d-affb-a856871ee647"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "ABNB",
+    "period": "Q1 2023",
+    "value": 6000000.0,
+    "unit": "USD",
+    "description": "ABNB Capital Expenditure for Q1 2023: $6,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "187312b9-45c1-4fe9-b22f-01e4474fb303",
+    "chunk_ids": [
+      "ee8b1230-f04c-41f2-a99e-f6e6170521e1"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "ABNB",
+    "period": "Q1 2023",
+    "value": 1581000000.0,
+    "unit": "USD",
+    "description": "ABNB Free Cash Flow for Q1 2023: $1,581,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8bc39367-8a9b-43d8-be07-01a39f38c275",
+    "chunk_ids": [
+      "b5058832-aa4c-43f4-b052-851e77b183f7"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "ABNB",
+    "period": "Q1 2023",
+    "value": 493000000.0,
+    "unit": "USD",
+    "description": "ABNB Stock Buybacks for Q1 2023: $493,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1670f095-7937-4ef1-84ad-c0da650ee082",
+    "chunk_ids": [
+      "12d866b3-ed01-4b43-b685-7c0e246be3b1"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "ABNB",
+    "period": "Q1 2022",
+    "value": 1201992000.0,
+    "unit": "USD",
+    "description": "ABNB Operating Cash Flow for Q1 2022: $1,201,992,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1574e9a4-c1f8-48b3-b656-e9e6aff3ab5c",
+    "chunk_ids": [
+      "d06dfd33-81a2-4377-9f7f-10adcce1d5e4"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "ABNB",
+    "period": "Q1 2022",
+    "value": 5959000.0,
+    "unit": "USD",
+    "description": "ABNB Capital Expenditure for Q1 2022: $5,959,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "73ce9ff3-fd0e-4596-b271-995a26cf58c8",
+    "chunk_ids": [
+      "1c37174e-6236-41da-a1b3-1933b536f858"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "ABNB",
+    "period": "Q1 2022",
+    "value": 1196033000.0,
+    "unit": "USD",
+    "description": "ABNB Free Cash Flow for Q1 2022: $1,196,033,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3ae23289-8ea4-49aa-a84b-1fdd420e7d23",
+    "chunk_ids": [
+      "20f8a64a-38ae-4b87-b698-3350c415de09",
+      "d0e3dd88-1e6e-48e0-be24-f7fa26a489b1",
+      "ad3f4a36-7a6c-4ee6-8656-d1420240fdca",
+      "c9053ebd-35ce-468b-9f2f-b989d90b2b16"
+    ],
+    "fact_type": "financial_result",
+    "subject": "ABNB",
+    "period": "2025-Q2",
+    "value": null,
+    "unit": null,
+    "description": "Airbnb reported Q2 2025 earnings that beat estimates, with EPS exceeding expectations by 9.5% and revenues rising year-over-year.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "91823909-ec84-40a3-8226-6c83faa177dd",
+    "chunk_ids": [
+      "ad3f4a36-7a6c-4ee6-8656-d1420240fdca",
+      "a73b7fea-7ae5-4dd2-bfab-57a43001a151",
+      "c9053ebd-35ce-468b-9f2f-b989d90b2b16"
+    ],
+    "fact_type": "financial_result",
+    "subject": "ABNB",
+    "period": "2025-08",
+    "value": null,
+    "unit": null,
+    "description": "Despite the earnings beat, shares dropped approximately 6-7% following a margin warning for the third and fourth quarters of 2025.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "d70f8243-b4cf-42c7-942b-67d10bd0e5da",
+    "chunk_ids": [
+      "3ee2239d-44f5-4d8a-9ef5-7fb1aa899721",
+      "4f0db48b-8dc6-438f-b1c0-be187eb076ec"
+    ],
+    "fact_type": "market_trend",
+    "subject": "ABNB",
+    "period": "2025-08-11",
+    "value": null,
+    "unit": null,
+    "description": "Airbnb stock underperformed the broader market on Monday, August 11, 2025, continuing its post-earnings decline.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "8d2775f0-cbf7-4be3-9dd0-7bb3a555bc18",
+    "chunk_ids": [
+      "a73b7fea-7ae5-4dd2-bfab-57a43001a151"
+    ],
+    "fact_type": "product_launch",
+    "subject": "ABNB",
+    "period": "2025-08",
+    "value": null,
+    "unit": null,
+    "description": "CEO Brian Chesky announced the company plans to expand significantly more aggressively into the hotel sector, stating hotels are the future.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "886fee8e-ef28-4768-9141-006d59cf71a3",
+    "chunk_ids": [
+      "48a1fb5a-f67a-444f-90e8-fe9e1a6bede3"
+    ],
+    "fact_type": "product_launch",
+    "subject": "ABNB",
+    "period": "2025-08",
+    "value": null,
+    "unit": null,
+    "description": "Airbnb is charting an AI-first path and expanding its customer service agent capabilities, with leadership emphasizing AI's necessity in future travel planning.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "e822bccd-6e2a-443e-a116-eff1a90e8a38",
+    "chunk_ids": [
+      "ad3f4a36-7a6c-4ee6-8656-d1420240fdca"
+    ],
+    "fact_type": "financial_result",
+    "subject": "ABNB",
+    "period": "2025-Q2",
+    "value": null,
+    "unit": null,
+    "description": "The company reported strong bookings and a rising Average Daily Rate (ADR) for the quarter.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "1fa05dff-d178-45ce-aaa3-0472595d9c88",
+    "chunk_ids": [
+      "b1df1f3f-6768-472d-855a-3501ff8f7b7c"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "ABNB",
+    "period": "2025-08-07",
+    "value": null,
+    "unit": null,
+    "description": "Ark Invest, led by Cathie Wood, purchased $21.5 million worth of Airbnb stock on August 7, 2025.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "48000348-8fb9-4af3-bde9-033ef0f33d5c",
+    "chunk_ids": [
+      "e6d5ba8b-43b1-4b66-a010-0399890af4cb"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "ABNB",
+    "period": "2025-08",
+    "value": null,
+    "unit": null,
+    "description": "SeekingAlpha analysis rates Airbnb as a 'hold' citing elevated valuation multiples and slowed growth in key markets amid economic risks.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "d65426b8-8c56-4b44-a218-c1d6102ac77e",
+    "chunk_ids": [
+      "aaa34b7d-3f80-4052-bce4-6ed700e8f31f"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "ABNB",
+    "period": "2025-Q2",
+    "value": null,
+    "unit": null,
+    "description": "Baron Capital revealed Q2 2025 real estate moves that included positions in Airbnb.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "ce49bff1-1a9c-4649-bddf-bb55784d4049",
+    "chunk_ids": [
+      "f959bc73-87db-48af-84b1-e2fd5865d059"
+    ],
+    "fact_type": "other",
+    "subject": "ABNB",
+    "period": "2025-08-11",
+    "value": null,
+    "unit": null,
+    "description": "A news report highlighted a case where the platform was allegedly used by an abusive ex-partner to steal identity, posing potential reputational and safety risks.",
+    "confidence": 0.9
+  }
+]

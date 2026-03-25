@@ -1,0 +1,44 @@
+{
+  "paragraph_id": "3cfac792-95e8-4443-9c4b-5dac85a3d10b",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Management quality signals indicate proactive risk management and community engagement. CEO Brian Thomas Moynihan stated at the American Bankers Association's annual convention that Bank of America has a playbook for government shutdowns, including providing fee and payment waivers as well as loan deferrals and forbearance programs. The company continues to invest in local market presence, as evidenced by the appointment of Maria Serravalle as Community Relations Manager for the Detroit market. Financial performance metrics show Q3 2025 net margin of 17.56% and operating margin of 19.61%, suggesting efficient operations. However, evidence on specific strategic acquisitions, partnerships, or new market entries beyond those noted is limited in the available documentation.",
+  "citations": [
+    {
+      "citation_id": "caa5a019-891a-43cd-a914-865e92161253",
+      "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+      "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+      "source_type": "company_profile",
+      "text_snippet": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "02c3b40e-dea3-4efd-8809-e8a0ea628444",
+      "chunk_id": "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-21T20:28:05Z | Yahoo\nTitle: BofA treating gov't. shutdown like natural disaster: CEO\nURL: https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b\nBank of America has a playbook for government shutdowns, which includes providing fee and payment w",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e810eb08-b443-417d-a92f-c05fc5828e48",
+      "chunk_id": "69b3e0e8-910c-49f0-9dff-94527bc2ff3a",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-21T13:00:00Z | Yahoo\nTitle: Bank of America Names Maria Serravalle as Community Relations Manager\nURL: https://finnhub.io/api/news?id=fb91a7f991919a2cb54c6e10681179b88911cbb53033810c5f82be16c3b11f12\nDetroit native Maria Serravalle has been named Bank of America's Community Relations M",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "74fc180b-aa2e-45dd-85f7-a448c266424e",
+    "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+    "69b3e0e8-910c-49f0-9dff-94527bc2ff3a"
+  ],
+  "calc_ids": [
+    "de41b348-2273-4d16-ae56-0ff2d9337fd9",
+    "b3a337d5-ab4b-4f90-b9f1-2ca1873a1095"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

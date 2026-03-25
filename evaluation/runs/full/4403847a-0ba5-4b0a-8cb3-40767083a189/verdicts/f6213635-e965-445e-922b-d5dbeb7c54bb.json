@@ -1,0 +1,90 @@
+{
+  "verdict_id": "f6213635-e965-445e-922b-d5dbeb7c54bb",
+  "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "d0827f7d-f328-4508-989e-fbd0528845e5",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+      "offending_span": "Q1 2025's depressed 1.67% (C011)",
+      "explanation": "The paragraph cites C011 for Q1 2025 operating margin of 1.67%, but the actual chunk containing this data is C013. C011 is not in the cited chunk refs list and C013 shows 'ABNB Operating Margin for Q1 2025: 1.67%'.",
+      "relevant_chunk_ids": [
+        "a160fcf6-493c-4420-8dda-c198f2bc8cf4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C011) to (C013)"
+    },
+    {
+      "issue_id": "6e7d0427-41a2-4655-be29-4083c331df85",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+      "offending_span": "Q2 2024's 18.09% (C025)",
+      "explanation": "The paragraph cites C025 for Q2 2024 operating margin of 18.09%, but the actual chunk containing this data is C027. C025 is not in the cited chunk refs list and C027 shows 'ABNB Operating Margin for Q2 2024: 18.09%'.",
+      "relevant_chunk_ids": [
+        "071d722a-f1f7-470f-bc65-42cc81f0296f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C025) to (C027)"
+    },
+    {
+      "issue_id": "406ecfb1-b779-4fed-b147-e021c1a72834",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+      "offending_span": "Q1 2025's 6.78% (C013)",
+      "explanation": "The paragraph cites C013 for Q1 2025 net margin of 6.78%, but C013 contains operating margin data. The correct chunk for net margin is C015, which shows 'ABNB Net Margin for Q1 2025: 6.78%'.",
+      "relevant_chunk_ids": [
+        "a160fcf6-493c-4420-8dda-c198f2bc8cf4",
+        "fd55c935-5910-4989-9195-74aa31fce874"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C013) to (C015)"
+    },
+    {
+      "issue_id": "890ebaee-02cd-4b73-84ae-512ab7ab7a56",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+      "offending_span": "Q2 2024's 20.20% (C027)",
+      "explanation": "The paragraph cites C027 for Q2 2024 net margin of 20.20%, but C027 contains operating margin data. The correct chunk for net margin is C029, which shows 'ABNB Net Margin for Q2 2024: 20.20%'.",
+      "relevant_chunk_ids": [
+        "071d722a-f1f7-470f-bc65-42cc81f0296f",
+        "9764afee-29eb-42ed-9fd1-9703cfbf1379"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C027) to (C029)"
+    },
+    {
+      "issue_id": "b467446f-0046-4683-aea4-83e16824b32e",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+      "offending_span": "40.86% operating margin (C018)",
+      "explanation": "The paragraph cites C018 for Q3 2024 operating margin of 40.86%, but the actual chunk containing this data is C020. C018 is not in the cited chunk refs list and C020 shows 'ABNB Operating Margin for Q3 2024: 40.86%'.",
+      "relevant_chunk_ids": [
+        "f4e9155f-01ab-4ae6-93c4-a85f687185cc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C018) to (C020)"
+    },
+    {
+      "issue_id": "f19871bb-0ce7-4934-97f3-7895708f3005",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+      "offending_span": "36.66% net margin (C020)",
+      "explanation": "The paragraph cites C020 for Q3 2024 net margin of 36.66%, but C020 contains operating margin data. The correct chunk for net margin is C022, which shows 'ABNB Net Margin for Q3 2024: 36.66%'.",
+      "relevant_chunk_ids": [
+        "f4e9155f-01ab-4ae6-93c4-a85f687185cc",
+        "c8c32b97-a57e-4873-a1a0-a9faa84b9e94"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C020) to (C022)"
+    }
+  ],
+  "checked_at": "2026-03-24T13:54:13.267426",
+  "iteration": 3
+}

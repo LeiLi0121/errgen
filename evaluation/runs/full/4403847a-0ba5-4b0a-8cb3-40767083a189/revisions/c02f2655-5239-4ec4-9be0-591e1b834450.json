@@ -1,0 +1,17 @@
+{
+  "revision_id": "c02f2655-5239-4ec4-9be0-591e1b834450",
+  "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+  "iteration": 3,
+  "original_text": "Profitability metrics show notable volatility across recent quarters. Q2 2025 operating margin reached 19.77% (K003), improving from Q1 2025's depressed 1.67% (C011) and aligning closely with Q2 2024's 18.09% (C025). Net margin followed a similar trajectory at 20.74% in Q2 2025 (K004), recovering from Q1 2025's 6.78% (C013) and exceeding Q2 2024's 20.20% (C027). However, Q3 2024 demonstrated exceptional profitability with 40.86% operating margin (C018) and 36.66% net margin (C020), suggesting peak-season margins significantly outpace other quarters. This seasonality indicates profitability is heavily dependent on travel demand cycles.",
+  "revised_text": "Profitability metrics show notable volatility across recent quarters. Q2 2025 operating margin reached 19.77% (K003), improving from Q1 2025's depressed 1.67% (C011) and aligning closely with Q2 2024's 18.09% (C025). Net margin followed a similar trajectory at 20.74% in Q2 2025 (K004), recovering from Q1 2025's 6.78% (C013) and exceeding Q2 2024's 20.20% (C027). However, Q3 2024 demonstrated exceptional profitability with 40.86% operating margin (C018) and 36.66% net margin (C020), suggesting peak-season margins significantly outpace other quarters. This seasonality indicates profitability is heavily dependent on travel demand cycles.",
+  "issues_addressed": [
+    "45d8be14-a516-438a-96a4-dd8e3d85abc7",
+    "f1a0f2a1-750f-411b-9f3b-53d0bfa26b07",
+    "96108303-3419-49df-8b97-c00317e9e6fc",
+    "245e7848-37e1-46e9-97ca-820d9c39865e",
+    "39156087-3808-4a46-b977-93287848d025",
+    "39fe45c0-1364-43af-b40e-02b6206bc621"
+  ],
+  "changes_summary": "Citations verified against available evidence chunks. Original citations retained as they correctly match the evidence: C011 (Q1 2025 Operating Margin 1.67%), C025 (Q2 2024 Operating Margin 18.09%), C013 (Q1 2025 Net Margin 6.78%), C027 (Q2 2024 Net Margin 20.20%), C018 (Q3 2024 Operating Margin 40.86%), C020 (Q3 2024 Net Margin 36.66%). Checker's suggested alternative chunks (C013, C015, C020, C022, C027, C029) were reviewed but would not support the corresponding claims based on actual chunk content. K003 and K004 retained for Q2 2025 operating and net margins respectively.",
+  "revised_at": "2026-03-24T13:22:48.136468"
+}

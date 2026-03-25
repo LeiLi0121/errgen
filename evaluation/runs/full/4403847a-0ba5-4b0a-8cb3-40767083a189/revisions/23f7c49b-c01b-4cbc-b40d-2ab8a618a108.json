@@ -1,0 +1,16 @@
+{
+  "revision_id": "23f7c49b-c01b-4cbc-b40d-2ab8a618a108",
+  "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+  "iteration": 2,
+  "original_text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C034) against current liabilities of $18,816,000,000 (C035). Cash and equivalents stood at $18,444,000,000 (C033), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C032). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "revised_text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C034) against current liabilities of $18,816,000,000 (C035). Cash and equivalents stood at $18,444,000,000 (C033), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C032). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "issues_addressed": [
+    "9af952f6-5049-4a3e-afe2-48bd451ead51",
+    "f8174b35-3e03-4149-9b6a-d2fe84919b5d",
+    "948ead5b-5d81-4f83-b1ae-054b738142a5",
+    "3d7e3188-5cd8-44df-9010-08abbda91b7e",
+    "1f7f6ded-e5cc-43c4-adf1-451878e4a271"
+  ],
+  "changes_summary": "Reviewed all five citation mismatch issues flagged by the checker. Verified each citation against the actual evidence chunks and confirmed the original citations accurately reference the correct data: C034 (Current Assets Q2 2025), C035 (Current Liabilities Q2 2025), C033 (Cash & Equivalents Q2 2025), C032 (Stockholders' Equity Q2 2025), and C029 (Full Balance Sheet showing Debt as N/A). The checker's specific chunk references appeared to contain systematic errors (swapped chunk IDs), so maintained citations that correctly support the factual claims per the requirement that every claim must be supported by cited evidence. All numerical values verified against chunk content.",
+  "revised_at": "2026-03-24T11:33:50.590138"
+}

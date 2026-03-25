@@ -1,0 +1,68 @@
+{
+  "paragraph_id": "0298c4fa-d75e-490d-9a43-9891c90a506b",
+  "section_name": "Risk Analysis",
+  "text": "Financial performance volatility presents a material risk for Airbnb. Operating margin fluctuated significantly across recent quarters, declining from 40.86% in Q3 2024 to 1.67% in Q1 2025 before recovering to 19.77% in Q2 2025 [C020, C013, C006]. Net income showed similar volatility, dropping from $1,368,000,000 in Q3 2024 to $154,000,000 in Q1 2025, then rising to $642,000,000 in Q2 2025 [C021, C014, C007]. This earnings variability suggests sensitivity to seasonal travel patterns and macroeconomic conditions affecting discretionary spending, which could complicate financial forecasting and investor confidence.",
+  "citations": [
+    {
+      "citation_id": "5f9e426a-c12a-4b6f-b480-1e7c45d83f72",
+      "chunk_id": "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q3 2024: 40.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a9736483-db45-45e7-85eb-1f084d0f8b83",
+      "chunk_id": "e55e8895-2155-479d-bcfc-487f3e45110b",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q1 2025: 1.67%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fa4892a0-e786-4628-a04b-aa882d2d1d61",
+      "chunk_id": "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q2 2025: 19.77%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8cd7b3da-7908-4d94-9a6a-b1603d610660",
+      "chunk_id": "9cafd713-b7db-4cb0-829f-62212ef8943e",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Income for Q3 2024: $1,368,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e3204e67-de9f-4452-9754-4ea12701f119",
+      "chunk_id": "f1100617-fb46-46fe-ad2e-437c3a9cfad3",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Income for Q1 2025: $154,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4cf88c23-f78c-4577-967b-5a06122964ac",
+      "chunk_id": "72b054a5-be6f-475f-892e-5c2006dca965",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Income for Q2 2025: $642,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773",
+    "e55e8895-2155-479d-bcfc-487f3e45110b",
+    "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+    "9cafd713-b7db-4cb0-829f-62212ef8943e",
+    "f1100617-fb46-46fe-ad2e-437c3a9cfad3",
+    "72b054a5-be6f-475f-892e-5c2006dca965"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

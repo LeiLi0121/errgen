@@ -1,0 +1,68 @@
+{
+  "paragraph_id": "a9a2e8f3-bbf9-454e-a692-72b7df51e40a",
+  "section_name": "Recent Developments",
+  "text": "American Express shares have surged 23.3% year-to-date as of November 2025, with much of the recent upward movement driven by optimism around consumer spending and strategic partnerships with travel and lifestyle brands. The stock reached an all-time high by November 12, 2025, prompting analyst price target raises. Media commentary noted that everyone likes a good price target raise when a stock is at record levels, reflecting positive market sentiment around the company's performance.",
+  "citations": [
+    {
+      "citation_id": "ad5c515c-4ba2-4dca-a433-878917728e07",
+      "chunk_id": "0023ee5a-ade2-4886-a02b-a5b2a8805c73",
+      "source_id": "aae50515-1b91-4e3f-925a-f937de3972f9",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T19:13:49Z | CNBC\nTitle: American Express is at an all-time high, everyone likes a good price target raise, says Jim Cramer\nURL: https://finnhub.io/api/news?id=da857331d7383384d2938357f3c85bdf36cd76bcc45d25ae4189844a5643a62a\n'Mad Money' host Jim Cramer talks where to find winners an",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b3155438-4ea9-4c48-939f-637b66e8c3ee",
+      "chunk_id": "d45a50b7-c825-4d5a-959e-bcbb7e7630b3",
+      "source_id": "aae50515-1b91-4e3f-925a-f937de3972f9",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-11T11:13:38Z | Yahoo\nTitle: Can Amex’s 23% 2025 Rally Be Justified After Recent Travel Partnerships?\nURL: https://finnhub.io/api/news?id=4a11fb185300ad1f66019c5097a352d025eb01fb136bae403422681bcf6bf252\nCurious whether American Express stock is a smart buy right now? Let’s dig into wha",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0023ee5a-ade2-4886-a02b-a5b2a8805c73",
+    "d45a50b7-c825-4d5a-959e-bcbb7e7630b3"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "81edebac-53f6-4eab-8da0-71f6f7074dc1",
+      "paragraph_id": "a9a2e8f3-bbf9-454e-a692-72b7df51e40a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "126d404e-342a-4ac7-96f8-5c464c515b78",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "a9a2e8f3-bbf9-454e-a692-72b7df51e40a",
+          "offending_span": "strategic partnerships with travel and lifestyle brands",
+          "explanation": "Cited chunk C098 mentions 'Travel Partnerships' in the title and 'consumer spending' in the text, but does not contain any reference to 'lifestyle brands'. The text cuts off at 'and p', making 'lifestyle' an unverifiable addition based on the provided evidence.",
+          "relevant_chunk_ids": [
+            "d45a50b7-c825-4d5a-959e-bcbb7e7630b3"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove 'and lifestyle brands' or cite additional evidence that explicitly mentions lifestyle partnerships driving the movement."
+        },
+        {
+          "issue_id": "7dddb36e-2259-4720-89b3-a5d2530c38f5",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "a9a2e8f3-bbf9-454e-a692-72b7df51e40a",
+          "offending_span": "prompting analyst price target raises",
+          "explanation": "Cited chunk C079's title quotes Jim Cramer saying 'everyone likes a good price target raise', which reflects sentiment/commentary. It does not explicitly state that analysts actually raised price targets as a factual event prompted by the all-time high.",
+          "relevant_chunk_ids": [
+            "0023ee5a-ade2-4886-a02b-a5b2a8805c73"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Qualify the statement to reflect the commentary nature (e.g., 'prompting commentary on price target raises') or provide evidence confirming actual analyst actions."
+        }
+      ],
+      "checked_at": "2026-03-24T20:01:16.401788",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

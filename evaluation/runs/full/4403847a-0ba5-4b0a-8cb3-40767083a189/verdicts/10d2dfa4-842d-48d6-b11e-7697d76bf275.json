@@ -1,0 +1,65 @@
+{
+  "verdict_id": "10d2dfa4-842d-48d6-b11e-7697d76bf275",
+  "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "5d1b3db9-eb2c-4557-9343-d5adb03d5c80",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "on the platform C004",
+      "explanation": "The paragraph cites chunk C004, but the provided evidence supporting this claim is C077 ('Airbnb added to the shame I felt after suffering years of domestic abuse... steal my identity'). C004 is listed as 'uncited' in the available chunks, and the metadata 'Cited chunk refs' specifies C077.",
+      "relevant_chunk_ids": [
+        "7df1b295-58f9-4182-bee5-24e4c57e6662"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citation from 'C004' to 'C077' to match the provided evidence."
+    },
+    {
+      "issue_id": "5eeed304-948b-4fb0-8679-385f1c6dcdf7",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "These reputational risks compound the regulatory and policy uncertainties facing short-term rental platforms.",
+      "explanation": "None of the provided evidence chunks (C077, C082, C088, C093) mention 'regulatory and policy uncertainties'. This claim is not supported by the cited evidence.",
+      "relevant_chunk_ids": [
+        "7df1b295-58f9-4182-bee5-24e4c57e6662",
+        "d1b1362c-f24a-4078-ab63-dfea2860e85b",
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5",
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the claim about regulatory and policy uncertainties or provide a specific chunk that supports this statement."
+    },
+    {
+      "issue_id": "c3bd5f41-45f3-43ed-8735-4f644dd742a9",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "C020 C015",
+      "explanation": "The paragraph cites chunks C020 and C015 for Q2 growth data, but the supporting evidence is found in C088 ('slowed growth in key markets') and C093 ('strong bookings and rising ADR'). C020 and C015 are listed as 'uncited'.",
+      "relevant_chunk_ids": [
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5",
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citations from 'C020 C015' to 'C088 C093'."
+    },
+    {
+      "issue_id": "3793ad76-74f2-4433-affa-46f74a7653c4",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "C009",
+      "explanation": "The paragraph cites chunk C009 for options strategy recommendations, but the supporting evidence is C082 ('How to (Safely) Trade the Post-Earnings Dive with Options... options collars matter'). C009 is listed as 'uncited'.",
+      "relevant_chunk_ids": [
+        "d1b1362c-f24a-4078-ab63-dfea2860e85b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citation from 'C009' to 'C082'."
+    }
+  ],
+  "checked_at": "2026-03-24T07:41:24.921783",
+  "iteration": 0
+}

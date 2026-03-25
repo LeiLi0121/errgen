@@ -1,0 +1,64 @@
+{
+  "paragraph_id": "a4e414e9-05f0-4cef-8390-edb9cd7a366f",
+  "section_name": "Financial Analysis",
+  "text": "Alphabet demonstrated strong revenue momentum in 2025, with Q4 revenue reaching $113.9 billion, representing 11.29% year-over-year growth. This acceleration followed sequential quarterly growth rates of 6.86% in Q2 and 6.14% in Q3, indicating improving top-line trajectory throughout the year. Profitability metrics remained robust in Q4, with gross margin at 59.82%, operating margin at 31.61%, and net margin at 30.25%. These margin levels reflect the company's ability to scale operations efficiently while maintaining pricing power across its core advertising and cloud services businesses.",
+  "citations": [
+    {
+      "citation_id": "db9433e6-18f9-40b4-b80b-119dd1041c16",
+      "chunk_id": "05088fd7-574e-4d7e-8330-3d8bea3eb3af",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – GOOGL | Period: Q4 | Date: 2025-12-31\n  Revenue:            $113,896,000,000\n  Gross Profit:       $68,130,000,000 (margin N/A)\n  Operating Income:   $36,002,000,000 (margin N/A)\n  Net Income:         $34,455,000,000 (margin N/A)\n  EBITDA:             $45,455,000,000\n  EPS:       ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "711db1c0-0518-451f-8684-e4b724fc5256",
+      "chunk_id": "d540ab8b-af80-4c26-a871-2b428a74ea56",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Revenue for Q4: $113,896,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fe7d15a7-da1c-4301-8bc4-6d804b96d72c",
+      "chunk_id": "a42153e7-7445-4909-b4e8-8f90378e36d3",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Gross Profit for Q4: $68,130,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d2e6becf-c7db-40b0-a5a5-56f5d594d088",
+      "chunk_id": "f680d5ee-8700-4b5b-800a-b0aa822fbecf",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Operating Income for Q4: $36,002,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "df86f17d-365c-42f7-b1ef-ebed72f959af",
+      "chunk_id": "c36fbb66-559a-4029-ace0-10163094b792",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Net Income for Q4: $34,455,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "05088fd7-574e-4d7e-8330-3d8bea3eb3af",
+    "d540ab8b-af80-4c26-a871-2b428a74ea56",
+    "a42153e7-7445-4909-b4e8-8f90378e36d3",
+    "f680d5ee-8700-4b5b-800a-b0aa822fbecf",
+    "c36fbb66-559a-4029-ace0-10163094b792"
+  ],
+  "calc_ids": [
+    "11a5f53f-9425-439e-bc10-da67604c1403",
+    "d15d0554-a759-474a-aed5-977b02299d60",
+    "d276499a-730c-4a58-8a27-357703f0aae9",
+    "ade70ed9-027e-4cb3-9763-b0e9e109508d"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

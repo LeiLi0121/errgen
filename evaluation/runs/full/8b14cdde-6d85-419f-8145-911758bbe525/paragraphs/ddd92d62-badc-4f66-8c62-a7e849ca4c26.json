@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "ddd92d62-badc-4f66-8c62-a7e849ca4c26",
+  "section_name": "Company Overview",
+  "text": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+  "citations": [
+    {
+      "citation_id": "0fbe49ab-68c0-45b1-aafc-c04072f68e25",
+      "chunk_id": "721a842d-93a9-49cf-925e-0000da2406a8",
+      "source_id": "60875378-3de5-4a6f-84e3-bdfb6b1b90ec",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "721a842d-93a9-49cf-925e-0000da2406a8"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

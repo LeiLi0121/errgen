@@ -1,0 +1,92 @@
+{
+  "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+  "section_name": "Business & Competitive Analysis",
+  "text": "The company is pursuing strategic expansion into adjacent travel segments, with CEO Brian Chesky stating the company will be 'going significantly more aggressively into hotels' (C010). Simultaneously, Airbnb is charting an AI-first path for customer service and travel planning, with Chesky noting 'you can't do travel planning without AI going forward' (C012). This strategic direction is supported by substantial R&D investment, with R&D intensity at 19.70% of revenue in Q2 2025 (K005). The company faces competition from traditional online travel agencies like Expedia, which also posted strong earnings in the period (C013).",
+  "citations": [
+    {
+      "citation_id": "d681d18a-d777-405f-afe2-d4165b8f1dc9",
+      "chunk_id": "e00b6dc4-96b5-4502-a6b1-b39791c0b603",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:30:56Z | Yahoo\nTitle: Airbnb embraces a paradox: CEO Brian Chesky says hotels are the future\nURL: https://finnhub.io/api/news?id=3a1c090dc5fb0a0c1088edfb160f76bbe856f5e52c2b3510bc721f0df561d6be\n“We’re going to be going significantly more aggressively into hotels,” CEO Brian Ches",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "90e22bf4-fce4-4a42-afef-5a5ac13057af",
+      "chunk_id": "44ea459c-7635-43c6-8d9d-04c9d09b4ce4",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:25:00Z | Yahoo\nTitle: Airbnb charts AI-first path as it expands customer service agent\nURL: https://finnhub.io/api/news?id=c252dbad1d5e1e73cd65536920df00d7ce1f347b204b475fc19e514c46bd7e1d\n“I think you can’t do travel planning without AI going forward,” CEO Brian Chesky said.",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "58e7fe83-2edd-41a4-ac8a-09a606a9ed5b",
+      "chunk_id": "de94eefd-4418-4856-aba3-8ce85e4d3855",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:03:00Z | Yahoo\nTitle: Expedia Posted Strong Earnings. What Wall Street Is Saying About the Stock.\nURL: https://finnhub.io/api/news?id=646d79392ce85f58f86f0a4cc90b656b356d0c343affd0d4ba60f509e0fa6539\nNot all analysts are bullish on shares of the online travel agency, but higher p",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e00b6dc4-96b5-4502-a6b1-b39791c0b603",
+    "44ea459c-7635-43c6-8d9d-04c9d09b4ce4",
+    "de94eefd-4418-4856-aba3-8ce85e4d3855"
+  ],
+  "calc_ids": [
+    "96ed5e8e-8d7a-4666-bffb-29914da0ca2c"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b6fe7da5-63f6-4720-9b77-ad5ba9e58044",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "405032a3-c446-45c3-9b84-3ce2a4d3f7d1",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+          "offending_span": "(C010)",
+          "explanation": "The paragraph cites chunk C010 for the claim about CEO Brian Chesky's statement on hotels, but the provided evidence chunk supporting this claim is C081. The cited ID does not match the available evidence ID.",
+          "relevant_chunk_ids": [
+            "e00b6dc4-96b5-4502-a6b1-b39791c0b603"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation in the text from (C010) to (C081) to match the provided evidence chunk."
+        },
+        {
+          "issue_id": "ec526c84-8f8c-4b99-80f8-fbeeddc093e3",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+          "offending_span": "(C012)",
+          "explanation": "The paragraph cites chunk C012 for the claim about AI and travel planning, but the provided evidence chunk supporting this claim is C083. The cited ID does not match the available evidence ID.",
+          "relevant_chunk_ids": [
+            "44ea459c-7635-43c6-8d9d-04c9d09b4ce4"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation in the text from (C012) to (C083) to match the provided evidence chunk."
+        },
+        {
+          "issue_id": "d769071c-9373-4e3a-9d31-0524775ad7b1",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+          "offending_span": "(C013)",
+          "explanation": "The paragraph cites chunk C013 for the claim about Expedia's earnings, but the provided evidence chunk supporting this claim is C084. The cited ID does not match the available evidence ID.",
+          "relevant_chunk_ids": [
+            "de94eefd-4418-4856-aba3-8ce85e4d3855"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation in the text from (C013) to (C084) to match the provided evidence chunk."
+        }
+      ],
+      "checked_at": "2026-03-24T07:50:16.474135",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,43 @@
+{
+  "paragraph_id": "84dac99e-43aa-4aec-9396-acbbcbb4e528",
+  "section_name": "Risk Analysis",
+  "text": "Revenue seasonality creates forecasting and operational planning challenges. Quarterly revenue varied from $2,272,000,000 in Q1 2025 to $3,096,000,000 in Q2 2025 to $3,732,000,000 in Q3 2024 [C011, C004, C018]. This pattern reflects the travel industry's seasonal nature, with peak demand typically occurring in summer and holiday periods. While Q2 2025 revenue grew 36.27% year-over-year [K001], the inherent seasonality means cash flow and resource allocation must be managed carefully across quarters. Evidence on specific macroeconomic, competitive, regulatory, or geopolitical risks is insufficient in the provided data to quantify those exposures.",
+  "citations": [
+    {
+      "citation_id": "cd01b22b-07f6-4377-a3f3-79a9651f9505",
+      "chunk_id": "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q1 2025: $2,272,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1693459b-3c43-4aed-b9f3-b9a8ff15bb1a",
+      "chunk_id": "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q2 2025: $3,096,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5fba8bc0-a064-40c7-9057-5aee9ffac315",
+      "chunk_id": "56c44370-6ad4-4be0-b29f-381d1958d648",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q3 2024: $3,732,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e",
+    "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41",
+    "56c44370-6ad4-4be0-b29f-381d1958d648"
+  ],
+  "calc_ids": [
+    "416c71ec-228c-4536-a8a4-cd7e7e318634"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

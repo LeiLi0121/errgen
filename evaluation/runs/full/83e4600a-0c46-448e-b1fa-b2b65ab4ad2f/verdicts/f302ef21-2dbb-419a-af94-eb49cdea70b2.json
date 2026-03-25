@@ -1,0 +1,45 @@
+{
+  "verdict_id": "f302ef21-2dbb-419a-af94-eb49cdea70b2",
+  "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "89efd9ff-19c6-4a32-8cdc-24a3cd02f53c",
+      "issue_type": "internal_inconsistency",
+      "severity": "critical",
+      "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+      "offending_span": "Evidence for macroeconomic, competitive, regulatory, operational, and technology risks is insufficient in the provided data.",
+      "explanation": "This claim contradicts the Previously Verified Facts section, which contains explicit risk analysis including: (1) 'American Express carries moderate financial leverage risk as of Q3 2025' with debt-to-equity ratio of 1.78, (2) 'Revenue growth volatility presents a moderate risk factor' with specific quarterly fluctuations, and (3) regulatory developments documented (Visa/Mastercard settlement on November 12, 2025). The paragraph incorrectly states risk evidence is insufficient when verified risk data exists.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to acknowledge the risk information that IS available in the verified facts (leverage risk, revenue volatility, regulatory developments) while noting any genuine gaps in specific risk disclosures."
+    },
+    {
+      "issue_id": "796530d2-088d-4992-8e02-7b7a96818e45",
+      "issue_type": "internal_inconsistency",
+      "severity": "major",
+      "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+      "offending_span": "The company profile and available documentation do not contain specific information on... regulatory proceedings",
+      "explanation": "This contradicts the Previously Verified Facts which explicitly document regulatory developments: 'The competitive payments landscape saw notable regulatory developments on November 12, 2025, as Visa and Mastercard proposed a settlement in their long-running legal dispute with merchants over interc'. While this may not be Amex-specific, claiming no regulatory information exists is inconsistent with verified data.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Qualify the statement to acknowledge regulatory information that exists in the documentation, or specify which types of regulatory proceedings are missing."
+    },
+    {
+      "issue_id": "d1181137-7a74-4bd7-b5d4-d1e599c1e902",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+      "offending_span": "Evidence for macroeconomic, competitive, regulatory, operational, and technology risks is insufficient in the provided data. The company profile and available documentation do not contain specific information on interest rate sensitivity, currency exposure, market share dynamics, regulatory proceedings, supply chain dependencies, or technology platform risks.",
+      "explanation": "Chunks C001 and C002 are cited to support claims about what risk information is absent from the documentation. However, C001 only contains basic company profile data (employee count, sector, CEO) and C002 only contains business description. Neither chunk supports claims about the absence of risk disclosures across the broader documentation. These chunks cannot verify what information is or isn't available elsewhere.",
+      "relevant_chunk_ids": [
+        "80b9bf63-a19d-4247-b75e-5c488d1301e9",
+        "ce33c581-a4d6-46ea-a474-d9b7cec14c65"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite appropriate chunks that actually address risk disclosures, or remove the chunk citations and rephrase as a general observation about documentation limitations without implying the cited chunks support this claim."
+    }
+  ],
+  "checked_at": "2026-03-24T20:27:45.698091",
+  "iteration": 1
+}

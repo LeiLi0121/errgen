@@ -1,0 +1,61 @@
+{
+  "verdict_id": "b774489b-48b0-4b49-9cc7-6317e0f49aaa",
+  "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "b14c5d3f-d9ad-4aef-b04a-80de912eeeb9",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "Platform safety concerns emerged in media coverage, with reports highlighting identity theft risks and domestic abuse-related incidents on the platform C077",
+      "explanation": "The claim cites chunk C077, but this chunk is not provided in the evidence list (available chunks only range from C001 to C020). The factual claim cannot be verified.",
+      "relevant_chunk_ids": [
+        "7df1b295-58f9-4182-bee5-24e4c57e6662"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the correct evidence chunk (C077) or remove the claim if evidence is unavailable. Ensure citation IDs match the provided evidence set."
+    },
+    {
+      "issue_id": "039b3a17-9b52-45c5-953e-b33bd650c79e",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "bookings and average daily rates (ADR) remained strong in Q2 C093",
+      "explanation": "The claim cites chunk C093, which is not provided in the evidence list (available chunks only range from C001 to C020). The performance data cannot be verified.",
+      "relevant_chunk_ids": [
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the correct evidence chunk (C093) or remove the claim. Verify citation IDs against the available evidence set."
+    },
+    {
+      "issue_id": "b8c51b8e-97dd-432d-bb27-c94dea6195ea",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "growth has slowed in key markets amid broader economic headwinds C088",
+      "explanation": "The claim cites chunk C088, which is not provided in the evidence list (available chunks only range from C001 to C020). The market analysis cannot be verified.",
+      "relevant_chunk_ids": [
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the correct evidence chunk (C088) or remove the claim. Verify citation IDs against the available evidence set."
+    },
+    {
+      "issue_id": "3d26b1d9-1b1b-4a44-a514-74f9f1ec76ef",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "Options strategies such as collars gained attention post-earnings due to dramatic stock moves C082",
+      "explanation": "The claim cites chunk C082, which is not provided in the evidence list (available chunks only range from C001 to C020). The statement about options strategies cannot be verified.",
+      "relevant_chunk_ids": [
+        "d1b1362c-f24a-4078-ab63-dfea2860e85b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the correct evidence chunk (C082) or remove the claim. Verify citation IDs against the available evidence set."
+    }
+  ],
+  "checked_at": "2026-03-24T11:41:57.854643",
+  "iteration": 2
+}

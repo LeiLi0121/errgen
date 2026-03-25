@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "52b24746-4f65-4fa6-aa35-2f73a661050a",
+  "section_name": "Company Overview",
+  "text": "Airbnb, Inc. (Ticker: ABNB) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Travel Services | Market Cap: N/A | CEO: Brian Chesky | Full-Time Employees: 7300 | IPO Date: 2020-12-10 | Country: US | Website: https://www.airbnb.com",
+  "citations": [
+    {
+      "citation_id": "bfd27db1-913d-494a-bbd7-83a4253ad95c",
+      "chunk_id": "de3a9902-cf86-480c-b534-7539043c97bb",
+      "source_id": "30b9e142-7f39-4797-a424-7dfd5a65b372",
+      "source_type": "company_profile",
+      "text_snippet": "Airbnb, Inc. (Ticker: ABNB) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Travel Services | Market Cap: N/A | CEO: Brian Chesky | Full-Time Employees: 7300 | IPO Date: 2020-12-10 | Country: US | Website: https://www.airbnb.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "de3a9902-cf86-480c-b534-7539043c97bb"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

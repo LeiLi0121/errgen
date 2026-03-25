@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "5c903749-ba0c-4055-a64f-a48fa810b967",
+  "section_name": "Recent Developments",
+  "text": "On the regulatory front, the U.S. government and a majority of U.S. states filed an appeal in the landmark antitrust case against Google's search business on Tuesday, February 3, 2026, according to court papers. A federal court judge in Washington ruled in 2024 that Google holds a monopoly in the online search business but rejected the toughest proposed remedies. The Department of Justice and state attorneys general did not provide specific details about their appeal in the court documents, leaving uncertainty around potential outcomes that could affect Alphabet's search distribution agreements and business model.",
+  "citations": [
+    {
+      "citation_id": "d4e5c583-b5a7-478b-88ba-5ed9dec46fba",
+      "chunk_id": "a58e7098-8f27-462a-95e8-60c63f56bf1b",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T21:06:04Z | Yahoo\nTitle: US files appeal in Google search case, court filing shows\nURL: https://finnhub.io/api/news?id=d77e88443223ab4632b04b4b6bc9989f67fe9a9a2f9cf02881cc90f754076805\ngovernment ​and a majority ‌of U. states on ‌Tuesday said they will appeal the outcome of a landma",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3233dfe7-08e7-4c62-90d2-8d0715580cb6",
+      "chunk_id": "8b226950-e3c1-4b1e-82e9-848bff020d62",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T20:59:50Z | Yahoo\nTitle: US files appeal in Google search antitrust case\nURL: https://finnhub.io/api/news?id=2ca6e2bc73ab93ea261fb205932caedb614e6454677785e1db0ca1c49da84a87\nThe U.S. government and a majority of U.S. states on Tuesday will appeal the outcome of ​a landmark antitrus",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a58e7098-8f27-462a-95e8-60c63f56bf1b",
+    "8b226950-e3c1-4b1e-82e9-848bff020d62"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,34 @@
+{
+  "paragraph_id": "79c2ecc8-4465-4b44-b4ff-9f18efc0c3cf",
+  "section_name": "Financial Analysis",
+  "text": "Amazon maintains aggressive R&D investment intensity at 16.20% of revenue in Q2 2025, with R&D expenses totaling $27.2 billion. This represents an increase from Q1 2025 R&D spending of $23.0 billion, reflecting the company's continued commitment to innovation across AI, cloud infrastructure, and logistics capabilities. The elevated R&D intensity underscores Amazon's strategic positioning for long-term growth, though it weighs on near-term free cash flow generation.",
+  "citations": [
+    {
+      "citation_id": "0b30a628-b10b-4f88-9252-83a2900ae47f",
+      "chunk_id": "a7e5dd22-087a-4042-9c86-abb928a1f8b9",
+      "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN R&D Expenses for Q2: $27,166,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b7e576fe-6a86-41e2-928b-d10e2c1db2d7",
+      "chunk_id": "5ca4da87-b0cc-487f-94bb-203f84ea452b",
+      "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN R&D Expenses for Q1: $22,994,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a7e5dd22-087a-4042-9c86-abb928a1f8b9",
+    "5ca4da87-b0cc-487f-94bb-203f84ea452b"
+  ],
+  "calc_ids": [
+    "b2c238cb-1b76-44eb-b9b0-3db7d8c7ef22"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

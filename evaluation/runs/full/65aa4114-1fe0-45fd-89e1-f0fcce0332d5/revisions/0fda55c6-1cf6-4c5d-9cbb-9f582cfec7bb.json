@@ -1,0 +1,12 @@
+{
+  "revision_id": "0fda55c6-1cf6-4c5d-9cbb-9f582cfec7bb",
+  "paragraph_id": "8d200c70-a457-4364-bf41-0cf1cbe23e8c",
+  "iteration": 3,
+  "original_text": "Competitive positioning in cloud and advertising business lines appears strengthened by AI-driven demand trends. Market analysis indicates that as Google boosts AI spending, Amazon looks primed to gain from rising demand for chips and AI tools. Q2 earnings results confirmed AI-powered AWS growth and advertising revenue as key drivers, underpinned by posted top-line revenue. Analyst sentiment reflects this strength, with UBS signaling Amazon strength through a price target hike that sparked a rally, indicating institutional confidence in the company's strength.",
+  "revised_text": "Competitive positioning in cloud and advertising business lines appears strengthened by AI-driven demand trends. Market analysis indicates that as Google boosts AI spending, Amazon looks primed to gain from rising demand for chips and AI tools. The Q2 earnings outlook highlighted AI-powered AWS growth and advertising revenue as key drivers, underpinned by an upbeat revenue forecast. Analyst sentiment reflects this strength, with UBS signaling Amazon strength through a price target hike that sparked a rally, indicating institutional confidence in the company's strength.",
+  "issues_addressed": [
+    "661fff27-d1e6-4d86-904c-3e59c294d66c"
+  ],
+  "changes_summary": "Revised 'Q2 earnings results confirmed' to 'Q2 earnings outlook highlighted' and 'posted top-line revenue' to 'upbeat revenue forecast' to align with C020, which is a preview article, fixing the citation mismatch identified by the checker. Removed K001 as specific revenue figures are no longer cited to maintain consistency with the outlook narrative. Retained C010 and C018 for AI demand and UBS analyst sentiment claims respectively.",
+  "revised_at": "2026-03-24T19:14:02.240840"
+}

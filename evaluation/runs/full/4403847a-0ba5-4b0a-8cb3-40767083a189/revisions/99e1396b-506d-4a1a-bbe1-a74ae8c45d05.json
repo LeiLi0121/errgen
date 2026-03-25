@@ -1,0 +1,17 @@
+{
+  "revision_id": "99e1396b-506d-4a1a-bbe1-a74ae8c45d05",
+  "paragraph_id": "2af2e9f7-2301-4233-92f2-30ef231aaa75",
+  "iteration": 2,
+  "original_text": "Cash flow generation remains robust, though EBITDA data is unavailable in the provided financial statements (C001, C008, C015, C022). Operating cash flow in Q1 2025 totaled $1,789,000,000 (C058), slightly below Q1 2024's $1,923,000,000 (C061), indicating resilient cash generation despite the revenue decline in that period. Free cash flow data is largely unavailable except for Q1 2023, limiting comprehensive cash flow quality assessment. The company's strong operating cash flow relative to net income suggests high earnings quality and efficient working capital management.",
+  "revised_text": "Cash flow generation remains robust, though EBITDA data is unavailable in the provided financial statements (C001, C008, C015, C022). Operating cash flow in Q1 2025 totaled $1,789,000,000 (C058), compared to Q1 2024's $1,923,000,000 (C061). Free cash flow data is unavailable for both Q1 2025 (C057) and Q1 2024 (C060), limiting comprehensive cash flow quality assessment. The company's operating cash flow of $1,789,000,000 in Q1 2025 (C058) significantly exceeded net income of $154,000,000 (C012) for the same period, suggesting high earnings quality and efficient working capital management.",
+  "issues_addressed": [
+    "f604dbf9-7a77-425e-ba84-5ffce356ec9c",
+    "f54b5f36-adac-4242-9188-4d17e3b31268",
+    "2d79c1ac-89bd-492e-91fe-74f1990abe33",
+    "a7728a6d-7a9f-4517-8de7-3252657e60d3",
+    "2b2bc2ab-ef7e-4df3-b608-e517c5e0aaad",
+    "c63c786c-7ecb-47f1-b205-ce47285a11f5"
+  ],
+  "changes_summary": "Fixed citation mismatches: Updated EBITDA unavailability citations to C001, C008, C015, C022 (income statements showing EBITDA as N/A); corrected Q1 2025 OCF citation to C058 and Q1 2024 OCF citation to C061 based on actual evidence. Removed unsupported claim about revenue decline (no Q1 2024 revenue data available). Removed unsupported Q1 2023 FCF claim (no Q1 2023 data). Revised earnings quality comparison to reference Q1 2025 OCF vs Q1 2025 Net Income (both available) rather than unspecified periods. Added C057, C060, C012 citations to support FCF unavailability and net income comparison claims.",
+  "revised_at": "2026-03-24T11:11:07.290853"
+}

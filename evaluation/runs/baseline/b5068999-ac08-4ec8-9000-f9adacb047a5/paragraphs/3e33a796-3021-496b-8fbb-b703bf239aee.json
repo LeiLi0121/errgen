@@ -1,0 +1,35 @@
+{
+  "paragraph_id": "3e33a796-3021-496b-8fbb-b703bf239aee",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Apple Inc. operates a diversified business model centered on designing, manufacturing, and marketing consumer electronics and services worldwide. The company generates revenue through hardware products including iPhone smartphones, Mac personal computers, iPad tablets, and wearables such as AirPods, Apple Watch, and HomePod, alongside a growing services portfolio comprising the App Store, AppleCare, cloud services, and subscription offerings like Apple Music, Apple TV+, Apple Arcade, and Apple Fitness+ []. Distribution occurs through Apple's retail and online stores, direct sales force, and third-party cellular network carriers, wholesalers, and retailers []. In Q3 2025, Apple reported revenue of $94.036B with a gross margin of 46.49% and operating margin of 29.99%, reflecting the company's premium positioning and services-led margin expansion [,]. Services growth continues to drive investor interest alongside the core hardware business [].",
+  "citations": [
+    {
+      "citation_id": "c186c2d7-9fcd-44c8-9c71-e0d91e095f5c",
+      "chunk_id": "6f1acc5e-ca34-4de4-b4dd-93301a714ae4",
+      "source_id": "4a27e5ee-b4a0-44e4-a076-fedd6294a27f",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "12d189a8-0dcd-4c51-8f3f-f5a52d3168a9",
+      "chunk_id": "bbfa2d42-165c-49e3-b553-1a989d855aee",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T19:48:00Z | Yahoo\nTitle: Top Stock Reports for Apple, JPMorgan Chase & Visa\nURL: https://finnhub.io/api/news?id=411c9c6130d7198fb5d25b4cda7284a2b69e6463770cc6750f451711e4ff197e\nAAPL, JPM, and V lead Zacks' top picks as Services growth, strong NII, and digital payments momentum driv",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "6f1acc5e-ca34-4de4-b4dd-93301a714ae4",
+    "bbfa2d42-165c-49e3-b553-1a989d855aee"
+  ],
+  "calc_ids": [
+    "40fae6a3-ecf8-4b91-bee9-48a639ab8690",
+    "6b0b070b-2376-4ae4-bcaf-2019629e82c5"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

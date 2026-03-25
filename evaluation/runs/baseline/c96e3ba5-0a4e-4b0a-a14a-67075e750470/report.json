@@ -1,0 +1,2052 @@
+{
+  "report_id": "4b1c2fc9-1349-452f-a797-09a83238f9b2",
+  "request": {
+    "request_id": "422a75c2-2b8c-40a9-b8eb-3d3f155ec21f",
+    "raw_text": "Generate an equity research report for Bank of America Corp (BAC US) as of 2025-10-21, analyzing financial performance including recent guidance updates and net interest margin trends. Assess the company's market positioning, asset quality relative to peers, key macroeconomic risks, and investment outlook considering valuation and growth trajectory.",
+    "ticker": "BAC",
+    "company_name": "Bank of America Corporation",
+    "market": "US",
+    "as_of_date": "2025-10-21",
+    "focus_areas": [
+      "financial performance",
+      "net interest margin",
+      "asset quality",
+      "market positioning",
+      "macroeconomic risks",
+      "valuation"
+    ],
+    "report_style": "standard",
+    "language": "en",
+    "created_at": "2026-03-25T04:59:34.337120"
+  },
+  "sections": [
+    {
+      "section_id": "a3a6235b-2750-458d-9331-a017223cde21",
+      "section_name": "Company Overview",
+      "section_order": 1,
+      "paragraphs": [
+        {
+          "paragraph_id": "0244aac9-a041-44e4-bc28-ddfeca45405d",
+          "section_name": "Company Overview",
+          "text": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+          "citations": [
+            {
+              "citation_id": "e8f80b21-f78b-4764-8e2d-8c1b73968cdf",
+              "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "74fc180b-aa2e-45dd-85f7-a448c266424e"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "8a1919dc-fecd-4ef5-bd24-207ec53238b2",
+          "section_name": "Company Overview",
+          "text": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, noninterest-and interest-bearing checking accounts, and investment accounts and products; and credit and debit cards, residential mortgages, and home equity loans, as well as direct and indirect loans, such as automotive, recreational vehicle, and consumer personal loans. The company's Global Wealth & Investment Management segment offers investment management, brokerage, banking, and trust and retirement products and services; and wealth management solutions, as well as customized solutions, including specialty asset management services. Its Global Banking segment provides lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, such as treasury management, foreign exchange, and short-term investing options and merchant services; working capital management solutions; and debt and equity underwriting and distribution, and merger-related and other advisory services. The company's Global Markets segment offers market-making, financing, securities clearing, settlement, and custody services, as well as risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. As of December 31, 2021, it served approximately 67 million consumer and small business clients with approximately 4,200 retail financial centers; approximately 16,000 ATMs; and digital banking platforms with approximately 41 million active users. The company was founded in 1784 and is based in Charlotte, North Carolina.",
+          "citations": [
+            {
+              "citation_id": "3bcc0555-1beb-43d7-83c8-53ceae3c49d7",
+              "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1"
+          ],
+          "calc_ids": [],
+          "verification_status": "pass",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "pass",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "70fe86a1-1d42-451a-912a-3002aead0412",
+      "section_name": "Recent Developments",
+      "section_order": 2,
+      "paragraphs": [
+        {
+          "paragraph_id": "f52789bb-e4ff-4c67-9817-0f60e027f676",
+          "section_name": "Recent Developments",
+          "text": "Bank of America continues to demonstrate investment banking competitiveness through major transaction participation. On October 21, 2025, the bank was named among the arrangers for a $12.25 billion debt facility supporting Blackstone and TPG's Hologic buyout, working alongside Citigroup and Barclays. This transaction underscores BAC's positioning in large-scale corporate finance deals during Q3 2025, a period when peer institutions including JPMorgan and Goldman Sachs reported record investment banking fees.",
+          "citations": [
+            {
+              "citation_id": "b0b1cda2-9853-4cd8-a55c-c431d3a6d602",
+              "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "fde13450-d1ce-43ef-8260-6a024357e774",
+              "chunk_id": "4d93aceb-2038-4e72-8657-229c76137853",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:04:13Z | Benzinga\nTitle: 'Citi, Barclays Among Banks Leading Hologic $12 Billion Debt Deal'- Bloomberg\nURL: https://finnhub.io/api/news?id=561320152539181aa8c7e060fc9fda37d52ade4c29c9f482883b92761a1e161f\nhttps://www.bloomberg.com/news/articles/2025-10-21/citi-barclays-among-bank",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "221f91ea-26ae-48ab-ac3a-237c64e4c1a8",
+              "chunk_id": "2a6dee8b-a115-4254-ba95-6e7f93f30eec",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-20T13:40:00Z | Yahoo\nTitle: JPM, GS & Others Witness Record Q3 IB Fees: Will the Trend Continue?\nURL: https://finnhub.io/api/news?id=66eb5f7aab058c2cbc3eace5e01cfa98ab170186ec2df5210da64899257eb1c6\nJPMorgan, Goldman and others record a surge in IB fees in Q3, fueling hopes that dealma",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+            "4d93aceb-2038-4e72-8657-229c76137853",
+            "2a6dee8b-a115-4254-ba95-6e7f93f30eec"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "d83a4ebc-706d-4a28-b393-e984abbb5d09",
+          "section_name": "Recent Developments",
+          "text": "Management has articulated a measured approach to sovereign and macroeconomic risk exposure. According to market chatter on October 21, 2025, Bank of America joined JPMorgan Chase and Goldman Sachs in hesitating to finalize a proposed $20 billion loan to Argentina absent guarantee structures, reflecting prudent credit risk discipline. Additionally, CEO Brian Moynihan stated at the American Bankers Association's annual convention that the bank maintains an established playbook for government shutdowns, including fee and payment waivers plus loan deferrals and forbearance programs.",
+          "citations": [
+            {
+              "citation_id": "dcba6d0b-6bbc-4a93-8812-9df49bdae189",
+              "chunk_id": "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:08:37Z | Yahoo\nTitle: Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d\n(Update to add JPMorgan Chase'",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "cdccac21-d38a-4e90-9f23-d762132f98d7",
+              "chunk_id": "8ce5f9bc-7a52-4062-8efa-1cfd895bed0c",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T10:58:16Z | Yahoo\nTitle: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c59b1a77fbdef4b6b069e195857ba4d91dc0ba98b29f446263655ba8a94674b1\nJPMorgan Chase (JPM), Bank of America ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "533edc5c-88f3-4f47-b778-a6e4165e21e7",
+              "chunk_id": "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T20:28:05Z | Yahoo\nTitle: BofA treating gov't. shutdown like natural disaster: CEO\nURL: https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b\nBank of America has a playbook for government shutdowns, which includes providing fee and payment w",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+            "8ce5f9bc-7a52-4062-8efa-1cfd895bed0c",
+            "fd088343-6baa-40c4-9aab-8bbb59ea46cb"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "1ee90ac9-2e3f-41ad-bc21-fc534dd63c09",
+          "section_name": "Recent Developments",
+          "text": "On the consumer engagement front, Bank of America announced its fourth annual More Rewards Day scheduled for November 6, 2025, offering consumer and business credit cardholders a full day of bonus rewards on purchases. The program has accumulated significant traction, with cardholders on pace to earn approximately $100 million in extra rewards since inception, having already earned $74 million during the first three annual events. This initiative supports the bank's retail banking franchise amid a backdrop where bank ETFs have declined over the past month on credit jitters.",
+          "citations": [
+            {
+              "citation_id": "9035f38f-2704-4b0f-8aad-d1ad0523d0a8",
+              "chunk_id": "4339d818-e4df-43a7-9382-25a1b77dc44e",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:00:00Z | Yahoo\nTitle: Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million\nURL: https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9\nBank of America announced its fourth annual More Rewards Day, taking p",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "d42fa15c-4493-4ce6-95cb-071163f44936",
+              "chunk_id": "c64c5f90-17e8-4a4f-9c3c-955e1de65555",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T11:28:00Z | Yahoo\nTitle: Bank ETFs in Red Over the Past Month: Pain or Gain Ahead?\nURL: https://finnhub.io/api/news?id=f2c0fc5d158531fe1455c4909b62ba0c7d0115aafd264c6003b3394bd3be9482\nBank ETFs like IYG, IYF, KBWB, XLF and VFH dip on credit jitters. Are gains ahead as Q3 earnings &",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4339d818-e4df-43a7-9382-25a1b77dc44e",
+            "c64c5f90-17e8-4a4f-9c3c-955e1de65555"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "45023836-2ead-41f3-ae6f-3927d1f2a990",
+          "section_name": "Recent Developments",
+          "text": "Competitive dynamics in wealth management remain active, with UBS recruiting two Merrill Lynch teams managing a combined $1 billion in assets as of October 20, 2025. This represents a reversal of fortune for UBS following recent high-profile departures, though it highlights ongoing talent competition in the brokerage channel where Bank of America's Merrill Lynch platform operates. Meanwhile, broader credit market concerns have emerged, with analysts noting growing cracks in credit markets that could impact equity valuations going forward.",
+          "citations": [
+            {
+              "citation_id": "d2a529bd-6239-4a3a-8e98-d48137b3c020",
+              "chunk_id": "e11b9291-1f90-4d9c-8997-a13b5ce90f88",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-20T19:28:00Z | Yahoo\nTitle: UBS Recruits Two Merrill Lynch Teams That Managed a Total of $1 Billion\nURL: https://finnhub.io/api/news?id=85d085ea3e2c5d11801a61e04f250e3b76bf54591c20cadd86e2c3528af06b3d\nThe recruiting wins are a reversal of fortune for UBS, which has experienced many hi",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9ed93843-7774-4e2b-969d-b0b4c39d9709",
+              "chunk_id": "d293066a-cbfe-420d-b075-fa374b3b903f",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-20T12:38:16Z | SeekingAlpha\nTitle: Credit Markets: A Storm Is Brewing\nURL: https://finnhub.io/api/news?id=f4b74497c35d84f1d4b7689c3d2366f2057aa8c5b94f91cc667905e1f1e87898\nThe cracks appear to be growing in the credit markets. Click here to find out what this might mean for equity mark",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "e11b9291-1f90-4d9c-8997-a13b5ce90f88",
+            "d293066a-cbfe-420d-b075-fa374b3b903f"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "9bad4af9-f509-4b75-b74d-71b321af827e",
+      "section_name": "Financial Analysis",
+      "section_order": 3,
+      "paragraphs": [
+        {
+          "paragraph_id": "db293aab-ccfc-47bd-a26c-9bd0b491c749",
+          "section_name": "Financial Analysis",
+          "text": "Bank of America demonstrated revenue growth acceleration in Q3 2025, with total revenue reaching $48,221,000,000, representing a 3.33% year-over-year increase from the prior period. This marks a meaningful recovery from Q2 2025, which saw a -0.69% YoY decline on revenue of $46,666,000,000. The sequential improvement from Q1 2025 revenue of $46,989,000,000 suggests stabilizing top-line performance heading into the fourth quarter.",
+          "citations": [
+            {
+              "citation_id": "8b742817-50db-481d-a0c1-2d3991cb4a97",
+              "chunk_id": "0f0c4043-4685-4786-839f-978fce10f0c8",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q3: $48,221,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "becb1902-8fb0-43dd-8f37-429e7966445a",
+              "chunk_id": "42245289-985a-41d6-b57e-61ce37dd8a2c",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q2: $46,666,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "dc66aee3-03ab-4bce-955e-7eca9fd7c55f",
+              "chunk_id": "41ecf76e-841d-442e-9d09-e364f9e04ef5",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q1: $46,989,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0f0c4043-4685-4786-839f-978fce10f0c8",
+            "42245289-985a-41d6-b57e-61ce37dd8a2c",
+            "41ecf76e-841d-442e-9d09-e364f9e04ef5"
+          ],
+          "calc_ids": [
+            "75da3b20-48c5-4cce-864a-c180f6fe2a3d"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "5a09c331-5d2a-4fce-bb23-5d2297e78cc5",
+          "section_name": "Financial Analysis",
+          "text": "Profitability metrics in Q3 2025 reflect strong operational efficiency, with gross margin at 55.56%, operating margin at 19.61%, and net margin at 17.56%. Net income for the quarter totaled $8,469,000,000, representing a 19.01% YoY growth rate, a significant rebound from the -3.79% decline observed in Q2 2025 when net income was $7,116,000,000. Operating income of $9,456,000,000 in Q3 further underscores improved cost management and revenue quality.",
+          "citations": [
+            {
+              "citation_id": "baa5558a-6de3-453d-b76e-c67aaa63fe07",
+              "chunk_id": "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Gross Profit for Q3: $26,793,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "52ec6f28-ee00-44b6-b4c8-45ae0a3416ba",
+              "chunk_id": "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Operating Income for Q3: $9,456,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "f286bd0a-e17a-4ff6-81e3-c10f6bf37fde",
+              "chunk_id": "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Net Income for Q3: $8,469,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "a0543d4f-fff7-41c6-9e49-37cbdf69e53e",
+              "chunk_id": "d87165dd-c3d5-4b59-99b3-7d3baba923f1",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Net Income for Q2: $7,116,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+            "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+            "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+            "d87165dd-c3d5-4b59-99b3-7d3baba923f1"
+          ],
+          "calc_ids": [
+            "0cae0557-5222-4240-83bd-7c9a1aaae8b7",
+            "df2ec629-9184-4970-8c2b-88700fccc0ae",
+            "b3a337d5-ab4b-4f90-b9f1-2ca1873a1095",
+            "de41b348-2273-4d16-ae56-0ff2d9337fd9"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "17a41b5e-c9e4-4249-b6fc-89d879bde481",
+          "section_name": "Financial Analysis",
+          "text": "EBITDA for Q3 2025 reached $10,040,000,000, translating to an EBITDA margin of 20.82%. Cash flow generation was exceptionally strong, with operating cash flow of $46,874,000,000 and free cash flow of $46,874,000,000, given zero capital expenditure for the quarter. This produced a free cash flow margin of 97.21%, indicating high cash conversion efficiency. The company also returned capital to shareholders through $5,300,000,000 in stock buybacks during Q3 2025.",
+          "citations": [
+            {
+              "citation_id": "fbc8bd53-d1e8-4964-8cd2-4be3764107e5",
+              "chunk_id": "52e99d7b-827d-4abc-a653-5366a4e65cc7",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC EBITDA for Q3: $10,040,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "50ec35a1-f0f6-40b2-b797-2fc97eefe5bd",
+              "chunk_id": "e76d3b9c-b65b-4361-bfe4-c70665ae74d7",
+              "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+              "source_type": "cash_flow",
+              "text_snippet": "BAC Operating Cash Flow for Q3: $46,874,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "863d0439-2ba4-4a66-bd8b-61e2f0ba73e1",
+              "chunk_id": "a1fea077-43c3-4161-a517-60ac3f83f853",
+              "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+              "source_type": "cash_flow",
+              "text_snippet": "BAC Free Cash Flow for Q3: $46,874,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "1f6ad9aa-4193-48ee-ab09-85967e604bae",
+              "chunk_id": "e68dbfcd-8adc-4b34-902d-71f2127c46b8",
+              "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+              "source_type": "cash_flow",
+              "text_snippet": "BAC Stock Buybacks for Q3: $-5,300,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "52e99d7b-827d-4abc-a653-5366a4e65cc7",
+            "e76d3b9c-b65b-4361-bfe4-c70665ae74d7",
+            "a1fea077-43c3-4161-a517-60ac3f83f853",
+            "e68dbfcd-8adc-4b34-902d-71f2127c46b8"
+          ],
+          "calc_ids": [
+            "e2343111-f5c3-4417-821c-290bafb70050",
+            "f211cc8e-78bf-49df-b68a-849fd4783e9d"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "3ed6ba37-4cbb-487b-97c3-7f64d0985f1c",
+          "section_name": "Financial Analysis",
+          "text": "The balance sheet shows total assets of $3,403,216,000,000 and stockholders' equity of $304,152,000,000 as of Q3 2025. Liquidity metrics indicate a current ratio of 0.41, reflecting the inherent structure of banking balance sheets where current liabilities exceed current assets. Leverage stands at a debt-to-equity ratio of 2.33, with net debt of $461,265,000,000 after accounting for cash and equivalents of $246,507,000,000. R&D investment intensity remains at 0.00%, consistent with the banking sector's minimal R&D spending model.",
+          "citations": [
+            {
+              "citation_id": "54b45fb5-ed35-409f-9126-0efc340647fc",
+              "chunk_id": "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "Balance Sheet – BAC | Period: Q3 | Date: 2025-09-30\n  Total Assets:              $3,403,216,000,000\n  Total Liabilities:         $3,099,064,000,000\n  Total Stockholders' Equity:$304,152,000,000\n  Cash & Equivalents:        $246,507,000,000\n  Short-Term Investments:    $711,193,000,000\n  Total Debt: ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "8a00f933-94cb-48f2-810c-f828a4b8131a",
+              "chunk_id": "98193c38-e724-4300-a71c-8a40e7437bf2",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Total Assets for Q3: $3,403,216,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "5fbdf35b-733f-4226-81ea-26588e29b920",
+              "chunk_id": "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Stockholders' Equity for Q3: $304,152,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "c6823303-03ad-4fb8-9014-28041a5cf7f5",
+              "chunk_id": "467d47c0-5f06-4ce1-b8f7-6bd981680225",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Cash & Equivalents for Q3: $246,507,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "a5a6b541-a218-4bc0-a81a-556ef6c5c298",
+              "chunk_id": "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Total Debt for Q3: $707,772,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+            "98193c38-e724-4300-a71c-8a40e7437bf2",
+            "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+            "467d47c0-5f06-4ce1-b8f7-6bd981680225",
+            "9d12234b-11dc-448d-80d5-dbd1cfbf33ef"
+          ],
+          "calc_ids": [
+            "d5a71b1a-7114-420d-8eb5-367e1c112aae",
+            "3c3522df-8916-434b-8689-284bc56849b4",
+            "08a699cf-b558-4e28-a24f-e784a3508a99",
+            "710e6d1b-885d-4e77-8155-243e5db4a13e"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "d81149f7-b2cd-4768-993b-9edf2f159acd",
+      "section_name": "Business & Competitive Analysis",
+      "section_order": 4,
+      "paragraphs": [
+        {
+          "paragraph_id": "136f1e9e-4b52-45fc-8d90-97c0eb81e348",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Bank of America Corporation operates as a diversified banking and financial services institution serving individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. The company generates revenue through four primary segments: Consumer Banking (offering deposit accounts, credit/debit cards, residential mortgages, and consumer loans), Global Wealth & Investment Management (providing investment management, brokerage, banking, and trust services), Global Banking (commercial lending, treasury solutions, and advisory services), and Global Markets (market-making, securities clearing, and risk management products). As of December 31, 2021, the bank served approximately 67 million consumer and small business clients through approximately 4,200 retail financial centers, 16,000 ATMs, and digital banking platforms with approximately 41 million active users. The company employs 213,000 full-time employees and is headquartered in Charlotte, North Carolina.",
+          "citations": [
+            {
+              "citation_id": "bb3acf15-4fd8-477e-9cea-1507ba84ad80",
+              "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "64a7d17d-66a1-4110-a569-e16ea007b134",
+              "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "74fc180b-aa2e-45dd-85f7-a448c266424e",
+            "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "e976d066-043d-480d-a066-6762a423c59f",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Bank of America maintains significant competitive positioning through its scale and diversified business model. Recent activity demonstrates the bank's continued involvement in large-scale financing transactions, including arranging $12.25 billion in debt for the Hologic buyout alongside Citigroup and Barclays. However, the bank exercises disciplined risk management, as evidenced by its hesitation alongside JPMorgan Chase and Goldman Sachs to finalize a $20 billion loan to Argentina without guarantees. The wealth management division, operating under the Merrill Lynch brand, faces competitive pressure as UBS recruited two Merrill Lynch teams managing a total of $1 billion in assets, indicating ongoing talent competition in the wealth management space.",
+          "citations": [
+            {
+              "citation_id": "a71c29f7-91a4-42d7-b8b3-49607c662dc7",
+              "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "e518af14-9de2-4a89-b115-5ee5035d7a79",
+              "chunk_id": "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:08:37Z | Yahoo\nTitle: Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d\n(Update to add JPMorgan Chase'",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "6a209120-037a-4ec2-9256-fa50a5bb3aa4",
+              "chunk_id": "8ce5f9bc-7a52-4062-8efa-1cfd895bed0c",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T10:58:16Z | Yahoo\nTitle: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c59b1a77fbdef4b6b069e195857ba4d91dc0ba98b29f446263655ba8a94674b1\nJPMorgan Chase (JPM), Bank of America ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "f3a2c51f-fa15-4752-a8ca-42c36b4de322",
+              "chunk_id": "e11b9291-1f90-4d9c-8997-a13b5ce90f88",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-20T19:28:00Z | Yahoo\nTitle: UBS Recruits Two Merrill Lynch Teams That Managed a Total of $1 Billion\nURL: https://finnhub.io/api/news?id=85d085ea3e2c5d11801a61e04f250e3b76bf54591c20cadd86e2c3528af06b3d\nThe recruiting wins are a reversal of fortune for UBS, which has experienced many hi",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+            "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+            "8ce5f9bc-7a52-4062-8efa-1cfd895bed0c",
+            "e11b9291-1f90-4d9c-8997-a13b5ce90f88"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "e529993e-e04f-4834-95ed-8183b7ddfb90",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Key growth drivers include consumer engagement initiatives and digital platform expansion. The bank's fourth annual More Rewards Day program, scheduled for November 6, 2025, has generated approximately $74 million in extra rewards for credit cardholders during the first three annual events, with cardholders on pace to earn a total of $100 million since inception. The company also launched community-focused initiatives such as the Golf with Us program, which has logged more than 100,000 rounds of golf since its April launch, targeting younger demographics. Revenue growth has shown improvement, with Q3 2025 revenue reaching $48.221 billion representing 3.33% year-over-year growth, while net income grew 19.01% year-over-year to $8.469 billion in Q3 2025.",
+          "citations": [
+            {
+              "citation_id": "4f372d4c-32ce-4e10-a133-660175e5dc33",
+              "chunk_id": "4339d818-e4df-43a7-9382-25a1b77dc44e",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:00:00Z | Yahoo\nTitle: Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million\nURL: https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9\nBank of America announced its fourth annual More Rewards Day, taking p",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "99f50022-1fa4-4a5c-97e6-a33c8b31158d",
+              "chunk_id": "3ab96853-9af2-47c9-8e55-3cff32a77d30",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-20T14:00:00Z | Yahoo\nTitle: A New Generation Tees Off: 100,000 Rounds and Counting with Bank of America's Golf with Us\nURL: https://finnhub.io/api/news?id=a86a2772479c014ace773506904d26cf79caf58cbcf7750696bd4c4e4e5a0fba\nSince its launch in April, young golfers enrolled in Bank of Amer",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4339d818-e4df-43a7-9382-25a1b77dc44e",
+            "3ab96853-9af2-47c9-8e55-3cff32a77d30"
+          ],
+          "calc_ids": [
+            "75da3b20-48c5-4cce-864a-c180f6fe2a3d",
+            "0cae0557-5222-4240-83bd-7c9a1aaae8b7"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "3cfac792-95e8-4443-9c4b-5dac85a3d10b",
+          "section_name": "Business & Competitive Analysis",
+          "text": "Management quality signals indicate proactive risk management and community engagement. CEO Brian Thomas Moynihan stated at the American Bankers Association's annual convention that Bank of America has a playbook for government shutdowns, including providing fee and payment waivers as well as loan deferrals and forbearance programs. The company continues to invest in local market presence, as evidenced by the appointment of Maria Serravalle as Community Relations Manager for the Detroit market. Financial performance metrics show Q3 2025 net margin of 17.56% and operating margin of 19.61%, suggesting efficient operations. However, evidence on specific strategic acquisitions, partnerships, or new market entries beyond those noted is limited in the available documentation.",
+          "citations": [
+            {
+              "citation_id": "caa5a019-891a-43cd-a914-865e92161253",
+              "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "02c3b40e-dea3-4efd-8809-e8a0ea628444",
+              "chunk_id": "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T20:28:05Z | Yahoo\nTitle: BofA treating gov't. shutdown like natural disaster: CEO\nURL: https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b\nBank of America has a playbook for government shutdowns, which includes providing fee and payment w",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "e810eb08-b443-417d-a92f-c05fc5828e48",
+              "chunk_id": "69b3e0e8-910c-49f0-9dff-94527bc2ff3a",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T13:00:00Z | Yahoo\nTitle: Bank of America Names Maria Serravalle as Community Relations Manager\nURL: https://finnhub.io/api/news?id=fb91a7f991919a2cb54c6e10681179b88911cbb53033810c5f82be16c3b11f12\nDetroit native Maria Serravalle has been named Bank of America's Community Relations M",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "74fc180b-aa2e-45dd-85f7-a448c266424e",
+            "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+            "69b3e0e8-910c-49f0-9dff-94527bc2ff3a"
+          ],
+          "calc_ids": [
+            "de41b348-2273-4d16-ae56-0ff2d9337fd9",
+            "b3a337d5-ab4b-4f90-b9f1-2ca1873a1095"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "7e320eff-6f04-4256-8b84-f6c454f2cb43",
+      "section_name": "Risk Analysis",
+      "section_order": 5,
+      "paragraphs": [
+        {
+          "paragraph_id": "2d8122f7-3a67-4cf1-80ca-d02293400b84",
+          "section_name": "Risk Analysis",
+          "text": "Financial leverage presents a material risk for Bank of America, with the company carrying total debt of $707,772,000,000 as of Q3 2025 against stockholders' equity of $304,152,000,000, resulting in a debt-to-equity ratio of 2.33. This elevated leverage level suggests the company remains sensitive to interest rate fluctuations and credit market conditions, which could impact refinancing costs and capital adequacy. Additionally, the current ratio of 0.41 indicates current liabilities of $2,555,975,000,000 significantly exceed current assets of $1,057,563,000,000, reflecting typical banking sector liquidity dynamics but warranting ongoing monitoring of funding stability.",
+          "citations": [
+            {
+              "citation_id": "38d63c3a-e1f4-4bae-b9e2-5fa86556f19e",
+              "chunk_id": "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "Balance Sheet – BAC | Period: Q3 | Date: 2025-09-30\n  Total Assets:              $3,403,216,000,000\n  Total Liabilities:         $3,099,064,000,000\n  Total Stockholders' Equity:$304,152,000,000\n  Cash & Equivalents:        $246,507,000,000\n  Short-Term Investments:    $711,193,000,000\n  Total Debt: ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "d238f833-cd04-431c-93a4-c9c23d9edb7b",
+              "chunk_id": "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Stockholders' Equity for Q3: $304,152,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "74cbb8a8-98b3-4712-b144-a9af84653003",
+              "chunk_id": "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Total Debt for Q3: $707,772,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "3feeba18-9b90-4660-b70c-a7cc5f75257f",
+              "chunk_id": "c06eece8-f3ce-4a2e-a6b7-005d77062ce6",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Total Current Assets for Q3: $1,057,563,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "94587681-3e1d-46bb-9f45-4682471961cf",
+              "chunk_id": "6be13fc0-0f09-439e-ad54-636739e31bd9",
+              "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+              "source_type": "balance_sheet",
+              "text_snippet": "BAC Total Current Liabilities for Q3: $2,555,975,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+            "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+            "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+            "c06eece8-f3ce-4a2e-a6b7-005d77062ce6",
+            "6be13fc0-0f09-439e-ad54-636739e31bd9"
+          ],
+          "calc_ids": [
+            "d5a71b1a-7114-420d-8eb5-367e1c112aae",
+            "3c3522df-8916-434b-8689-284bc56849b4"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "afde4821-d6c5-48c5-9791-13c2ec5dd018",
+          "section_name": "Risk Analysis",
+          "text": "Net interest margin compression risk remains relevant given Bank of America's business model across Consumer Banking, Global Banking, and Global Markets segments. Revenue volatility is evident from quarterly performance, with Q3 2025 revenue of $48,221,000,000 representing 3.33% year-over-year growth following a -0.69% decline in Q2. Net income showed greater volatility at 19.01% YoY growth in Q3 after a -3.79% decline in Q2, suggesting earnings sensitivity to macroeconomic conditions including interest rate environments and credit spreads that affect the company's lending and trading operations.",
+          "citations": [
+            {
+              "citation_id": "9c702ab9-b87e-4c92-bc3f-5bcbce3de7e4",
+              "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "a6416f67-62fd-4263-bf34-5c077f0e94b9",
+              "chunk_id": "0f0c4043-4685-4786-839f-978fce10f0c8",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q3: $48,221,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "13ad6808-96bf-405a-862b-33746d28c1cc",
+              "chunk_id": "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Net Income for Q3: $8,469,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "871b1520-e255-4347-af0c-ddb18f241575",
+              "chunk_id": "42245289-985a-41d6-b57e-61ce37dd8a2c",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q2: $46,666,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "9537144e-0990-41de-a143-52cc30f5c33c",
+              "chunk_id": "d87165dd-c3d5-4b59-99b3-7d3baba923f1",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Net Income for Q2: $7,116,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+            "0f0c4043-4685-4786-839f-978fce10f0c8",
+            "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+            "42245289-985a-41d6-b57e-61ce37dd8a2c",
+            "d87165dd-c3d5-4b59-99b3-7d3baba923f1"
+          ],
+          "calc_ids": [
+            "75da3b20-48c5-4cce-864a-c180f6fe2a3d",
+            "0cae0557-5222-4240-83bd-7c9a1aaae8b7"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "1d91ac2a-c265-4f7f-9ce2-0f39effa3403",
+          "section_name": "Risk Analysis",
+          "text": "Competitive and regulatory risks are inherent to Bank of America's position as a diversified financial services institution serving approximately 67 million consumer and small business clients through approximately 4,200 retail financial centers and 16,000 ATMs. The company's scale exposes it to antitrust scrutiny, compliance obligations, and competitive pressure from both traditional banks and fintech entrants across its Consumer Banking, Global Wealth & Investment Management, Global Banking, and Global Markets segments. However, specific market share data, regulatory proceeding details, and competitive positioning metrics are not available in the provided evidence to quantify these risks precisely.",
+          "citations": [
+            {
+              "citation_id": "833f1d29-8365-420c-8bc2-a1a8b3719349",
+              "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money ",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1"
+          ],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "dce631ab-a4a7-465f-8760-c417363bfd15",
+          "section_name": "Risk Analysis",
+          "text": "Technology and operational risks exist given Bank of America's reliance on digital banking platforms with approximately 41 million active users as of December 31, 2021. The company reported $0 in R&D expenses for Q3 2025, which may indicate technology investments are capitalized or categorized differently, but suggests limited visible spending on innovation relative to revenue of $48,221,000,000. Platform obsolescence, cybersecurity threats, and execution risks around digital transformation could affect customer retention and operational efficiency, though specific technology risk metrics and operational incident data are not provided in the available evidence.",
+          "citations": [
+            {
+              "citation_id": "fb5f29f2-e5dd-484c-8a85-f5a03d017be8",
+              "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+              "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+              "source_type": "company_profile",
+              "text_snippet": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "595d83fd-a48b-4ea5-9a0e-ba286671a770",
+              "chunk_id": "0f0c4043-4685-4786-839f-978fce10f0c8",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q3: $48,221,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "05621bf1-0aec-4110-b6d2-0a5fd5916195",
+              "chunk_id": "051ebc37-c8c9-453f-88fb-977178d5974d",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC R&D Expenses for Q3: $0",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+            "0f0c4043-4685-4786-839f-978fce10f0c8",
+            "051ebc37-c8c9-453f-88fb-977178d5974d"
+          ],
+          "calc_ids": [
+            "710e6d1b-885d-4e77-8155-243e5db4a13e"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    },
+    {
+      "section_id": "49d17846-0b8f-457c-81f0-be5af77daa61",
+      "section_name": "Investment Recommendation & Outlook",
+      "section_order": 6,
+      "paragraphs": [
+        {
+          "paragraph_id": "b24e23c0-fbcd-43fc-9ab5-ec440b39cad2",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Based on the comprehensive analysis of Bank of America's financial performance, competitive positioning, and risk profile, we assign a Hold rating to BAC shares. The company demonstrates solid operational recovery in Q3 2025, with revenue growth accelerating to 3.33% year-over-year and net income rebounding 19.01% from the prior period. However, material risks including elevated leverage, net interest margin compression, and competitive pressures in wealth management warrant a cautious stance rather than an upgrade to Buy.",
+          "citations": [
+            {
+              "citation_id": "bb079c4f-c4ce-43a4-9c75-1449e728fc3a",
+              "chunk_id": "0f0c4043-4685-4786-839f-978fce10f0c8",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q3: $48,221,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "f873d6c5-940a-43c4-b1c2-fd208258e357",
+              "chunk_id": "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Net Income for Q3: $8,469,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "19c7e5a9-f45e-43b7-b2d3-9ee6ca8ff193",
+              "chunk_id": "42245289-985a-41d6-b57e-61ce37dd8a2c",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Revenue for Q2: $46,666,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "58fa473b-4e12-4dcc-95a6-369eedbb0669",
+              "chunk_id": "d87165dd-c3d5-4b59-99b3-7d3baba923f1",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Net Income for Q2: $7,116,000,000",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "0f0c4043-4685-4786-839f-978fce10f0c8",
+            "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+            "42245289-985a-41d6-b57e-61ce37dd8a2c",
+            "d87165dd-c3d5-4b59-99b3-7d3baba923f1"
+          ],
+          "calc_ids": [
+            "75da3b20-48c5-4cce-864a-c180f6fe2a3d",
+            "0cae0557-5222-4240-83bd-7c9a1aaae8b7"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "f4e9de57-a5ee-4665-9ca6-adebcc072af0",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Financial metrics reflect strong operational efficiency, with Q3 2025 gross margin at 55.56%, operating margin at 19.61%, and net margin at 17.56%. Cash flow generation was exceptionally strong, producing a free cash flow margin of 97.21% for the quarter. The bank continues to demonstrate investment banking competitiveness through participation in major transactions, including arranging $12.25 billion in debt for the Hologic buyout alongside Citigroup and Barclays.",
+          "citations": [
+            {
+              "citation_id": "e050c00d-b475-4722-8e85-a5839829cc4e",
+              "chunk_id": "173a06f2-1dd4-4ddc-82f6-630833e6ffd6",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "Income Statement – BAC | Period: Q3 | Date: 2025-09-30\n  Revenue:            $48,221,000,000\n  Gross Profit:       $26,793,000,000 (margin N/A)\n  Operating Income:   $9,456,000,000 (margin N/A)\n  Net Income:         $8,469,000,000 (margin N/A)\n  EBITDA:             $10,040,000,000\n  EPS:            ",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "7043e070-b4ed-4524-9907-505f18daa15f",
+              "chunk_id": "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Gross Profit for Q3: $26,793,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "81de44e8-09ce-4edf-a602-f2a41ab2b9d7",
+              "chunk_id": "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC Operating Income for Q3: $9,456,000,000",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "1153e97c-e931-4580-a3f3-6821d0401c5d",
+              "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "173a06f2-1dd4-4ddc-82f6-630833e6ffd6",
+            "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+            "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+            "c25b530c-4b71-488a-9076-96f1e4d32cd9"
+          ],
+          "calc_ids": [
+            "df2ec629-9184-4970-8c2b-88700fccc0ae",
+            "b3a337d5-ab4b-4f90-b9f1-2ca1873a1095",
+            "de41b348-2273-4d16-ae56-0ff2d9337fd9",
+            "f211cc8e-78bf-49df-b68a-849fd4783e9d"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "c852f995-997e-4d47-91ef-0c6658a7744f",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Relative to the SPY benchmark, BAC has delivered meaningful outperformance over the past year with a 23.37% return compared to the benchmark's 15.02%, representing 8.35% of excess return. However, recent momentum has weakened, with the stock underperforming by 2.54% over the past 30 days as BAC declined 1.40% while SPY gained 1.14%. This divergence suggests near-term headwinds despite the stronger long-term performance trajectory.",
+          "citations": [],
+          "chunk_ids": [],
+          "calc_ids": [
+            "1faf65f8-1f25-4268-b999-a61dc83eee42",
+            "2bb9563d-7b2b-4b45-bff2-be8de50a370c",
+            "3323d309-1678-4334-b05b-b8e1d4e03040",
+            "b0e4c09c-399a-4533-a6cd-134cc6a3bc33"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "26163611-ae6e-4c05-a0a3-f3428c386941",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Key risks merit explicit acknowledgment. Financial leverage presents a material concern, with a debt-to-equity ratio of 2.33 as of Q3 2025, indicating sensitivity to interest rate and credit cycle fluctuations. Net interest margin compression remains relevant given the bank's diversified business model across Consumer Banking, Global Banking, and Global Markets segments. Additionally, competitive dynamics in wealth management remain active, with recent reports of UBS recruiting Merrill Lynch teams managing approximately $1 billion in assets.",
+          "citations": [
+            {
+              "citation_id": "8dac9883-9449-4e56-9f08-b1697ba83140",
+              "chunk_id": "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:08:37Z | Yahoo\nTitle: Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d\n(Update to add JPMorgan Chase'",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c"
+          ],
+          "calc_ids": [
+            "3c3522df-8916-434b-8689-284bc56849b4"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "0fef837f-cc97-4d9a-b1fe-96de7c3a5d03",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "Management has articulated a measured approach to sovereign and macroeconomic risk exposure, evidenced by hesitation to finalize a proposed $20 billion loan to Argentina absent guarantee structures. Consumer engagement initiatives continue, with the fourth annual More Rewards Day scheduled for November 2025 having generated approximately $74 million in extra rewards during the first three events. However, technology and operational risks exist given reliance on digital banking platforms, and the company reported zero R&D expenses for Q3 2025, which may indicate technology investments are capitalized or categorized differently.",
+          "citations": [
+            {
+              "citation_id": "2897f9e6-2446-4e66-bb76-2693a3d13b62",
+              "chunk_id": "051ebc37-c8c9-453f-88fb-977178d5974d",
+              "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+              "source_type": "income_statement",
+              "text_snippet": "BAC R&D Expenses for Q3: $0",
+              "relevance_note": null
+            },
+            {
+              "citation_id": "693176d3-cea5-4991-94e1-cf092a586464",
+              "chunk_id": "4339d818-e4df-43a7-9382-25a1b77dc44e",
+              "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+              "source_type": "news",
+              "text_snippet": "[NEWS] 2025-10-21T12:00:00Z | Yahoo\nTitle: Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million\nURL: https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9\nBank of America announced its fourth annual More Rewards Day, taking p",
+              "relevance_note": null
+            }
+          ],
+          "chunk_ids": [
+            "051ebc37-c8c9-453f-88fb-977178d5974d",
+            "4339d818-e4df-43a7-9382-25a1b77dc44e"
+          ],
+          "calc_ids": [
+            "710e6d1b-885d-4e77-8155-243e5db4a13e"
+          ],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        },
+        {
+          "paragraph_id": "8a99b62f-c087-4688-88a5-68301f5d4998",
+          "section_name": "Investment Recommendation & Outlook",
+          "text": "In summary, while Bank of America demonstrates operational resilience and strong cash flow generation, the combination of elevated leverage, margin compression risks, and competitive pressures supports a Hold recommendation rather than a more aggressive stance. Investors should monitor net interest margin trends, wealth management retention rates, and credit quality metrics in upcoming quarters. This rating does not constitute a guarantee of future performance, and shareholders should consider their individual risk tolerance and investment objectives.",
+          "citations": [],
+          "chunk_ids": [],
+          "calc_ids": [],
+          "verification_status": "fail",
+          "checker_verdicts": [],
+          "revision_history": [],
+          "iteration": 0
+        }
+      ],
+      "verification_status": "fail",
+      "unresolved_issues": []
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "595f8bed-4920-4721-8b42-b6ad39f0fbbd",
+      "title": "Company Snapshot",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Company",
+          "Bank of America Corporation"
+        ],
+        [
+          "Ticker",
+          "BAC"
+        ],
+        [
+          "Exchange",
+          "NYSE"
+        ],
+        [
+          "Sector",
+          "Financial Services"
+        ],
+        [
+          "Industry",
+          "Banks - Diversified"
+        ],
+        [
+          "Market Cap",
+          "N/A"
+        ],
+        [
+          "Country",
+          "US"
+        ],
+        [
+          "Employees",
+          "213000"
+        ]
+      ],
+      "description": "Deterministic company metadata pulled from the company profile source."
+    },
+    {
+      "table_id": "e81e4f50-8b37-4e98-8c6e-00850f46f4b5",
+      "title": "Market Performance",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Benchmark",
+          "SPY"
+        ],
+        [
+          "Company start price",
+          "$41.76"
+        ],
+        [
+          "Company end price",
+          "$51.52"
+        ],
+        [
+          "Company 52-week high",
+          "$52.88"
+        ],
+        [
+          "Company 52-week low",
+          "$33.07"
+        ],
+        [
+          "Benchmark start price",
+          "$583.63"
+        ],
+        [
+          "Benchmark end price",
+          "$671.29"
+        ],
+        [
+          "30-day company return",
+          "-1.40%"
+        ],
+        [
+          "30-day benchmark return",
+          "1.14%"
+        ],
+        [
+          "30-day excess return",
+          "-2.54%"
+        ],
+        [
+          "1-year company return",
+          "23.37%"
+        ],
+        [
+          "1-year benchmark return",
+          "15.02%"
+        ],
+        [
+          "1-year excess return",
+          "8.35%"
+        ]
+      ],
+      "description": "Recent company-versus-benchmark price performance used by the prediction agent."
+    },
+    {
+      "table_id": "899e4a6d-a727-4da4-92b4-badc3590dd67",
+      "title": "Key Financials",
+      "columns": [
+        "Metric",
+        "Q3",
+        "Q2",
+        "Q1"
+      ],
+      "rows": [
+        [
+          "Revenue",
+          "$48.22B",
+          "$46.67B",
+          "$46.99B"
+        ],
+        [
+          "Gross Profit",
+          "$26.79B",
+          "$24.87B",
+          "$25.89B"
+        ],
+        [
+          "Operating Income",
+          "$9.46B",
+          "$7.69B",
+          "$8.12B"
+        ],
+        [
+          "Net Income",
+          "$8.47B",
+          "$7.12B",
+          "$7.40B"
+        ],
+        [
+          "EPS",
+          "1.08",
+          "0.90",
+          "0.91"
+        ],
+        [
+          "Operating Cash Flow",
+          "$46.87B",
+          "$-9.13B",
+          "$-2.18B"
+        ],
+        [
+          "Free Cash Flow",
+          "$46.87B",
+          "$-9.13B",
+          "$-2.18B"
+        ]
+      ],
+      "description": "Recent reported financial metrics sourced directly from structured statement data."
+    },
+    {
+      "table_id": "86a293fd-4154-47ee-aaa2-91da0707937e",
+      "title": "Key Ratios",
+      "columns": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Gross Margin",
+          "55.56%"
+        ],
+        [
+          "Operating Margin",
+          "19.61%"
+        ],
+        [
+          "Net Margin",
+          "17.56%"
+        ],
+        [
+          "EBITDA Margin",
+          "20.82%"
+        ],
+        [
+          "R&D Intensity",
+          "0.00%"
+        ],
+        [
+          "Current Ratio",
+          "0.41"
+        ],
+        [
+          "Debt-to-Equity",
+          "2.33"
+        ],
+        [
+          "Net Debt",
+          "$461.26B"
+        ],
+        [
+          "FCF Margin",
+          "97.21%"
+        ]
+      ],
+      "description": "Deterministic ratios computed from statement data and price signals."
+    },
+    {
+      "table_id": "bc525169-c6ea-4f72-85fc-be66a588350e",
+      "title": "Recent Filings",
+      "columns": [
+        "Form",
+        "Filed",
+        "Title",
+        "Source"
+      ],
+      "rows": [
+        [
+          "10-Q",
+          "2025-07-31",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.ht"
+        ],
+        [
+          "10-Q",
+          "2025-04-30",
+          "10-Q",
+          "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.ht"
+        ]
+      ],
+      "description": "Recent annual and quarterly filings made available to the analysis agents."
+    }
+  ],
+  "evidence_appendix": [
+    {
+      "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+      "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+      "source_type": "company_profile",
+      "text": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+      "metadata": {
+        "ticker": "BAC",
+        "field": "overview"
+      },
+      "period": null,
+      "field_name": "overview",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+      "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+      "source_type": "company_profile",
+      "text": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, noninterest-and interest-bearing checking accounts, and investment accounts and products; and credit and debit cards, residential mortgages, and home equity loans, as well as direct and indirect loans, such as automotive, recreational vehicle, and consumer personal loans. The company's Global Wealth & Investment Management segment offers investment management, brokerage, banking, and trust and retirement products and services; and wealth management solutions, as well as customized solutions, including specialty asset management services. Its Global Banking segment provides lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, such as treasury management, foreign exchange, and short-term investing options and merchant services; working capital management solutions; and debt and equity underwriting and distribution, and merger-related and other advisory services. The company's Global Markets segment offers market-making, financing, securities clearing, settlement, and custody services, as well as risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. As of December 31, 2021, it served approximately 67 million consumer and small business clients with approximately 4,200 retail financial centers; approximately 16,000 ATMs; and digital banking platforms with approximately 41 million active users. The company was founded in 1784 and is based in Charlotte, North Carolina.",
+      "metadata": {
+        "ticker": "BAC",
+        "field": "description"
+      },
+      "period": null,
+      "field_name": "description",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "173a06f2-1dd4-4ddc-82f6-630833e6ffd6",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "Income Statement – BAC | Period: Q3 | Date: 2025-09-30\n  Revenue:            $48,221,000,000\n  Gross Profit:       $26,793,000,000 (margin N/A)\n  Operating Income:   $9,456,000,000 (margin N/A)\n  Net Income:         $8,469,000,000 (margin N/A)\n  EBITDA:             $10,040,000,000\n  EPS:                1.08\n  R&D Expenses:       $0",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "date": "2025-09-30"
+      },
+      "period": "Q3",
+      "field_name": "income_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "0f0c4043-4685-4786-839f-978fce10f0c8",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Revenue for Q3: $48,221,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "revenue"
+      },
+      "period": "Q3",
+      "field_name": "revenue",
+      "numeric_value": 48221000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Gross Profit for Q3: $26,793,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "grossProfit"
+      },
+      "period": "Q3",
+      "field_name": "grossProfit",
+      "numeric_value": 26793000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Operating Income for Q3: $9,456,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "operatingIncome"
+      },
+      "period": "Q3",
+      "field_name": "operatingIncome",
+      "numeric_value": 9456000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Net Income for Q3: $8,469,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "netIncome"
+      },
+      "period": "Q3",
+      "field_name": "netIncome",
+      "numeric_value": 8469000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "52e99d7b-827d-4abc-a653-5366a4e65cc7",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC EBITDA for Q3: $10,040,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "ebitda"
+      },
+      "period": "Q3",
+      "field_name": "ebitda",
+      "numeric_value": 10040000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "051ebc37-c8c9-453f-88fb-977178d5974d",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC R&D Expenses for Q3: $0",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "researchAndDevelopmentExpenses"
+      },
+      "period": "Q3",
+      "field_name": "researchAndDevelopmentExpenses",
+      "numeric_value": 0.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "42245289-985a-41d6-b57e-61ce37dd8a2c",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Revenue for Q2: $46,666,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q2",
+        "field": "revenue"
+      },
+      "period": "Q2",
+      "field_name": "revenue",
+      "numeric_value": 46666000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "d87165dd-c3d5-4b59-99b3-7d3baba923f1",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Net Income for Q2: $7,116,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q2",
+        "field": "netIncome"
+      },
+      "period": "Q2",
+      "field_name": "netIncome",
+      "numeric_value": 7116000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "41ecf76e-841d-442e-9d09-e364f9e04ef5",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text": "BAC Revenue for Q1: $46,989,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q1",
+        "field": "revenue"
+      },
+      "period": "Q1",
+      "field_name": "revenue",
+      "numeric_value": 46989000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "Balance Sheet – BAC | Period: Q3 | Date: 2025-09-30\n  Total Assets:              $3,403,216,000,000\n  Total Liabilities:         $3,099,064,000,000\n  Total Stockholders' Equity:$304,152,000,000\n  Cash & Equivalents:        $246,507,000,000\n  Short-Term Investments:    $711,193,000,000\n  Total Debt:                $707,772,000,000\n  Long-Term Debt:            $311,484,000,000\n  Current Assets:            $1,057,563,000,000\n  Current Liabilities:       $2,555,975,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "date": "2025-09-30"
+      },
+      "period": "Q3",
+      "field_name": "balance_summary",
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "98193c38-e724-4300-a71c-8a40e7437bf2",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "BAC Total Assets for Q3: $3,403,216,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "totalAssets"
+      },
+      "period": "Q3",
+      "field_name": "totalAssets",
+      "numeric_value": 3403216000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "BAC Stockholders' Equity for Q3: $304,152,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "totalStockholdersEquity"
+      },
+      "period": "Q3",
+      "field_name": "totalStockholdersEquity",
+      "numeric_value": 304152000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "467d47c0-5f06-4ce1-b8f7-6bd981680225",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "BAC Cash & Equivalents for Q3: $246,507,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "cashAndCashEquivalents"
+      },
+      "period": "Q3",
+      "field_name": "cashAndCashEquivalents",
+      "numeric_value": 246507000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "BAC Total Debt for Q3: $707,772,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "totalDebt"
+      },
+      "period": "Q3",
+      "field_name": "totalDebt",
+      "numeric_value": 707772000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "c06eece8-f3ce-4a2e-a6b7-005d77062ce6",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "BAC Total Current Assets for Q3: $1,057,563,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "totalCurrentAssets"
+      },
+      "period": "Q3",
+      "field_name": "totalCurrentAssets",
+      "numeric_value": 1057563000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "6be13fc0-0f09-439e-ad54-636739e31bd9",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text": "BAC Total Current Liabilities for Q3: $2,555,975,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "totalCurrentLiabilities"
+      },
+      "period": "Q3",
+      "field_name": "totalCurrentLiabilities",
+      "numeric_value": 2555975000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "e76d3b9c-b65b-4361-bfe4-c70665ae74d7",
+      "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+      "source_type": "cash_flow",
+      "text": "BAC Operating Cash Flow for Q3: $46,874,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "operatingCashFlow"
+      },
+      "period": "Q3",
+      "field_name": "operatingCashFlow",
+      "numeric_value": 46874000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "a1fea077-43c3-4161-a517-60ac3f83f853",
+      "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+      "source_type": "cash_flow",
+      "text": "BAC Free Cash Flow for Q3: $46,874,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "freeCashFlow"
+      },
+      "period": "Q3",
+      "field_name": "freeCashFlow",
+      "numeric_value": 46874000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "e68dbfcd-8adc-4b34-902d-71f2127c46b8",
+      "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+      "source_type": "cash_flow",
+      "text": "BAC Stock Buybacks for Q3: $-5,300,000,000",
+      "metadata": {
+        "ticker": "BAC",
+        "period": "Q3",
+        "field": "commonStockRepurchased"
+      },
+      "period": "Q3",
+      "field_name": "commonStockRepurchased",
+      "numeric_value": -5300000000.0,
+      "unit": "USD"
+    },
+    {
+      "chunk_id": "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T20:28:05Z | Yahoo\nTitle: BofA treating gov't. shutdown like natural disaster: CEO\nURL: https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b\nBank of America has a playbook for government shutdowns, which includes providing fee and payment waivers as well as loan deferrals and forbearance programs, CEO Brian Moynihan said at the American Bankers Association's annual convention.",
+      "metadata": {
+        "title": "BofA treating gov't. shutdown like natural disaster: CEO",
+        "published_at": "2025-10-21T20:28:05Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.25 billion in debt to bac",
+      "metadata": {
+        "title": "Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout",
+        "published_at": "2025-10-21T16:37:23Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "69b3e0e8-910c-49f0-9dff-94527bc2ff3a",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T13:00:00Z | Yahoo\nTitle: Bank of America Names Maria Serravalle as Community Relations Manager\nURL: https://finnhub.io/api/news?id=fb91a7f991919a2cb54c6e10681179b88911cbb53033810c5f82be16c3b11f12\nDetroit native Maria Serravalle has been named Bank of America's Community Relations Manager for the Detroit market.",
+      "metadata": {
+        "title": "Bank of America Names Maria Serravalle as Community Relations Manager",
+        "published_at": "2025-10-21T13:00:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fb91a7f991919a2cb54c6e10681179b88911cbb53033810c5f82be16c3b11f12",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T12:08:37Z | Yahoo\nTitle: Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d\n(Update to add JPMorgan Chase's comment in the sixth paragraph) JPMorgan Chase (JPM), Bank of Ame",
+      "metadata": {
+        "title": "Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees",
+        "published_at": "2025-10-21T12:08:37Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "4d93aceb-2038-4e72-8657-229c76137853",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T12:04:13Z | Benzinga\nTitle: 'Citi, Barclays Among Banks Leading Hologic $12 Billion Debt Deal'- Bloomberg\nURL: https://finnhub.io/api/news?id=561320152539181aa8c7e060fc9fda37d52ade4c29c9f482883b92761a1e161f\nhttps://www.bloomberg.com/news/articles/2025-10-21/citi-barclays-among-banks-leading-hologic-12-billion-d",
+      "metadata": {
+        "title": "'Citi, Barclays Among Banks Leading Hologic $12 Billion Debt Deal'- Bloomberg",
+        "published_at": "2025-10-21T12:04:13Z",
+        "source_name": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=561320152539181aa8c7e060fc9fda37d52ade4c29c9f482883b92761a1e161f",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "4339d818-e4df-43a7-9382-25a1b77dc44e",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T12:00:00Z | Yahoo\nTitle: Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million\nURL: https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9\nBank of America announced its fourth annual More Rewards Day, taking place on Thursday, November 6, 2025. As the holiday season kicks off, BofA is offering Consumer and Business credit cardholders one full day to earn bonus rewards on their purchases. Bank of America credit cardholders are on pace to earn a total of $100 million in extra rewards since the inception of More Rewards Day, having already earned $74 million during the first three annual events.",
+      "metadata": {
+        "title": "Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million",
+        "published_at": "2025-10-21T12:00:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "c64c5f90-17e8-4a4f-9c3c-955e1de65555",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T11:28:00Z | Yahoo\nTitle: Bank ETFs in Red Over the Past Month: Pain or Gain Ahead?\nURL: https://finnhub.io/api/news?id=f2c0fc5d158531fe1455c4909b62ba0c7d0115aafd264c6003b3394bd3be9482\nBank ETFs like IYG, IYF, KBWB, XLF and VFH dip on credit jitters. Are gains ahead as Q3 earnings & a steepening yield curve offer hope?",
+      "metadata": {
+        "title": "Bank ETFs in Red Over the Past Month: Pain or Gain Ahead?",
+        "published_at": "2025-10-21T11:28:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f2c0fc5d158531fe1455c4909b62ba0c7d0115aafd264c6003b3394bd3be9482",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "8ce5f9bc-7a52-4062-8efa-1cfd895bed0c",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-21T10:58:16Z | Yahoo\nTitle: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c59b1a77fbdef4b6b069e195857ba4d91dc0ba98b29f446263655ba8a94674b1\nJPMorgan Chase (JPM), Bank of America (BAC) and Goldman Sachs (GS) are hesitant to finalize a $20 bi",
+      "metadata": {
+        "title": "Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees",
+        "published_at": "2025-10-21T10:58:16Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c59b1a77fbdef4b6b069e195857ba4d91dc0ba98b29f446263655ba8a94674b1",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "e11b9291-1f90-4d9c-8997-a13b5ce90f88",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-20T19:28:00Z | Yahoo\nTitle: UBS Recruits Two Merrill Lynch Teams That Managed a Total of $1 Billion\nURL: https://finnhub.io/api/news?id=85d085ea3e2c5d11801a61e04f250e3b76bf54591c20cadd86e2c3528af06b3d\nThe recruiting wins are a reversal of fortune for UBS, which has experienced many high-profile departures in recent months.",
+      "metadata": {
+        "title": "UBS Recruits Two Merrill Lynch Teams That Managed a Total of $1 Billion",
+        "published_at": "2025-10-20T19:28:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=85d085ea3e2c5d11801a61e04f250e3b76bf54591c20cadd86e2c3528af06b3d",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "3ab96853-9af2-47c9-8e55-3cff32a77d30",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-20T14:00:00Z | Yahoo\nTitle: A New Generation Tees Off: 100,000 Rounds and Counting with Bank of America's Golf with Us\nURL: https://finnhub.io/api/news?id=a86a2772479c014ace773506904d26cf79caf58cbcf7750696bd4c4e4e5a0fba\nSince its launch in April, young golfers enrolled in Bank of America's Golf with Us have logged more than 100,000 rounds of golf at courses across the country.",
+      "metadata": {
+        "title": "A New Generation Tees Off: 100,000 Rounds and Counting with Bank of America's Golf with Us",
+        "published_at": "2025-10-20T14:00:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a86a2772479c014ace773506904d26cf79caf58cbcf7750696bd4c4e4e5a0fba",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "2a6dee8b-a115-4254-ba95-6e7f93f30eec",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-20T13:40:00Z | Yahoo\nTitle: JPM, GS & Others Witness Record Q3 IB Fees: Will the Trend Continue?\nURL: https://finnhub.io/api/news?id=66eb5f7aab058c2cbc3eace5e01cfa98ab170186ec2df5210da64899257eb1c6\nJPMorgan, Goldman and others record a surge in IB fees in Q3, fueling hopes that dealmaking momentum is back on track.",
+      "metadata": {
+        "title": "JPM, GS & Others Witness Record Q3 IB Fees: Will the Trend Continue?",
+        "published_at": "2025-10-20T13:40:00Z",
+        "source_name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=66eb5f7aab058c2cbc3eace5e01cfa98ab170186ec2df5210da64899257eb1c6",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    },
+    {
+      "chunk_id": "d293066a-cbfe-420d-b075-fa374b3b903f",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text": "[NEWS] 2025-10-20T12:38:16Z | SeekingAlpha\nTitle: Credit Markets: A Storm Is Brewing\nURL: https://finnhub.io/api/news?id=f4b74497c35d84f1d4b7689c3d2366f2057aa8c5b94f91cc667905e1f1e87898\nThe cracks appear to be growing in the credit markets. Click here to find out what this might mean for equity markets going forward.",
+      "metadata": {
+        "title": "Credit Markets: A Storm Is Brewing",
+        "published_at": "2025-10-20T12:38:16Z",
+        "source_name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f4b74497c35d84f1d4b7689c3d2366f2057aa8c5b94f91cc667905e1f1e87898",
+        "ticker": "BAC"
+      },
+      "period": null,
+      "field_name": null,
+      "numeric_value": null,
+      "unit": null
+    }
+  ],
+  "calculation_appendix": [
+    {
+      "calc_id": "75da3b20-48c5-4cce-864a-c180f6fe2a3d",
+      "operation": "yoy_growth_table",
+      "inputs": {
+        "series": [
+          {
+            "period": "Q1",
+            "value": 46989000000.0
+          },
+          {
+            "period": "Q2",
+            "value": 46666000000.0
+          },
+          {
+            "period": "Q3",
+            "value": 48221000000.0
+          }
+        ]
+      },
+      "result": {
+        "table": [
+          {
+            "period": "Q1",
+            "value": 46989000000.0,
+            "yoy_growth": null,
+            "yoy_growth_pct": "N/A (base period)"
+          },
+          {
+            "period": "Q2",
+            "value": 46666000000.0,
+            "yoy_growth": -0.0068739492221583775,
+            "yoy_growth_pct": "-0.69%"
+          },
+          {
+            "period": "Q3",
+            "value": 48221000000.0,
+            "yoy_growth": 0.033321904598637125,
+            "yoy_growth_pct": "3.33%"
+          }
+        ]
+      },
+      "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+      "description": "BAC Revenue YoY Growth Table",
+      "error": null
+    },
+    {
+      "calc_id": "0cae0557-5222-4240-83bd-7c9a1aaae8b7",
+      "operation": "yoy_growth_table",
+      "inputs": {
+        "series": [
+          {
+            "period": "Q1",
+            "value": 7396000000.0
+          },
+          {
+            "period": "Q2",
+            "value": 7116000000.0
+          },
+          {
+            "period": "Q3",
+            "value": 8469000000.0
+          }
+        ]
+      },
+      "result": {
+        "table": [
+          {
+            "period": "Q1",
+            "value": 7396000000.0,
+            "yoy_growth": null,
+            "yoy_growth_pct": "N/A (base period)"
+          },
+          {
+            "period": "Q2",
+            "value": 7116000000.0,
+            "yoy_growth": -0.03785830178474851,
+            "yoy_growth_pct": "-3.79%"
+          },
+          {
+            "period": "Q3",
+            "value": 8469000000.0,
+            "yoy_growth": 0.19013490725126475,
+            "yoy_growth_pct": "19.01%"
+          }
+        ]
+      },
+      "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+      "description": "BAC Net Income YoY Growth Table",
+      "error": null
+    },
+    {
+      "calc_id": "df2ec629-9184-4970-8c2b-88700fccc0ae",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 26793000000.0,
+        "denominator": 48221000000.0
+      },
+      "result": 0.5556292901432985,
+      "formula_description": "26793000000.0 / 48221000000.0 = 0.5556 (55.56%)",
+      "description": "BAC Gross Margin (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "b3a337d5-ab4b-4f90-b9f1-2ca1873a1095",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 9456000000.0,
+        "denominator": 48221000000.0
+      },
+      "result": 0.19609713610252794,
+      "formula_description": "9456000000.0 / 48221000000.0 = 0.1961 (19.61%)",
+      "description": "BAC Operating Margin (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "de41b348-2273-4d16-ae56-0ff2d9337fd9",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 8469000000.0,
+        "denominator": 48221000000.0
+      },
+      "result": 0.1756288753862425,
+      "formula_description": "8469000000.0 / 48221000000.0 = 0.1756 (17.56%)",
+      "description": "BAC Net Margin (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "e2343111-f5c3-4417-821c-290bafb70050",
+      "operation": "margin",
+      "inputs": {
+        "numerator": 10040000000.0,
+        "denominator": 48221000000.0
+      },
+      "result": 0.2082080421393169,
+      "formula_description": "10040000000.0 / 48221000000.0 = 0.2082 (20.82%)",
+      "description": "BAC EBITDA Margin (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "710e6d1b-885d-4e77-8155-243e5db4a13e",
+      "operation": "rd_intensity",
+      "inputs": {
+        "rd_expenses": 0.0,
+        "revenue": 48221000000.0
+      },
+      "result": 0.0,
+      "formula_description": "R&D (0.0) / revenue (48221000000.0) = 0.0000 (0.00%)",
+      "description": "BAC R&D Intensity (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "d5a71b1a-7114-420d-8eb5-367e1c112aae",
+      "operation": "current_ratio",
+      "inputs": {
+        "current_assets": 1057563000000.0,
+        "current_liabilities": 2555975000000.0
+      },
+      "result": 0.4137610892125314,
+      "formula_description": "current_assets (1057563000000.0) / current_liabilities (2555975000000.0) = 0.41",
+      "description": "BAC Current Ratio (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "3c3522df-8916-434b-8689-284bc56849b4",
+      "operation": "debt_to_equity",
+      "inputs": {
+        "total_debt": 707772000000.0,
+        "equity": 304152000000.0
+      },
+      "result": 2.327033851495305,
+      "formula_description": "total_debt (707772000000.0) / equity (304152000000.0) = 2.33",
+      "description": "BAC Debt-to-Equity (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "08a699cf-b558-4e28-a24f-e784a3508a99",
+      "operation": "net_debt",
+      "inputs": {
+        "total_debt": 707772000000.0,
+        "cash": 246507000000.0
+      },
+      "result": 461265000000.0,
+      "formula_description": "total_debt (707772000000.0) - cash (246507000000.0) = 461265000000.0",
+      "description": "BAC Net Debt (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "f211cc8e-78bf-49df-b68a-849fd4783e9d",
+      "operation": "fcf_margin",
+      "inputs": {
+        "free_cash_flow": 46874000000.0,
+        "revenue": 48221000000.0
+      },
+      "result": 0.972066112274735,
+      "formula_description": "FCF (46874000000.0) / revenue (48221000000.0) = 0.9721 (97.21%)",
+      "description": "BAC FCF Margin (Q3)",
+      "error": null
+    },
+    {
+      "calc_id": "1faf65f8-1f25-4268-b999-a61dc83eee42",
+      "operation": "difference",
+      "inputs": {
+        "a": -0.013971291866028648,
+        "b": 0.011435889709205843
+      },
+      "result": -0.025407181575234493,
+      "formula_description": "-0.013971291866028648 - 0.011435889709205843 = -0.0254",
+      "description": "BAC 30d excess return vs SPY",
+      "error": null
+    },
+    {
+      "calc_id": "2bb9563d-7b2b-4b45-bff2-be8de50a370c",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 51.52,
+        "previous": 41.76
+      },
+      "result": 0.23371647509578558,
+      "formula_description": "(51.52 - 41.76) / |41.76| = 0.2337 (23.37%)",
+      "description": "BAC 1y price return",
+      "error": null
+    },
+    {
+      "calc_id": "3323d309-1678-4334-b05b-b8e1d4e03040",
+      "operation": "growth_rate",
+      "inputs": {
+        "current": 671.29,
+        "previous": 583.63
+      },
+      "result": 0.15019789935404274,
+      "formula_description": "(671.29 - 583.63) / |583.63| = 0.1502 (15.02%)",
+      "description": "SPY 1y benchmark return",
+      "error": null
+    },
+    {
+      "calc_id": "b0e4c09c-399a-4533-a6cd-134cc6a3bc33",
+      "operation": "difference",
+      "inputs": {
+        "a": 0.23371647509578558,
+        "b": 0.15019789935404274
+      },
+      "result": 0.08351857574174285,
+      "formula_description": "0.23371647509578558 - 0.15019789935404274 = 0.0835",
+      "description": "BAC 1y excess return vs SPY",
+      "error": null
+    }
+  ],
+  "generated_at": "2026-03-25T04:59:34.337630",
+  "overall_status": "fail",
+  "warnings": []
+}

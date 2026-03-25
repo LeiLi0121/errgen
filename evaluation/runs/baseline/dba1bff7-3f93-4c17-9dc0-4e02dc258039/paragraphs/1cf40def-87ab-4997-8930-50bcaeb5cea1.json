@@ -1,0 +1,44 @@
+{
+  "paragraph_id": "1cf40def-87ab-4997-8930-50bcaeb5cea1",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "The strategic pivot toward hotel inventory announced during the Q2 earnings call introduces both opportunity and risk. CEO Brian Chesky's commitment to going 'significantly more aggressively into hotels' (C033) initially pressured shares down approximately 6% (Recent Developments summary), reflecting investor concern about margin dilution and competitive dynamics with traditional hospitality providers. While Q2 2025 operating and net margins remained healthy at 19.77% and 20.74% respectively (C006, C008, K003, K004), management issued margin warnings for forward periods (Business & Competitive Analysis summary), suggesting the hotel expansion may pressure profitability near-term.",
+  "citations": [
+    {
+      "citation_id": "3b2312b1-ee32-41ae-ad13-52dda7a4517c",
+      "chunk_id": "a73b7fea-7ae5-4dd2-bfab-57a43001a151",
+      "source_id": "4efbf4ad-7f4b-4192-aaac-a5fe08aa0418",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:30:56Z | Yahoo\nTitle: Airbnb embraces a paradox: CEO Brian Chesky says hotels are the future\nURL: https://finnhub.io/api/news?id=3a1c090dc5fb0a0c1088edfb160f76bbe856f5e52c2b3510bc721f0df561d6be\n“We’re going to be going significantly more aggressively into hotels,” CEO Brian Ches",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "78a11167-82c1-4b06-b491-1c50121c0cf9",
+      "chunk_id": "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q2 2025: 19.77%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0f9c39c4-0c8b-4770-927e-04693be3c2a1",
+      "chunk_id": "e1f114b2-12a3-4427-bac4-abec49c5130c",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q2 2025: 20.74%",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a73b7fea-7ae5-4dd2-bfab-57a43001a151",
+    "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+    "e1f114b2-12a3-4427-bac4-abec49c5130c"
+  ],
+  "calc_ids": [
+    "1f69ca94-20a1-4a98-ac20-85e4cb6ac490",
+    "176dad6a-89fc-4bd5-8799-f67c30065efd"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

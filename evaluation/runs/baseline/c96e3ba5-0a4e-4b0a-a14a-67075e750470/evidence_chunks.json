@@ -1,0 +1,1609 @@
+[
+  {
+    "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+    "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+    "source_type": "company_profile",
+    "text": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+    "metadata": {
+      "ticker": "BAC",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4b4db74d-3c8f-49d7-8ed4-1fd6d1585fd1",
+    "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+    "source_type": "company_profile",
+    "text": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, noninterest-and interest-bearing checking accounts, and investment accounts and products; and credit and debit cards, residential mortgages, and home equity loans, as well as direct and indirect loans, such as automotive, recreational vehicle, and consumer personal loans. The company's Global Wealth & Investment Management segment offers investment management, brokerage, banking, and trust and retirement products and services; and wealth management solutions, as well as customized solutions, including specialty asset management services. Its Global Banking segment provides lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, such as treasury management, foreign exchange, and short-term investing options and merchant services; working capital management solutions; and debt and equity underwriting and distribution, and merger-related and other advisory services. The company's Global Markets segment offers market-making, financing, securities clearing, settlement, and custody services, as well as risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. As of December 31, 2021, it served approximately 67 million consumer and small business clients with approximately 4,200 retail financial centers; approximately 16,000 ATMs; and digital banking platforms with approximately 41 million active users. The company was founded in 1784 and is based in Charlotte, North Carolina.",
+    "metadata": {
+      "ticker": "BAC",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "173a06f2-1dd4-4ddc-82f6-630833e6ffd6",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "Income Statement – BAC | Period: Q3 | Date: 2025-09-30\n  Revenue:            $48,221,000,000\n  Gross Profit:       $26,793,000,000 (margin N/A)\n  Operating Income:   $9,456,000,000 (margin N/A)\n  Net Income:         $8,469,000,000 (margin N/A)\n  EBITDA:             $10,040,000,000\n  EPS:                1.08\n  R&D Expenses:       $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "date": "2025-09-30"
+    },
+    "period": "Q3",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0f0c4043-4685-4786-839f-978fce10f0c8",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Revenue for Q3: $48,221,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "revenue"
+    },
+    "period": "Q3",
+    "field_name": "revenue",
+    "numeric_value": 48221000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Gross Profit for Q3: $26,793,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "grossProfit"
+    },
+    "period": "Q3",
+    "field_name": "grossProfit",
+    "numeric_value": 26793000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Operating Income for Q3: $9,456,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "operatingIncome"
+    },
+    "period": "Q3",
+    "field_name": "operatingIncome",
+    "numeric_value": 9456000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4fc01ee3-583b-4b9e-aeee-e24eee149b38",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Net Income for Q3: $8,469,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "netIncome"
+    },
+    "period": "Q3",
+    "field_name": "netIncome",
+    "numeric_value": 8469000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "52e99d7b-827d-4abc-a653-5366a4e65cc7",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC EBITDA for Q3: $10,040,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "ebitda"
+    },
+    "period": "Q3",
+    "field_name": "ebitda",
+    "numeric_value": 10040000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c320fc97-dc13-4b0b-b0f8-3fd1ee148401",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC EPS (Diluted) for Q3: $1",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "eps"
+    },
+    "period": "Q3",
+    "field_name": "eps",
+    "numeric_value": 1.08,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "051ebc37-c8c9-453f-88fb-977178d5974d",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC R&D Expenses for Q3: $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q3",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a97541fd-d8b1-439a-91ea-32c844ea63ba",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "Income Statement – BAC | Period: Q2 | Date: 2025-06-30\n  Revenue:            $46,666,000,000\n  Gross Profit:       $24,871,000,000 (margin N/A)\n  Operating Income:   $7,688,000,000 (margin N/A)\n  Net Income:         $7,116,000,000 (margin N/A)\n  EBITDA:             $8,269,000,000\n  EPS:                0.9\n  R&D Expenses:       $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "date": "2025-06-30"
+    },
+    "period": "Q2",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "42245289-985a-41d6-b57e-61ce37dd8a2c",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Revenue for Q2: $46,666,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "revenue"
+    },
+    "period": "Q2",
+    "field_name": "revenue",
+    "numeric_value": 46666000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d368a3b5-04d5-46ed-8b16-936d3fc7b238",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Gross Profit for Q2: $24,871,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "grossProfit"
+    },
+    "period": "Q2",
+    "field_name": "grossProfit",
+    "numeric_value": 24871000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5e2d7746-b106-4c32-8b9e-2a3740c8279f",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Operating Income for Q2: $7,688,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "operatingIncome"
+    },
+    "period": "Q2",
+    "field_name": "operatingIncome",
+    "numeric_value": 7688000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d87165dd-c3d5-4b59-99b3-7d3baba923f1",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Net Income for Q2: $7,116,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "netIncome"
+    },
+    "period": "Q2",
+    "field_name": "netIncome",
+    "numeric_value": 7116000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1a07bd69-d439-4fd0-829d-703059a55625",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC EBITDA for Q2: $8,269,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "ebitda"
+    },
+    "period": "Q2",
+    "field_name": "ebitda",
+    "numeric_value": 8269000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2916ccf7-d39d-4b70-84f9-48101098ab13",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC EPS (Diluted) for Q2: $1",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "eps"
+    },
+    "period": "Q2",
+    "field_name": "eps",
+    "numeric_value": 0.9,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "973e9da5-b18c-461f-8cff-0e0c09378054",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC R&D Expenses for Q2: $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q2",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e203f03b-a032-47e1-a7e5-91b1b5040482",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "Income Statement – BAC | Period: Q1 | Date: 2025-03-31\n  Revenue:            $46,989,000,000\n  Gross Profit:       $25,886,000,000 (margin N/A)\n  Operating Income:   $8,116,000,000 (margin N/A)\n  Net Income:         $7,396,000,000 (margin N/A)\n  EBITDA:             $8,681,000,000\n  EPS:                0.91\n  R&D Expenses:       $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "date": "2025-03-31"
+    },
+    "period": "Q1",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "41ecf76e-841d-442e-9d09-e364f9e04ef5",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Revenue for Q1: $46,989,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "revenue"
+    },
+    "period": "Q1",
+    "field_name": "revenue",
+    "numeric_value": 46989000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3bfdedb5-f9d5-4c66-b306-375f720bb69a",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Gross Profit for Q1: $25,886,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "grossProfit"
+    },
+    "period": "Q1",
+    "field_name": "grossProfit",
+    "numeric_value": 25886000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e13239ab-b555-4531-9b81-3f2a204ea131",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Operating Income for Q1: $8,116,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "operatingIncome"
+    },
+    "period": "Q1",
+    "field_name": "operatingIncome",
+    "numeric_value": 8116000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b02f9545-05c2-489f-902e-169f82e29310",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC Net Income for Q1: $7,396,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "netIncome"
+    },
+    "period": "Q1",
+    "field_name": "netIncome",
+    "numeric_value": 7396000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4bfb229d-6ad7-4095-8a7a-a5ebd79dbd02",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC EBITDA for Q1: $8,681,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "ebitda"
+    },
+    "period": "Q1",
+    "field_name": "ebitda",
+    "numeric_value": 8681000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2579015b-3b61-411a-85b6-59bea6466174",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC EPS (Diluted) for Q1: $1",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "eps"
+    },
+    "period": "Q1",
+    "field_name": "eps",
+    "numeric_value": 0.91,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d5f810ba-399e-45f3-80ae-d3fa3ca8c32d",
+    "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+    "source_type": "income_statement",
+    "text": "BAC R&D Expenses for Q1: $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q1",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – BAC | Period: Q3 | Date: 2025-09-30\n  Total Assets:              $3,403,216,000,000\n  Total Liabilities:         $3,099,064,000,000\n  Total Stockholders' Equity:$304,152,000,000\n  Cash & Equivalents:        $246,507,000,000\n  Short-Term Investments:    $711,193,000,000\n  Total Debt:                $707,772,000,000\n  Long-Term Debt:            $311,484,000,000\n  Current Assets:            $1,057,563,000,000\n  Current Liabilities:       $2,555,975,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "date": "2025-09-30"
+    },
+    "period": "Q3",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "98193c38-e724-4300-a71c-8a40e7437bf2",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Assets for Q3: $3,403,216,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "totalAssets"
+    },
+    "period": "Q3",
+    "field_name": "totalAssets",
+    "numeric_value": 3403216000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fda06f64-efe1-4b87-8019-5f49904e7e24",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Liabilities for Q3: $3,099,064,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "totalLiabilities"
+    },
+    "period": "Q3",
+    "field_name": "totalLiabilities",
+    "numeric_value": 3099064000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Stockholders' Equity for Q3: $304,152,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q3",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 304152000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "467d47c0-5f06-4ce1-b8f7-6bd981680225",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Cash & Equivalents for Q3: $246,507,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q3",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 246507000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Debt for Q3: $707,772,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "totalDebt"
+    },
+    "period": "Q3",
+    "field_name": "totalDebt",
+    "numeric_value": 707772000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "832c507e-97c8-4878-b2d2-d2129480ef29",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Long-Term Debt for Q3: $311,484,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "longTermDebt"
+    },
+    "period": "Q3",
+    "field_name": "longTermDebt",
+    "numeric_value": 311484000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c06eece8-f3ce-4a2e-a6b7-005d77062ce6",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Current Assets for Q3: $1,057,563,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q3",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 1057563000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6be13fc0-0f09-439e-ad54-636739e31bd9",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Current Liabilities for Q3: $2,555,975,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q3",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 2555975000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "376da4ec-1d6b-461a-be83-1742961264fa",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – BAC | Period: Q2 | Date: 2025-06-30\n  Total Assets:              $3,441,142,000,000\n  Total Liabilities:         $3,141,543,000,000\n  Total Stockholders' Equity:$299,599,000,000\n  Cash & Equivalents:        $275,388,000,000\n  Short-Term Investments:    $378,033,000,000\n  Total Debt:                $760,769,000,000\n  Long-Term Debt:            $313,418,000,000\n  Current Assets:            $763,095,000,000\n  Current Liabilities:       $2,566,390,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "date": "2025-06-30"
+    },
+    "period": "Q2",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a6a2d848-d9ae-43fc-8f4e-29301ca59eb7",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Assets for Q2: $3,441,142,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "totalAssets"
+    },
+    "period": "Q2",
+    "field_name": "totalAssets",
+    "numeric_value": 3441142000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9c7ff4f8-1951-4d54-a5f2-f649d861d627",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Liabilities for Q2: $3,141,543,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "totalLiabilities"
+    },
+    "period": "Q2",
+    "field_name": "totalLiabilities",
+    "numeric_value": 3141543000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b2b8f033-75c2-4cca-875a-92e1355f3ad1",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Stockholders' Equity for Q2: $299,599,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q2",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 299599000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "33bb33a4-78e4-42d8-b045-e437ed401fb6",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Cash & Equivalents for Q2: $275,388,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q2",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 275388000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "104410d6-bf63-41bd-a6c8-be4a9a5e523f",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Debt for Q2: $760,769,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "totalDebt"
+    },
+    "period": "Q2",
+    "field_name": "totalDebt",
+    "numeric_value": 760769000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "20556bf6-b2eb-4aef-bad0-645f445d9b40",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Long-Term Debt for Q2: $313,418,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "longTermDebt"
+    },
+    "period": "Q2",
+    "field_name": "longTermDebt",
+    "numeric_value": 313418000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3839cd5c-80d3-4424-ad30-c65ce3161c98",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Current Assets for Q2: $763,095,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q2",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 763095000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c0b9fd7e-ffcc-4f84-adff-35fa65d9827b",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Current Liabilities for Q2: $2,566,390,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q2",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 2566390000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f30d884b-a773-435e-836f-b8752466485b",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – BAC | Period: Q1 | Date: 2025-03-31\n  Total Assets:              $3,349,424,000,000\n  Total Liabilities:         $3,053,843,000,000\n  Total Stockholders' Equity:$295,581,000,000\n  Cash & Equivalents:        $280,861,000,000\n  Short-Term Investments:    $376,249,000,000\n  Total Debt:                $721,686,000,000\n  Long-Term Debt:            $304,146,000,000\n  Current Assets:            $753,096,000,000\n  Current Liabilities:       $2,512,574,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "date": "2025-03-31"
+    },
+    "period": "Q1",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ca0924e6-fe5b-4a7a-af3a-4a6ae8179e84",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Assets for Q1: $3,349,424,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "totalAssets"
+    },
+    "period": "Q1",
+    "field_name": "totalAssets",
+    "numeric_value": 3349424000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "95e816c5-6043-47a6-8f1e-453eaf7d40d4",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Liabilities for Q1: $3,053,843,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "totalLiabilities"
+    },
+    "period": "Q1",
+    "field_name": "totalLiabilities",
+    "numeric_value": 3053843000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "39f0cb90-a685-4b39-8b09-eb8a3b24d483",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Stockholders' Equity for Q1: $295,581,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q1",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 295581000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "323cce77-971f-4fd8-874b-595790f5d085",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Cash & Equivalents for Q1: $280,861,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q1",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 280861000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e2a24846-4490-4f37-b354-bc6d76f2b8f1",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Debt for Q1: $721,686,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "totalDebt"
+    },
+    "period": "Q1",
+    "field_name": "totalDebt",
+    "numeric_value": 721686000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b1804a21-94d8-4b89-b623-47af51721e62",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Long-Term Debt for Q1: $304,146,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "longTermDebt"
+    },
+    "period": "Q1",
+    "field_name": "longTermDebt",
+    "numeric_value": 304146000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3959c7e0-e51b-4c96-a472-796c9cb34b3d",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Current Assets for Q1: $753,096,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q1",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 753096000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "10371c52-d7f6-4f0d-ba4d-668505a2f3ac",
+    "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+    "source_type": "balance_sheet",
+    "text": "BAC Total Current Liabilities for Q1: $2,512,574,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q1",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 2512574000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1bd6e822-7c58-4316-b85e-ad32ece7c49c",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – BAC | Period: Q3 | Date: 2025-09-30\n  Operating Cash Flow:     $46,874,000,000\n  Capital Expenditure:     $0\n  Free Cash Flow:          $46,874,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-5,300,000,000\n  Depreciation & Amort.:   $584,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "date": "2025-09-30"
+    },
+    "period": "Q3",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e76d3b9c-b65b-4361-bfe4-c70665ae74d7",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Operating Cash Flow for Q3: $46,874,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q3",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 46874000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e1318d3c-5728-431c-b4c4-cd7b200bb84d",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Capital Expenditure for Q3: $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q3",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a1fea077-43c3-4161-a517-60ac3f83f853",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Free Cash Flow for Q3: $46,874,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "freeCashFlow"
+    },
+    "period": "Q3",
+    "field_name": "freeCashFlow",
+    "numeric_value": 46874000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e68dbfcd-8adc-4b34-902d-71f2127c46b8",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Stock Buybacks for Q3: $-5,300,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q3",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -5300000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f473a179-60ca-4210-8175-7e68432e3843",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC D&A for Q3: $584,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q3",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q3",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 584000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5f3d3f4e-dce3-4000-9319-a02188bb1de2",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – BAC | Period: Q2 | Date: 2025-06-30\n  Operating Cash Flow:     $-9,132,000,000\n  Capital Expenditure:     $0\n  Free Cash Flow:          $-9,132,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-5,302,000,000\n  Depreciation & Amort.:   $571,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "date": "2025-06-30"
+    },
+    "period": "Q2",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bccebd5b-83ea-464a-99aa-865b0464d8e8",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Operating Cash Flow for Q2: $-9,132,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q2",
+    "field_name": "operatingCashFlow",
+    "numeric_value": -9132000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "15774e82-6c92-4c15-b5e3-079cb43eb114",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Capital Expenditure for Q2: $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q2",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9f4ff07b-6cba-4a10-be2b-49201ccdff17",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Free Cash Flow for Q2: $-9,132,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "freeCashFlow"
+    },
+    "period": "Q2",
+    "field_name": "freeCashFlow",
+    "numeric_value": -9132000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "55b6a6c4-ffa1-49f1-a37a-0b6285e087f4",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Stock Buybacks for Q2: $-5,302,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q2",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -5302000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6b7ce41a-2811-455e-a9bd-1da365a00638",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC D&A for Q2: $571,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q2",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q2",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 571000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b0692d5a-8db8-4cdd-9b69-d025be099a9f",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – BAC | Period: Q1 | Date: 2025-03-31\n  Operating Cash Flow:     $-2,184,000,000\n  Capital Expenditure:     $0\n  Free Cash Flow:          $-2,184,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $-4,521,000,000\n  Depreciation & Amort.:   $565,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "date": "2025-03-31"
+    },
+    "period": "Q1",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "de0b347c-6c12-4d01-a382-586d00e0ad62",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Operating Cash Flow for Q1: $-2,184,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1",
+    "field_name": "operatingCashFlow",
+    "numeric_value": -2184000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "73e7f808-dbc6-41b9-b558-f788b446be41",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Capital Expenditure for Q1: $0",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d182ddda-a72b-410d-8917-649f8ab49c8b",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Free Cash Flow for Q1: $-2,184,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1",
+    "field_name": "freeCashFlow",
+    "numeric_value": -2184000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9984fbbc-8a93-4c88-975e-5d0b0e8f95cf",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC Stock Buybacks for Q1: $-4,521,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": -4521000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2ea875e4-4ecb-45ca-8f11-ef054bd4754a",
+    "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+    "source_type": "cash_flow",
+    "text": "BAC D&A for Q1: $565,000,000",
+    "metadata": {
+      "ticker": "BAC",
+      "period": "Q1",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 565000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fd088343-6baa-40c4-9aab-8bbb59ea46cb",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T20:28:05Z | Yahoo\nTitle: BofA treating gov't. shutdown like natural disaster: CEO\nURL: https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b\nBank of America has a playbook for government shutdowns, which includes providing fee and payment waivers as well as loan deferrals and forbearance programs, CEO Brian Moynihan said at the American Bankers Association's annual convention.",
+    "metadata": {
+      "title": "BofA treating gov't. shutdown like natural disaster: CEO",
+      "published_at": "2025-10-21T20:28:05Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2ebf60bf024b6538306b55e80888799182d0bbb1e4d4541875544db8551b135b",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "228c5900-75e3-485a-877b-25600f9e4aa0",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T19:53:25Z | Yahoo\nTitle: Sector Update: Financial Stocks Mixed Late Afternoon\nURL: https://finnhub.io/api/news?id=cdc52081c5edbe877b61f627f88f437b23304ea8c4f890ba669037f8f841346a\nFinancial stocks were mixed in late Tuesday afternoon trading, with the NYSE Financial Index easing",
+    "metadata": {
+      "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+      "published_at": "2025-10-21T19:53:25Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cdc52081c5edbe877b61f627f88f437b23304ea8c4f890ba669037f8f841346a",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7c8d9c43-3b2b-44fe-9e1a-b657407ead55",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T18:00:20Z | Yahoo\nTitle: Sector Update: Financial Stocks Mixed in Afternoon Trading\nURL: https://finnhub.io/api/news?id=d4f69fc3682511781e46b855006b3d4b84d305d3d3ce8cde0906f9175b1d8dd2\nFinancial stocks were mixed in Tuesday afternoon trading with the NYSE Financial Index little change",
+    "metadata": {
+      "title": "Sector Update: Financial Stocks Mixed in Afternoon Trading",
+      "published_at": "2025-10-21T18:00:20Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d4f69fc3682511781e46b855006b3d4b84d305d3d3ce8cde0906f9175b1d8dd2",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.25 billion in debt to bac",
+    "metadata": {
+      "title": "Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout",
+      "published_at": "2025-10-21T16:37:23Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "69b3e0e8-910c-49f0-9dff-94527bc2ff3a",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T13:00:00Z | Yahoo\nTitle: Bank of America Names Maria Serravalle as Community Relations Manager\nURL: https://finnhub.io/api/news?id=fb91a7f991919a2cb54c6e10681179b88911cbb53033810c5f82be16c3b11f12\nDetroit native Maria Serravalle has been named Bank of America's Community Relations Manager for the Detroit market.",
+    "metadata": {
+      "title": "Bank of America Names Maria Serravalle as Community Relations Manager",
+      "published_at": "2025-10-21T13:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fb91a7f991919a2cb54c6e10681179b88911cbb53033810c5f82be16c3b11f12",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "84b98cc3-2562-442e-b517-073a404da82a",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T12:29:00Z | Yahoo\nTitle: Berkshire Blew Its Apple Stock Investment—and May Have Left $50 Billion on the Table\nURL: https://finnhub.io/api/news?id=3e34cf6d4513b18d54d4f3aa842861849fdb5ce55b9bfc59133357435f9b38ad\nWarren Buffett made one of his best investment decisions in buying the stock. Whether selling was a good call is harder to assess.",
+    "metadata": {
+      "title": "Berkshire Blew Its Apple Stock Investment—and May Have Left $50 Billion on the Table",
+      "published_at": "2025-10-21T12:29:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3e34cf6d4513b18d54d4f3aa842861849fdb5ce55b9bfc59133357435f9b38ad",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b1d8b3e4-7644-45e4-92a5-f44373d8fe4c",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T12:08:37Z | Yahoo\nTitle: Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d\n(Update to add JPMorgan Chase's comment in the sixth paragraph) JPMorgan Chase (JPM), Bank of Ame",
+    "metadata": {
+      "title": "Update: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees",
+      "published_at": "2025-10-21T12:08:37Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c7a538e62b3f2680c678d8f777f9cea33d68ddbfa45eb43b7cc31c9aa550324d",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4d93aceb-2038-4e72-8657-229c76137853",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T12:04:13Z | Benzinga\nTitle: 'Citi, Barclays Among Banks Leading Hologic $12 Billion Debt Deal'- Bloomberg\nURL: https://finnhub.io/api/news?id=561320152539181aa8c7e060fc9fda37d52ade4c29c9f482883b92761a1e161f\nhttps://www.bloomberg.com/news/articles/2025-10-21/citi-barclays-among-banks-leading-hologic-12-billion-d",
+    "metadata": {
+      "title": "'Citi, Barclays Among Banks Leading Hologic $12 Billion Debt Deal'- Bloomberg",
+      "published_at": "2025-10-21T12:04:13Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=561320152539181aa8c7e060fc9fda37d52ade4c29c9f482883b92761a1e161f",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4339d818-e4df-43a7-9382-25a1b77dc44e",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T12:00:00Z | Yahoo\nTitle: Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million\nURL: https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9\nBank of America announced its fourth annual More Rewards Day, taking place on Thursday, November 6, 2025. As the holiday season kicks off, BofA is offering Consumer and Business credit cardholders one full day to earn bonus rewards on their purchases. Bank of America credit cardholders are on pace to earn a total of $100 million in extra rewards since the inception of More Rewards Day, having already earned $74 million during the first three annual events.",
+    "metadata": {
+      "title": "Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million",
+      "published_at": "2025-10-21T12:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "c64c5f90-17e8-4a4f-9c3c-955e1de65555",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T11:28:00Z | Yahoo\nTitle: Bank ETFs in Red Over the Past Month: Pain or Gain Ahead?\nURL: https://finnhub.io/api/news?id=f2c0fc5d158531fe1455c4909b62ba0c7d0115aafd264c6003b3394bd3be9482\nBank ETFs like IYG, IYF, KBWB, XLF and VFH dip on credit jitters. Are gains ahead as Q3 earnings & a steepening yield curve offer hope?",
+    "metadata": {
+      "title": "Bank ETFs in Red Over the Past Month: Pain or Gain Ahead?",
+      "published_at": "2025-10-21T11:28:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f2c0fc5d158531fe1455c4909b62ba0c7d0115aafd264c6003b3394bd3be9482",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8ce5f9bc-7a52-4062-8efa-1cfd895bed0c",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T10:58:16Z | Yahoo\nTitle: Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees\nURL: https://finnhub.io/api/news?id=c59b1a77fbdef4b6b069e195857ba4d91dc0ba98b29f446263655ba8a94674b1\nJPMorgan Chase (JPM), Bank of America (BAC) and Goldman Sachs (GS) are hesitant to finalize a $20 bi",
+    "metadata": {
+      "title": "Market Chatter: JPMorgan, Bank of America, Goldman Sachs Hesitate on $20 Billion Loan to Argentina Without Guarantees",
+      "published_at": "2025-10-21T10:58:16Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c59b1a77fbdef4b6b069e195857ba4d91dc0ba98b29f446263655ba8a94674b1",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bd152fca-bb2a-4ef9-921f-178ae46a3f9e",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T10:30:00Z | Yahoo\nTitle: Upbeat Regional Bank Earnings Calm Fears of ‘Cockroach’ Loan Infestation\nURL: https://finnhub.io/api/news?id=6ce315290ac32450f7ebf9b9b6cd4dc2b2b455a0203a664742d0bc2ce09dfb01\nDisclosures by two regional lenders last week set off a mini-panic about bad loans on the books of small and medium cap banks.",
+    "metadata": {
+      "title": "Upbeat Regional Bank Earnings Calm Fears of ‘Cockroach’ Loan Infestation",
+      "published_at": "2025-10-21T10:30:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6ce315290ac32450f7ebf9b9b6cd4dc2b2b455a0203a664742d0bc2ce09dfb01",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b2998dca-289d-43fb-83d7-65929438eb3f",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-21T09:52:45Z | SeekingAlpha\nTitle: Bank Of America High Yield Bonds Called, Time To Invest In Shares\nURL: https://finnhub.io/api/news?id=39a9f438fb75c7cafa4471cf15edf08307e8dae8e8cbc0ba60f9adff197ab998\nDiscover why Bank of America stock may outperform bonds amid falling rates.",
+    "metadata": {
+      "title": "Bank Of America High Yield Bonds Called, Time To Invest In Shares",
+      "published_at": "2025-10-21T09:52:45Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=39a9f438fb75c7cafa4471cf15edf08307e8dae8e8cbc0ba60f9adff197ab998",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "27acfcfc-a63e-4117-883c-f82a85d5cff9",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-20T22:00:00Z | Yahoo\nTitle: Berkshire May Have Left $50 Billion on Table. Apple Is Why.\nURL: https://finnhub.io/api/news?id=1414f11ac63f354727a0e79083502915da6cd29f13f432edb2b131e9eb6e7867\nWarren Buffett made one of his best investment decisions in buying the stock. Whether selling was a good call is harder to assess.",
+    "metadata": {
+      "title": "Berkshire May Have Left $50 Billion on Table. Apple Is Why.",
+      "published_at": "2025-10-20T22:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1414f11ac63f354727a0e79083502915da6cd29f13f432edb2b131e9eb6e7867",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e11b9291-1f90-4d9c-8997-a13b5ce90f88",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-20T19:28:00Z | Yahoo\nTitle: UBS Recruits Two Merrill Lynch Teams That Managed a Total of $1 Billion\nURL: https://finnhub.io/api/news?id=85d085ea3e2c5d11801a61e04f250e3b76bf54591c20cadd86e2c3528af06b3d\nThe recruiting wins are a reversal of fortune for UBS, which has experienced many high-profile departures in recent months.",
+    "metadata": {
+      "title": "UBS Recruits Two Merrill Lynch Teams That Managed a Total of $1 Billion",
+      "published_at": "2025-10-20T19:28:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=85d085ea3e2c5d11801a61e04f250e3b76bf54591c20cadd86e2c3528af06b3d",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "3ab96853-9af2-47c9-8e55-3cff32a77d30",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-20T14:00:00Z | Yahoo\nTitle: A New Generation Tees Off: 100,000 Rounds and Counting with Bank of America's Golf with Us\nURL: https://finnhub.io/api/news?id=a86a2772479c014ace773506904d26cf79caf58cbcf7750696bd4c4e4e5a0fba\nSince its launch in April, young golfers enrolled in Bank of America's Golf with Us have logged more than 100,000 rounds of golf at courses across the country.",
+    "metadata": {
+      "title": "A New Generation Tees Off: 100,000 Rounds and Counting with Bank of America's Golf with Us",
+      "published_at": "2025-10-20T14:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a86a2772479c014ace773506904d26cf79caf58cbcf7750696bd4c4e4e5a0fba",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2a6dee8b-a115-4254-ba95-6e7f93f30eec",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-20T13:40:00Z | Yahoo\nTitle: JPM, GS & Others Witness Record Q3 IB Fees: Will the Trend Continue?\nURL: https://finnhub.io/api/news?id=66eb5f7aab058c2cbc3eace5e01cfa98ab170186ec2df5210da64899257eb1c6\nJPMorgan, Goldman and others record a surge in IB fees in Q3, fueling hopes that dealmaking momentum is back on track.",
+    "metadata": {
+      "title": "JPM, GS & Others Witness Record Q3 IB Fees: Will the Trend Continue?",
+      "published_at": "2025-10-20T13:40:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=66eb5f7aab058c2cbc3eace5e01cfa98ab170186ec2df5210da64899257eb1c6",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d293066a-cbfe-420d-b075-fa374b3b903f",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-20T12:38:16Z | SeekingAlpha\nTitle: Credit Markets: A Storm Is Brewing\nURL: https://finnhub.io/api/news?id=f4b74497c35d84f1d4b7689c3d2366f2057aa8c5b94f91cc667905e1f1e87898\nThe cracks appear to be growing in the credit markets. Click here to find out what this might mean for equity markets going forward.",
+    "metadata": {
+      "title": "Credit Markets: A Storm Is Brewing",
+      "published_at": "2025-10-20T12:38:16Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f4b74497c35d84f1d4b7689c3d2366f2057aa8c5b94f91cc667905e1f1e87898",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ce41fc66-6c23-49ea-a891-2d5c97292698",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-20T09:15:00Z | SeekingAlpha\nTitle: Berkshire's OxyChem Deal: Warren Buffett Provides A Model For Investing In An Overpriced Market\nURL: https://finnhub.io/api/news?id=50952ab62de0a4d7f1c4f96f4defa53198ff922ea8a7b0115f88160f0da9a1c1\nBuffett's OxyChem acquisition shows how to invest wisely in an overpriced market. Check out more on BRK.A and OXY stocks here.",
+    "metadata": {
+      "title": "Berkshire's OxyChem Deal: Warren Buffett Provides A Model For Investing In An Overpriced Market",
+      "published_at": "2025-10-20T09:15:00Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=50952ab62de0a4d7f1c4f96f4defa53198ff922ea8a7b0115f88160f0da9a1c1",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "36550d92-4c76-47a3-be31-6c119b567716",
+    "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+    "source_type": "news",
+    "text": "[NEWS] 2025-10-19T23:15:00Z | SeekingAlpha\nTitle: JPMorgan Chase: An Income Play With Covered Calls And Preferred Shares\nURL: https://finnhub.io/api/news?id=1311dcc6b0db9d67b756fb0eda209332a0b59671c55c7068275298e26bc64fa7\nExplore JPM stock strategies amid Fed rate cutsâcompare returns, discover covered call income tips, and learn preferred share benefits.",
+    "metadata": {
+      "title": "JPMorgan Chase: An Income Play With Covered Calls And Preferred Shares",
+      "published_at": "2025-10-19T23:15:00Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1311dcc6b0db9d67b756fb0eda209332a0b59671c55c7068275298e26bc64fa7",
+      "ticker": "BAC"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f0380df9-b92e-4ee0-a99c-3383e7b67df3",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "[FILING] BAC 10-Q | Filed: 2025-07-31 | Accepted: 2025-07-31T20:52:36.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-31",
+      "accepted_at": "2025-07-31T20:52:36.000Z",
+      "accession_number": "0000070858-25-000268",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-31",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e873f0d6-4592-41de-823c-3b8fd1673b48",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "Business Overview The Corporation is a Delaware corporation, a bank holding company (BHC) and a financial holding company. When used in this report, “Bank of America,” “the Corporation,” “we,” “us” and “our” may refer to Bank of America Corporation individually, Bank of America Corporation and its subsidiaries, or certain of Bank of America Corporation’s subsidiaries or affiliates. Our principal executive offices are located in Charlotte, North Carolina. Through our various bank and nonbank subsidiaries throughout the U.S. and in international markets, we provide a diversified range of banking and nonbank financial services and products through four business segments: Consumer Banking , Global Wealth & Investment Management (GWIM) , Global Banking and Global Markets , with the remaining operations recorded in All Other . We operate our banking activities primarily under the Bank of America, National Association (Bank of America, N.A. or BANA) charter. At June 30, 2025, the Corporation had $3.4 trillion in assets and a headcount of approximately 213,000 employees. As of June 30, 2025, we served clients through operations across the U.S., its territories and more than 35 countries. Our retail banking footprint covers all major markets in the U.S., and we serve approximately 69 million consumer and small business clients with approximately 3,700 retail financial centers, approximately 15,000 automated teller machines (ATMs), and leading digital banking platforms (www.bankofamerica.com) with approximately 49 million active users, including approximately 41 million active mobile users. We offer industry-leading support to approximately four million small business households. Our GWIM businesses, with client balances of $4.4 trillion, provide tailored solutions to meet client needs through a full set of investment management, brokerage, banking, trust and retirement products. We are a global leader in corporate and investment banking and trading across a broad range of asset classes serving corporations, governments, institutions and individuals around the world. The Corporation’s website is www.bankofamerica.com, and the Investor Relations portion of our website is https://investor.bankofamerica.com. We use our website to distribute company information, including as a means of disclosing material, non-public information and for complying with our disclosure oblig",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-31",
+      "accepted_at": "2025-07-31T20:52:36.000Z",
+      "accession_number": "0000070858-25-000268",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-31",
+    "field_name": "filing_business",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f636beb5-d6c5-484a-8244-2a92ecd9aa27",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations Executive Summary 3 Recent Developments 3 Financial Highlights 4 Supplemental Financial Data 7 Business Segment Operations 11 Consumer Banking 11 Global Wealth & Investment Management 13 Global Banking 15 Global Markets 17 All Other 19 Managing Risk 20 Capital Management 20 Liquidity Risk 25 Credit Risk Management 28 Consumer Portfolio Credit Risk Management 28 Commercial Portfolio Credit Risk Management 33 Non-U.S. Portfolio 39 Allowance for Credit Losses 40 Market Risk Management 42 Trading Risk Management 42 Interest Rate Risk Management for the Banking Book 44 Mortgage Banking Risk Management 46 Climate Ris k 46 Complex Accounting Estimates 46 Non-GAAP Reconciliations 47 Item 3. Quantitative and Qualitative Disclosures about Market Risk 47 Item 4. Controls and Procedures 47 1 Bank of America Part II. Other Information Item 1. Legal Proceedings 104 Item 1A. Risk Factors 104 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 104 Item 5. Other Information 104 Item 6. Exhibits 105 Signature 105 Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations Bank of America Corporation (the Corporation) and its management may make certain statements that constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These statements can be identified by the fact that they do not relate strictly to historical or current facts. Forward-looking statements often use words such as “anticipates,” “targets,” “expects,” “hopes,” “estimates,” “intends,” “plans,” “goals,” “outlook,” “believes,” “continue” and other similar expressions or future or conditional verbs such as “will,” “may,” “might,” “should,” “would” and “could.” Forward-looking statements represent the Corporation’s current expectations, plans or forecasts of its future results, revenues, liquidity, net interest income, provision for credit losses, expenses, efficiency ratio, capital measures, strategy, deposits, assets, and future business and economic conditions more generally, and other future matters. These statements are not guarantees of future results or performance and involve certain known and unknown risks, uncertainties and assumptions that are difficult to predict and are often beyond the Corporation’s control",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-31",
+      "accepted_at": "2025-07-31T20:52:36.000Z",
+      "accession_number": "0000070858-25-000268",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-31",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "c1fa8214-6242-497e-aaa2-697477ef6fbb",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 104 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 104 Item 5. Other Information 104 Item 6. Exhibits 105 Signature 105 Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations Bank of America Corporation (the Corporation) and its management may make certain statements that constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These statements can be identified by the fact that they do not relate strictly to historical or current facts. Forward-looking statements often use words such as “anticipates,” “targets,” “expects,” “hopes,” “estimates,” “intends,” “plans,” “goals,” “outlook,” “believes,” “continue” and other similar expressions or future or conditional verbs such as “will,” “may,” “might,” “should,” “would” and “could.” Forward-looking statements represent the Corporation’s current expectations, plans or forecasts of its future results, revenues, liquidity, net interest income, provision for credit losses, expenses, efficiency ratio, capital measures, strategy, deposits, assets, and future business and economic conditions more generally, and other future matters. These statements are not guarantees of future results or performance and involve certain known and unknown risks, uncertainties and assumptions that are difficult to predict and are often beyond the Corporation’s control. Actual outcomes and results may differ materially from those expressed in, or implied by, any of these forward-looking statements. You should not place undue reliance on any forward-looking statement and should consider the following uncertainties and risks, as well as the risks and uncertainties more fully discussed under Item 1A. Risk Factors of the Corporation’s 2024 Annual Report on Form 10-K and in any of the Corporation’s subsequent U.S. Securities and Exchange Commission (SEC) filings: the Corporation’s potential judgments, orders, settlements, penalties, fines and reputational damage, which are inherently difficult to predict, resulting from pending, threatened or future litigation and regulatory investigations, proceedings and enforcement actions, which the Corporation is subject to in the ordinary course of business, including matters related to our processing of unemployment benefits for California and certain other states,",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-31",
+      "accepted_at": "2025-07-31T20:52:36.000Z",
+      "accession_number": "0000070858-25-000268",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-31",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "906e3581-433e-437d-bc37-026c0ab30ce7",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "[FILING] BAC 10-Q | Filed: 2025-04-30 | Accepted: 2025-04-30T20:47:51.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-30",
+      "accepted_at": "2025-04-30T20:47:51.000Z",
+      "accession_number": "0000070858-25-000200",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-30",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "dc84969d-1c01-40eb-831a-5ee9e1ad1b96",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "Business Overview The Corporation is a Delaware corporation, a bank holding company (BHC) and a financial holding company. When used in this report, “Bank of America,” “the Corporation,” “we,” “us” and “our” may refer to Bank of America Corporation individually, Bank of America Corporation and its subsidiaries, or certain of Bank of America Corporation’s subsidiaries or affiliates. Our principal executive offices are located in Charlotte, North Carolina. Through our various bank and nonbank subsidiaries throughout the U.S. and in international markets, we provide a diversified range of banking and nonbank financial services and products through four business segments: Consumer Banking , Global Wealth & Investment Management (GWIM) , Global Banking and Global Markets , with the remaining operations recorded in All Other . We operate our banking activities primarily under the Bank of America, National Association (Bank of America, N.A. or BANA) charter. At March 31, 2025, the Corporation had $3.3 trillion in assets and a headcount of approximately 213,000 employees. As of March 31, 2025, we served clients through operations across the U.S., its territories and more than 35 countries. Our retail banking footprint covers all major markets in the U.S., and we serve approximately 69 million consumer and small business clients with approximately 3,700 retail financial centers, approximately 15,000 ATMs, and leading digital banking platforms (www.bankofamerica.com) with approximately 49 million active users, including approximately 40 million active mobile users. We offer industry-leading support to approximately four million small business households. Our GWIM businesses, with client balances of $4.2 trillion, provide tailored solutions to meet client needs through a full set of investment management, brokerage, banking, trust and retirement products. We are a global leader in corporate and investment banking and trading across a broad range of asset classes serving corporations, governments, institutions and individuals around the world. The Corporation’s website is www.bankofamerica.com, and the Investor Relations portion of our website is https://investor.bankofamerica.com. We use our website to distribute company information, including as a means of disclosing material, non-public information and for complying with our disclosure obligations under Regulation FD",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-30",
+      "accepted_at": "2025-04-30T20:47:51.000Z",
+      "accession_number": "0000070858-25-000200",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-30",
+    "field_name": "filing_business",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4c5fab15-6b2b-4bbe-b02a-fa5f0ec2bf28",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations Executive Summary 3 Recent Developments 3 Financial Highlights 3 Supplemental Financial Data 5 Business Segment Operations 8 Consumer Banking 8 Global Wealth & Investment Management 10 Global Banking 12 Global Markets 14 All Other 15 Managing Risk 16 Capital Management 16 Liquidity Risk 21 Credit Risk Management 24 Consumer Portfolio Credit Risk Management 24 Commercial Portfolio Credit Risk Management 29 Non-U.S. Portfolio 35 Allowance for Credit Losses 36 Market Risk Management 38 Trading Risk Management 38 Interest Rate Risk Management for the Banking Book 40 Mortgage Banking Risk Management 42 Climate Ris k 42 Complex Accounting Estimates 42 Non-GAAP Reconciliations 43 Item 3. Quantitative and Qualitative Disclosures about Market Risk 43 Item 4. Controls and Procedures 43 1 Bank of America Part II. Other Information Item 1. Legal Proceedings 96 Item 1A. Risk Factors 96 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 96 Item 5. Other Information 96 Item 6. Exhibits 97 Signature 97 Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations Bank of America Corporation (the Corporation) and its management may make certain statements that constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These statements can be identified by the fact that they do not relate strictly to historical or current facts. Forward-looking statements often use words such as “anticipates,” “targets,” “expects,” “hopes,” “estimates,” “intends,” “plans,” “goals,” “outlook,” “believes,” “continue” and other similar expressions or future or conditional verbs such as “will,” “may,” “might,” “should,” “would” and “could.” Forward-looking statements represent the Corporation’s current expectations, plans or forecasts of its future results, revenues, liquidity, net interest income, provision for credit losses, expenses, efficiency ratio, capital measures, strategy, deposits, assets, and future business and economic conditions more generally, and other future matters. These statements are not guarantees of future results or performance and involve certain known and unknown risks, uncertainties and assumptions that are difficult to predict and are often beyond the Corporation’s control. Actual",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-30",
+      "accepted_at": "2025-04-30T20:47:51.000Z",
+      "accession_number": "0000070858-25-000200",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-30",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "1b8b68b8-bf08-45df-8824-5650cc55282b",
+    "source_id": "c9a991b0-a977-48a6-9406-e77f16b93a56",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 96 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 96 Item 5. Other Information 96 Item 6. Exhibits 97 Signature 97 Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations Bank of America Corporation (the Corporation) and its management may make certain statements that constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These statements can be identified by the fact that they do not relate strictly to historical or current facts. Forward-looking statements often use words such as “anticipates,” “targets,” “expects,” “hopes,” “estimates,” “intends,” “plans,” “goals,” “outlook,” “believes,” “continue” and other similar expressions or future or conditional verbs such as “will,” “may,” “might,” “should,” “would” and “could.” Forward-looking statements represent the Corporation’s current expectations, plans or forecasts of its future results, revenues, liquidity, net interest income, provision for credit losses, expenses, efficiency ratio, capital measures, strategy, deposits, assets, and future business and economic conditions more generally, and other future matters. These statements are not guarantees of future results or performance and involve certain known and unknown risks, uncertainties and assumptions that are difficult to predict and are often beyond the Corporation’s control. Actual outcomes and results may differ materially from those expressed in, or implied by, any of these forward-looking statements. You should not place undue reliance on any forward-looking statement and should consider the following uncertainties and risks, as well as the risks and uncertainties more fully discussed under Item 1A. Risk Factors of the Corporation’s 2024 Annual Report on Form 10-K and in any of the Corporation’s subsequent U.S. Securities and Exchange Commission (SEC) filings: the Corporation’s potential judgments, orders, settlements, penalties, fines and reputational damage, which are inherently difficult to predict, resulting from pending, threatened or future litigation and regulatory investigations, proceedings and enforcement actions, which the Corporation is subject to in the ordinary course of business, including matters related to our processing of unemployment benefits for California and certain other states, the",
+    "metadata": {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-30",
+      "accepted_at": "2025-04-30T20:47:51.000Z",
+      "accession_number": "0000070858-25-000200",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-30",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "9db03488-1860-467f-a8d6-e233b2c8ea59",
+    "source_id": "6536dbb7-3ad5-4230-933d-d9e602ea103c",
+    "source_type": "price_data",
+    "text": "Price history for BAC from 2024-10-21 to 2025-10-21: Opening price on 2024-10-21: $41.76, Closing price on 2025-10-21: $51.52. 52-week high: $52.88, 52-week low: $33.07.",
+    "metadata": {
+      "ticker": "BAC",
+      "from_date": "2024-10-21",
+      "to_date": "2025-10-21",
+      "data_points": 251,
+      "price_start": 41.76,
+      "price_end": 51.52,
+      "price_high": 52.88,
+      "price_low": 33.07,
+      "series_role": "stock",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a8339b37-e6a5-4464-8bca-5360e910a295",
+    "source_id": "649b3e7f-3887-4d94-8ace-4c42146a87c3",
+    "source_type": "price_data",
+    "text": "Price history for SPY from 2024-10-21 to 2025-10-21: Opening price on 2024-10-21: $583.63, Closing price on 2025-10-21: $671.29. 52-week high: $673.95, 52-week low: $481.80.",
+    "metadata": {
+      "ticker": "SPY",
+      "from_date": "2024-10-21",
+      "to_date": "2025-10-21",
+      "data_points": 251,
+      "price_start": 583.63,
+      "price_end": 671.29,
+      "price_high": 673.95,
+      "price_low": 481.8,
+      "series_role": "benchmark",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

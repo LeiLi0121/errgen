@@ -1,0 +1,14 @@
+{
+  "revision_id": "b60fff82-214f-45f7-ac4d-7f231162125c",
+  "paragraph_id": "fc2584f8-c860-471e-94e8-d17a2bf8fb04",
+  "iteration": 1,
+  "original_text": "Operational and macro risks cannot be fully quantified from available evidence, though certain indicators suggest exposure. Apple's global operations spanning consumer electronics, services, and distribution through third-party carriers and retailers create inherent supply chain and channel concentration risks. The company's 164,000 full-time employees and worldwide manufacturing footprint suggest potential vulnerability to geopolitical tensions, labor market dynamics, and currency fluctuations. However, specific evidence regarding export controls, regulatory actions, or supply chain disruptions is not available in the provided data as of the report date. Investors should monitor these areas given Apple's significant international revenue exposure and dependence on concentrated manufacturing regions.",
+  "revised_text": "Operational and macro risks cannot be fully quantified from available evidence, though certain indicators suggest exposure. Apple's global operations spanning consumer electronics and services create inherent supply chain risks given the company's worldwide manufacturing footprint. The company's 164,000 full-time employees and international business scope suggest potential vulnerability to geopolitical tensions, labor market dynamics, and currency fluctuations. Investors should monitor these areas given Apple's significant international revenue exposure and worldwide operations.",
+  "issues_addressed": [
+    "e2045e85-0995-4bc9-a4a2-7bbd090a269d",
+    "7b01ecee-7a41-4543-b046-bf7c0252c2bd",
+    "05f113ee-738f-4776-91e9-6e0d4995b988"
+  ],
+  "changes_summary": "Removed unsupported claim about 'third-party carriers and retailers' distribution channels (Issue 2). Removed unsupported claim about 'concentrated manufacturing regions' and replaced with 'worldwide manufacturing footprint' supported by C002 (Issue 3). Removed contradictory statement about evidence availability regarding regulatory/trade policy risks to avoid internal inconsistency (Issue 1). Kept supported facts: 164,000 employees (C001), worldwide operations (C002), consumer electronics and services focus (C002).",
+  "revised_at": "2026-03-25T02:17:51.166098"
+}

@@ -1,0 +1,16 @@
+{
+  "revision_id": "8b113106-cd80-46b4-a4e6-5acd1ec615ff",
+  "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+  "iteration": 3,
+  "original_text": "Airbnb reported Q2 2025 earnings on August 7, 2025 C020, beating EPS estimates by 9.5% C012 with revenue of $3.096B representing 36.27% YoY growth K001. Net income reached $642M, up 316.88% YoY K002, with operating and net margins of 19.77% and 20.74% respectively K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C020. The stock continued underperforming the market into August 11, 2025 C001. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C015.",
+  "revised_text": "Airbnb reported Q2 2025 earnings on August 7, 2025 C093, beating EPS estimates by 9.5% C085 with revenue of $3.096B representing 36.27% YoY growth K001. Net income reached $642M, up 316.88% YoY K002, with operating and net margins of 19.77% and 20.74% respectively K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C093. The stock continued underperforming the market into August 11, 2025 C074. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C088.",
+  "issues_addressed": [
+    "5b9de753-6d60-4044-b7fc-e41d294a86d9",
+    "06c0c85d-4fb4-4a41-8a0b-ac02a1d83a30",
+    "6634f915-f87d-46d5-81e2-b7cbd406dcea",
+    "7d669bf5-a4b0-4567-8f74-09841a4918f8",
+    "16f52a2a-f6e3-4477-b7e1-664bb990185a"
+  ],
+  "changes_summary": "Updated all citation IDs to match valid references per fact-checker feedback: C020 changed to C093 (earnings date and share drop/margin warning), C012 changed to C085 (EPS beat), C001 changed to C074 (stock underperformance), and C015 changed to C088 (analyst commentary). Retained all financial data and calculations (K001-K004) as they were verified and unchanged.",
+  "revised_at": "2026-03-24T12:02:24.842008"
+}

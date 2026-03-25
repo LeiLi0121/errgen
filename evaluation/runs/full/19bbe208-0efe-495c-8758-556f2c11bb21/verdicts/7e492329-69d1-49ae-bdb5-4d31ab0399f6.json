@@ -1,0 +1,37 @@
+{
+  "verdict_id": "7e492329-69d1-49ae-bdb5-4d31ab0399f6",
+  "paragraph_id": "5796bb96-543b-4d01-9533-21faed78c763",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "9501dc83-967d-4f83-a008-74c3b5e16fa7",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "5796bb96-543b-4d01-9533-21faed78c763",
+      "offending_span": "This level of investment reflects Alphabet's continued commitment to advancing generative AI capabilities and advertising technology infrastructure.",
+      "explanation": "The cited chunks (C010, C034) only contain R&D expense figures for Q4 and Q1 respectively. They do not contain any information about the purpose of R&D spending, generative AI capabilities, or advertising technology infrastructure. This interpretive claim about strategic commitment is not supported by the cited financial data chunks.",
+      "relevant_chunk_ids": [
+        "a522cd20-c1c5-4eb8-b4f6-f70d9cf3e053",
+        "4bcc6bba-f419-4cd5-904e-b85f145cc290"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either remove this interpretive statement, rephrase it as general industry context without implying it's derived from the cited chunks, or cite additional evidence chunks that discuss Alphabet's R&D strategic priorities and AI investments."
+    },
+    {
+      "issue_id": "a7f3a824-b180-4253-8665-059bb19a7fb5",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "5796bb96-543b-4d01-9533-21faed78c763",
+      "offending_span": "indicating escalating investment priorities as the company competes in the AI-driven technology landscape.",
+      "explanation": "The cited chunks (C010, C034) only contain R&D expense numbers. They do not contain information about AI competition, investment priorities, or the competitive landscape. This causal interpretation is not supported by the cited financial data.",
+      "relevant_chunk_ids": [
+        "a522cd20-c1c5-4eb8-b4f6-f70d9cf3e053",
+        "4bcc6bba-f419-4cd5-904e-b85f145cc290"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Rephrase to state the factual increase in R&D spend without attributing it to AI competition, or cite additional evidence that discusses Alphabet's competitive positioning in AI."
+    }
+  ],
+  "checked_at": "2026-03-24T17:14:21.191961",
+  "iteration": 0
+}

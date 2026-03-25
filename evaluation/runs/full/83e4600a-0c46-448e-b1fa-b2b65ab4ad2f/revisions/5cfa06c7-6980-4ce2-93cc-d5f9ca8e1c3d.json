@@ -1,0 +1,13 @@
+{
+  "revision_id": "5cfa06c7-6980-4ce2-93cc-d5f9ca8e1c3d",
+  "paragraph_id": "fbbe0249-0e41-4250-a5c0-3e2607aecdd5",
+  "iteration": 2,
+  "original_text": "American Express demonstrated steady revenue growth in Q3 2025, with total revenue reaching $10,415,000,000, representing a 7.19% year-over-year increase from the Q3 2024 base of $9,716,000,000. The growth trajectory showed variability across 2025 quarters, with Q1 2025 experiencing a -0.93% YoY decline to $9,626,000,000, followed by stronger 7.22% growth in Q2 2025 at $10,321,000,000. The moderation in Q3 2025 growth suggests revenue stabilization after the Q2 acceleration, though the overall trend indicates positive momentum compared to the prior year period.",
+  "revised_text": "American Express demonstrated revenue growth in Q3 2025, with total revenue reaching $10,415,000,000, representing a 0.91% year-over-year increase from the Q3 2024 base of $9,716,000,000. The growth trajectory showed variability across 2025 quarters, with Q1 2025 experiencing a -0.93% YoY decline to $9,626,000,000, followed by stronger 7.22% growth in Q2 2025 at $10,321,000,000. The moderation in Q3 2025 growth suggests revenue stabilization after the Q2 acceleration, though the overall trend indicates positive momentum compared to the prior year period.",
+  "issues_addressed": [
+    "f6d9f0be-896e-4d2b-8fdf-bc96af820d8c",
+    "e4b25ad4-bcf7-42ef-b651-962e26e9fb17"
+  ],
+  "changes_summary": "Changed Q3 2025 YoY growth from 7.19% to 0.91% to align with calculation K001 and Previously Verified Facts, resolving the critical numerical error and internal inconsistency issues. All revenue figures remain supported by cited chunks (C002, C017, C012, C007) and all growth percentages now match K001.",
+  "revised_at": "2026-03-24T20:38:10.737301"
+}

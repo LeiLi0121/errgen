@@ -1,0 +1,109 @@
+{
+  "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Based on our analysis of Amazon's Q2 2025 financial performance, we assign a Hold rating to AMZN shares. The company demonstrated operational momentum with revenue growth of 7.73% year-over-year to $167.7 billion and net income expansion of 6.05% to $18.2 billion. Profitability metrics remain robust, with gross margin at 51.81%, operating margin at 11.43%, and EBITDA margin reaching 21.82%.",
+  "citations": [
+    {
+      "citation_id": "c10e3145-76aa-4a82-92f4-12ff7b119736",
+      "chunk_id": "945da1b0-355c-4d42-afbc-f991397023b7",
+      "source_id": "497109c1-5df4-462c-8dc6-a197b5f1dbab",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AMZN | Period: Q2 | Date: 2025-06-30\n  Revenue:            $167,702,000,000\n  Gross Profit:       $86,893,000,000 (margin N/A)\n  Operating Income:   $19,171,000,000 (margin N/A)\n  Net Income:         $18,164,000,000 (margin N/A)\n  EBITDA:             $36,600,000,000\n  EPS:        ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b2da3278-70ed-4ed7-863a-f764e606b51e",
+      "chunk_id": "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+      "source_id": "497109c1-5df4-462c-8dc6-a197b5f1dbab",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Revenue for Q2: $167,702,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7ea63e53-8a4c-4e36-8e73-758b17bc2a60",
+      "chunk_id": "ba8c285d-d4a0-4e56-b66b-34557acc6716",
+      "source_id": "497109c1-5df4-462c-8dc6-a197b5f1dbab",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Net Income for Q2: $18,164,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2ac47655-fdcd-4d2a-82e6-6517990190b5",
+      "chunk_id": "b11fccee-2db7-4009-a480-e2ddbc216e95",
+      "source_id": "497109c1-5df4-462c-8dc6-a197b5f1dbab",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN EBITDA for Q2: $36,600,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "945da1b0-355c-4d42-afbc-f991397023b7",
+    "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+    "ba8c285d-d4a0-4e56-b66b-34557acc6716",
+    "b11fccee-2db7-4009-a480-e2ddbc216e95"
+  ],
+  "calc_ids": [
+    "c646c651-0f33-4b1f-8595-890bd9a4e543",
+    "1a002722-fda5-4c19-9e72-f7147a39c3af",
+    "2d808d04-1429-42d1-8d93-41b6104e1172",
+    "90e3945a-ab2e-4b2c-910d-e14f1fc45889",
+    "733f5183-f371-4432-ac6f-c7cda0ff1f5b"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "b189d5ff-5c30-4bdf-ad05-e3dc3ae15780",
+      "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "2f6baae6-99d9-4c01-ad0e-ad1b7edba035",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+          "offending_span": "Based on our comprehensive analysis of Amazon's Q2 2025 financial performance, competitive positioning, and risk profile, we assign a Hold rating to AMZN shares.",
+          "explanation": "The paragraph claims the Hold rating is based on three factors: financial performance, competitive positioning, and risk profile. However, all cited chunks (C003, C004, C007, C008) are income statement data, and all cited calculations (K001, K002, K003, K004, K006) are financial metrics. None of the cited evidence addresses competitive positioning or risk profile analysis. The Previously Verified Facts section contains Business & Competitive Analysis and Risk Analysis sections, but those chunks are not cited here.",
+          "relevant_chunk_ids": [
+            "945da1b0-355c-4d42-afbc-f991397023b7",
+            "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+            "ba8c285d-d4a0-4e56-b66b-34557acc6716",
+            "b11fccee-2db7-4009-a480-e2ddbc216e95"
+          ],
+          "relevant_calc_ids": [
+            "c646c651-0f33-4b1f-8595-890bd9a4e543",
+            "1a002722-fda5-4c19-9e72-f7147a39c3af",
+            "2d808d04-1429-42d1-8d93-41b6104e1172",
+            "90e3945a-ab2e-4b2c-910d-e14f1fc45889",
+            "733f5183-f371-4432-ac6f-c7cda0ff1f5b"
+          ],
+          "recommended_fix": "Either cite the relevant chunks that support competitive positioning and risk profile analysis (from the Business & Competitive Analysis and Risk Analysis sections), or revise the text to state the rating is based primarily on financial performance analysis."
+        }
+      ],
+      "checked_at": "2026-03-24T19:27:05.999999",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "4fafcecd-8ba4-4898-9d30-2b625fe022d7",
+      "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T19:28:58.557741",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "db68ff6c-3faa-4db3-b875-0dc064d222d8",
+      "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+      "iteration": 1,
+      "original_text": "Based on our comprehensive analysis of Amazon's Q2 2025 financial performance, competitive positioning, and risk profile, we assign a Hold rating to AMZN shares. The company demonstrated solid operational momentum with revenue growth of 7.73% year-over-year to $167.7 billion and net income expansion of 6.05% to $18.2 billion, reflecting effective cost management alongside top-line expansion. Profitability metrics remain robust, with gross margin at 51.81%, operating margin at 11.43%, and EBITDA margin reaching 21.82%, underscoring strong operational cash generation capabilities.",
+      "revised_text": "Based on our analysis of Amazon's Q2 2025 financial performance, we assign a Hold rating to AMZN shares. The company demonstrated operational momentum with revenue growth of 7.73% year-over-year to $167.7 billion and net income expansion of 6.05% to $18.2 billion. Profitability metrics remain robust, with gross margin at 51.81%, operating margin at 11.43%, and EBITDA margin reaching 21.82%.",
+      "issues_addressed": [
+        "2f6baae6-99d9-4c01-ad0e-ad1b7edba035"
+      ],
+      "changes_summary": "Removed the claim that the Hold rating is based on 'competitive positioning and risk profile' as no evidence chunks were available to support these specific analyses (Issue 1). Retained all financial performance claims as they are fully supported by the provided income statement chunks (C003, C004, C007, C008) and calculation results (K001, K002, K003, K004, K006). Ensured all numerical data points match the cited evidence.",
+      "revised_at": "2026-03-24T19:28:18.088276"
+    }
+  ],
+  "iteration": 0
+}

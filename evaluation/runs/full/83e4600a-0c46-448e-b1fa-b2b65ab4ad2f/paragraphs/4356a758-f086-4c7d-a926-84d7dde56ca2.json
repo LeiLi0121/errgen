@@ -1,0 +1,68 @@
+{
+  "paragraph_id": "4356a758-f086-4c7d-a926-84d7dde56ca2",
+  "section_name": "Recent Developments",
+  "text": "On November 12, 2025, American Express expanded its small business support initiatives with a new $5 million Amex Shop Small Grants Program, building on its Small Business Saturday platform created in 2010. The company also announced a content partnership with creator and small business advocate Keith Lee, and is providing free customized signage for small businesses. Additionally, American Express presented at the KBW Fintech Payments Conference 2025 on November 12, 2025, where management discussed strategic priorities with investors.",
+  "citations": [
+    {
+      "citation_id": "ba31e593-382b-4ef9-b993-027a5a86891b",
+      "chunk_id": "95767f5e-5e32-4f9c-a8b0-e88e87fed8d2",
+      "source_id": "aae50515-1b91-4e3f-925a-f937de3972f9",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T14:00:00Z | Yahoo\nTitle: American Express, Founder of Small Business Saturday®, Expands Small Business Support with New $5 Million Shop Small Grants Program\nURL: https://finnhub.io/api/news?id=8f186cceb1f22bf0372eac182225c2c0f195748c0050f21456b772d478ccfde0\nNEW YORK, November 12, 2",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "73f9c313-8b80-4327-8d1a-78fcfd4dde9b",
+      "chunk_id": "979f576f-f143-400c-a28c-58ddab14bb2e",
+      "source_id": "aae50515-1b91-4e3f-925a-f937de3972f9",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T13:51:33Z | SeekingAlpha\nTitle: American Express Company (AXP) Presents at KBW Fintech Payments Conference 2025 Transcript\nURL: https://finnhub.io/api/news?id=18ed09731a98653e065c4a76a7b5f24b889077a6b463cff2a5402a70cf8d0af2\nAmerican Express Company (AXP) KBW Fintech Payments Confer",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "95767f5e-5e32-4f9c-a8b0-e88e87fed8d2",
+    "979f576f-f143-400c-a28c-58ddab14bb2e"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "ea31a0e2-c3ff-439b-b599-a4f351b9b035",
+      "paragraph_id": "4356a758-f086-4c7d-a926-84d7dde56ca2",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "a2095e44-7ff8-45b3-b093-caae90ce5e79",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "4356a758-f086-4c7d-a926-84d7dde56ca2",
+          "offending_span": "announced a content partnership with creator and small business advocate Keith Lee, and is providing free customized signage for small businesses",
+          "explanation": "The cited chunk C084 is truncated and ends at 'content partnership with cre'. It does not contain the name 'Keith Lee' nor any mention of 'customized signage'. Therefore, these specific factual claims are not supported by the provided evidence.",
+          "relevant_chunk_ids": [
+            "95767f5e-5e32-4f9c-a8b0-e88e87fed8d2"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the specific name 'Keith Lee' and the detail about 'customized signage' unless supported by a complete version of the source text, or cite a different chunk that contains this information."
+        },
+        {
+          "issue_id": "bd03eb00-c6fa-41e4-81a2-98d32281bd38",
+          "issue_type": "unsupported_claim",
+          "severity": "minor",
+          "paragraph_id": "4356a758-f086-4c7d-a926-84d7dde56ca2",
+          "offending_span": "management discussed strategic priorities with investors",
+          "explanation": "While C085 confirms the presentation at the KBW Fintech Payments Conference 2025, the provided snippet does not explicitly state that 'strategic priorities' were discussed. This is an inference not directly traceable to the cited text.",
+          "relevant_chunk_ids": [
+            "979f576f-f143-400c-a28c-58ddab14bb2e"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Generalize the statement to 'management presented at the conference' or ensure the source text explicitly mentions the discussion of strategic priorities."
+        }
+      ],
+      "checked_at": "2026-03-24T19:59:15.227256",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

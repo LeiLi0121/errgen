@@ -14,11 +14,12 @@ the list-add reducer.
 
 from __future__ import annotations
 
+from calendar import monthrange
 import logging
 from datetime import date, timedelta
 
 from errgen.config import Config
-from errgen.data import FMPClient, FinnhubClient, NewsAPIClient, SECClient
+from errgen.data import FMPClient, FinnhubClient, NewsAPIClient, SECClient, YahooFinanceClient
 from errgen.models import EvidenceChunk, SourceMetadata
 
 logger = logging.getLogger(__name__)
@@ -35,11 +36,12 @@ def _date_range(as_of_date: str | None) -> tuple[str | None, str | None]:
     try:
         if len(as_of_date) == 7:          # "YYYY-MM"
             year, month = int(as_of_date[:4]), int(as_of_date[5:7])
+            to_date = f"{year:04d}-{month:02d}-{monthrange(year, month)[1]:02d}"
         else:
             parts = as_of_date.split("-")
             year, month = int(parts[0]), int(parts[1])
+            to_date = as_of_date[:10]
         from_date = f"{year - 1}-{month:02d}-01"
-        to_date = as_of_date if len(as_of_date) > 7 else f"{as_of_date}-28"
         return from_date, to_date
     except Exception:
         return None, None
@@ -50,7 +52,8 @@ def _lookback_window(as_of_date: str | None, days: int) -> tuple[str, str]:
     if as_of_date:
         try:
             if len(as_of_date) == 7:
-                end = date.fromisoformat(f"{as_of_date}-28")
+                year, month = map(int, as_of_date.split("-"))
+                end = date(year, month, monthrange(year, month)[1])
             else:
                 end = date.fromisoformat(as_of_date[:10])
         except ValueError:
@@ -69,9 +72,10 @@ def retrieve_data(state: dict) -> dict:
 
     logger.info("retrieve_data: collecting data for %s (as_of=%s)", ticker, as_of)
 
-    fmp = FMPClient()
-    newsapi = NewsAPIClient()
+    fmp = FMPClient() if Config.FMP_API_KEY else None
+    newsapi = NewsAPIClient() if Config.NEWSAPI_KEY else None
     finnhub = FinnhubClient() if Config.FINNHUB_API_KEY else None
+    yahoo = YahooFinanceClient()
     sec = SECClient()
 
     from_date, to_date = _date_range(as_of)
@@ -82,64 +86,91 @@ def retrieve_data(state: dict) -> dict:
     updates: dict = {}
 
     # -- Company profile (also infers company name if not already set) ----
-    src, cks = fmp.get_company_profile(ticker)
-    new_sources.append(src)
-    new_chunks.extend(cks)
+    if fmp:
+        src, cks = fmp.get_company_profile(ticker)
+        new_sources.append(src)
+        new_chunks.extend(cks)
 
-    if not company_name or company_name == ticker:
-        for ck in cks:
-            if ck.field_name == "overview":
-                try:
-                    inferred = ck.text.split("(")[0].strip()
-                    if inferred:
-                        updates["company_name"] = inferred
-                        company_name = inferred
-                except Exception:
-                    pass
-                break
+        if not company_name or company_name == ticker:
+            for ck in cks:
+                if ck.field_name == "overview":
+                    try:
+                        inferred = ck.text.split("(")[0].strip()
+                        if inferred:
+                            updates["company_name"] = inferred
+                            company_name = inferred
+                    except Exception:
+                        pass
+                    break
 
     # -- Financial statements ---------------------------------------------
-    for label, fetch in [
-        ("income statement", lambda: fmp.get_income_statement(ticker, "quarter")),
-        ("balance sheet",    lambda: fmp.get_balance_sheet(ticker, "quarter")),
-        ("cash flow",        lambda: fmp.get_cash_flow(ticker, "quarter")),
+    for label, fmp_fetch, sec_fetch in [
+        (
+            "income statement",
+            (lambda: fmp.get_income_statement(ticker, "quarter", as_of_date=as_of)) if fmp else None,
+            lambda: sec.get_income_statement(ticker, "quarter", as_of_date=as_of),
+        ),
+        (
+            "balance sheet",
+            (lambda: fmp.get_balance_sheet(ticker, "quarter", as_of_date=as_of)) if fmp else None,
+            lambda: sec.get_balance_sheet(ticker, "quarter", as_of_date=as_of),
+        ),
+        (
+            "cash flow",
+            (lambda: fmp.get_cash_flow(ticker, "quarter", as_of_date=as_of)) if fmp else None,
+            lambda: sec.get_cash_flow(ticker, "quarter", as_of_date=as_of),
+        ),
     ]:
+        fetched = False
+        if fmp_fetch:
+            try:
+                src, cks = fmp_fetch()
+                new_sources.append(src)
+                new_chunks.extend(cks)
+                logger.info("retrieve_data: %s (FMP) – %d chunks", label, len(cks))
+                fetched = True
+            except Exception as exc:
+                logger.warning("retrieve_data: %s failed via FMP: %s", label, exc)
+        if fetched:
+            continue
         try:
-            src, cks = fetch()
+            src, cks = sec_fetch()
             new_sources.append(src)
             new_chunks.extend(cks)
-            logger.info("retrieve_data: %s – %d chunks", label, len(cks))
+            logger.info("retrieve_data: %s (SEC companyfacts) – %d chunks", label, len(cks))
         except Exception as exc:
-            logger.warning("retrieve_data: %s failed: %s", label, exc)
+            logger.warning("retrieve_data: %s failed via SEC companyfacts: %s", label, exc)
 
     # -- FMP stock news ---------------------------------------------------
-    try:
-        src, cks = fmp.get_stock_news(
-            ticker,
-            limit=Config.MAX_NEWS_ARTICLES,
-            from_date=from_date,
-            to_date=to_date,
-        )
-        new_sources.append(src)
-        new_chunks.extend(cks)
-        logger.info("retrieve_data: FMP news – %d chunks", len(cks))
-    except Exception as exc:
-        logger.warning("retrieve_data: FMP news failed: %s", exc)
+    if fmp:
+        try:
+            src, cks = fmp.get_stock_news(
+                ticker,
+                limit=Config.MAX_NEWS_ARTICLES,
+                from_date=from_date,
+                to_date=to_date,
+            )
+            new_sources.append(src)
+            new_chunks.extend(cks)
+            logger.info("retrieve_data: FMP news – %d chunks", len(cks))
+        except Exception as exc:
+            logger.warning("retrieve_data: FMP news failed: %s", exc)
 
     # -- NewsAPI (supplemental) -------------------------------------------
-    try:
-        src, cks = newsapi.get_company_news(
-            ticker=ticker,
-            company_name=company_name,
-            from_date=from_date,
-            to_date=to_date,
-            page_size=Config.MAX_NEWS_ARTICLES,
-        )
-        new_sources.append(src)
-        new_chunks.extend(cks)
-        logger.info("retrieve_data: NewsAPI – %d chunks", len(cks))
-    except Exception as exc:
-        logger.warning("retrieve_data: NewsAPI failed: %s", exc)
+    if newsapi:
+        try:
+            src, cks = newsapi.get_company_news(
+                ticker=ticker,
+                company_name=company_name,
+                from_date=from_date,
+                to_date=to_date,
+                page_size=Config.MAX_NEWS_ARTICLES,
+            )
+            new_sources.append(src)
+            new_chunks.extend(cks)
+            logger.info("retrieve_data: NewsAPI – %d chunks", len(cks))
+        except Exception as exc:
+            logger.warning("retrieve_data: NewsAPI failed: %s", exc)
 
     # -- Finnhub (optional) -----------------------------------------------
     # Finnhub company-news API requires both "from" and "to" (YYYY-MM-DD).
@@ -184,14 +215,15 @@ def retrieve_data(state: dict) -> dict:
     ]:
         src: SourceMetadata | None = None
         cks: list[EvidenceChunk] = []
-        try:
-            src, cks = fmp.get_price_history(
-                ticker=symbol,
-                from_date=price_from,
-                to_date=price_to,
-            )
-        except Exception as exc:
-            logger.warning("retrieve_data: FMP %s price history failed: %s", role, exc)
+        if fmp:
+            try:
+                src, cks = fmp.get_price_history(
+                    ticker=symbol,
+                    from_date=price_from,
+                    to_date=price_to,
+                )
+            except Exception as exc:
+                logger.warning("retrieve_data: FMP %s price history failed: %s", role, exc)
 
         if not _source_has_history(src) and finnhub:
             try:
@@ -206,6 +238,20 @@ def retrieve_data(state: dict) -> dict:
                 )
             except Exception as exc:
                 logger.warning("retrieve_data: Finnhub %s price history failed: %s", role, exc)
+
+        if not _source_has_history(src):
+            try:
+                logger.info(
+                    "retrieve_data: paid providers unavailable for %s price history, falling back to Yahoo",
+                    role,
+                )
+                src, cks = yahoo.get_price_history(
+                    ticker=symbol,
+                    from_date=price_from,
+                    to_date=price_to,
+                )
+            except Exception as exc:
+                logger.warning("retrieve_data: Yahoo %s price history failed: %s", role, exc)
 
         if src is None:
             continue

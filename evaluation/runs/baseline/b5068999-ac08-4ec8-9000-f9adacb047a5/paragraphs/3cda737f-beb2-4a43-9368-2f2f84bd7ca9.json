@@ -1,0 +1,54 @@
+{
+  "paragraph_id": "3cda737f-beb2-4a43-9368-2f2f84bd7ca9",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Management quality signals present a mixed picture under CEO Timothy D. Cook's leadership. The company employs 164,000 full-time employees and maintains R&D intensity of 9.43% of revenue in Q3 2025, indicating continued investment in product development [,]. However, external commentary raises concerns about strategic execution, particularly regarding AI positioning and competitive response []. Macro headwinds include potential tariff impacts, with President Trump preparing industry-specific tariffs alongside country-by-country duties that could affect Apple's global supply chain and pricing power []. Analyst commentary suggests iPhone demand was propped up by pricing and pull-ahead buying ahead of anticipated tariffs, indicating potential demand volatility []. The current ratio of 0.87 and debt-to-equity ratio of 1.54 suggest manageable but elevated leverage levels [,].",
+  "citations": [
+    {
+      "citation_id": "45397cf2-61b3-45c2-a597-ccc06da81a70",
+      "chunk_id": "cbc75f72-7dbb-47c1-b756-af75ee60e968",
+      "source_id": "4a27e5ee-b4a0-44e4-a076-fedd6294a27f",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1467dd4d-439c-430b-8bf1-1cb5ef13acee",
+      "chunk_id": "2c5c83c3-0399-40bb-a7f3-b20b8ec8597f",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T18:31:14Z | Yahoo\nTitle: Jim Cramer Says “Apple Can Change Course” By Acquiring Perplexity\nURL: https://finnhub.io/api/news?id=0e6c8b0053d24e3f7414c70f37f4c263856263a5a3cf9a2a2eee508282456a01\nApple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer weighed in on. During the episode",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f9d80233-35a9-46f3-9075-fd1f2d0b981e",
+      "chunk_id": "60fe2458-7297-47c0-bae0-73d727549776",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T16:40:00Z | Yahoo\nTitle: Trump Aims Tariff Double Whammy at Industries, Nations by Aug. 1\nURL: https://finnhub.io/api/news?id=58d65d3f0f8a9363ad8c970eee84c3062854156adc24935412e4f73c5cbc94bf\n(Bloomberg) -- President Donald Trump is readying plans for industry-specific tariffs to ki",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "adb92a59-2373-49b3-ab74-0e1fb63f5984",
+      "chunk_id": "45166fe5-a81b-4cde-b426-9789bd58bdc3",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T14:51:38Z | Yahoo\nTitle: Analyst says iPhone demand propped up by pricing, pull-ahead ahead of tariffs\nURL: https://finnhub.io/api/news?id=194dd41b3e5bd73b5d691e2dd020ea11fa7c53ac8ed765587a90647786baab49\nInvesting.com -- Loop Capital analysts said in a note Friday that Apple (NASDA",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "cbc75f72-7dbb-47c1-b756-af75ee60e968",
+    "2c5c83c3-0399-40bb-a7f3-b20b8ec8597f",
+    "60fe2458-7297-47c0-bae0-73d727549776",
+    "45166fe5-a81b-4cde-b426-9789bd58bdc3"
+  ],
+  "calc_ids": [
+    "39cceab4-9d24-4d8d-9e21-1c69f999a153",
+    "1303e190-fc9a-4a91-8432-df8c44547b21",
+    "dc03b87d-7408-4dcf-afd0-b3ac2ba633ca"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

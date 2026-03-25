@@ -1,0 +1,36 @@
+{
+  "paragraph_id": "9d22b2fb-7bac-4594-bb22-bcb3ce4d0d26",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Key growth drivers include iPhone demand and strategic media investments. Loop Capital analysts reported Apple shipped 45 million iPhones in Q2 2025, matching forecasts, as tariff fears and aggressive promotions helped offset an otherwise flat global smartphone market []. Apple is pursuing expansion in sports media, placing a $150 million bid for Formula 1 media rights as part of broader sports business transformation efforts []. However, financial performance shows pressure, with Q3 2025 revenue declining 1.39% year-over-year and net income down 5.43% year-over-year [,]. The company maintains strong cash generation with a free cash flow margin of 25.95% in Q3, supporting continued investment in growth initiatives [].",
+  "citations": [
+    {
+      "citation_id": "e6594ee7-47da-42b3-b46b-9ed339702385",
+      "chunk_id": "c5cabfbb-0985-41d9-b904-8d5cdac63cf5",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T19:00:52Z | Yahoo\nTitle: Apple races ahead in epic $150M F1 media rights bid\nURL: https://finnhub.io/api/news?id=13b692020babfda05e8fb026d10a053bfa0743732342ac8fd317d099107b11dd\nApple (AAPL) is putting their pedal to the metal in their race for F1 media rights. This week on Yahoo F",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "416dab04-84e4-4254-9909-94a7468dd074",
+      "chunk_id": "45166fe5-a81b-4cde-b426-9789bd58bdc3",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T14:51:38Z | Yahoo\nTitle: Analyst says iPhone demand propped up by pricing, pull-ahead ahead of tariffs\nURL: https://finnhub.io/api/news?id=194dd41b3e5bd73b5d691e2dd020ea11fa7c53ac8ed765587a90647786baab49\nInvesting.com -- Loop Capital analysts said in a note Friday that Apple (NASDA",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "c5cabfbb-0985-41d9-b904-8d5cdac63cf5",
+    "45166fe5-a81b-4cde-b426-9789bd58bdc3"
+  ],
+  "calc_ids": [
+    "ef17a352-1a71-4ba8-a314-64cf8451801c",
+    "616d9174-860c-4e6f-a1b3-b344230bf2a0",
+    "62cf4775-7a6b-481b-9210-d6809c56a69a"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

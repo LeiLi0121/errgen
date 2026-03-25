@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "afec84b1-39b2-4a14-91c9-622d05e09472",
+  "section_name": "Financial Analysis",
+  "text": "R&D investment intensity remains elevated, with Q2 2025 R&D expenses of $610,000,000 representing 19.70% of revenue, indicating continued commitment to platform development and innovation (C007, K005). This represents an increase from prior quarters, with R&D spending of $568,000,000 in Q1 2025, $524,000,000 in Q3 2024, and $519,000,000 in Q2 2024, suggesting escalating investment in technology infrastructure and product capabilities (C014, C021, C028). The rising R&D intensity may pressure near-term margins but positions the company for long-term competitive differentiation in the alternative accommodation marketplace.",
+  "citations": [
+    {
+      "citation_id": "80e45615-9020-4f23-9330-41bbae6c813b",
+      "chunk_id": "7f26786b-8e83-49c7-a540-2d046149723d",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB R&D Expenses for Q2 2025: $610,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f6e1d71d-6134-47e0-adea-82960586bfe6",
+      "chunk_id": "f415ad58-ce71-42a2-8e1b-d3418d4c0406",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB R&D Expenses for Q1 2025: $568,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0c52dc81-b2e3-46ba-9dce-6e974d3d2228",
+      "chunk_id": "f9813921-f015-4951-9a81-10ac2afbd621",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB R&D Expenses for Q3 2024: $524,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "34aadf20-a2e0-4676-b56c-2c476a405a65",
+      "chunk_id": "2d9e262d-c017-4ece-acef-69ae7e5b2184",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB R&D Expenses for Q2 2024: $519,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "7f26786b-8e83-49c7-a540-2d046149723d",
+    "f415ad58-ce71-42a2-8e1b-d3418d4c0406",
+    "f9813921-f015-4951-9a81-10ac2afbd621",
+    "2d9e262d-c017-4ece-acef-69ae7e5b2184"
+  ],
+  "calc_ids": [
+    "db12f70e-c5c6-4456-8d3e-16f317427061"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

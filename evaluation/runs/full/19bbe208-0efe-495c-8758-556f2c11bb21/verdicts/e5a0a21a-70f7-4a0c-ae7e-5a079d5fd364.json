@@ -1,0 +1,51 @@
+{
+  "verdict_id": "e5a0a21a-70f7-4a0c-ae7e-5a079d5fd364",
+  "paragraph_id": "897c1d46-1cc5-476f-94bb-ec56276d41ec",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "bbc77bc4-905b-4537-8155-1aff58f80be2",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "897c1d46-1cc5-476f-94bb-ec56276d41ec",
+      "offending_span": "Alphabet maintains a dominant competitive position in digital advertising and search",
+      "explanation": "This claim is not explicitly stated in any of the cited chunks (C108, C112, C113). While the 2024 monopoly ruling in C113 implicitly supports this, the specific claim about 'dominant competitive position' is not directly evidenced in the cited sources.",
+      "relevant_chunk_ids": [
+        "5127f0f8-81ef-418e-8392-d88ad24524d4",
+        "73ac7e9b-49d3-4f3e-9a99-8544d5cbb978",
+        "5e6c4735-792a-4fd0-984b-1083a7e3d86b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional chunks that explicitly discuss Alphabet's market position, or rephrase as an analytical conclusion (e.g., 'Alphabet's market position, evidenced by the 2024 monopoly ruling...')"
+    },
+    {
+      "issue_id": "973869df-6ec7-4e56-a958-cdbdbc9f3f75",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "897c1d46-1cc5-476f-94bb-ec56276d41ec",
+      "offending_span": "have filed an appeal",
+      "explanation": "The cited chunks C112 and C113 use future tense ('will appeal', 'said they will appeal'), indicating the appeal was announced but not necessarily filed at the time of the news. The paragraph uses past tense 'have filed' which is slightly stronger than what the chunks directly support. However, this is consistent with the Previously Verified Facts.",
+      "relevant_chunk_ids": [
+        "73ac7e9b-49d3-4f3e-9a99-8544d5cbb978",
+        "5e6c4735-792a-4fd0-984b-1083a7e3d86b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Consider aligning the tense with the chunk language (e.g., 'announced they will file an appeal') or cite the Previously Verified Facts that confirm the filing occurred on February 3, 2026."
+    },
+    {
+      "issue_id": "ad0ebc2f-faed-4f0a-917c-bcf3f44304be",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "897c1d46-1cc5-476f-94bb-ec56276d41ec",
+      "offending_span": "suggesting the company's core moat remains intact",
+      "explanation": "This is an analytical inference that goes beyond what the cited evidence directly states. The chunks support strong stock outperformance driven by AI growth, but 'moat remains intact' is an interpretive conclusion not explicitly stated in the sources.",
+      "relevant_chunk_ids": [
+        "5127f0f8-81ef-418e-8392-d88ad24524d4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Rephrase to reflect this as analyst interpretation rather than fact (e.g., 'which analysts interpret as evidence that the company's competitive advantages remain strong')"
+    }
+  ],
+  "checked_at": "2026-03-24T17:15:32.018806",
+  "iteration": 0
+}

@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "d36eea6a-4aff-4277-a206-0be0faca73c0",
+  "section_name": "Recent Developments",
+  "text": "Strategic developments include Apple's $150 million bid for Formula 1 media rights, signaling continued expansion in sports content to bolster its services ecosystem. However, the company faces mounting criticism over its artificial intelligence strategy. Multiple analysts have downgraded Apple citing concerns that the company lacks a coherent AI roadmap, with Jefferies flagging potential headwinds in H2 2025. Jim Cramer publicly suggested Apple could change course by acquiring AI companies like Perplexity, while Wedgewood Partners noted Apple shares fell amid investor concerns over AI development progress relative to competitors.",
+  "citations": [
+    {
+      "citation_id": "dcd68dfa-f112-4fe2-aac2-5fb19fd92c86",
+      "chunk_id": "c5cabfbb-0985-41d9-b904-8d5cdac63cf5",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T19:00:52Z | Yahoo\nTitle: Apple races ahead in epic $150M F1 media rights bid\nURL: https://finnhub.io/api/news?id=13b692020babfda05e8fb026d10a053bfa0743732342ac8fd317d099107b11dd\nApple (AAPL) is putting their pedal to the metal in their race for F1 media rights. This week on Yahoo F",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "da100f02-ae41-4f1b-886f-31862478281f",
+      "chunk_id": "2c5c83c3-0399-40bb-a7f3-b20b8ec8597f",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T18:31:14Z | Yahoo\nTitle: Jim Cramer Says “Apple Can Change Course” By Acquiring Perplexity\nURL: https://finnhub.io/api/news?id=0e6c8b0053d24e3f7414c70f37f4c263856263a5a3cf9a2a2eee508282456a01\nApple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer weighed in on. During the episode",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4cf5fee7-09c7-4abd-8038-ff43da1c5e45",
+      "chunk_id": "8853f5ff-262b-45eb-a939-64563b05704f",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T13:00:10Z | Yahoo\nTitle: Analyst Says Apple (AAPL) Will Have Problems in Second Half of 2025 – ‘They Still Don’t Have AI Strategy’\nURL: https://finnhub.io/api/news?id=c2ed7cef9253f9585e2ea4ab06fd75d8249ad703fa42370d03beb513f8f589a0\nApple Inc (NASDAQ:AAPL) is one of the 10 Buzzing S",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7cdeaec1-06ce-4b1f-86c5-faab86a7f24a",
+      "chunk_id": "7ca6543a-3da1-46ad-b5f8-aab1939c9c64",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T12:52:06Z | Yahoo\nTitle: Apple (AAPL) Fell Amid Investor Concerns Over AI Development\nURL: https://finnhub.io/api/news?id=15cf5cd9be1b76f2d57ed2bcab3fd975ba7fef34b8112eb6a4d46c66454dd273\nWedgewood Partners, an investment management company, released its second-quarter 2025 investor",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "c5cabfbb-0985-41d9-b904-8d5cdac63cf5",
+    "2c5c83c3-0399-40bb-a7f3-b20b8ec8597f",
+    "8853f5ff-262b-45eb-a939-64563b05704f",
+    "7ca6543a-3da1-46ad-b5f8-aab1939c9c64"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

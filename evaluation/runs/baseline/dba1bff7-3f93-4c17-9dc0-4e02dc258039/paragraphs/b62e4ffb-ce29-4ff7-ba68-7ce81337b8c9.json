@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "b62e4ffb-ce29-4ff7-ba68-7ce81337b8c9",
+  "section_name": "Company Overview",
+  "text": "Airbnb, Inc., together with its subsidiaries, operates a platform that enables hosts to offer stays and experiences to guests worldwide. The company's marketplace model connects hosts and guests online or through mobile devices to book spaces and experiences. It primarily offers private rooms, primary homes, or vacation homes. The company was formerly known as AirBed & Breakfast, Inc. and changed its name to Airbnb, Inc. in November 2010. Airbnb, Inc. was founded in 2007 and is headquartered in San Francisco, California.",
+  "citations": [
+    {
+      "citation_id": "2b912360-996d-48a5-8651-98f7a886a4a4",
+      "chunk_id": "9b232fea-5d9d-483b-ad12-285cb31fc288",
+      "source_id": "30b9e142-7f39-4797-a424-7dfd5a65b372",
+      "source_type": "company_profile",
+      "text_snippet": "Airbnb, Inc., together with its subsidiaries, operates a platform that enables hosts to offer stays and experiences to guests worldwide. The company's marketplace model connects hosts and guests online or through mobile devices to book spaces and experiences. It primarily offers private rooms, prima",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "9b232fea-5d9d-483b-ad12-285cb31fc288"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

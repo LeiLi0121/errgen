@@ -1,0 +1,115 @@
+{
+  "paragraph_id": "024106b4-6e24-4734-b2fd-f5725cf38fc7",
+  "section_name": "Financial Analysis",
+  "text": "Airbnb demonstrated strong revenue recovery in Q2 2025, with revenue reaching $3,096,000,000, representing 36.27% year-over-year growth compared to Q2 2024 revenue of $2,748,000,000 (C002, C023, K001). This rebound follows a challenging Q1 2025 period where revenue declined 39.12% YoY to $2,272,000,000, indicating significant seasonality in the travel business (C009, K001). Profitability metrics showed meaningful improvement in Q2 2025, with operating margin expanding to 19.77% and net margin reaching 20.74%, compared to Q1 2025's compressed margins of 1.67% operating and 6.78% net (C004, C006, C011, C013). Year-over-year, Q2 2025 operating margin improved from 18.09% in Q2 2024, while net margin remained relatively stable at 20.20% in the prior year period (C025, C027). However, profitability remains below the peak levels observed in Q3 2024, when operating and net margins reached 40.86% and 36.66% respectively, reflecting the typical summer travel season strength (C018, C020).",
+  "citations": [
+    {
+      "citation_id": "3ac09d6b-e7d1-4346-b61e-663a739a1929",
+      "chunk_id": "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q2 2025: $3,096,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "aee2571b-21c0-47bc-9404-b9b7f5974a4a",
+      "chunk_id": "3d95f2e8-2793-458a-982f-19a622b0ba6a",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q2 2024: $2,748,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "bd7291be-b186-40b9-aafb-b32ba619bb3c",
+      "chunk_id": "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q2 2025: 19.77%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "306b1b35-8fb5-4e9c-b913-c58766ad4121",
+      "chunk_id": "e1f114b2-12a3-4427-bac4-abec49c5130c",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q2 2025: 20.74%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c17da570-c685-4f5c-b74b-6249318eba8a",
+      "chunk_id": "e55e8895-2155-479d-bcfc-487f3e45110b",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q1 2025: 1.67%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ee5fe3ec-3f97-4b90-bb0d-f52533681d0f",
+      "chunk_id": "31ec40b4-ceca-433f-9658-905b1c7153ad",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q1 2025: 6.78%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5b9b7e94-116d-48ea-bfb6-3851f6a05da8",
+      "chunk_id": "bd6eb022-effb-4213-8455-f79480865253",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q2 2024: 18.09%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "748ca339-9e2f-4dfb-96b2-9c281b4b3d0b",
+      "chunk_id": "5f25efd1-15fd-4c52-8d8e-32da5db90cbb",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q2 2024: 20.20%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f5e4f9b1-fafe-45cf-a2ca-69a023bd3b71",
+      "chunk_id": "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q3 2024: 40.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ea36f77d-bdd9-46a4-8fb9-3498b1e90d38",
+      "chunk_id": "30df9e49-26ed-4c39-a697-4612fecc4ba9",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q3 2024: 36.66%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fac8c394-19ed-4754-b7cc-108a0e266dbf",
+      "chunk_id": "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q1 2025: $2,272,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41",
+    "3d95f2e8-2793-458a-982f-19a622b0ba6a",
+    "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+    "e1f114b2-12a3-4427-bac4-abec49c5130c",
+    "e55e8895-2155-479d-bcfc-487f3e45110b",
+    "31ec40b4-ceca-433f-9658-905b1c7153ad",
+    "bd6eb022-effb-4213-8455-f79480865253",
+    "5f25efd1-15fd-4c52-8d8e-32da5db90cbb",
+    "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773",
+    "30df9e49-26ed-4c39-a697-4612fecc4ba9",
+    "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e"
+  ],
+  "calc_ids": [
+    "416c71ec-228c-4536-a8a4-cd7e7e318634"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,17 @@
+{
+  "revision_id": "fc401da6-aaa6-4b92-a5ef-75de7a30580a",
+  "paragraph_id": "2af2e9f7-2301-4233-92f2-30ef231aaa75",
+  "iteration": 3,
+  "original_text": "Cash flow generation remains robust, though EBITDA data is unavailable in the provided financial statements (C001, C008, C015, C022). Operating cash flow in Q1 2025 totaled $1,789,000,000 (C058), compared to Q1 2024's $1,923,000,000 (C061). Free cash flow data is unavailable for both Q1 2025 (C057) and Q1 2024 (C060), limiting comprehensive cash flow quality assessment. The company's operating cash flow of $1,789,000,000 in Q1 2025 (C058) significantly exceeded net income of $154,000,000 (C012) for the same period, suggesting high earnings quality and efficient working capital management.",
+  "revised_text": "Cash flow generation remains robust, though EBITDA data is unavailable in the provided financial statements (C001, C008, C015, C022). Operating cash flow in Q1 2025 totaled $1,789,000,000 (C057), compared to Q1 2024's $1,923,000,000 (C060). Free cash flow data is unavailable for both Q1 2025 (C057) and Q1 2024 (C060), limiting comprehensive cash flow quality assessment. The company's operating cash flow of $1,789,000,000 in Q1 2025 (C057) significantly exceeded net income of $154,000,000 (C008) for the same period, suggesting high earnings quality and efficient working capital management.",
+  "issues_addressed": [
+    "fca328dd-cb3a-48d3-bb09-f97b76a27e1c",
+    "5cec0ec1-bd82-4604-8eef-f7f11429c676",
+    "c562d09d-b387-4406-ab13-ceddccfc62ac",
+    "05e9df28-778b-4eda-8fbc-1d2999cdad3d",
+    "a48d1310-242a-485b-9019-1b75b0bc1285",
+    "327c3de7-583e-411b-bbeb-0e60f0569f4b"
+  ],
+  "changes_summary": "Corrected all citation mismatches by referencing chunks that actually contain the claimed data. EBITDA unavailability cites income statement chunks (C001, C008, C015, C022) showing EBITDA: N/A. Operating cash flow figures cite cash flow statement chunks (C057 for Q1 2025, C060 for Q1 2024) containing OCF data. Free cash flow unavailability cites the same cash flow chunks (C057, C060) which show FCF: N/A. Net income citation updated to C008 which contains Q1 2025 income statement with net income data. Removed duplicate citation of Q1 2025 operating cash flow by using consistent C057 reference throughout.",
+  "revised_at": "2026-03-24T13:25:05.479488"
+}

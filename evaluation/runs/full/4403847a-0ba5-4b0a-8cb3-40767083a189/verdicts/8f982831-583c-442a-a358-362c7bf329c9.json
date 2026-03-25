@@ -1,0 +1,48 @@
+{
+  "verdict_id": "8f982831-583c-442a-a358-362c7bf329c9",
+  "paragraph_id": "25cf1082-7da6-4e6d-b239-2a02deed4765",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "aa7587ef-92ac-4da3-a619-6ad03caea6e7",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "25cf1082-7da6-4e6d-b239-2a02deed4765",
+      "offending_span": "beating EPS estimates by 9.5% (C014)",
+      "explanation": "The inline citation C014 does not match the actual supporting evidence. C014 is listed in 'Other available (but uncited) chunk IDs' and is not among the cited chunk refs ['C085', 'C088', 'C093']. The 9.5% EPS beat claim is actually supported by C085 ('Airbnb, Inc. Just Beat EPS By 9.5%').",
+      "relevant_chunk_ids": [
+        "08380f6b-8cad-4c5f-9814-6cc6927f8d8f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change the inline citation from (C014) to (C085) to correctly reference the supporting evidence."
+    },
+    {
+      "issue_id": "a3990324-e129-4ca0-a35f-bc3d57f65b32",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "25cf1082-7da6-4e6d-b239-2a02deed4765",
+      "offending_span": "shares dropped approximately 7% following a margin warning for the third and fourth quarters of 2025 (C022)",
+      "explanation": "The inline citation C022 does not match the actual supporting evidence. C022 is listed in 'Other available (but uncited) chunk IDs' and is not among the cited chunk refs ['C085', 'C088', 'C093']. The 7% share drop and margin warning claim is actually supported by C093 ('shares drop 7% on margin warning for the third and fourth quarters of 2025').",
+      "relevant_chunk_ids": [
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change the inline citation from (C022) to (C093) to correctly reference the supporting evidence."
+    },
+    {
+      "issue_id": "8d86dd09-66fb-4656-b64c-a4240511e311",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "25cf1082-7da6-4e6d-b239-2a02deed4765",
+      "offending_span": "Analyst commentary suggests elevated valuation multiples leave little margin for error amid slowing growth in key markets and broader economic risks (C017)",
+      "explanation": "The inline citation C017 does not match the actual supporting evidence. C017 is listed in 'Other available (but uncited) chunk IDs' and is not among the cited chunk refs ['C085', 'C088', 'C093']. The valuation and economic risks commentary is actually supported by C088 ('High valuation multiples leave little margin for error' and 'slowed growth in key markets amid economic risks').",
+      "relevant_chunk_ids": [
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change the inline citation from (C017) to (C088) to correctly reference the supporting evidence."
+    }
+  ],
+  "checked_at": "2026-03-24T11:49:11.580897",
+  "iteration": 2
+}

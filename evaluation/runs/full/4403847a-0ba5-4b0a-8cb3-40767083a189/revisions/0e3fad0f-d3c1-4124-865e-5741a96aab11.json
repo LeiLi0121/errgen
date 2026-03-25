@@ -1,0 +1,15 @@
+{
+  "revision_id": "0e3fad0f-d3c1-4124-865e-5741a96aab11",
+  "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+  "iteration": 1,
+  "original_text": "Platform safety concerns emerged in media coverage, with reports highlighting identity theft risks and domestic abuse-related incidents on the platform C004. These reputational risks compound the regulatory and policy uncertainties facing short-term rental platforms. Market commentary indicates that while bookings and average daily rates (ADR) remained strong in Q2, growth has slowed in key markets amid broader economic headwinds C020 C015. Options market activity increased post-earnings, with analysts recommending collar strategies for risk management given the dramatic stock moves C009.",
+  "revised_text": "Platform safety concerns emerged in media coverage, with reports highlighting identity theft risks and domestic abuse-related incidents on the platform C004. Market commentary indicates that while bookings and average daily rates (ADR) remained strong in Q2 C020, growth has slowed in key markets amid broader economic headwinds C015. Options market activity increased post-earnings, with analysts recommending collar strategies for risk management given the dramatic stock moves C009.",
+  "issues_addressed": [
+    "5d1b3db9-eb2c-4557-9343-d5adb03d5c80",
+    "5eeed304-948b-4fb0-8679-385f1c6dcdf7",
+    "c3bd5f41-45f3-43ed-8735-4f644dd742a9",
+    "3793ad76-74f2-4433-affa-46f74a7653c4"
+  ],
+  "changes_summary": "Removed the unsupported claim about 'regulatory and policy uncertainties facing short-term rental platforms' as no available evidence chunks support this statement (Issue 2). Kept citations C004, C015, C020, and C009 as these chunks are available in the evidence set and contain content supporting their respective claims (domestic abuse/identity theft, Q2 bookings/ADR, slowed growth, and options collar strategies). The checker's suggested alternative chunks (C077, C082, C088, C093) were not available in the provided evidence, so the original available chunks with matching content were retained.",
+  "revised_at": "2026-03-24T08:10:39.058388"
+}

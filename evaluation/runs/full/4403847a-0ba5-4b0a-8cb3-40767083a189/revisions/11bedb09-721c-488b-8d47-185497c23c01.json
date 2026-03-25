@@ -1,0 +1,17 @@
+{
+  "revision_id": "11bedb09-721c-488b-8d47-185497c23c01",
+  "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+  "iteration": 2,
+  "original_text": "Airbnb reported Q2 2025 earnings on August 7-8, 2025, beating EPS estimates by 9.5% C085 with revenue of $3.096B representing 36.27% YoY growth C093 K001. Net income reached $642M, up 316.88% YoY, with operating and net margins of 19.77% and 20.74% respectively K002 K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C093. The stock continued underperforming the market into August 11, 2025 C074. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C088.",
+  "revised_text": "Airbnb reported Q2 2025 earnings on August 7, 2025 C020, beating EPS estimates by 9.5% C012 with revenue of $3.096B representing 36.27% YoY growth K001. Net income reached $642M, up 316.88% YoY K002, with operating and net margins of 19.77% and 20.74% respectively K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C020. The stock continued underperforming the market into August 11, 2025 C001. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C015.",
+  "issues_addressed": [
+    "e9045907-ebb7-40dc-a9f4-0bbb57338bb2",
+    "f5f8abde-6362-4aa5-814f-3ab0ad203bad",
+    "e7574659-8a36-40d8-b376-9a93a82d71c8",
+    "31282d60-9c70-4025-aef1-ad580b37913c",
+    "2ef13521-8545-45c7-b829-46daafa7e76b",
+    "3d014627-f2a9-4143-85a3-07e45fe3defd"
+  ],
+  "changes_summary": "Replaced all invalid chunk citations (C085, C093, C074, C088) with valid evidence from available chunks (C001-C020). Specifically: C020 now supports the earnings date and 7% share drop with margin warning; C012 supports the 9.5% EPS beat claim; C001 supports the stock underperformance through August 11; C015 supports the analyst commentary on elevated valuation. All calculation references (K001-K004) for financial metrics remain valid and unchanged.",
+  "revised_at": "2026-03-24T10:51:28.581230"
+}

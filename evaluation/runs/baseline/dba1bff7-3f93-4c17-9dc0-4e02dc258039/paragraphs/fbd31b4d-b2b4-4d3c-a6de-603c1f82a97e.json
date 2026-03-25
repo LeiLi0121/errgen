@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "fbd31b4d-b2b4-4d3c-a6de-603c1f82a97e",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Strategic positioning is evolving as management pursues expansion beyond traditional vacation rentals. CEO Brian Chesky indicated the company is going 'significantly more aggressively into hotels,' signaling a strategic shift toward competing more directly with traditional hospitality providers C010. Simultaneously, Airbnb is charting an AI-first path, with Chesky stating that 'you can't do travel planning without AI going forward,' as the company expands its customer service agent capabilities C012. These initiatives suggest management is seeking to broaden the addressable market while leveraging technology to enhance the booking experience.",
+  "citations": [
+    {
+      "citation_id": "598cf338-5811-470f-8af8-8791d793c161",
+      "chunk_id": "a73b7fea-7ae5-4dd2-bfab-57a43001a151",
+      "source_id": "4efbf4ad-7f4b-4192-aaac-a5fe08aa0418",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:30:56Z | Yahoo\nTitle: Airbnb embraces a paradox: CEO Brian Chesky says hotels are the future\nURL: https://finnhub.io/api/news?id=3a1c090dc5fb0a0c1088edfb160f76bbe856f5e52c2b3510bc721f0df561d6be\n“We’re going to be going significantly more aggressively into hotels,” CEO Brian Ches",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d4f5079d-4aab-4a81-820d-3c1916cf48de",
+      "chunk_id": "48a1fb5a-f67a-444f-90e8-fe9e1a6bede3",
+      "source_id": "4efbf4ad-7f4b-4192-aaac-a5fe08aa0418",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:25:00Z | Yahoo\nTitle: Airbnb charts AI-first path as it expands customer service agent\nURL: https://finnhub.io/api/news?id=c252dbad1d5e1e73cd65536920df00d7ce1f347b204b475fc19e514c46bd7e1d\n“I think you can’t do travel planning without AI going forward,” CEO Brian Chesky said.",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a73b7fea-7ae5-4dd2-bfab-57a43001a151",
+    "48a1fb5a-f67a-444f-90e8-fe9e1a6bede3"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,1712 @@
+[
+  {
+    "chunk_id": "a9200913-02b3-401c-878d-2667c5ca9e7f",
+    "source_id": "f5ae34cf-2195-453a-8e1b-aa439b693e73",
+    "source_type": "company_profile",
+    "text": "American Express Company (Ticker: AXP) | Exchange: NYSE | Sector: Financial Services | Industry: Financial - Credit Services | Market Cap: N/A | CEO: Stephen Joseph Squeri | Full-Time Employees: 75100 | IPO Date: 1972-06-01 | Country: US | Website: https://www.americanexpress.com",
+    "metadata": {
+      "ticker": "AXP",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4b89ef2c-d6d6-499c-967b-67c8d6b59521",
+    "source_id": "f5ae34cf-2195-453a-8e1b-aa439b693e73",
+    "source_type": "company_profile",
+    "text": "American Express Company, together with its subsidiaries, provides charge and credit payment card products, and travel-related services worldwide. The company operates through three segments: Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services. Its products and services include payment and financing products; network services; accounts payable expense management products and services; and travel and lifestyle services. The company's products and services also comprise merchant acquisition and processing, servicing and settlement, point-of-sale marketing, and information products and services for merchants; and fraud prevention services, as well as the design and operation of customer loyalty programs. It sells its products and services to consumers, small businesses, mid-sized companies, and large corporations through mobile and online applications, third-party vendors and business partners, direct mail, telephone, in-house sales teams, and direct response advertising. American Express Company was founded in 1850 and is headquartered in New York, New York.",
+    "metadata": {
+      "ticker": "AXP",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d3b181d6-fe24-410f-9f5f-317933c39ba3",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "Income Statement – AXP | Period: Q3 2025 | Date: 2025-09-30\n  Revenue:            $10,415,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,902,000,000 (margin 27.86%)\n  EBITDA:             N/A\n  EPS:                4.14\n  R&D Expenses:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "date": "2025-09-30"
+    },
+    "period": "Q3 2025",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "fcf5cd93-0b99-42a4-b091-bfb9e5f06133",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Revenue for Q3 2025: $10,415,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "revenue"
+    },
+    "period": "Q3 2025",
+    "field_name": "revenue",
+    "numeric_value": 10415000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5ada0991-89c7-4269-ac26-5c9eb55e16a4",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Income for Q3 2025: $2,902,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "netIncome"
+    },
+    "period": "Q3 2025",
+    "field_name": "netIncome",
+    "numeric_value": 2902000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2342ed50-61d1-4ac0-a23d-b0e1790ce94e",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Margin for Q3 2025: 27.86%",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q3 2025",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.2786365818530965,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "6ab6dfbb-fbc1-4630-9297-bcd9d83256ba",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP EPS (Diluted) for Q3 2025: $4",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "eps"
+    },
+    "period": "Q3 2025",
+    "field_name": "eps",
+    "numeric_value": 4.14,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "18dfffd3-15ae-472a-ad5b-193fed75f6ff",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "Income Statement – AXP | Period: Q2 2025 | Date: 2025-06-30\n  Revenue:            $10,321,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,885,000,000 (margin 27.95%)\n  EBITDA:             N/A\n  EPS:                4.08\n  R&D Expenses:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "date": "2025-06-30"
+    },
+    "period": "Q2 2025",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "44339c7a-f5c4-44ec-92a7-152845259ccc",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Revenue for Q2 2025: $10,321,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "revenue"
+    },
+    "period": "Q2 2025",
+    "field_name": "revenue",
+    "numeric_value": 10321000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d92a8a95-5411-4aa4-a17f-ad2d2a6520b3",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Income for Q2 2025: $2,885,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "netIncome"
+    },
+    "period": "Q2 2025",
+    "field_name": "netIncome",
+    "numeric_value": 2885000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "af66c916-ffe8-43a9-b17f-7ca7b34c63de",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Margin for Q2 2025: 27.95%",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q2 2025",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.27952717759906986,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "964b1d48-7045-4232-963d-e356b773786f",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP EPS (Diluted) for Q2 2025: $4",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "eps"
+    },
+    "period": "Q2 2025",
+    "field_name": "eps",
+    "numeric_value": 4.08,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b3ba3268-bdec-453c-b725-d21ce6913657",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "Income Statement – AXP | Period: Q1 2025 | Date: 2025-03-31\n  Revenue:            $9,626,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,584,000,000 (margin 26.84%)\n  EBITDA:             N/A\n  EPS:                3.64\n  R&D Expenses:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "date": "2025-03-31"
+    },
+    "period": "Q1 2025",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cedf66d9-2f29-44e8-9d07-59e4bce2613b",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Revenue for Q1 2025: $9,626,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "revenue"
+    },
+    "period": "Q1 2025",
+    "field_name": "revenue",
+    "numeric_value": 9626000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "60d919eb-adc4-4966-94ea-78b61946379e",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Income for Q1 2025: $2,584,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "netIncome"
+    },
+    "period": "Q1 2025",
+    "field_name": "netIncome",
+    "numeric_value": 2584000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "24b829ce-4e7b-4649-9976-db1db9d9b3cb",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Margin for Q1 2025: 26.84%",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q1 2025",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.26843964263453146,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "f85768cc-874d-4cda-8640-8b822db1457a",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP EPS (Diluted) for Q1 2025: $4",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "eps"
+    },
+    "period": "Q1 2025",
+    "field_name": "eps",
+    "numeric_value": 3.64,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "dd19163f-5856-4fe6-9bad-00200ddcafb6",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "Income Statement – AXP | Period: Q3 2024 | Date: 2024-09-30\n  Revenue:            $9,716,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,507,000,000 (margin 25.80%)\n  EBITDA:             N/A\n  EPS:                3.49\n  R&D Expenses:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "date": "2024-09-30"
+    },
+    "period": "Q3 2024",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "01291b62-02af-4895-b583-f5808006284c",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Revenue for Q3 2024: $9,716,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "revenue"
+    },
+    "period": "Q3 2024",
+    "field_name": "revenue",
+    "numeric_value": 9716000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1b525403-f209-4fe6-bfe2-591297872c6c",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Income for Q3 2024: $2,507,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "netIncome"
+    },
+    "period": "Q3 2024",
+    "field_name": "netIncome",
+    "numeric_value": 2507000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ba92993a-a427-4557-9894-3ed2d3dc64a6",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP Net Margin for Q3 2024: 25.80%",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q3 2024",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.25802799505969537,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "2f471a74-d265-43e8-8343-61adec05536b",
+    "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+    "source_type": "income_statement",
+    "text": "AXP EPS (Diluted) for Q3 2024: $3",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "eps"
+    },
+    "period": "Q3 2024",
+    "field_name": "eps",
+    "numeric_value": 3.49,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "71d382db-047b-41c7-b7aa-089e6fd937fd",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AXP | Period: Q3 2025 | Date: 2025-09-30\n  Total Assets:              $297,550,000,000\n  Total Liabilities:         $265,133,000,000\n  Total Stockholders' Equity:$32,417,000,000\n  Cash & Equivalents:        $54,706,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                $57,787,000,000\n  Long-Term Debt:            $57,787,000,000\n  Current Assets:            N/A\n  Current Liabilities:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "date": "2025-09-30"
+    },
+    "period": "Q3 2025",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e36cebab-8737-4285-af19-8676d437434a",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Assets for Q3 2025: $297,550,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "totalAssets"
+    },
+    "period": "Q3 2025",
+    "field_name": "totalAssets",
+    "numeric_value": 297550000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ece1e1cf-3f3a-48ab-bb9d-bb50163afa88",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Liabilities for Q3 2025: $265,133,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "totalLiabilities"
+    },
+    "period": "Q3 2025",
+    "field_name": "totalLiabilities",
+    "numeric_value": 265133000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f528e51e-d5de-483c-b59e-caf191a973ac",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Stockholders' Equity for Q3 2025: $32,417,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q3 2025",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 32417000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e97de124-cf41-4980-b48f-b4cd8ec8e5e0",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Cash & Equivalents for Q3 2025: $54,706,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q3 2025",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 54706000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5725731b-ea24-4eeb-8bb4-a36a53b26684",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Debt for Q3 2025: $57,787,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "totalDebt"
+    },
+    "period": "Q3 2025",
+    "field_name": "totalDebt",
+    "numeric_value": 57787000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "56b1c9e8-8fdb-4d1c-b1ac-64a66e821244",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Long-Term Debt for Q3 2025: $57,787,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2025",
+      "field": "longTermDebt"
+    },
+    "period": "Q3 2025",
+    "field_name": "longTermDebt",
+    "numeric_value": 57787000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8063b9f2-becc-4efb-8a61-d3faece7ee12",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AXP | Period: Q2 2025 | Date: 2025-06-30\n  Total Assets:              $295,556,000,000\n  Total Liabilities:         $263,245,000,000\n  Total Stockholders' Equity:$32,311,000,000\n  Cash & Equivalents:        $57,937,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                $58,202,000,000\n  Long-Term Debt:            $58,202,000,000\n  Current Assets:            N/A\n  Current Liabilities:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "date": "2025-06-30"
+    },
+    "period": "Q2 2025",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "17a554b7-4e77-479e-a3bd-d01087ec55e3",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Assets for Q2 2025: $295,556,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "totalAssets"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalAssets",
+    "numeric_value": 295556000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fd9f5149-7050-4ff3-adf2-b24800cb7abb",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Liabilities for Q2 2025: $263,245,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "totalLiabilities"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalLiabilities",
+    "numeric_value": 263245000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0c6f4562-3017-4f35-85aa-840cece63ef9",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Stockholders' Equity for Q2 2025: $32,311,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 32311000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4b40b424-71c8-48bd-ba0c-5508d5308e3f",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Cash & Equivalents for Q2 2025: $57,937,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q2 2025",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 57937000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a8b5aed4-f52b-484a-9c01-39ec2ca26fa9",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Debt for Q2 2025: $58,202,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "totalDebt"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalDebt",
+    "numeric_value": 58202000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1a696660-0edd-4f00-a18f-07c20f95846e",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Long-Term Debt for Q2 2025: $58,202,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q2 2025",
+      "field": "longTermDebt"
+    },
+    "period": "Q2 2025",
+    "field_name": "longTermDebt",
+    "numeric_value": 58202000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a761482d-b267-43cc-9161-9a0398331e7f",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AXP | Period: Q1 2025 | Date: 2025-03-31\n  Total Assets:              $282,244,000,000\n  Total Liabilities:         $251,042,000,000\n  Total Stockholders' Equity:$31,202,000,000\n  Cash & Equivalents:        $52,508,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                $51,236,000,000\n  Long-Term Debt:            $51,236,000,000\n  Current Assets:            N/A\n  Current Liabilities:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "date": "2025-03-31"
+    },
+    "period": "Q1 2025",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "c6c5c772-01af-4305-9fe1-9886221ea28d",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Assets for Q1 2025: $282,244,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "totalAssets"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalAssets",
+    "numeric_value": 282244000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ece9258d-dd9b-42bd-adf4-3ab1853ddd6c",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Liabilities for Q1 2025: $251,042,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "totalLiabilities"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalLiabilities",
+    "numeric_value": 251042000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "cc97d345-888f-4df6-81b6-f70845fba5b6",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Stockholders' Equity for Q1 2025: $31,202,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 31202000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2e449ab8-f43c-47b2-981f-c71b03494fff",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Cash & Equivalents for Q1 2025: $52,508,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q1 2025",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 52508000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2b07746b-c73e-4737-8413-33c00be9b24f",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Debt for Q1 2025: $51,236,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "totalDebt"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalDebt",
+    "numeric_value": 51236000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1d8516bd-8270-4d6b-9c70-f694d80dee49",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Long-Term Debt for Q1 2025: $51,236,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "longTermDebt"
+    },
+    "period": "Q1 2025",
+    "field_name": "longTermDebt",
+    "numeric_value": 51236000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "57181de7-3555-41b8-a735-39ce6b02e05a",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AXP | Period: Q3 2024 | Date: 2024-09-30\n  Total Assets:              $270,979,000,000\n  Total Liabilities:         $241,272,000,000\n  Total Stockholders' Equity:$29,707,000,000\n  Cash & Equivalents:        $47,918,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                $53,546,000,000\n  Long-Term Debt:            $53,546,000,000\n  Current Assets:            N/A\n  Current Liabilities:       N/A",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "date": "2024-09-30"
+    },
+    "period": "Q3 2024",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d45e1166-a226-4d17-9f8f-c00af7afd35c",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Assets for Q3 2024: $270,979,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "totalAssets"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalAssets",
+    "numeric_value": 270979000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f6969463-5896-4593-a794-6c19803d2597",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Liabilities for Q3 2024: $241,272,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "totalLiabilities"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalLiabilities",
+    "numeric_value": 241272000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d75143ea-d797-43ff-8839-3c27675682a4",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Stockholders' Equity for Q3 2024: $29,707,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 29707000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1686955c-e51c-4945-babc-9b4aad7bf0ec",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Cash & Equivalents for Q3 2024: $47,918,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q3 2024",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 47918000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "64cea12e-fa80-4b6a-8110-f6b81ccfa1af",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Total Debt for Q3 2024: $53,546,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "totalDebt"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalDebt",
+    "numeric_value": 53546000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1034d29c-5509-4176-91fb-626dbdf2aab3",
+    "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+    "source_type": "balance_sheet",
+    "text": "AXP Long-Term Debt for Q3 2024: $53,546,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q3 2024",
+      "field": "longTermDebt"
+    },
+    "period": "Q3 2024",
+    "field_name": "longTermDebt",
+    "numeric_value": 53546000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fcb9bfce-9ced-4059-a002-ed7119f91dbc",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AXP | Period: Q1 2025 | Date: 2025-03-31\n  Operating Cash Flow:     $4,764,000,000\n  Capital Expenditure:     $430,000,000\n  Free Cash Flow:          $4,334,000,000\n  Dividends Paid:          $509,000,000\n  Stock Buybacks:          $1,208,000,000\n  Depreciation & Amort.:   $433,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "date": "2025-03-31"
+    },
+    "period": "Q1 2025",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e99ba238-a1de-49b2-be44-8c3deb320298",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Operating Cash Flow for Q1 2025: $4,764,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2025",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 4764000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "792b6625-5da5-4fa8-9aba-3b260545b49f",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Capital Expenditure for Q1 2025: $430,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1 2025",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 430000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "11484d29-9c79-4219-a399-75620d009421",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Free Cash Flow for Q1 2025: $4,334,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1 2025",
+    "field_name": "freeCashFlow",
+    "numeric_value": 4334000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2bd28f74-3129-431e-bffe-0d0672739a76",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Dividends Paid for Q1 2025: $509,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "dividendsPaid"
+    },
+    "period": "Q1 2025",
+    "field_name": "dividendsPaid",
+    "numeric_value": 509000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6265018e-2c05-4b9d-b14b-a5c4341c4c16",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Stock Buybacks for Q1 2025: $1,208,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2025",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 1208000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c7f3b435-af3e-420a-b00a-24fe0fddaee8",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP D&A for Q1 2025: $433,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2025",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1 2025",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 433000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7e8dea0b-2b0f-47ab-83db-3712fb391eb9",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AXP | Period: Q1 2024 | Date: 2024-03-31\n  Operating Cash Flow:     $5,552,000,000\n  Capital Expenditure:     $396,000,000\n  Free Cash Flow:          $5,156,000,000\n  Dividends Paid:          $452,000,000\n  Stock Buybacks:          $1,292,000,000\n  Depreciation & Amort.:   $390,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "date": "2024-03-31"
+    },
+    "period": "Q1 2024",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4e3bf183-0909-4721-8999-8084fb218e50",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Operating Cash Flow for Q1 2024: $5,552,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2024",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 5552000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e3649fa0-c8d2-44f1-8f2a-50ad94034086",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Capital Expenditure for Q1 2024: $396,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1 2024",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 396000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c421edf0-7412-4da4-a7fd-66b4f6091248",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Free Cash Flow for Q1 2024: $5,156,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1 2024",
+    "field_name": "freeCashFlow",
+    "numeric_value": 5156000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "65e7bfde-d0f4-414b-a067-e0d6c8fd03a8",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Dividends Paid for Q1 2024: $452,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "field": "dividendsPaid"
+    },
+    "period": "Q1 2024",
+    "field_name": "dividendsPaid",
+    "numeric_value": 452000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "2dca3796-54bc-4269-94a4-fc50950ad9d1",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Stock Buybacks for Q1 2024: $1,292,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2024",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 1292000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b2070347-bf6d-43d1-8bfe-6dc1f0fdc8c3",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP D&A for Q1 2024: $390,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2024",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1 2024",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 390000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0cea4384-d123-4216-b8bc-24a41e4b10fd",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AXP | Period: Q1 2023 | Date: 2023-03-31\n  Operating Cash Flow:     $-377,000,000\n  Capital Expenditure:     $360,000,000\n  Free Cash Flow:          $-737,000,000\n  Dividends Paid:          $405,000,000\n  Stock Buybacks:          $316,000,000\n  Depreciation & Amort.:   $400,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "date": "2023-03-31"
+    },
+    "period": "Q1 2023",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "9c474cf1-5722-4836-b6fa-04a6e5072248",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Operating Cash Flow for Q1 2023: $-377,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2023",
+    "field_name": "operatingCashFlow",
+    "numeric_value": -377000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "060d8ecc-d290-494e-aabc-c4515fe7f31c",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Capital Expenditure for Q1 2023: $360,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1 2023",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 360000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4b43e026-34af-4faa-bc1c-cac8207a8133",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Free Cash Flow for Q1 2023: $-737,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1 2023",
+    "field_name": "freeCashFlow",
+    "numeric_value": -737000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e5bab825-0579-4827-8065-5d9640c0f648",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Dividends Paid for Q1 2023: $405,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "field": "dividendsPaid"
+    },
+    "period": "Q1 2023",
+    "field_name": "dividendsPaid",
+    "numeric_value": 405000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3a4f6634-10f5-4407-ab1d-56cbb864aba9",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Stock Buybacks for Q1 2023: $316,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2023",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 316000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e3820e9c-0954-4213-b77d-53174973a8b8",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP D&A for Q1 2023: $400,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2023",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1 2023",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 400000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a953b1c1-3bbd-4b94-a2e8-7b58d74e41d2",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AXP | Period: Q1 2022 | Date: 2022-03-31\n  Operating Cash Flow:     $3,880,000,000\n  Capital Expenditure:     $447,000,000\n  Free Cash Flow:          $3,433,000,000\n  Dividends Paid:          $345,000,000\n  Stock Buybacks:          $1,570,000,000\n  Depreciation & Amort.:   $398,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "date": "2022-03-31"
+    },
+    "period": "Q1 2022",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "aa044a97-4f08-449c-858f-1d0dbb41d212",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Operating Cash Flow for Q1 2022: $3,880,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2022",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 3880000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "536ae2e0-ed08-4309-85fe-fc0d82bd0982",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Capital Expenditure for Q1 2022: $447,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1 2022",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 447000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5dbc7b49-38dc-4b51-99c8-fa6886342593",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Free Cash Flow for Q1 2022: $3,433,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1 2022",
+    "field_name": "freeCashFlow",
+    "numeric_value": 3433000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4f353aea-82cf-472b-ba80-b10b8dc5b5ca",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Dividends Paid for Q1 2022: $345,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "field": "dividendsPaid"
+    },
+    "period": "Q1 2022",
+    "field_name": "dividendsPaid",
+    "numeric_value": 345000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f0d54b34-44d8-4fb6-9f7c-550059b74855",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP Stock Buybacks for Q1 2022: $1,570,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2022",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 1570000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3d413c27-bd2d-47f7-8a38-a9d9b682611a",
+    "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+    "source_type": "cash_flow",
+    "text": "AXP D&A for Q1 2022: $398,000,000",
+    "metadata": {
+      "ticker": "AXP",
+      "period": "Q1 2022",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1 2022",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 398000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8aae17c6-67e8-45f5-98de-75f10807345f",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T19:13:49Z | CNBC\nTitle: American Express is at an all-time high, everyone likes a good price target raise, says Jim Cramer\nURL: https://finnhub.io/api/news?id=da857331d7383384d2938357f3c85bdf36cd76bcc45d25ae4189844a5643a62a\n'Mad Money' host Jim Cramer talks where to find winners and places to put your money in this market.",
+    "metadata": {
+      "title": "American Express is at an all-time high, everyone likes a good price target raise, says Jim Cramer",
+      "published_at": "2025-11-12T19:13:49Z",
+      "source_name": "CNBC",
+      "url": "https://finnhub.io/api/news?id=da857331d7383384d2938357f3c85bdf36cd76bcc45d25ae4189844a5643a62a",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2b147306-5298-46f3-9c5c-e042410448b5",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T16:40:03Z | Yahoo\nTitle: BFH or AXP: Which Is the Better Value Stock Right Now?\nURL: https://finnhub.io/api/news?id=ae5b8550f9f5995371250bc7b17ace079577bddc8b4d9f9297c3e5b153c6fd75\nBFH vs. AXP: Which Stock Is the Better Value Option?",
+    "metadata": {
+      "title": "BFH or AXP: Which Is the Better Value Stock Right Now?",
+      "published_at": "2025-11-12T16:40:03Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ae5b8550f9f5995371250bc7b17ace079577bddc8b4d9f9297c3e5b153c6fd75",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "935a8e40-106d-4610-a309-75389ff1fbc7",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T16:21:46Z | Yahoo\nTitle: Dow on Pace to Clear 48,000 Closing Milestone\nURL: https://finnhub.io/api/news?id=68db3adb6b8c48ebf1a680c16cafce7c437cf2a20ddc0513fb0598d3906a9f04\nThe Dow is surging through the 48,000 threshold.  The blue-chip index was up 344 points, or 0.7%, on Wednesday.  It continued to beat the S&P 500 and Nasdaq Composite this week; the S&P was down 0.1%, while the Nasdaq was down 0.6%.",
+    "metadata": {
+      "title": "Dow on Pace to Clear 48,000 Closing Milestone",
+      "published_at": "2025-11-12T16:21:46Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=68db3adb6b8c48ebf1a680c16cafce7c437cf2a20ddc0513fb0598d3906a9f04",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "432cde56-fdbb-4984-b534-a1cf74d771eb",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T16:05:00Z | Yahoo\nTitle: From Share Plates to Smart Tech, The 2025 Resy Retrospective Reveals Dining Is More Connected Than Ever\nURL: https://finnhub.io/api/news?id=ab579e4f525dceb9d777793733314e2bc38b906ccef47da26f2f97c796fc1e90\nNEW YORK, November 12, 2025--The Resy Retrospective is an annual dining report providing a look at the top trends and culinary moments of 2025 and what's on the rise for 2026.",
+    "metadata": {
+      "title": "From Share Plates to Smart Tech, The 2025 Resy Retrospective Reveals Dining Is More Connected Than Ever",
+      "published_at": "2025-11-12T16:05:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ab579e4f525dceb9d777793733314e2bc38b906ccef47da26f2f97c796fc1e90",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "716c6527-89bc-4c21-b0e1-1cd37b511a4c",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T14:37:10Z | Yahoo\nTitle: Why a Visa-Mastercard legal settlement could lead to your rewards credit card getting declined\nURL: https://finnhub.io/api/news?id=dcf916e8b4c6f3fe4946340caa473061e130f053ab1bde8d692ce2b1b1c22ea8\nVisa and Mastercard have proposed a settlement in their long-running legal dispute with merchants and retailers over how much they charge merchants to accept their cards.  Visa and Mastercard have been in litigation with a class-action group of merchants for nearly 20 years over the costs they impose on merchants to use their payment networks, known as interchange.",
+    "metadata": {
+      "title": "Why a Visa-Mastercard legal settlement could lead to your rewards credit card getting declined",
+      "published_at": "2025-11-12T14:37:10Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dcf916e8b4c6f3fe4946340caa473061e130f053ab1bde8d692ce2b1b1c22ea8",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "34d745a1-70a0-44d7-aba6-b53040fa74a5",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T14:00:00Z | Yahoo\nTitle: American Express, Founder of Small Business Saturday®, Expands Small Business Support with New $5 Million Shop Small Grants Program\nURL: https://finnhub.io/api/news?id=8f186cceb1f22bf0372eac182225c2c0f195748c0050f21456b772d478ccfde0\nNEW YORK, November 12, 2025--Since creating Small Business Saturday in 2010, American Express (NYSE: AXP) has championed the small businesses that fuel America’s local economies. This year, the company is introducing new initiatives – including a new $5 million Amex Shop Small Grants Program, a content partnership with creator and small business advocate Keith Lee, and free customized signage for small businesses – building on its long-standing commitment to help small businesses grow and suppor",
+    "metadata": {
+      "title": "American Express, Founder of Small Business Saturday®, Expands Small Business Support with New $5 Million Shop Small Grants Program",
+      "published_at": "2025-11-12T14:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8f186cceb1f22bf0372eac182225c2c0f195748c0050f21456b772d478ccfde0",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ea79034a-cd0b-4719-9b0b-97f73e8d7b35",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T13:51:33Z | SeekingAlpha\nTitle: American Express Company (AXP) Presents at KBW Fintech Payments Conference 2025 Transcript\nURL: https://finnhub.io/api/news?id=18ed09731a98653e065c4a76a7b5f24b889077a6b463cff2a5402a70cf8d0af2\nAmerican Express Company (AXP) KBW Fintech Payments Conference 2025 November 12, 2025 9:25 AM ESTCompany ParticipantsChristophe Le Caillec - Chief Financial...",
+    "metadata": {
+      "title": "American Express Company (AXP) Presents at KBW Fintech Payments Conference 2025 Transcript",
+      "published_at": "2025-11-12T13:51:33Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=18ed09731a98653e065c4a76a7b5f24b889077a6b463cff2a5402a70cf8d0af2",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "145b5da2-b199-4d22-ac50-8862f54d0d9a",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T13:49:29Z | Yahoo\nTitle: Warren Buffett Stepping Down With 31% of Berkshire in Cash: His 3 Ultra Safest Stocks\nURL: https://finnhub.io/api/news?id=ba759bd23f322190666c48ce31ea99d7699fbd0dbd664c1864bab17d0b49fd98\nThese three longtime Warren Buffett favorite stock picks are likely to stay in the Berkshire Hathaway portfolio long after he steps down.",
+    "metadata": {
+      "title": "Warren Buffett Stepping Down With 31% of Berkshire in Cash: His 3 Ultra Safest Stocks",
+      "published_at": "2025-11-12T13:49:29Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ba759bd23f322190666c48ce31ea99d7699fbd0dbd664c1864bab17d0b49fd98",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "11950bc2-bfd8-4f89-89d6-98eeb0b83532",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T13:48:37Z | Benzinga\nTitle: Dow Jones Hits Record Highs, AMD Jumps: What's Moving Markets Wednesday?\nURL: https://finnhub.io/api/news?id=48c5ae73e87c33b26fa03ab30be160531e8c5aed3f36afdb26c0f27b62dc8cf0\nBlue-chip stocks hit record highs as investors rotate toward old-economy leaders; AMD surges, gold rallies, oil slides on OPEC surplus outlook.",
+    "metadata": {
+      "title": "Dow Jones Hits Record Highs, AMD Jumps: What's Moving Markets Wednesday?",
+      "published_at": "2025-11-12T13:48:37Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=48c5ae73e87c33b26fa03ab30be160531e8c5aed3f36afdb26c0f27b62dc8cf0",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "57bf782b-46e4-4ffa-abd4-f4eefd5d1b0c",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T12:50:00Z | Yahoo\nTitle: Visa Turns Up the Heat in Stablecoin Payments: Can Anyone Compete?\nURL: https://finnhub.io/api/news?id=8edc5cf43a141a24d1af952a4e51176e3baaaf8b31a57d908cc3779e0f20c79b\nV's stablecoin pilot lets gig workers get instant crypto payouts via Visa Direct, marking a bold step toward blockchain-powered payments.",
+    "metadata": {
+      "title": "Visa Turns Up the Heat in Stablecoin Payments: Can Anyone Compete?",
+      "published_at": "2025-11-12T12:50:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8edc5cf43a141a24d1af952a4e51176e3baaaf8b31a57d908cc3779e0f20c79b",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a2acc871-c786-4667-8f7b-dff910445f29",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T12:45:38Z | Benzinga\nTitle: Here's How Much You Would Have Made Owning American Express Stock In The Last 15 Years\nURL: https://finnhub.io/api/news?id=54963fb2c70b94634e18b92911fb0fbccc2d83620fa8c1c3d5d718e2b900ed31\n ",
+    "metadata": {
+      "title": "Here's How Much You Would Have Made Owning American Express Stock In The Last 15 Years",
+      "published_at": "2025-11-12T12:45:38Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=54963fb2c70b94634e18b92911fb0fbccc2d83620fa8c1c3d5d718e2b900ed31",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "afef3207-4f13-4188-9a25-10eace0f4a8d",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T10:46:00Z | Yahoo\nTitle: Zacks Investment Ideas feature highlights: American Express and Palantir\nURL: https://finnhub.io/api/news?id=b53186ff993c5f829a8784e6e9e3519b7f0786b26f6ec8066c5bf459c70af88c\nAmerican Express and Palantir delivered record-breaking Q3 results, each lifting full-year guidance on strong business momentum.",
+    "metadata": {
+      "title": "Zacks Investment Ideas feature highlights: American Express and Palantir",
+      "published_at": "2025-11-12T10:46:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b53186ff993c5f829a8784e6e9e3519b7f0786b26f6ec8066c5bf459c70af88c",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "189b2c7e-afad-42c5-8497-98b015a4ded3",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-12T03:58:00Z | SeekingAlpha\nTitle: Invesco Diversified Dividend Fund Q3 2025 Portfolio Positioning\nURL: https://finnhub.io/api/news?id=88f1cc1797de1db321a7e91e5692b597b1833acb7e2cbf90a97aa6b7fc5ffe36\nDupont (DD) is a leading specialty chemical company in the process of spinning off its electronics business, which in our view should unlock shareholder value. Read more here.",
+    "metadata": {
+      "title": "Invesco Diversified Dividend Fund Q3 2025 Portfolio Positioning",
+      "published_at": "2025-11-12T03:58:00Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=88f1cc1797de1db321a7e91e5692b597b1833acb7e2cbf90a97aa6b7fc5ffe36",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "57491f40-819c-43c3-8992-d911122375be",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T20:00:00Z | Yahoo\nTitle: Livily Launches \"Business Class Vacation Rentals,\" the First-Ever Vacation Rental Platform Integrated with Global Travel Management Systems\nURL: https://finnhub.io/api/news?id=f5707feb980da5080a27ec0fc57e4cf00264a113b8355034fb6355da61134184\nNEW YORK, NY / ACCESS Newswire / November 11, 2025 / Livily LLC a Livly Technologies Inc., company is a leading proptech and travel technology company, today announced the completion of its integrations with major Global Travel Management Systems ...",
+    "metadata": {
+      "title": "Livily Launches \"Business Class Vacation Rentals,\" the First-Ever Vacation Rental Platform Integrated with Global Travel Management Systems",
+      "published_at": "2025-11-11T20:00:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f5707feb980da5080a27ec0fc57e4cf00264a113b8355034fb6355da61134184",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "94536dc0-1409-4eaa-a233-c426bc6fcd71",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T18:02:31Z | CNBC\nTitle: Dow rallies 300 points to new record with shutdown set to end Wednesday: Live updates\nURL: https://finnhub.io/api/news?id=57f37977ae01e1ff16012941b1216d76f5a33692ee85a7dbd95ac41ebbb99d31\nTuesday saw a tale of two markets emerge — the 30-stock Dow rallied more than 550 points to close at a record high, while the Nasdaq Composite slipped.",
+    "metadata": {
+      "title": "Dow rallies 300 points to new record with shutdown set to end Wednesday: Live updates",
+      "published_at": "2025-11-11T18:02:31Z",
+      "source_name": "CNBC",
+      "url": "https://finnhub.io/api/news?id=57f37977ae01e1ff16012941b1216d76f5a33692ee85a7dbd95ac41ebbb99d31",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cc56e41a-49c2-48ee-ad08-24907db4392d",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T16:15:00Z | Yahoo\nTitle: Q3 Earnings: These Companies Posted Record Breaking Results\nURL: https://finnhub.io/api/news?id=bfba028441a108ce797a4767a2c1699bc22a66a4516767e8b77ce97cd81d68d1\nWe continue to wade through the 2025 Q3 earnings cycle, which has been largely positive so far. Several companies, inlcuding these two, have posted results that shattered previous records.",
+    "metadata": {
+      "title": "Q3 Earnings: These Companies Posted Record Breaking Results",
+      "published_at": "2025-11-11T16:15:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bfba028441a108ce797a4767a2c1699bc22a66a4516767e8b77ce97cd81d68d1",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6f96318e-f1b6-46b7-ad86-2221396bd32e",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T14:40:04Z | Yahoo\nTitle: Is CB Financial Services (CBFV) Stock Outpacing Its Finance Peers This Year?\nURL: https://finnhub.io/api/news?id=da46f896fce16063204c3a09075fe0a0e3e1dea9fbee3a9ffced3af22c8e6901\nHere is how CB Financial Services (CBFV) and American Express (AXP) have performed compared to their sector so far this year.",
+    "metadata": {
+      "title": "Is CB Financial Services (CBFV) Stock Outpacing Its Finance Peers This Year?",
+      "published_at": "2025-11-11T14:40:04Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da46f896fce16063204c3a09075fe0a0e3e1dea9fbee3a9ffced3af22c8e6901",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f5a57d20-298a-42eb-91d2-32b0b71967df",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T14:00:44Z | Benzinga\nTitle: What's Driving the Market Sentiment Around American Express Co?\nURL: https://finnhub.io/api/news?id=0c276448e12e3832785b0cd2bb14177c8f48f17eb4da0157749964df5c445eda\n ",
+    "metadata": {
+      "title": "What's Driving the Market Sentiment Around American Express Co?",
+      "published_at": "2025-11-11T14:00:44Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=0c276448e12e3832785b0cd2bb14177c8f48f17eb4da0157749964df5c445eda",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6ce439f3-4a07-4a43-bd20-619c31f5381e",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T13:30:02Z | Yahoo\nTitle: If You Invested $1000 in American Express a Decade Ago, This is How Much It'd Be Worth Now\nURL: https://finnhub.io/api/news?id=4af4d7d635838c3987c40fe218497fd11430bea7646f8680772f2f6e418b04ba\nWhy investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
+    "metadata": {
+      "title": "If You Invested $1000 in American Express a Decade Ago, This is How Much It'd Be Worth Now",
+      "published_at": "2025-11-11T13:30:02Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4af4d7d635838c3987c40fe218497fd11430bea7646f8680772f2f6e418b04ba",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b5cd6974-fd82-47a7-9a40-2125cb7761b6",
+    "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+    "source_type": "news",
+    "text": "[NEWS] 2025-11-11T11:13:38Z | Yahoo\nTitle: Can Amex’s 23% 2025 Rally Be Justified After Recent Travel Partnerships?\nURL: https://finnhub.io/api/news?id=4a11fb185300ad1f66019c5097a352d025eb01fb136bae403422681bcf6bf252\nCurious whether American Express stock is a smart buy right now? Let’s dig into what the numbers and market momentum are really telling us. Shares have surged 16.3% over the last month and are up a remarkable 23.3% year-to-date, building on a robust 26.9% gain in the past year. Much of this recent upward movement has been driven by a wave of optimism around consumer spending and positive headlines highlighting American Express’s strategic partnerships with travel and lifestyle brands...",
+    "metadata": {
+      "title": "Can Amex’s 23% 2025 Rally Be Justified After Recent Travel Partnerships?",
+      "published_at": "2025-11-11T11:13:38Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4a11fb185300ad1f66019c5097a352d025eb01fb136bae403422681bcf6bf252",
+      "ticker": "AXP"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d6e1a5fa-0853-4d18-8b8f-ad7252f73638",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "[FILING] AXP 10-Q | Filed: 2025-10-17 | Accepted: 2025-10-17T16:24:18.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/axp-20250930.htm",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-10-17",
+      "accepted_at": "2025-10-17T16:24:18.000Z",
+      "accession_number": "0000004962-25-000222",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/axp-20250930.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-10-17",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "82d2713d-0d05-4801-86f1-a90f80581ea8",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) 1 Item 3. Quantitative and Qualitative Disclosures about Market Risk 74 Item 4. Controls and Procedures 74 Part II. Other Information Item 1. Legal Proceedings 75 Item 1A. Risk Factors 75 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 76 Item 5. Other Information 77 Item 6. Exhibits 78 Signatures 79 Throughout this report the terms “American Express,” “we,” “our” or “us,” refer to American Express Company and its subsidiaries on a consolidated basis, unless stated or the context implies otherwise. The use of the term “partner” or “partnering” in this report does not mean or imply a formal legal partnership, and is not meant in any way to alter the terms of American Express’ relationship with any third parties. Amounts presented in this report may not sum and percentages may not recalculate due to rounding. Refer to the “MD&A ― Glossary of Selected Terminology” for the definitions of other key terms used in this report. Table of Contents PART I. FINANCIAL INFORMATION ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (MD&A) Business Introduction American Express is a global payments and premium lifestyle brand powered by technology. Founded in 1850 and headquartered in New York, American Express’ card-issuing, merchant-acquiring and card network businesses offer products and services to a broad range of customers, including consumers, small businesses, mid-sized companies and large corporations around the world. Our range of products and services includes: • Credit card, charge card, banking and other payment and financing products • Merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services • Network services • Travel and lifestyle services • Expense management products and services • Other services, such as the design and operation of customer loyalty programs These products and services are offered through various channels, including mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone and direct response advertising. We compete in the global payments industry with networks, issuers, acquirer",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-10-17",
+      "accepted_at": "2025-10-17T16:24:18.000Z",
+      "accession_number": "0000004962-25-000222",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/axp-20250930.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-10-17",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "83f4d458-7d2d-4265-894e-9c4b6d7c4c1b",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 75 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 76 Item 5. Other Information 77 Item 6. Exhibits 78 Signatures 79 Throughout this report the terms “American Express,” “we,” “our” or “us,” refer to American Express Company and its subsidiaries on a consolidated basis, unless stated or the context implies otherwise. The use of the term “partner” or “partnering” in this report does not mean or imply a formal legal partnership, and is not meant in any way to alter the terms of American Express’ relationship with any third parties. Amounts presented in this report may not sum and percentages may not recalculate due to rounding. Refer to the “MD&A ― Glossary of Selected Terminology” for the definitions of other key terms used in this report. Table of Contents PART I. FINANCIAL INFORMATION ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (MD&A) Business Introduction American Express is a global payments and premium lifestyle brand powered by technology. Founded in 1850 and headquartered in New York, American Express’ card-issuing, merchant-acquiring and card network businesses offer products and services to a broad range of customers, including consumers, small businesses, mid-sized companies and large corporations around the world. Our range of products and services includes: • Credit card, charge card, banking and other payment and financing products • Merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services • Network services • Travel and lifestyle services • Expense management products and services • Other services, such as the design and operation of customer loyalty programs These products and services are offered through various channels, including mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone and direct response advertising. We compete in the global payments industry with networks, issuers, acquirers and other payment service providers and methods of payment, including paper-based transactions (e.g., cash and checks) and electronic transfers (e.g., wire transfers and Automated Clearing House (ACH)), as well as evolving and growing alternative mechani",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-10-17",
+      "accepted_at": "2025-10-17T16:24:18.000Z",
+      "accession_number": "0000004962-25-000222",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/axp-20250930.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-10-17",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cfd7431b-e3df-455b-b253-58ecb96831bb",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "[FILING] AXP 10-Q | Filed: 2025-07-18 | Accepted: 2025-07-18T16:40:32.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/4962/000000496225000083/axp-20250630.htm",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-18",
+      "accepted_at": "2025-07-18T16:40:32.000Z",
+      "accession_number": "0000004962-25-000083",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000083/axp-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-18",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a51fc80b-9cb0-4c60-bf48-3f1ee5aead86",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) 1 Item 3. Quantitative and Qualitative Disclosures about Market Risk 74 Item 4. Controls and Procedures 74 Part II. Other Information Item 1. Legal Proceedings 75 Item 1A. Risk Factors 75 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 76 Item 5. Other Information 77 Item 6. Exhibits 78 Signatures 79 Throughout this report the terms “American Express,” “we,” “our” or “us,” refer to American Express Company and its subsidiaries on a consolidated basis, unless stated or the context implies otherwise. The use of the term “partner” or “partnering” in this report does not mean or imply a formal legal partnership, and is not meant in any way to alter the terms of American Express’ relationship with any third parties. The sum of the components reported across periods in our Quarterly Reports on Form 10-Q may not equal the year-to-date amounts provided in this report due to rounding. Refer to the “MD&A ― Glossary of Selected Terminology” for the definitions of other key terms used in this report. Table of Contents PART I. FINANCIAL INFORMATION ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (MD&A) Business Introduction American Express is a global payments and premium lifestyle brand powered by technology. Founded in 1850 and headquartered in New York, American Express’ card-issuing, merchant-acquiring and card network businesses offer products and services to a broad range of customers, including consumers, small businesses, mid-sized companies and large corporations around the world. Our range of products and services includes: • Credit card, charge card, banking and other payment and financing products • Merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services • Network services • Travel and lifestyle services • Expense management products and services • Other services, such as the design and operation of customer loyalty programs These products and services are offered through various channels, including mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone and direct response advertising. We co",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-18",
+      "accepted_at": "2025-07-18T16:40:32.000Z",
+      "accession_number": "0000004962-25-000083",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000083/axp-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-18",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "69190233-72fd-46c3-8206-aad2ba7122b0",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 75 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 76 Item 5. Other Information 77 Item 6. Exhibits 78 Signatures 79 Throughout this report the terms “American Express,” “we,” “our” or “us,” refer to American Express Company and its subsidiaries on a consolidated basis, unless stated or the context implies otherwise. The use of the term “partner” or “partnering” in this report does not mean or imply a formal legal partnership, and is not meant in any way to alter the terms of American Express’ relationship with any third parties. The sum of the components reported across periods in our Quarterly Reports on Form 10-Q may not equal the year-to-date amounts provided in this report due to rounding. Refer to the “MD&A ― Glossary of Selected Terminology” for the definitions of other key terms used in this report. Table of Contents PART I. FINANCIAL INFORMATION ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (MD&A) Business Introduction American Express is a global payments and premium lifestyle brand powered by technology. Founded in 1850 and headquartered in New York, American Express’ card-issuing, merchant-acquiring and card network businesses offer products and services to a broad range of customers, including consumers, small businesses, mid-sized companies and large corporations around the world. Our range of products and services includes: • Credit card, charge card, banking and other payment and financing products • Merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services • Network services • Travel and lifestyle services • Expense management products and services • Other services, such as the design and operation of customer loyalty programs These products and services are offered through various channels, including mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone and direct response advertising. We compete in the global payments industry with networks, issuers, acquirers and other payment service providers and methods of payment, including paper-based transactions (e.g., cash and checks) and electronic transfers (e.g., wire transfers and Automated Clea",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-07-18",
+      "accepted_at": "2025-07-18T16:40:32.000Z",
+      "accession_number": "0000004962-25-000083",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000083/axp-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-07-18",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "3e68d04f-6524-4680-9867-0e415cf198fd",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "[FILING] AXP 10-Q | Filed: 2025-04-18 | Accepted: 2025-04-18T16:21:54.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/4962/000000496225000045/axp-20250331.htm",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-18",
+      "accepted_at": "2025-04-18T16:21:54.000Z",
+      "accession_number": "0000004962-25-000045",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000045/axp-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-18",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b3eaa790-6f68-427d-aced-51ec16da4995",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) 1 Item 3. Quantitative and Qualitative Disclosures about Market Risk 70 Item 4. Controls and Procedures 70 Part II. Other Information Item 1. Legal Proceedings 71 Item 1A. Risk Factors 71 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 72 Item 5. Other Information 73 Item 6. Exhibits 74 Signatures 75 Throughout this report the terms “American Express,” “we,” “our” or “us,” refer to American Express Company and its subsidiaries on a consolidated basis, unless stated or the context implies otherwise. The use of the term “partner” or “partnering” in this report does not mean or imply a formal legal partnership, and is not meant in any way to alter the terms of American Express’ relationship with any third parties. Refer to the “MD&A ― Glossary of Selected Terminology” for the definitions of other key terms used in this report. Table of Contents PART I. FINANCIAL INFORMATION ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (MD&A) Business Introduction American Express is a globally integrated payments company with card-issuing, merchant-acquiring and card network businesses that offer products and services to a broad range of customers, including consumers, small businesses, mid-sized companies and large corporations around the world. Our range of products and services includes: • Credit card, charge card, banking and other payment and financing products • Merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services • Network services • Travel and lifestyle services • Expense management products and services • Other services, such as the design and operation of customer loyalty programs These products and services are offered through various channels, including mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone and direct response advertising. We compete in the global payments industry with networks, issuers, acquirers and other payment service providers and methods of payment, including paper-based transactions (e.g., cash and checks) and electronic transfers (e.g., wire transfers and Automated C",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-18",
+      "accepted_at": "2025-04-18T16:21:54.000Z",
+      "accession_number": "0000004962-25-000045",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000045/axp-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-18",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8c7bbf6f-4aeb-4d89-ab67-ef3df85adec3",
+    "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 71 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 72 Item 5. Other Information 73 Item 6. Exhibits 74 Signatures 75 Throughout this report the terms “American Express,” “we,” “our” or “us,” refer to American Express Company and its subsidiaries on a consolidated basis, unless stated or the context implies otherwise. The use of the term “partner” or “partnering” in this report does not mean or imply a formal legal partnership, and is not meant in any way to alter the terms of American Express’ relationship with any third parties. Refer to the “MD&A ― Glossary of Selected Terminology” for the definitions of other key terms used in this report. Table of Contents PART I. FINANCIAL INFORMATION ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (MD&A) Business Introduction American Express is a globally integrated payments company with card-issuing, merchant-acquiring and card network businesses that offer products and services to a broad range of customers, including consumers, small businesses, mid-sized companies and large corporations around the world. Our range of products and services includes: • Credit card, charge card, banking and other payment and financing products • Merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services • Network services • Travel and lifestyle services • Expense management products and services • Other services, such as the design and operation of customer loyalty programs These products and services are offered through various channels, including mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone and direct response advertising. We compete in the global payments industry with networks, issuers, acquirers and other payment service providers and methods of payment, including paper-based transactions (e.g., cash and checks) and electronic transfers (e.g., wire transfers and Automated Clearing House (ACH)), as well as evolving and growing alternative mechanisms, systems and products that leverage new technologies, business models and customer relationships to create payment, financing or banking solutions. The payments industry continues",
+    "metadata": {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "form_type": "10-Q",
+      "filed_at": "2025-04-18",
+      "accepted_at": "2025-04-18T16:21:54.000Z",
+      "accession_number": "0000004962-25-000045",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000045/axp-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-04-18",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ed539535-c55a-4a33-8f9a-0bbf4da971f4",
+    "source_id": "c009ebd5-23ce-47bd-be64-0bdfd8bc95ef",
+    "source_type": "price_data",
+    "text": "Price history for SPY from 2024-11-12 to 2025-11-12: Opening price on 2024-11-12: $596.90, Closing price on 2025-11-12: $683.38. 52-week high: $689.70, 52-week low: $481.80.",
+    "metadata": {
+      "ticker": "SPY",
+      "from_date": "2024-11-12",
+      "to_date": "2025-11-12",
+      "data_points": 251,
+      "price_start": 596.9,
+      "price_end": 683.38,
+      "price_high": 689.7,
+      "price_low": 481.8,
+      "series_role": "benchmark",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

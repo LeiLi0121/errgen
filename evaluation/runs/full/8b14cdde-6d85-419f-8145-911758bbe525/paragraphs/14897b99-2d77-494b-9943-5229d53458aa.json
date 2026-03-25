@@ -1,0 +1,61 @@
+{
+  "paragraph_id": "14897b99-2d77-494b-9943-5229d53458aa",
+  "section_name": "Financial Analysis",
+  "text": "Cash flow quality remains exceptional, with Q3 2025 operating cash flow of $27,867,000,000 and free cash flow of $24,405,000,000. The free cash flow margin of 25.95% indicates strong conversion of revenue into distributable cash. Capital expenditure for the quarter was $3,462,000,000, reflecting disciplined investment in infrastructure while maintaining substantial cash generation. This cash flow profile supports continued capital return programs, with $21,075,000,000 in stock buybacks executed during Q3.",
+  "citations": [
+    {
+      "citation_id": "45e35e68-a077-4ed3-9b2d-1461edab2902",
+      "chunk_id": "15129b29-1e1b-4a14-8c89-7753b3d1172b",
+      "source_id": "c4bf93a8-4274-4aae-9481-b65da4da65bb",
+      "source_type": "cash_flow",
+      "text_snippet": "AAPL Operating Cash Flow for Q3: $27,867,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ec6a0d82-e53c-4f7c-9be9-96ac6fdee53b",
+      "chunk_id": "0625ce0b-8132-441f-94e3-e3a265fe1a1f",
+      "source_id": "c4bf93a8-4274-4aae-9481-b65da4da65bb",
+      "source_type": "cash_flow",
+      "text_snippet": "AAPL Capital Expenditure for Q3: $-3,462,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b3d12303-b076-4bef-8251-16778005f661",
+      "chunk_id": "c65003f3-0888-4d21-bd9d-b23a0ce2fb1e",
+      "source_id": "c4bf93a8-4274-4aae-9481-b65da4da65bb",
+      "source_type": "cash_flow",
+      "text_snippet": "AAPL Free Cash Flow for Q3: $24,405,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4eb979fb-37b5-42e0-b246-cca0a29723fd",
+      "chunk_id": "552089a7-a14c-461f-b312-c739c97cc1d1",
+      "source_id": "c4bf93a8-4274-4aae-9481-b65da4da65bb",
+      "source_type": "cash_flow",
+      "text_snippet": "AAPL Stock Buybacks for Q3: $-21,075,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "15129b29-1e1b-4a14-8c89-7753b3d1172b",
+    "0625ce0b-8132-441f-94e3-e3a265fe1a1f",
+    "c65003f3-0888-4d21-bd9d-b23a0ce2fb1e",
+    "552089a7-a14c-461f-b312-c739c97cc1d1"
+  ],
+  "calc_ids": [
+    "d94d6625-54f5-4e5f-8466-0ad11b498d7e"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9f513cd1-5840-4093-837e-75a21f52903c",
+      "paragraph_id": "14897b99-2d77-494b-9943-5229d53458aa",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T01:59:48.701382",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

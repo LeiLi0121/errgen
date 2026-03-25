@@ -1,0 +1,89 @@
+{
+  "paragraph_id": "1bc5eea7-5c8e-4bfb-8025-61944c2bddea",
+  "section_name": "Risk Analysis",
+  "text": "Credit risk is inherent to American Express's business model as the company provides charge and credit payment card products to consumers, small businesses, mid-sized companies, and large corporations worldwide. As a credit services provider, the company is exposed to potential loan losses and charge-offs that could impact profitability during economic downturns. The Q3 2025 net income of $2,902,000,000 represents a 27.86% net margin, but this profitability could be pressured if credit quality deteriorates. Specific credit loss metrics and charge-off rates are not available in the provided evidence to quantify this risk more precisely.",
+  "citations": [
+    {
+      "citation_id": "20377422-9dfe-48e6-8830-6566a20de417",
+      "chunk_id": "ce33c581-a4d6-46ea-a474-d9b7cec14c65",
+      "source_id": "2c10c6fd-e632-434e-90e1-03d2554e4a85",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company, together with its subsidiaries, provides charge and credit payment card products, and travel-related services worldwide. The company operates through three segments: Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services. Its pr",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "dd73bce4-9833-4510-9ec0-329911ebff33",
+      "chunk_id": "76bd6268-7688-44db-8f5b-c3916cf9c250",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AXP | Period: Q3 2025 | Date: 2025-09-30\n  Revenue:            $10,415,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,902,000,000 (margin 27.86%)\n  EBITDA:             N/A\n  EPS:                4.14\n  R&D Expenses:   ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "727654c6-2215-4e6b-a58d-5b9547c507d2",
+      "chunk_id": "6a85947e-0100-46e0-869a-474581064db5",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Income for Q3 2025: $2,902,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2758a6fa-bd6a-4315-84ad-5e9904491137",
+      "chunk_id": "070de5ab-c168-4add-93cb-ccf775004a45",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2025: 27.86%",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ce33c581-a4d6-46ea-a474-d9b7cec14c65",
+    "76bd6268-7688-44db-8f5b-c3916cf9c250",
+    "6a85947e-0100-46e0-869a-474581064db5",
+    "070de5ab-c168-4add-93cb-ccf775004a45"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "8e2bf7c5-84e4-44ba-9db0-17af4ade15ff",
+      "paragraph_id": "1bc5eea7-5c8e-4bfb-8025-61944c2bddea",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "9d385524-a2b1-4899-9721-77a102a6ab3c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "1bc5eea7-5c8e-4bfb-8025-61944c2bddea",
+          "offending_span": "As a credit services provider, the company is exposed to potential loan losses and charge-offs that could impact profitability during economic downturns.",
+          "explanation": "The cited chunks (C002, C003, C005, C006) do not contain any information about credit risk exposure, loan losses, charge-offs, or economic downturn impacts. C002 describes the business model and segments, while C003, C005, and C006 contain financial data only. None of these chunks support the specific credit risk claims made in this sentence.",
+          "relevant_chunk_ids": [
+            "ce33c581-a4d6-46ea-a474-d9b7cec14c65",
+            "76bd6268-7688-44db-8f5b-c3916cf9c250",
+            "6a85947e-0100-46e0-869a-474581064db5",
+            "070de5ab-c168-4add-93cb-ccf775004a45"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either remove the citation for this sentence or add chunks that specifically discuss American Express's credit risk exposure, loan loss provisions, or charge-off metrics. Alternatively, rephrase to indicate this is general industry knowledge rather than evidence-based claims."
+        },
+        {
+          "issue_id": "c1d9eca7-977d-4e7a-97aa-962d04fef27b",
+          "issue_type": "unsupported_claim",
+          "severity": "minor",
+          "paragraph_id": "1bc5eea7-5c8e-4bfb-8025-61944c2bddea",
+          "offending_span": "consumers, small businesses, mid-sized companies, and large corporations worldwide",
+          "explanation": "C002 mentions the three business segments (Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services) but does not explicitly list the customer categories as 'consumers, small businesses, mid-sized companies, and large corporations.' This specific breakdown is not found in the cited evidence.",
+          "relevant_chunk_ids": [
+            "ce33c581-a4d6-46ea-a474-d9b7cec14c65"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite additional chunks that specify these customer categories, or rephrase to match the segment names from C002 (e.g., 'through its Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services segments')."
+        }
+      ],
+      "checked_at": "2026-03-24T20:09:49.500294",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "f52789bb-e4ff-4c67-9817-0f60e027f676",
+  "section_name": "Recent Developments",
+  "text": "Bank of America continues to demonstrate investment banking competitiveness through major transaction participation. On October 21, 2025, the bank was named among the arrangers for a $12.25 billion debt facility supporting Blackstone and TPG's Hologic buyout, working alongside Citigroup and Barclays. This transaction underscores BAC's positioning in large-scale corporate finance deals during Q3 2025, a period when peer institutions including JPMorgan and Goldman Sachs reported record investment banking fees.",
+  "citations": [
+    {
+      "citation_id": "b0b1cda2-9853-4cd8-a55c-c431d3a6d602",
+      "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fde13450-d1ce-43ef-8260-6a024357e774",
+      "chunk_id": "4d93aceb-2038-4e72-8657-229c76137853",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-21T12:04:13Z | Benzinga\nTitle: 'Citi, Barclays Among Banks Leading Hologic $12 Billion Debt Deal'- Bloomberg\nURL: https://finnhub.io/api/news?id=561320152539181aa8c7e060fc9fda37d52ade4c29c9f482883b92761a1e161f\nhttps://www.bloomberg.com/news/articles/2025-10-21/citi-barclays-among-bank",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "221f91ea-26ae-48ab-ac3a-237c64e4c1a8",
+      "chunk_id": "2a6dee8b-a115-4254-ba95-6e7f93f30eec",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-20T13:40:00Z | Yahoo\nTitle: JPM, GS & Others Witness Record Q3 IB Fees: Will the Trend Continue?\nURL: https://finnhub.io/api/news?id=66eb5f7aab058c2cbc3eace5e01cfa98ab170186ec2df5210da64899257eb1c6\nJPMorgan, Goldman and others record a surge in IB fees in Q3, fueling hopes that dealma",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+    "4d93aceb-2038-4e72-8657-229c76137853",
+    "2a6dee8b-a115-4254-ba95-6e7f93f30eec"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

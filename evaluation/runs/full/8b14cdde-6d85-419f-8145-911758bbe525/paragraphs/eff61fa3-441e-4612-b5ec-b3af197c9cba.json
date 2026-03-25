@@ -1,0 +1,64 @@
+{
+  "paragraph_id": "eff61fa3-441e-4612-b5ec-b3af197c9cba",
+  "section_name": "Financial Analysis",
+  "text": "Profitability metrics remain robust despite revenue pressure. Q3 2025 gross margin stood at 46.49%, while operating margin reached 29.99% and net margin came in at 24.92%. These margins demonstrate Apple's pricing power and operational efficiency, with the company converting nearly one-quarter of revenue into net income. The EBITDA margin of 32.82% further underscores strong underlying cash generation capability before non-cash charges.",
+  "citations": [
+    {
+      "citation_id": "30818e04-c695-426c-9362-575414a43659",
+      "chunk_id": "81a1256d-c8d8-4030-a549-6b9b4780b589",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Gross Profit for Q3: $43,718,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "43cb9cd6-85e0-4ffb-b434-a0805d969880",
+      "chunk_id": "7a5cc602-51be-4c1b-8b71-da806993e72e",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Operating Income for Q3: $28,202,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2c659b25-d2ed-468a-b662-d714bc382498",
+      "chunk_id": "5c46bef6-1a32-4990-9430-9abaa58ed654",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Net Income for Q3: $23,434,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "48d927de-e24e-48cf-a599-af543eb0e827",
+      "chunk_id": "14b20592-af90-47ad-844e-bc155961ded6",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL EBITDA for Q3: $30,861,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "81a1256d-c8d8-4030-a549-6b9b4780b589",
+    "7a5cc602-51be-4c1b-8b71-da806993e72e",
+    "5c46bef6-1a32-4990-9430-9abaa58ed654",
+    "14b20592-af90-47ad-844e-bc155961ded6"
+  ],
+  "calc_ids": [
+    "bed8ff58-3de9-4c18-9ce5-13004a21e93b",
+    "6a9d2770-1049-40fd-9111-ecfef0c04b70",
+    "ed38f998-3eec-4062-aa8f-5bcf6b0c1487",
+    "c35e6b24-78be-4fb8-ae50-f260f19d8762"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "1525366f-8aa1-4171-b325-4301807e6c12",
+      "paragraph_id": "eff61fa3-441e-4612-b5ec-b3af197c9cba",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T01:59:20.523757",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

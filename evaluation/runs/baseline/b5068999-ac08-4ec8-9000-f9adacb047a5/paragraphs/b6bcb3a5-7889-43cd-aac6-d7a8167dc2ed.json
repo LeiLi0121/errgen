@@ -1,0 +1,65 @@
+{
+  "paragraph_id": "b6bcb3a5-7889-43cd-aac6-d7a8167dc2ed",
+  "section_name": "Risk Analysis",
+  "text": "Financial risks include elevated leverage and liquidity constraints. Apple's debt-to-equity ratio stood at 1.54x as of Q3 2025, with total debt of $101.7B against stockholders' equity of $65.8B. Net debt after cash equivalents was $65.4B. More concerning is the current ratio of 0.87x, indicating current liabilities of $141.1B exceed current assets of $122.5B. This working capital deficit could limit financial flexibility during periods of stress. Additionally, revenue declined 1.39% YoY in Q3 2025 to $94.0B, while net income fell 5.43% YoY to $23.4B, suggesting margin pressure or volume challenges.",
+  "citations": [
+    {
+      "citation_id": "1513e66e-8b24-494d-962a-142cf2fe4c6f",
+      "chunk_id": "d9eae979-0f46-4015-8359-aa4fe3879768",
+      "source_id": "989a3d90-72e0-4991-a909-4e169a76fc67",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – AAPL | Period: Q3 | Date: 2025-06-28\n  Total Assets:              $331,495,000,000\n  Total Liabilities:         $265,665,000,000\n  Total Stockholders' Equity:$65,830,000,000\n  Cash & Equivalents:        $36,269,000,000\n  Short-Term Investments:    $19,103,000,000\n  Total Debt:       ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8560f2c6-467e-481f-892e-411bc1066ea0",
+      "chunk_id": "095975b1-fdf8-4120-ac04-e58d1773582b",
+      "source_id": "989a3d90-72e0-4991-a909-4e169a76fc67",
+      "source_type": "balance_sheet",
+      "text_snippet": "AAPL Stockholders' Equity for Q3: $65,830,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "bca737a4-71c6-4821-8335-48270758c3be",
+      "chunk_id": "63ef692a-a7d3-423b-80e3-cf610b8e1fb5",
+      "source_id": "989a3d90-72e0-4991-a909-4e169a76fc67",
+      "source_type": "balance_sheet",
+      "text_snippet": "AAPL Total Debt for Q3: $101,698,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "00cab2e3-9aa4-435b-868e-f4b5d72670d4",
+      "chunk_id": "5fc40431-71bf-4648-83ab-2652545d3b7f",
+      "source_id": "989a3d90-72e0-4991-a909-4e169a76fc67",
+      "source_type": "balance_sheet",
+      "text_snippet": "AAPL Total Current Assets for Q3: $122,491,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "57bf20a8-715d-4f7b-93cb-f0cf15dd1e68",
+      "chunk_id": "8c464ad6-2fe8-4d34-8f60-e2cf2bd504b7",
+      "source_id": "989a3d90-72e0-4991-a909-4e169a76fc67",
+      "source_type": "balance_sheet",
+      "text_snippet": "AAPL Total Current Liabilities for Q3: $141,120,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "d9eae979-0f46-4015-8359-aa4fe3879768",
+    "095975b1-fdf8-4120-ac04-e58d1773582b",
+    "63ef692a-a7d3-423b-80e3-cf610b8e1fb5",
+    "5fc40431-71bf-4648-83ab-2652545d3b7f",
+    "8c464ad6-2fe8-4d34-8f60-e2cf2bd504b7"
+  ],
+  "calc_ids": [
+    "1303e190-fc9a-4a91-8432-df8c44547b21",
+    "dc03b87d-7408-4dcf-afd0-b3ac2ba633ca",
+    "7228eb1b-9e9b-43f8-b63c-9c6f54202071",
+    "ef17a352-1a71-4ba8-a314-64cf8451801c",
+    "616d9174-860c-4e6f-a1b3-b344230bf2a0"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

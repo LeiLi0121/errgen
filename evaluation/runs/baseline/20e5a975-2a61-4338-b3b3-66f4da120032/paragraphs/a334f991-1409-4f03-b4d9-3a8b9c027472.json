@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "a334f991-1409-4f03-b4d9-3a8b9c027472",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Strategic positioning receives support from analyst community, with UBS lifting its price target on Amazon stock, signaling confidence in the company's strength and growth prospects. Management under CEO Andrew R. Jassy continues to lead a workforce of 1.56 million full-time employees. The company actively defends its market position, as evidenced by Amazon publishing a rebuttal to reports alleging price increases following tariff announcements, indicating management's commitment to maintaining competitive pricing and brand reputation.",
+  "citations": [
+    {
+      "citation_id": "90bfbe64-2bbf-45de-87f2-8244225c635d",
+      "chunk_id": "a8fc55a6-6af4-496a-837e-7d79ed933df1",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T19:27:46Z | Yahoo\nTitle: Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS\nURL: https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca\nUBS Signals Amazon Strength, Lifts Target and Sparks Rally",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5b4fbcf1-184e-4afd-8b4c-4bac11a88390",
+      "chunk_id": "e1cd0a40-5c4a-41f4-bbab-c714aab366f2",
+      "source_id": "423ba4e8-654d-4d1f-8b8b-89d848d6e03e",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: http://www.aboutamazon.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "76b40154-29c7-4a78-9f47-3d8dfc7c291f",
+      "chunk_id": "876c1a32-e177-497e-a386-94e61d785147",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T18:39:13Z | Yahoo\nTitle: Amazon disputes report that it raised prices of popular items since Trump took office\nURL: https://finnhub.io/api/news?id=ceb2fb5d2935eb13922fbe938540222ae64ab7f341a2f88fdc9edeb88cf0c557\nAmazon published a lengthy rebuttal to a WSJ report that found that Am",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a8fc55a6-6af4-496a-837e-7d79ed933df1",
+    "e1cd0a40-5c4a-41f4-bbab-c714aab366f2",
+    "876c1a32-e177-497e-a386-94e61d785147"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

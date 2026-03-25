@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "b137ee50-50a9-4376-aa9d-624c5a4cdbba",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Key growth drivers center on AI-powered AWS expansion and advertising revenue, according to Q2 earnings preview analysis. Market commentary suggests Amazon is positioned to benefit from rising demand for chips and AI tools as the broader technology sector increases AI spending. The company's inclusion among the 'Magnificent Seven' technology stocks underscores its competitive positioning, with combined market value of these four tech behemoths reporting earnings representing approximately $11.3 trillion in market capitalization.",
+  "citations": [
+    {
+      "citation_id": "25ad7a2f-76be-48cf-9b3c-8bf727ded4c0",
+      "chunk_id": "955c6c68-c3b3-4980-93c3-d362b891839a",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T18:44:10Z | Yahoo\nTitle: Amazon Q2 Earnings Preview: What to Expect From Upcoming Report\nURL: https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6\nAI?powered AWS growth and ad revenue underpin upbeat Q2 outlook for Amazon",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "98cba5ca-bce0-450d-bac8-b5702ff733a6",
+      "chunk_id": "f5cf9bfe-19c6-44c2-b0d8-f81d9aa20e76",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T20:46:08Z | Yahoo\nTitle: Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.\nURL: https://finnhub.io/api/news?id=0c149f3507ff4140b781c206eca97d91ca425f88c2aeb83513659f43b3ce0c7c\nAs Google boosts AI spending, Amazon looks primed to gain from rising d",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a72ec001-1fea-4d4a-9f91-f1a5c96e0519",
+      "chunk_id": "a9ce2312-771b-4ead-98fd-94b60d77fd82",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T22:54:00Z | Yahoo\nTitle: MSFT, META, AAPL, AMZN: One Chart Stands Above the Others\nURL: https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e\n4 Magnificent 7 stocks are reporting earnings this week. They aren't all equal.",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a9149c2e-ccda-4060-a2dc-b0e650c9e8e6",
+      "chunk_id": "11857cce-18b0-40c5-b39c-8901455831c1",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T19:10:24Z | Yahoo\nTitle: S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings\nURL: https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83\n(Bloomberg) -- The S&P 500 Index’s relentless advance to record highs faces a crucial test th",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "955c6c68-c3b3-4980-93c3-d362b891839a",
+    "f5cf9bfe-19c6-44c2-b0d8-f81d9aa20e76",
+    "a9ce2312-771b-4ead-98fd-94b60d77fd82",
+    "11857cce-18b0-40c5-b39c-8901455831c1"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

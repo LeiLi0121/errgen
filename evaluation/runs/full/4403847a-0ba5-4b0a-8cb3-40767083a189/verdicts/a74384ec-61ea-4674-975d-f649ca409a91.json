@@ -1,0 +1,61 @@
+{
+  "verdict_id": "a74384ec-61ea-4674-975d-f649ca409a91",
+  "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "08801de1-78d2-490b-a603-829af26774ee",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "R&D expenses of $610,000,000 (C007)",
+      "explanation": "The paragraph cites C007 for Q2 2025 R&D expenses, but C007 is not in the cited chunk refs list. The correct chunk containing this data is C009, which IS in the cited refs.",
+      "relevant_chunk_ids": [
+        "705c6a33-bda1-4ee7-9c8b-cc1e52937c44"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C007) to (C009) to match the actual evidence chunk containing Q2 2025 R&D expenses."
+    },
+    {
+      "issue_id": "5a79b413-a64a-4ce9-bc55-163d409aecce",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "Q1 2025's $568,000,000 (C014)",
+      "explanation": "The paragraph cites C014 for Q1 2025 R&D expenses, but C014 is not in the cited chunk refs list. The correct chunk containing this data is C016, which IS in the cited refs.",
+      "relevant_chunk_ids": [
+        "e5ab9ad7-ef9d-40fd-aabf-862f9723843c"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C014) to (C016) to match the actual evidence chunk containing Q1 2025 R&D expenses."
+    },
+    {
+      "issue_id": "35dc8343-a3b8-4f48-8291-e08a54890f7a",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "Q3 2024's $524,000,000 (C021)",
+      "explanation": "The paragraph cites C021 for Q3 2024 R&D expenses, but C021 is not in the cited chunk refs list. The correct chunk containing this data is C023, which IS in the cited refs.",
+      "relevant_chunk_ids": [
+        "eae7368e-70d7-40c5-a7c0-168683c2ccae"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C021) to (C023) to match the actual evidence chunk containing Q3 2024 R&D expenses."
+    },
+    {
+      "issue_id": "b8216265-6fcd-4b07-afce-47528cafedf5",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "Q2 2024's $519,000,000 (C028)",
+      "explanation": "The paragraph cites C028 for Q2 2024 R&D expenses, but C028 is not in the cited chunk refs list. The correct chunk containing this data is C030, which IS in the cited refs.",
+      "relevant_chunk_ids": [
+        "75c75204-d374-427c-927a-83a009522dfd"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from (C028) to (C030) to match the actual evidence chunk containing Q2 2024 R&D expenses."
+    }
+  ],
+  "checked_at": "2026-03-24T07:46:08.424470",
+  "iteration": 0
+}

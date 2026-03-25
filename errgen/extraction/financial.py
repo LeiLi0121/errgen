@@ -12,6 +12,7 @@ structured FMP data).  It does use the calculator to compute derived metrics.
 from __future__ import annotations
 
 import logging
+import re
 from typing import Any
 
 from errgen.calculator.finance_calc import (
@@ -29,6 +30,16 @@ from errgen.models import (
 )
 
 logger = logging.getLogger(__name__)
+
+
+def _period_sort_key(period: str) -> tuple[int, int, str]:
+    match = re.match(r"^(Q[1-4]|FY)\s+(\d{4})$", period.strip(), flags=re.IGNORECASE)
+    if match:
+        label = match.group(1).upper()
+        year = int(match.group(2))
+        order = {"Q1": 1, "Q2": 2, "Q3": 3, "Q4": 4, "FY": 5}.get(label, 0)
+        return (year, order, period)
+    return (0, 0, period)
 
 
 class FinancialExtractor:
@@ -159,9 +170,9 @@ class FinancialExtractor:
         # ----------------------------------------------------------------
         # Step 3: build standard calculation requests
         # ----------------------------------------------------------------
-        sorted_income_periods = sorted(income_by_period.keys())
-        sorted_balance_periods = sorted(balance_by_period.keys())
-        sorted_cashflow_periods = sorted(cashflow_by_period.keys())
+        sorted_income_periods = sorted(income_by_period.keys(), key=_period_sort_key)
+        sorted_balance_periods = sorted(balance_by_period.keys(), key=_period_sort_key)
+        sorted_cashflow_periods = sorted(cashflow_by_period.keys(), key=_period_sort_key)
 
         # YoY revenue growth table
         revenue_series = []

@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "ce07ae4e-e19b-4d92-b3de-82ad2703a77b",
+  "section_name": "Recent Developments",
+  "text": "Regulatory and trade policy developments add another layer of uncertainty. President Trump is preparing industry-specific tariffs alongside country-by-country duties expected to take effect by August 1, 2025, which could impact Apple's global supply chain and product pricing. While G-20 finance ministers committed to international policy cooperation amid escalating trade tensions, the tariff environment remains a key risk factor. Analyst commentary indicates iPhone demand has been propped up by pull-ahead buying ahead of potential tariff implementation, though this may create demand headwinds in subsequent quarters.",
+  "citations": [
+    {
+      "citation_id": "ac96b646-950b-457a-a322-0a02816cc037",
+      "chunk_id": "60fe2458-7297-47c0-bae0-73d727549776",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T16:40:00Z | Yahoo\nTitle: Trump Aims Tariff Double Whammy at Industries, Nations by Aug. 1\nURL: https://finnhub.io/api/news?id=58d65d3f0f8a9363ad8c970eee84c3062854156adc24935412e4f73c5cbc94bf\n(Bloomberg) -- President Donald Trump is readying plans for industry-specific tariffs to ki",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f7263b2a-06af-4625-a6b3-54c0ab99d1a1",
+      "chunk_id": "b393e122-85b8-4f8f-9f35-617852080288",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T15:21:04Z | Yahoo\nTitle: G-20 Communique Delivers Rare Show of Unity Amid Trump Trade War\nURL: https://finnhub.io/api/news?id=4bbb58053c700b3b768ddd0d8f5d9fecb7c989d2c37457408c11497910ea085c\n(Bloomberg) -- The Group of 20 finance ministers and central bank chiefs committed to inter",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e9fae592-4830-449e-b410-7b0b8ac493da",
+      "chunk_id": "45166fe5-a81b-4cde-b426-9789bd58bdc3",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T14:51:38Z | Yahoo\nTitle: Analyst says iPhone demand propped up by pricing, pull-ahead ahead of tariffs\nURL: https://finnhub.io/api/news?id=194dd41b3e5bd73b5d691e2dd020ea11fa7c53ac8ed765587a90647786baab49\nInvesting.com -- Loop Capital analysts said in a note Friday that Apple (NASDA",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "60fe2458-7297-47c0-bae0-73d727549776",
+    "b393e122-85b8-4f8f-9f35-617852080288",
+    "45166fe5-a81b-4cde-b426-9789bd58bdc3"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

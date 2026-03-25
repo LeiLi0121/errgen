@@ -1,0 +1,54 @@
+{
+  "paragraph_id": "9a4c4398-1e5a-48a4-be42-ba3b67979c27",
+  "section_name": "Risk Analysis",
+  "text": "Macro and market conditions present near-term uncertainty for Amazon's stock performance. Market commentary as of July 28, 2025 indicates Wall Street prepared for major earnings and economic data that could shake markets, with Amazon identified among the Magnificent 7 stocks reporting earnings during this period. Broader market sentiment suggests potential volatility, with some analysis indicating August may warrant caution for active investors given post-election seasonality patterns. Amazon's 30-day price return of 4.25% outpaced the SPY benchmark return of 3.58% by 0.67%, though this excess return may not persist amid heightened earnings season scrutiny.",
+  "citations": [
+    {
+      "citation_id": "c845b052-d73f-453a-ab65-dc70ea913614",
+      "chunk_id": "dfe551e8-ede7-4190-8cdf-21e2e85ed4ca",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck\nURL: https://finnhub.io/api/news?id=b557fdb2657f5992a5214e733fe13e0add42bfeeacbb47a38ebc67edde9199a0\nWall Street prepared for major earnings and economic data ahea",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4c533b47-4bf0-491b-b408-de3b42763bcf",
+      "chunk_id": "f0d83c1b-d77a-45fb-85b0-2235ef487ada",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures climb ahead of week poised to shake markets\nURL: https://finnhub.io/api/news?id=da4975e4c6bad2486535417cb14a94aca7e0f6ef527599db5d08bae390ae7deb\nUS stock futures traded flat as Wall Street prepared for major ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c7c767ad-1eff-4daf-9f9b-549d8d74bb31",
+      "chunk_id": "a9ce2312-771b-4ead-98fd-94b60d77fd82",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T22:54:00Z | Yahoo\nTitle: MSFT, META, AAPL, AMZN: One Chart Stands Above the Others\nURL: https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e\n4 Magnificent 7 stocks are reporting earnings this week. They aren't all equal.",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "740b436b-ab8b-405e-a70a-7e3adb97f86c",
+      "chunk_id": "4a5e83fe-2519-431e-90ee-df310446f166",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T22:47:00Z | Yahoo\nTitle: August: Time to Unplug from Markets?\nURL: https://finnhub.io/api/news?id=6d4b1dea0953058233e17e9b2b1ae4c7bdf1f2377e74e8f9d1ad2cd0958f3d9c\nWhile stocks continue to print fresh all-time highs, the 'sell the news' phenomenon, August post-election seasonality, ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "dfe551e8-ede7-4190-8cdf-21e2e85ed4ca",
+    "f0d83c1b-d77a-45fb-85b0-2235ef487ada",
+    "a9ce2312-771b-4ead-98fd-94b60d77fd82",
+    "4a5e83fe-2519-431e-90ee-df310446f166"
+  ],
+  "calc_ids": [
+    "e71481e1-264d-4783-bbd0-d43d1eadb0f0",
+    "52ac6bd1-24d0-463c-b382-197e6851af5a",
+    "114d922d-52c3-4e8d-afae-d4153fa7e318"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

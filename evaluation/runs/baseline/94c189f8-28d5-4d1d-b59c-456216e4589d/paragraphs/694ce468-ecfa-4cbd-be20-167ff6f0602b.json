@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "694ce468-ecfa-4cbd-be20-167ff6f0602b",
+  "section_name": "Company Overview",
+  "text": "American Express Company (Ticker: AXP) | Exchange: NYSE | Sector: Financial Services | Industry: Financial - Credit Services | Market Cap: N/A | CEO: Stephen Joseph Squeri | Full-Time Employees: 75100 | IPO Date: 1972-06-01 | Country: US | Website: https://www.americanexpress.com",
+  "citations": [
+    {
+      "citation_id": "b9274573-196c-463e-b490-c673b6c3008c",
+      "chunk_id": "a9200913-02b3-401c-878d-2667c5ca9e7f",
+      "source_id": "f5ae34cf-2195-453a-8e1b-aa439b693e73",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company (Ticker: AXP) | Exchange: NYSE | Sector: Financial Services | Industry: Financial - Credit Services | Market Cap: N/A | CEO: Stephen Joseph Squeri | Full-Time Employees: 75100 | IPO Date: 1972-06-01 | Country: US | Website: https://www.americanexpress.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a9200913-02b3-401c-878d-2667c5ca9e7f"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

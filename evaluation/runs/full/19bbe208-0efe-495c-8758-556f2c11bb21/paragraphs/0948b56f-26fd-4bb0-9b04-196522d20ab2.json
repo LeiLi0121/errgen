@@ -1,0 +1,97 @@
+{
+  "paragraph_id": "0948b56f-26fd-4bb0-9b04-196522d20ab2",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Material risks temper the investment thesis. The broader technology sector experienced volatility in early February 2026 with an AI-fueled sell-off as investors rotated away from AI-focused stocks toward safer investments. These factors create near-term uncertainty despite strong underlying fundamentals.",
+  "citations": [
+    {
+      "citation_id": "9e7fed20-581c-466b-852c-4d8c6e759fc1",
+      "chunk_id": "3a693174-1a20-4d2d-8eab-27e3c6138988",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T23:45:46Z | Yahoo\nTitle: Stock market today: S&P 500, Nasdaq futures fall after AI-fueled sell-off, with Google earnings on deck\nURL: https://finnhub.io/api/news?id=cb957f0d507d754e358bf8a71ae5df9817a2c9bb261c9765add9c133237806c5\nWall Street is seeing investors turn away from AI da",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b4ecc3c5-d7e4-4021-bcaa-11bd2e4884df",
+      "chunk_id": "5ec952db-478c-424e-a72c-a670ddb58c61",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T23:45:46Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of Google earnings\nURL: https://finnhub.io/api/news?id=41f6bae84457b6dfabac244c9e20d67aabec00cab1c9c97e9456ad878475f0d3\nWall Street is seeing investors turn away from AI darlings toward safer inves",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9143900f-da9b-40fe-b004-1318d0e444a0",
+      "chunk_id": "c3928e80-b17f-44a3-9df3-bf326cb04ac0",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T23:45:46Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures mostly slip as AMD's slide adds to AI malaise ahead of Google earnings\nURL: https://finnhub.io/api/news?id=322a3e34186a34d5879397b4e687fae8922e97178aee23b60c06ea326eefaf39\nWall Street is seeing investors turn",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8a2310dd-66ae-4da8-9383-33d3e7e933b6",
+      "chunk_id": "6cf519b5-754d-48b9-bda3-423de0302bd0",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T22:09:00Z | Yahoo\nTitle: Software and Legal Services Get Crushed. AI Panic Hits the Market.\nURL: https://finnhub.io/api/news?id=f6242f8d5f0cc6cc911c4c7f25b70b609a1c36250dbd30c3f6a06be7854f5156\nWorries that Anthropic’s Claude is targeting the legal profession led to another software",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "3a693174-1a20-4d2d-8eab-27e3c6138988",
+    "5ec952db-478c-424e-a72c-a670ddb58c61",
+    "c3928e80-b17f-44a3-9df3-bf326cb04ac0",
+    "6cf519b5-754d-48b9-bda3-423de0302bd0"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "de8ca187-6670-4f96-a1fb-e3e3a2d507d0",
+      "paragraph_id": "0948b56f-26fd-4bb0-9b04-196522d20ab2",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "cb87567a-35f3-4517-bca4-45cd2cb8f8b1",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "0948b56f-26fd-4bb0-9b04-196522d20ab2",
+          "offending_span": "Regulatory scrutiny intensified as the U.S. Department of Justice and state attorneys general filed an appeal in the landmark antitrust case against Google's search business on February 3, 2026, the same date as this report.",
+          "explanation": "The cited chunks (C027, C028, C029, C035) contain no information about the DOJ appeal, antitrust case, or regulatory filings. These chunks only discuss market volatility and AI-fueled sell-offs. While this fact appears in the Previously Verified Facts section (Recent Developments), it is not supported by the chunks actually cited in this paragraph.",
+          "relevant_chunk_ids": [
+            "3a693174-1a20-4d2d-8eab-27e3c6138988",
+            "5ec952db-478c-424e-a72c-a670ddb58c61",
+            "c3928e80-b17f-44a3-9df3-bf326cb04ac0",
+            "6cf519b5-754d-48b9-bda3-423de0302bd0"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite the correct chunk(s) that contain the antitrust appeal information, or remove the citation references for this claim. The current citations only support the AI sell-off claims, not the regulatory/antitrust claims."
+        }
+      ],
+      "checked_at": "2026-03-24T17:58:31.792209",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "e7e8ea73-4cdc-4b80-8199-0a5cf90f1bac",
+      "paragraph_id": "0948b56f-26fd-4bb0-9b04-196522d20ab2",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:59:54.635676",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "3dabae84-c805-43ba-afa3-899c203d2917",
+      "paragraph_id": "0948b56f-26fd-4bb0-9b04-196522d20ab2",
+      "iteration": 1,
+      "original_text": "Material risks temper the investment thesis. Regulatory scrutiny intensified as the U.S. Department of Justice and state attorneys general filed an appeal in the landmark antitrust case against Google's search business on February 3, 2026, the same date as this report. While a federal court previously ruled Google holds a monopoly in online search, the court rejected the toughest remedies, leaving uncertainty about potential business model constraints. Additionally, the broader technology sector experienced volatility in early February 2026 with an AI-fueled sell-off as investors rotated away from AI-focused stocks toward safer investments. These factors create near-term uncertainty despite strong underlying fundamentals.",
+      "revised_text": "Material risks temper the investment thesis. The broader technology sector experienced volatility in early February 2026 with an AI-fueled sell-off as investors rotated away from AI-focused stocks toward safer investments. These factors create near-term uncertainty despite strong underlying fundamentals.",
+      "issues_addressed": [
+        "cb87567a-35f3-4517-bca4-45cd2cb8f8b1"
+      ],
+      "changes_summary": "Removed all claims about DOJ antitrust appeal, federal court monopoly ruling, and February 3, 2026 appeal filing date because no available evidence chunks support these claims. The original citations (C027, C028, C029, C035) only contain information about AI-fueled market sell-off and investor rotation away from AI stocks, not regulatory/antitrust matters. Kept the supported claims about technology sector volatility and AI sell-off with the same citations.",
+      "revised_at": "2026-03-24T17:58:54.627872"
+    }
+  ],
+  "iteration": 0
+}

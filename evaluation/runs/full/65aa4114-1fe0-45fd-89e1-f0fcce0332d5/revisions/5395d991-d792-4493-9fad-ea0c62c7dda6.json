@@ -1,0 +1,13 @@
+{
+  "revision_id": "5395d991-d792-4493-9fad-ea0c62c7dda6",
+  "paragraph_id": "61751961-9abe-4957-9fb0-7f5aed67f624",
+  "iteration": 1,
+  "original_text": "High research and development intensity represents both a competitive necessity and a financial risk. R&D expenses totaled $27,166,000,000 in Q2 2025, representing 16.20% of revenue, indicating substantial ongoing investment requirements to maintain technological leadership across cloud, retail, and advertising segments. This level of spending is necessary to compete in rapidly evolving technology markets but creates pressure on operating margins, which stood at 11.43% in Q2. Should revenue growth slow while R&D commitments remain elevated, margin compression could occur. The company's operating income of $19,171,000,000 in Q2 demonstrates current profitability, but the high fixed cost structure from technology investments suggests limited flexibility to reduce expenses during downturns.",
+  "revised_text": "High research and development intensity represents both a competitive necessity and a financial risk. R&D expenses totaled $27,166,000,000 in Q2 2025, representing 16.20% of revenue, indicating substantial ongoing investment requirements to maintain technological leadership. This level of spending is necessary to compete in rapidly evolving technology markets but creates pressure on operating margins, which stood at 11.43% in Q2. Should revenue growth slow while R&D commitments remain elevated, margin compression could occur. The company's operating income of $19,171,000,000 in Q2 demonstrates current profitability, but the high fixed cost structure from technology investments suggests limited flexibility to reduce expenses during downturns.",
+  "issues_addressed": [
+    "8494c4b6-6e79-46f7-b737-cac891b1cfd7",
+    "9ef1dc50-f71a-4bcd-a001-6457970c5fa7"
+  ],
+  "changes_summary": "Removed unsupported claim regarding R&D allocation across specific business lines ('cloud, retail, and advertising') as evidence only provides aggregate data. Removed incorrect segment terminology to align with verified facts and avoid implying unsupported segment-level breakdowns. Ensured all numerical data points (R&D expense, R&D intensity, operating margin, operating income) are backed by specific chunk or calculation IDs.",
+  "revised_at": "2026-03-24T19:03:09.979652"
+}

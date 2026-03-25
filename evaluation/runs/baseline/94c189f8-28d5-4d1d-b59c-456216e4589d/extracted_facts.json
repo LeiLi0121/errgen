@@ -1,0 +1,900 @@
+[
+  {
+    "fact_id": "0db12ec1-b7cd-4d0c-82cc-3943555df7ec",
+    "chunk_ids": [
+      "fcf5cd93-0b99-42a4-b091-bfb9e5f06133"
+    ],
+    "fact_type": "revenue",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 10415000000.0,
+    "unit": "USD",
+    "description": "AXP Revenue for Q3 2025: $10,415,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7a2d758b-b33b-4d0b-8e97-04d5fdf82ff0",
+    "chunk_ids": [
+      "5ada0991-89c7-4269-ac26-5c9eb55e16a4"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 2902000000.0,
+    "unit": "USD",
+    "description": "AXP Net Income for Q3 2025: $2,902,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "54c53fb4-57af-419b-8849-3e736e6f8b26",
+    "chunk_ids": [
+      "2342ed50-61d1-4ac0-a23d-b0e1790ce94e"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 0.2786365818530965,
+    "unit": "ratio",
+    "description": "AXP Net Margin for Q3 2025: 27.86%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d10eda4d-902f-49ff-9c6d-85f9dbbb93c9",
+    "chunk_ids": [
+      "6ab6dfbb-fbc1-4630-9297-bcd9d83256ba"
+    ],
+    "fact_type": "eps",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 4.14,
+    "unit": "USD",
+    "description": "AXP EPS (Diluted) for Q3 2025: $4",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a12c5dc5-c700-41c0-940a-ff2f6dc547ed",
+    "chunk_ids": [
+      "44339c7a-f5c4-44ec-92a7-152845259ccc"
+    ],
+    "fact_type": "revenue",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 10321000000.0,
+    "unit": "USD",
+    "description": "AXP Revenue for Q2 2025: $10,321,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2409d10f-6e35-44de-aa36-d44ccad4437d",
+    "chunk_ids": [
+      "d92a8a95-5411-4aa4-a17f-ad2d2a6520b3"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 2885000000.0,
+    "unit": "USD",
+    "description": "AXP Net Income for Q2 2025: $2,885,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1e5600e5-db9a-43f9-b8ce-966e709cb8a7",
+    "chunk_ids": [
+      "af66c916-ffe8-43a9-b17f-7ca7b34c63de"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 0.27952717759906986,
+    "unit": "ratio",
+    "description": "AXP Net Margin for Q2 2025: 27.95%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c3176faa-ef96-4b79-8517-8d7800d617e1",
+    "chunk_ids": [
+      "964b1d48-7045-4232-963d-e356b773786f"
+    ],
+    "fact_type": "eps",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 4.08,
+    "unit": "USD",
+    "description": "AXP EPS (Diluted) for Q2 2025: $4",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2683121a-9111-426f-8086-2688f7495797",
+    "chunk_ids": [
+      "cedf66d9-2f29-44e8-9d07-59e4bce2613b"
+    ],
+    "fact_type": "revenue",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 9626000000.0,
+    "unit": "USD",
+    "description": "AXP Revenue for Q1 2025: $9,626,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "115dd897-3fc4-4f96-8757-6eb9f2b5b97b",
+    "chunk_ids": [
+      "60d919eb-adc4-4966-94ea-78b61946379e"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 2584000000.0,
+    "unit": "USD",
+    "description": "AXP Net Income for Q1 2025: $2,584,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "76048e27-2cc6-41c0-8806-96613f150e57",
+    "chunk_ids": [
+      "24b829ce-4e7b-4649-9976-db1db9d9b3cb"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 0.26843964263453146,
+    "unit": "ratio",
+    "description": "AXP Net Margin for Q1 2025: 26.84%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "57a5a8d9-0ef3-4292-9696-1d4a6ccb9327",
+    "chunk_ids": [
+      "f85768cc-874d-4cda-8640-8b822db1457a"
+    ],
+    "fact_type": "eps",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 3.64,
+    "unit": "USD",
+    "description": "AXP EPS (Diluted) for Q1 2025: $4",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e6e89306-3d24-4de6-9924-0de9d0a15e8c",
+    "chunk_ids": [
+      "01291b62-02af-4895-b583-f5808006284c"
+    ],
+    "fact_type": "revenue",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 9716000000.0,
+    "unit": "USD",
+    "description": "AXP Revenue for Q3 2024: $9,716,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "76d79668-8630-4d5f-a368-8e3d87278136",
+    "chunk_ids": [
+      "1b525403-f209-4fe6-bfe2-591297872c6c"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 2507000000.0,
+    "unit": "USD",
+    "description": "AXP Net Income for Q3 2024: $2,507,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "52e47e43-b65e-4d99-b257-516f5085e19a",
+    "chunk_ids": [
+      "ba92993a-a427-4557-9894-3ed2d3dc64a6"
+    ],
+    "fact_type": "netIncomeRatio",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 0.25802799505969537,
+    "unit": "ratio",
+    "description": "AXP Net Margin for Q3 2024: 25.80%",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "fb40999d-67e7-4284-9cce-ec639067dfe6",
+    "chunk_ids": [
+      "2f471a74-d265-43e8-8343-61adec05536b"
+    ],
+    "fact_type": "eps",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 3.49,
+    "unit": "USD",
+    "description": "AXP EPS (Diluted) for Q3 2024: $3",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "670f9954-0f4f-4ea2-8b44-3f598d0fd40e",
+    "chunk_ids": [
+      "e36cebab-8737-4285-af19-8676d437434a"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 297550000000.0,
+    "unit": "USD",
+    "description": "AXP Total Assets for Q3 2025: $297,550,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "dc685541-717a-44c8-8ccb-c59f35adf386",
+    "chunk_ids": [
+      "ece1e1cf-3f3a-48ab-bb9d-bb50163afa88"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 265133000000.0,
+    "unit": "USD",
+    "description": "AXP Total Liabilities for Q3 2025: $265,133,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "9624a36a-a162-41cb-abbf-c0c18fcd1cd7",
+    "chunk_ids": [
+      "f528e51e-d5de-483c-b59e-caf191a973ac"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 32417000000.0,
+    "unit": "USD",
+    "description": "AXP Stockholders' Equity for Q3 2025: $32,417,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "08c0f091-7b45-426b-80ff-853adb2d917e",
+    "chunk_ids": [
+      "e97de124-cf41-4980-b48f-b4cd8ec8e5e0"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 54706000000.0,
+    "unit": "USD",
+    "description": "AXP Cash & Equivalents for Q3 2025: $54,706,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "caf0ba37-ca88-43be-a890-7541ad60f0f6",
+    "chunk_ids": [
+      "5725731b-ea24-4eeb-8bb4-a36a53b26684"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 57787000000.0,
+    "unit": "USD",
+    "description": "AXP Total Debt for Q3 2025: $57,787,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "604a0bab-750a-45d5-8441-1961af3b2c05",
+    "chunk_ids": [
+      "56b1c9e8-8fdb-4d1c-b1ac-64a66e821244"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AXP",
+    "period": "Q3 2025",
+    "value": 57787000000.0,
+    "unit": "USD",
+    "description": "AXP Long-Term Debt for Q3 2025: $57,787,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a814c724-457c-4b65-8c7a-3c62adcd2379",
+    "chunk_ids": [
+      "17a554b7-4e77-479e-a3bd-d01087ec55e3"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 295556000000.0,
+    "unit": "USD",
+    "description": "AXP Total Assets for Q2 2025: $295,556,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0ed08cfb-2d00-4734-8e1f-5038b6d57e51",
+    "chunk_ids": [
+      "fd9f5149-7050-4ff3-adf2-b24800cb7abb"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 263245000000.0,
+    "unit": "USD",
+    "description": "AXP Total Liabilities for Q2 2025: $263,245,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "bcfc7e47-20a7-4c24-aa9c-814677dcde28",
+    "chunk_ids": [
+      "0c6f4562-3017-4f35-85aa-840cece63ef9"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 32311000000.0,
+    "unit": "USD",
+    "description": "AXP Stockholders' Equity for Q2 2025: $32,311,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7867222f-ddc5-4fda-b555-420307c298eb",
+    "chunk_ids": [
+      "4b40b424-71c8-48bd-ba0c-5508d5308e3f"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 57937000000.0,
+    "unit": "USD",
+    "description": "AXP Cash & Equivalents for Q2 2025: $57,937,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cfa5df98-9faf-46e0-8d82-b0eefc8f3a4f",
+    "chunk_ids": [
+      "a8b5aed4-f52b-484a-9c01-39ec2ca26fa9"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 58202000000.0,
+    "unit": "USD",
+    "description": "AXP Total Debt for Q2 2025: $58,202,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0fefb3b7-50b0-4e6c-b6a0-641a4aef33bb",
+    "chunk_ids": [
+      "1a696660-0edd-4f00-a18f-07c20f95846e"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AXP",
+    "period": "Q2 2025",
+    "value": 58202000000.0,
+    "unit": "USD",
+    "description": "AXP Long-Term Debt for Q2 2025: $58,202,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "372fd386-4542-4443-a750-187a890daf1e",
+    "chunk_ids": [
+      "c6c5c772-01af-4305-9fe1-9886221ea28d"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 282244000000.0,
+    "unit": "USD",
+    "description": "AXP Total Assets for Q1 2025: $282,244,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ade346ac-78fe-4ab2-80dd-ef9cf05feb68",
+    "chunk_ids": [
+      "ece9258d-dd9b-42bd-adf4-3ab1853ddd6c"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 251042000000.0,
+    "unit": "USD",
+    "description": "AXP Total Liabilities for Q1 2025: $251,042,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4963f8bf-5f16-46e4-a6ff-9eabac76e125",
+    "chunk_ids": [
+      "cc97d345-888f-4df6-81b6-f70845fba5b6"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 31202000000.0,
+    "unit": "USD",
+    "description": "AXP Stockholders' Equity for Q1 2025: $31,202,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "672332e4-e50a-401f-9e90-e20ac92efd39",
+    "chunk_ids": [
+      "2e449ab8-f43c-47b2-981f-c71b03494fff"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 52508000000.0,
+    "unit": "USD",
+    "description": "AXP Cash & Equivalents for Q1 2025: $52,508,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6ea6a45e-9161-4880-bc4b-a2654a16056f",
+    "chunk_ids": [
+      "2b07746b-c73e-4737-8413-33c00be9b24f"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 51236000000.0,
+    "unit": "USD",
+    "description": "AXP Total Debt for Q1 2025: $51,236,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "15909772-9bfc-45cc-b422-782b97112074",
+    "chunk_ids": [
+      "1d8516bd-8270-4d6b-9c70-f694d80dee49"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 51236000000.0,
+    "unit": "USD",
+    "description": "AXP Long-Term Debt for Q1 2025: $51,236,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0140e998-9248-4ab6-bc95-1b5cc7a624e3",
+    "chunk_ids": [
+      "d45e1166-a226-4d17-9f8f-c00af7afd35c"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 270979000000.0,
+    "unit": "USD",
+    "description": "AXP Total Assets for Q3 2024: $270,979,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ef5b1e99-b029-4a74-9256-883d4aafce83",
+    "chunk_ids": [
+      "f6969463-5896-4593-a794-6c19803d2597"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 241272000000.0,
+    "unit": "USD",
+    "description": "AXP Total Liabilities for Q3 2024: $241,272,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1673e5f6-61d0-45dc-bfb7-ef82f33bfef5",
+    "chunk_ids": [
+      "d75143ea-d797-43ff-8839-3c27675682a4"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 29707000000.0,
+    "unit": "USD",
+    "description": "AXP Stockholders' Equity for Q3 2024: $29,707,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ce222c30-a1e5-4104-b694-f04b7fc48fcb",
+    "chunk_ids": [
+      "1686955c-e51c-4945-babc-9b4aad7bf0ec"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 47918000000.0,
+    "unit": "USD",
+    "description": "AXP Cash & Equivalents for Q3 2024: $47,918,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ddaef960-4404-4ad8-abb8-951496b37f63",
+    "chunk_ids": [
+      "64cea12e-fa80-4b6a-8110-f6b81ccfa1af"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 53546000000.0,
+    "unit": "USD",
+    "description": "AXP Total Debt for Q3 2024: $53,546,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d7f3c53f-7c4f-43e2-bb3a-a712d9e99ceb",
+    "chunk_ids": [
+      "1034d29c-5509-4176-91fb-626dbdf2aab3"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AXP",
+    "period": "Q3 2024",
+    "value": 53546000000.0,
+    "unit": "USD",
+    "description": "AXP Long-Term Debt for Q3 2024: $53,546,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "60bc2c7b-12eb-4793-8410-ca3d9e724fa7",
+    "chunk_ids": [
+      "e99ba238-a1de-49b2-be44-8c3deb320298"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 4764000000.0,
+    "unit": "USD",
+    "description": "AXP Operating Cash Flow for Q1 2025: $4,764,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0bdccde5-f677-4194-b758-e73eea080552",
+    "chunk_ids": [
+      "792b6625-5da5-4fa8-9aba-3b260545b49f"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 430000000.0,
+    "unit": "USD",
+    "description": "AXP Capital Expenditure for Q1 2025: $430,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8be57bb6-0fd8-4f21-9fa1-6d252f74b5b8",
+    "chunk_ids": [
+      "11484d29-9c79-4219-a399-75620d009421"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 4334000000.0,
+    "unit": "USD",
+    "description": "AXP Free Cash Flow for Q1 2025: $4,334,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6c119fae-c8fe-4b28-b083-db8e39dd90d2",
+    "chunk_ids": [
+      "2bd28f74-3129-431e-bffe-0d0672739a76"
+    ],
+    "fact_type": "dividendsPaid",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 509000000.0,
+    "unit": "USD",
+    "description": "AXP Dividends Paid for Q1 2025: $509,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "28ad554c-2580-4da7-aea3-b1739618dc15",
+    "chunk_ids": [
+      "6265018e-2c05-4b9d-b14b-a5c4341c4c16"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AXP",
+    "period": "Q1 2025",
+    "value": 1208000000.0,
+    "unit": "USD",
+    "description": "AXP Stock Buybacks for Q1 2025: $1,208,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "df19721f-3dc8-4b35-9295-fd7cf24dbd62",
+    "chunk_ids": [
+      "4e3bf183-0909-4721-8999-8084fb218e50"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2024",
+    "value": 5552000000.0,
+    "unit": "USD",
+    "description": "AXP Operating Cash Flow for Q1 2024: $5,552,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "04a741c0-de27-4431-8f48-6bdc60b3fbae",
+    "chunk_ids": [
+      "e3649fa0-c8d2-44f1-8f2a-50ad94034086"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AXP",
+    "period": "Q1 2024",
+    "value": 396000000.0,
+    "unit": "USD",
+    "description": "AXP Capital Expenditure for Q1 2024: $396,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "078ceeb1-6d36-40c7-a458-e4aff00a3170",
+    "chunk_ids": [
+      "c421edf0-7412-4da4-a7fd-66b4f6091248"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2024",
+    "value": 5156000000.0,
+    "unit": "USD",
+    "description": "AXP Free Cash Flow for Q1 2024: $5,156,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "05d6ffe4-72ef-45af-b643-a4851f57141c",
+    "chunk_ids": [
+      "65e7bfde-d0f4-414b-a067-e0d6c8fd03a8"
+    ],
+    "fact_type": "dividendsPaid",
+    "subject": "AXP",
+    "period": "Q1 2024",
+    "value": 452000000.0,
+    "unit": "USD",
+    "description": "AXP Dividends Paid for Q1 2024: $452,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f202419f-eb24-484a-bc07-526c75eab64c",
+    "chunk_ids": [
+      "2dca3796-54bc-4269-94a4-fc50950ad9d1"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AXP",
+    "period": "Q1 2024",
+    "value": 1292000000.0,
+    "unit": "USD",
+    "description": "AXP Stock Buybacks for Q1 2024: $1,292,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4dd8b1e5-3762-48ac-814d-8d5d41c12f3f",
+    "chunk_ids": [
+      "9c474cf1-5722-4836-b6fa-04a6e5072248"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2023",
+    "value": -377000000.0,
+    "unit": "USD",
+    "description": "AXP Operating Cash Flow for Q1 2023: $-377,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "47e63cc4-7ad6-403b-ad24-6efeb25f426e",
+    "chunk_ids": [
+      "060d8ecc-d290-494e-aabc-c4515fe7f31c"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AXP",
+    "period": "Q1 2023",
+    "value": 360000000.0,
+    "unit": "USD",
+    "description": "AXP Capital Expenditure for Q1 2023: $360,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a9801a6e-f3e8-4829-9681-90a4a5cd2e84",
+    "chunk_ids": [
+      "4b43e026-34af-4faa-bc1c-cac8207a8133"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2023",
+    "value": -737000000.0,
+    "unit": "USD",
+    "description": "AXP Free Cash Flow for Q1 2023: $-737,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2667f840-5738-42c7-98cc-bf0136283e26",
+    "chunk_ids": [
+      "e5bab825-0579-4827-8065-5d9640c0f648"
+    ],
+    "fact_type": "dividendsPaid",
+    "subject": "AXP",
+    "period": "Q1 2023",
+    "value": 405000000.0,
+    "unit": "USD",
+    "description": "AXP Dividends Paid for Q1 2023: $405,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "19e35d6c-fcbb-4dbd-93e5-ba16418b5f0c",
+    "chunk_ids": [
+      "3a4f6634-10f5-4407-ab1d-56cbb864aba9"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AXP",
+    "period": "Q1 2023",
+    "value": 316000000.0,
+    "unit": "USD",
+    "description": "AXP Stock Buybacks for Q1 2023: $316,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "bd3ffab3-bf90-44af-869c-0936b92bb5b3",
+    "chunk_ids": [
+      "aa044a97-4f08-449c-858f-1d0dbb41d212"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2022",
+    "value": 3880000000.0,
+    "unit": "USD",
+    "description": "AXP Operating Cash Flow for Q1 2022: $3,880,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "040c3e47-71aa-4308-9829-a15641819a48",
+    "chunk_ids": [
+      "536ae2e0-ed08-4309-85fe-fc0d82bd0982"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AXP",
+    "period": "Q1 2022",
+    "value": 447000000.0,
+    "unit": "USD",
+    "description": "AXP Capital Expenditure for Q1 2022: $447,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6e6d3c09-f1cc-498a-b9c7-4830a32732dc",
+    "chunk_ids": [
+      "5dbc7b49-38dc-4b51-99c8-fa6886342593"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AXP",
+    "period": "Q1 2022",
+    "value": 3433000000.0,
+    "unit": "USD",
+    "description": "AXP Free Cash Flow for Q1 2022: $3,433,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7ccc52ea-bbfe-4f6b-854c-affb67a42a2f",
+    "chunk_ids": [
+      "4f353aea-82cf-472b-ba80-b10b8dc5b5ca"
+    ],
+    "fact_type": "dividendsPaid",
+    "subject": "AXP",
+    "period": "Q1 2022",
+    "value": 345000000.0,
+    "unit": "USD",
+    "description": "AXP Dividends Paid for Q1 2022: $345,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "58ad0a0e-eb03-40bb-8b85-a94fad49ba69",
+    "chunk_ids": [
+      "f0d54b34-44d8-4fb6-9f7c-550059b74855"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AXP",
+    "period": "Q1 2022",
+    "value": 1570000000.0,
+    "unit": "USD",
+    "description": "AXP Stock Buybacks for Q1 2022: $1,570,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4b647a11-f9f4-4404-8119-c9799bd84909",
+    "chunk_ids": [
+      "8aae17c6-67e8-45f5-98de-75f10807345f"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AXP",
+    "period": "2025-11-12",
+    "value": null,
+    "unit": null,
+    "description": "American Express stock reached an all-time high as of November 12, 2025, with Jim Cramer noting widespread analyst price target raises.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "6414c6cc-9148-468c-af3b-9b3f066193d8",
+    "chunk_ids": [
+      "afef3207-4f13-4188-9a25-10eace0f4a8d"
+    ],
+    "fact_type": "financial_result",
+    "subject": "AXP",
+    "period": "2025-Q3",
+    "value": null,
+    "unit": null,
+    "description": "American Express delivered record-breaking Q3 2025 results and lifted its full-year guidance based on strong business momentum.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "513a352c-07ae-4e97-b88c-ca026b53425a",
+    "chunk_ids": [
+      "b5cd6974-fd82-47a7-9a40-2125cb7761b6"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AXP",
+    "period": "2025-YTD",
+    "value": null,
+    "unit": null,
+    "description": "AXP shares surged 16.3% over the last month and are up 23.3% year-to-date in 2025, driven by consumer spending optimism and strategic travel partnerships.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "d5b313dd-c5c9-4110-a5dc-2b326dc7ac73",
+    "chunk_ids": [
+      "34d745a1-70a0-44d7-aba6-b53040fa74a5"
+    ],
+    "fact_type": "partnership",
+    "subject": "AXP",
+    "period": "2025-11-12",
+    "value": null,
+    "unit": null,
+    "description": "American Express expanded small business support on November 12, 2025, launching a $5 million Shop Small Grants Program and a content partnership with creator Keith Lee.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "9b3cbf3e-97ff-44a0-a296-78b1e987cffe",
+    "chunk_ids": [
+      "ea79034a-cd0b-4719-9b0b-97f73e8d7b35"
+    ],
+    "fact_type": "other",
+    "subject": "AXP",
+    "period": "2025-11-12",
+    "value": null,
+    "unit": null,
+    "description": "American Express presented at the KBW Fintech Payments Conference 2025 on November 12, 2025, with CFO Christophe Le Caillec participating.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "bb985418-32b3-4fac-bad4-9679b0a091f1",
+    "chunk_ids": [
+      "716c6527-89bc-4c21-b0e1-1cd37b511a4c"
+    ],
+    "fact_type": "regulatory",
+    "subject": "AXP",
+    "period": "2025-11-12",
+    "value": null,
+    "unit": null,
+    "description": "Visa and Mastercard proposed a settlement in their long-running legal dispute over interchange fees, which could potentially impact rewards credit cards across the industry.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "09775a82-5c08-4964-a923-9493fafaa963",
+    "chunk_ids": [
+      "935a8e40-106d-4610-a309-75389ff1fbc7",
+      "11950bc2-bfd8-4f89-89d6-98eeb0b83532"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AXP",
+    "period": "2025-11-12",
+    "value": null,
+    "unit": null,
+    "description": "The Dow Jones Industrial Average hit record highs, surging through the 48,000 threshold, benefiting blue-chip stocks like American Express.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "b58bd70e-8e6a-4911-bc23-5c6fb7ab464a",
+    "chunk_ids": [
+      "2b147306-5298-46f3-9c5c-e042410448b5"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "AXP",
+    "period": "2025-11-12",
+    "value": null,
+    "unit": null,
+    "description": "Investment analysts are comparing American Express as a value stock option against BFH (Bread Financial Holdings).",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "8f170ccb-5d88-46c5-a503-70bae5937d5a",
+    "chunk_ids": [
+      "6f96318e-f1b6-46b7-ad86-2221396bd32e"
+    ],
+    "fact_type": "competitive",
+    "subject": "AXP",
+    "period": "2025-YTD",
+    "value": null,
+    "unit": null,
+    "description": "American Express's 2025 stock performance is being tracked and compared against finance sector peers such as CB Financial Services (CBFV).",
+    "confidence": 0.9
+  }
+]

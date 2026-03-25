@@ -1,0 +1,42 @@
+{
+  "verdict_id": "dcdd40fc-bd99-4c9c-9768-0453a7726e2f",
+  "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "1be90183-ac71-4c6a-b42c-02ed063aeab2",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "offending_span": "CEO Brian Chesky stating the company will be 'going significantly more aggressively into hotels' (C081)",
+      "explanation": "The cited chunk C081 is not included in the provided evidence chunks (available chunks range from C001 to C020). The factual claim regarding the CEO's statement cannot be verified against the provided sources.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Retrieve and cite the correct evidence chunk containing the CEO's statement, or remove the specific quote and citation if the evidence is unavailable."
+    },
+    {
+      "issue_id": "29906136-7ffd-42b2-95d9-0fa4b476c171",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "offending_span": "Chesky noting 'you can't do travel planning without AI going forward' (C083)",
+      "explanation": "The cited chunk C083 is not included in the provided evidence chunks. The factual claim regarding the CEO's statement on AI cannot be verified.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Retrieve and cite the correct evidence chunk containing the CEO's statement, or remove the quote."
+    },
+    {
+      "issue_id": "887bdc3b-ece1-4d36-9d1b-087bf65e0b51",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "offending_span": "Expedia, which also posted strong earnings in the period (C084)",
+      "explanation": "The cited chunk C084 is not included in the provided evidence chunks. The claim regarding competitor earnings cannot be verified.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Retrieve and cite the correct evidence chunk regarding Expedia's earnings, or remove the claim."
+    }
+  ],
+  "checked_at": "2026-03-24T10:45:08.728021",
+  "iteration": 1
+}

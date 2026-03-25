@@ -1,0 +1,39 @@
+{
+  "paragraph_id": "822977e9-2390-415a-b055-07ac5782e319",
+  "section_name": "Recent Developments",
+  "text": "Alphabet's stock has demonstrated significant outperformance relative to broader market benchmarks. Over the past 30 days, GOOGL returned approximately 7.79% compared to 0.93% for the S&P 500, generating excess returns of about 6.86%. On a one-year basis, the stock returned approximately 68.82% versus 15.35% for the benchmark, representing excess returns of roughly 53.47%. This performance reflects investor confidence in the company's AI strategy and cloud momentum heading into the Q4 earnings release, though market volatility around AI valuations has created near-term uncertainty.",
+  "citations": [
+    {
+      "citation_id": "cd17024c-6279-453b-b655-c869996384bf",
+      "chunk_id": "9c8f28dc-ae01-44c3-a5d9-93807921a73a",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T23:45:46Z | Yahoo\nTitle: Stock market today: S&P 500, Nasdaq futures fall after AI-fueled sell-off, with Google earnings on deck\nURL: https://finnhub.io/api/news?id=cb957f0d507d754e358bf8a71ae5df9817a2c9bb261c9765add9c133237806c5\nWall Street is seeing investors turn away from AI da",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5818dbac-47bd-47c1-bbea-84f819631275",
+      "chunk_id": "249eecf9-44cf-4a26-9972-44fb298d6def",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T22:04:26Z | Yahoo\nTitle: Nasdaq, S&P 500 Log Worst Day in 2 Weeks Amid Tech Sell-Off\nURL: https://finnhub.io/api/news?id=aa9659769647f2e1bbbc0971e85009425246b293424d3accbc908822cbaaea70\nThe Nasdaq Composite and the S&P 500 fell the most in two weeks on Tuesday as investors dumped t",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "9c8f28dc-ae01-44c3-a5d9-93807921a73a",
+    "249eecf9-44cf-4a26-9972-44fb298d6def"
+  ],
+  "calc_ids": [
+    "ca0a8e87-fb39-451b-aeac-cccdd319bfa4",
+    "8ee2d342-b106-494c-a100-d7897b35d061",
+    "ee6851d6-e837-4566-bf80-e91058b6fe85",
+    "583790da-6af1-4c60-b0f1-dcf8aa453ac1",
+    "bc40cefb-b47b-41d0-ae23-55c758de8ed0",
+    "72ebec46-ef1d-4d48-8ad7-db6d7ba9191e"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

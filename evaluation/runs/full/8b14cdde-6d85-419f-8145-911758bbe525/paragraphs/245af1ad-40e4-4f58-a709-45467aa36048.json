@@ -1,0 +1,49 @@
+{
+  "paragraph_id": "245af1ad-40e4-4f58-a709-45467aa36048",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Management quality signals present a mixed picture. CEO Timothy D. Cook leads a workforce of 164,000 employees, with the company maintaining strong profitability metrics including an operating margin of 29.99% and free cash flow margin of 25.95% in Q3 2025. However, external commentary raises concerns about strategic direction, with one analyst stating Apple has 'absolutely no AI strategy that I can see' while continuing to buy back stock endlessly. The company's balance sheet shows a debt-to-equity ratio of 1.54 and net debt of $65.429B, while the current ratio of 0.87 indicates working capital management that warrants monitoring. Recent 30-day stock performance of 7.43% outpaced the SPY benchmark by 2.38%, suggesting some near-term investor confidence recovery.",
+  "citations": [
+    {
+      "citation_id": "e7e393c6-0723-47bc-b9a7-d8c7e5d4ae74",
+      "chunk_id": "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+      "source_id": "60875378-3de5-4a6f-84e3-bdfb6b1b90ec",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d2141806-a6e0-4067-a120-b40e8f314b75",
+      "chunk_id": "232bb955-3ca1-4b9c-941e-391cfb27bdc2",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T18:31:14Z | Yahoo\nTitle: Jim Cramer Says “Apple Can Change Course” By Acquiring Perplexity\nURL: https://finnhub.io/api/news?id=0e6c8b0053d24e3f7414c70f37f4c263856263a5a3cf9a2a2eee508282456a01\nApple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer weighed in on. During the episode",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+    "232bb955-3ca1-4b9c-941e-391cfb27bdc2"
+  ],
+  "calc_ids": [
+    "6a9d2770-1049-40fd-9111-ecfef0c04b70",
+    "8761a9db-1ea8-4827-a585-41d71eecd755",
+    "dfa1a2d0-ad33-4a3b-9f02-fd31431e7e0d",
+    "2b53cf7f-3f6c-429b-87f7-25b88c9a4209",
+    "d94d6625-54f5-4e5f-8466-0ad11b498d7e",
+    "718b569e-cf52-4bd3-ac0d-9e2247e1cf5f",
+    "16b424f7-9019-47b5-9f0a-756f6b1cb75f"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "c85e53cc-d11f-420a-acd7-3813a56698d0",
+      "paragraph_id": "245af1ad-40e4-4f58-a709-45467aa36048",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T02:03:32.924716",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

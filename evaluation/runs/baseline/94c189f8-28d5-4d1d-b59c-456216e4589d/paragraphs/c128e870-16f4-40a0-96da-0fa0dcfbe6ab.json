@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "c128e870-16f4-40a0-96da-0fa0dcfbe6ab",
+  "section_name": "Financial Analysis",
+  "text": "Cash flow quality appears robust based on Q1 2025 data, with operating cash flow of $4,764,000,000 and free cash flow of $4,334,000,000. The free cash flow margin for Q1 2025 calculated at 41.61%, indicating strong cash conversion relative to revenue. However, EBITDA figures are not reported in the available income statement data. Year-over-year comparison shows Q1 2024 operating cash flow of $5,552,000,000 and free cash flow of $5,156,000,000, suggesting some moderation in cash generation in Q1 2025.",
+  "citations": [
+    {
+      "citation_id": "d8328ac9-95df-4858-aa71-e87579e9ca16",
+      "chunk_id": "e99ba238-a1de-49b2-be44-8c3deb320298",
+      "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Operating Cash Flow for Q1 2025: $4,764,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3d563ee7-f33e-4001-8030-5db39992bd55",
+      "chunk_id": "11484d29-9c79-4219-a399-75620d009421",
+      "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Free Cash Flow for Q1 2025: $4,334,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "884c4245-87d5-4ead-8c28-94b913aa2312",
+      "chunk_id": "4e3bf183-0909-4721-8999-8084fb218e50",
+      "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Operating Cash Flow for Q1 2024: $5,552,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5e5f689f-516b-4683-a00d-126c83e3d503",
+      "chunk_id": "c421edf0-7412-4da4-a7fd-66b4f6091248",
+      "source_id": "cac9616c-cb88-4da4-a340-ec0f54de94bc",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Free Cash Flow for Q1 2024: $5,156,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e99ba238-a1de-49b2-be44-8c3deb320298",
+    "11484d29-9c79-4219-a399-75620d009421",
+    "4e3bf183-0909-4721-8999-8084fb218e50",
+    "c421edf0-7412-4da4-a7fd-66b4f6091248"
+  ],
+  "calc_ids": [
+    "ae059b0b-5e7c-4445-956a-515d3bd6f137"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

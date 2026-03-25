@@ -1,0 +1,65 @@
+{
+  "verdict_id": "5c404a5e-0a8d-4409-91da-9050f757d716",
+  "paragraph_id": "92c52b29-6ad3-4d46-afc5-577b05380126",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "e669c486-53d8-4b9c-94f8-69db2cccbc99",
+      "issue_type": "citation_mismatch",
+      "severity": "critical",
+      "paragraph_id": "92c52b29-6ad3-4d46-afc5-577b05380126",
+      "offending_span": "Net income grew 6.05% year-over-year to $18.2B",
+      "explanation": "The paragraph claims 6.05% year-over-year growth, but CALC_REF K002 clearly shows this is quarter-over-quarter growth (comparing Q2 2025 net income of $18,164,000,000 to Q1 2025 net income of $17,127,000,000). Year-over-year would require comparing Q2 2025 to Q2 2024, which is not what the cited calculation shows. This is a significant factual mischaracterization of the growth metric.",
+      "relevant_chunk_ids": [
+        "ba8c285d-d4a0-4e56-b66b-34557acc6716",
+        "e2932b92-f473-45f6-b667-03db75a373ee"
+      ],
+      "relevant_calc_ids": [
+        "1a002722-fda5-4c19-9e72-f7147a39c3af"
+      ],
+      "recommended_fix": "Change 'year-over-year' to 'quarter-over-quarter' or 'sequentially' to accurately reflect the comparison between Q2 and Q1 2025. Alternatively, obtain and cite actual YoY data comparing Q2 2025 to Q2 2024 if YoY growth is intended."
+    },
+    {
+      "issue_id": "8a21d5c1-02e0-4190-b0a3-53394bd2f35b",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "92c52b29-6ad3-4d46-afc5-577b05380126",
+      "offending_span": "indicating effective cost management alongside revenue expansion",
+      "explanation": "The cited chunks (C005-C007, C015) and calculations (K002-K005) provide raw financial figures but do not contain evidence about cost management effectiveness. This is an analytical inference that goes beyond what the cited evidence supports.",
+      "relevant_chunk_ids": [
+        "8f16df51-c402-45bd-b393-70020ff981b7",
+        "3bb0e9c5-eff1-4632-a36d-82f86c362a78",
+        "ba8c285d-d4a0-4e56-b66b-34557acc6716",
+        "e2932b92-f473-45f6-b667-03db75a373ee"
+      ],
+      "relevant_calc_ids": [
+        "1a002722-fda5-4c19-9e72-f7147a39c3af",
+        "2d808d04-1429-42d1-8d93-41b6104e1172",
+        "90e3945a-ab2e-4b2c-910d-e14f1fc45889",
+        "5f7b3132-dae2-4810-9578-1b079af97591"
+      ],
+      "recommended_fix": "Either remove this interpretive claim or cite additional evidence that specifically discusses cost management initiatives or efficiency improvements."
+    },
+    {
+      "issue_id": "d8b93b4c-ca56-49bc-9ecc-abb716613c7b",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "92c52b29-6ad3-4d46-afc5-577b05380126",
+      "offending_span": "demonstrates the company's ability to convert top-line growth into bottom-line results",
+      "explanation": "This is an analytical conclusion not directly supported by the cited financial data chunks. While the margins and income figures are accurate, the claim about 'ability to convert' implies a causal relationship or strategic capability not evidenced in the cited chunks.",
+      "relevant_chunk_ids": [
+        "8f16df51-c402-45bd-b393-70020ff981b7",
+        "3bb0e9c5-eff1-4632-a36d-82f86c362a78",
+        "ba8c285d-d4a0-4e56-b66b-34557acc6716"
+      ],
+      "relevant_calc_ids": [
+        "2d808d04-1429-42d1-8d93-41b6104e1172",
+        "90e3945a-ab2e-4b2c-910d-e14f1fc45889",
+        "5f7b3132-dae2-4810-9578-1b079af97591"
+      ],
+      "recommended_fix": "Rephrase as a neutral observation (e.g., 'resulting in positive operating and net margins') or provide additional evidence supporting this strategic capability claim."
+    }
+  ],
+  "checked_at": "2026-03-24T18:48:46.254755",
+  "iteration": 0
+}

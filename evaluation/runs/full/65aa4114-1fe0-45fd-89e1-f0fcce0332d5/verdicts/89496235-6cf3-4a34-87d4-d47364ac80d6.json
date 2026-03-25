@@ -1,0 +1,25 @@
+{
+  "verdict_id": "89496235-6cf3-4a34-87d4-d47364ac80d6",
+  "paragraph_id": "ee2c3f6c-ac34-48ba-aadb-20e992deab4e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "245597a9-c751-4bbb-9b4d-7ab133a8a35d",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "ee2c3f6c-ac34-48ba-aadb-20e992deab4e",
+      "offending_span": "Amazon also faces regulatory scrutiny, having published a detailed rebuttal to allegations regarding pricing following tariff announcements, indicating potential reputational and policy risks.",
+      "explanation": "The cited chunks (C001, C002, C026, C027) do not contain any information about regulatory scrutiny, rebuttals, pricing allegations, or tariff announcements. C001 and C002 contain company profile/description information only. C026 and C027 contain news about Wall Street/earnings preparation. While this regulatory information appears in the Previously Verified Facts section (Recent Developments and Business & Competitive Analysis), those source chunks are not cited here, making this claim unverifiable from the provided citations.",
+      "relevant_chunk_ids": [
+        "45a04636-6707-42bd-9f62-6d7690ebdc03",
+        "03f715fc-49e6-4682-9dea-a74681556e05",
+        "42d04575-b893-4d6b-8cb6-7da4fe4ad70a",
+        "f0225fa0-138b-473e-aa3a-bc0e30ebf762"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite the correct chunks that contain the regulatory/rebuttal information (likely from the chunks used in Recent Developments or Business & Competitive Analysis sections), or remove this claim if no appropriate chunks are available in the current citation set."
+    }
+  ],
+  "checked_at": "2026-03-24T19:34:20.347997",
+  "iteration": 0
+}

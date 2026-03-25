@@ -1,0 +1,14 @@
+{
+  "revision_id": "6cb43873-a70a-4ba3-936e-efc0ce062226",
+  "paragraph_id": "ecbc6429-1373-4d0d-9146-3abe83fe0f69",
+  "iteration": 1,
+  "original_text": "Looking forward, Alphabet's investment case rests on the company's ability to sustain AI-driven growth momentum while navigating regulatory headwinds. The strong cash generation capability and conservative balance sheet provide flexibility to invest in growth initiatives and withstand potential regulatory outcomes. However, given the antitrust appeal filed on the report date and earnings volatility observed throughout 2025, we recommend existing shareholders maintain positions while prospective investors wait for greater regulatory clarity. The significant outperformance versus the S&P 500 benchmark suggests much of the near-term optimism may already be reflected in the current valuation.",
+  "revised_text": "Looking forward, Alphabet's investment case rests on the company's ability to sustain AI and cloud momentum while navigating market headwinds. The strong cash generation capability (FCF margin 21.56%) and conservative balance sheet (current ratio 2.01, debt-to-equity 0.17) provide flexibility to invest in growth initiatives and withstand potential market outcomes. However, given earnings volatility observed throughout 2025, we recommend existing shareholders maintain positions while prospective investors wait for greater clarity. The significant outperformance versus the S&P 500 benchmark (30-day excess return 6.86%, 1-year excess return 53.47%) suggests much of the near-term optimism may already be reflected in the current valuation.",
+  "issues_addressed": [
+    "915feefb-3fd7-43dc-beab-13a46995ec03",
+    "9522b044-8d91-41ca-ba36-99247278e4df",
+    "0a7802ec-9dbf-4256-ade9-95d5b8657e1f"
+  ],
+  "changes_summary": "Fixed three major citation mismatch issues: (1) Replaced C001/C002 with C033 for AI/cloud momentum claim and C027 for market headwinds; (2) Added K011, K008, K009 to support cash generation and balance sheet metrics (FCF margin 21.56%, current ratio 2.01, debt-to-equity 0.17); (3) Removed unsupported antitrust appeal claim (no evidence in available chunks) and added K002 to support earnings volatility claim; (4) Retained K014 and K017 for outperformance vs S&P 500 benchmark with specific excess return percentages.",
+  "revised_at": "2026-03-24T18:21:22.410501"
+}

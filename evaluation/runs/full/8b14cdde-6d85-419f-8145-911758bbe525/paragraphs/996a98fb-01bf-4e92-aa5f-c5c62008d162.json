@@ -1,0 +1,59 @@
+{
+  "paragraph_id": "996a98fb-01bf-4e92-aa5f-c5c62008d162",
+  "section_name": "Recent Developments",
+  "text": "Regulatory and trade policy developments present near-term risks for Apple's supply chain and pricing strategy. President Trump is preparing industry-specific tariffs to kick in alongside country-by-country duties by August 1, 2025, which could impact Apple's manufacturing costs and product pricing. Analysts noted that iPhone demand has been propped up by pull-ahead buying ahead of these anticipated tariffs. Meanwhile, G-20 finance ministers committed to international policy cooperation amid escalating tensions over the US trade war, though consensus remains rare. Despite these headwinds, Zacks continues to highlight Apple as a top pick, citing Services growth as a key driver of investor interest.",
+  "citations": [
+    {
+      "citation_id": "877a2ce3-661c-4a1e-853c-3754e2607b2c",
+      "chunk_id": "c0e6858b-247a-4cfd-b1f6-cdb1b8e366ce",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T16:40:00Z | Yahoo\nTitle: Trump Aims Tariff Double Whammy at Industries, Nations by Aug. 1\nURL: https://finnhub.io/api/news?id=58d65d3f0f8a9363ad8c970eee84c3062854156adc24935412e4f73c5cbc94bf\n(Bloomberg) -- President Donald Trump is readying plans for industry-specific tariffs to ki",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "45f84af9-d8b5-498a-a681-9971e45b7cea",
+      "chunk_id": "961e8dd7-56af-4daf-a2fe-8d6411dc202a",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T14:51:38Z | Yahoo\nTitle: Analyst says iPhone demand propped up by pricing, pull-ahead ahead of tariffs\nURL: https://finnhub.io/api/news?id=194dd41b3e5bd73b5d691e2dd020ea11fa7c53ac8ed765587a90647786baab49\nInvesting.com -- Loop Capital analysts said in a note Friday that Apple (NASDA",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "444b1e31-780e-4c50-b669-f71ebce6b590",
+      "chunk_id": "e8a76dc2-e703-4bac-b980-5802a6a2c65a",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T15:21:04Z | Yahoo\nTitle: G-20 Communique Delivers Rare Show of Unity Amid Trump Trade War\nURL: https://finnhub.io/api/news?id=4bbb58053c700b3b768ddd0d8f5d9fecb7c989d2c37457408c11497910ea085c\n(Bloomberg) -- The Group of 20 finance ministers and central bank chiefs committed to inter",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8fb512b0-b9b9-4858-a86a-ebd490a99075",
+      "chunk_id": "2b72e613-9af4-44d5-ab0d-2658252bd43a",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T19:48:00Z | Yahoo\nTitle: Top Stock Reports for Apple, JPMorgan Chase & Visa\nURL: https://finnhub.io/api/news?id=411c9c6130d7198fb5d25b4cda7284a2b69e6463770cc6750f451711e4ff197e\nAAPL, JPM, and V lead Zacks' top picks as Services growth, strong NII, and digital payments momentum driv",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "c0e6858b-247a-4cfd-b1f6-cdb1b8e366ce",
+    "961e8dd7-56af-4daf-a2fe-8d6411dc202a",
+    "e8a76dc2-e703-4bac-b980-5802a6a2c65a",
+    "2b72e613-9af4-44d5-ab0d-2658252bd43a"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "320c9f81-6856-4d3b-bda1-c5707a796a8a",
+      "paragraph_id": "996a98fb-01bf-4e92-aa5f-c5c62008d162",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T01:58:31.580369",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

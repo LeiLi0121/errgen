@@ -1,0 +1,83 @@
+{
+  "paragraph_id": "886f9769-12fb-4665-b41e-0b627843b08b",
+  "section_name": "Recent Developments",
+  "text": "CEO Brian Chesky announced strategic shifts during the earnings call, stating the company will pursue hotels 'significantly more aggressively' going forward C008. This hotel expansion initiative contributed to the post-earnings share decline of roughly 6% C008. Separately, Chesky outlined an AI-first strategy for travel planning, noting 'you can't do travel planning without AI going forward' as Airbnb expands its customer service agent capabilities C010. R&D intensity remained elevated at 19.70% of revenue in Q2 2025, reflecting continued investment in technology infrastructure K005.",
+  "citations": [
+    {
+      "citation_id": "1384f6c0-af41-4bd7-b03d-5b084827e9cb",
+      "chunk_id": "e00b6dc4-96b5-4502-a6b1-b39791c0b603",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:30:56Z | Yahoo\nTitle: Airbnb embraces a paradox: CEO Brian Chesky says hotels are the future\nURL: https://finnhub.io/api/news?id=3a1c090dc5fb0a0c1088edfb160f76bbe856f5e52c2b3510bc721f0df561d6be\n“We’re going to be going significantly more aggressively into hotels,” CEO Brian Ches",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ca1c9fe7-b75b-4ec2-b66b-34f3f71112a9",
+      "chunk_id": "44ea459c-7635-43c6-8d9d-04c9d09b4ce4",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:25:00Z | Yahoo\nTitle: Airbnb charts AI-first path as it expands customer service agent\nURL: https://finnhub.io/api/news?id=c252dbad1d5e1e73cd65536920df00d7ce1f347b204b475fc19e514c46bd7e1d\n“I think you can’t do travel planning without AI going forward,” CEO Brian Chesky said.",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e00b6dc4-96b5-4502-a6b1-b39791c0b603",
+    "44ea459c-7635-43c6-8d9d-04c9d09b4ce4"
+  ],
+  "calc_ids": [
+    "96ed5e8e-8d7a-4666-bffb-29914da0ca2c"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "3983ca8f-69ef-4d6e-892a-4393496233f0",
+      "paragraph_id": "886f9769-12fb-4665-b41e-0b627843b08b",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "253acdc5-4abc-42d8-93a7-815768b67d81",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "886f9769-12fb-4665-b41e-0b627843b08b",
+          "offending_span": "C008",
+          "explanation": "The paragraph cites chunk C008 for claims regarding the hotel strategy and share decline. However, the provided evidence supporting these claims is contained in chunk C081. C008 is listed in the 'uncited' chunk list, indicating the paragraph references an incorrect source ID for the available evidence.",
+          "relevant_chunk_ids": [
+            "e00b6dc4-96b5-4502-a6b1-b39791c0b603"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation ID from C008 to C081 to match the provided evidence chunk."
+        },
+        {
+          "issue_id": "9e3fc1e1-d078-4c4a-9ed0-4f3577f7fa59",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "886f9769-12fb-4665-b41e-0b627843b08b",
+          "offending_span": "C010",
+          "explanation": "The paragraph cites chunk C010 for the AI strategy claim. However, the provided evidence supporting this claim is contained in chunk C083. C010 is listed in the 'uncited' chunk list, indicating the paragraph references an incorrect source ID.",
+          "relevant_chunk_ids": [
+            "44ea459c-7635-43c6-8d9d-04c9d09b4ce4"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the citation ID from C010 to C083 to match the provided evidence chunk."
+        },
+        {
+          "issue_id": "46670ce1-df14-4eb5-afa3-07f69120e851",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "886f9769-12fb-4665-b41e-0b627843b08b",
+          "offending_span": "This hotel expansion initiative contributed to the post-earnings share decline",
+          "explanation": "Chunk C081 states that the CEO made the comment and 'Meanwhile, investors sent shares down roughly 6%'. The use of 'Meanwhile' indicates temporal correlation, but the chunk does not state that the hotel initiative *caused* or *contributed to* the share decline. The causal link is not supported by the evidence.",
+          "relevant_chunk_ids": [
+            "e00b6dc4-96b5-4502-a6b1-b39791c0b603"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Rephrase to reflect correlation rather than causation (e.g., 'The announcement coincided with a post-earnings share decline of roughly 6%')."
+        }
+      ],
+      "checked_at": "2026-03-24T07:38:36.067858",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

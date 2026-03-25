@@ -1,0 +1,61 @@
+{
+  "verdict_id": "c09fdf88-bcbc-477c-86f8-13a34eb8efd1",
+  "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0d354390-a56f-490a-9b66-cc18250cfda9",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "C004",
+      "explanation": "The paragraph cites chunk C004 for safety concerns, but the provided supporting evidence is C077. C004 is listed as uncited, while C077 contains the matching content regarding identity theft and domestic abuse.",
+      "relevant_chunk_ids": [
+        "7df1b295-58f9-4182-bee5-24e4c57e6662"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citation from C004 to C077."
+    },
+    {
+      "issue_id": "3d99cb06-fffc-492c-85c8-66cf47220b91",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "C020",
+      "explanation": "The paragraph cites chunk C020 for Q2 bookings and ADR strength, but the provided supporting evidence is C093. C020 is listed as uncited, while C093 contains the matching content.",
+      "relevant_chunk_ids": [
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citation from C020 to C093."
+    },
+    {
+      "issue_id": "ff0e2b85-49d6-4be3-8652-70d54cf44646",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "C015",
+      "explanation": "The paragraph cites chunk C015 for slowed growth and economic headwinds, but the provided supporting evidence is C088. C015 is listed as uncited, while C088 contains the matching content.",
+      "relevant_chunk_ids": [
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citation from C015 to C088."
+    },
+    {
+      "issue_id": "222d0f95-3483-4d0e-8e1a-9717ede2e2d2",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "304fc9c7-fcd4-4c2e-9233-d7210a39f74e",
+      "offending_span": "C009",
+      "explanation": "The paragraph cites chunk C009 for options strategies and stock moves, but the provided supporting evidence is C082. C009 is listed as uncited, while C082 contains the matching content.",
+      "relevant_chunk_ids": [
+        "d1b1362c-f24a-4078-ab63-dfea2860e85b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update the inline citation from C009 to C082."
+    }
+  ],
+  "checked_at": "2026-03-24T13:53:12.085089",
+  "iteration": 3
+}

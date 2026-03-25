@@ -1,0 +1,82 @@
+{
+  "paragraph_id": "726ea168-482a-4f6e-9c0c-5f4ace12a252",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Strategic initiatives reveal Apple's expansion beyond core hardware into media and content rights. The company is actively pursuing Formula 1 media rights with a $150 million bid, signaling continued investment in sports content to complement Apple TV+ offerings. R&D intensity stands at 9.43% of revenue in Q3 2025, indicating sustained investment in innovation. However, the company faces scrutiny over its AI strategy, with commentators noting Apple has fallen behind in the AI arms race. Stock performance reflects this concern, down 15% for the year as of July 18, 2025, while the broader market rallied from April and May lows.",
+  "citations": [
+    {
+      "citation_id": "6cd2bc4e-499d-4e67-bdfe-fc342a3f0bc5",
+      "chunk_id": "88b5dd08-e3de-431c-884f-fdcd508aae58",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T21:18:00Z | Yahoo\nTitle: Should You Sell Apple's Stock Before July 31?\nURL: https://finnhub.io/api/news?id=562108f76534fd602841e9346ffa66a55556185f316840d982def8fb8794e0a7\nApple has fallen behind in the AI arms race.  This could apply to Apple (NASDAQ: AAPL), as investors have been",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "13204676-a923-4161-8c5b-dd3bccf563df",
+      "chunk_id": "742d1272-fcd8-425b-8435-777b6d0b2fa9",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T19:00:52Z | Yahoo\nTitle: Apple races ahead in epic $150M F1 media rights bid\nURL: https://finnhub.io/api/news?id=13b692020babfda05e8fb026d10a053bfa0743732342ac8fd317d099107b11dd\nApple (AAPL) is putting their pedal to the metal in their race for F1 media rights. This week on Yahoo F",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "874dcc39-df28-49bf-9bad-15a48f11e88a",
+      "chunk_id": "232bb955-3ca1-4b9c-941e-391cfb27bdc2",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T18:31:14Z | Yahoo\nTitle: Jim Cramer Says “Apple Can Change Course” By Acquiring Perplexity\nURL: https://finnhub.io/api/news?id=0e6c8b0053d24e3f7414c70f37f4c263856263a5a3cf9a2a2eee508282456a01\nApple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer weighed in on. During the episode",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "88b5dd08-e3de-431c-884f-fdcd508aae58",
+    "742d1272-fcd8-425b-8435-777b6d0b2fa9",
+    "232bb955-3ca1-4b9c-941e-391cfb27bdc2"
+  ],
+  "calc_ids": [
+    "6c7e97e9-5f98-4195-bc31-e81a898c45da",
+    "718b569e-cf52-4bd3-ac0d-9e2247e1cf5f"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "75df6d86-4f44-4c5f-b3ee-096f973ee9b9",
+      "paragraph_id": "726ea168-482a-4f6e-9c0c-5f4ace12a252",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "7f0f98b5-d5cd-41e0-aab5-eb341ddf8536",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "726ea168-482a-4f6e-9c0c-5f4ace12a252",
+          "offending_span": "Cited calc refs: ['K007', 'K012']",
+          "explanation": "K012 (AAPL 30d price return = 7.43%) is cited in the paragraph's calculation references but no claim in the paragraph uses this calculation. The stock performance claim ('down 15% for the year') is sourced from C049 news chunk, not from K012. Citing unused calculations misrepresents the evidence basis.",
+          "relevant_chunk_ids": [
+            "88b5dd08-e3de-431c-884f-fdcd508aae58"
+          ],
+          "relevant_calc_ids": [
+            "718b569e-cf52-4bd3-ac0d-9e2247e1cf5f"
+          ],
+          "recommended_fix": "Remove K012 from the cited calc refs since it is not used to support any numerical claim in the paragraph. Only K007 (R&D intensity) is actually utilized."
+        },
+        {
+          "issue_id": "b4c4011e-c5cf-4c64-a656-89d4e02dcd97",
+          "issue_type": "hallucination",
+          "severity": "minor",
+          "paragraph_id": "726ea168-482a-4f6e-9c0c-5f4ace12a252",
+          "offending_span": "to complement Apple TV+ offerings",
+          "explanation": "The claim that the F1 media rights bid is to 'complement Apple TV+ offerings' is not found in C051. The chunk only mentions Apple's $150 million F1 bid without any reference to Apple TV+ or how this investment relates to existing offerings. This is an inference beyond what the evidence supports.",
+          "relevant_chunk_ids": [
+            "742d1272-fcd8-425b-8435-777b6d0b2fa9"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove the Apple TV+ reference or cite additional evidence that explicitly connects the F1 bid to Apple TV+ strategy."
+        }
+      ],
+      "checked_at": "2026-03-25T02:03:08.680302",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,55 @@
+{
+  "paragraph_id": "550c6b06-a242-47a4-852d-541bc162a1df",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Fundamental strengths support the investment case. Net margin expanded approximately 206 basis points year-over-year to 27.86% in Q3 2025, indicating improved operational efficiency. Cash flow quality appears robust, with free cash flow margin reaching 41.61% in Q1 2025. The balance sheet shows manageable net debt of approximately $3.1 billion despite total debt of $57.8 billion, given cash and equivalents of $54.7 billion. Recent strategic initiatives, including the $5 million Shop Small Grants Program announced November 12, 2025, reinforce the company's differentiated premium card strategy and small business focus.",
+  "citations": [
+    {
+      "citation_id": "b77fd3a2-ec45-4bbb-bb65-5bc08a19f422",
+      "chunk_id": "2342ed50-61d1-4ac0-a23d-b0e1790ce94e",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2025: 27.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e956150f-a088-40ed-b40c-a902f57c913a",
+      "chunk_id": "ba92993a-a427-4557-9894-3ed2d3dc64a6",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2024: 25.80%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b2ebf0ae-3f62-4552-ac07-c2c0c8e8b9c4",
+      "chunk_id": "71d382db-047b-41c7-b7aa-089e6fd937fd",
+      "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – AXP | Period: Q3 2025 | Date: 2025-09-30\n  Total Assets:              $297,550,000,000\n  Total Liabilities:         $265,133,000,000\n  Total Stockholders' Equity:$32,417,000,000\n  Cash & Equivalents:        $54,706,000,000\n  Short-Term Investments:    N/A\n  Total Debt:               ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "34222e91-94ff-4b70-9ced-698ef6cc04c1",
+      "chunk_id": "34d745a1-70a0-44d7-aba6-b53040fa74a5",
+      "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T14:00:00Z | Yahoo\nTitle: American Express, Founder of Small Business Saturday®, Expands Small Business Support with New $5 Million Shop Small Grants Program\nURL: https://finnhub.io/api/news?id=8f186cceb1f22bf0372eac182225c2c0f195748c0050f21456b772d478ccfde0\nNEW YORK, November 12, 2",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "2342ed50-61d1-4ac0-a23d-b0e1790ce94e",
+    "ba92993a-a427-4557-9894-3ed2d3dc64a6",
+    "71d382db-047b-41c7-b7aa-089e6fd937fd",
+    "34d745a1-70a0-44d7-aba6-b53040fa74a5"
+  ],
+  "calc_ids": [
+    "e70e06bc-88e7-4999-8478-72ba22112d6e",
+    "3093e26a-3ed6-4f4d-865d-671f85783ea5",
+    "4bf64957-cca1-4b16-964c-57544318f64c",
+    "ae059b0b-5e7c-4445-956a-515d3bd6f137"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

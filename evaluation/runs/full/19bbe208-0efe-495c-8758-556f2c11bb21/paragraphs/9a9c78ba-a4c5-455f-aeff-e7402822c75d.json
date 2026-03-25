@@ -1,0 +1,45 @@
+{
+  "paragraph_id": "9a9c78ba-a4c5-455f-aeff-e7402822c75d",
+  "section_name": "Recent Developments",
+  "text": "The broader technology sector experienced volatility in early February 2026, with the Nasdaq Composite and S&P 500 logging their worst day in two weeks amid an AI-fueled sell-off. Investors rotated away from AI-focused stocks toward safer investments following sector-wide losses. Despite this market malaise, Alphabet's stock demonstrated resilience with a 30-day price return of 7.79%, significantly outperforming the S&P 500 benchmark return of 0.93% over the same period.",
+  "citations": [
+    {
+      "citation_id": "2fc045e5-f1e7-44be-b1ea-6683961d4274",
+      "chunk_id": "3a693174-1a20-4d2d-8eab-27e3c6138988",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T23:45:46Z | Yahoo\nTitle: Stock market today: S&P 500, Nasdaq futures fall after AI-fueled sell-off, with Google earnings on deck\nURL: https://finnhub.io/api/news?id=cb957f0d507d754e358bf8a71ae5df9817a2c9bb261c9765add9c133237806c5\nWall Street is seeing investors turn away from AI da",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2698ac21-cea6-4a1e-9afe-2a578614d1d6",
+      "chunk_id": "3380d305-0653-4e26-b9c6-3f12dd47ff1b",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T22:04:26Z | Yahoo\nTitle: Nasdaq, S&P 500 Log Worst Day in 2 Weeks Amid Tech Sell-Off\nURL: https://finnhub.io/api/news?id=aa9659769647f2e1bbbc0971e85009425246b293424d3accbc908822cbaaea70\nThe Nasdaq Composite and the S&P 500 fell the most in two weeks on Tuesday as investors dumped t",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "3a693174-1a20-4d2d-8eab-27e3c6138988",
+    "3380d305-0653-4e26-b9c6-3f12dd47ff1b"
+  ],
+  "calc_ids": [
+    "dff30377-2ac2-4b5b-836f-c58cd8c1dd37",
+    "c5fe2e83-f232-4946-9ea1-223cb2771866",
+    "97a74455-a71f-4113-8c23-536c8bf1dd72"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "f18f0017-1d97-4e9b-88cf-47bf7f71123f",
+      "paragraph_id": "9a9c78ba-a4c5-455f-aeff-e7402822c75d",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:10:52.687145",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

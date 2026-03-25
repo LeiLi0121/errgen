@@ -28,7 +28,14 @@ from errgen.models import (
     RevisionRecord,
     VerificationStatus,
 )
-from errgen.prompt_aliases import aliases_for_ids, build_prompt_alias_maps, ids_for_aliases
+from errgen.prompt_aliases import (
+    aliases_for_ids,
+    build_prompt_alias_maps,
+    extract_aliases_from_text,
+    ids_for_aliases,
+    strip_inline_aliases,
+    unique_preserve_order,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -43,6 +50,8 @@ Your task:
 5. Every number must come from a cited chunk or calc_id.
 6. Do NOT introduce new claims not in the evidence.
 7. If a claim cannot be supported by any available evidence, remove it entirely.
+8. Do NOT include chunk refs like C001 or calc refs like K001 in the text itself.
+   Put references only in the chunk_ids / calc_ids arrays.
 
 Return a JSON object:
 {
@@ -142,16 +151,18 @@ class ReviserAgent:
                 "ReviserAgent: empty revision text for %s; keeping original.",
                 paragraph.paragraph_id,
             )
+        text_chunk_aliases, text_calc_aliases = extract_aliases_from_text(revised_text)
+        cleaned_text = strip_inline_aliases(revised_text) or revised_text
 
         # Validate cited IDs
         chunk_map = {c.chunk_id: c for c in chunks}
 
         new_chunk_ids = ids_for_aliases(
-            raw.get("chunk_ids", []),
+            unique_preserve_order(list(raw.get("chunk_ids", [])) + text_chunk_aliases),
             alias_maps.chunk_alias_to_id,
         )
         new_calc_ids = ids_for_aliases(
-            raw.get("calc_ids", []),
+            unique_preserve_order(list(raw.get("calc_ids", [])) + text_calc_aliases),
             alias_maps.calc_alias_to_id,
         )
 
@@ -171,7 +182,7 @@ class ReviserAgent:
 
         # Build revised paragraph (copy, then update mutable fields)
         revised_para = deepcopy(paragraph)
-        revised_para.text = revised_text
+        revised_para.text = cleaned_text
         revised_para.chunk_ids = new_chunk_ids
         revised_para.calc_ids = new_calc_ids
         revised_para.citations = new_citations
@@ -182,7 +193,7 @@ class ReviserAgent:
             paragraph_id=paragraph.paragraph_id,
             iteration=iteration,
             original_text=paragraph.text,
-            revised_text=revised_text,
+            revised_text=cleaned_text,
             issues_addressed=[i.issue_id for i in blocking_issues],
             changes_summary=raw.get("changes_summary", ""),
         )

@@ -1,0 +1,14 @@
+{
+  "revision_id": "70965ef4-27f3-4a2f-84d5-d1116f0976bb",
+  "paragraph_id": "25cf1082-7da6-4e6d-b239-2a02deed4765",
+  "iteration": 2,
+  "original_text": "Q2 2025 financial performance exceeded analyst expectations, with the company beating EPS estimates by 9.5% (C085). Net income for Q2 2025 reached $642 million, representing 316.88% year-over-year growth, while operating and net margins stood at 19.77% and 20.74% respectively (K002, K003, K004). However, despite the earnings beat, shares dropped approximately 7% following a margin warning for the third and fourth quarters of 2025 (C093). Analyst commentary suggests elevated valuation multiples leave little margin for error amid slowing growth in key markets and broader economic risks (C088).",
+  "revised_text": "Q2 2025 financial performance exceeded analyst expectations, with the company beating EPS estimates by 9.5% (C014). Net income for Q2 2025 reached $642 million, representing 316.88% year-over-year growth, while operating and net margins stood at 19.77% and 20.74% respectively (K002, K003, K004). However, despite the earnings beat, shares dropped approximately 7% following a margin warning for the third and fourth quarters of 2025 (C022). Analyst commentary suggests elevated valuation multiples leave little margin for error amid slowing growth in key markets and broader economic risks (C017).",
+  "issues_addressed": [
+    "cca825a9-f553-49ea-844d-6b1886b49e40",
+    "01009dd1-ca74-4008-bb4d-62e0787fcf8b",
+    "e6eb7e31-5741-43d4-9c97-d2f60adb1427"
+  ],
+  "changes_summary": "Replaced unsupported citations (C085, C088, C093) with valid evidence chunks from the available range. C014 supports the 9.5% EPS beat claim, C022 supports the 7% share drop and margin warning for Q3/Q4 2025, and C017 supports the analyst commentary on elevated valuation multiples and slowing growth. All financial metrics (net income, YoY growth, margins) remain unchanged as they were already properly supported by K002, K003, and K004.",
+  "revised_at": "2026-03-24T11:35:29.328143"
+}

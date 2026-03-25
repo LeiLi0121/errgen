@@ -1,0 +1,12 @@
+{
+  "revision_id": "e0556bc0-a5fb-4290-b4f9-0b8f5a5dd41a",
+  "paragraph_id": "92c52b29-6ad3-4d46-afc5-577b05380126",
+  "iteration": 2,
+  "original_text": "Profitability metrics remained robust in Q2 2025, with gross margin at 51.81%, operating margin reaching 11.43%, and net margin at 10.83%. Net income grew 6.05% quarter-over-quarter to $18.2B, indicating effective cost management alongside revenue expansion. The operating income of $19.2B demonstrates the company's ability to convert top-line growth into bottom-line results.",
+  "revised_text": "Profitability metrics remained robust in Q2 2025, with gross margin at 51.81%, operating margin reaching 11.43%, and net margin at 10.83%. Net income grew 6.05% year-over-year to $18.2B, indicating effective cost management alongside revenue expansion. The operating income of $19.2B demonstrates the company's ability to convert top-line growth into bottom-line results.",
+  "issues_addressed": [
+    "7f38385d-17f3-49b3-bada-63ff07874212"
+  ],
+  "changes_summary": "Corrected 'quarter-over-quarter' to 'year-over-year' for net income growth to accurately reflect the metric defined in calculation K002, resolving the citation mismatch error identified by the fact-checker.",
+  "revised_at": "2026-03-24T19:09:45.004220"
+}

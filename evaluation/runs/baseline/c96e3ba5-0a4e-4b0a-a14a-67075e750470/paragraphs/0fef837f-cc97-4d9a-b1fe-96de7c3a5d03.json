@@ -1,0 +1,34 @@
+{
+  "paragraph_id": "0fef837f-cc97-4d9a-b1fe-96de7c3a5d03",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Management has articulated a measured approach to sovereign and macroeconomic risk exposure, evidenced by hesitation to finalize a proposed $20 billion loan to Argentina absent guarantee structures. Consumer engagement initiatives continue, with the fourth annual More Rewards Day scheduled for November 2025 having generated approximately $74 million in extra rewards during the first three events. However, technology and operational risks exist given reliance on digital banking platforms, and the company reported zero R&D expenses for Q3 2025, which may indicate technology investments are capitalized or categorized differently.",
+  "citations": [
+    {
+      "citation_id": "2897f9e6-2446-4e66-bb76-2693a3d13b62",
+      "chunk_id": "051ebc37-c8c9-453f-88fb-977178d5974d",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text_snippet": "BAC R&D Expenses for Q3: $0",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "693176d3-cea5-4991-94e1-cf092a586464",
+      "chunk_id": "4339d818-e4df-43a7-9382-25a1b77dc44e",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-21T12:00:00Z | Yahoo\nTitle: Holiday Tradition Continues: BofA \"More Rewards Day\" Bonuses Approaching $100 Million\nURL: https://finnhub.io/api/news?id=4565d6c920e5afc64e6f79bc44a11e3a385fd626e4e961192ae5325da89671e9\nBank of America announced its fourth annual More Rewards Day, taking p",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "051ebc37-c8c9-453f-88fb-977178d5974d",
+    "4339d818-e4df-43a7-9382-25a1b77dc44e"
+  ],
+  "calc_ids": [
+    "710e6d1b-885d-4e77-8155-243e5db4a13e"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

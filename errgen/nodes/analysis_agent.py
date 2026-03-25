@@ -38,6 +38,13 @@ from errgen.models import (
 
 logger = logging.getLogger(__name__)
 
+_SECTION_NAME_TO_KEY = {
+    "Recent Developments": "recent_developments",
+    "Financial Analysis": "financial_analysis",
+    "Business & Competitive Analysis": "business_analysis",
+    "Risk Analysis": "risk_analysis",
+}
+
 
 def _select_chunks(section_key: str, all_chunks: list[EvidenceChunk]) -> list[EvidenceChunk]:
     """Route evidence chunks to the relevant analysis agent."""
@@ -66,6 +73,22 @@ def _select_chunks(section_key: str, all_chunks: list[EvidenceChunk]) -> list[Ev
 
     # risk_analysis receives all chunks
     return all_chunks
+
+
+def select_chunks_for_section_name(
+    section_name: str,
+    all_chunks: list[EvidenceChunk],
+) -> list[EvidenceChunk]:
+    """
+    Return the evidence subset that the named section saw during generation.
+
+    Unknown section names fall back to the full chunk list so non-standard
+    sections do not lose access to evidence unexpectedly.
+    """
+    section_key = _SECTION_NAME_TO_KEY.get(section_name)
+    if not section_key:
+        return all_chunks
+    return _select_chunks(section_key, all_chunks)
 
 
 def _build_overview_section(

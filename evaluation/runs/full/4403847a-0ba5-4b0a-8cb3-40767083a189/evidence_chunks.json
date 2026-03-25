@@ -1,0 +1,1657 @@
+[
+  {
+    "chunk_id": "ff0bdb9f-c090-461c-b4f2-32e6ee78d476",
+    "source_id": "28e36ac3-4de4-42a1-9532-a11dc8087c00",
+    "source_type": "company_profile",
+    "text": "Airbnb, Inc. (Ticker: ABNB) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Travel Services | Market Cap: N/A | CEO: Brian Chesky | Full-Time Employees: 7300 | IPO Date: 2020-12-10 | Country: US | Website: https://www.airbnb.com",
+    "metadata": {
+      "ticker": "ABNB",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b98c24ea-2ba1-47b2-b3bb-3e6d456e4542",
+    "source_id": "28e36ac3-4de4-42a1-9532-a11dc8087c00",
+    "source_type": "company_profile",
+    "text": "Airbnb, Inc., together with its subsidiaries, operates a platform that enables hosts to offer stays and experiences to guests worldwide. The company's marketplace model connects hosts and guests online or through mobile devices to book spaces and experiences. It primarily offers private rooms, primary homes, or vacation homes. The company was formerly known as AirBed & Breakfast, Inc. and changed its name to Airbnb, Inc. in November 2010. Airbnb, Inc. was founded in 2007 and is headquartered in San Francisco, California.",
+    "metadata": {
+      "ticker": "ABNB",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f1694f8c-bf39-4abc-978d-bdb1e9bb803e",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "Income Statement – ABNB | Period: Q2 2025 | Date: 2025-06-30\n  Revenue:            $3,096,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   $612,000,000 (margin 19.77%)\n  Net Income:         $642,000,000 (margin 20.74%)\n  EBITDA:             N/A\n  EPS:                N/A\n  R&D Expenses:       $610,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "date": "2025-06-30"
+    },
+    "period": "Q2 2025",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "679945cc-fc2d-4276-88e1-f13d6625ba90",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Revenue for Q2 2025: $3,096,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "revenue"
+    },
+    "period": "Q2 2025",
+    "field_name": "revenue",
+    "numeric_value": 3096000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4d20906a-95f4-4182-8b78-ce57ff8e640f",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Income for Q2 2025: $612,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "operatingIncome"
+    },
+    "period": "Q2 2025",
+    "field_name": "operatingIncome",
+    "numeric_value": 612000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8204b5e6-5a63-4433-97ff-c4a9417eff59",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Margin for Q2 2025: 19.77%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "operatingIncomeRatio"
+    },
+    "period": "Q2 2025",
+    "field_name": "operatingIncomeRatio",
+    "numeric_value": 0.19767441860465115,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "df42e965-e841-4f4e-9bf2-80e20953d89e",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Income for Q2 2025: $642,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "netIncome"
+    },
+    "period": "Q2 2025",
+    "field_name": "netIncome",
+    "numeric_value": 642000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bd6712f2-b461-45af-a469-610c2b026b91",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Margin for Q2 2025: 20.74%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q2 2025",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.20736434108527133,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "705c6a33-bda1-4ee7-9c8b-cc1e52937c44",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB R&D Expenses for Q2 2025: $610,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q2 2025",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 610000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0b5f21ca-afe3-481e-850b-0a5415ed292e",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "Income Statement – ABNB | Period: Q1 2025 | Date: 2025-03-31\n  Revenue:            $2,272,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   $38,000,000 (margin 1.67%)\n  Net Income:         $154,000,000 (margin 6.78%)\n  EBITDA:             N/A\n  EPS:                N/A\n  R&D Expenses:       $568,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "date": "2025-03-31"
+    },
+    "period": "Q1 2025",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "97f0b5f5-a993-44cd-b270-f071820f4bd6",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Revenue for Q1 2025: $2,272,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "revenue"
+    },
+    "period": "Q1 2025",
+    "field_name": "revenue",
+    "numeric_value": 2272000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "19d81507-c0ab-454b-a69d-0aad7ea3b84c",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Income for Q1 2025: $38,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "operatingIncome"
+    },
+    "period": "Q1 2025",
+    "field_name": "operatingIncome",
+    "numeric_value": 38000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a160fcf6-493c-4420-8dda-c198f2bc8cf4",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Margin for Q1 2025: 1.67%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "operatingIncomeRatio"
+    },
+    "period": "Q1 2025",
+    "field_name": "operatingIncomeRatio",
+    "numeric_value": 0.016725352112676055,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "0ec80876-5a94-4ff6-94c7-084d4830548b",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Income for Q1 2025: $154,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "netIncome"
+    },
+    "period": "Q1 2025",
+    "field_name": "netIncome",
+    "numeric_value": 154000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fd55c935-5910-4989-9195-74aa31fce874",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Margin for Q1 2025: 6.78%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q1 2025",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.06778169014084508,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "e5ab9ad7-ef9d-40fd-aabf-862f9723843c",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB R&D Expenses for Q1 2025: $568,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q1 2025",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 568000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "63b75b17-e57a-43c7-bb2d-2efb86659091",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "Income Statement – ABNB | Period: Q3 2024 | Date: 2024-09-30\n  Revenue:            $3,732,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   $1,525,000,000 (margin 40.86%)\n  Net Income:         $1,368,000,000 (margin 36.66%)\n  EBITDA:             N/A\n  EPS:                N/A\n  R&D Expenses:       $524,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "date": "2024-09-30"
+    },
+    "period": "Q3 2024",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "1630d36b-d932-4b2a-b81f-14116cd56166",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Revenue for Q3 2024: $3,732,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "revenue"
+    },
+    "period": "Q3 2024",
+    "field_name": "revenue",
+    "numeric_value": 3732000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "425a6bf9-0d0c-407e-a820-a16e1ceb0c6b",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Income for Q3 2024: $1,525,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "operatingIncome"
+    },
+    "period": "Q3 2024",
+    "field_name": "operatingIncome",
+    "numeric_value": 1525000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f4e9155f-01ab-4ae6-93c4-a85f687185cc",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Margin for Q3 2024: 40.86%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "operatingIncomeRatio"
+    },
+    "period": "Q3 2024",
+    "field_name": "operatingIncomeRatio",
+    "numeric_value": 0.40862808145766344,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "2f75c3f5-47e0-4618-aa52-c65bf98f0e0f",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Income for Q3 2024: $1,368,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "netIncome"
+    },
+    "period": "Q3 2024",
+    "field_name": "netIncome",
+    "numeric_value": 1368000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c8c32b97-a57e-4873-a1a0-a9faa84b9e94",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Margin for Q3 2024: 36.66%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q3 2024",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.3665594855305466,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "eae7368e-70d7-40c5-a7c0-168683c2ccae",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB R&D Expenses for Q3 2024: $524,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q3 2024",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 524000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f75fe38e-cebf-462b-a315-5a5bd1ed6a92",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "Income Statement – ABNB | Period: Q2 2024 | Date: 2024-06-30\n  Revenue:            $2,748,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   $497,000,000 (margin 18.09%)\n  Net Income:         $555,000,000 (margin 20.20%)\n  EBITDA:             N/A\n  EPS:                N/A\n  R&D Expenses:       $519,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "date": "2024-06-30"
+    },
+    "period": "Q2 2024",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ba9ccc6c-ec55-43df-a127-bc9402676cb9",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Revenue for Q2 2024: $2,748,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "revenue"
+    },
+    "period": "Q2 2024",
+    "field_name": "revenue",
+    "numeric_value": 2748000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "3e8c9381-a65b-4b4c-ae26-2c788f183c00",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Income for Q2 2024: $497,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "operatingIncome"
+    },
+    "period": "Q2 2024",
+    "field_name": "operatingIncome",
+    "numeric_value": 497000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "071d722a-f1f7-470f-bc65-42cc81f0296f",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Operating Margin for Q2 2024: 18.09%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "operatingIncomeRatio"
+    },
+    "period": "Q2 2024",
+    "field_name": "operatingIncomeRatio",
+    "numeric_value": 0.18085880640465793,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "06085a33-3482-41ae-a993-8200a7cf7404",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Income for Q2 2024: $555,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "netIncome"
+    },
+    "period": "Q2 2024",
+    "field_name": "netIncome",
+    "numeric_value": 555000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9764afee-29eb-42ed-9fd1-9703cfbf1379",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB Net Margin for Q2 2024: 20.20%",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "netIncomeRatio"
+    },
+    "period": "Q2 2024",
+    "field_name": "netIncomeRatio",
+    "numeric_value": 0.2019650655021834,
+    "unit": "ratio"
+  },
+  {
+    "chunk_id": "75c75204-d374-427c-927a-83a009522dfd",
+    "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+    "source_type": "income_statement",
+    "text": "ABNB R&D Expenses for Q2 2024: $519,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q2 2024",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 519000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "723ddf37-07ea-44d7-abbe-485afaeb7d45",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – ABNB | Period: Q2 2025 | Date: 2025-06-30\n  Total Assets:              $26,992,000,000\n  Total Liabilities:         $19,210,000,000\n  Total Stockholders' Equity:$7,782,000,000\n  Cash & Equivalents:        $18,444,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                N/A\n  Long-Term Debt:            N/A\n  Current Assets:            $23,180,000,000\n  Current Liabilities:       $18,816,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "date": "2025-06-30"
+    },
+    "period": "Q2 2025",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "267bddf6-6561-4bf7-8c76-52b468e2c326",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Assets for Q2 2025: $26,992,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "totalAssets"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalAssets",
+    "numeric_value": 26992000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "80b5293c-ab88-4f90-8244-5dcede20227b",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Liabilities for Q2 2025: $19,210,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "totalLiabilities"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalLiabilities",
+    "numeric_value": 19210000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "fc628baf-d4b0-43d0-88a5-80e6b21b43c1",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Stockholders' Equity for Q2 2025: $7,782,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 7782000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "441a1a50-8ecd-47e3-837c-a643ef6c0c0d",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Cash & Equivalents for Q2 2025: $18,444,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q2 2025",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 18444000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f1237e12-ca64-49ab-890e-99f8117f4bf4",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Assets for Q2 2025: $23,180,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 23180000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "061418f5-da6c-4747-a23a-9c1765721c38",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Liabilities for Q2 2025: $18,816,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2025",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q2 2025",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 18816000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "94abdc8c-8dbf-4a99-bfa5-f6cb476f1759",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – ABNB | Period: Q1 2025 | Date: 2025-03-31\n  Total Assets:              $25,056,000,000\n  Total Liabilities:         $17,119,000,000\n  Total Stockholders' Equity:$7,937,000,000\n  Cash & Equivalents:        $16,750,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                N/A\n  Long-Term Debt:            N/A\n  Current Assets:            $21,295,000,000\n  Current Liabilities:       $16,730,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "date": "2025-03-31"
+    },
+    "period": "Q1 2025",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "27ebad32-bca0-446a-a0c0-2dc1787b28e1",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Assets for Q1 2025: $25,056,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "totalAssets"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalAssets",
+    "numeric_value": 25056000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a7affe0c-919e-46bf-9d87-502f23916f0c",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Liabilities for Q1 2025: $17,119,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "totalLiabilities"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalLiabilities",
+    "numeric_value": 17119000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6f4a6925-01e6-490b-990d-db5e47a7a1f6",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Stockholders' Equity for Q1 2025: $7,937,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 7937000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "ec95e5fa-cd64-4316-9be4-96370f728de6",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Cash & Equivalents for Q1 2025: $16,750,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q1 2025",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 16750000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bc20ebd1-cb7b-4918-bfc7-684a62b5d05f",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Assets for Q1 2025: $21,295,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 21295000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c06b8f5a-b19c-4945-a026-8edffede96d0",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Liabilities for Q1 2025: $16,730,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q1 2025",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 16730000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0c4b4482-4f4f-42ab-b6c0-b9a1a4d3274d",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – ABNB | Period: Q3 2024 | Date: 2024-09-30\n  Total Assets:              $22,172,000,000\n  Total Liabilities:         $13,684,000,000\n  Total Stockholders' Equity:$8,488,000,000\n  Cash & Equivalents:        $14,198,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                N/A\n  Long-Term Debt:            N/A\n  Current Assets:            $18,319,000,000\n  Current Liabilities:       $11,336,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "date": "2024-09-30"
+    },
+    "period": "Q3 2024",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "8df14037-504b-4eb9-afdb-7046bbdea432",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Assets for Q3 2024: $22,172,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "totalAssets"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalAssets",
+    "numeric_value": 22172000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a5c2cf32-fd97-4ec3-8801-80431db62427",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Liabilities for Q3 2024: $13,684,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "totalLiabilities"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalLiabilities",
+    "numeric_value": 13684000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f554c87f-b3bb-4440-aa6a-62638720df2e",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Stockholders' Equity for Q3 2024: $8,488,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 8488000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "545d320a-376a-4c01-bf26-7054a304f2fe",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Cash & Equivalents for Q3 2024: $14,198,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q3 2024",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 14198000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5dd58599-c4cb-46cb-8003-cf0bb4f596c9",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Assets for Q3 2024: $18,319,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 18319000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "84931892-e88a-4bfb-98f2-3838359e993a",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Liabilities for Q3 2024: $11,336,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q3 2024",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q3 2024",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 11336000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "53587840-ea32-4e43-b5cc-51d6f7b2fec5",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – ABNB | Period: Q2 2024 | Date: 2024-06-30\n  Total Assets:              $26,320,000,000\n  Total Liabilities:         $18,318,000,000\n  Total Stockholders' Equity:$8,002,000,000\n  Cash & Equivalents:        $18,190,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                N/A\n  Long-Term Debt:            N/A\n  Current Assets:            $22,252,000,000\n  Current Liabilities:       $15,828,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "date": "2024-06-30"
+    },
+    "period": "Q2 2024",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0fca82af-2de6-40c4-aa17-5e8ace29458d",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Assets for Q2 2024: $26,320,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "totalAssets"
+    },
+    "period": "Q2 2024",
+    "field_name": "totalAssets",
+    "numeric_value": 26320000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d476199e-cda4-4cde-bc63-11d00483368f",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Liabilities for Q2 2024: $18,318,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "totalLiabilities"
+    },
+    "period": "Q2 2024",
+    "field_name": "totalLiabilities",
+    "numeric_value": 18318000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "64558b4b-d224-4678-91b0-d3510d88070f",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Stockholders' Equity for Q2 2024: $8,002,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q2 2024",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 8002000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a3e315c1-a0dd-427c-af0b-73d5f9d95c67",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Cash & Equivalents for Q2 2024: $18,190,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q2 2024",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 18190000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d51d14ff-f1b2-4d9f-bb82-3401147a6631",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Assets for Q2 2024: $22,252,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q2 2024",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 22252000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d8865669-44f2-432e-84a2-f11ba934271e",
+    "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+    "source_type": "balance_sheet",
+    "text": "ABNB Total Current Liabilities for Q2 2024: $15,828,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q2 2024",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q2 2024",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 15828000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "138337ed-7795-41ac-945d-3cb4280c5580",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – ABNB | Period: Q1 2025 | Date: 2025-03-31\n  Operating Cash Flow:     $1,789,000,000\n  Capital Expenditure:     N/A\n  Free Cash Flow:          N/A\n  Dividends Paid:          N/A\n  Stock Buybacks:          $807,000,000\n  Depreciation & Amort.:   N/A",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "date": "2025-03-31"
+    },
+    "period": "Q1 2025",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "9c4a1cb5-2cd1-447b-88f4-9f3165faaaad",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Operating Cash Flow for Q1 2025: $1,789,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2025",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 1789000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "35855d4d-1c37-47e4-b10c-4419cacd2b1f",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Stock Buybacks for Q1 2025: $807,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2025",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2025",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 807000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e3c0aab9-671c-49b4-a616-f21f849d6a6b",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – ABNB | Period: Q1 2024 | Date: 2024-03-31\n  Operating Cash Flow:     $1,923,000,000\n  Capital Expenditure:     N/A\n  Free Cash Flow:          N/A\n  Dividends Paid:          N/A\n  Stock Buybacks:          $750,000,000\n  Depreciation & Amort.:   N/A",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2024",
+      "date": "2024-03-31"
+    },
+    "period": "Q1 2024",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "31d4a6ac-d16a-4270-a686-87a7a69f161f",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Operating Cash Flow for Q1 2024: $1,923,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2024",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2024",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 1923000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "b44ace2d-aa83-4084-80fc-db0329a3f9bd",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Stock Buybacks for Q1 2024: $750,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2024",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2024",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 750000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "890a09d4-7e5c-43c3-9c82-31b3e2ec1c6d",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – ABNB | Period: Q1 2023 | Date: 2023-03-31\n  Operating Cash Flow:     $1,587,000,000\n  Capital Expenditure:     $6,000,000\n  Free Cash Flow:          $1,581,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $493,000,000\n  Depreciation & Amort.:   N/A",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2023",
+      "date": "2023-03-31"
+    },
+    "period": "Q1 2023",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7c738fff-5faf-4ee0-a65a-7ccfa14c4420",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Operating Cash Flow for Q1 2023: $1,587,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2023",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2023",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 1587000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "97df8793-d310-4df9-84cf-5fd45bcd8a81",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Capital Expenditure for Q1 2023: $6,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2023",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1 2023",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 6000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5e8bdf5f-4339-479c-ab03-884454175e27",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Free Cash Flow for Q1 2023: $1,581,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2023",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1 2023",
+    "field_name": "freeCashFlow",
+    "numeric_value": 1581000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "612cd7a9-430b-4514-b10c-ca1de550988b",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Stock Buybacks for Q1 2023: $493,000,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2023",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1 2023",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 493000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "1a5966f6-e041-4955-b074-1ca53a2a1a16",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – ABNB | Period: Q1 2022 | Date: 2022-03-31\n  Operating Cash Flow:     $1,201,992,000\n  Capital Expenditure:     $5,959,000\n  Free Cash Flow:          $1,196,033,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          N/A\n  Depreciation & Amort.:   N/A",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2022",
+      "date": "2022-03-31"
+    },
+    "period": "Q1 2022",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e67ae0ff-f877-4187-8a73-28d484fdf76a",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Operating Cash Flow for Q1 2022: $1,201,992,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2022",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1 2022",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 1201992000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5707465d-9684-4db6-880c-d33423223b67",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Capital Expenditure for Q1 2022: $5,959,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2022",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1 2022",
+    "field_name": "capitalExpenditure",
+    "numeric_value": 5959000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "63c16d3e-49ef-4b18-bf7d-a9e4c0680b03",
+    "source_id": "9e450976-271f-408b-b2d8-78e70f56f7cb",
+    "source_type": "cash_flow",
+    "text": "ABNB Free Cash Flow for Q1 2022: $1,196,033,000",
+    "metadata": {
+      "ticker": "ABNB",
+      "period": "Q1 2022",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1 2022",
+    "field_name": "freeCashFlow",
+    "numeric_value": 1196033000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8d02660d-4d4a-46a9-9d3e-df64703a208c",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-11T16:42:00Z | MarketWatch\nTitle: Airbnb Inc. Cl A stock falls Monday, underperforms market\nURL: https://finnhub.io/api/news?id=9c467879d1e3e3c0f9e10f220a0c13a42234950a9c80caf3e3de1d2fdd5bf68d\nAirbnb Inc. Cl A stock falls Monday, underperforms market",
+    "metadata": {
+      "title": "Airbnb Inc. Cl A stock falls Monday, underperforms market",
+      "published_at": "2025-08-11T16:42:00Z",
+      "source_name": "MarketWatch",
+      "url": "https://finnhub.io/api/news?id=9c467879d1e3e3c0f9e10f220a0c13a42234950a9c80caf3e3de1d2fdd5bf68d",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "cc43aa3c-906e-4dc7-a39b-135cd4f4a4dc",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-11T13:33:03Z | Yahoo\nTitle: Arm initiated, Adobe downgraded: Wall Street's top analyst calls\nURL: https://finnhub.io/api/news?id=e6aff444a7216276e994b26baf158ef599c05ba385f74a7f1c1cf7b57df03288\nArm initiated, Adobe downgraded: Wall Street's top analyst calls",
+    "metadata": {
+      "title": "Arm initiated, Adobe downgraded: Wall Street's top analyst calls",
+      "published_at": "2025-08-11T13:33:03Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e6aff444a7216276e994b26baf158ef599c05ba385f74a7f1c1cf7b57df03288",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ae7eb4d0-3ad1-48ac-af89-fb1631c20b80",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-11T12:57:05Z | Yahoo\nTitle: Airbnb Second Quarter 2025 Earnings: Beats Expectations\nURL: https://finnhub.io/api/news?id=473939c7c83f1d34a45906438f94e54877af68a94bdce6287cde7c5f167340b5\nNasdaqGS:ABNB 1 Year Share Price vs Fair Value Explore Airbnb's Fair Values from the Community and select yours Airbnb...",
+    "metadata": {
+      "title": "Airbnb Second Quarter 2025 Earnings: Beats Expectations",
+      "published_at": "2025-08-11T12:57:05Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=473939c7c83f1d34a45906438f94e54877af68a94bdce6287cde7c5f167340b5",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7df1b295-58f9-4182-bee5-24e4c57e6662",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-11T06:00:43Z | Yahoo\nTitle: Airbnb added to the shame I felt after suffering years of domestic abuse\nURL: https://finnhub.io/api/news?id=88cf1441562ef61f13f7542a04eaa9e8fd4a06cce7aabbc42c1e3448d2193d85\nThe platform allowed my abusive ex-partner to practically steal my identity and potentially put others at risk",
+    "metadata": {
+      "title": "Airbnb added to the shame I felt after suffering years of domestic abuse",
+      "published_at": "2025-08-11T06:00:43Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=88cf1441562ef61f13f7542a04eaa9e8fd4a06cce7aabbc42c1e3448d2193d85",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "49bb6367-e91e-48df-b411-f8104c62c08a",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-10T08:31:08Z | Benzinga\nTitle: Consumer Tech News (August 4–August 8): Earnings From Palantir, Uber, Shopify & More Amid Trump's Tariff Saga\nURL: https://finnhub.io/api/news?id=408888b68e3707bb3d910362698f1ecf03cf9314b4e40b5b3773b382bfe8d937\nWall Street rebounded as strong consumer-tech earnings (Palantir, Uber, Shopify) offset Trump&#39;s gold-bar and broader tariff moves, with U.S.–Russia ceasefire chatter, steadier oil, and mixed AI/auto headlines.\n\n\n\n\n\n\n\n\n\n",
+    "metadata": {
+      "title": "Consumer Tech News (August 4–August 8): Earnings From Palantir, Uber, Shopify & More Amid Trump's Tariff Saga",
+      "published_at": "2025-08-10T08:31:08Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=408888b68e3707bb3d910362698f1ecf03cf9314b4e40b5b3773b382bfe8d937",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "5089ef74-f466-440b-bbd8-09cd469794e3",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-09T00:31:45Z | Yahoo\nTitle: I Tried To Buy 1,000 Shares Of The Figma IPO...Here's What Happened\nURL: https://finnhub.io/api/news?id=28bb4052a2dc7252185999f62ce7c84c9b9ac50c5120aba8d6806cc398cae02b\nOn Thursday, July 31, design-tech company Figma Inc. (NYSE:FIG) launched its initial public offering (IPO). This isn't just any tech company. It's the collaborative platform used by thousands of companies, from startups to heavy hitters like Google ...",
+    "metadata": {
+      "title": "I Tried To Buy 1,000 Shares Of The Figma IPO...Here's What Happened",
+      "published_at": "2025-08-09T00:31:45Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=28bb4052a2dc7252185999f62ce7c84c9b9ac50c5120aba8d6806cc398cae02b",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e5768d6a-45f3-4f60-9c88-ccd888a667e6",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T22:48:57Z | Yahoo\nTitle: FlyJets CEO On Rising Private Jet Rentals\nURL: https://finnhub.io/api/news?id=6e9d96b1392738846abb5a2edb56da166f125374295830cca3cd522f281bdd47\nJessica Fisher, FlyJets CEO and Founder, describes FlyJets as an Airbnb for private jet bookings, where an operator or owner can list their plane and someone can book it. The company updates aircraft listings every five minutes and allows automatic booking. She speaks with Scarlet Fu and Katie Greifeld on \"The Close.\"",
+    "metadata": {
+      "title": "FlyJets CEO On Rising Private Jet Rentals",
+      "published_at": "2025-08-08T22:48:57Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6e9d96b1392738846abb5a2edb56da166f125374295830cca3cd522f281bdd47",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e00b6dc4-96b5-4502-a6b1-b39791c0b603",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T15:30:56Z | Yahoo\nTitle: Airbnb embraces a paradox: CEO Brian Chesky says hotels are the future\nURL: https://finnhub.io/api/news?id=3a1c090dc5fb0a0c1088edfb160f76bbe856f5e52c2b3510bc721f0df561d6be\n“We’re going to be going significantly more aggressively into hotels,” CEO Brian Chesky told analysts. Meanwhile, investors sent shares down roughly 6%.",
+    "metadata": {
+      "title": "Airbnb embraces a paradox: CEO Brian Chesky says hotels are the future",
+      "published_at": "2025-08-08T15:30:56Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3a1c090dc5fb0a0c1088edfb160f76bbe856f5e52c2b3510bc721f0df561d6be",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d1b1362c-f24a-4078-ab63-dfea2860e85b",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T15:28:27Z | Yahoo\nTitle: Airbnb Stock Just Went on Sale. Here’s How to (Safely) Trade the Post-Earnings Dive with Options.\nURL: https://finnhub.io/api/news?id=628a2a2f257b71d2e45ae22cedbe1dbf9b698641d14f94e18f6c3fef665a05e7\nDramatic moves in stocks after quarterly earnings emphasize just why options collars matter for risk management.",
+    "metadata": {
+      "title": "Airbnb Stock Just Went on Sale. Here’s How to (Safely) Trade the Post-Earnings Dive with Options.",
+      "published_at": "2025-08-08T15:28:27Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=628a2a2f257b71d2e45ae22cedbe1dbf9b698641d14f94e18f6c3fef665a05e7",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "44ea459c-7635-43c6-8d9d-04c9d09b4ce4",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T15:25:00Z | Yahoo\nTitle: Airbnb charts AI-first path as it expands customer service agent\nURL: https://finnhub.io/api/news?id=c252dbad1d5e1e73cd65536920df00d7ce1f347b204b475fc19e514c46bd7e1d\n“I think you can’t do travel planning without AI going forward,” CEO Brian Chesky said.",
+    "metadata": {
+      "title": "Airbnb charts AI-first path as it expands customer service agent",
+      "published_at": "2025-08-08T15:25:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c252dbad1d5e1e73cd65536920df00d7ce1f347b204b475fc19e514c46bd7e1d",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "de94eefd-4418-4856-aba3-8ce85e4d3855",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T15:03:00Z | Yahoo\nTitle: Expedia Posted Strong Earnings. What Wall Street Is Saying About the Stock.\nURL: https://finnhub.io/api/news?id=646d79392ce85f58f86f0a4cc90b656b356d0c343affd0d4ba60f509e0fa6539\nNot all analysts are bullish on shares of the online travel agency, but higher price targets are rolling in.",
+    "metadata": {
+      "title": "Expedia Posted Strong Earnings. What Wall Street Is Saying About the Stock.",
+      "published_at": "2025-08-08T15:03:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=646d79392ce85f58f86f0a4cc90b656b356d0c343affd0d4ba60f509e0fa6539",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "08380f6b-8cad-4c5f-9814-6cc6927f8d8f",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T11:36:18Z | Yahoo\nTitle: Airbnb, Inc. Just Beat EPS By 9.5%: Here's What Analysts Think Will Happen Next\nURL: https://finnhub.io/api/news?id=e58178255f391bfcda0792e23719f72909c7a13a0f3876ffb111263e02d3c532\nNasdaqGS:ABNB 1 Year Share Price vs Fair Value Explore Airbnb's Fair Values from the Community and select yours Airbnb...",
+    "metadata": {
+      "title": "Airbnb, Inc. Just Beat EPS By 9.5%: Here's What Analysts Think Will Happen Next",
+      "published_at": "2025-08-08T11:36:18Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e58178255f391bfcda0792e23719f72909c7a13a0f3876ffb111263e02d3c532",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "290376f8-5b90-4242-9f85-5cbb4ac62635",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T07:25:46Z | Benzinga\nTitle: Sonder Secures New Funding, Amends Marriott Agreement\nURL: https://finnhub.io/api/news?id=8055c5bab17dda4ece7533509d7cf73e7fd7c2970a9169c870fcfab5835cadc7\nSonder Holdings Inc. (NASDAQ: SOND) announced a new financing plan to raise $24.54 million and strengthen liquidity for future growth. Shareholders and partnerships support the move. SOND shares surged 8.17% premarket.",
+    "metadata": {
+      "title": "Sonder Secures New Funding, Amends Marriott Agreement",
+      "published_at": "2025-08-08T07:25:46Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=8055c5bab17dda4ece7533509d7cf73e7fd7c2970a9169c870fcfab5835cadc7",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "00c00236-392a-4a7a-b7a6-88d348632488",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T05:15:00Z | SeekingAlpha\nTitle: What Baron Bought And Sold In Q2: Airbnb, BXP, And More\nURL: https://finnhub.io/api/news?id=9003cfb689fd60ae440e26d3f3868515b54d033e17ed408a217247799cb3db93\nBaron Capital reveals Q2 real estate moves, spotlighting Airbnb and BXP. See what changed, why it matters, and how investors can benefit from the insights.",
+    "metadata": {
+      "title": "What Baron Bought And Sold In Q2: Airbnb, BXP, And More",
+      "published_at": "2025-08-08T05:15:00Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9003cfb689fd60ae440e26d3f3868515b54d033e17ed408a217247799cb3db93",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "453f691d-b5db-41f1-b0f8-3a37e9a122d5",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-08T00:03:24Z | SeekingAlpha\nTitle: Airbnb: Elevated Valuation Meets A Weakening Economy\nURL: https://finnhub.io/api/news?id=033cffcb4eade3ae0f4df515201502937ea8b2149401be2e2111d8882f23ebef\nAirbnb's Q2 results reveal slowed growth in key markets amid economic risks. High valuation multiples leave little margin for error. See why ABNB is hold rated.",
+    "metadata": {
+      "title": "Airbnb: Elevated Valuation Meets A Weakening Economy",
+      "published_at": "2025-08-08T00:03:24Z",
+      "source_name": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=033cffcb4eade3ae0f4df515201502937ea8b2149401be2e2111d8882f23ebef",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "5916692c-7194-4635-8e60-d9e92dab1b84",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-07T21:58:18Z | Benzinga\nTitle: Cathie Wood Buys the Airbnb Dip With $21.5 Million Stock Purchase, Dumps Palantir, DraftKings And Robinhood Shares\nURL: https://finnhub.io/api/news?id=5859acfb7636ebb161b63b43c583b446e3eccdd53f9b285a896155ec1a61f141\nArk Invest made significant trades involving Airbnb, Robinhood, Palantir, and DraftKings. These reflect strategic adjustments in response to market developments and company news.",
+    "metadata": {
+      "title": "Cathie Wood Buys the Airbnb Dip With $21.5 Million Stock Purchase, Dumps Palantir, DraftKings And Robinhood Shares",
+      "published_at": "2025-08-07T21:58:18Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=5859acfb7636ebb161b63b43c583b446e3eccdd53f9b285a896155ec1a61f141",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "53af20de-cce7-47b8-8156-d325c864e52b",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-07T16:26:00Z | Yahoo\nTitle: Tech, Media & Telecom Roundup: Market Talk\nURL: https://finnhub.io/api/news?id=82a4e128bed99cfa1d631839633a6b1b952b4dd1e0b79293980e4dcd49c60e2a\nFind insight on President Trump’s semiconductor tariff, Deutsche Telekom and more in the latest Market Talks covering Technology, Media and Telecom.",
+    "metadata": {
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "published_at": "2025-08-07T16:26:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=82a4e128bed99cfa1d631839633a6b1b952b4dd1e0b79293980e4dcd49c60e2a",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a8a4c0be-192e-4ff7-8cf9-633805e1727f",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-07T20:28:00Z | Yahoo\nTitle: These Stocks Moved the Most Today: Eli Lilly, Fortinet, AppLovin, Sunrun, Airbnb, Duolingo, and More\nURL: https://finnhub.io/api/news?id=8437f05f425368be32854f1dbd9f62e12f5e8bbe8726916d3cd20c8756629c6b\nA slew or company results were causing big market moves ahead of the opening bell Thursday, and for many, earnings-beat wasn’t enough to prevent a selloff.",
+    "metadata": {
+      "title": "These Stocks Moved the Most Today: Eli Lilly, Fortinet, AppLovin, Sunrun, Airbnb, Duolingo, and More",
+      "published_at": "2025-08-07T20:28:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8437f05f425368be32854f1dbd9f62e12f5e8bbe8726916d3cd20c8756629c6b",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2960b759-41da-4dd2-adbe-9644059bf769",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-07T19:57:31Z | Yahoo\nTitle: Duolingo, Eli Lilly, Airbnb: Trending Tickers\nURL: https://finnhub.io/api/news?id=d7991f7e9c64d88c7fe1f28c95808e682597cc4be1744d5eba7ff1af7d90e3ad\nDuolingo (DUOL) stock is surging on a strong second quarter beat and raised guidance. Eli Lilly (LLY) stock is plunging as disappointing trial results for its weight-loss pill overshadowed solid performance from its existing obesity drug. Airbnb (ABNB) stock is falling despite the company's earnings beat. To watch more expert insights and analysis on the latest market action, check out more Market Domination.",
+    "metadata": {
+      "title": "Duolingo, Eli Lilly, Airbnb: Trending Tickers",
+      "published_at": "2025-08-07T19:57:31Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d7991f7e9c64d88c7fe1f28c95808e682597cc4be1744d5eba7ff1af7d90e3ad",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "1fdaf752-b13b-4e3c-95f1-8b447daeb37b",
+    "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+    "source_type": "news",
+    "text": "[NEWS] 2025-08-07T16:19:00Z | Yahoo\nTitle: ABNB Q2 Earnings Beat Estimates, Revenues Rise Y/Y, Shares Drop\nURL: https://finnhub.io/api/news?id=b61dc08b4df4fa5d28251adec9bd22266a9c1d5c029193c73b8e1a553f2f8484\nABNB beats Q2 estimates on strong bookings and rising ADR, but shares drop 7% on margin warning for the third and fourth quarters of 2025.",
+    "metadata": {
+      "title": "ABNB Q2 Earnings Beat Estimates, Revenues Rise Y/Y, Shares Drop",
+      "published_at": "2025-08-07T16:19:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b61dc08b4df4fa5d28251adec9bd22266a9c1d5c029193c73b8e1a553f2f8484",
+      "ticker": "ABNB"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "278351b4-5b90-40c8-b6d4-2f36ba93f861",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "[FILING] ABNB 10-Q | Filed: 2025-08-06 | Accepted: 2025-08-06T20:09:27.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1559720/000155972025000025/abnb-20250630.htm",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-Q",
+      "filed_at": "2025-08-06",
+      "accepted_at": "2025-08-06T20:09:27.000Z",
+      "accession_number": "0001559720-25-000025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000025/abnb-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-08-06",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "84db404a-249d-4e5b-8375-4f95224a0d50",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Management's Discussion and Analysis of Financial Condition and Results of Operations 23 Item 3. Quantitative and Qualitative Disclosures About Market Risk 33 Item 4. Controls and Procedures 33 PART II. OTHER INFORMATION Item 1. Legal Proceedings 34 Item 1A. Risk Factors 34 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 34 Item 3. Defaults Upon Senior Securities 34 Item 4. Mine Safety Disclosures 34 Item 5. Other Information 35 Item 6. Exhibits 35 Signatures 36 Table of Contents Special Note Regarding Forward-Looking Statements This Quarterly Report on Form 10-Q contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, investors can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: • our global expansion efforts, including our expectations regarding our global markets strategy and future investments in less mature markets; • our expansion efforts beyond travel accommodations and our expectations regarding our multi-year product roadmap; • our expectations regarding new products and offerings and investments in our platform; • our initiatives related to trust and safety on our platform; • our expectations regarding our technology platform and our continued technological investments, and expectations regarding improvements to our foundational technology; • our expectations regarding our investment in and the impact of our brand marketing, communications, and performance marketing strategy, and",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-Q",
+      "filed_at": "2025-08-06",
+      "accepted_at": "2025-08-06T20:09:27.000Z",
+      "accession_number": "0001559720-25-000025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000025/abnb-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-08-06",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "44f71007-34b9-4c6f-8c8b-78faa42f7059",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 34 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 34 Item 3. Defaults Upon Senior Securities 34 Item 4. Mine Safety Disclosures 34 Item 5. Other Information 35 Item 6. Exhibits 35 Signatures 36 Table of Contents Special Note Regarding Forward-Looking Statements This Quarterly Report on Form 10-Q contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, investors can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: • our global expansion efforts, including our expectations regarding our global markets strategy and future investments in less mature markets; • our expansion efforts beyond travel accommodations and our expectations regarding our multi-year product roadmap; • our expectations regarding new products and offerings and investments in our platform; • our initiatives related to trust and safety on our platform; • our expectations regarding our technology platform and our continued technological investments, and expectations regarding improvements to our foundational technology; • our expectations regarding our investment in and the impact of our brand marketing, communications, and performance marketing strategy, and our ability to continue to attract guests and hosts to our platform through direct and unpaid channels; • our ability to stay in compliance with laws and regulations that currently apply or may become applicable to our business, both in the United S",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-Q",
+      "filed_at": "2025-08-06",
+      "accepted_at": "2025-08-06T20:09:27.000Z",
+      "accession_number": "0001559720-25-000025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000025/abnb-20250630.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-08-06",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4b7b43b2-ca26-4ad0-b1a9-1bcf4d6422ca",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "[FILING] ABNB 10-Q | Filed: 2025-05-01 | Accepted: 2025-05-01T20:02:22.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1559720/000155972025000017/abnb-20250331.htm",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-01",
+      "accepted_at": "2025-05-01T20:02:22.000Z",
+      "accession_number": "0001559720-25-000017",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000017/abnb-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-01",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d0b82457-bd16-4285-ba71-80f9364a2f37",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Management's Discussion and Analysis of Financial Condition and Results of Operations 22 Item 3. Quantitative and Qualitative Disclosures About Market Risk 30 Item 4. Controls and Procedures 30 PART II. OTHER INFORMATION Item 1. Legal Proceedings 31 Item 1A. Risk Factors 31 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 31 Item 3. Defaults Upon Senior Securities 31 Item 4. Mine Safety Disclosures 31 Item 5. Other Information 32 Item 6. Exhibits 32 Signatures 33 Table of Contents Special Note Regarding Forward-Looking Statements This Quarterly Report on Form 10-Q contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, investors can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: • our global expansion efforts, including our expectations regarding our global markets strategy and future investments in less mature markets; • our expansion efforts beyond travel accommodations and our expectations regarding our multi-year product roadmap; • our expectations regarding new products and offerings and investments in our platform; • our initiatives related to trust and safety on our platform; • our expectations regarding our technology platform and our continued technological investments, and expectations regarding improvements to our foundational technology; • our expectations regarding our investment in and the impact of our brand marketing, communications, and performance marketing strategy, and",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-01",
+      "accepted_at": "2025-05-01T20:02:22.000Z",
+      "accession_number": "0001559720-25-000017",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000017/abnb-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-01",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "3317e91a-d160-4890-be3e-cd83ea71a015",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 31 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 31 Item 3. Defaults Upon Senior Securities 31 Item 4. Mine Safety Disclosures 31 Item 5. Other Information 32 Item 6. Exhibits 32 Signatures 33 Table of Contents Special Note Regarding Forward-Looking Statements This Quarterly Report on Form 10-Q contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, investors can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: • our global expansion efforts, including our expectations regarding our global markets strategy and future investments in less mature markets; • our expansion efforts beyond travel accommodations and our expectations regarding our multi-year product roadmap; • our expectations regarding new products and offerings and investments in our platform; • our initiatives related to trust and safety on our platform; • our expectations regarding our technology platform and our continued technological investments, and expectations regarding improvements to our foundational technology; • our expectations regarding our investment in and the impact of our brand marketing, communications, and performance marketing strategy, and our ability to continue to attract guests and hosts to our platform through direct and unpaid channels; • our ability to stay in compliance with laws and regulations that currently apply or may become applicable to our business, both in the United S",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-01",
+      "accepted_at": "2025-05-01T20:02:22.000Z",
+      "accession_number": "0001559720-25-000017",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000017/abnb-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-01",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "3238e9c4-c031-423b-969b-77deb6456e94",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "[FILING] ABNB 10-K | Filed: 2025-02-13 | Accepted: 2025-02-13T21:04:28.000Z\nTitle: 10-K\nURL: https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-K",
+      "filed_at": "2025-02-13",
+      "accepted_at": "2025-02-13T21:04:28.000Z",
+      "accession_number": "0001559720-25-000010",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-13",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "91334626-fa4d-40dc-a189-e0a842a7d2eb",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Item 1. Business 4 Item 1A. Risk Factors 8 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 32 Item 3. Legal Proceedings 32 Item 4. Mine Safety Disclosures 32 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 33 Item 6. [Reserved] 34 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 34 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 44 Item 8. Financial Statements and Supplementary Data 46 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 82 Item 9A. Controls and Procedures 82 Item 9B. Other Information 82 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 82 PART III Item 10. Directors, Executive Officers and Corporate Governance 83 Item 11. Executive Compensation 83 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 83 Item 13. Certain Relationships and Related Transactions, and Director Independence 83 Item 14. Principal Accountant Fees and Services 83 PART IV Item 15. Exhibit s and Financial Statement Schedules 84 Item 16. Form 10-K Summary 86 Signatures 87 Table of Contents Special Note Regarding Forward-Looking Statements This Annual Report on Form 10-K contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Annual Report on Form 10-K, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “commitment,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Annual Report on F",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-K",
+      "filed_at": "2025-02-13",
+      "accepted_at": "2025-02-13T21:04:28.000Z",
+      "accession_number": "0001559720-25-000010",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-13",
+    "field_name": "filing_business",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6295945b-1bfd-4f66-be28-53b42f811287",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 34 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 44 Item 8. Financial Statements and Supplementary Data 46 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 82 Item 9A. Controls and Procedures 82 Item 9B. Other Information 82 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 82 PART III Item 10. Directors, Executive Officers and Corporate Governance 83 Item 11. Executive Compensation 83 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 83 Item 13. Certain Relationships and Related Transactions, and Director Independence 83 Item 14. Principal Accountant Fees and Services 83 PART IV Item 15. Exhibit s and Financial Statement Schedules 84 Item 16. Form 10-K Summary 86 Signatures 87 Table of Contents Special Note Regarding Forward-Looking Statements This Annual Report on Form 10-K contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Annual Report on Form 10-K, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “commitment,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Annual Report on Form 10-K include, but are not limited to, statements about: • our expectations regarding our long-term growth strategy; • our global expansion efforts, including our expectations regarding our global markets strategy and future investments in less mature markets; • our expansion efforts beyond travel accommodations and our expectations regarding our",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-K",
+      "filed_at": "2025-02-13",
+      "accepted_at": "2025-02-13T21:04:28.000Z",
+      "accession_number": "0001559720-25-000010",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-13",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4385e176-4947-49ea-a05d-9a28f2e2a7e7",
+    "source_id": "24a8f803-d2a9-4740-b818-fe9c5a762941",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 8 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 32 Item 3. Legal Proceedings 32 Item 4. Mine Safety Disclosures 32 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 33 Item 6. [Reserved] 34 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 34 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 44 Item 8. Financial Statements and Supplementary Data 46 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 82 Item 9A. Controls and Procedures 82 Item 9B. Other Information 82 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 82 PART III Item 10. Directors, Executive Officers and Corporate Governance 83 Item 11. Executive Compensation 83 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 83 Item 13. Certain Relationships and Related Transactions, and Director Independence 83 Item 14. Principal Accountant Fees and Services 83 PART IV Item 15. Exhibit s and Financial Statement Schedules 84 Item 16. Form 10-K Summary 86 Signatures 87 Table of Contents Special Note Regarding Forward-Looking Statements This Annual Report on Form 10-K contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, about us and our industry that involve substantial risks and uncertainties. All statements other than statements of historical facts contained in this Annual Report on Form 10-K, including statements regarding our strategy, future financial condition, future operations, projected costs, prospects, plans, objectives of management, and expected market growth, are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “commitment,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Forward-looking statements contained in this Annual Report on Form 10-K include, b",
+    "metadata": {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "form_type": "10-K",
+      "filed_at": "2025-02-13",
+      "accepted_at": "2025-02-13T21:04:28.000Z",
+      "accession_number": "0001559720-25-000010",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-13",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "72a18514-92df-419f-8af1-485eb3ae414d",
+    "source_id": "e1e8afe5-284b-41f8-8961-4e20e26d0568",
+    "source_type": "price_data",
+    "text": "Price history for SPY from 2024-08-11 to 2025-08-11: Opening price on 2024-08-12: $533.27, Closing price on 2025-08-11: $635.92. 52-week high: $639.85, 52-week low: $481.80.",
+    "metadata": {
+      "ticker": "SPY",
+      "from_date": "2024-08-11",
+      "to_date": "2025-08-11",
+      "data_points": 250,
+      "price_start": 533.27,
+      "price_end": 635.92,
+      "price_high": 639.85,
+      "price_low": 481.8,
+      "series_role": "benchmark",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

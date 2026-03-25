@@ -1,0 +1,127 @@
+{
+  "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+  "section_name": "Recent Developments",
+  "text": "Institutional investor activity showed mixed signals following the earnings release. Ark Invest's Cathie Wood purchased $21.5M in Airbnb stock, buying the post-earnings dip C016. Baron Capital also highlighted Airbnb among its Q2 real estate portfolio moves C014. Competitive dynamics remain active, with Sonder securing $24.54M in new funding and amending its Marriott agreement on August 8, 2025 C013. Expedia posted strong earnings with analysts issuing higher price targets, indicating robust online travel agency sector performance C011. The current ratio of 1.23 suggests adequate near-term liquidity positioning K006.",
+  "citations": [
+    {
+      "citation_id": "e5fbbbf7-29d1-434c-aa06-e8fdcf96bb12",
+      "chunk_id": "5916692c-7194-4635-8e60-d9e92dab1b84",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-07T21:58:18Z | Benzinga\nTitle: Cathie Wood Buys the Airbnb Dip With $21.5 Million Stock Purchase, Dumps Palantir, DraftKings And Robinhood Shares\nURL: https://finnhub.io/api/news?id=5859acfb7636ebb161b63b43c583b446e3eccdd53f9b285a896155ec1a61f141\nArk Invest made significant trades inv",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "099b0ad8-3f2a-4b23-a9a9-8bc46895254c",
+      "chunk_id": "00c00236-392a-4a7a-b7a6-88d348632488",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T05:15:00Z | SeekingAlpha\nTitle: What Baron Bought And Sold In Q2: Airbnb, BXP, And More\nURL: https://finnhub.io/api/news?id=9003cfb689fd60ae440e26d3f3868515b54d033e17ed408a217247799cb3db93\nBaron Capital reveals Q2 real estate moves, spotlighting Airbnb and BXP. See what changed, wh",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b77c6318-ae0b-4ea2-9915-860626ab8c60",
+      "chunk_id": "290376f8-5b90-4242-9f85-5cbb4ac62635",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T07:25:46Z | Benzinga\nTitle: Sonder Secures New Funding, Amends Marriott Agreement\nURL: https://finnhub.io/api/news?id=8055c5bab17dda4ece7533509d7cf73e7fd7c2970a9169c870fcfab5835cadc7\nSonder Holdings Inc. (NASDAQ: SOND) announced a new financing plan to raise $24.54 million and stre",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "db5d09c4-4789-4d19-8739-4e2fb5e31ef0",
+      "chunk_id": "de94eefd-4418-4856-aba3-8ce85e4d3855",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T15:03:00Z | Yahoo\nTitle: Expedia Posted Strong Earnings. What Wall Street Is Saying About the Stock.\nURL: https://finnhub.io/api/news?id=646d79392ce85f58f86f0a4cc90b656b356d0c343affd0d4ba60f509e0fa6539\nNot all analysts are bullish on shares of the online travel agency, but higher p",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "5916692c-7194-4635-8e60-d9e92dab1b84",
+    "00c00236-392a-4a7a-b7a6-88d348632488",
+    "290376f8-5b90-4242-9f85-5cbb4ac62635",
+    "de94eefd-4418-4856-aba3-8ce85e4d3855"
+  ],
+  "calc_ids": [
+    "ccc4c5e9-d23b-4bb4-a66a-e14e17c7fab3"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "56229ed0-ae31-4918-a49d-e3af0a1836b4",
+      "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "619275cc-8dcd-4c59-8a20-67d30916641d",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+          "offending_span": "C016",
+          "explanation": "The paragraph cites C016 for the Ark Invest/Cathie Wood claim, but the actual cited chunk ref is C089. The inline citation ID does not match the cited chunk refs list.",
+          "relevant_chunk_ids": [
+            "5916692c-7194-4635-8e60-d9e92dab1b84"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the inline citation from C016 to C089 to match the actual cited chunk."
+        },
+        {
+          "issue_id": "90464e7d-a6d1-43ee-a6de-8d45d4537030",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+          "offending_span": "C014",
+          "explanation": "The paragraph cites C014 for the Baron Capital claim, but the actual cited chunk ref is C087. The inline citation ID does not match the cited chunk refs list.",
+          "relevant_chunk_ids": [
+            "00c00236-392a-4a7a-b7a6-88d348632488"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the inline citation from C014 to C087 to match the actual cited chunk."
+        },
+        {
+          "issue_id": "c262f7b6-ac5c-46c5-8dc1-cba78c4aac96",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+          "offending_span": "C013",
+          "explanation": "The paragraph cites C013 for the Sonder funding claim, but the actual cited chunk ref is C086. The inline citation ID does not match the cited chunk refs list.",
+          "relevant_chunk_ids": [
+            "290376f8-5b90-4242-9f85-5cbb4ac62635"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the inline citation from C013 to C086 to match the actual cited chunk."
+        },
+        {
+          "issue_id": "d91269cd-bfee-4449-ae5a-b2c9120aa291",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+          "offending_span": "C011",
+          "explanation": "The paragraph cites C011 for the Expedia earnings claim, but the actual cited chunk ref is C084. The inline citation ID does not match the cited chunk refs list.",
+          "relevant_chunk_ids": [
+            "de94eefd-4418-4856-aba3-8ce85e4d3855"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Update the inline citation from C011 to C084 to match the actual cited chunk."
+        },
+        {
+          "issue_id": "ade1f6d7-10b3-441e-b9b6-584de57fe745",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+          "offending_span": "indicating robust online travel agency sector performance",
+          "explanation": "C084 explicitly states 'Not all analysts are bullish on shares of the online travel agency,' which introduces uncertainty. The paragraph's language implies more certainty about sector performance than the evidence warrants.",
+          "relevant_chunk_ids": [
+            "de94eefd-4418-4856-aba3-8ce85e4d3855"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Qualify the statement to acknowledge the mixed analyst sentiment, e.g., 'with some analysts issuing higher price targets despite mixed sentiment.'"
+        }
+      ],
+      "checked_at": "2026-03-24T07:39:29.417532",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

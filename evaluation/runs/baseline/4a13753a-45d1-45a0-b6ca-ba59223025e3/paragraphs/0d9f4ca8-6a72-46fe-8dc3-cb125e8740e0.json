@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "0d9f4ca8-6a72-46fe-8dc3-cb125e8740e0",
+  "section_name": "Company Overview",
+  "text": "Alphabet Inc. (Ticker: GOOGL) | Exchange: NASDAQ | Sector: Communication Services | Industry: Internet Content & Information | Market Cap: N/A | CEO: Sundar Pichai | Full-Time Employees: 185719 | IPO Date: 2004-08-19 | Country: US | Website: https://www.abc.xyz",
+  "citations": [
+    {
+      "citation_id": "9ed24718-62e6-46b6-b18d-5a416a59de7a",
+      "chunk_id": "bf7c93d4-7692-4e8c-9e4d-aa19fa6ab9b8",
+      "source_id": "96c360cc-44a1-4742-ba91-30eb0679e751",
+      "source_type": "company_profile",
+      "text_snippet": "Alphabet Inc. (Ticker: GOOGL) | Exchange: NASDAQ | Sector: Communication Services | Industry: Internet Content & Information | Market Cap: N/A | CEO: Sundar Pichai | Full-Time Employees: 185719 | IPO Date: 2004-08-19 | Country: US | Website: https://www.abc.xyz",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "bf7c93d4-7692-4e8c-9e4d-aa19fa6ab9b8"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

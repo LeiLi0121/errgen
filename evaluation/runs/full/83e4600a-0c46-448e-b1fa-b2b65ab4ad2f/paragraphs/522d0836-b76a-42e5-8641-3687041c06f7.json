@@ -1,0 +1,94 @@
+{
+  "paragraph_id": "522d0836-b76a-42e5-8641-3687041c06f7",
+  "section_name": "Financial Analysis",
+  "text": "Profitability metrics reflect strong net margin performance, with Q3 2025 net margin at 27.86%, up from 25.80% in Q3 2024. The margin expansion trend continued through 2025, with Q1 2025 at 26.84% and Q2 2025 at 27.95%, indicating consistent profitability improvement. Net income grew to $2,902,000,000 in Q3 2025 from $2,507,000,000 in Q3 2024. However, gross margin and operating margin data are not available in the provided financial statements, limiting comprehensive margin analysis.",
+  "citations": [
+    {
+      "citation_id": "63930f08-6e4a-4c85-aa06-b0d4d1fac141",
+      "chunk_id": "070de5ab-c168-4add-93cb-ccf775004a45",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2025: 27.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5753d200-6ee9-4a42-9e7e-66d367bf31d6",
+      "chunk_id": "c4aee455-ad43-407f-9032-5965f82452e8",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2024: 25.80%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b8f417c8-77c8-4093-82cb-55deb3fa45a0",
+      "chunk_id": "9085dc11-6559-4346-a13c-8171bfada9e7",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q1 2025: 26.84%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "51e00dc0-9e0d-4442-8a04-0ee2fd872c02",
+      "chunk_id": "d42b2315-33f4-4502-b62f-2609daff6e40",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q2 2025: 27.95%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a96c5dc1-5ca3-49fb-95ea-01bcc63ddfd6",
+      "chunk_id": "6a85947e-0100-46e0-869a-474581064db5",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Income for Q3 2025: $2,902,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "20d9b8e8-758c-47b6-9100-1bfc665127b4",
+      "chunk_id": "b4e94cc3-eaee-40d0-a149-46bff3d225ac",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Income for Q3 2024: $2,507,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "070de5ab-c168-4add-93cb-ccf775004a45",
+    "c4aee455-ad43-407f-9032-5965f82452e8",
+    "9085dc11-6559-4346-a13c-8171bfada9e7",
+    "d42b2315-33f4-4502-b62f-2609daff6e40",
+    "6a85947e-0100-46e0-869a-474581064db5",
+    "b4e94cc3-eaee-40d0-a149-46bff3d225ac"
+  ],
+  "calc_ids": [
+    "3f7d503f-0bcb-4a13-b8da-bbfa6cfc792e"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "0852d34c-6919-4ba2-949f-c25801e5c987",
+      "paragraph_id": "522d0836-b76a-42e5-8641-3687041c06f7",
+      "status": "pass",
+      "issues": [
+        {
+          "issue_id": "028031c8-cd51-4878-aaf2-c5648b492988",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "522d0836-b76a-42e5-8641-3687041c06f7",
+          "offending_span": "indicating consistent profitability improvement",
+          "explanation": "The term 'consistent' implies steady quarter-over-quarter improvement, but Q3 2025 net margin (27.86%) actually decreased slightly from Q2 2025 (27.95%). While year-over-year improvement is accurate (Q3 2025 vs Q3 2024), the sequential trend shows a minor dip, making 'consistent' slightly imprecise.",
+          "relevant_chunk_ids": [
+            "070de5ab-c168-4add-93cb-ccf775004a45",
+            "d42b2315-33f4-4502-b62f-2609daff6e40"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Consider revising to 'indicating strong profitability improvement' or 'indicating overall profitability improvement' to more accurately reflect the data pattern, or acknowledge the Q2-Q3 variation."
+        }
+      ],
+      "checked_at": "2026-03-24T20:04:24.493775",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

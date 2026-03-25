@@ -1,0 +1,64 @@
+{
+  "paragraph_id": "faca8114-1b76-44db-81f0-942974e7a105",
+  "section_name": "Financial Analysis",
+  "text": "Profitability metrics remained robust in Q4 2025, with gross margin at 59.82%, operating margin at 31.61%, and net margin at 30.25%. Operating income for the quarter totaled $36,002,000,000, while net income reached $34,455,000,000. These margin levels indicate Alphabet maintained strong pricing power and operational efficiency despite continued investments in infrastructure and AI capabilities. The EBITDA margin of 39.91% further underscores the company's cash generation capacity from core operations.",
+  "citations": [
+    {
+      "citation_id": "d2ba9b26-3036-461c-8188-73a060088203",
+      "chunk_id": "fc9d89f6-7ae2-440a-9f2a-4cb79b963504",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Gross Profit for Q4: $68,130,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "80a2e99a-1962-4446-ba4d-971a3643c802",
+      "chunk_id": "63f0f1d6-1f25-4a01-af90-021878e0b4f5",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Operating Income for Q4: $36,002,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e4a21974-5ed0-409e-be29-af11f5f59a0e",
+      "chunk_id": "c2ea4d35-414b-4a51-8fa8-6e753ce35dfd",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Net Income for Q4: $34,455,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "87102ac1-fc0c-431c-a1a0-0b44d547ecd6",
+      "chunk_id": "3071f7ec-4f43-4310-a777-df18f046c746",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL EBITDA for Q4: $45,455,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "fc9d89f6-7ae2-440a-9f2a-4cb79b963504",
+    "63f0f1d6-1f25-4a01-af90-021878e0b4f5",
+    "c2ea4d35-414b-4a51-8fa8-6e753ce35dfd",
+    "3071f7ec-4f43-4310-a777-df18f046c746"
+  ],
+  "calc_ids": [
+    "736a627b-0892-433c-9718-5c4fd34313c9",
+    "bf8d12f4-8efc-491a-b9f0-adafa9688051",
+    "de14607f-5fd3-4b6e-9fa9-44076a261bb1",
+    "98ba9a66-c8d9-477b-b10a-4c61cc9a2b37"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "64ee79cc-30e7-4b56-9f03-6baa6719af86",
+      "paragraph_id": "faca8114-1b76-44db-81f0-942974e7a105",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:13:33.677010",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

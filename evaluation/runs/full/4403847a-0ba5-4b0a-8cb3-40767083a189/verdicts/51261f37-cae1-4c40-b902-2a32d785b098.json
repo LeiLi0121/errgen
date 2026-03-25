@@ -1,0 +1,22 @@
+{
+  "verdict_id": "51261f37-cae1-4c40-b902-2a32d785b098",
+  "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0c8b60c6-2cfd-4fed-b055-cdb8039281c4",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "offending_span": "current assets of $23,180,000,000 (C029)",
+      "explanation": "The paragraph cites chunk C029 for all balance sheet figures (current assets, liabilities, cash, equity, debt), but the provided evidence chunk is C031. C029 is not present in the provided evidence context, while C031 contains the exact matching data. This citation error appears multiple times throughout the paragraph.",
+      "relevant_chunk_ids": [
+        "723ddf37-07ea-44d7-abbe-485afaeb7d45"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Update all instances of citation (C029) to (C031) to accurately reference the provided balance sheet data chunk."
+    }
+  ],
+  "checked_at": "2026-03-24T13:58:02.751805",
+  "iteration": 3
+}

@@ -1,0 +1,12 @@
+{
+  "revision_id": "ae9cd46a-c1e7-4657-9a4d-a832c8c3c8d3",
+  "paragraph_id": "3a03003f-c16a-485e-bf2a-538adccc980d",
+  "iteration": 3,
+  "original_text": "Airbnb demonstrated strong revenue recovery in Q2 2025, posting revenue of $3,096,000,000 (C001), representing 36.27% year-over-year growth compared to Q2 2024's $2,748,000,000 (K001). This marks a significant rebound from Q1 2025, which saw a -39.12% YoY decline to $2,272,000,000 (K001), reflecting the company's seasonal business patterns. The Q3 2024 period showed particularly strong performance at $3,732,000,000 with 35.81% YoY growth (K001), indicating robust travel demand during peak seasons. The sequential improvement from Q1 to Q2 2025 suggests normalization following the weaker early-year performance.",
+  "revised_text": "Airbnb demonstrated strong revenue recovery in Q2 2025, posting revenue of $3,096,000,000 (C003), representing 36.27% year-over-year growth compared to Q2 2024's $2,748,000,000 (K001). This marks a significant rebound from Q1 2025, which saw a -39.12% YoY decline to $2,272,000,000 (K001), reflecting the company's seasonal business patterns. The Q3 2024 period showed particularly strong performance at $3,732,000,000 with 35.81% YoY growth (K001), indicating robust travel demand during peak seasons. The sequential improvement from Q1 to Q2 2025 suggests normalization following the weaker early-year performance.",
+  "issues_addressed": [
+    "0c8e07ad-c91e-42a0-91b9-9eba4a068e7f"
+  ],
+  "changes_summary": "Changed the citation for Q2 2025 revenue from C001 to C003 to address the major citation mismatch issue identified by the fact-checker, as C001 was not among the valid provided references. All numerical data remains supported by C003 or the calculation reference K001.",
+  "revised_at": "2026-03-24T12:09:31.236031"
+}

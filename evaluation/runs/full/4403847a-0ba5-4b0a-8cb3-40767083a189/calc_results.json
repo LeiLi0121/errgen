@@ -1,0 +1,160 @@
+[
+  {
+    "calc_id": "f74b41df-a6d1-45cb-937c-db6608ac5c3c",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q2 2024",
+          "value": 2748000000.0
+        },
+        {
+          "period": "Q3 2024",
+          "value": 3732000000.0
+        },
+        {
+          "period": "Q1 2025",
+          "value": 2272000000.0
+        },
+        {
+          "period": "Q2 2025",
+          "value": 3096000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q2 2024",
+          "value": 2748000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q3 2024",
+          "value": 3732000000.0,
+          "yoy_growth": 0.35807860262008734,
+          "yoy_growth_pct": "35.81%"
+        },
+        {
+          "period": "Q1 2025",
+          "value": 2272000000.0,
+          "yoy_growth": -0.3912111468381565,
+          "yoy_growth_pct": "-39.12%"
+        },
+        {
+          "period": "Q2 2025",
+          "value": 3096000000.0,
+          "yoy_growth": 0.3626760563380282,
+          "yoy_growth_pct": "36.27%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "ABNB Revenue YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "75d5bf29-065d-4602-8ec3-882427a99190",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q2 2024",
+          "value": 555000000.0
+        },
+        {
+          "period": "Q3 2024",
+          "value": 1368000000.0
+        },
+        {
+          "period": "Q1 2025",
+          "value": 154000000.0
+        },
+        {
+          "period": "Q2 2025",
+          "value": 642000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q2 2024",
+          "value": 555000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q3 2024",
+          "value": 1368000000.0,
+          "yoy_growth": 1.4648648648648648,
+          "yoy_growth_pct": "146.49%"
+        },
+        {
+          "period": "Q1 2025",
+          "value": 154000000.0,
+          "yoy_growth": -0.8874269005847953,
+          "yoy_growth_pct": "-88.74%"
+        },
+        {
+          "period": "Q2 2025",
+          "value": 642000000.0,
+          "yoy_growth": 3.168831168831169,
+          "yoy_growth_pct": "316.88%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "ABNB Net Income YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "35419214-61d9-4136-bdea-986cab1c0998",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 612000000.0,
+      "denominator": 3096000000.0
+    },
+    "result": 0.19767441860465115,
+    "formula_description": "612000000.0 / 3096000000.0 = 0.1977 (19.77%)",
+    "description": "ABNB Operating Margin (Q2 2025)",
+    "error": null
+  },
+  {
+    "calc_id": "55a75f96-7fd3-4acb-9d3b-c57aafa708f1",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 642000000.0,
+      "denominator": 3096000000.0
+    },
+    "result": 0.20736434108527133,
+    "formula_description": "642000000.0 / 3096000000.0 = 0.2074 (20.74%)",
+    "description": "ABNB Net Margin (Q2 2025)",
+    "error": null
+  },
+  {
+    "calc_id": "96ed5e8e-8d7a-4666-bffb-29914da0ca2c",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 610000000.0,
+      "revenue": 3096000000.0
+    },
+    "result": 0.19702842377260982,
+    "formula_description": "R&D (610000000.0) / revenue (3096000000.0) = 0.1970 (19.70%)",
+    "description": "ABNB R&D Intensity (Q2 2025)",
+    "error": null
+  },
+  {
+    "calc_id": "ccc4c5e9-d23b-4bb4-a66a-e14e17c7fab3",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 23180000000.0,
+      "current_liabilities": 18816000000.0
+    },
+    "result": 1.2319302721088434,
+    "formula_description": "current_assets (23180000000.0) / current_liabilities (18816000000.0) = 1.23",
+    "description": "ABNB Current Ratio (Q2 2025)",
+    "error": null
+  }
+]

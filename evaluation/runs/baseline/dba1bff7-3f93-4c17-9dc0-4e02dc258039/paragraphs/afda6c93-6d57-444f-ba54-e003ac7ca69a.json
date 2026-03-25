@@ -1,0 +1,52 @@
+{
+  "paragraph_id": "afda6c93-6d57-444f-ba54-e003ac7ca69a",
+  "section_name": "Risk Analysis",
+  "text": "Liquidity position appears adequate but warrants monitoring. As of Q2 2025, Airbnb maintained cash and equivalents of $18,444,000,000 against current liabilities of $18,816,000,000 [C035, C037]. The current ratio stood at 1.23 in Q2 2025 [K006], indicating sufficient short-term liquidity coverage. Notably, no long-term debt is reported on the balance sheet [C031], which reduces leverage risk. However, the company engaged in $807,000,000 of stock buybacks in Q1 2025 [C061], which could pressure cash reserves if sustained during periods of weaker operating cash flow.",
+  "citations": [
+    {
+      "citation_id": "ad70551d-98b2-4b13-962c-80b1bca9eb22",
+      "chunk_id": "7a978160-64ac-4175-8492-db001a33e153",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Cash & Equivalents for Q2 2025: $18,444,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f3320f92-706a-4487-a798-2428bd1ed36e",
+      "chunk_id": "f4726d69-b5ca-4c99-a4c0-137fdedc2b3e",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Total Current Liabilities for Q2 2025: $18,816,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c51dd066-2f74-4b28-a312-1bb4c9dcedd1",
+      "chunk_id": "5782033e-3588-4bbd-8769-cc7fe48d6e57",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – ABNB | Period: Q2 2025 | Date: 2025-06-30\n  Total Assets:              $26,992,000,000\n  Total Liabilities:         $19,210,000,000\n  Total Stockholders' Equity:$7,782,000,000\n  Cash & Equivalents:        $18,444,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                N",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f1426a01-9920-481e-8f3f-b2cf26d16cb4",
+      "chunk_id": "284425a3-f955-47b9-88d3-bdc5cb072260",
+      "source_id": "ae1c805a-9e54-486b-805b-c520aa830921",
+      "source_type": "cash_flow",
+      "text_snippet": "ABNB Stock Buybacks for Q1 2025: $807,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "7a978160-64ac-4175-8492-db001a33e153",
+    "f4726d69-b5ca-4c99-a4c0-137fdedc2b3e",
+    "5782033e-3588-4bbd-8769-cc7fe48d6e57",
+    "284425a3-f955-47b9-88d3-bdc5cb072260"
+  ],
+  "calc_ids": [
+    "674d7eaf-f87a-4af0-8c40-213e983300c7"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

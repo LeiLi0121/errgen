@@ -1,0 +1,80 @@
+{
+  "paragraph_id": "2025d79f-b0df-4279-a8ba-c59ba083672b",
+  "section_name": "Risk Analysis",
+  "text": "Operational execution risk is suggested by earnings volatility throughout 2025. Net income growth fluctuated significantly across quarters, declining 18.37% in Q2 before rebounding 24.06% in Q3, then contracting 1.50% in Q4. This variability indicates potential sensitivity to market conditions or operational factors that could affect profitability consistency. Additionally, R&D intensity reached 16.31% of revenue in Q4 2025, with $18,572,000,000 in R&D expenses. While this investment level supports innovation capabilities, it represents substantial ongoing commitment that must generate adequate returns to justify the expenditure.",
+  "citations": [
+    {
+      "citation_id": "2dde3a0d-d513-47d3-8275-b339fef936f2",
+      "chunk_id": "e45622f7-268d-4af1-86f0-367a1ac20b9e",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – GOOGL | Period: Q4 | Date: 2025-12-31\n  Revenue:            $113,896,000,000\n  Gross Profit:       $68,130,000,000 (margin N/A)\n  Operating Income:   $36,002,000,000 (margin N/A)\n  Net Income:         $34,455,000,000 (margin N/A)\n  EBITDA:             $45,455,000,000\n  EPS:       ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "120265b9-ab1e-43b0-b9b9-bcc20ea75a72",
+      "chunk_id": "c2ea4d35-414b-4a51-8fa8-6e753ce35dfd",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Net Income for Q4: $34,455,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "dfc8275f-bdca-4596-9db5-d8d1ca50db7e",
+      "chunk_id": "a522cd20-c1c5-4eb8-b4f6-f70d9cf3e053",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL R&D Expenses for Q4: $18,572,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "94141ef6-47b6-45a1-8c31-621e3b4efb01",
+      "chunk_id": "46be13ac-bb2c-4367-a657-e02a1759db13",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Net Income for Q3: $34,979,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "54e9af05-eb43-485d-a794-8cf5fe38fb1c",
+      "chunk_id": "54b68092-4ff1-44da-a508-524dd70efdb1",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Net Income for Q2: $28,196,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "79e5a9e1-ffdd-4584-9a29-9e9f1ff9ccb8",
+      "chunk_id": "15a6f598-c28d-4df3-8bbb-0d8bc4485f9c",
+      "source_id": "3383d993-4d52-4912-9066-b59d2981413c",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL Net Income for Q1: $34,540,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e45622f7-268d-4af1-86f0-367a1ac20b9e",
+    "c2ea4d35-414b-4a51-8fa8-6e753ce35dfd",
+    "a522cd20-c1c5-4eb8-b4f6-f70d9cf3e053",
+    "46be13ac-bb2c-4367-a657-e02a1759db13",
+    "54b68092-4ff1-44da-a508-524dd70efdb1",
+    "15a6f598-c28d-4df3-8bbb-0d8bc4485f9c"
+  ],
+  "calc_ids": [
+    "f14fc8c2-353c-4d37-acc7-eac04267cef6",
+    "88ca9663-32c0-4175-80a7-6a9372feb4c6"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "4a1d5ce6-dc2e-4d32-92a1-2afdfab14413",
+      "paragraph_id": "2025d79f-b0df-4279-a8ba-c59ba083672b",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:18:05.955462",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

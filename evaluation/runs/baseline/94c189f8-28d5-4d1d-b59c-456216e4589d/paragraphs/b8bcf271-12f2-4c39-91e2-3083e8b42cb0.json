@@ -1,0 +1,43 @@
+{
+  "paragraph_id": "b8bcf271-12f2-4c39-91e2-3083e8b42cb0",
+  "section_name": "Risk Analysis",
+  "text": "As a credit services provider operating through Global Consumer Services, Global Commercial Services, and Global Merchant and Network Services segments, American Express faces inherent credit risk from its lending activities. The company's business model involves providing charge and credit payment card products to consumers, small businesses, mid-sized companies, and large corporations worldwide. While specific credit loss metrics are not disclosed in the available data, the nature of these products exposes the company to potential deterioration in cardmember credit quality during economic downturns. The company's net margin of 27.86% in Q3 2025 provides some buffer, but sustained credit deterioration could compress profitability and require increased provisions.",
+  "citations": [
+    {
+      "citation_id": "352005d7-b73a-4e29-9571-fcc9efac0db8",
+      "chunk_id": "a9200913-02b3-401c-878d-2667c5ca9e7f",
+      "source_id": "f5ae34cf-2195-453a-8e1b-aa439b693e73",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company (Ticker: AXP) | Exchange: NYSE | Sector: Financial Services | Industry: Financial - Credit Services | Market Cap: N/A | CEO: Stephen Joseph Squeri | Full-Time Employees: 75100 | IPO Date: 1972-06-01 | Country: US | Website: https://www.americanexpress.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "08114fd2-a42f-45ec-b48e-b499a3c846c3",
+      "chunk_id": "4b89ef2c-d6d6-499c-967b-67c8d6b59521",
+      "source_id": "f5ae34cf-2195-453a-8e1b-aa439b693e73",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company, together with its subsidiaries, provides charge and credit payment card products, and travel-related services worldwide. The company operates through three segments: Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services. Its pr",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c09b6cd8-ed16-45b3-b98b-8551c0a76f88",
+      "chunk_id": "d3b181d6-fe24-410f-9f5f-317933c39ba3",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AXP | Period: Q3 2025 | Date: 2025-09-30\n  Revenue:            $10,415,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,902,000,000 (margin 27.86%)\n  EBITDA:             N/A\n  EPS:                4.14\n  R&D Expenses:   ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "a9200913-02b3-401c-878d-2667c5ca9e7f",
+    "4b89ef2c-d6d6-499c-967b-67c8d6b59521",
+    "d3b181d6-fe24-410f-9f5f-317933c39ba3"
+  ],
+  "calc_ids": [
+    "e70e06bc-88e7-4999-8478-72ba22112d6e"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

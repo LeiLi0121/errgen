@@ -1,0 +1,36 @@
+{
+  "paragraph_id": "850bd99c-3eea-45e5-bccb-1281e3384950",
+  "section_name": "Recent Developments",
+  "text": "The stock has demonstrated relative strength ahead of earnings, with a 30-day price return of 4.25% compared to the S&P 500 benchmark return of 3.58% over the same period. This represents an excess return of 0.67% versus the broader market. Second quarter earnings season has been largely positive so far, with more positive surprises than negative ones across the market, setting a favorable backdrop for Amazon's upcoming results release.",
+  "citations": [
+    {
+      "citation_id": "5a0462f3-885d-47ef-a76a-f0c196c8f3e0",
+      "chunk_id": "ab0df343-4738-472b-bb20-786828c034c7",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats\nURL: https://finnhub.io/api/news?id=1d4f1455f465afbfedb585370db05f3c467eff3ae44790575cab7e36e9c2e5f0\nSecond quarter earnings season is in full swing, and the results have be",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "03ac2a37-921b-4f3b-ad9a-2625ce16d397",
+      "chunk_id": "6092f914-501c-4d18-afb7-bbc4bdb573e7",
+      "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Whirlpool, Tilray stocks tumble, with Spotify earnings on deck\nURL: https://finnhub.io/api/news?id=82345b9b8cebff9063a2e32ac64714fa69789f690f9ce026b809aa6555330ff9\nSecond quarter earnings season is in full swing, and the results have been lar",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ab0df343-4738-472b-bb20-786828c034c7",
+    "6092f914-501c-4d18-afb7-bbc4bdb573e7"
+  ],
+  "calc_ids": [
+    "e71481e1-264d-4783-bbd0-d43d1eadb0f0",
+    "52ac6bd1-24d0-463c-b382-197e6851af5a",
+    "114d922d-52c3-4e8d-afae-d4153fa7e318"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

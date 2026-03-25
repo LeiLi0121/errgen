@@ -1,0 +1,48 @@
+{
+  "verdict_id": "96fb945d-3957-436a-be5b-8368090a90a0",
+  "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "21abd3ec-e4ff-446b-9ffd-dc57683d9a74",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "offending_span": "CEO Brian Chesky stating the company will be 'going significantly more aggressively into hotels' (C081)",
+      "explanation": "The claim relies on chunk C081, which is not present in the provided evidence set (available chunks are C001-C020). The factual assertion cannot be verified.",
+      "relevant_chunk_ids": [
+        "e00b6dc4-96b5-4502-a6b1-b39791c0b603"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the actual source chunk C081 or remove the specific quote and citation if unavailable."
+    },
+    {
+      "issue_id": "f800165d-4fc2-4372-94c0-bf6b6f53d759",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "offending_span": "Chesky noting 'you can't do travel planning without AI going forward' (C083)",
+      "explanation": "The claim relies on chunk C083, which is not present in the provided evidence set (available chunks are C001-C020). The factual assertion cannot be verified.",
+      "relevant_chunk_ids": [
+        "44ea459c-7635-43c6-8d9d-04c9d09b4ce4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the actual source chunk C083 or remove the specific quote and citation if unavailable."
+    },
+    {
+      "issue_id": "a9dbc5a0-712d-4501-afc8-2bc976f272c6",
+      "issue_type": "unsupported_claim",
+      "severity": "critical",
+      "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+      "offending_span": "Expedia, which also posted strong earnings in the period (C084)",
+      "explanation": "The claim relies on chunk C084, which is not present in the provided evidence set (available chunks are C001-C020). The factual assertion cannot be verified.",
+      "relevant_chunk_ids": [
+        "de94eefd-4418-4856-aba3-8ce85e4d3855"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Provide the actual source chunk C084 or remove the specific claim and citation if unavailable."
+    }
+  ],
+  "checked_at": "2026-03-24T14:00:34.274828",
+  "iteration": 3
+}

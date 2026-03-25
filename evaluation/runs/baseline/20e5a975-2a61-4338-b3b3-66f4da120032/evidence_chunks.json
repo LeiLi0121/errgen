@@ -1,0 +1,1304 @@
+[
+  {
+    "chunk_id": "e1cd0a40-5c4a-41f4-bbab-c714aab366f2",
+    "source_id": "423ba4e8-654d-4d1f-8b8b-89d848d6e03e",
+    "source_type": "company_profile",
+    "text": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: http://www.aboutamazon.com",
+    "metadata": {
+      "ticker": "AMZN",
+      "field": "overview"
+    },
+    "period": null,
+    "field_name": "overview",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f60e515c-f211-4808-a0ea-de51f6b71023",
+    "source_id": "423ba4e8-654d-4d1f-8b8b-89d848d6e03e",
+    "source_type": "company_profile",
+    "text": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its stores include merchandise and content purchased for resale; and products offered by third-party sellers The company also manufactures and sells electronic devices, including Kindle, Fire tablets, Fire TVs, Rings, Blink, eero, and Echo; and develops and produces media content. In addition, it offers programs that enable sellers to sell their products in its stores; and programs that allow authors, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, the company provides compute, storage, database, analytics, machine learning, and other services, as well as fulfillment, advertising, and digital content subscriptions. Additionally, it offers Amazon Prime, a membership program. The company serves consumers, sellers, developers, enterprises, content creators, and advertisers. Amazon.com, Inc. was incorporated in 1994 and is headquartered in Seattle, Washington.",
+    "metadata": {
+      "ticker": "AMZN",
+      "field": "description"
+    },
+    "period": null,
+    "field_name": "description",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bbf0909b-dd1f-4b06-a944-748259037f51",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "Income Statement – AMZN | Period: Q2 | Date: 2025-06-30\n  Revenue:            $167,702,000,000\n  Gross Profit:       $86,893,000,000 (margin N/A)\n  Operating Income:   $19,171,000,000 (margin N/A)\n  Net Income:         $18,164,000,000 (margin N/A)\n  EBITDA:             $36,600,000,000\n  EPS:                1.71\n  R&D Expenses:       $27,166,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "date": "2025-06-30"
+    },
+    "period": "Q2",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "996dd2e2-94ef-4037-9314-e447f9d233f8",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Revenue for Q2: $167,702,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "revenue"
+    },
+    "period": "Q2",
+    "field_name": "revenue",
+    "numeric_value": 167702000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d2b9b026-458e-4249-951d-c1d064f7ab82",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Gross Profit for Q2: $86,893,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "grossProfit"
+    },
+    "period": "Q2",
+    "field_name": "grossProfit",
+    "numeric_value": 86893000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "89efce59-a8c2-4c23-a7a2-a6f0f0d6ef61",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Operating Income for Q2: $19,171,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "operatingIncome"
+    },
+    "period": "Q2",
+    "field_name": "operatingIncome",
+    "numeric_value": 19171000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "279aab58-0ee1-408e-be3a-50acc869bfdb",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Net Income for Q2: $18,164,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "netIncome"
+    },
+    "period": "Q2",
+    "field_name": "netIncome",
+    "numeric_value": 18164000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "573eac31-dd57-485b-8537-83016f3125ea",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN EBITDA for Q2: $36,600,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "ebitda"
+    },
+    "period": "Q2",
+    "field_name": "ebitda",
+    "numeric_value": 36600000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "228ef07d-5615-4be2-884f-ceeb3ed7edae",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN EPS (Diluted) for Q2: $2",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "eps"
+    },
+    "period": "Q2",
+    "field_name": "eps",
+    "numeric_value": 1.71,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "a7e5dd22-087a-4042-9c86-abb928a1f8b9",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN R&D Expenses for Q2: $27,166,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q2",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 27166000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "259c03e3-ab1b-4bdf-aa18-213fc9b2623f",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "Income Statement – AMZN | Period: Q1 | Date: 2025-03-31\n  Revenue:            $155,667,000,000\n  Gross Profit:       $78,691,000,000 (margin N/A)\n  Operating Income:   $18,405,000,000 (margin N/A)\n  Net Income:         $17,127,000,000 (margin N/A)\n  EBITDA:             $36,482,000,000\n  EPS:                1.62\n  R&D Expenses:       $22,994,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "date": "2025-03-31"
+    },
+    "period": "Q1",
+    "field_name": "income_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "96b283f2-674d-47e2-9b0e-c556b80eff1f",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Revenue for Q1: $155,667,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "revenue"
+    },
+    "period": "Q1",
+    "field_name": "revenue",
+    "numeric_value": 155667000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "bc29b157-75eb-4d9a-be71-73bc89639231",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Gross Profit for Q1: $78,691,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "grossProfit"
+    },
+    "period": "Q1",
+    "field_name": "grossProfit",
+    "numeric_value": 78691000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "4cf1cf19-3032-479a-823e-35d1d26ccc4e",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Operating Income for Q1: $18,405,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "operatingIncome"
+    },
+    "period": "Q1",
+    "field_name": "operatingIncome",
+    "numeric_value": 18405000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "29721bbd-8325-4c66-8f1f-a4d4a5fe8345",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN Net Income for Q1: $17,127,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "netIncome"
+    },
+    "period": "Q1",
+    "field_name": "netIncome",
+    "numeric_value": 17127000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5d4f3967-d6cb-4cb6-98b2-7fcad0feb7b8",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN EBITDA for Q1: $36,482,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "ebitda"
+    },
+    "period": "Q1",
+    "field_name": "ebitda",
+    "numeric_value": 36482000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "451b2f75-dff6-4420-982c-7bb909b117a4",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN EPS (Diluted) for Q1: $2",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "eps"
+    },
+    "period": "Q1",
+    "field_name": "eps",
+    "numeric_value": 1.62,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5ca4da87-b0cc-487f-94bb-203f84ea452b",
+    "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+    "source_type": "income_statement",
+    "text": "AMZN R&D Expenses for Q1: $22,994,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "researchAndDevelopmentExpenses"
+    },
+    "period": "Q1",
+    "field_name": "researchAndDevelopmentExpenses",
+    "numeric_value": 22994000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "84720347-9bce-4cd9-a72a-8f7d38ef208d",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AMZN | Period: Q2 | Date: 2025-06-30\n  Total Assets:              $682,170,000,000\n  Total Liabilities:         $348,395,000,000\n  Total Stockholders' Equity:$333,775,000,000\n  Cash & Equivalents:        $57,741,000,000\n  Short-Term Investments:    $35,439,000,000\n  Total Debt:                $133,939,000,000\n  Long-Term Debt:            $50,718,000,000\n  Current Assets:            $191,420,000,000\n  Current Liabilities:       $186,921,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "date": "2025-06-30"
+    },
+    "period": "Q2",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "37f64317-fff7-4294-9f0d-ddf85433fbcc",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Assets for Q2: $682,170,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "totalAssets"
+    },
+    "period": "Q2",
+    "field_name": "totalAssets",
+    "numeric_value": 682170000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f0205612-4696-4a06-a692-e635cb9ceaec",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Liabilities for Q2: $348,395,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "totalLiabilities"
+    },
+    "period": "Q2",
+    "field_name": "totalLiabilities",
+    "numeric_value": 348395000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f3f6b485-6b4d-4e01-88b0-b2ea949bc922",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Stockholders' Equity for Q2: $333,775,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q2",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 333775000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "c1a03b74-af88-4658-94ba-85235fa7df7a",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Cash & Equivalents for Q2: $57,741,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q2",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 57741000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "0233ccc6-5897-4193-88d8-5acec8f4b439",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Debt for Q2: $133,939,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "totalDebt"
+    },
+    "period": "Q2",
+    "field_name": "totalDebt",
+    "numeric_value": 133939000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "8cd64e64-1153-4b47-8633-655a1dd6765d",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Long-Term Debt for Q2: $50,718,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "longTermDebt"
+    },
+    "period": "Q2",
+    "field_name": "longTermDebt",
+    "numeric_value": 50718000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "00e9c727-c591-440e-99db-03f267b82e65",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Assets for Q2: $191,420,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q2",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 191420000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "9c8e460b-2b42-4857-bdcd-ea7445a09349",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Liabilities for Q2: $186,921,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q2",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 186921000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "dd4644b4-4acf-4ad7-a27c-5ee4b829e79e",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "Balance Sheet – AMZN | Period: Q1 | Date: 2025-03-31\n  Total Assets:              $643,256,000,000\n  Total Liabilities:         $337,389,000,000\n  Total Stockholders' Equity:$305,867,000,000\n  Cash & Equivalents:        $66,207,000,000\n  Short-Term Investments:    $28,358,000,000\n  Total Debt:                $133,245,000,000\n  Long-Term Debt:            $53,374,000,000\n  Current Assets:            $184,645,000,000\n  Current Liabilities:       $176,171,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "date": "2025-03-31"
+    },
+    "period": "Q1",
+    "field_name": "balance_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "90ec0005-cc93-41a2-a7c6-72b4f8513a2a",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Assets for Q1: $643,256,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "totalAssets"
+    },
+    "period": "Q1",
+    "field_name": "totalAssets",
+    "numeric_value": 643256000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "35373291-7aa5-43a2-afbf-299c133852fd",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Liabilities for Q1: $337,389,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "totalLiabilities"
+    },
+    "period": "Q1",
+    "field_name": "totalLiabilities",
+    "numeric_value": 337389000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "211516a3-649d-41b4-b106-5097a387d05c",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Stockholders' Equity for Q1: $305,867,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "totalStockholdersEquity"
+    },
+    "period": "Q1",
+    "field_name": "totalStockholdersEquity",
+    "numeric_value": 305867000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "968908c7-441f-4769-800c-9a7867b19eb2",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Cash & Equivalents for Q1: $66,207,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "cashAndCashEquivalents"
+    },
+    "period": "Q1",
+    "field_name": "cashAndCashEquivalents",
+    "numeric_value": 66207000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "06e650ec-b135-43ce-ad6c-7d232a4c83bb",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Debt for Q1: $133,245,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "totalDebt"
+    },
+    "period": "Q1",
+    "field_name": "totalDebt",
+    "numeric_value": 133245000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7a2a887d-22d5-4537-a1fc-53ae0adaf93b",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Long-Term Debt for Q1: $53,374,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "longTermDebt"
+    },
+    "period": "Q1",
+    "field_name": "longTermDebt",
+    "numeric_value": 53374000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "7e340bac-63d5-4f47-b1e9-ef8abc55631c",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Assets for Q1: $184,645,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "totalCurrentAssets"
+    },
+    "period": "Q1",
+    "field_name": "totalCurrentAssets",
+    "numeric_value": 184645000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d651b6e4-b7a5-40c2-af45-fe435cfa6341",
+    "source_id": "8332bcee-9006-4b93-9276-6c0796d70850",
+    "source_type": "balance_sheet",
+    "text": "AMZN Total Current Liabilities for Q1: $176,171,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "totalCurrentLiabilities"
+    },
+    "period": "Q1",
+    "field_name": "totalCurrentLiabilities",
+    "numeric_value": 176171000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "e4fb033e-19cf-4682-9f46-5bf8eb71ae2d",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AMZN | Period: Q2 | Date: 2025-06-30\n  Operating Cash Flow:     $32,515,000,000\n  Capital Expenditure:     $-32,183,000,000\n  Free Cash Flow:          $332,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $0\n  Depreciation & Amort.:   $15,227,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "date": "2025-06-30"
+    },
+    "period": "Q2",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "9631fb0e-fd4d-49e5-a5e2-b26034ffe07c",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Operating Cash Flow for Q2: $32,515,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q2",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 32515000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "25542fc2-144a-4f96-9765-dd184ef58434",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Capital Expenditure for Q2: $-32,183,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q2",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -32183000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "f2b2b850-83c7-4280-839f-c03fe788851d",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Free Cash Flow for Q2: $332,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "freeCashFlow"
+    },
+    "period": "Q2",
+    "field_name": "freeCashFlow",
+    "numeric_value": 332000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5ba8c68f-9bc7-4b08-9523-54082ff963c6",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Stock Buybacks for Q2: $0",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q2",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "36e7ba8b-4e28-4f9c-bba4-b736a1d69b33",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN D&A for Q2: $15,227,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q2",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q2",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 15227000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "5a0aed99-ba34-4a37-8147-9d0d0ee94674",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "Cash Flow Statement – AMZN | Period: Q1 | Date: 2025-03-31\n  Operating Cash Flow:     $17,015,000,000\n  Capital Expenditure:     $-25,019,000,000\n  Free Cash Flow:          $-8,004,000,000\n  Dividends Paid:          N/A\n  Stock Buybacks:          $0\n  Depreciation & Amort.:   $14,262,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "date": "2025-03-31"
+    },
+    "period": "Q1",
+    "field_name": "cashflow_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6e2775b5-9d49-4702-a0b8-a3e846460b34",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Operating Cash Flow for Q1: $17,015,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "operatingCashFlow"
+    },
+    "period": "Q1",
+    "field_name": "operatingCashFlow",
+    "numeric_value": 17015000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "453ff060-5e6c-4eeb-9503-081a9097b61e",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Capital Expenditure for Q1: $-25,019,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "capitalExpenditure"
+    },
+    "period": "Q1",
+    "field_name": "capitalExpenditure",
+    "numeric_value": -25019000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "d601e406-34c0-4dc0-80de-c985f5955587",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Free Cash Flow for Q1: $-8,004,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "freeCashFlow"
+    },
+    "period": "Q1",
+    "field_name": "freeCashFlow",
+    "numeric_value": -8004000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "06633277-ec50-425e-84b7-ca454ca4c6aa",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN Stock Buybacks for Q1: $0",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "commonStockRepurchased"
+    },
+    "period": "Q1",
+    "field_name": "commonStockRepurchased",
+    "numeric_value": 0.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "6aaf422a-d2bb-4eca-afda-8b67e650feaa",
+    "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+    "source_type": "cash_flow",
+    "text": "AMZN D&A for Q1: $14,262,000,000",
+    "metadata": {
+      "ticker": "AMZN",
+      "period": "Q1",
+      "field": "depreciationAndAmortization"
+    },
+    "period": "Q1",
+    "field_name": "depreciationAndAmortization",
+    "numeric_value": 14262000000.0,
+    "unit": "USD"
+  },
+  {
+    "chunk_id": "dfe551e8-ede7-4190-8cdf-21e2e85ed4ca",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck\nURL: https://finnhub.io/api/news?id=b557fdb2657f5992a5214e733fe13e0add42bfeeacbb47a38ebc67edde9199a0\nWall Street prepared for major earnings and economic data ahead of a blockbuster week that could shake markets.",
+    "metadata": {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck",
+      "published_at": "2025-07-28T23:37:20Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b557fdb2657f5992a5214e733fe13e0add42bfeeacbb47a38ebc67edde9199a0",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f0d83c1b-d77a-45fb-85b0-2235ef487ada",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures climb ahead of week poised to shake markets\nURL: https://finnhub.io/api/news?id=da4975e4c6bad2486535417cb14a94aca7e0f6ef527599db5d08bae390ae7deb\nUS stock futures traded flat as Wall Street prepared for major earnings and economic data ahead of a blockbuster week that could shake markets.",
+    "metadata": {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures climb ahead of week poised to shake markets",
+      "published_at": "2025-07-28T23:37:20Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da4975e4c6bad2486535417cb14a94aca7e0f6ef527599db5d08bae390ae7deb",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a9ce2312-771b-4ead-98fd-94b60d77fd82",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T22:54:00Z | Yahoo\nTitle: MSFT, META, AAPL, AMZN: One Chart Stands Above the Others\nURL: https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e\n4 Magnificent 7 stocks are reporting earnings this week. They aren't all equal.",
+    "metadata": {
+      "title": "MSFT, META, AAPL, AMZN: One Chart Stands Above the Others",
+      "published_at": "2025-07-28T22:54:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=415c6c026fad7b4d1501337ae0e538aeb6ec93bd04e13257af8b43eddb64c44e",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "4a5e83fe-2519-431e-90ee-df310446f166",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T22:47:00Z | Yahoo\nTitle: August: Time to Unplug from Markets?\nURL: https://finnhub.io/api/news?id=6d4b1dea0953058233e17e9b2b1ae4c7bdf1f2377e74e8f9d1ad2cd0958f3d9c\nWhile stocks continue to print fresh all-time highs, the 'sell the news' phenomenon, August post-election seasonality, and 'The Warren Buffett Indicator,' suggest that August may be a good time for active investors to take their foot off the gas pedal.",
+    "metadata": {
+      "title": "August: Time to Unplug from Markets?",
+      "published_at": "2025-07-28T22:47:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6d4b1dea0953058233e17e9b2b1ae4c7bdf1f2377e74e8f9d1ad2cd0958f3d9c",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "d75bca5a-7c4f-491b-b986-4b7736625f4e",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T21:43:00Z | Yahoo\nTitle: UPS’s Earnings Are Here. Growth Is Still Missing.\nURL: https://finnhub.io/api/news?id=4992cd8ce32464cfe88dff4d2e7e5860583f0de84627230f50f2b4f128f442b3\nInvestors in United Parcel Service will be watching, and hoping, for signs growth may return when the logistics company reports what is expected to be another decline in earnings and revenue on Tuesday.  Wall Street is looking for earnings per share of $1.56 from sales of $20.9 billion, according to Bloomberg.  Sales and earnings are expected to drop about 6% and 19%, respectively.",
+    "metadata": {
+      "title": "UPS’s Earnings Are Here. Growth Is Still Missing.",
+      "published_at": "2025-07-28T21:43:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4992cd8ce32464cfe88dff4d2e7e5860583f0de84627230f50f2b4f128f442b3",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ab0df343-4738-472b-bb20-786828c034c7",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats\nURL: https://finnhub.io/api/news?id=1d4f1455f465afbfedb585370db05f3c467eff3ae44790575cab7e36e9c2e5f0\nSecond quarter earnings season is in full swing, and the results have been largely positive so far, with more positive surprises than negative ones.",
+    "metadata": {
+      "title": "Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats",
+      "published_at": "2025-07-28T21:33:34Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1d4f1455f465afbfedb585370db05f3c467eff3ae44790575cab7e36e9c2e5f0",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "6092f914-501c-4d18-afb7-bbc4bdb573e7",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T21:33:34Z | Yahoo\nTitle: Earnings live: Whirlpool, Tilray stocks tumble, with Spotify earnings on deck\nURL: https://finnhub.io/api/news?id=82345b9b8cebff9063a2e32ac64714fa69789f690f9ce026b809aa6555330ff9\nSecond quarter earnings season is in full swing, and the results have been largely positive so far, with more positive surprises than negative ones.",
+    "metadata": {
+      "title": "Earnings live: Whirlpool, Tilray stocks tumble, with Spotify earnings on deck",
+      "published_at": "2025-07-28T21:33:34Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=82345b9b8cebff9063a2e32ac64714fa69789f690f9ce026b809aa6555330ff9",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f5cf9bfe-19c6-44c2-b0d8-f81d9aa20e76",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:46:08Z | Yahoo\nTitle: Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.\nURL: https://finnhub.io/api/news?id=0c149f3507ff4140b781c206eca97d91ca425f88c2aeb83513659f43b3ce0c7c\nAs Google boosts AI spending, Amazon looks primed to gain from rising demand for chips and AI tools.",
+    "metadata": {
+      "title": "Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.",
+      "published_at": "2025-07-28T20:46:08Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0c149f3507ff4140b781c206eca97d91ca425f88c2aeb83513659f43b3ce0c7c",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a07fe9b3-c14b-48ee-9fa1-1eb2924c4428",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:45:00Z | Yahoo\nTitle: The Stock Market Is Taking a Tougher Line on Earnings Misses\nURL: https://finnhub.io/api/news?id=ff4016ca93574bf281ee58af031ed73775f3cb25c8a1fb578cacd0f0a02201a3\nInvestors are dumping stocks in companies that don’t meet profit forecasts or offer positive financial guidance more aggressively than usual.",
+    "metadata": {
+      "title": "The Stock Market Is Taking a Tougher Line on Earnings Misses",
+      "published_at": "2025-07-28T20:45:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ff4016ca93574bf281ee58af031ed73775f3cb25c8a1fb578cacd0f0a02201a3",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "5a689518-c8ee-43c5-8ccd-5ac772415542",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:18:44Z | Yahoo\nTitle: Microsoft, Meta, Apple, Amazon: How to play Big Tech earnings\nURL: https://finnhub.io/api/news?id=7ad71a1b8bba78c04bfb5e3e2e8a88659df61bcbf8f7c681a3c238080e7114f6\n\"Magnificent Seven\" earnings continue with Microsoft (MSFT), Meta (META), Apple (AAPL), and Amazon (AMZN) set to deliver quarterly results this week. Neuberger Berman senior research analyst Dan Flax joins Market Domination to outline what he's watching for as the Big Tech companies release results. To watch more expert insights and analysis on the latest market action, check out more Market Domination here.",
+    "metadata": {
+      "title": "Microsoft, Meta, Apple, Amazon: How to play Big Tech earnings",
+      "published_at": "2025-07-28T20:18:44Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7ad71a1b8bba78c04bfb5e3e2e8a88659df61bcbf8f7c681a3c238080e7114f6",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "47704a59-afbf-473d-a9f7-3ff06b3bcad2",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:09:37Z | Yahoo\nTitle: Josh Brown Highlights His New Best Industrial Stock Pick in 2025\nURL: https://finnhub.io/api/news?id=b7f634453dab49d320c75b3d1e3dfbbcec7382e371fbfd2d486bd3e74b78e5f9\nFastenal Co (NASDAQ:FAST) is one of the Top 10 Stocks Wall Street is Buzzing About These Days. Josh Brown, CEO of Ritholtz Wealth Management, recently highlighted Fastenal Co (NASDAQ:FAST) as one of his best stock picks in the market. Here is how Brown explained his thesis about the stock: “When you look at a long-term […]",
+    "metadata": {
+      "title": "Josh Brown Highlights His New Best Industrial Stock Pick in 2025",
+      "published_at": "2025-07-28T20:09:37Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b7f634453dab49d320c75b3d1e3dfbbcec7382e371fbfd2d486bd3e74b78e5f9",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "598916ca-e95b-4b18-983d-fcd82e0f8cb0",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:09:31Z | Yahoo\nTitle: US Equity Markets Mixed on US-EU Trade Deal; Fed Rate Decision, Flood of Earnings Loom\nURL: https://finnhub.io/api/news?id=d23d8b463ce6749375c8628532b2aa6500ebe287479bbce0dd0491b369a7aeed\nUS benchmark equity indexes were mixed on Monday after President Donald Trump announced a trade agre",
+    "metadata": {
+      "title": "US Equity Markets Mixed on US-EU Trade Deal; Fed Rate Decision, Flood of Earnings Loom",
+      "published_at": "2025-07-28T20:09:31Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d23d8b463ce6749375c8628532b2aa6500ebe287479bbce0dd0491b369a7aeed",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "44e2dd28-7850-4eb3-b4f7-327139ddb79d",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:05:00Z | Yahoo\nTitle: Stock market today: S&P 500, Nasdaq eke out records as markets kick off huge week for US economy\nURL: https://finnhub.io/api/news?id=bac5b6d2200e3ea8c64ffc5713ae267e34e73177c6f6d295630c4d15400a4697\nMarkets are cheering a US-EU tariff pact that has eased worries of a trade war.",
+    "metadata": {
+      "title": "Stock market today: S&P 500, Nasdaq eke out records as markets kick off huge week for US economy",
+      "published_at": "2025-07-28T20:05:00Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bac5b6d2200e3ea8c64ffc5713ae267e34e73177c6f6d295630c4d15400a4697",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "aab4596f-ed40-4ca2-a3f9-7d07880f5f6a",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T20:02:28Z | Benzinga\nTitle: Netflix And Disney Quietly Use $545M-Backed Runway For AI Video — And It's Raising Big Questions In Hollywood\nURL: https://finnhub.io/api/news?id=b3d67b312b58e0021486f0995053304ff59b551b1712396a6f496287bbc07758\n ",
+    "metadata": {
+      "title": "Netflix And Disney Quietly Use $545M-Backed Runway For AI Video — And It's Raising Big Questions In Hollywood",
+      "published_at": "2025-07-28T20:02:28Z",
+      "source_name": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b3d67b312b58e0021486f0995053304ff59b551b1712396a6f496287bbc07758",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "b58a558e-6c5d-4e0e-a4db-0029e3f567ba",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T19:40:51Z | Yahoo\nTitle: Transitions in the Semiconductor Space\nURL: https://finnhub.io/api/news?id=96647c1a415da948e8bb675cf8c65b32379091cbc5c5037d38fca62e172052ea\nSimplify Asset Management Portfolio Manager Michael Green discusses how investors are preparing for a busy week of tech earnings, as Microsoft, Meta, Apple, and Amazon are set to release quarterly results. Green speaks with Caroline Hyde and Ed Ludlow on \"Bloomberg Tech.\"",
+    "metadata": {
+      "title": "Transitions in the Semiconductor Space",
+      "published_at": "2025-07-28T19:40:51Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=96647c1a415da948e8bb675cf8c65b32379091cbc5c5037d38fca62e172052ea",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "a8fc55a6-6af4-496a-837e-7d79ed933df1",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T19:27:46Z | Yahoo\nTitle: Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS\nURL: https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca\nUBS Signals Amazon Strength, Lifts Target and Sparks Rally",
+    "metadata": {
+      "title": "Amazon (AMZN) Stock Climb on Massive Price Target Hike From UBS",
+      "published_at": "2025-07-28T19:27:46Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=622ad0f12530b8d669f90478c5ed2077a3c846bdfdc3ea80523634e0de0d9fca",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "11857cce-18b0-40c5-b39c-8901455831c1",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T19:10:24Z | Yahoo\nTitle: S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings\nURL: https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83\n(Bloomberg) -- The S&P 500 Index’s relentless advance to record highs faces a crucial test this week, with four technology behemoths worth a combined $11.3 trillion reporting earnings over a two-day stretch.Most Read from BloombergBudapest’s Most Historic Site Gets a Controversial RebuildCan This Bridge Ease the Troubled US-Canadian Relationship?Trump Administration Sues NYC Over Sanctuary City PolicyThis earnings season is off to a solid start, but now all eyes are on quarterly results from Mic",
+    "metadata": {
+      "title": "S&P 500 Rally Faces $11 Trillion Gauntlet of Big Tech Earnings",
+      "published_at": "2025-07-28T19:10:24Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4f47071a5b38879dbf6bfddb38632d2d71319def8fd399671eefde4e345acf83",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "955c6c68-c3b3-4980-93c3-d362b891839a",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T18:44:10Z | Yahoo\nTitle: Amazon Q2 Earnings Preview: What to Expect From Upcoming Report\nURL: https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6\nAI?powered AWS growth and ad revenue underpin upbeat Q2 outlook for Amazon",
+    "metadata": {
+      "title": "Amazon Q2 Earnings Preview: What to Expect From Upcoming Report",
+      "published_at": "2025-07-28T18:44:10Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=621e5fe36e3155a46b96edd00b47d4a1ce3ac7255ce784e0454002a2509ae0c6",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "876c1a32-e177-497e-a386-94e61d785147",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T18:39:13Z | Yahoo\nTitle: Amazon disputes report that it raised prices of popular items since Trump took office\nURL: https://finnhub.io/api/news?id=ceb2fb5d2935eb13922fbe938540222ae64ab7f341a2f88fdc9edeb88cf0c557\nAmazon published a lengthy rebuttal to a WSJ report that found that Amazon prices had increased since Trump announced tariff plans.",
+    "metadata": {
+      "title": "Amazon disputes report that it raised prices of popular items since Trump took office",
+      "published_at": "2025-07-28T18:39:13Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ceb2fb5d2935eb13922fbe938540222ae64ab7f341a2f88fdc9edeb88cf0c557",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "bc798f40-80de-4036-826f-e940c1e8ea68",
+    "source_id": "bdab4b35-ab3b-4879-bd98-9a5961c68a1e",
+    "source_type": "news",
+    "text": "[NEWS] 2025-07-28T18:31:10Z | Yahoo\nTitle: Dollar Climbs Most Since May as Trade Jitters Ease: Markets Wrap\nURL: https://finnhub.io/api/news?id=d88e6691539bd9dff68b90b2c67e6bf78298091f42c1289926ba4b92ed6d283d\n(Bloomberg) -- Wall Street kicked off a pivotal week with the dollar climbing the most since May as a tariff deal between President Donald Trump and the European Union bolstered hopes for an extension of a China trade truce. Stocks halted a five-day advance. Bonds edged lower.Most Read from BloombergBudapest’s Most Historic Site Gets a Controversial RebuildCan This Bridge Ease the Troubled US-Canadian Relationship?Trump Administration Sues NYC Over Sanctuary City PolicyThe start of a week that w",
+    "metadata": {
+      "title": "Dollar Climbs Most Since May as Trade Jitters Ease: Markets Wrap",
+      "published_at": "2025-07-28T18:31:10Z",
+      "source_name": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d88e6691539bd9dff68b90b2c67e6bf78298091f42c1289926ba4b92ed6d283d",
+      "ticker": "AMZN"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2d3c62ff-d700-4c25-b258-a05f4f6f0f86",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "[FILING] AMZN 10-Q | Filed: 2025-05-02 | Accepted: 2025-05-01T22:14:53.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-02",
+      "accepted_at": "2025-05-01T22:14:53.000Z",
+      "accession_number": "0001018724-25-000036",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-02",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "69efc603-d5a4-4d61-83c3-08860a1d27f5",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 22 Item 3. Quantitative and Qualitative Disclosures About Market Risk 31 Item 4. Controls and Procedures 32 PART II. OTHER INFORMATION Item 1. Legal Proceedings 33 Item 1A. Risk Factors 33 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 44 Item 3. Defaults Upon Senior Securities 44 Item 4. Mine Safety Disclosures 44 Item 5. Other Information 44 Item 6. Exhibits 45 Signatures 46 2 Table of Contents PART I. FINANCIAL INFORMATION Item 1. Financial Statements AMAZON.COM, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions) (unaudited) Three Months Ended March 31, Twelve Months Ended March 31, 2024 2025 2024 2025 CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD $ 73,890 $ 82,312 $ 49,734 $ 73,332 OPERATING ACTIVITIES: Net income 10,431 17,127 37,684 65,944 Adjustments to reconcile net income to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 11,684 14,262 49,224 55,373 Stock-based compensation 4,961 3,689 24,236 20,739 Non-operating expense (income), net 2,734 ( 2,817 ) 1,452 ( 3,539 ) Deferred income taxes ( 938 ) 507 ( 6,342 ) ( 3,203 ) Changes in operating assets and liabilities: Inventories 1,776 ( 1,222 ) 2,854 ( 4,882 ) Accounts receivable, net and other 3,684 1,247 ( 9,388 ) ( 5,686 ) Other assets ( 2,701 ) ( 3,402 ) ( 11,763 ) ( 15,184 ) Accounts payable ( 11,282 ) ( 9,043 ) 5,455 5,211 Accrued expenses and other ( 2,928 ) ( 4,061 ) 407 ( 4,037 ) Unearned revenue 1,568 728 5,328 3,167 Net cash provided by (used in) operating activities 18,989 17,015 99,147 113,903 INVESTING ACTIVITIES: Purchases of property and equipment ( 14,925 ) ( 25,019 ) ( 53,447 ) ( 93,093 ) Proceeds from property and equipment sales and incentives 990 764 4,449 5,115 Acquisitions, net of cash acquired, non-marketable investments, and other, net ( 3,354 ) 48 ( 5,680 ) ( 3,680 ) Sales and maturities of marketable securities 1,392 7,737 5,904 22,748 Purchases of marketable securities ( 1,965 ) ( 13,333 ) ( 3,115 ) ( 37,373 ) Net cash provided by (used in) investing activities ( 17,862 ) ( 29,803 ) ( 51,889 ) ( 106,283 ) FINANCING ACTIVITIES: Proceeds from short-term debt, and other 338 1,815 5,687 6,619 Repayments of short-term debt, and other ( 404 ) (",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-02",
+      "accepted_at": "2025-05-01T22:14:53.000Z",
+      "accession_number": "0001018724-25-000036",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-02",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7b82fe99-5125-469c-95da-cc087e3bd3cb",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 33 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 44 Item 3. Defaults Upon Senior Securities 44 Item 4. Mine Safety Disclosures 44 Item 5. Other Information 44 Item 6. Exhibits 45 Signatures 46 2 Table of Contents PART I. FINANCIAL INFORMATION Item 1. Financial Statements AMAZON.COM, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions) (unaudited) Three Months Ended March 31, Twelve Months Ended March 31, 2024 2025 2024 2025 CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD $ 73,890 $ 82,312 $ 49,734 $ 73,332 OPERATING ACTIVITIES: Net income 10,431 17,127 37,684 65,944 Adjustments to reconcile net income to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 11,684 14,262 49,224 55,373 Stock-based compensation 4,961 3,689 24,236 20,739 Non-operating expense (income), net 2,734 ( 2,817 ) 1,452 ( 3,539 ) Deferred income taxes ( 938 ) 507 ( 6,342 ) ( 3,203 ) Changes in operating assets and liabilities: Inventories 1,776 ( 1,222 ) 2,854 ( 4,882 ) Accounts receivable, net and other 3,684 1,247 ( 9,388 ) ( 5,686 ) Other assets ( 2,701 ) ( 3,402 ) ( 11,763 ) ( 15,184 ) Accounts payable ( 11,282 ) ( 9,043 ) 5,455 5,211 Accrued expenses and other ( 2,928 ) ( 4,061 ) 407 ( 4,037 ) Unearned revenue 1,568 728 5,328 3,167 Net cash provided by (used in) operating activities 18,989 17,015 99,147 113,903 INVESTING ACTIVITIES: Purchases of property and equipment ( 14,925 ) ( 25,019 ) ( 53,447 ) ( 93,093 ) Proceeds from property and equipment sales and incentives 990 764 4,449 5,115 Acquisitions, net of cash acquired, non-marketable investments, and other, net ( 3,354 ) 48 ( 5,680 ) ( 3,680 ) Sales and maturities of marketable securities 1,392 7,737 5,904 22,748 Purchases of marketable securities ( 1,965 ) ( 13,333 ) ( 3,115 ) ( 37,373 ) Net cash provided by (used in) investing activities ( 17,862 ) ( 29,803 ) ( 51,889 ) ( 106,283 ) FINANCING ACTIVITIES: Proceeds from short-term debt, and other 338 1,815 5,687 6,619 Repayments of short-term debt, and other ( 404 ) ( 2,082 ) ( 22,478 ) ( 6,738 ) Proceeds from long-term debt — 746 — 746 Repayments of long-term debt ( 330 ) — ( 2,620 ) ( 8,852 ) Principal repayments of finance leases ( 770 ) ( 410 ) ( 3,774 ) ( 1,683 ) Principal repayments of financing obligations",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-Q",
+      "filed_at": "2025-05-02",
+      "accepted_at": "2025-05-01T22:14:53.000Z",
+      "accession_number": "0001018724-25-000036",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2025-05-02",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "0745f659-b7e3-4504-99af-97b6a42dbd01",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "[FILING] AMZN 10-K | Filed: 2025-02-07 | Accepted: 2025-02-06T23:40:29.000Z\nTitle: 10-K\nURL: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-K",
+      "filed_at": "2025-02-07",
+      "accepted_at": "2025-02-06T23:40:29.000Z",
+      "accession_number": "0001018724-25-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-07",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "86674bae-5a8f-4333-95f6-2b924a2535a6",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Item 1. Business 3 Item 1A. Risk Factors 6 Item 1B. Unresolved Staff Comments 16 Item 1C. Cybersecurity 17 Item 2. Properties 18 Item 3. Legal Proceedings 18 Item 4. Mine Safety Disclosures 18 PART II Item 5. Market for the Registrant’s Common Stock, Related Shareholder Matters, and Issuer Purchases of Equity Securities 19 Item 6. Reserved 19 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 31 Item 8. Financial Statements and Supplementary Data 33 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 70 Item 9A. Controls and Procedures 70 Item 9B. Other Information 72 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 72 PART III Item 10. Directors, Executive Officers, and Corporate Governance 72 Item 11. Executive Compensation 72 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Shareholder Matters 72 Item 13. Certain Relationships and Related Transactions, and Director Independence 72 Item 14. Principal Accountant Fees and Services 73 PART IV Item 15. Exhibits, Financial Statement Schedules 74 Item 16. Form 10-K Summary 76 Signatures 77 2 Table of Contents AMAZON.COM, INC. PART I Item 1. Business This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ materially from those expressed in forward-looking statements. See Item 1A of Part I — “Risk Factors.” As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise. General We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees. We have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way the Company evaluates its business pe",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-K",
+      "filed_at": "2025-02-07",
+      "accepted_at": "2025-02-06T23:40:29.000Z",
+      "accession_number": "0001018724-25-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-07",
+    "field_name": "filing_business",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "ff4e047f-c7a0-4c7e-bc7e-2547c723abe8",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 31 Item 8. Financial Statements and Supplementary Data 33 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 70 Item 9A. Controls and Procedures 70 Item 9B. Other Information 72 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 72 PART III Item 10. Directors, Executive Officers, and Corporate Governance 72 Item 11. Executive Compensation 72 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Shareholder Matters 72 Item 13. Certain Relationships and Related Transactions, and Director Independence 72 Item 14. Principal Accountant Fees and Services 73 PART IV Item 15. Exhibits, Financial Statement Schedules 74 Item 16. Form 10-K Summary 76 Signatures 77 2 Table of Contents AMAZON.COM, INC. PART I Item 1. Business This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ materially from those expressed in forward-looking statements. See Item 1A of Part I — “Risk Factors.” As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise. General We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees. We have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way the Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item 8 of Part II, “Financial Statements and Supplementary Data — Note 10 — Segment Information.” Consumers We serve consumers through our online and physical stores and focus on selection, price, and convenience. We design our stores to enable hundreds of millions of u",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-K",
+      "filed_at": "2025-02-07",
+      "accepted_at": "2025-02-06T23:40:29.000Z",
+      "accession_number": "0001018724-25-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-07",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "299e488c-0acc-4f21-8cbd-08ddaa50632d",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 6 Item 1B. Unresolved Staff Comments 16 Item 1C. Cybersecurity 17 Item 2. Properties 18 Item 3. Legal Proceedings 18 Item 4. Mine Safety Disclosures 18 PART II Item 5. Market for the Registrant’s Common Stock, Related Shareholder Matters, and Issuer Purchases of Equity Securities 19 Item 6. Reserved 19 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 31 Item 8. Financial Statements and Supplementary Data 33 Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 70 Item 9A. Controls and Procedures 70 Item 9B. Other Information 72 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 72 PART III Item 10. Directors, Executive Officers, and Corporate Governance 72 Item 11. Executive Compensation 72 Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Shareholder Matters 72 Item 13. Certain Relationships and Related Transactions, and Director Independence 72 Item 14. Principal Accountant Fees and Services 73 PART IV Item 15. Exhibits, Financial Statement Schedules 74 Item 16. Form 10-K Summary 76 Signatures 77 2 Table of Contents AMAZON.COM, INC. PART I Item 1. Business This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ materially from those expressed in forward-looking statements. See Item 1A of Part I — “Risk Factors.” As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise. General We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees. We have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way the Company evaluates its business performance and manag",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-K",
+      "filed_at": "2025-02-07",
+      "accepted_at": "2025-02-06T23:40:29.000Z",
+      "accession_number": "0001018724-25-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+      "filing_title": "10-K"
+    },
+    "period": "2025-02-07",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "2a4ca32c-3cfa-46da-a795-dc02216828b4",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "[FILING] AMZN 10-Q | Filed: 2024-11-01 | Accepted: 2024-10-31T22:44:54.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-Q",
+      "filed_at": "2024-11-01",
+      "accepted_at": "2024-10-31T22:44:54.000Z",
+      "accession_number": "0001018724-24-000161",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2024-11-01",
+    "field_name": "filing_summary",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "f61d12dd-a093-407c-8fa4-88d1e5f7bd75",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Management’s Discussion and Analysis of Financial Condition and Results of Operations 22 Item 3. Quantitative and Qualitative Disclosures About Market Risk 33 Item 4. Controls and Procedures 34 PART II. OTHER INFORMATION Item 1. Legal Proceedings 35 Item 1A. Risk Factors 35 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 46 Item 3. Defaults Upon Senior Securities 46 Item 4. Mine Safety Disclosures 46 Item 5. Other Information 46 Item 6. Exhibits 47 Signatures 48 2 Table of Contents PART I. FINANCIAL INFORMATION Item 1. Financial Statements AMAZON.COM, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions) (unaudited) Three Months Ended September 30, Nine Months Ended September 30, Twelve Months Ended September 30, 2023 2024 2023 2024 2023 2024 CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD $ 50,067 $ 71,673 $ 54,253 $ 73,890 $ 35,178 $ 50,081 OPERATING ACTIVITIES: Net income 9,879 15,328 19,801 39,244 20,079 49,868 Adjustments to reconcile net income to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 12,131 13,442 34,843 37,164 47,528 50,984 Stock-based compensation 5,829 5,333 17,704 17,016 23,310 23,335 Non-operating expense (income), net ( 990 ) ( 141 ) ( 409 ) 2,498 3,036 2,159 Deferred income taxes ( 1,196 ) ( 1,317 ) ( 4,412 ) ( 3,040 ) ( 7,779 ) ( 4,504 ) Changes in operating assets and liabilities: Inventories 808 ( 1,509 ) ( 1,194 ) ( 2,818 ) 1,986 ( 175 ) Accounts receivable, net and other ( 3,584 ) ( 701 ) ( 901 ) 774 ( 5,641 ) ( 6,673 ) Other assets ( 3,134 ) ( 4,537 ) ( 9,463 ) ( 10,293 ) ( 13,511 ) ( 13,095 ) Accounts payable 2,820 ( 477 ) ( 5,415 ) ( 5,754 ) 4,437 5,134 Accrued expenses and other ( 1,321 ) 129 ( 9,022 ) ( 6,946 ) ( 3,245 ) ( 352 ) Unearned revenue ( 25 ) 421 949 2,396 1,454 6,025 Net cash provided by (used in) operating activities 21,217 25,971 42,481 70,241 71,654 112,706 INVESTING ACTIVITIES: Purchases of property and equipment ( 12,479 ) ( 22,620 ) ( 38,141 ) ( 55,165 ) ( 54,733 ) ( 69,753 ) Proceeds from property and equipment sales and incentives 1,181 1,342 3,361 3,559 4,513 4,794 Acquisitions, net of cash acquired, non-marketable investments, and other ( 1,629 ) ( 622 ) ( 5,458 ) ( 4,547 ) ( 6,289 ) ( 4,928 ) Sales and maturities of marketable securities 1,393 8,069 4,059 1",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-Q",
+      "filed_at": "2024-11-01",
+      "accepted_at": "2024-10-31T22:44:54.000Z",
+      "accession_number": "0001018724-24-000161",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2024-11-01",
+    "field_name": "filing_mda",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "e447b425-cb4d-44cc-a9c7-fe93ed462e4a",
+    "source_id": "f647fef5-352c-4a81-ba8a-a805a0901792",
+    "source_type": "filing",
+    "text": "Item 1A. Risk Factors 35 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 46 Item 3. Defaults Upon Senior Securities 46 Item 4. Mine Safety Disclosures 46 Item 5. Other Information 46 Item 6. Exhibits 47 Signatures 48 2 Table of Contents PART I. FINANCIAL INFORMATION Item 1. Financial Statements AMAZON.COM, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions) (unaudited) Three Months Ended September 30, Nine Months Ended September 30, Twelve Months Ended September 30, 2023 2024 2023 2024 2023 2024 CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD $ 50,067 $ 71,673 $ 54,253 $ 73,890 $ 35,178 $ 50,081 OPERATING ACTIVITIES: Net income 9,879 15,328 19,801 39,244 20,079 49,868 Adjustments to reconcile net income to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 12,131 13,442 34,843 37,164 47,528 50,984 Stock-based compensation 5,829 5,333 17,704 17,016 23,310 23,335 Non-operating expense (income), net ( 990 ) ( 141 ) ( 409 ) 2,498 3,036 2,159 Deferred income taxes ( 1,196 ) ( 1,317 ) ( 4,412 ) ( 3,040 ) ( 7,779 ) ( 4,504 ) Changes in operating assets and liabilities: Inventories 808 ( 1,509 ) ( 1,194 ) ( 2,818 ) 1,986 ( 175 ) Accounts receivable, net and other ( 3,584 ) ( 701 ) ( 901 ) 774 ( 5,641 ) ( 6,673 ) Other assets ( 3,134 ) ( 4,537 ) ( 9,463 ) ( 10,293 ) ( 13,511 ) ( 13,095 ) Accounts payable 2,820 ( 477 ) ( 5,415 ) ( 5,754 ) 4,437 5,134 Accrued expenses and other ( 1,321 ) 129 ( 9,022 ) ( 6,946 ) ( 3,245 ) ( 352 ) Unearned revenue ( 25 ) 421 949 2,396 1,454 6,025 Net cash provided by (used in) operating activities 21,217 25,971 42,481 70,241 71,654 112,706 INVESTING ACTIVITIES: Purchases of property and equipment ( 12,479 ) ( 22,620 ) ( 38,141 ) ( 55,165 ) ( 54,733 ) ( 69,753 ) Proceeds from property and equipment sales and incentives 1,181 1,342 3,361 3,559 4,513 4,794 Acquisitions, net of cash acquired, non-marketable investments, and other ( 1,629 ) ( 622 ) ( 5,458 ) ( 4,547 ) ( 6,289 ) ( 4,928 ) Sales and maturities of marketable securities 1,393 8,069 4,059 12,726 9,742 14,294 Purchases of marketable securities ( 219 ) ( 3,068 ) ( 1,053 ) ( 13,472 ) ( 1,286 ) ( 13,907 ) Net cash provided by (used in) investing activities ( 11,753 ) ( 16,899 ) ( 37,232 ) ( 56,899 ) ( 48,053 ) ( 69,500 ) FINANCING ACTIVITI",
+    "metadata": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "form_type": "10-Q",
+      "filed_at": "2024-11-01",
+      "accepted_at": "2024-10-31T22:44:54.000Z",
+      "accession_number": "0001018724-24-000161",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+      "filing_title": "10-Q"
+    },
+    "period": "2024-11-01",
+    "field_name": "filing_risk_factors",
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "7925e120-0138-4d97-8662-84ee94818a1d",
+    "source_id": "ac3b1eee-7723-45ce-a5ff-51a83174f732",
+    "source_type": "price_data",
+    "text": "Price history for AMZN from 2024-07-28 to 2025-07-28: Opening price on 2024-07-29: $183.20, Closing price on 2025-07-28: $232.79. 52-week high: $242.52, 52-week low: $151.61.",
+    "metadata": {
+      "ticker": "AMZN",
+      "from_date": "2024-07-28",
+      "to_date": "2025-07-28",
+      "data_points": 250,
+      "price_start": 183.2,
+      "price_end": 232.79,
+      "price_high": 242.52,
+      "price_low": 151.61,
+      "series_role": "stock",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  },
+  {
+    "chunk_id": "5c791869-f242-4bf2-bb9c-76bf7dd185c0",
+    "source_id": "26a71c18-53aa-40ca-b2d7-0390076ffa75",
+    "source_type": "price_data",
+    "text": "Price history for SPY from 2024-07-28 to 2025-07-28: Opening price on 2024-07-29: $544.76, Closing price on 2025-07-28: $636.94. 52-week high: $638.04, 52-week low: $481.80.",
+    "metadata": {
+      "ticker": "SPY",
+      "from_date": "2024-07-28",
+      "to_date": "2025-07-28",
+      "data_points": 250,
+      "price_start": 544.76,
+      "price_end": 636.94,
+      "price_high": 638.04,
+      "price_low": 481.8,
+      "series_role": "benchmark",
+      "benchmark_ticker": "SPY"
+    },
+    "period": null,
+    "field_name": null,
+    "numeric_value": null,
+    "unit": null
+  }
+]

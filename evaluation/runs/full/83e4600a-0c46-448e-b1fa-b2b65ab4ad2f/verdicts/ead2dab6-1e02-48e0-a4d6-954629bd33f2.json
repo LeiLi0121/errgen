@@ -1,0 +1,42 @@
+{
+  "verdict_id": "ead2dab6-1e02-48e0-a4d6-954629bd33f2",
+  "paragraph_id": "fbbe0249-0e41-4250-a5c0-3e2607aecdd5",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "3371d7a7-236d-4e69-82ce-3d65504f77b4",
+      "issue_type": "numerical_error",
+      "severity": "critical",
+      "paragraph_id": "fbbe0249-0e41-4250-a5c0-3e2607aecdd5",
+      "offending_span": "representing a 0.91% year-over-year increase from the Q3 2024 base of $9,716,000,000",
+      "explanation": "The YoY growth rate of 0.91% cited from K001 is mathematically inconsistent with the revenue figures from C004 ($10,415,000,000 for Q3 2025) and C019 ($9,716,000,000 for Q3 2024). The correct calculation is: (10,415,000,000 - 9,716,000,000) / 9,716,000,000 = 0.07194 = 7.19%, not 0.91%. The K001 calculation result appears to contain an error that propagates to the paragraph.",
+      "relevant_chunk_ids": [
+        "6d495d8b-4c7b-4748-b63a-641e9c037895",
+        "c9dbc53d-dcd5-4ac1-8cfd-490a84f89d9a"
+      ],
+      "relevant_calc_ids": [
+        "1012f404-5f71-4919-aeef-1ddb36de154a"
+      ],
+      "recommended_fix": "Recalculate the Q3 2025 YoY growth rate using the correct formula: (Q3 2025 Revenue - Q3 2024 Revenue) / Q3 2024 Revenue. The correct value should be approximately 7.19%, not 0.91%. Update K001 and the paragraph accordingly."
+    },
+    {
+      "issue_id": "e43ecde5-c7bd-4b46-9bc3-dc9df0f29315",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "fbbe0249-0e41-4250-a5c0-3e2607aecdd5",
+      "offending_span": "American Express demonstrated steady revenue growth in Q3 2025",
+      "explanation": "The term 'steady' is potentially misleading given that the paragraph itself acknowledges 'variability across 2025 quarters' including a -0.93% YoY decline in Q1 2025. While Q3 2025 did show positive growth, characterizing it as 'steady' when the preceding quarters showed significant variability (from -0.93% to 7.22% to 0.91%) overstates the consistency of the growth pattern.",
+      "relevant_chunk_ids": [
+        "6d495d8b-4c7b-4748-b63a-641e9c037895",
+        "6c8dd8a2-6a66-49a7-bdbe-b2a6890927a5",
+        "7b8d7162-e740-4c37-9282-8d2e4fd02772"
+      ],
+      "relevant_calc_ids": [
+        "1012f404-5f71-4919-aeef-1ddb36de154a"
+      ],
+      "recommended_fix": "Replace 'steady revenue growth' with more precise language such as 'positive revenue growth' or 'revenue growth' without the qualifier 'steady', given the acknowledged variability across quarters."
+    }
+  ],
+  "checked_at": "2026-03-24T20:03:32.992880",
+  "iteration": 0
+}

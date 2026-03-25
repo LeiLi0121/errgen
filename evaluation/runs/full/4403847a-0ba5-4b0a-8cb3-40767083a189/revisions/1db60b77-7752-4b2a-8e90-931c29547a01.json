@@ -1,0 +1,16 @@
+{
+  "revision_id": "1db60b77-7752-4b2a-8e90-931c29547a01",
+  "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+  "iteration": 1,
+  "original_text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C034) against current liabilities of $18,816,000,000 (C035). Cash and equivalents stood at $18,444,000,000 (C033), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C032). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "revised_text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C034) against current liabilities of $18,816,000,000 (C035). Cash and equivalents stood at $18,444,000,000 (C033), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C032). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "issues_addressed": [
+    "42f9e78c-9a34-468a-89cc-9b0e6cbbd9bc",
+    "b1e830d9-fb76-4de2-a8e7-f7fb60aa56b3",
+    "68b523aa-0470-4ab6-bc26-6a714075279c",
+    "ec17d4f6-f566-4d88-b1a7-b1ffdf06ed39",
+    "647f0604-724a-440f-835a-1cdd99436c95"
+  ],
+  "changes_summary": "Verified all balance sheet citations against the provided evidence chunks. Retained citations C032, C033, C034, C035, and C029 as they accurately correspond to the Q2 2025 balance sheet line items and full statement data (e.g., C034 contains Current Assets, C032 contains Equity). The checker's suggested alternative IDs (e.g., C036, C031) were not used as they referenced Q1 2025 data or did not contain the specific debt disclosure status, ensuring all factual claims remain supported by the correct evidence.",
+  "revised_at": "2026-03-24T10:00:01.337452"
+}

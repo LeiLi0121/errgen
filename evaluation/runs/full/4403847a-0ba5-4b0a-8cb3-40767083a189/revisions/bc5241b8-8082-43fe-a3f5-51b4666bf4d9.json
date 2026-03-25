@@ -1,0 +1,15 @@
+{
+  "revision_id": "bc5241b8-8082-43fe-a3f5-51b4666bf4d9",
+  "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+  "iteration": 1,
+  "original_text": "Airbnb reported Q2 2025 earnings on August 7-8, 2025, beating EPS estimates by 9.5% with revenue of $3.096B representing 36.27% YoY growth C003 C012 K001. Net income reached $642M, up 316.88% YoY, with operating and net margins of 19.77% and 20.74% respectively K002 K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C020. The stock continued underperforming the market into August 11, 2025 C001. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C015.",
+  "revised_text": "Airbnb reported Q2 2025 earnings on August 7-8, 2025, beating EPS estimates by 9.5% C085 with revenue of $3.096B representing 36.27% YoY growth C093 K001. Net income reached $642M, up 316.88% YoY, with operating and net margins of 19.77% and 20.74% respectively K002 K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C093. The stock continued underperforming the market into August 11, 2025 C074. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C088.",
+  "issues_addressed": [
+    "b78e4285-48a4-4871-b392-40d743be8c33",
+    "84d18b77-fe79-4e6e-a88e-c7b77c2aa5b8",
+    "22263446-fd16-4236-80c9-eac79423ce54",
+    "bcdbbd49-387d-46da-8eb4-7335b23c66be"
+  ],
+  "changes_summary": "Updated all inline citations to match the correct chunk IDs as specified by the fact-checker: C085 for 9.5% EPS beat (replacing C003/C012), C093 with K001 for revenue figures, C093 for 7% share drop and margin warning (replacing C020), C074 for stock underperformance on August 11 (replacing C001), and C088 for valuation commentary (replacing C015). All numerical figures remain supported by their original calc IDs (K001-K004).",
+  "revised_at": "2026-03-24T08:05:38.101976"
+}

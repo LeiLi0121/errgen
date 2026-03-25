@@ -1,0 +1,75 @@
+{
+  "paragraph_id": "e04fd527-fd78-4fb3-8483-393a9ee4feff",
+  "section_name": "Risk Analysis",
+  "text": "Competitive and revenue risks are evidenced by declining top-line and profitability metrics. Revenue decreased 1.39% year-over-year in Q3 2025 to $94,036,000,000, while net income declined 5.43% to $23,434,000,000. This contraction suggests potential market share pressure or pricing challenges in key product categories. Despite maintaining healthy margins with gross margin at 46.49% and operating margin at 29.99%, the sequential revenue decline from Q2 2025's $95,359,000,000 indicates possible demand softness. The stock's one-year return of -5.80% significantly underperformed the broader market benchmark return of 13.56%, reflecting investor concerns about growth sustainability and competitive positioning in core hardware and services segments.",
+  "citations": [
+    {
+      "citation_id": "7a3591bc-d262-4803-a6b0-dd8ebc0c15ae",
+      "chunk_id": "7f180581-d7ba-4bbc-a670-d78610b371fc",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: Q3 | Date: 2025-06-28\n  Revenue:            $94,036,000,000\n  Gross Profit:       $43,718,000,000 (margin N/A)\n  Operating Income:   $28,202,000,000 (margin N/A)\n  Net Income:         $23,434,000,000 (margin N/A)\n  EBITDA:             $30,861,000,000\n  EPS:         ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9d94aa13-0eb6-42ed-8b95-29baafa98135",
+      "chunk_id": "03a72319-de0c-4e17-b2a6-8e55e643534f",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Revenue for Q3: $94,036,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "68ca857d-0510-4b21-8bd6-95813ebe962a",
+      "chunk_id": "5c46bef6-1a32-4990-9430-9abaa58ed654",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Net Income for Q3: $23,434,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "bb8092e4-7fdf-4e2d-8cd1-8a6740f30edd",
+      "chunk_id": "fa5c3dc0-5480-49a9-b4d5-80f284bfed57",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: Q2 | Date: 2025-03-29\n  Revenue:            $95,359,000,000\n  Gross Profit:       $44,867,000,000 (margin N/A)\n  Operating Income:   $29,589,000,000 (margin N/A)\n  Net Income:         $24,780,000,000 (margin N/A)\n  EBITDA:             $31,971,000,000\n  EPS:         ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "615334ff-8d0a-4287-99b7-2983ff1afcc2",
+      "chunk_id": "1695d204-c0ef-4010-b551-86c72920e5ed",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Revenue for Q2: $95,359,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "7f180581-d7ba-4bbc-a670-d78610b371fc",
+    "03a72319-de0c-4e17-b2a6-8e55e643534f",
+    "5c46bef6-1a32-4990-9430-9abaa58ed654",
+    "fa5c3dc0-5480-49a9-b4d5-80f284bfed57",
+    "1695d204-c0ef-4010-b551-86c72920e5ed"
+  ],
+  "calc_ids": [
+    "e676e81f-f796-4d3e-b853-808bbeccc97f",
+    "3293bd53-b150-49dd-90a8-a560b12c7900",
+    "bed8ff58-3de9-4c18-9ce5-13004a21e93b",
+    "6a9d2770-1049-40fd-9111-ecfef0c04b70",
+    "9d692402-a2d4-46c4-81bf-36b052912819",
+    "9d22c71e-c266-4fde-86f0-89279969851a"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "cc63b15c-6d26-4fff-8e1f-7b5929ae2916",
+      "paragraph_id": "e04fd527-fd78-4fb3-8483-393a9ee4feff",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T02:05:59.734681",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

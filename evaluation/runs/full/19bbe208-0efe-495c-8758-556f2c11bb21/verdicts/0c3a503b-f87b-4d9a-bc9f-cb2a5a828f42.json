@@ -1,0 +1,53 @@
+{
+  "verdict_id": "0c3a503b-f87b-4d9a-bc9f-cb2a5a828f42",
+  "paragraph_id": "9a254788-a8b0-4389-b710-2b5cd0f8b331",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "2a02deeb-8937-4276-84f2-9732ab54c8a5",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "9a254788-a8b0-4389-b710-2b5cd0f8b331",
+      "offending_span": "Strategic initiatives emphasize heavy investment in research and development to maintain technological leadership",
+      "explanation": "C001 is cited for this claim, but C001 only contains basic company profile information (ticker, exchange, sector, CEO, employees, IPO date, country, website). It does not contain any information about strategic initiatives or R&D investment emphasis.",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite a different chunk that contains information about strategic initiatives and R&D investment strategy, or remove this qualitative claim if no supporting evidence exists."
+    },
+    {
+      "issue_id": "eba4f024-4a32-4583-a8f9-74aa8c8422de",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "9a254788-a8b0-4389-b710-2b5cd0f8b331",
+      "offending_span": "providing flexibility for continued innovation and potential strategic acquisitions",
+      "explanation": "This interpretive claim about what the financial ratios enable is not supported by C001 (company profile) or the calculation refs (which only provide the ratio values, not their strategic implications).",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408"
+      ],
+      "relevant_calc_ids": [
+        "ccb0b8da-de70-41c9-9bf5-080a90d608a6",
+        "b85e2d3e-55d9-4b1c-95b7-ce7662dce2be"
+      ],
+      "recommended_fix": "Either cite evidence that discusses the company's strategic flexibility or M&A capacity, or rephrase to state only the factual ratios without interpretive claims about their implications."
+    },
+    {
+      "issue_id": "e02f91cf-0711-41f3-8814-3ffb019548ce",
+      "issue_type": "overclaiming",
+      "severity": "major",
+      "paragraph_id": "9a254788-a8b0-4389-b710-2b5cd0f8b331",
+      "offending_span": "reflecting investor confidence in management's execution of the AI and cloud growth strategy",
+      "explanation": "K017 only calculates the excess return value (53.47%). It does not provide evidence about why the stock outperformed or attribute it to investor confidence in specific strategies. This implies causation that the evidence does not support.",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408"
+      ],
+      "relevant_calc_ids": [
+        "a05bd00e-2942-4de5-b8e9-e1267fa1502e"
+      ],
+      "recommended_fix": "Rephrase to state the factual excess return without attributing causation, or cite analyst commentary or market research that specifically links the performance to AI/cloud strategy confidence."
+    }
+  ],
+  "checked_at": "2026-03-24T17:16:53.505035",
+  "iteration": 0
+}

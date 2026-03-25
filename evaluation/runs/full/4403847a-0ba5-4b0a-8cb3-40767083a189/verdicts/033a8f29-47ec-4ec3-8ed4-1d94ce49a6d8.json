@@ -1,0 +1,67 @@
+{
+  "verdict_id": "033a8f29-47ec-4ec3-8ed4-1d94ce49a6d8",
+  "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "b78e4285-48a4-4871-b392-40d743be8c33",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "C003 C012 K001",
+      "explanation": "The paragraph cites chunk IDs C003 and C012 for the EPS beat and revenue claims, but these chunk IDs are not in the provided cited evidence chunks (C074, C076, C085, C088, C093). The actual supporting chunks are C085 (for 9.5% EPS beat) and C093/K001 (for revenue figures). This citation mismatch prevents proper verification.",
+      "relevant_chunk_ids": [
+        "ae7eb4d0-3ad1-48ac-af89-fb1631c20b80",
+        "08380f6b-8cad-4c5f-9814-6cc6927f8d8f",
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b",
+        "8d02660d-4d4a-46a9-9d3e-df64703a208c",
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+      ],
+      "relevant_calc_ids": [
+        "f74b41df-a6d1-45cb-937c-db6608ac5c3c"
+      ],
+      "recommended_fix": "Update inline citations to match the actual provided chunk IDs: cite C085 for the 9.5% EPS beat claim, and C093 with K001 for revenue figures."
+    },
+    {
+      "issue_id": "84d18b77-fe79-4e6e-a88e-c7b77c2aa5b8",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "C020",
+      "explanation": "The paragraph cites C020 for the 7% share drop and margin warning claim, but C020 is not in the provided cited evidence chunks. The actual supporting chunk is C093, which states 'shares drop 7% on margin warning for the third and fourth quarters of 2025.'",
+      "relevant_chunk_ids": [
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Replace C020 citation with C093, which contains the relevant information about the 7% share drop and margin warning."
+    },
+    {
+      "issue_id": "22263446-fd16-4236-80c9-eac79423ce54",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "C001",
+      "explanation": "The paragraph cites C001 for the stock underperformance claim through August 11, 2025, but C001 is not in the provided cited evidence chunks. The actual supporting chunk is C074, titled 'Airbnb Inc. Cl A stock falls Monday, underperforms market' dated 2025-08-11.",
+      "relevant_chunk_ids": [
+        "8d02660d-4d4a-46a9-9d3e-df64703a208c"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Replace C001 citation with C074, which documents the stock underperformance on August 11, 2025."
+    },
+    {
+      "issue_id": "bcdbbd49-387d-46da-8eb4-7335b23c66be",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "C015",
+      "explanation": "The paragraph cites C015 for the analyst commentary on elevated valuation, but C015 is not in the provided cited evidence chunks. The actual supporting chunk is C088, titled 'Airbnb: Elevated Valuation Meets A Weakening Economy' which states 'High valuation multiples leave little margin for error.'",
+      "relevant_chunk_ids": [
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Replace C015 citation with C088, which contains the valuation and economic risk commentary."
+    }
+  ],
+  "checked_at": "2026-03-24T07:37:08.391562",
+  "iteration": 0
+}

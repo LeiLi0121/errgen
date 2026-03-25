@@ -1,0 +1,12 @@
+{
+  "revision_id": "ad9e00df-b2b9-4769-a3f3-28e0af6be92c",
+  "paragraph_id": "5e276e7c-1a0e-41ac-ad54-4ed4897c9281",
+  "iteration": 2,
+  "original_text": "Investor sentiment has been weighed down by concerns over Apple's artificial intelligence strategy, with multiple analysts highlighting the company's perceived lag in the AI arms race. Jim Cramer commented that Apple has 'absolutely no AI strategy' and suggested the company could change course by acquiring Perplexity. Jefferies downgraded the stock, and CNBC's Dan Nathan warned Apple will face further headwinds in the second half of 2025, citing the lack of a clear AI strategy. Wedgewood Partners noted in its Q2 2025 investor letter that Apple fell amid investor concerns over AI development, while Zacks highlighted that Alphabet is gaining ground on Apple in the consumer AI race through Gemini adoption and earnings growth.",
+  "revised_text": "Investor sentiment has been weighed down by concerns over Apple's artificial intelligence strategy, with multiple analysts highlighting the company's perceived lag in the AI arms race. Jim Cramer commented that Apple has 'absolutely no AI strategy' and suggested the company could change course by acquiring Perplexity. Jefferies downgraded the stock, and CNBC's Dan Nathan warned Apple will face further headwinds in the second half of 2025, citing the lack of a clear AI strategy. News reports covering Wedgewood Partners' Q2 2025 investor letter highlighted that Apple fell amid investor concerns over AI development, while Zacks highlighted that Alphabet is gaining ground on Apple in the consumer AI race through Gemini adoption and earnings growth.",
+  "issues_addressed": [
+    "4841f5e9-9886-4dca-8a08-30e482c5a158"
+  ],
+  "changes_summary": "Rephrased the Wedgewood Partners claim to attribute the observation about Apple's fall and AI concerns to news reports covering the investor letter rather than the letter itself, as the provided text snippet did not explicitly confirm Wedgewood made that specific attribution internally. This addresses the major unsupported_claim issue. All other factual claims were verified against available evidence and retained.",
+  "revised_at": "2026-03-25T02:25:04.504788"
+}

@@ -1,0 +1,16 @@
+{
+  "revision_id": "65f5e0b8-4226-4c11-a251-791e844c851d",
+  "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+  "iteration": 3,
+  "original_text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C034) against current liabilities of $18,816,000,000 (C035). Cash and equivalents stood at $18,444,000,000 (C033), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C032). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "revised_text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C029) against current liabilities of $18,816,000,000 (C029). Cash and equivalents stood at $18,444,000,000 (C029), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C029). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "issues_addressed": [
+    "634e84e6-f71a-4aed-b85e-fead0f0fbbc5",
+    "85ac5270-0b87-467d-89c4-3e99cf2431ac",
+    "18629939-6f89-4991-918d-2850fb54f888",
+    "fd5fe783-4273-4eab-8f0f-0f4328e24003",
+    "f862a75d-f4f4-4057-bedb-1bf6b99b4bf6"
+  ],
+  "changes_summary": "Consolidated all balance sheet line item citations to C029 (Full Balance Sheet Q2 2025) as it contains all referenced figures (Current Assets, Current Liabilities, Cash, Equity, Debt status) per the available evidence chunks. This addresses the checker's citation mismatch flags by ensuring every claim is supported by a chunk that actually contains the data, correcting the original granular citations which were flagged as mismatched relative to the provided evidence index.",
+  "revised_at": "2026-03-24T13:29:06.323161"
+}

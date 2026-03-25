@@ -1,0 +1,141 @@
+{
+  "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+  "section_name": "Financial Analysis",
+  "text": "The balance sheet reflects strong liquidity positioning with a current ratio of 1.23x as of Q2 2025 (K006), supported by current assets of $23,180,000,000 (C034) against current liabilities of $18,816,000,000 (C035). Cash and equivalents stood at $18,444,000,000 (C033), providing substantial financial flexibility. Total stockholders' equity was $7,782,000,000 (C032). However, total debt figures are not disclosed in the available balance sheet data (C029), preventing calculation of debt-to-equity or net debt metrics. The significant cash position relative to current liabilities suggests low near-term liquidity risk.",
+  "citations": [
+    {
+      "citation_id": "56f7b734-46e0-4c8b-afcc-c9f5f8966c65",
+      "chunk_id": "723ddf37-07ea-44d7-abbe-485afaeb7d45",
+      "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – ABNB | Period: Q2 2025 | Date: 2025-06-30\n  Total Assets:              $26,992,000,000\n  Total Liabilities:         $19,210,000,000\n  Total Stockholders' Equity:$7,782,000,000\n  Cash & Equivalents:        $18,444,000,000\n  Short-Term Investments:    N/A\n  Total Debt:                N",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "aa7cedb2-99a1-4cb1-942d-9b60a90567f0",
+      "chunk_id": "fc628baf-d4b0-43d0-88a5-80e6b21b43c1",
+      "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Stockholders' Equity for Q2 2025: $7,782,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9d361335-cb04-4df1-973d-700349b059ae",
+      "chunk_id": "441a1a50-8ecd-47e3-837c-a643ef6c0c0d",
+      "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Cash & Equivalents for Q2 2025: $18,444,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3368072c-5cea-4b20-a3b2-5dc22204e554",
+      "chunk_id": "f1237e12-ca64-49ab-890e-99f8117f4bf4",
+      "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Total Current Assets for Q2 2025: $23,180,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0e6c50c4-e297-429c-95c0-e38bf319d742",
+      "chunk_id": "061418f5-da6c-4747-a23a-9c1765721c38",
+      "source_id": "bccdf686-8c27-4c80-8526-1db7250a4d0d",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Total Current Liabilities for Q2 2025: $18,816,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "723ddf37-07ea-44d7-abbe-485afaeb7d45",
+    "fc628baf-d4b0-43d0-88a5-80e6b21b43c1",
+    "441a1a50-8ecd-47e3-837c-a643ef6c0c0d",
+    "f1237e12-ca64-49ab-890e-99f8117f4bf4",
+    "061418f5-da6c-4747-a23a-9c1765721c38"
+  ],
+  "calc_ids": [
+    "ccc4c5e9-d23b-4bb4-a66a-e14e17c7fab3"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "5254be9b-064a-4852-983d-341dd3e95ff1",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "42f9e78c-9a34-468a-89cc-9b0e6cbbd9bc",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+          "offending_span": "current assets of $23,180,000,000 (C034)",
+          "explanation": "C034 contains Stockholders' Equity data ($7,782,000,000), not Current Assets. Current Assets data is in C036.",
+          "relevant_chunk_ids": [
+            "fc628baf-d4b0-43d0-88a5-80e6b21b43c1",
+            "f1237e12-ca64-49ab-890e-99f8117f4bf4"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C034 to C036 for current assets figure."
+        },
+        {
+          "issue_id": "b1e830d9-fb76-4de2-a8e7-f7fb60aa56b3",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+          "offending_span": "current liabilities of $18,816,000,000 (C035)",
+          "explanation": "C035 contains Cash & Equivalents data ($18,444,000,000), not Current Liabilities. Current Liabilities data is in C037.",
+          "relevant_chunk_ids": [
+            "441a1a50-8ecd-47e3-837c-a643ef6c0c0d",
+            "061418f5-da6c-4747-a23a-9c1765721c38"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C035 to C037 for current liabilities figure."
+        },
+        {
+          "issue_id": "68b523aa-0470-4ab6-bc26-6a714075279c",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+          "offending_span": "Cash and equivalents stood at $18,444,000,000 (C033)",
+          "explanation": "C033 is not in the cited chunk refs list and is not provided in available chunks. Cash & Equivalents data is in C035.",
+          "relevant_chunk_ids": [
+            "80b5293c-ab88-4f90-8244-5dcede20227b",
+            "441a1a50-8ecd-47e3-837c-a643ef6c0c0d"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C033 to C035 for cash and equivalents figure."
+        },
+        {
+          "issue_id": "ec17d4f6-f566-4d88-b1a7-b1ffdf06ed39",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+          "offending_span": "Total stockholders' equity was $7,782,000,000 (C032)",
+          "explanation": "C032 is not in the cited chunk refs list and is not provided in available chunks. Stockholders' Equity data is in C034.",
+          "relevant_chunk_ids": [
+            "267bddf6-6561-4bf7-8c76-52b468e2c326",
+            "fc628baf-d4b0-43d0-88a5-80e6b21b43c1"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C032 to C034 for stockholders' equity figure."
+        },
+        {
+          "issue_id": "647f0604-724a-440f-835a-1cdd99436c95",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+          "offending_span": "total debt figures are not disclosed in the available balance sheet data (C029)",
+          "explanation": "C029 is not in the cited chunk refs list and is not provided in available chunks. The debt disclosure status is shown in C031 (Total Debt: N/A).",
+          "relevant_chunk_ids": [
+            "9764afee-29eb-42ed-9fd1-9703cfbf1379",
+            "723ddf37-07ea-44d7-abbe-485afaeb7d45"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Change citation from C029 to C031 for the debt disclosure statement."
+        }
+      ],
+      "checked_at": "2026-03-24T07:45:39.185580",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

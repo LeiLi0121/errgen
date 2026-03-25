@@ -1,0 +1,50 @@
+{
+  "paragraph_id": "f3bd8fc9-3d22-42d1-bf2d-6f4a5aae3259",
+  "section_name": "Financial Analysis",
+  "text": "Research and development investment intensity cannot be assessed from the available evidence, as R&D expenses are reported as N/A across all quarterly income statements provided. This data limitation prevents analysis of the company's technology and innovation spending relative to revenue, which is relevant given the competitive dynamics in the global payments industry.",
+  "citations": [
+    {
+      "citation_id": "13811bdc-436f-4342-8f15-bd3d7b75733a",
+      "chunk_id": "d3b181d6-fe24-410f-9f5f-317933c39ba3",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AXP | Period: Q3 2025 | Date: 2025-09-30\n  Revenue:            $10,415,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,902,000,000 (margin 27.86%)\n  EBITDA:             N/A\n  EPS:                4.14\n  R&D Expenses:   ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c214e373-6318-4e17-aca9-603f23714f34",
+      "chunk_id": "18dfffd3-15ae-472a-ad5b-193fed75f6ff",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AXP | Period: Q2 2025 | Date: 2025-06-30\n  Revenue:            $10,321,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,885,000,000 (margin 27.95%)\n  EBITDA:             N/A\n  EPS:                4.08\n  R&D Expenses:   ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "8f5cd891-b117-4d62-b570-c9f18b4aa529",
+      "chunk_id": "b3ba3268-bdec-453c-b725-d21ce6913657",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AXP | Period: Q1 2025 | Date: 2025-03-31\n  Revenue:            $9,626,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,584,000,000 (margin 26.84%)\n  EBITDA:             N/A\n  EPS:                3.64\n  R&D Expenses:    ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "59f8ab81-da7f-4725-bfcb-b88f2b90ec4d",
+      "chunk_id": "dd19163f-5856-4fe6-9bad-00200ddcafb6",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AXP | Period: Q3 2024 | Date: 2024-09-30\n  Revenue:            $9,716,000,000\n  Gross Profit:       N/A (margin N/A)\n  Operating Income:   N/A (margin N/A)\n  Net Income:         $2,507,000,000 (margin 25.80%)\n  EBITDA:             N/A\n  EPS:                3.49\n  R&D Expenses:    ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "d3b181d6-fe24-410f-9f5f-317933c39ba3",
+    "18dfffd3-15ae-472a-ad5b-193fed75f6ff",
+    "b3ba3268-bdec-453c-b725-d21ce6913657",
+    "dd19163f-5856-4fe6-9bad-00200ddcafb6"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

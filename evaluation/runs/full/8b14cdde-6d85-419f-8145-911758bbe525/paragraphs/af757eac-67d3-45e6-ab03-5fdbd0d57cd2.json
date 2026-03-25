@@ -1,0 +1,79 @@
+{
+  "paragraph_id": "af757eac-67d3-45e6-ab03-5fdbd0d57cd2",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "We assign a Hold rating to Apple Inc. (AAPL) as of July 18, 2025. While the company maintains exceptional profitability with gross margins of 46.49%, operating margins of 29.99%, and free cash flow margins of 25.95% in Q3 2025, recent financial performance shows concerning pressure. Revenue declined 1.39% year-over-year to $94.04 billion, and net income fell 5.43% to $23.43 billion, indicating sequential and annual contraction. The stock has significantly underperformed the broader market over the past year, returning -5.80% compared to the S&P 500's +13.56%, representing a 19.36% negative excess return. However, recent 30-day momentum shows improvement with AAPL up 7.43% versus SPY's 5.04%, suggesting potential stabilization.",
+  "citations": [
+    {
+      "citation_id": "c54010c5-0e35-4ed9-91cc-592f40e7dce2",
+      "chunk_id": "7f180581-d7ba-4bbc-a670-d78610b371fc",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: Q3 | Date: 2025-06-28\n  Revenue:            $94,036,000,000\n  Gross Profit:       $43,718,000,000 (margin N/A)\n  Operating Income:   $28,202,000,000 (margin N/A)\n  Net Income:         $23,434,000,000 (margin N/A)\n  EBITDA:             $30,861,000,000\n  EPS:         ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fbfac660-3c5c-4c12-a5f5-d907ee06fb04",
+      "chunk_id": "03a72319-de0c-4e17-b2a6-8e55e643534f",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Revenue for Q3: $94,036,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "36c521e2-de5a-419d-a3d4-8fb463c0ee74",
+      "chunk_id": "5c46bef6-1a32-4990-9430-9abaa58ed654",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL Net Income for Q3: $23,434,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "aab7f991-f319-46c7-829c-3b03c7afdd5f",
+      "chunk_id": "88b5dd08-e3de-431c-884f-fdcd508aae58",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T21:18:00Z | Yahoo\nTitle: Should You Sell Apple's Stock Before July 31?\nURL: https://finnhub.io/api/news?id=562108f76534fd602841e9346ffa66a55556185f316840d982def8fb8794e0a7\nApple has fallen behind in the AI arms race.  This could apply to Apple (NASDAQ: AAPL), as investors have been",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "de0fd46b-0199-4bee-b98a-e9d87c6cd057",
+      "chunk_id": "2ae37adf-3255-4df1-89ec-d854b9286583",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T17:55:02Z | Yahoo\nTitle: Apple Stock’s 4 Biggest Competitors — Should You Invest?\nURL: https://finnhub.io/api/news?id=29a0538eecfd7cc535adc3b94b183e8d424a08b2acb3f5e96d6c7b06e191ed79\nApple has been a reliable long-term investment that has regularly outperformed the S&P 500. Shares ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "7f180581-d7ba-4bbc-a670-d78610b371fc",
+    "03a72319-de0c-4e17-b2a6-8e55e643534f",
+    "5c46bef6-1a32-4990-9430-9abaa58ed654",
+    "88b5dd08-e3de-431c-884f-fdcd508aae58",
+    "2ae37adf-3255-4df1-89ec-d854b9286583"
+  ],
+  "calc_ids": [
+    "e676e81f-f796-4d3e-b853-808bbeccc97f",
+    "3293bd53-b150-49dd-90a8-a560b12c7900",
+    "bed8ff58-3de9-4c18-9ce5-13004a21e93b",
+    "6a9d2770-1049-40fd-9111-ecfef0c04b70",
+    "ed38f998-3eec-4062-aa8f-5bcf6b0c1487",
+    "d94d6625-54f5-4e5f-8466-0ad11b498d7e",
+    "16b424f7-9019-47b5-9f0a-756f6b1cb75f",
+    "9d692402-a2d4-46c4-81bf-36b052912819",
+    "9d22c71e-c266-4fde-86f0-89279969851a",
+    "9c9a8a83-9035-4691-8f88-bc7070b6da81"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "5abdd5b7-2f69-4e67-861c-4cc0ddcdad7e",
+      "paragraph_id": "af757eac-67d3-45e6-ab03-5fdbd0d57cd2",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T02:27:35.367257",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

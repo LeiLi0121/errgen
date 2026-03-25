@@ -353,3 +353,37 @@ class TestReviserAgent:
         assert "nonexistent-calc-id" not in revised_para.calc_ids
         # Valid chunk ID should be kept
         assert sample_chunk.chunk_id in revised_para.chunk_ids
+
+    def test_reviser_recovers_ids_from_text_and_removes_inline_aliases(
+        self, failing_paragraph, sample_chunk, sample_calc
+    ):
+        reviser = ReviserAgent()
+        verdict = self._make_verdict(
+            failing_paragraph.paragraph_id,
+            [
+                {
+                    "issue_type": "numerical_error",
+                    "severity": "critical",
+                    "explanation": "Wrong number.",
+                    "recommended_fix": "Fix.",
+                }
+            ],
+        )
+        mock_revision = {
+            "text": "Corrected paragraph text (C001, K001).",
+            "chunk_ids": [],
+            "calc_ids": [],
+            "changes_summary": "Fixed.",
+        }
+        with patch("errgen.verification.reviser.chat_json", return_value=mock_revision):
+            revised_para, _ = reviser.revise(
+                paragraph=failing_paragraph,
+                verdict=verdict,
+                chunks=[sample_chunk],
+                calc_results=[sample_calc],
+                iteration=1,
+            )
+
+        assert revised_para.text == "Corrected paragraph text."
+        assert revised_para.chunk_ids == [sample_chunk.chunk_id]
+        assert revised_para.calc_ids == [sample_calc.calc_id]

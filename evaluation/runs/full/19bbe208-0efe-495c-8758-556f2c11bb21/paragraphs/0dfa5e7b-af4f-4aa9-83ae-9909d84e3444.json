@@ -1,0 +1,81 @@
+{
+  "paragraph_id": "0dfa5e7b-af4f-4aa9-83ae-9909d84e3444",
+  "section_name": "Risk Analysis",
+  "text": "Financial risk appears moderate based on Alphabet's balance sheet position as of Q4 2025. Total debt reached $72,035,000,000, representing a debt-to-equity ratio of 0.17, which suggests conservative leverage relative to the $415,265,000,000 in stockholders' equity. Liquidity remains strong with a current ratio of 2.01, supported by $30,708,000,000 in cash and equivalents plus $96,135,000,000 in short-term investments against $102,745,000,000 in current liabilities. However, net debt of $41,327,000,000 indicates the company maintains meaningful debt obligations that could constrain financial flexibility in adverse conditions.",
+  "citations": [
+    {
+      "citation_id": "6e1e7fff-8f81-4ff8-b1df-5ff7f005ebfb",
+      "chunk_id": "5bc896f4-64a6-4d85-ae0f-ee4f5528d614",
+      "source_id": "6664bc00-5814-4419-b8a7-0a42ecf3b959",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – GOOGL | Period: Q4 | Date: 2025-12-31\n  Total Assets:              $595,281,000,000\n  Total Liabilities:         $180,016,000,000\n  Total Stockholders' Equity:$415,265,000,000\n  Cash & Equivalents:        $30,708,000,000\n  Short-Term Investments:    $96,135,000,000\n  Total Debt:     ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ec551f05-d056-475d-87b0-436b19c935da",
+      "chunk_id": "c82aea17-3852-4b2e-9a8f-4878bc4d0b94",
+      "source_id": "6664bc00-5814-4419-b8a7-0a42ecf3b959",
+      "source_type": "balance_sheet",
+      "text_snippet": "GOOGL Stockholders' Equity for Q4: $415,265,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f0e92cf4-d404-4498-8638-6e8097d53f95",
+      "chunk_id": "3116d0c2-5461-4d7f-882c-2091287bf8a2",
+      "source_id": "6664bc00-5814-4419-b8a7-0a42ecf3b959",
+      "source_type": "balance_sheet",
+      "text_snippet": "GOOGL Cash & Equivalents for Q4: $30,708,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "01bbfcd5-fdb3-4628-b6e5-d8fd2e14ba92",
+      "chunk_id": "c85deeef-3653-4836-ae43-f5da039c4a07",
+      "source_id": "6664bc00-5814-4419-b8a7-0a42ecf3b959",
+      "source_type": "balance_sheet",
+      "text_snippet": "GOOGL Total Debt for Q4: $72,035,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c97b9441-9809-4b8f-ba53-d7f74f8c3371",
+      "chunk_id": "175a9b1d-08de-4e0e-8133-d40197e6a958",
+      "source_id": "6664bc00-5814-4419-b8a7-0a42ecf3b959",
+      "source_type": "balance_sheet",
+      "text_snippet": "GOOGL Total Current Assets for Q4: $206,038,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "82098c07-fd05-4216-96cd-5ce602a54455",
+      "chunk_id": "32480b5a-ffeb-4b2a-9dd8-026b68806de9",
+      "source_id": "6664bc00-5814-4419-b8a7-0a42ecf3b959",
+      "source_type": "balance_sheet",
+      "text_snippet": "GOOGL Total Current Liabilities for Q4: $102,745,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "5bc896f4-64a6-4d85-ae0f-ee4f5528d614",
+    "c82aea17-3852-4b2e-9a8f-4878bc4d0b94",
+    "3116d0c2-5461-4d7f-882c-2091287bf8a2",
+    "c85deeef-3653-4836-ae43-f5da039c4a07",
+    "175a9b1d-08de-4e0e-8133-d40197e6a958",
+    "32480b5a-ffeb-4b2a-9dd8-026b68806de9"
+  ],
+  "calc_ids": [
+    "ccb0b8da-de70-41c9-9bf5-080a90d608a6",
+    "b85e2d3e-55d9-4b1c-95b7-ce7662dce2be",
+    "87a3ef1a-29fb-4a90-af6d-0c3e935eba2a"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "015bad55-b06a-4675-a418-fc3e7bc4a81b",
+      "paragraph_id": "0dfa5e7b-af4f-4aa9-83ae-9909d84e3444",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:17:24.703103",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

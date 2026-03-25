@@ -1,0 +1,79 @@
+{
+  "verdict_id": "20d4fc4f-080d-4061-b4b2-768b455d345e",
+  "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "9af952f6-5049-4a3e-afe2-48bd451ead51",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "offending_span": "current assets of $23,180,000,000 (C034)",
+      "explanation": "C034 contains Stockholders' Equity data ($7,782,000,000), not Current Assets. Current Assets data is in C036.",
+      "relevant_chunk_ids": [
+        "fc628baf-d4b0-43d0-88a5-80e6b21b43c1",
+        "f1237e12-ca64-49ab-890e-99f8117f4bf4"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C034 to C036 for current assets figure."
+    },
+    {
+      "issue_id": "f8174b35-3e03-4149-9b6a-d2fe84919b5d",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "offending_span": "current liabilities of $18,816,000,000 (C035)",
+      "explanation": "C035 contains Cash & Equivalents data ($18,444,000,000), not Current Liabilities. Current Liabilities data is in C037.",
+      "relevant_chunk_ids": [
+        "441a1a50-8ecd-47e3-837c-a643ef6c0c0d",
+        "061418f5-da6c-4747-a23a-9c1765721c38"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C035 to C037 for current liabilities figure."
+    },
+    {
+      "issue_id": "948ead5b-5d81-4f83-b1ae-054b738142a5",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "offending_span": "Cash and equivalents stood at $18,444,000,000 (C033)",
+      "explanation": "C033 is not in the provided evidence chunks. Cash & Equivalents data is in C035.",
+      "relevant_chunk_ids": [
+        "80b5293c-ab88-4f90-8244-5dcede20227b",
+        "441a1a50-8ecd-47e3-837c-a643ef6c0c0d"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C033 to C035 for cash and equivalents figure."
+    },
+    {
+      "issue_id": "3d7e3188-5cd8-44df-9010-08abbda91b7e",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "offending_span": "Total stockholders' equity was $7,782,000,000 (C032)",
+      "explanation": "C032 is not in the provided evidence chunks. Stockholders' Equity data is in C034.",
+      "relevant_chunk_ids": [
+        "267bddf6-6561-4bf7-8c76-52b468e2c326",
+        "fc628baf-d4b0-43d0-88a5-80e6b21b43c1"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C032 to C034 for stockholders' equity figure."
+    },
+    {
+      "issue_id": "1f7f6ded-e5cc-43c4-adf1-451878e4a271",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d8dd130a-8975-40d7-a933-408b120ffd6b",
+      "offending_span": "total debt figures are not disclosed in the available balance sheet data (C029)",
+      "explanation": "C029 is not in the provided evidence chunks. The balance sheet summary showing Total Debt as N/A is in C031.",
+      "relevant_chunk_ids": [
+        "9764afee-29eb-42ed-9fd1-9703cfbf1379",
+        "723ddf37-07ea-44d7-abbe-485afaeb7d45"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C029 to C031 for the debt disclosure statement."
+    }
+  ],
+  "checked_at": "2026-03-24T10:42:24.908635",
+  "iteration": 1
+}

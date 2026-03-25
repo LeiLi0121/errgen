@@ -15,6 +15,8 @@ Free tier: 250 API calls/day.
 
 from __future__ import annotations
 
+from calendar import monthrange
+from datetime import date
 import html
 import logging
 import re
@@ -61,6 +63,18 @@ def _coerce_float(val: Any) -> float | None:
             return None
         return float(val)
     except (TypeError, ValueError):
+        return None
+
+
+def _as_of_cutoff(as_of_date: str | None) -> date | None:
+    if not as_of_date:
+        return None
+    try:
+        if len(as_of_date) == 7:
+            year, month = map(int, as_of_date.split("-"))
+            return date(year, month, monthrange(year, month)[1])
+        return date.fromisoformat(as_of_date[:10])
+    except ValueError:
         return None
 
 
@@ -177,6 +191,7 @@ class FMPClient(BaseDataClient):
         ticker: str,
         period: str = "annual",
         limit: int | None = None,
+        as_of_date: str | None = None,
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         """
         Fetch income statement data.
@@ -189,6 +204,13 @@ class FMPClient(BaseDataClient):
             "income-statement",
             {"symbol": ticker, "period": period, "limit": limit},
         )
+        cutoff = _as_of_cutoff(as_of_date)
+        if cutoff:
+            raw = [
+                stmt for stmt in raw
+                if not stmt.get("date") or _as_of_cutoff(str(stmt.get("date"))[:10]) is None
+                or _as_of_cutoff(str(stmt.get("date"))[:10]) <= cutoff
+            ]
         if not raw:
             raise ValueError(
                 f"FMP returned no income statement for '{ticker}' (period={period})."
@@ -308,12 +330,20 @@ class FMPClient(BaseDataClient):
         ticker: str,
         period: str = "annual",
         limit: int | None = None,
+        as_of_date: str | None = None,
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         limit = limit or Config.MAX_FINANCIAL_PERIODS
         raw = self._fmp_get(
             "balance-sheet-statement",
             {"symbol": ticker, "period": period, "limit": limit},
         )
+        cutoff = _as_of_cutoff(as_of_date)
+        if cutoff:
+            raw = [
+                stmt for stmt in raw
+                if not stmt.get("date") or _as_of_cutoff(str(stmt.get("date"))[:10]) is None
+                or _as_of_cutoff(str(stmt.get("date"))[:10]) <= cutoff
+            ]
         if not raw:
             raise ValueError(
                 f"FMP returned no balance sheet for '{ticker}' (period={period})."
@@ -422,12 +452,20 @@ class FMPClient(BaseDataClient):
         ticker: str,
         period: str = "annual",
         limit: int | None = None,
+        as_of_date: str | None = None,
     ) -> tuple[SourceMetadata, list[EvidenceChunk]]:
         limit = limit or Config.MAX_FINANCIAL_PERIODS
         raw = self._fmp_get(
             "cash-flow-statement",
             {"symbol": ticker, "period": period, "limit": limit},
         )
+        cutoff = _as_of_cutoff(as_of_date)
+        if cutoff:
+            raw = [
+                stmt for stmt in raw
+                if not stmt.get("date") or _as_of_cutoff(str(stmt.get("date"))[:10]) is None
+                or _as_of_cutoff(str(stmt.get("date"))[:10]) <= cutoff
+            ]
         if not raw:
             raise ValueError(
                 f"FMP returned no cash flow statement for '{ticker}' (period={period})."

@@ -1,0 +1,74 @@
+{
+  "verdict_id": "f7422483-f5e7-46c5-8549-ed3af842aba7",
+  "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "5b9de753-6d60-4044-b7fc-e41d294a86d9",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "Airbnb reported Q2 2025 earnings on August 7, 2025 C020",
+      "explanation": "Paragraph cites C020 but C020 is not in the cited chunk refs list ['C074', 'C085', 'C088', 'C093']. C020 is listed as an uncited chunk. The earnings report date is supported by C093 (Yahoo, 2025-08-07).",
+      "relevant_chunk_ids": [
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C020 to C093 for the earnings report date claim"
+    },
+    {
+      "issue_id": "06c0c85d-4fb4-4a41-8a0b-ac02a1d83a30",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "beating EPS estimates by 9.5% C012",
+      "explanation": "Paragraph cites C012 but C012 is not in the cited chunk refs list. C012 is listed as an uncited chunk. The 9.5% EPS beat claim is supported by C085 which has the title 'Airbnb, Inc. Just Beat EPS By 9.5%'.",
+      "relevant_chunk_ids": [
+        "08380f6b-8cad-4c5f-9814-6cc6927f8d8f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C012 to C085 for the EPS beat claim"
+    },
+    {
+      "issue_id": "6634f915-f87d-46d5-81e2-b7cbd406dcea",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C020",
+      "explanation": "Paragraph cites C020 but C020 is not in the cited chunk refs list. The 7% share drop and margin warning for Q3/Q4 2025 is supported by C093 which states 'shares drop 7% on margin warning for the third and fourth quarters of 2025'.",
+      "relevant_chunk_ids": [
+        "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C020 to C093 for the share drop and margin warning claim"
+    },
+    {
+      "issue_id": "7d669bf5-a4b0-4567-8f74-09841a4918f8",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "The stock continued underperforming the market into August 11, 2025 C001",
+      "explanation": "Paragraph cites C001 but C001 is not in the cited chunk refs list. C001 is listed as an uncited chunk. The stock underperformance on August 11 is supported by C074 (MarketWatch, 2025-08-11) titled 'Airbnb Inc. Cl A stock falls Monday, underperforms market'.",
+      "relevant_chunk_ids": [
+        "8d02660d-4d4a-46a9-9d3e-df64703a208c"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C001 to C074 for the stock underperformance claim"
+    },
+    {
+      "issue_id": "16f52a2a-f6e3-4477-b7e1-664bb990185a",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "offending_span": "Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C015",
+      "explanation": "Paragraph cites C015 but C015 is not in the cited chunk refs list. C015 is listed as an uncited chunk. The valuation and economic risks commentary is supported by C088 which states 'High valuation multiples leave little margin for error' and 'slowed growth in key markets amid economic risks'.",
+      "relevant_chunk_ids": [
+        "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Change citation from C015 to C088 for the analyst commentary claim"
+    }
+  ],
+  "checked_at": "2026-03-24T11:37:51.776530",
+  "iteration": 2
+}

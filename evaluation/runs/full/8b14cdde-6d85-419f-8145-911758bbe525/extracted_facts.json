@@ -1,0 +1,652 @@
+[
+  {
+    "fact_id": "027b1470-2c27-4b7b-b90e-704b6399f828",
+    "chunk_ids": [
+      "03a72319-de0c-4e17-b2a6-8e55e643534f"
+    ],
+    "fact_type": "revenue",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 94036000000.0,
+    "unit": "USD",
+    "description": "AAPL Revenue for Q3: $94,036,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a1184be2-9135-49e8-b2a1-1fe3a933abe8",
+    "chunk_ids": [
+      "81a1256d-c8d8-4030-a549-6b9b4780b589"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 43718000000.0,
+    "unit": "USD",
+    "description": "AAPL Gross Profit for Q3: $43,718,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8c85f072-b5a8-4568-9282-99b1bd3babaa",
+    "chunk_ids": [
+      "7a5cc602-51be-4c1b-8b71-da806993e72e"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 28202000000.0,
+    "unit": "USD",
+    "description": "AAPL Operating Income for Q3: $28,202,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d6bd47df-068b-4f16-b9a2-c95286658bfe",
+    "chunk_ids": [
+      "5c46bef6-1a32-4990-9430-9abaa58ed654"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 23434000000.0,
+    "unit": "USD",
+    "description": "AAPL Net Income for Q3: $23,434,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1a1b5380-cdb8-411d-a893-44a73bd94f8b",
+    "chunk_ids": [
+      "14b20592-af90-47ad-844e-bc155961ded6"
+    ],
+    "fact_type": "ebitda",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 30861000000.0,
+    "unit": "USD",
+    "description": "AAPL EBITDA for Q3: $30,861,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6ca2e173-155e-4f87-9e20-0cf9f3f564b5",
+    "chunk_ids": [
+      "69aa951d-b365-4503-9e8b-44d0b9f64117"
+    ],
+    "fact_type": "eps",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 1.57,
+    "unit": "USD",
+    "description": "AAPL EPS (Diluted) for Q3: $2",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "84bde63a-0618-4e71-afac-3842e736599f",
+    "chunk_ids": [
+      "e0d342f5-f2cc-45c4-8a18-26a9861a09bd"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 8866000000.0,
+    "unit": "USD",
+    "description": "AAPL R&D Expenses for Q3: $8,866,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3ee1b063-337f-4d3f-a714-09f3437b1a1e",
+    "chunk_ids": [
+      "1695d204-c0ef-4010-b551-86c72920e5ed"
+    ],
+    "fact_type": "revenue",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 95359000000.0,
+    "unit": "USD",
+    "description": "AAPL Revenue for Q2: $95,359,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "059c336b-8261-41cb-91e4-a333f31bd508",
+    "chunk_ids": [
+      "b4c44d69-44d0-4306-950d-357db7ed5e14"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 44867000000.0,
+    "unit": "USD",
+    "description": "AAPL Gross Profit for Q2: $44,867,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "9b9ca8d7-44ff-4e67-be54-8b800e06feed",
+    "chunk_ids": [
+      "3b4d947c-ce8b-4f71-8bb6-59905577d0c9"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 29589000000.0,
+    "unit": "USD",
+    "description": "AAPL Operating Income for Q2: $29,589,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2fb82d95-31f9-4faf-86c7-2d487c47e369",
+    "chunk_ids": [
+      "f3866c03-5aae-49e1-b5ce-6da720ba55f6"
+    ],
+    "fact_type": "netIncome",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 24780000000.0,
+    "unit": "USD",
+    "description": "AAPL Net Income for Q2: $24,780,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "41f937ea-b5f2-457b-beed-74ecb47e736b",
+    "chunk_ids": [
+      "add8d43b-2888-4bb1-8383-8d144aa3be82"
+    ],
+    "fact_type": "ebitda",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 31971000000.0,
+    "unit": "USD",
+    "description": "AAPL EBITDA for Q2: $31,971,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "35ea856d-cd72-4dce-a548-4398c628e37a",
+    "chunk_ids": [
+      "981c5092-1629-4c1c-aa6e-1ce0886133c7"
+    ],
+    "fact_type": "eps",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 1.65,
+    "unit": "USD",
+    "description": "AAPL EPS (Diluted) for Q2: $2",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c0e3cb4c-04be-4324-a152-cc46b75a7479",
+    "chunk_ids": [
+      "e6af46fe-5658-4394-a53d-55ad0bb4420b"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 8550000000.0,
+    "unit": "USD",
+    "description": "AAPL R&D Expenses for Q2: $8,550,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f284d3a3-a697-4994-8ac8-20b69e6e01e0",
+    "chunk_ids": [
+      "0d36d75a-4348-4b09-8dce-d8e91ad67910"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 331495000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Assets for Q3: $331,495,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "478bc42c-251a-48c0-8f39-a0277c1115b0",
+    "chunk_ids": [
+      "a1698852-ec2c-4f54-8333-4134a888fe57"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 265665000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Liabilities for Q3: $265,665,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "fbca8b08-f064-41fb-aad7-584f8a099882",
+    "chunk_ids": [
+      "c7bef71a-5e99-4c26-805b-32ab1cb512b0"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 65830000000.0,
+    "unit": "USD",
+    "description": "AAPL Stockholders' Equity for Q3: $65,830,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e447063d-8222-4019-b502-92b836676cb1",
+    "chunk_ids": [
+      "e465b40a-0907-4810-91b2-892bd1960ea1"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 36269000000.0,
+    "unit": "USD",
+    "description": "AAPL Cash & Equivalents for Q3: $36,269,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "07896273-0fca-4b70-a56d-01834f3422df",
+    "chunk_ids": [
+      "78668682-a735-4481-848b-6c6a03a8e062"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 101698000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Debt for Q3: $101,698,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8c7fbc32-e380-4dcc-98d3-1a3d69cca5bd",
+    "chunk_ids": [
+      "d066cc53-9438-40a9-b1f3-09ec32916470"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 82430000000.0,
+    "unit": "USD",
+    "description": "AAPL Long-Term Debt for Q3: $82,430,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "668aace0-b0d5-415b-8799-5740010d90a2",
+    "chunk_ids": [
+      "a9b3dbf4-3984-4138-be6d-36bfe5b968bd"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 122491000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Current Assets for Q3: $122,491,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7a4f50ce-7c7e-4e55-9fd9-c6058c0fe7b7",
+    "chunk_ids": [
+      "ab0cdd80-18bf-4278-9fcd-f287ce5c3a6f"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 141120000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Current Liabilities for Q3: $141,120,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8ddea868-c962-4db4-9c80-93b43e6412b7",
+    "chunk_ids": [
+      "326fd584-5528-4537-98d3-48735372a30b"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 331233000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Assets for Q2: $331,233,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e6491d6b-4103-46f9-977e-e0e6fd161736",
+    "chunk_ids": [
+      "35cffb1e-5ed6-4ca9-9bbe-94786075bb6d"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 264437000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Liabilities for Q2: $264,437,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "59125208-7652-478a-a86d-986164f7fc2c",
+    "chunk_ids": [
+      "ce035951-2be4-44e6-bd72-4de76350a0ea"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 66796000000.0,
+    "unit": "USD",
+    "description": "AAPL Stockholders' Equity for Q2: $66,796,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "76db5bfa-62f0-4c9c-a324-4b690061787a",
+    "chunk_ids": [
+      "fdab22c4-a639-4f6b-9254-ded522b9417f"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 28162000000.0,
+    "unit": "USD",
+    "description": "AAPL Cash & Equivalents for Q2: $28,162,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cf5378f3-ce13-47f3-9783-9be12d325e49",
+    "chunk_ids": [
+      "237f4186-4f2c-4465-96f5-769a85e70e89"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 98186000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Debt for Q2: $98,186,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b04fa8f6-1bd5-44cd-a198-b950fa2e2df2",
+    "chunk_ids": [
+      "df7939f3-0ffd-4758-b8d4-bf0ae878c3e6"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 78566000000.0,
+    "unit": "USD",
+    "description": "AAPL Long-Term Debt for Q2: $78,566,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "2a307587-bfed-496e-a388-8bbb9a2377a1",
+    "chunk_ids": [
+      "0f88ade2-05dc-4f01-806b-680eca8d40f7"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 118674000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Current Assets for Q2: $118,674,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ede38e1a-8ce7-4f09-814a-3bd21d070b13",
+    "chunk_ids": [
+      "9159a34e-f5a0-48f2-ba4a-30a6c0e69ef1"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 144571000000.0,
+    "unit": "USD",
+    "description": "AAPL Total Current Liabilities for Q2: $144,571,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "408d19b2-497f-4bfb-ba12-76cf5bcdb827",
+    "chunk_ids": [
+      "15129b29-1e1b-4a14-8c89-7753b3d1172b"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 27867000000.0,
+    "unit": "USD",
+    "description": "AAPL Operating Cash Flow for Q3: $27,867,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8b9265ca-7e3d-49f8-a570-0939c175b80c",
+    "chunk_ids": [
+      "0625ce0b-8132-441f-94e3-e3a265fe1a1f"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": -3462000000.0,
+    "unit": "USD",
+    "description": "AAPL Capital Expenditure for Q3: $-3,462,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "12498431-771a-4b45-a55b-41e164662722",
+    "chunk_ids": [
+      "c65003f3-0888-4d21-bd9d-b23a0ce2fb1e"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": 24405000000.0,
+    "unit": "USD",
+    "description": "AAPL Free Cash Flow for Q3: $24,405,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1d819d92-51d1-4036-bf8e-aad4d4bda0b9",
+    "chunk_ids": [
+      "552089a7-a14c-461f-b312-c739c97cc1d1"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AAPL",
+    "period": "Q3",
+    "value": -21075000000.0,
+    "unit": "USD",
+    "description": "AAPL Stock Buybacks for Q3: $-21,075,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "31a96e73-f924-464f-a0c0-4fbaafd9d824",
+    "chunk_ids": [
+      "71dd0326-5dbb-4733-a200-42d6dd81d139"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 23952000000.0,
+    "unit": "USD",
+    "description": "AAPL Operating Cash Flow for Q2: $23,952,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8366b807-1b58-4ebb-a4e6-0a7ee1d1cbc8",
+    "chunk_ids": [
+      "af41db48-6346-4e6a-9ecd-b05a17a2ea35"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": -3071000000.0,
+    "unit": "USD",
+    "description": "AAPL Capital Expenditure for Q2: $-3,071,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f3fcd4d3-2f67-49fb-ab65-03c98da8c7d6",
+    "chunk_ids": [
+      "2a904a9e-942b-4392-acfc-f092105b3de7"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": 20881000000.0,
+    "unit": "USD",
+    "description": "AAPL Free Cash Flow for Q2: $20,881,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "048d1381-e984-46c2-bfee-a01583e51da8",
+    "chunk_ids": [
+      "40a390e3-a1d2-4406-ae74-526912762cb5"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "AAPL",
+    "period": "Q2",
+    "value": -25898000000.0,
+    "unit": "USD",
+    "description": "AAPL Stock Buybacks for Q2: $-25,898,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ac5c69e0-01a4-42ee-86f4-2a03543f02ad",
+    "chunk_ids": [
+      "88b5dd08-e3de-431c-884f-fdcd508aae58"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AAPL",
+    "period": "2025-YTD",
+    "value": null,
+    "unit": null,
+    "description": "Apple stock is down 15% for the year as of July 18, 2025, underperforming the broader market rally from April and May lows.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "465bb563-89b0-4285-a6fa-7d641d9e6c3b",
+    "chunk_ids": [
+      "203add39-902b-40db-a70e-cb7d0adde378"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "AAPL",
+    "period": "2025-H2",
+    "value": null,
+    "unit": null,
+    "description": "Jefferies downgraded Apple, warning the company will face headwinds in the second half of 2025 due to a lack of AI strategy.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "b3646620-54b8-4825-9a32-5c7f39b347da",
+    "chunk_ids": [
+      "961e8dd7-56af-4daf-a2fe-8d6411dc202a"
+    ],
+    "fact_type": "financial_result",
+    "subject": "AAPL",
+    "period": "2025-Q2",
+    "value": null,
+    "unit": null,
+    "description": "Loop Capital analysts reported Apple shipped 45 million iPhones in Q2 2025, matching forecasts despite a flat global smartphone market.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "219c59f8-eef1-4ae2-b030-aa1eb3d19f35",
+    "chunk_ids": [
+      "961e8dd7-56af-4daf-a2fe-8d6411dc202a",
+      "c0e6858b-247a-4cfd-b1f6-cdb1b8e366ce"
+    ],
+    "fact_type": "geopolitical",
+    "subject": "AAPL",
+    "period": "2025-08",
+    "value": null,
+    "unit": null,
+    "description": "iPhone demand was propped up by aggressive promotions and consumers pulling forward purchases ahead of President Trump's planned industry-specific tariffs kicking in by August 1, 2025.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "ff72b7f7-bb42-46c5-8348-d0a56b14956a",
+    "chunk_ids": [
+      "2b72e613-9af4-44d5-ab0d-2658252bd43a"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "AAPL",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Zacks ranks Apple as a top pick, citing Services growth and digital payments momentum as key drivers for investor interest.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "9321c539-1155-4bcd-ad9f-e5ca5eae3bc0",
+    "chunk_ids": [
+      "5a4aa496-c7cb-4e01-9e4d-39ec65910812"
+    ],
+    "fact_type": "competitive",
+    "subject": "AAPL",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Zacks Analyst Blog notes that Alphabet (Google) is gaining ground on Apple in the consumer AI race due to Gemini adoption and valuation.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "27bb7c95-79a2-4141-b5fd-6258cef77c82",
+    "chunk_ids": [
+      "232bb955-3ca1-4b9c-941e-391cfb27bdc2"
+    ],
+    "fact_type": "other",
+    "subject": "AAPL",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Jim Cramer commented that Apple has 'absolutely no AI strategy' and suggested acquiring Perplexity to change course.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "5ae8a420-366a-4b1d-a96c-d3ae17345752",
+    "chunk_ids": [
+      "742d1272-fcd8-425b-8435-777b6d0b2fa9"
+    ],
+    "fact_type": "partnership",
+    "subject": "AAPL",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Apple is bidding $150 million for Formula 1 media rights as part of its sports business expansion.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "7f38e44b-3392-459d-bef5-f8ddad96d1af",
+    "chunk_ids": [
+      "961fc5f7-af89-4986-8d8e-5b2467270ee9",
+      "88b5dd08-e3de-431c-884f-fdcd508aae58"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AAPL",
+    "period": "2025-Q2",
+    "value": null,
+    "unit": null,
+    "description": "Institutional investors like Wedgewood Partners cite investor concerns over Apple's AI development as a reason for the stock's recent underperformance.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "710fed87-23ae-4d7a-a897-2377d08c8d53",
+    "chunk_ids": [
+      "2c8666a7-1162-465d-abf5-a15c583fc15f"
+    ],
+    "fact_type": "competitive",
+    "subject": "AAPL",
+    "period": "2025-07",
+    "value": null,
+    "unit": null,
+    "description": "Apple remains a significant competitor in the streaming market, posing competition for Netflix alongside Disney and Amazon.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "ad8a3815-292a-4754-976e-5e996cf0fe9c",
+    "chunk_ids": [
+      "2ae37adf-3255-4df1-89ec-d854b9286583"
+    ],
+    "fact_type": "market_trend",
+    "subject": "AAPL",
+    "period": "2020-2025",
+    "value": null,
+    "unit": null,
+    "description": "Apple stock has more than doubled over the past five years, maintaining a reputation as a reliable long-term investment despite recent stagnation.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "c0eb2441-b909-4ada-9831-e83cc699521f",
+    "chunk_ids": [],
+    "fact_type": "latest_price",
+    "subject": "AAPL",
+    "period": "2025-07-18",
+    "value": 211.18,
+    "unit": "USD",
+    "description": "AAPL latest close price: $211.18",
+    "confidence": 1.0
+  }
+]

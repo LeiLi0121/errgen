@@ -1,0 +1,22 @@
+{
+  "verdict_id": "a749d354-a850-4fbf-8914-68963df851ba",
+  "paragraph_id": "726ea168-482a-4f6e-9c0c-5f4ace12a252",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "37808ed8-10d8-44f9-ab55-0e7e81e83288",
+      "issue_type": "hallucination",
+      "severity": "minor",
+      "paragraph_id": "726ea168-482a-4f6e-9c0c-5f4ace12a252",
+      "offending_span": "to complement Apple TV+ offerings",
+      "explanation": "The strategic purpose of the F1 bid (complementing Apple TV+) is not explicitly stated in C051. The chunk only mentions the $150 million bid amount without specifying the strategic rationale or connection to Apple TV+.",
+      "relevant_chunk_ids": [
+        "742d1272-fcd8-425b-8435-777b6d0b2fa9"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the speculative strategic purpose or add a citation that explicitly states the connection to Apple TV+, or rephrase as 'potentially to complement Apple TV+ offerings' to indicate inference."
+    }
+  ],
+  "checked_at": "2026-03-25T02:22:20.740338",
+  "iteration": 1
+}

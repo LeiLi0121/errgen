@@ -27,7 +27,13 @@ from errgen.models import (
     SourceType,
     VerificationStatus,
 )
-from errgen.prompt_aliases import PromptAliasMaps, build_prompt_alias_maps
+from errgen.prompt_aliases import (
+    PromptAliasMaps,
+    build_prompt_alias_maps,
+    extract_aliases_from_text,
+    strip_inline_aliases,
+    unique_preserve_order,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -62,6 +68,7 @@ Return a JSON object with this exact structure:
 - calc_ids: list of prompt calc references such as K001, K002.
 - Each paragraph must have at least one chunk_id.
 - Write 2–4 focused paragraphs per section unless stated otherwise.
+- Do NOT embed chunk or calc references inline in the paragraph text.
 """
 
 
@@ -238,7 +245,12 @@ class BaseAnalysisAgent:
             if not text:
                 continue
 
-            raw_chunk_aliases = item.get("chunk_ids", [])
+            text_chunk_aliases, text_calc_aliases = extract_aliases_from_text(text)
+            cleaned_text = strip_inline_aliases(text) or text
+
+            raw_chunk_aliases = unique_preserve_order(
+                list(item.get("chunk_ids", [])) + text_chunk_aliases
+            )
             cited_chunk_ids = [
                 alias_maps.chunk_alias_to_id[alias]
                 for alias in raw_chunk_aliases
@@ -257,7 +269,9 @@ class BaseAnalysisAgent:
                     invalid_cids, section_name,
                 )
 
-            raw_calc_aliases = item.get("calc_ids", [])
+            raw_calc_aliases = unique_preserve_order(
+                list(item.get("calc_ids", [])) + text_calc_aliases
+            )
             cited_calc_ids = [
                 alias_maps.calc_alias_to_id[alias]
                 for alias in raw_calc_aliases
@@ -281,7 +295,7 @@ class BaseAnalysisAgent:
             paragraphs.append(
                 AnalysisParagraph(
                     section_name=section_name,
-                    text=text,
+                    text=cleaned_text,
                     citations=citations,
                     chunk_ids=cited_chunk_ids,
                     calc_ids=cited_calc_ids,

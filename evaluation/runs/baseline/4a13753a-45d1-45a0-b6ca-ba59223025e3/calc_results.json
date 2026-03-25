@@ -1,0 +1,292 @@
+[
+  {
+    "calc_id": "11a5f53f-9425-439e-bc10-da67604c1403",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 90234000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 96428000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 102346000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 113896000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 90234000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 96428000000.0,
+          "yoy_growth": 0.06864374847618414,
+          "yoy_growth_pct": "6.86%"
+        },
+        {
+          "period": "Q3",
+          "value": 102346000000.0,
+          "yoy_growth": 0.061372215539055044,
+          "yoy_growth_pct": "6.14%"
+        },
+        {
+          "period": "Q4",
+          "value": 113896000000.0,
+          "yoy_growth": 0.1128524808004221,
+          "yoy_growth_pct": "11.29%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "GOOGL Revenue YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "9363ddb6-f46a-4d6e-9d92-d5de7e13781a",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 34540000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 28196000000.0
+        },
+        {
+          "period": "Q3",
+          "value": 34979000000.0
+        },
+        {
+          "period": "Q4",
+          "value": 34455000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 34540000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 28196000000.0,
+          "yoy_growth": -0.1836711059640996,
+          "yoy_growth_pct": "-18.37%"
+        },
+        {
+          "period": "Q3",
+          "value": 34979000000.0,
+          "yoy_growth": 0.24056603773584906,
+          "yoy_growth_pct": "24.06%"
+        },
+        {
+          "period": "Q4",
+          "value": 34455000000.0,
+          "yoy_growth": -0.014980416821521484,
+          "yoy_growth_pct": "-1.50%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "GOOGL Net Income YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "d15d0554-a759-474a-aed5-977b02299d60",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 68130000000.0,
+      "denominator": 113896000000.0
+    },
+    "result": 0.5981772845402824,
+    "formula_description": "68130000000.0 / 113896000000.0 = 0.5982 (59.82%)",
+    "description": "GOOGL Gross Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "d276499a-730c-4a58-8a27-357703f0aae9",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 36002000000.0,
+      "denominator": 113896000000.0
+    },
+    "result": 0.31609538526374936,
+    "formula_description": "36002000000.0 / 113896000000.0 = 0.3161 (31.61%)",
+    "description": "GOOGL Operating Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "ade70ed9-027e-4cb3-9763-b0e9e109508d",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 34455000000.0,
+      "denominator": 113896000000.0
+    },
+    "result": 0.30251281871180724,
+    "formula_description": "34455000000.0 / 113896000000.0 = 0.3025 (30.25%)",
+    "description": "GOOGL Net Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "7204cfa2-cf40-49a9-918b-2094d64e6822",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 45455000000.0,
+      "denominator": 113896000000.0
+    },
+    "result": 0.39909215424597877,
+    "formula_description": "45455000000.0 / 113896000000.0 = 0.3991 (39.91%)",
+    "description": "GOOGL EBITDA Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "040caa58-bc03-4add-b3e2-2084fdda2c77",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 18572000000.0,
+      "revenue": 113896000000.0
+    },
+    "result": 0.1630610381400576,
+    "formula_description": "R&D (18572000000.0) / revenue (113896000000.0) = 0.1631 (16.31%)",
+    "description": "GOOGL R&D Intensity (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "b4e22f77-58c1-4f5a-9363-b240b61d60d1",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 206038000000.0,
+      "current_liabilities": 102745000000.0
+    },
+    "result": 2.005333592875566,
+    "formula_description": "current_assets (206038000000.0) / current_liabilities (102745000000.0) = 2.01",
+    "description": "GOOGL Current Ratio (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "0012dfd0-62e2-4c0b-b39d-b4f37df8f013",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 72035000000.0,
+      "equity": 415265000000.0
+    },
+    "result": 0.1734675448207771,
+    "formula_description": "total_debt (72035000000.0) / equity (415265000000.0) = 0.17",
+    "description": "GOOGL Debt-to-Equity (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "5e881ef0-16e5-4ebc-9641-ffc36a8c41fa",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 72035000000.0,
+      "cash": 30708000000.0
+    },
+    "result": 41327000000.0,
+    "formula_description": "total_debt (72035000000.0) - cash (30708000000.0) = 41327000000.0",
+    "description": "GOOGL Net Debt (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "c4d05c88-ef81-4b78-83d0-12be473bec2b",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 24551000000.0,
+      "revenue": 113896000000.0
+    },
+    "result": 0.21555629697267684,
+    "formula_description": "FCF (24551000000.0) / revenue (113896000000.0) = 0.2156 (21.56%)",
+    "description": "GOOGL FCF Margin (Q4)",
+    "error": null
+  },
+  {
+    "calc_id": "ca0a8e87-fb39-451b-aeac-cccdd319bfa4",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 339.71,
+      "previous": 315.15
+    },
+    "result": 0.0779311438997303,
+    "formula_description": "(339.71 - 315.15) / |315.15| = 0.0779 (7.79%)",
+    "description": "GOOGL 30d price return",
+    "error": null
+  },
+  {
+    "calc_id": "8ee2d342-b106-494c-a100-d7897b35d061",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 689.53,
+      "previous": 683.17
+    },
+    "result": 0.00930954228083788,
+    "formula_description": "(689.53 - 683.17) / |683.17| = 0.0093 (0.93%)",
+    "description": "SPY 30d benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "ee6851d6-e837-4566-bf80-e91058b6fe85",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.0779311438997303,
+      "b": 0.00930954228083788
+    },
+    "result": 0.06862160161889241,
+    "formula_description": "0.0779311438997303 - 0.00930954228083788 = 0.0686",
+    "description": "GOOGL 30d excess return vs SPY",
+    "error": null
+  },
+  {
+    "calc_id": "583790da-6af1-4c60-b0f1-dcf8aa453ac1",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 339.71,
+      "previous": 201.23
+    },
+    "result": 0.6881677682254137,
+    "formula_description": "(339.71 - 201.23) / |201.23| = 0.6882 (68.82%)",
+    "description": "GOOGL 1y price return",
+    "error": null
+  },
+  {
+    "calc_id": "bc40cefb-b47b-41d0-ae23-55c758de8ed0",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 689.53,
+      "previous": 597.77
+    },
+    "result": 0.15350385599812635,
+    "formula_description": "(689.53 - 597.77) / |597.77| = 0.1535 (15.35%)",
+    "description": "SPY 1y benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "72ebec46-ef1d-4d48-8ad7-db6d7ba9191e",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.6881677682254137,
+      "b": 0.15350385599812635
+    },
+    "result": 0.5346639122272874,
+    "formula_description": "0.6881677682254137 - 0.15350385599812635 = 0.5347",
+    "description": "GOOGL 1y excess return vs SPY",
+    "error": null
+  }
+]

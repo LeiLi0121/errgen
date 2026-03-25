@@ -1,0 +1,12 @@
+{
+  "revision_id": "3f24277f-2eeb-4579-b665-328c375c4c2f",
+  "paragraph_id": "03e29e4d-47c5-4557-bccd-5cb2524ff8ac",
+  "iteration": 1,
+  "original_text": "Apple's competitive positioning reflects both strengths and emerging challenges. The company has been a reliable long-term investment that has regularly outperformed the S&P 500, with shares more than doubling over the past five years. Services growth continues to drive investor interest, with AAPL leading Zacks' top picks alongside strong digital payments momentum. However, competitive pressures are intensifying in streaming, where Apple faces well-heeled competition from Disney, Amazon, and others. In the smartphone market, Apple shipped 45 million iPhones in Q2 2025, matching forecasts, though this occurred in an otherwise flat global smartphone market supported by aggressive promotions and tariff-related pull-ahead demand.",
+  "revised_text": "Apple's competitive positioning reflects both strengths and emerging challenges. The company has been a reliable long-term investment that has regularly outperformed the S&P 500, with shares more than doubling over the past five years. Services growth continues to drive investor interest, with AAPL leading Zacks' top picks alongside strong digital payments momentum. In the smartphone market, Apple shipped 45 million iPhones in Q2 2025, matching forecasts, though this occurred in an otherwise flat global smartphone market supported by aggressive promotions and tariff-related pull-ahead demand.",
+  "issues_addressed": [
+    "e8a7c8e4-ee69-4a09-925f-9e15bc02f6cb"
+  ],
+  "changes_summary": "Removed the unsupported claim about Apple facing streaming competition from Disney and Amazon. The original citation (C007) actually describes Netflix's competitive position with Apple as a competitor TO Netflix, not Apple facing competition from Disney/Amazon. No evidence exists in the available chunks supporting Apple's competitive position in streaming. All other claims retained with proper source citations: long-term investment performance (C009), Zacks top picks and Services growth (C004), and iPhone shipment data (C015). Removed calc_ids K015 and K017 as they were not referenced in the paragraph text.",
+  "revised_at": "2026-03-25T02:07:17.897479"
+}

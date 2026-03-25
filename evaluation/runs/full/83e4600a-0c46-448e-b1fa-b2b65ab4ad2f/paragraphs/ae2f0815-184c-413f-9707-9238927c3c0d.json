@@ -1,0 +1,56 @@
+{
+  "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+  "section_name": "Risk Analysis",
+  "text": "Evidence for macroeconomic, competitive, regulatory, operational, and technology risks is insufficient in the provided data. The financial statements and company profile do not contain specific information on interest rate sensitivity, currency exposure, market share dynamics, regulatory proceedings, supply chain dependencies, or technology platform risks. A comprehensive risk assessment would require additional disclosures on these dimensions. Investors should note that American Express operates in the highly regulated financial services sector with 75,100 full-time employees, which typically entails ongoing compliance and operational execution risks that cannot be fully evaluated from the available evidence.",
+  "citations": [
+    {
+      "citation_id": "b013b6ec-5129-40b2-8831-9807160fe3bc",
+      "chunk_id": "80b9bf63-a19d-4247-b75e-5c488d1301e9",
+      "source_id": "2c10c6fd-e632-434e-90e1-03d2554e4a85",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company (Ticker: AXP) | Exchange: NYSE | Sector: Financial Services | Industry: Financial - Credit Services | Market Cap: N/A | CEO: Stephen Joseph Squeri | Full-Time Employees: 75100 | IPO Date: 1972-06-01 | Country: US | Website: https://www.americanexpress.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7fb522be-1598-48af-ba24-cd63620a4249",
+      "chunk_id": "ce33c581-a4d6-46ea-a474-d9b7cec14c65",
+      "source_id": "2c10c6fd-e632-434e-90e1-03d2554e4a85",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company, together with its subsidiaries, provides charge and credit payment card products, and travel-related services worldwide. The company operates through three segments: Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services. Its pr",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "80b9bf63-a19d-4247-b75e-5c488d1301e9",
+    "ce33c581-a4d6-46ea-a474-d9b7cec14c65"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "f1900328-b6cc-472a-af63-2ec1e803bd89",
+      "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "b71860ed-c638-4eb5-a402-2aa7aab3c9d7",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "ae2f0815-184c-413f-9707-9238927c3c0d",
+          "offending_span": "The financial statements and company profile do not contain specific information on interest rate sensitivity, currency exposure, market share dynamics, regulatory proceedings, supply chain dependencies, or technology platform risks.",
+          "explanation": "The paragraph claims that 'financial statements' do not contain certain risk information, but the cited chunks (C001, C002) are company profile and company description chunks, not financial statements. C001 contains overview data (employees, sector, CEO, etc.) and C002 contains business description. Neither chunk contains or references financial statement content, so the claim about financial statements is not supported by the cited evidence.",
+          "relevant_chunk_ids": [
+            "80b9bf63-a19d-4247-b75e-5c488d1301e9",
+            "ce33c581-a4d6-46ea-a474-d9b7cec14c65"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite the actual financial statement chunks that were reviewed (if they exist in C003-C022), or rephrase the claim to only reference the company profile information that the cited chunks actually contain. For example: 'The company profile and available documentation do not contain specific information on...'"
+        }
+      ],
+      "checked_at": "2026-03-24T20:11:13.579576",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

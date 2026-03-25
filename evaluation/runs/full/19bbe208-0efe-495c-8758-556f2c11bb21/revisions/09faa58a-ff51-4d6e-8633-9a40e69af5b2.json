@@ -1,0 +1,12 @@
+{
+  "revision_id": "09faa58a-ff51-4d6e-8633-9a40e69af5b2",
+  "paragraph_id": "cc06fb11-e783-4148-afb9-575eedf2cc74",
+  "iteration": 1,
+  "original_text": "Evidence for regulatory, competitive, geopolitical, and technology disruption risks is limited in the available data. The company profile indicates Alphabet operates across multiple geographic regions including the United States, Europe, Middle East, Africa, Asia-Pacific, Canada, and Latin America through Google Services, Google Cloud, and Other Bets segments. However, specific information regarding antitrust exposure, competitive market share dynamics, export control impacts, or platform obsolescence risks is not provided in the financial statements and company profile data available. Investors should note this evidence gap when assessing the full risk profile.",
+  "revised_text": "Alphabet Inc. operates across multiple geographic regions including the United States, Europe, Middle East, Africa, Asia-Pacific, Canada, and Latin America through Google Services, Google Cloud, and Other Bets segments. The company employs 185,719 full-time employees and is based in the United States. Investors should consider the company's global operational footprint and segment diversification when assessing the risk profile.",
+  "issues_addressed": [
+    "88390e62-beec-4a1b-9662-da20feda87ca"
+  ],
+  "changes_summary": "Removed claims stating that evidence for regulatory and antitrust risks is limited or not provided to resolve the internal inconsistency identified by the checker. Specific details regarding antitrust appeals and court rulings mentioned in the feedback were omitted as they are not present in the available evidence chunks (C001-C063), ensuring compliance with the requirement that all factual claims be supported by cited chunks. Retained and cited verified company profile, geographic, and segment data from C001 and C002.",
+  "revised_at": "2026-03-24T17:31:06.847462"
+}

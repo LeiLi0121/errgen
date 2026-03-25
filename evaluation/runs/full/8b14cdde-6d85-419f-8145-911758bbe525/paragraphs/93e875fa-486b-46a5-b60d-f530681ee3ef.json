@@ -1,0 +1,71 @@
+{
+  "paragraph_id": "93e875fa-486b-46a5-b60d-f530681ee3ef",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Key risks warrant caution and support our neutral stance. Investor sentiment has been weighed down by concerns over Apple's artificial intelligence strategy, with multiple analysts highlighting the company's perceived lag in the AI arms race. External commentary has raised questions about whether Apple has a coherent AI strategy, which has contributed to investor bearishness. Additionally, regulatory and trade policy developments present near-term risks, with industry-specific tariffs expected to kick in by August 1, 2025, potentially impacting manufacturing costs and product pricing. The balance sheet shows elevated leverage with a debt-to-equity ratio of 1.54 and a current ratio of 0.87, indicating constrained liquidity that limits financial flexibility.",
+  "citations": [
+    {
+      "citation_id": "46d6bb0e-8968-4a72-bfcf-f9af30eb68fa",
+      "chunk_id": "22ea3b22-48ed-4cd2-88ca-db4b071e907a",
+      "source_id": "d6935a6d-df70-44e6-a210-f855e00ee6a9",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – AAPL | Period: Q3 | Date: 2025-06-28\n  Total Assets:              $331,495,000,000\n  Total Liabilities:         $265,665,000,000\n  Total Stockholders' Equity:$65,830,000,000\n  Cash & Equivalents:        $36,269,000,000\n  Short-Term Investments:    $19,103,000,000\n  Total Debt:       ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "fb5c6021-abf5-4b09-8f3e-e12b182eca3d",
+      "chunk_id": "78668682-a735-4481-848b-6c6a03a8e062",
+      "source_id": "d6935a6d-df70-44e6-a210-f855e00ee6a9",
+      "source_type": "balance_sheet",
+      "text_snippet": "AAPL Total Debt for Q3: $101,698,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1ff76774-2e1b-4904-8302-b44c423ecdb6",
+      "chunk_id": "88b5dd08-e3de-431c-884f-fdcd508aae58",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T21:18:00Z | Yahoo\nTitle: Should You Sell Apple's Stock Before July 31?\nURL: https://finnhub.io/api/news?id=562108f76534fd602841e9346ffa66a55556185f316840d982def8fb8794e0a7\nApple has fallen behind in the AI arms race.  This could apply to Apple (NASDAQ: AAPL), as investors have been",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f4395d73-5752-4a03-b456-489e6e104ff6",
+      "chunk_id": "232bb955-3ca1-4b9c-941e-391cfb27bdc2",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T18:31:14Z | Yahoo\nTitle: Jim Cramer Says “Apple Can Change Course” By Acquiring Perplexity\nURL: https://finnhub.io/api/news?id=0e6c8b0053d24e3f7414c70f37f4c263856263a5a3cf9a2a2eee508282456a01\nApple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer weighed in on. During the episode",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3f07eae1-e253-4e1e-9bf6-e34cae6ea9e3",
+      "chunk_id": "c0e6858b-247a-4cfd-b1f6-cdb1b8e366ce",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T16:40:00Z | Yahoo\nTitle: Trump Aims Tariff Double Whammy at Industries, Nations by Aug. 1\nURL: https://finnhub.io/api/news?id=58d65d3f0f8a9363ad8c970eee84c3062854156adc24935412e4f73c5cbc94bf\n(Bloomberg) -- President Donald Trump is readying plans for industry-specific tariffs to ki",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "22ea3b22-48ed-4cd2-88ca-db4b071e907a",
+    "78668682-a735-4481-848b-6c6a03a8e062",
+    "88b5dd08-e3de-431c-884f-fdcd508aae58",
+    "232bb955-3ca1-4b9c-941e-391cfb27bdc2",
+    "c0e6858b-247a-4cfd-b1f6-cdb1b8e366ce"
+  ],
+  "calc_ids": [
+    "8761a9db-1ea8-4827-a585-41d71eecd755",
+    "dfa1a2d0-ad33-4a3b-9f02-fd31431e7e0d"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "75ad1f56-390d-40d2-8e97-f7cc16074056",
+      "paragraph_id": "93e875fa-486b-46a5-b60d-f530681ee3ef",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T02:28:21.452903",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

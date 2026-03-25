@@ -1,0 +1,62 @@
+{
+  "paragraph_id": "2d8122f7-3a67-4cf1-80ca-d02293400b84",
+  "section_name": "Risk Analysis",
+  "text": "Financial leverage presents a material risk for Bank of America, with the company carrying total debt of $707,772,000,000 as of Q3 2025 against stockholders' equity of $304,152,000,000, resulting in a debt-to-equity ratio of 2.33. This elevated leverage level suggests the company remains sensitive to interest rate fluctuations and credit market conditions, which could impact refinancing costs and capital adequacy. Additionally, the current ratio of 0.41 indicates current liabilities of $2,555,975,000,000 significantly exceed current assets of $1,057,563,000,000, reflecting typical banking sector liquidity dynamics but warranting ongoing monitoring of funding stability.",
+  "citations": [
+    {
+      "citation_id": "38d63c3a-e1f4-4bae-b9e2-5fa86556f19e",
+      "chunk_id": "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – BAC | Period: Q3 | Date: 2025-09-30\n  Total Assets:              $3,403,216,000,000\n  Total Liabilities:         $3,099,064,000,000\n  Total Stockholders' Equity:$304,152,000,000\n  Cash & Equivalents:        $246,507,000,000\n  Short-Term Investments:    $711,193,000,000\n  Total Debt: ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d238f833-cd04-431c-93a4-c9c23d9edb7b",
+      "chunk_id": "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text_snippet": "BAC Stockholders' Equity for Q3: $304,152,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "74cbb8a8-98b3-4712-b144-a9af84653003",
+      "chunk_id": "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text_snippet": "BAC Total Debt for Q3: $707,772,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3feeba18-9b90-4660-b70c-a7cc5f75257f",
+      "chunk_id": "c06eece8-f3ce-4a2e-a6b7-005d77062ce6",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text_snippet": "BAC Total Current Assets for Q3: $1,057,563,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "94587681-3e1d-46bb-9f45-4682471961cf",
+      "chunk_id": "6be13fc0-0f09-439e-ad54-636739e31bd9",
+      "source_id": "dc690f15-e476-4778-bdbb-350f5b265f84",
+      "source_type": "balance_sheet",
+      "text_snippet": "BAC Total Current Liabilities for Q3: $2,555,975,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0235be61-8adf-4ffb-90b7-1c2fe791110c",
+    "2481a1d7-d25f-45c9-995d-a7e70c125acb",
+    "9d12234b-11dc-448d-80d5-dbd1cfbf33ef",
+    "c06eece8-f3ce-4a2e-a6b7-005d77062ce6",
+    "6be13fc0-0f09-439e-ad54-636739e31bd9"
+  ],
+  "calc_ids": [
+    "d5a71b1a-7114-420d-8eb5-367e1c112aae",
+    "3c3522df-8916-434b-8689-284bc56849b4"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

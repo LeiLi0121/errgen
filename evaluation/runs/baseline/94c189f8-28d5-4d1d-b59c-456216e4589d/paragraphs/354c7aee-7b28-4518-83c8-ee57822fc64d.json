@@ -1,0 +1,34 @@
+{
+  "paragraph_id": "354c7aee-7b28-4518-83c8-ee57822fc64d",
+  "section_name": "Financial Analysis",
+  "text": "American Express demonstrated revenue growth momentum through 2025, with Q3 2025 revenue reaching $10,415,000,000 compared to $9,716,000,000 in Q3 2024. According to the YoY growth analysis, Q3 2025 posted 0.91% year-over-year growth, following stronger expansion of 7.22% in Q2 2025 and a slight contraction of -0.93% in Q1 2025. This pattern suggests moderating but positive revenue trajectory as the company progressed through the fiscal year.",
+  "citations": [
+    {
+      "citation_id": "175ff8c6-c7cb-4749-971d-16a69a2c487d",
+      "chunk_id": "fcf5cd93-0b99-42a4-b091-bfb9e5f06133",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Revenue for Q3 2025: $10,415,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e26e868f-3a08-4e0d-abec-2bfa921719a4",
+      "chunk_id": "01291b62-02af-4895-b583-f5808006284c",
+      "source_id": "f4a3c16e-c5eb-4bda-810e-6a1656b2f3b2",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Revenue for Q3 2024: $9,716,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "fcf5cd93-0b99-42a4-b091-bfb9e5f06133",
+    "01291b62-02af-4895-b583-f5808006284c"
+  ],
+  "calc_ids": [
+    "13edc5fc-e442-49d2-bf95-67d4a88f4d6e"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

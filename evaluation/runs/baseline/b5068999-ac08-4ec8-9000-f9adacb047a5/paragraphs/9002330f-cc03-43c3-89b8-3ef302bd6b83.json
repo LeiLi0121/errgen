@@ -1,0 +1,36 @@
+{
+  "paragraph_id": "9002330f-cc03-43c3-89b8-3ef302bd6b83",
+  "section_name": "Recent Developments",
+  "text": "Competitive dynamics in the AI race present notable risks, with Alphabet gaining ground on Apple in the consumer AI segment as Gemini adoption accelerates. Apple's stock has underperformed significantly, down approximately 15% year-to-date while broader markets rallied from April and May lows. Over the past year, AAPL returned -5.80% compared to the S&P 500's 13.56% gain, representing 19.36 percentage points of underperformance. This divergence suggests investors are increasingly concerned about Apple's ability to compete in AI-driven product categories.",
+  "citations": [
+    {
+      "citation_id": "1e1b0989-cd72-46cc-a687-a688ba0b7596",
+      "chunk_id": "c46ed6d9-1a50-43a3-acb9-0e0df2233ef1",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T21:18:00Z | Yahoo\nTitle: Should You Sell Apple's Stock Before July 31?\nURL: https://finnhub.io/api/news?id=562108f76534fd602841e9346ffa66a55556185f316840d982def8fb8794e0a7\nApple has fallen behind in the AI arms race.  This could apply to Apple (NASDAQ: AAPL), as investors have been",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "cd9e4dcc-6c4b-482f-a070-330840929be9",
+      "chunk_id": "6610c434-6a10-4085-b06a-7a84e8f39901",
+      "source_id": "ab2a2553-de2d-4dba-af01-ab73e9556b40",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T13:36:00Z | Yahoo\nTitle: The Zacks Analyst Blog Highlights Alphabet and Apple\nURL: https://finnhub.io/api/news?id=c67b3fb57a3a01900632fe662138faf6c65a3865c8e5b95e245c51e923f2e782\nGOOGL gains ground on AAPL in the consumer AI race as Gemini adoption, earnings growth, and valuation t",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "c46ed6d9-1a50-43a3-acb9-0e0df2233ef1",
+    "6610c434-6a10-4085-b06a-7a84e8f39901"
+  ],
+  "calc_ids": [
+    "6cfbac57-0d28-4e8e-9df2-33c255579fff",
+    "c940f3f0-3f63-4796-a783-a1a8a16af976",
+    "37c5e9d1-3264-4856-9a51-020216d5ddea"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

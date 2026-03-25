@@ -1,0 +1,23 @@
+{
+  "verdict_id": "cef6aaeb-b851-49db-a9e3-0c0e81f9426b",
+  "paragraph_id": "cc06fb11-e783-4148-afb9-575eedf2cc74",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "88390e62-beec-4a1b-9662-da20feda87ca",
+      "issue_type": "internal_inconsistency",
+      "severity": "critical",
+      "paragraph_id": "cc06fb11-e783-4148-afb9-575eedf2cc74",
+      "offending_span": "Evidence for regulatory, competitive, geopolitical, and technology disruption risks is limited in the available data. ... However, specific information regarding antitrust exposure, competitive market share dynamics, export control impacts, or platform obsolescence risks is not provided in the financial statements and company profile data available.",
+      "explanation": "The paragraph claims that evidence for regulatory and antitrust risks is limited or not provided. This directly contradicts the Previously Verified Facts which explicitly detail these risks: 'Alphabet faces heightened regulatory scrutiny as the U.S. government and a majority of U.S. states filed an appeal in the landmark antitrust case against Google's search business on February 3, 2026' and 'In 2024, a federal court judge in Washington ruled that Go...'. Additionally, Verified Facts under Risk Analysis already cover Financial and Operational execution risks. Asserting an evidence gap for antitrust and competitive risks is factually incorrect based on the verified report context.",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408",
+        "4cd739a1-9f97-4495-9e41-38bab6d86e50"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise the paragraph to accurately reflect the known regulatory and antitrust risks identified in the Recent Developments and Business & Competitive Analysis sections (e.g., the Feb 3, 2026 antitrust appeal and 2024 court ruling). Remove the statement claiming an evidence gap for these specific risks and instead summarize the known exposures."
+    }
+  ],
+  "checked_at": "2026-03-24T17:19:15.500516",
+  "iteration": 0
+}

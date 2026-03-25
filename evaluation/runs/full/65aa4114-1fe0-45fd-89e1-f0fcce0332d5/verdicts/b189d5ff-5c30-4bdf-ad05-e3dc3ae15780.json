@@ -1,0 +1,31 @@
+{
+  "verdict_id": "b189d5ff-5c30-4bdf-ad05-e3dc3ae15780",
+  "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "2f6baae6-99d9-4c01-ad0e-ad1b7edba035",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f8489c93-2f90-4400-98b5-4c54d9baf5f5",
+      "offending_span": "Based on our comprehensive analysis of Amazon's Q2 2025 financial performance, competitive positioning, and risk profile, we assign a Hold rating to AMZN shares.",
+      "explanation": "The paragraph claims the Hold rating is based on three factors: financial performance, competitive positioning, and risk profile. However, all cited chunks (C003, C004, C007, C008) are income statement data, and all cited calculations (K001, K002, K003, K004, K006) are financial metrics. None of the cited evidence addresses competitive positioning or risk profile analysis. The Previously Verified Facts section contains Business & Competitive Analysis and Risk Analysis sections, but those chunks are not cited here.",
+      "relevant_chunk_ids": [
+        "945da1b0-355c-4d42-afbc-f991397023b7",
+        "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+        "ba8c285d-d4a0-4e56-b66b-34557acc6716",
+        "b11fccee-2db7-4009-a480-e2ddbc216e95"
+      ],
+      "relevant_calc_ids": [
+        "c646c651-0f33-4b1f-8595-890bd9a4e543",
+        "1a002722-fda5-4c19-9e72-f7147a39c3af",
+        "2d808d04-1429-42d1-8d93-41b6104e1172",
+        "90e3945a-ab2e-4b2c-910d-e14f1fc45889",
+        "733f5183-f371-4432-ac6f-c7cda0ff1f5b"
+      ],
+      "recommended_fix": "Either cite the relevant chunks that support competitive positioning and risk profile analysis (from the Business & Competitive Analysis and Risk Analysis sections), or revise the text to state the rating is based primarily on financial performance analysis."
+    }
+  ],
+  "checked_at": "2026-03-24T19:27:05.999999",
+  "iteration": 0
+}

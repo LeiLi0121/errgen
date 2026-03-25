@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "bfcbe028-aaff-4003-a9b6-413ef0d57165",
+  "section_name": "Recent Developments",
+  "text": "Alphabet faces heightened regulatory scrutiny as the U.S. government and a majority of U.S. states filed an appeal in the landmark antitrust case against Google's search business on February 3, 2026. According to court filings, the Department of Justice and state attorneys general are challenging the outcome of the 2024 federal court ruling that found Google holds a monopoly in online search but rejected the toughest remedies. The appeal signals continued legal uncertainty around Google's core search operations, which remain central to the company's revenue model.",
+  "citations": [
+    {
+      "citation_id": "41f163aa-503f-4431-9cf3-e3bcfb4ac7f8",
+      "chunk_id": "73ac7e9b-49d3-4f3e-9a99-8544d5cbb978",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T21:06:04Z | Yahoo\nTitle: US files appeal in Google search case, court filing shows\nURL: https://finnhub.io/api/news?id=d77e88443223ab4632b04b4b6bc9989f67fe9a9a2f9cf02881cc90f754076805\ngovernment ​and a majority ‌of U. states on ‌Tuesday said they will appeal the outcome of a landma",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3f73637e-a533-48f1-8709-e079a27870e9",
+      "chunk_id": "5e6c4735-792a-4fd0-984b-1083a7e3d86b",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T20:59:50Z | Yahoo\nTitle: US files appeal in Google search antitrust case\nURL: https://finnhub.io/api/news?id=2ca6e2bc73ab93ea261fb205932caedb614e6454677785e1db0ca1c49da84a87\nThe U.S. government and a majority of U.S. states on Tuesday will appeal the outcome of ​a landmark antitrus",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "73ac7e9b-49d3-4f3e-9a99-8544d5cbb978",
+    "5e6c4735-792a-4fd0-984b-1083a7e3d86b"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "158c013d-4f89-4e28-b92b-635fc6d4f455",
+      "paragraph_id": "bfcbe028-aaff-4003-a9b6-413ef0d57165",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:09:17.683295",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -26,14 +26,17 @@ Return ONLY valid JSON with these exact fields:
   "ticker": "NVDA",
   "company_name": "NVIDIA Corporation",
   "focus": ["AI chips", "financial analysis", "risks"],
-  "as_of_date": "2025-01"
+  "as_of_date": "2025-01-31"
 }
 
 Rules:
 - ticker must be UPPERCASE (e.g. NVDA, AAPL, MSFT, TSLA, AMZN)
 - company_name: full official company name
 - focus: 3–6 relevant analysis topics inferred from the request
-- as_of_date: "YYYY-MM" if a date or period is mentioned, otherwise null
+- as_of_date:
+  - use "YYYY-MM-DD" when the request gives an exact date
+  - use "YYYY-MM" when only a month/period is given
+  - otherwise null
 """
 
 

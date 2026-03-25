@@ -1,0 +1,90 @@
+{
+  "verdict_id": "b7d4a13a-6f73-47f9-a023-0fe06b81fdcf",
+  "paragraph_id": "f369140f-92a2-42f7-831e-c12f13ab23bf",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "fc1d1f6d-9204-4533-bc87-34c60205cc3b",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f369140f-92a2-42f7-831e-c12f13ab23bf",
+      "offending_span": "accelerating revenue growth, robust profitability margins, and a fortress balance sheet",
+      "explanation": "The cited chunks (C001, C002, C026, C033) do not contain information about revenue growth acceleration, profitability margins, or balance sheet strength. C001 and C002 are company profile/description chunks without financial metrics. C026 mentions Q4 2025 revenue expectations ($111.4B) but does not confirm acceleration or margins. C033 is a news title about AI/Cloud momentum. This financial information exists in the Previously Verified Facts (Financial Analysis section) but those are not the cited sources for this paragraph.",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408",
+        "4cd739a1-9f97-4495-9e41-38bab6d86e50",
+        "8f1db54c-1c80-47d5-bc83-745ce39b3cdc",
+        "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite the appropriate chunks that contain financial metrics (if available in the full document), or remove the citation references for claims that are based on Previously Verified Facts rather than the cited chunks. Alternatively, add citations to the Financial Analysis verified facts section."
+    },
+    {
+      "issue_id": "baffad37-21c5-4a81-942c-ce8f5a598751",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f369140f-92a2-42f7-831e-c12f13ab23bf",
+      "offending_span": "material regulatory uncertainty warrants a more conservative stance...antitrust headwinds",
+      "explanation": "The cited chunks (C001, C002, C026, C033) do not contain any information about regulatory uncertainty or antitrust issues. C001 and C002 are company profiles. C026 is about revenue expectations. C033 is about AI/Cloud momentum. This regulatory information is in the Previously Verified Facts (Recent Developments, Risk Analysis sections) but not in the cited chunks.",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408",
+        "4cd739a1-9f97-4495-9e41-38bab6d86e50",
+        "8f1db54c-1c80-47d5-bc83-745ce39b3cdc",
+        "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Cite the appropriate chunks that contain regulatory/antitrust information from the Recent Developments or Risk Analysis sections, or acknowledge that this claim is based on Previously Verified Facts rather than the cited chunks."
+    },
+    {
+      "issue_id": "af81b70c-2d68-4ff0-ab53-f22610520640",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "f369140f-92a2-42f7-831e-c12f13ab23bf",
+      "offending_span": "earnings volatility",
+      "explanation": "The cited chunks (C001, C002, C026, C033) do not contain information about earnings volatility. This information is in the Previously Verified Facts (Risk Analysis section - net income growth fluctuated significantly across quarters) but not in the cited chunks.",
+      "relevant_chunk_ids": [
+        "7af060e6-db28-489a-801c-bdf8c280c408",
+        "4cd739a1-9f97-4495-9e41-38bab6d86e50",
+        "8f1db54c-1c80-47d5-bc83-745ce39b3cdc",
+        "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Cite the appropriate chunks that contain earnings volatility information from the Risk Analysis section, or remove the citation for this claim."
+    },
+    {
+      "issue_id": "72dea0b9-8bf1-4c43-a1ac-d5b8e4ca96d1",
+      "issue_type": "scope_violation",
+      "severity": "major",
+      "paragraph_id": "f369140f-92a2-42f7-831e-c12f13ab23bf",
+      "offending_span": "C026",
+      "explanation": "Chunk C026 is dated 2026-02-04T00:00:00Z, which is one day after the paragraph's stated as-of date of 2026-02-03. The paragraph cites this chunk as evidence, but using information from after the as-of date violates scope requirements. The paragraph states the rating is 'as of February 3, 2026' but relies on evidence from February 4, 2026.",
+      "relevant_chunk_ids": [
+        "8f1db54c-1c80-47d5-bc83-745ce39b3cdc"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove C026 from the cited chunks or replace it with evidence dated on or before 2026-02-03. If the revenue expectation data is needed, find a source dated February 3, 2026 or earlier."
+    },
+    {
+      "issue_id": "8b320bf8-9019-45a0-9311-c91f244cc6ae",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "f369140f-92a2-42f7-831e-c12f13ab23bf",
+      "offending_span": "reflecting investor confidence in Alphabet's AI-driven growth narrative",
+      "explanation": "This language implies certainty about investor motivation that the evidence does not fully warrant. While C033 mentions 'AI And Cloud Momentum' in the title and the Previously Verified Facts mention AI-driven growth, directly attributing stock outperformance to investor confidence in AI is interpretive rather than definitively supported by the evidence.",
+      "relevant_chunk_ids": [
+        "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84"
+      ],
+      "relevant_calc_ids": [
+        "dff30377-2ac2-4b5b-836f-c58cd8c1dd37",
+        "c5fe2e83-f232-4946-9ea1-223cb2771866",
+        "97a74455-a71f-4113-8c23-536c8bf1dd72",
+        "dfdcabf5-2bf6-4faf-b0bf-f814124f0f89",
+        "7d31c03f-98cb-4229-a3ef-5463ced48a3d",
+        "a05bd00e-2942-4de5-b8e9-e1267fa1502e"
+      ],
+      "recommended_fix": "Soften the language to indicate this is one possible interpretation, e.g., 'which may reflect investor confidence' or 'potentially reflecting investor confidence in Alphabet's AI-driven growth narrative'."
+    }
+  ],
+  "checked_at": "2026-03-24T17:44:47.485849",
+  "iteration": 0
+}

@@ -1,0 +1,81 @@
+{
+  "paragraph_id": "5d53115c-19e9-4e38-a533-b800565831de",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Based on the comprehensive analysis of American Express Company's financial performance, competitive positioning, and risk profile, we assign a Hold rating to AXP shares as of November 12, 2025. The company has demonstrated solid operational execution with Q3 2025 revenue reaching $10.42 billion and net income of $2.90 billion, representing year-over-year growth of 0.91% and 0.59% respectively. Net margin expansion to 27.86% from 25.80% in the prior-year quarter reflects improving profitability trends throughout 2025.",
+  "citations": [
+    {
+      "citation_id": "5b10ecd8-dcdc-427e-9e28-e3663355a990",
+      "chunk_id": "6d495d8b-4c7b-4748-b63a-641e9c037895",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Revenue for Q3 2025: $10,415,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "cbb72303-7694-4192-b590-75030ed41097",
+      "chunk_id": "6a85947e-0100-46e0-869a-474581064db5",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Income for Q3 2025: $2,902,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "61ecf1e5-a992-4f47-b911-d9a8d476c5ac",
+      "chunk_id": "070de5ab-c168-4add-93cb-ccf775004a45",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2025: 27.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "aa7c1fcf-e702-4fc2-b503-a2b2f72ce7bb",
+      "chunk_id": "c9dbc53d-dcd5-4ac1-8cfd-490a84f89d9a",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Revenue for Q3 2024: $9,716,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e592da91-1a22-477e-b2d6-23cfc3c6910b",
+      "chunk_id": "b4e94cc3-eaee-40d0-a149-46bff3d225ac",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Income for Q3 2024: $2,507,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ef594579-b2c4-4192-b818-29ca1558cada",
+      "chunk_id": "c4aee455-ad43-407f-9032-5965f82452e8",
+      "source_id": "5c7a39a7-1938-4132-ab02-832b4eebbd9e",
+      "source_type": "income_statement",
+      "text_snippet": "AXP Net Margin for Q3 2024: 25.80%",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "6d495d8b-4c7b-4748-b63a-641e9c037895",
+    "6a85947e-0100-46e0-869a-474581064db5",
+    "070de5ab-c168-4add-93cb-ccf775004a45",
+    "c9dbc53d-dcd5-4ac1-8cfd-490a84f89d9a",
+    "b4e94cc3-eaee-40d0-a149-46bff3d225ac",
+    "c4aee455-ad43-407f-9032-5965f82452e8"
+  ],
+  "calc_ids": [
+    "1012f404-5f71-4919-aeef-1ddb36de154a",
+    "c931d290-d0cd-4eee-a97e-6050cc07475d",
+    "3f7d503f-0bcb-4a13-b8da-bbfa6cfc792e"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "379c6efb-8d73-4526-aad1-397bae54ab4b",
+      "paragraph_id": "5d53115c-19e9-4e38-a533-b800565831de",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T20:41:02.006357",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

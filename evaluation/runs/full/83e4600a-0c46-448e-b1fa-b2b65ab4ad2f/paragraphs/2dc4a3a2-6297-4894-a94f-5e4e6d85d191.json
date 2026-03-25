@@ -1,0 +1,53 @@
+{
+  "paragraph_id": "2dc4a3a2-6297-4894-a94f-5e4e6d85d191",
+  "section_name": "Financial Analysis",
+  "text": "The balance sheet shows a leveraged capital structure with total debt of $57,787,000,000 against stockholders' equity of $32,417,000,000 as of Q3 2025, resulting in a debt-to-equity ratio of 1.78. Liquidity appears adequate with cash and equivalents of $54,706,000,000, yielding net debt of only $3,081,000,000 after offsetting cash against total debt. Current ratio analysis is not possible as current assets and current liabilities data are not available in the provided balance sheet information.",
+  "citations": [
+    {
+      "citation_id": "3e7eddb4-2fd1-4ee4-8a4f-d3579c193db8",
+      "chunk_id": "e071fbda-ff88-44db-a3be-5193a5b3258f",
+      "source_id": "ddfdd6fd-8157-46a3-8255-8c253264a9aa",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Total Debt for Q3 2025: $57,787,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "e25a1366-659d-4d27-a0d7-735cb9d8d451",
+      "chunk_id": "17919615-0ea8-4e60-a30e-0fac8e92fd3c",
+      "source_id": "ddfdd6fd-8157-46a3-8255-8c253264a9aa",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Stockholders' Equity for Q3 2025: $32,417,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9ce02846-5ee4-4331-8fac-58764ae4a9c8",
+      "chunk_id": "b4233724-4e12-455e-99ac-6e78d47e8789",
+      "source_id": "ddfdd6fd-8157-46a3-8255-8c253264a9aa",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Cash & Equivalents for Q3 2025: $54,706,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e071fbda-ff88-44db-a3be-5193a5b3258f",
+    "17919615-0ea8-4e60-a30e-0fac8e92fd3c",
+    "b4233724-4e12-455e-99ac-6e78d47e8789"
+  ],
+  "calc_ids": [
+    "518e7e54-e98b-40f2-9a18-90677b1d3e0b",
+    "63c3a29a-15f0-4b1f-a963-2aab474f52aa"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "9273f801-d529-4ee6-8d84-80160ed0705a",
+      "paragraph_id": "2dc4a3a2-6297-4894-a94f-5e4e6d85d191",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T20:05:12.825410",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

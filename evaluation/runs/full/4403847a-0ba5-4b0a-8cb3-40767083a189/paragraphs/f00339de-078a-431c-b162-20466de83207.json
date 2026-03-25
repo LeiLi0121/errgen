@@ -1,0 +1,132 @@
+{
+  "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+  "section_name": "Recent Developments",
+  "text": "Airbnb reported Q2 2025 earnings on August 7-8, 2025, beating EPS estimates by 9.5% with revenue of $3.096B representing 36.27% YoY growth C003 C012 K001. Net income reached $642M, up 316.88% YoY, with operating and net margins of 19.77% and 20.74% respectively K002 K003 K004. Despite the earnings beat, shares fell approximately 7% following management's margin warning for Q3 and Q4 2025 C020. The stock continued underperforming the market into August 11, 2025 C001. Analyst commentary suggests the elevated valuation leaves little margin for error amid economic risks C015.",
+  "citations": [
+    {
+      "citation_id": "db7947aa-ec8b-496e-95c4-86cd967593a8",
+      "chunk_id": "ae7eb4d0-3ad1-48ac-af89-fb1631c20b80",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-11T12:57:05Z | Yahoo\nTitle: Airbnb Second Quarter 2025 Earnings: Beats Expectations\nURL: https://finnhub.io/api/news?id=473939c7c83f1d34a45906438f94e54877af68a94bdce6287cde7c5f167340b5\nNasdaqGS:ABNB 1 Year Share Price vs Fair Value Explore Airbnb's Fair Values from the Community and s",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a25e7663-ada5-401c-9c92-9bd25c4af79c",
+      "chunk_id": "08380f6b-8cad-4c5f-9814-6cc6927f8d8f",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T11:36:18Z | Yahoo\nTitle: Airbnb, Inc. Just Beat EPS By 9.5%: Here's What Analysts Think Will Happen Next\nURL: https://finnhub.io/api/news?id=e58178255f391bfcda0792e23719f72909c7a13a0f3876ffb111263e02d3c532\nNasdaqGS:ABNB 1 Year Share Price vs Fair Value Explore Airbnb's Fair Values ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "45188636-b6bf-4bfb-b340-9b6d17bc654b",
+      "chunk_id": "1fdaf752-b13b-4e3c-95f1-8b447daeb37b",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-07T16:19:00Z | Yahoo\nTitle: ABNB Q2 Earnings Beat Estimates, Revenues Rise Y/Y, Shares Drop\nURL: https://finnhub.io/api/news?id=b61dc08b4df4fa5d28251adec9bd22266a9c1d5c029193c73b8e1a553f2f8484\nABNB beats Q2 estimates on strong bookings and rising ADR, but shares drop 7% on margin warn",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a2e3352a-f748-49ef-83c9-df81e2bcc468",
+      "chunk_id": "8d02660d-4d4a-46a9-9d3e-df64703a208c",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-11T16:42:00Z | MarketWatch\nTitle: Airbnb Inc. Cl A stock falls Monday, underperforms market\nURL: https://finnhub.io/api/news?id=9c467879d1e3e3c0f9e10f220a0c13a42234950a9c80caf3e3de1d2fdd5bf68d\nAirbnb Inc. Cl A stock falls Monday, underperforms market",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "86076fb3-e7d5-46bc-86be-b78ef19effb4",
+      "chunk_id": "453f691d-b5db-41f1-b0f8-3a37e9a122d5",
+      "source_id": "eb5521ce-fd82-4a63-9b91-6c4fa9ce70d6",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-08T00:03:24Z | SeekingAlpha\nTitle: Airbnb: Elevated Valuation Meets A Weakening Economy\nURL: https://finnhub.io/api/news?id=033cffcb4eade3ae0f4df515201502937ea8b2149401be2e2111d8882f23ebef\nAirbnb's Q2 results reveal slowed growth in key markets amid economic risks. High valuation mult",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ae7eb4d0-3ad1-48ac-af89-fb1631c20b80",
+    "08380f6b-8cad-4c5f-9814-6cc6927f8d8f",
+    "1fdaf752-b13b-4e3c-95f1-8b447daeb37b",
+    "8d02660d-4d4a-46a9-9d3e-df64703a208c",
+    "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+  ],
+  "calc_ids": [
+    "f74b41df-a6d1-45cb-937c-db6608ac5c3c",
+    "75d5bf29-065d-4602-8ec3-882427a99190",
+    "35419214-61d9-4136-bdea-986cab1c0998",
+    "55a75f96-7fd3-4acb-9d3b-c57aafa708f1"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "033a8f29-47ec-4ec3-8ed4-1d94ce49a6d8",
+      "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "b78e4285-48a4-4871-b392-40d743be8c33",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+          "offending_span": "C003 C012 K001",
+          "explanation": "The paragraph cites chunk IDs C003 and C012 for the EPS beat and revenue claims, but these chunk IDs are not in the provided cited evidence chunks (C074, C076, C085, C088, C093). The actual supporting chunks are C085 (for 9.5% EPS beat) and C093/K001 (for revenue figures). This citation mismatch prevents proper verification.",
+          "relevant_chunk_ids": [
+            "ae7eb4d0-3ad1-48ac-af89-fb1631c20b80",
+            "08380f6b-8cad-4c5f-9814-6cc6927f8d8f",
+            "1fdaf752-b13b-4e3c-95f1-8b447daeb37b",
+            "8d02660d-4d4a-46a9-9d3e-df64703a208c",
+            "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+          ],
+          "relevant_calc_ids": [
+            "f74b41df-a6d1-45cb-937c-db6608ac5c3c"
+          ],
+          "recommended_fix": "Update inline citations to match the actual provided chunk IDs: cite C085 for the 9.5% EPS beat claim, and C093 with K001 for revenue figures."
+        },
+        {
+          "issue_id": "84d18b77-fe79-4e6e-a88e-c7b77c2aa5b8",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+          "offending_span": "C020",
+          "explanation": "The paragraph cites C020 for the 7% share drop and margin warning claim, but C020 is not in the provided cited evidence chunks. The actual supporting chunk is C093, which states 'shares drop 7% on margin warning for the third and fourth quarters of 2025.'",
+          "relevant_chunk_ids": [
+            "1fdaf752-b13b-4e3c-95f1-8b447daeb37b"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Replace C020 citation with C093, which contains the relevant information about the 7% share drop and margin warning."
+        },
+        {
+          "issue_id": "22263446-fd16-4236-80c9-eac79423ce54",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+          "offending_span": "C001",
+          "explanation": "The paragraph cites C001 for the stock underperformance claim through August 11, 2025, but C001 is not in the provided cited evidence chunks. The actual supporting chunk is C074, titled 'Airbnb Inc. Cl A stock falls Monday, underperforms market' dated 2025-08-11.",
+          "relevant_chunk_ids": [
+            "8d02660d-4d4a-46a9-9d3e-df64703a208c"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Replace C001 citation with C074, which documents the stock underperformance on August 11, 2025."
+        },
+        {
+          "issue_id": "bcdbbd49-387d-46da-8eb4-7335b23c66be",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "f00339de-078a-431c-b162-20466de83207",
+          "offending_span": "C015",
+          "explanation": "The paragraph cites C015 for the analyst commentary on elevated valuation, but C015 is not in the provided cited evidence chunks. The actual supporting chunk is C088, titled 'Airbnb: Elevated Valuation Meets A Weakening Economy' which states 'High valuation multiples leave little margin for error.'",
+          "relevant_chunk_ids": [
+            "453f691d-b5db-41f1-b0f8-3a37e9a122d5"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Replace C015 citation with C088, which contains the valuation and economic risk commentary."
+        }
+      ],
+      "checked_at": "2026-03-24T07:37:08.391562",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

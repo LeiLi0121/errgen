@@ -1,0 +1,35 @@
+{
+  "paragraph_id": "e28afb66-e26e-4513-97f7-59f8f1bb4703",
+  "section_name": "Risk Analysis",
+  "text": "Operational risk stems from significant R&D investment requirements to maintain competitive positioning in generative AI and advertising technology. Q4 2025 R&D expenses reached $18,572,000,000, representing 16.31% of revenue. This high R&D intensity is necessary given the company's broad product portfolio spanning Google Services, Google Cloud, and Other Bets segments across multiple geographies including the United States, Europe, Middle East, Africa, Asia-Pacific, Canada, and Latin America. Failure to successfully monetize AI investments or maintain advertising technology leadership could pressure the 31.61% operating margin achieved in Q4 2025.",
+  "citations": [
+    {
+      "citation_id": "d84b469b-fec5-4c6a-a0e7-b47e35b4c30a",
+      "chunk_id": "363d5486-dc09-42f0-a738-5b0af05979ff",
+      "source_id": "96c360cc-44a1-4742-ba91-30eb0679e751",
+      "source_type": "company_profile",
+      "text_snippet": "Alphabet Inc. provides various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment offers products and services, including ad",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "103face4-055f-46b8-87d7-8bb803f5d189",
+      "chunk_id": "ba3361d4-dbf2-4224-8e9c-d21c092156e4",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "GOOGL R&D Expenses for Q4: $18,572,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "363d5486-dc09-42f0-a738-5b0af05979ff",
+    "ba3361d4-dbf2-4224-8e9c-d21c092156e4"
+  ],
+  "calc_ids": [
+    "040caa58-bc03-4add-b3e2-2084fdda2c77",
+    "d276499a-730c-4a58-8a27-357703f0aae9"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

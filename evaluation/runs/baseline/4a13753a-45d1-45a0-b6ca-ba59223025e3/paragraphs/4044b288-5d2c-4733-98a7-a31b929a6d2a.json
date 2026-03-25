@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "4044b288-5d2c-4733-98a7-a31b929a6d2a",
+  "section_name": "Recent Developments",
+  "text": "Alphabet is approaching its Q4 2025 earnings release with heightened investor attention on AI and Cloud momentum. According to SeekingAlpha, market participants are evaluating whether AI-driven growth across Cloud, Search, and YouTube can sustain the company's approximately $4 trillion valuation. Visible Alpha consensus expectations for Q4 2025 total revenues have been revised upward, reflecting growing confidence in the company's performance trajectory. Wall Street sentiment has been mixed ahead of the earnings announcement, with investors rotating between AI-focused technology names and safer investments following sector-wide volatility.",
+  "citations": [
+    {
+      "citation_id": "d2e3370e-a953-4238-ae44-1419c7e7178a",
+      "chunk_id": "b581551f-f2c2-46bf-824b-5026e0e3ae96",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-04T00:00:00Z | SeekingAlpha\nTitle: Alphabet And Amazon Earnings Previews: What's Happening To Margins?\nURL: https://finnhub.io/api/news?id=be54da579e39a845126ccd0175df96c46abfb0fafb980b91dc61e3004b7282cb\nAccording to Visible Alpha consensus, Alphabet Inc.'s total revenues expected for",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4f74913f-c48f-46fa-bd75-78a34176f889",
+      "chunk_id": "9c8f28dc-ae01-44c3-a5d9-93807921a73a",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T23:45:46Z | Yahoo\nTitle: Stock market today: S&P 500, Nasdaq futures fall after AI-fueled sell-off, with Google earnings on deck\nURL: https://finnhub.io/api/news?id=cb957f0d507d754e358bf8a71ae5df9817a2c9bb261c9765add9c133237806c5\nWall Street is seeing investors turn away from AI da",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0e960d81-e73d-4824-b61f-cb7d19af3efe",
+      "chunk_id": "550ff06e-867f-4c24-af94-f9d85e054458",
+      "source_id": "1458ba8b-2fce-4135-ae78-bc4300616861",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T22:25:00Z | SeekingAlpha\nTitle: Alphabet Q4 Earnings Preview: Can AI And Cloud Momentum Sustain The $4 Trillion Valuation?\nURL: https://finnhub.io/api/news?id=1834e5043fa6b9ef9c705625e1e3a5171d687f7b701675033f50ba3c29800aca\nAlphabet Q4 Earnings Preview: Can AI And Cloud Momentum Su",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "b581551f-f2c2-46bf-824b-5026e0e3ae96",
+    "9c8f28dc-ae01-44c3-a5d9-93807921a73a",
+    "550ff06e-867f-4c24-af94-f9d85e054458"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

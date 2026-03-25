@@ -1,0 +1,44 @@
+{
+  "paragraph_id": "c3d031ac-d1d3-454c-99a5-f322d4a391e5",
+  "section_name": "Financial Analysis",
+  "text": "The balance sheet as of Q3 2025 shows total debt of $57,787,000,000 against stockholders' equity of $32,417,000,000, resulting in a debt-to-equity ratio of 1.78. Cash and equivalents totaled $54,706,000,000, yielding net debt of approximately $3,081,000,000, which suggests manageable leverage given the substantial cash position. Current assets and current liabilities data are not available, preventing calculation of the current ratio for liquidity assessment.",
+  "citations": [
+    {
+      "citation_id": "f400e7d9-e0a1-42b0-96fc-fbb5bf1d2463",
+      "chunk_id": "f528e51e-d5de-483c-b59e-caf191a973ac",
+      "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Stockholders' Equity for Q3 2025: $32,417,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6be9a2b3-4aee-4fd1-9125-1548b1a9d5ea",
+      "chunk_id": "e97de124-cf41-4980-b48f-b4cd8ec8e5e0",
+      "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Cash & Equivalents for Q3 2025: $54,706,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "87ec993e-67f7-41a3-985f-b80add838937",
+      "chunk_id": "5725731b-ea24-4eeb-8bb4-a36a53b26684",
+      "source_id": "3b4e9e43-55e5-4650-aafe-56c31ac473a5",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Total Debt for Q3 2025: $57,787,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "f528e51e-d5de-483c-b59e-caf191a973ac",
+    "e97de124-cf41-4980-b48f-b4cd8ec8e5e0",
+    "5725731b-ea24-4eeb-8bb4-a36a53b26684"
+  ],
+  "calc_ids": [
+    "3093e26a-3ed6-4f4d-865d-671f85783ea5",
+    "4bf64957-cca1-4b16-964c-57544318f64c"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

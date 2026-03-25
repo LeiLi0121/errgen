@@ -1,0 +1,22 @@
+{
+  "verdict_id": "91d37db1-d0b5-44b3-ba52-ee2cb206a720",
+  "paragraph_id": "03e29e4d-47c5-4557-bccd-5cb2524ff8ac",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "eeee0043-d4be-4fe2-8245-0393dede6767",
+      "issue_type": "citation_mismatch",
+      "severity": "minor",
+      "paragraph_id": "03e29e4d-47c5-4557-bccd-5cb2524ff8ac",
+      "offending_span": "with AAPL leading Zacks' top picks alongside strong digital payments momentum",
+      "explanation": "C050 states that 'AAPL, JPM, and V lead Zacks' top picks as Services growth, strong NII, and digital payments momentum drive investor interest.' The chunk presents these three factors collectively for all three companies, not specifically attributing digital payments momentum to Apple alone. The paragraph implies digital payments momentum is an Apple-specific driver, which is slightly imprecise relative to the cited evidence.",
+      "relevant_chunk_ids": [
+        "2b72e613-9af4-44d5-ab0d-2658252bd43a"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Clarify that Services growth, digital payments momentum, and other factors collectively drove interest in the group of top picks (AAPL, JPM, V), or specify that Services growth is Apple's primary driver while digital payments momentum relates to the broader pick group including Visa."
+    }
+  ],
+  "checked_at": "2026-03-25T02:21:41.140668",
+  "iteration": 1
+}

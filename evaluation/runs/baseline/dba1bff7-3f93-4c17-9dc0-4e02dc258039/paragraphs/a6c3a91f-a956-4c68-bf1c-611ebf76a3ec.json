@@ -1,0 +1,54 @@
+{
+  "paragraph_id": "a6c3a91f-a956-4c68-bf1c-611ebf76a3ec",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Key risks warrant explicit acknowledgment. Revenue seasonality creates forecasting challenges, with quarterly revenue varying from $2.272B in Q1 2025 to $3.732B in Q3 2024 (C011, C018, K001). High R&D intensity at 19.70% of revenue in Q2 2025 (C009, K005) indicates technology platform dependence and execution risk if innovation fails to maintain competitiveness. Reputational and regulatory risks surfaced during the period, including media coverage on August 11, 2025 highlighting platform safety concerns (C029, Recent Developments summary). Liquidity appears adequate with a current ratio of 1.23 (K006), though cash and equivalents of $18.444B against current liabilities of $18.816B (Risk Analysis summary) warrants ongoing monitoring.",
+  "citations": [
+    {
+      "citation_id": "450bafbf-5f2a-4d51-b699-a6cd55df9cb9",
+      "chunk_id": "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q1 2025: $2,272,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "eacd792c-50dc-4cb7-b267-4ee62349c23a",
+      "chunk_id": "56c44370-6ad4-4be0-b29f-381d1958d648",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q3 2024: $3,732,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "74121ca3-c808-4bd8-9f80-6194244c92fb",
+      "chunk_id": "7f26786b-8e83-49c7-a540-2d046149723d",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB R&D Expenses for Q2 2025: $610,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "4e3dee03-fde8-4d93-996c-be604847d5da",
+      "chunk_id": "f959bc73-87db-48af-84b1-e2fd5865d059",
+      "source_id": "4efbf4ad-7f4b-4192-aaac-a5fe08aa0418",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-11T06:00:43Z | Yahoo\nTitle: Airbnb added to the shame I felt after suffering years of domestic abuse\nURL: https://finnhub.io/api/news?id=88cf1441562ef61f13f7542a04eaa9e8fd4a06cce7aabbc42c1e3448d2193d85\nThe platform allowed my abusive ex-partner to practically steal my identity and pot",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "6a17e159-70d6-4d9a-8ff7-fc928f5a3b4e",
+    "56c44370-6ad4-4be0-b29f-381d1958d648",
+    "7f26786b-8e83-49c7-a540-2d046149723d",
+    "f959bc73-87db-48af-84b1-e2fd5865d059"
+  ],
+  "calc_ids": [
+    "416c71ec-228c-4536-a8a4-cd7e7e318634",
+    "db12f70e-c5c6-4456-8d3e-16f317427061",
+    "674d7eaf-f87a-4af0-8c40-213e983300c7"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,34 @@
+{
+  "paragraph_id": "e2d4dc8d-929f-4d07-b5ba-65b1bd78aff6",
+  "section_name": "Financial Analysis",
+  "text": "R&D investment intensity remains elevated at 9.43% of revenue in Q3 2025, with R&D expenses of $8,866,000,000. This represents an increase from Q2 2025 R&D spending of $8,550,000,000, suggesting continued commitment to innovation initiatives including AI capabilities and semiconductor development. The sustained R&D intensity positions Apple to compete in emerging technology categories while maintaining its product differentiation.",
+  "citations": [
+    {
+      "citation_id": "73c6fb1e-5ad3-4d3e-b20a-b2b4d437d4d1",
+      "chunk_id": "e243a300-1ca4-4246-a3a7-6e954cb4cc15",
+      "source_id": "fb80bad4-d875-4e13-aa6e-d10e864bf9f5",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for Q3: $8,866,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "52f96891-affd-4845-94ee-3010f2f229fa",
+      "chunk_id": "ee1d8b09-8d66-4263-ae4c-33b21470294c",
+      "source_id": "fb80bad4-d875-4e13-aa6e-d10e864bf9f5",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for Q2: $8,550,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e243a300-1ca4-4246-a3a7-6e954cb4cc15",
+    "ee1d8b09-8d66-4263-ae4c-33b21470294c"
+  ],
+  "calc_ids": [
+    "39cceab4-9d24-4d8d-9e21-1c69f999a153"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

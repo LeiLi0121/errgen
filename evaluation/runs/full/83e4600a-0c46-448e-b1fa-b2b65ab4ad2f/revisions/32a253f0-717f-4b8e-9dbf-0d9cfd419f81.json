@@ -1,0 +1,13 @@
+{
+  "revision_id": "32a253f0-717f-4b8e-9dbf-0d9cfd419f81",
+  "paragraph_id": "6ca9ab27-6bfc-4ab8-b23e-7b77618e1337",
+  "iteration": 1,
+  "original_text": "Stock performance has been strong, with shares surging 23.3% year-to-date and reaching an all-time high by November 12, 2025. This significantly outpaces the broader market, as the S&P 500 was down 0.1% during the same week. Much of this upward movement has been driven by optimism around consumer spending and strategic travel partnerships. However, the substantial year-to-date gain suggests much of the positive news may already be reflected in the current valuation, limiting near-term upside potential.",
+  "revised_text": "American Express shares reached an all-time high by November 12, 2025, reflecting strong stock performance. This momentum contrasts with the broader market, as the S&P 500 was down 0.1% during the same week. Market commentary indicates that price target raises have contributed to the positive sentiment surrounding the stock.",
+  "issues_addressed": [
+    "4c966673-f027-42ba-b771-dd5007c4c393",
+    "da63cd57-bb52-4b97-a668-545786d96365"
+  ],
+  "changes_summary": "Removed the unsupported 23.3% year-to-date gain figure as no provided chunk contains this metric. Changed the driver of stock movement from consumer spending and travel partnerships to price target raises to align with C026 content. Removed the valuation limitation claim due to lack of supporting evidence in provided chunks. Updated text to reflect only claims supported by C026 (all-time high, price targets) and C028 (S&P 500 performance).",
+  "revised_at": "2026-03-24T20:43:39.195705"
+}

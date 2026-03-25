@@ -1,0 +1,35 @@
+{
+  "paragraph_id": "7c8160c8-a373-4526-8370-3961f180a687",
+  "section_name": "Business & Competitive Analysis",
+  "text": "American Express Company operates through three primary segments: Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services, providing charge and credit payment card products and travel-related services worldwide. The company generates revenue from payment and financing products, network services, accounts payable expense management, and travel and lifestyle services, serving consumers, small businesses, mid-sized companies, and large corporations through multiple channels including mobile applications, direct mail, and in-house sales teams. As of the most recent filing period, American Express reported Q3 2025 revenue of $10.415B with a net margin of 27.86%, demonstrating the profitability of its closed-loop business model.",
+  "citations": [
+    {
+      "citation_id": "f762822d-71c1-4793-9d11-177cc445bcab",
+      "chunk_id": "4b89ef2c-d6d6-499c-967b-67c8d6b59521",
+      "source_id": "f5ae34cf-2195-453a-8e1b-aa439b693e73",
+      "source_type": "company_profile",
+      "text_snippet": "American Express Company, together with its subsidiaries, provides charge and credit payment card products, and travel-related services worldwide. The company operates through three segments: Global Consumer Services Group, Global Commercial Services, and Global Merchant and Network Services. Its pr",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ad1b49e4-dc95-48d5-9a4f-673cd8387525",
+      "chunk_id": "d6e1a5fa-0853-4d18-8b8f-ad7252f73638",
+      "source_id": "7179f2cf-8a55-40b0-82c2-715dcd3d2386",
+      "source_type": "filing",
+      "text_snippet": "[FILING] AXP 10-Q | Filed: 2025-10-17 | Accepted: 2025-10-17T16:24:18.000Z\nTitle: 10-Q\nURL: https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/axp-20250930.htm",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "4b89ef2c-d6d6-499c-967b-67c8d6b59521",
+    "d6e1a5fa-0853-4d18-8b8f-ad7252f73638"
+  ],
+  "calc_ids": [
+    "13edc5fc-e442-49d2-bf95-67d4a88f4d6e",
+    "e70e06bc-88e7-4999-8478-72ba22112d6e"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

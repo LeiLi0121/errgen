@@ -1,0 +1,35 @@
+{
+  "paragraph_id": "cd39badd-74dd-4546-943b-3ff9a6b25f2c",
+  "section_name": "Risk Analysis",
+  "text": "Technology disruption risk exists given the rapid evolution in generative AI and potential platform shifts in how users access information and services. The company's 185,719 full-time employees and substantial infrastructure investments create execution risk if strategic pivots are required. Q4 2025 gross margin of 59.82% and EBITDA margin of 39.91% provide some buffer, but sustained competitive pressure could compress these metrics. Evidence on specific competitive threats, customer concentration, or supply chain vulnerabilities is limited in the provided data, constraining detailed risk quantification in these areas.",
+  "citations": [
+    {
+      "citation_id": "85e15d11-fb8a-4b30-9ffc-c6ab94e36063",
+      "chunk_id": "bf7c93d4-7692-4e8c-9e4d-aa19fa6ab9b8",
+      "source_id": "96c360cc-44a1-4742-ba91-30eb0679e751",
+      "source_type": "company_profile",
+      "text_snippet": "Alphabet Inc. (Ticker: GOOGL) | Exchange: NASDAQ | Sector: Communication Services | Industry: Internet Content & Information | Market Cap: N/A | CEO: Sundar Pichai | Full-Time Employees: 185719 | IPO Date: 2004-08-19 | Country: US | Website: https://www.abc.xyz",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "db49fcf4-84ba-4bb9-a83d-da7202d07eaf",
+      "chunk_id": "05088fd7-574e-4d7e-8330-3d8bea3eb3af",
+      "source_id": "886ffb9d-f3df-428b-82a3-4af3f4a186cd",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – GOOGL | Period: Q4 | Date: 2025-12-31\n  Revenue:            $113,896,000,000\n  Gross Profit:       $68,130,000,000 (margin N/A)\n  Operating Income:   $36,002,000,000 (margin N/A)\n  Net Income:         $34,455,000,000 (margin N/A)\n  EBITDA:             $45,455,000,000\n  EPS:       ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "bf7c93d4-7692-4e8c-9e4d-aa19fa6ab9b8",
+    "05088fd7-574e-4d7e-8330-3d8bea3eb3af"
+  ],
+  "calc_ids": [
+    "d15d0554-a759-474a-aed5-977b02299d60",
+    "7204cfa2-cf40-49a9-918b-2094d64e6822"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

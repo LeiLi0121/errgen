@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "0244aac9-a041-44e4-bc28-ddfeca45405d",
+  "section_name": "Company Overview",
+  "text": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+  "citations": [
+    {
+      "citation_id": "e8f80b21-f78b-4764-8e2d-8c1b73968cdf",
+      "chunk_id": "74fc180b-aa2e-45dd-85f7-a448c266424e",
+      "source_id": "dfbcd822-a5d1-44ef-b6c6-ffce4d0e5167",
+      "source_type": "company_profile",
+      "text_snippet": "Bank of America Corporation (Ticker: BAC) | Exchange: NYSE | Sector: Financial Services | Industry: Banks - Diversified | Market Cap: N/A | CEO: Brian Thomas Moynihan | Full-Time Employees: 213000 | IPO Date: 1973-02-21 | Country: US | Website: https://www.bankofamerica.com",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "74fc180b-aa2e-45dd-85f7-a448c266424e"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

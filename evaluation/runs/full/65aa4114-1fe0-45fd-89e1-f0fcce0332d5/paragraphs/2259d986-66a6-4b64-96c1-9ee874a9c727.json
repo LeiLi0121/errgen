@@ -1,0 +1,86 @@
+{
+  "paragraph_id": "2259d986-66a6-4b64-96c1-9ee874a9c727",
+  "section_name": "Financial Analysis",
+  "text": "EBITDA reached $36.6B in Q2 2025, translating to a 21.82% EBITDA margin that underscores strong operational cash generation. Operating cash flow of $32.5B supported capital deployment, though free cash flow remained modest at $332M (0.20% FCF margin) due to elevated capital expenditures of $32.2B. This represents a meaningful improvement from Q1's negative $8.0B free cash flow, suggesting better cash conversion as the quarter progressed.",
+  "citations": [
+    {
+      "citation_id": "64dcab99-05ed-4a7b-9532-fa8c80e3e3a6",
+      "chunk_id": "b11fccee-2db7-4009-a480-e2ddbc216e95",
+      "source_id": "497109c1-5df4-462c-8dc6-a197b5f1dbab",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN EBITDA for Q2: $36,600,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "434e0a61-4beb-4ce9-b5b9-7adb794f5c20",
+      "chunk_id": "fe032de3-5266-4a9a-a9dc-da55a3e72a9d",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Operating Cash Flow for Q2: $32,515,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "bf4c2336-5ed3-4107-9ff9-44dbd369c880",
+      "chunk_id": "26e5f009-11b6-4e28-a784-10252de0b22c",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Capital Expenditure for Q2: $-32,183,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "b26b1d03-8db4-493f-ad8f-883bdd437a9f",
+      "chunk_id": "6ab8a3d8-3d73-4027-9d2b-831c7c1429d2",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Free Cash Flow for Q2: $332,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f24f9f0d-9ce3-49e1-934e-4095fa2725a7",
+      "chunk_id": "f38f3812-3933-4cab-87de-f0e8d5d9179f",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Free Cash Flow for Q1: $-8,004,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "b11fccee-2db7-4009-a480-e2ddbc216e95",
+    "fe032de3-5266-4a9a-a9dc-da55a3e72a9d",
+    "26e5f009-11b6-4e28-a784-10252de0b22c",
+    "6ab8a3d8-3d73-4027-9d2b-831c7c1429d2",
+    "f38f3812-3933-4cab-87de-f0e8d5d9179f"
+  ],
+  "calc_ids": [
+    "733f5183-f371-4432-ac6f-c7cda0ff1f5b",
+    "c1de2c62-9975-444f-86c1-619fbd82acf5"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "382c2144-9ea0-4807-a1b3-bcda89c86ff1",
+      "paragraph_id": "2259d986-66a6-4b64-96c1-9ee874a9c727",
+      "status": "pass",
+      "issues": [
+        {
+          "issue_id": "342fa42e-27bd-4bdc-8a93-b24e99c07237",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "2259d986-66a6-4b64-96c1-9ee874a9c727",
+          "offending_span": "suggesting better cash conversion as the quarter progressed",
+          "explanation": "The phrase 'as the quarter progressed' implies intra-quarter dynamics that cannot be determined from quarterly FCF data alone. The evidence only supports sequential quarter-over-quarter improvement (Q1 to Q2), not timing within Q2.",
+          "relevant_chunk_ids": [
+            "6ab8a3d8-3d73-4027-9d2b-831c7c1429d2",
+            "f38f3812-3933-4cab-87de-f0e8d5d9179f"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Revise to 'suggesting better cash conversion quarter-over-quarter' or 'suggesting improved cash conversion from Q1 to Q2' to accurately reflect what the quarterly data supports."
+        }
+      ],
+      "checked_at": "2026-03-24T18:49:11.409231",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

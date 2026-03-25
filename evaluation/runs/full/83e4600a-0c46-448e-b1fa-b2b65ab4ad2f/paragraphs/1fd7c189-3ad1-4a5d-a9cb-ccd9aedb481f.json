@@ -1,0 +1,45 @@
+{
+  "paragraph_id": "1fd7c189-3ad1-4a5d-a9cb-ccd9aedb481f",
+  "section_name": "Recent Developments",
+  "text": "American Express reported record-breaking Q3 2025 results, with revenue reaching $10.42 billion and net income of $2.90 billion, representing year-over-year growth of 0.91% and 0.59% respectively from Q3 2024 levels. The company lifted its full-year guidance on strong business momentum, according to investment analysis published on November 12, 2025. Net margin for Q3 2025 stood at 27.86%, demonstrating continued profitability despite moderating revenue growth rates compared to earlier quarters in 2025.",
+  "citations": [
+    {
+      "citation_id": "9b0020b9-1a16-45b5-9aeb-1e9bc272bd01",
+      "chunk_id": "91e84987-4f61-4318-b1aa-01f8d27b478c",
+      "source_id": "aae50515-1b91-4e3f-925a-f937de3972f9",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T10:46:00Z | Yahoo\nTitle: Zacks Investment Ideas feature highlights: American Express and Palantir\nURL: https://finnhub.io/api/news?id=b53186ff993c5f829a8784e6e9e3519b7f0786b26f6ec8066c5bf459c70af88c\nAmerican Express and Palantir delivered record-breaking Q3 results, each lifting fu",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "87d2207f-3791-4fd3-8ed3-4c1802070c52",
+      "chunk_id": "683657a2-4907-427b-8c78-0ebcc223c41d",
+      "source_id": "aae50515-1b91-4e3f-925a-f937de3972f9",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-11T16:15:00Z | Yahoo\nTitle: Q3 Earnings: These Companies Posted Record Breaking Results\nURL: https://finnhub.io/api/news?id=bfba028441a108ce797a4767a2c1699bc22a66a4516767e8b77ce97cd81d68d1\nWe continue to wade through the 2025 Q3 earnings cycle, which has been largely positive so far. ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "91e84987-4f61-4318-b1aa-01f8d27b478c",
+    "683657a2-4907-427b-8c78-0ebcc223c41d"
+  ],
+  "calc_ids": [
+    "1012f404-5f71-4919-aeef-1ddb36de154a",
+    "c931d290-d0cd-4eee-a97e-6050cc07475d",
+    "3f7d503f-0bcb-4a13-b8da-bbfa6cfc792e"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "101fc438-d8ee-447b-b418-4013a885cb80",
+      "paragraph_id": "1fd7c189-3ad1-4a5d-a9cb-ccd9aedb481f",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T19:58:01.404580",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,20 @@
+{
+  "verdict_id": "f9c6ad16-8ddf-49af-ace9-852ee2911aa4",
+  "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "af5907fd-7fa9-41b8-a690-a77e4a63704a",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "31799f31-3560-46b3-a930-67b212a1073b",
+      "offending_span": "Institutional investor activity showed mixed signals following the earnings release. Ark Invest's Cathie Wood purchased $21.5M in Airbnb stock, buying the post-earnings dip C089. Baron Capital also highlighted Airbnb among its Q2 real estate portfolio moves C087. Competitive dynamics remain active, with Sonder securing $24.54M in new funding and amending its Marriott agreement on August 8, 2025 C086. Expedia posted strong earnings with analysts issuing higher price targets, indicating robust online travel agency sector performance C084.",
+      "explanation": "The paragraph cites chunks C084, C086, C087, and C089 to support specific factual claims regarding institutional investors and competitor developments. However, the provided evidence context indicates 'Cited chunk refs: []' and the available chunk IDs only range from C001 to C020. The cited chunks do not exist in the provided context, making these claims unverifiable and unsupported by the evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the unsupported claims or provide valid evidence chunks (within the C001-C020 range) that contain the reported data on Ark Invest, Baron Capital, Sonder, and Expedia."
+    }
+  ],
+  "checked_at": "2026-03-24T13:41:36.693637",
+  "iteration": 3
+}

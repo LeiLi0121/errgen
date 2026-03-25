@@ -1,0 +1,14 @@
+{
+  "revision_id": "6cd5a0e3-6643-428a-8cec-f8e95ba4abe1",
+  "paragraph_id": "88fca797-8481-4f3c-8cbe-2c80fc0ecbb2",
+  "iteration": 1,
+  "original_text": "Institutional investor activity reflects mixed sentiment following the earnings release. Ark Invest purchased $21.5 million in Airbnb stock, viewing the post-earnings decline as a buying opportunity (C018). Baron Capital also disclosed Q2 positions involving Airbnb alongside other real estate holdings (C016). The stock underperformed the broader market on August 11, 2025, despite the earnings beat (C003). Management's balance sheet remains solid with a current ratio of 1.23 as of Q2 2025, indicating adequate liquidity to fund strategic initiatives (K006).",
+  "revised_text": "Institutional investor activity reflects mixed sentiment following the earnings release. Ark Invest purchased $21.5 million in Airbnb stock, viewing the post-earnings decline as a buying opportunity (C089). Baron Capital also disclosed Q2 positions involving Airbnb alongside other real estate holdings (C087). The stock underperformed the broader market on August 11, 2025, despite the earnings beat (C074). Management's balance sheet remains solid with a current ratio of 1.23 as of Q2 2025, indicating adequate liquidity to fund strategic initiatives (K006).",
+  "issues_addressed": [
+    "d80ba22d-970b-4476-8364-3b91d5dc8121",
+    "74faafbe-b416-47c2-88de-5c2ce5c1e07d",
+    "f34f5a82-7c14-4e16-b621-4a092940415a"
+  ],
+  "changes_summary": "Corrected citation mismatches identified by fact-checker: updated Ark Invest reference from C018 to C089, Baron Capital reference from C016 to C087, and stock underperformance reference from C003 to C074. All factual claims remain supported by the corrected evidence IDs.",
+  "revised_at": "2026-03-24T10:07:01.498533"
+}

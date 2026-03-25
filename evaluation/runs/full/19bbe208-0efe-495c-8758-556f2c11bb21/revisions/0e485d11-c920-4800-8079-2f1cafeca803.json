@@ -1,0 +1,13 @@
+{
+  "revision_id": "0e485d11-c920-4800-8079-2f1cafeca803",
+  "paragraph_id": "5796bb96-543b-4d01-9533-21faed78c763",
+  "iteration": 1,
+  "original_text": "R&D investment intensity remained elevated at 16.31% of revenue in Q4, with R&D expenses totaling $18,572,000,000. This level of investment reflects Alphabet's continued commitment to advancing generative AI capabilities and advertising technology infrastructure. The R&D spend increased from $13,556,000,000 in Q1 to $18,572,000,000 in Q4, indicating escalating investment priorities as the company competes in the AI-driven technology landscape.",
+  "revised_text": "R&D investment intensity remained elevated at 16.31% of revenue in Q4, with R&D expenses totaling $18,572,000,000. The R&D spend increased from $13,556,000,000 in Q1 to $18,572,000,000 in Q4.",
+  "issues_addressed": [
+    "9501dc83-967d-4f83-a008-74c3b5e16fa7",
+    "a7f3a824-b180-4253-8665-059bb19a7fb5"
+  ],
+  "changes_summary": "Removed two unsupported interpretive claims: (1) the statement about Alphabet's commitment to generative AI capabilities and advertising technology infrastructure, and (2) the claim about escalating investment priorities due to AI competition. These claims were not supported by the cited financial data chunks which only contain R&D expense figures. The revised paragraph now states only the factual R&D intensity percentage and expense figures that are directly supported by the evidence.",
+  "revised_at": "2026-03-24T17:19:30.169166"
+}

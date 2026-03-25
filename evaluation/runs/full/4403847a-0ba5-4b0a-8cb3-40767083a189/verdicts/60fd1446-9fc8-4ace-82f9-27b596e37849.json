@@ -1,0 +1,37 @@
+{
+  "verdict_id": "60fd1446-9fc8-4ace-82f9-27b596e37849",
+  "paragraph_id": "3a03003f-c16a-485e-bf2a-538adccc980d",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "fd331aa0-c54a-4db9-822b-eb1200b01807",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "3a03003f-c16a-485e-bf2a-538adccc980d",
+      "offending_span": "$3,096,000,000 (C004)",
+      "explanation": "The paragraph cites C004 for Q2 2025 revenue, but C004 is not in the cited chunk refs list (only C006 is cited). Additionally, C006 contains operating margin data (19.77%), not revenue data. The revenue figure is actually supported by K001, not C004.",
+      "relevant_chunk_ids": [
+        "8204b5e6-5a63-4433-97ff-c4a9417eff59"
+      ],
+      "relevant_calc_ids": [
+        "f74b41df-a6d1-45cb-937c-db6608ac5c3c"
+      ],
+      "recommended_fix": "Remove the C004 citation for revenue and rely on K001 for revenue figures, or cite the correct revenue chunk if available. The paragraph's cited chunk refs should match the actual citations used in the text."
+    },
+    {
+      "issue_id": "ea62f7f4-2999-4504-893b-cb12700f66d2",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "3a03003f-c16a-485e-bf2a-538adccc980d",
+      "offending_span": "$3,096,000,000 (C004)",
+      "explanation": "C004 is referenced in the paragraph but is not included in the cited chunk refs list ['C006']. C004 is also not among the available chunks provided for verification, making this claim unverifiable from the cited evidence.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [
+        "f74b41df-a6d1-45cb-937c-db6608ac5c3c"
+      ],
+      "recommended_fix": "Either include C004 in the cited chunk refs and provide its content, or remove the C004 citation and attribute the revenue figure to K001 which does contain this data."
+    }
+  ],
+  "checked_at": "2026-03-24T10:37:54.085023",
+  "iteration": 1
+}

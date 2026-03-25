@@ -1,0 +1,17 @@
+{
+  "paragraph_id": "c852f995-997e-4d47-91ef-0c6658a7744f",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Relative to the SPY benchmark, BAC has delivered meaningful outperformance over the past year with a 23.37% return compared to the benchmark's 15.02%, representing 8.35% of excess return. However, recent momentum has weakened, with the stock underperforming by 2.54% over the past 30 days as BAC declined 1.40% while SPY gained 1.14%. This divergence suggests near-term headwinds despite the stronger long-term performance trajectory.",
+  "citations": [],
+  "chunk_ids": [],
+  "calc_ids": [
+    "1faf65f8-1f25-4268-b999-a61dc83eee42",
+    "2bb9563d-7b2b-4b45-bff2-be8de50a370c",
+    "3323d309-1678-4334-b05b-b8e1d4e03040",
+    "b0e4c09c-399a-4533-a6cd-134cc6a3bc33"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

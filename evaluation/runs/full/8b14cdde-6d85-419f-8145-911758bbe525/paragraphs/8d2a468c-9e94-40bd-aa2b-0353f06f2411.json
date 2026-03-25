@@ -1,0 +1,88 @@
+{
+  "paragraph_id": "8d2a468c-9e94-40bd-aa2b-0353f06f2411",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Apple Inc. operates a diversified hardware and services business model, designing, manufacturing, and marketing smartphones, personal computers, tablets, wearables, and accessories worldwide. The company's product portfolio includes iPhone, Mac, iPad, and wearables such as AirPods, Apple Watch, and HomePod, complemented by services including AppleCare, cloud services, App Store, and subscription offerings like Apple Music, Apple TV+, Apple Arcade, and Apple Fitness+. Revenue distribution spans consumers, small and mid-sized businesses, and education, enterprise, and government markets, with products distributed through retail and online stores, direct sales force, and third-party carriers and resellers. In Q3 2025, Apple reported revenue of $94.036B with a gross margin of 46.49% and net margin of 24.92%, though revenue declined 1.39% YoY and net income fell 5.43% YoY.",
+  "citations": [
+    {
+      "citation_id": "fe1b2eb1-7512-44a4-b971-8837e18fcbf8",
+      "chunk_id": "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+      "source_id": "60875378-3de5-4a6f-84e3-bdfb6b1b90ec",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. (Ticker: AAPL) | Exchange: NASDAQ | Sector: Technology | Industry: Consumer Electronics | Market Cap: N/A | CEO: Timothy D. Cook | Full-Time Employees: 164000 | IPO Date: 1980-12-12 | Country: US | Website: https://www.apple.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "68f79648-63b4-47ec-aecb-86fe041f5810",
+      "chunk_id": "721a842d-93a9-49cf-925e-0000da2406a8",
+      "source_id": "60875378-3de5-4a6f-84e3-bdfb6b1b90ec",
+      "source_type": "company_profile",
+      "text_snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+    "721a842d-93a9-49cf-925e-0000da2406a8"
+  ],
+  "calc_ids": [
+    "e676e81f-f796-4d3e-b853-808bbeccc97f",
+    "3293bd53-b150-49dd-90a8-a560b12c7900",
+    "bed8ff58-3de9-4c18-9ce5-13004a21e93b",
+    "ed38f998-3eec-4062-aa8f-5bcf6b0c1487"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "867d9ee8-b6b1-4abf-962a-377f89eb6625",
+      "paragraph_id": "8d2a468c-9e94-40bd-aa2b-0353f06f2411",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "3c402ed7-67dd-4510-b6be-e0135897c5e5",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "8d2a468c-9e94-40bd-aa2b-0353f06f2411",
+          "offending_span": "Revenue distribution spans consumers, small and mid-sized businesses, and education, enterprise, and government markets",
+          "explanation": "This claim about customer segment revenue distribution is not found in either C001 or C002. The cited chunks describe Apple's products and services but do not contain information about how revenue is distributed across different customer segments.",
+          "relevant_chunk_ids": [
+            "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+            "721a842d-93a9-49cf-925e-0000da2406a8"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove this claim or cite a different chunk that contains customer segment revenue breakdown data."
+        },
+        {
+          "issue_id": "db7e2075-1161-42d6-a062-e96cdf5a0080",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "8d2a468c-9e94-40bd-aa2b-0353f06f2411",
+          "offending_span": "with products distributed through retail and online stores, direct sales force, and third-party carriers and resellers",
+          "explanation": "This claim about distribution channels is not supported by C001 or C002. Neither chunk contains information about Apple's distribution methods or sales channels.",
+          "relevant_chunk_ids": [
+            "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+            "721a842d-93a9-49cf-925e-0000da2406a8"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Remove this claim or cite a chunk that specifically describes Apple's distribution channels."
+        },
+        {
+          "issue_id": "f0caac04-7658-40ee-b94e-407c58a3deb1",
+          "issue_type": "unsupported_claim",
+          "severity": "minor",
+          "paragraph_id": "8d2a468c-9e94-40bd-aa2b-0353f06f2411",
+          "offending_span": "subscription offerings like Apple Music, Apple TV+, Apple Arcade, and Apple Fitness+",
+          "explanation": "C002 mentions Apple provides services including 'music, video, games, and podcasts' but does not specifically name Apple Music, Apple TV+, Apple Arcade, or Apple Fitness+. These specific service names are not traceable to the cited evidence.",
+          "relevant_chunk_ids": [
+            "721a842d-93a9-49cf-925e-0000da2406a8"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite additional chunks that name these specific services, or generalize the language to match C002's description (e.g., 'subscription offerings for music, video, games, and fitness')."
+        }
+      ],
+      "checked_at": "2026-03-25T02:01:41.307949",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

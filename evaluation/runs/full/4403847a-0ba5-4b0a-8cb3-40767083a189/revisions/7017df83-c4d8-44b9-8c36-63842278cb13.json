@@ -1,0 +1,15 @@
+{
+  "revision_id": "7017df83-c4d8-44b9-8c36-63842278cb13",
+  "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+  "iteration": 1,
+  "original_text": "Margin compression presents a notable operational risk. Operating margin contracted significantly from 40.86% in Q3 2024 (C020) to 19.77% in Q2 2025 (C006, K003), representing a decline of over 20 percentage points. Net margin similarly compressed from 36.66% in Q3 2024 (C022) to 20.74% in Q2 2025 (C008, K004). This compression could indicate increased competitive pressure, rising operational costs, or pricing challenges in the travel services market. The company maintains high R&D intensity at 19.70% of revenue in Q2 2025 ($610M R&D on $3,096M revenue) (C009, K005), which supports innovation but adds ongoing cost pressure. Severity: Medium-High.",
+  "revised_text": "Margin compression presents a notable operational risk. Operating margin contracted significantly from 40.86% in Q3 2024 (C020) to 19.77% in Q2 2025 (C006), representing a decline of over 20 percentage points. Net margin similarly compressed from 36.66% in Q3 2024 (C022) to 20.74% in Q2 2025 (C008). This compression could indicate increased competitive pressure, rising operational costs, or pricing challenges in the travel services market. The company maintains high R&D intensity at 19.70% of revenue in Q2 2025 ($610M R&D on $3,096M revenue) (C009, C004, K005), which supports innovation but adds ongoing cost pressure. Severity: Medium-High.",
+  "issues_addressed": [
+    "a347b016-604b-4eb8-bf3a-344aa401b1cb",
+    "01a43137-96c4-496c-be2c-b8e1c7db2c44",
+    "a8e4ad2b-7a8e-496c-84ef-23ab8c597a3f",
+    "2543290d-6a42-4b67-877e-2da7340ba3f3"
+  ],
+  "changes_summary": "Removed K003 citation for operating margin (C006 alone supports the 19.77% figure per checker direction). Removed K004 citation for net margin (C008 alone supports the 20.74% figure per checker direction). Added C004 to support the $3,096M revenue figure which was previously unsupported (Issue 4). Retained K005 for R&D intensity calculation as it is available in the provided calculation results and supports the 19.70% figure.",
+  "revised_at": "2026-03-24T10:20:11.875508"
+}

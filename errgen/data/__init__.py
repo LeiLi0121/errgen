@@ -4,5 +4,6 @@ from errgen.data.finnhub import FinnhubClient
 from errgen.data.fmp import FMPClient
 from errgen.data.newsapi import NewsAPIClient
 from errgen.data.sec import SECClient
+from errgen.data.yahoo import YahooFinanceClient
 
-__all__ = ["FMPClient", "FinnhubClient", "NewsAPIClient", "SECClient"]
+__all__ = ["FMPClient", "FinnhubClient", "NewsAPIClient", "SECClient", "YahooFinanceClient"]

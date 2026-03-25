@@ -1,0 +1,1096 @@
+[
+  {
+    "fact_id": "271a5a9b-edfd-4ae8-ac54-419be32f27d5",
+    "chunk_ids": [
+      "02213506-b504-4cee-a2d9-1e0faa466782"
+    ],
+    "fact_type": "revenue",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 113896000000.0,
+    "unit": "USD",
+    "description": "GOOGL Revenue for Q4: $113,896,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4f04e3ad-5653-4139-a4ef-a220557ab5a2",
+    "chunk_ids": [
+      "fc9d89f6-7ae2-440a-9f2a-4cb79b963504"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 68130000000.0,
+    "unit": "USD",
+    "description": "GOOGL Gross Profit for Q4: $68,130,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1d8ad773-d476-4c82-8d4b-51816cf6b8ec",
+    "chunk_ids": [
+      "63f0f1d6-1f25-4a01-af90-021878e0b4f5"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 36002000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Income for Q4: $36,002,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ed994cda-90a0-44e9-a08e-dbe1ab3bb030",
+    "chunk_ids": [
+      "c2ea4d35-414b-4a51-8fa8-6e753ce35dfd"
+    ],
+    "fact_type": "netIncome",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 34455000000.0,
+    "unit": "USD",
+    "description": "GOOGL Net Income for Q4: $34,455,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b304521d-b8fb-426f-9dfb-f76535ccfe42",
+    "chunk_ids": [
+      "3071f7ec-4f43-4310-a777-df18f046c746"
+    ],
+    "fact_type": "ebitda",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 45455000000.0,
+    "unit": "USD",
+    "description": "GOOGL EBITDA for Q4: $45,455,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "273e6438-dfaf-49aa-9db9-5d2b5bb942ad",
+    "chunk_ids": [
+      "4db1412b-3a50-41ff-a039-514543963b6f"
+    ],
+    "fact_type": "eps",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 2.85,
+    "unit": "USD",
+    "description": "GOOGL EPS (Diluted) for Q4: $3",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "398b8f05-17d0-485f-9b42-138fef854aaf",
+    "chunk_ids": [
+      "a522cd20-c1c5-4eb8-b4f6-f70d9cf3e053"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 18572000000.0,
+    "unit": "USD",
+    "description": "GOOGL R&D Expenses for Q4: $18,572,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cd9e173a-4f28-444a-8264-3d2ef9f6a910",
+    "chunk_ids": [
+      "1902445c-696a-4e13-b939-5cf9a804eaea"
+    ],
+    "fact_type": "revenue",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 102346000000.0,
+    "unit": "USD",
+    "description": "GOOGL Revenue for Q3: $102,346,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3e7d9671-14df-448d-be7e-a5746a8bc412",
+    "chunk_ids": [
+      "fcd80e52-6f4d-4e98-bf77-9f913d201b2d"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 60977000000.0,
+    "unit": "USD",
+    "description": "GOOGL Gross Profit for Q3: $60,977,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "15e3291d-9703-4f07-86fa-087f9ac92b3a",
+    "chunk_ids": [
+      "a0400d2d-7840-4622-8aaa-21eea6f6db45"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 31228000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Income for Q3: $31,228,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cd50af64-0bfa-45fe-81ac-9328d46cb958",
+    "chunk_ids": [
+      "46be13ac-bb2c-4367-a657-e02a1759db13"
+    ],
+    "fact_type": "netIncome",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 34979000000.0,
+    "unit": "USD",
+    "description": "GOOGL Net Income for Q3: $34,979,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "ae8d11d3-59af-4205-bc17-3f6d109ecab1",
+    "chunk_ids": [
+      "08107903-cdde-4209-9c3c-6130d16639b8"
+    ],
+    "fact_type": "ebitda",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 49741000000.0,
+    "unit": "USD",
+    "description": "GOOGL EBITDA for Q3: $49,741,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "227ddfcd-0942-418f-8e0a-d56d74564dae",
+    "chunk_ids": [
+      "78c2ab24-8ab3-40d3-9103-58df68117e75"
+    ],
+    "fact_type": "eps",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 2.89,
+    "unit": "USD",
+    "description": "GOOGL EPS (Diluted) for Q3: $3",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e3dcfd81-e5bf-4520-89b2-86c21c26080d",
+    "chunk_ids": [
+      "a607b62c-7eec-4776-82b1-2e5d0240b85a"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 15151000000.0,
+    "unit": "USD",
+    "description": "GOOGL R&D Expenses for Q3: $15,151,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "4d5658de-c29c-43c9-a1af-4ed4e1095fdc",
+    "chunk_ids": [
+      "12806655-91f8-4d9c-a54b-6d32627fcedf"
+    ],
+    "fact_type": "revenue",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 96428000000.0,
+    "unit": "USD",
+    "description": "GOOGL Revenue for Q2: $96,428,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "5dd71ba5-b5cc-470a-88c2-3156df53b60d",
+    "chunk_ids": [
+      "ed85809f-849a-4145-af4b-747b831fa9c5"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 57389000000.0,
+    "unit": "USD",
+    "description": "GOOGL Gross Profit for Q2: $57,389,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "31047312-d558-4260-bc7e-88980eadccbe",
+    "chunk_ids": [
+      "b6365ff7-ef52-46d8-b88c-c82faa636e1b"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 31271000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Income for Q2: $31,271,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "edd19910-1461-451e-a599-a7c6f38b24c4",
+    "chunk_ids": [
+      "54b68092-4ff1-44da-a508-524dd70efdb1"
+    ],
+    "fact_type": "netIncome",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 28196000000.0,
+    "unit": "USD",
+    "description": "GOOGL Net Income for Q2: $28,196,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8f095d17-7e90-4057-8de5-2c06c45743eb",
+    "chunk_ids": [
+      "99aee7c5-eea3-4099-8608-7a6f8841bbde"
+    ],
+    "fact_type": "ebitda",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 39192000000.0,
+    "unit": "USD",
+    "description": "GOOGL EBITDA for Q2: $39,192,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6709421d-e9dc-4c6d-ae84-0d059f930552",
+    "chunk_ids": [
+      "daa8ce28-751f-4031-ac9c-f36a448a7eea"
+    ],
+    "fact_type": "eps",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 2.33,
+    "unit": "USD",
+    "description": "GOOGL EPS (Diluted) for Q2: $2",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8b41e6ae-cd69-458f-bcbe-b8f3b737d6bf",
+    "chunk_ids": [
+      "8d62727d-8e9c-4634-b853-f0dab6042716"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 13808000000.0,
+    "unit": "USD",
+    "description": "GOOGL R&D Expenses for Q2: $13,808,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6a6224e1-b838-4424-810c-e13d57402b48",
+    "chunk_ids": [
+      "bbd94fa9-fcf2-4b13-bfe8-702061d34017"
+    ],
+    "fact_type": "revenue",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 90234000000.0,
+    "unit": "USD",
+    "description": "GOOGL Revenue for Q1: $90,234,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "12c76a17-807b-4422-8f8c-b4d8204fe1f3",
+    "chunk_ids": [
+      "022aac2e-eaab-4d69-ab91-cfb81ef12e49"
+    ],
+    "fact_type": "grossProfit",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 53873000000.0,
+    "unit": "USD",
+    "description": "GOOGL Gross Profit for Q1: $53,873,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "31d3827d-ed6f-4c1e-822c-7662389439df",
+    "chunk_ids": [
+      "6724a151-a6f1-4860-828c-b298188cc97e"
+    ],
+    "fact_type": "operatingIncome",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 30606000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Income for Q1: $30,606,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "9449e4bc-e5fe-4f21-af9e-6dc89c48115d",
+    "chunk_ids": [
+      "15a6f598-c28d-4df3-8bbb-0d8bc4485f9c"
+    ],
+    "fact_type": "netIncome",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 34540000000.0,
+    "unit": "USD",
+    "description": "GOOGL Net Income for Q1: $34,540,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "53044892-84a7-4f7e-8450-6d21c9eecb09",
+    "chunk_ids": [
+      "1a6ffc7a-284a-402f-98f0-29bab7e0d5c2"
+    ],
+    "fact_type": "ebitda",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 46310000000.0,
+    "unit": "USD",
+    "description": "GOOGL EBITDA for Q1: $46,310,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "30e28c97-ae06-4550-8a80-4db9ed13138e",
+    "chunk_ids": [
+      "795e6280-3aa7-401b-b830-950af65e30cc"
+    ],
+    "fact_type": "eps",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 2.84,
+    "unit": "USD",
+    "description": "GOOGL EPS (Diluted) for Q1: $3",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "82fa71f3-638b-424a-ac9e-76b37b2a8d4e",
+    "chunk_ids": [
+      "4bcc6bba-f419-4cd5-904e-b85f145cc290"
+    ],
+    "fact_type": "researchAndDevelopmentExpenses",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 13556000000.0,
+    "unit": "USD",
+    "description": "GOOGL R&D Expenses for Q1: $13,556,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6c44d7e5-38f6-4d91-a16f-a4475a5885e6",
+    "chunk_ids": [
+      "e1cddef0-99c5-4c9d-ad43-c29bf77317a4"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 595281000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Assets for Q4: $595,281,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "05fe869b-f7fa-4353-8a5d-d841655a4b9f",
+    "chunk_ids": [
+      "f6fa3285-9d97-44bc-b691-daff05bbf421"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 180016000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Liabilities for Q4: $180,016,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "b0870237-1cbd-4cce-af8c-0ee23322533f",
+    "chunk_ids": [
+      "c82aea17-3852-4b2e-9a8f-4878bc4d0b94"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 415265000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stockholders' Equity for Q4: $415,265,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a018cb06-e9db-4392-963e-c1e372f50c09",
+    "chunk_ids": [
+      "3116d0c2-5461-4d7f-882c-2091287bf8a2"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 30708000000.0,
+    "unit": "USD",
+    "description": "GOOGL Cash & Equivalents for Q4: $30,708,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "786748fb-b677-4b65-9866-df41a44cf97a",
+    "chunk_ids": [
+      "c85deeef-3653-4836-ae43-f5da039c4a07"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 72035000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Debt for Q4: $72,035,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "c9dc8d23-3462-48cb-bf03-92d9fd189534",
+    "chunk_ids": [
+      "33c2f8d4-0ba5-45a3-8de4-80e8c97ed2f9"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 59291000000.0,
+    "unit": "USD",
+    "description": "GOOGL Long-Term Debt for Q4: $59,291,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "24fef031-aa35-4bf6-8cbe-fed2171f3fb2",
+    "chunk_ids": [
+      "175a9b1d-08de-4e0e-8133-d40197e6a958"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 206038000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Assets for Q4: $206,038,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "5b1afe99-063b-44c3-9dd5-5b20dd3bb688",
+    "chunk_ids": [
+      "32480b5a-ffeb-4b2a-9dd8-026b68806de9"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 102745000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Liabilities for Q4: $102,745,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "906909cb-ad23-4c1b-99d9-0bb906d2f2d9",
+    "chunk_ids": [
+      "21017f4f-695c-494c-a6e4-1f7f5e902f1a"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 536469000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Assets for Q3: $536,469,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "dc58c234-dd70-4677-85d5-70fb21ea0465",
+    "chunk_ids": [
+      "50dcbfa5-c3bf-481d-adde-6e4e10dce2d8"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 149602000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Liabilities for Q3: $149,602,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "979b8384-3562-45cf-a625-1513236177d9",
+    "chunk_ids": [
+      "4c057c53-1ccb-4550-b906-af299c5a0e0d"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 386867000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stockholders' Equity for Q3: $386,867,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8081317e-3e48-4336-8d0e-272f9abb30d8",
+    "chunk_ids": [
+      "7780f97e-0e4b-4ec4-b6e9-db7ab1cf5e33"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 23090000000.0,
+    "unit": "USD",
+    "description": "GOOGL Cash & Equivalents for Q3: $23,090,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f907f2b8-f42d-472e-be88-c12f92d3b3e8",
+    "chunk_ids": [
+      "f9e5a9d4-c142-49f0-91ef-4756333dc108"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 33713000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Debt for Q3: $33,713,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0d3fa315-c9a9-4c4f-b383-9889a29ccf4e",
+    "chunk_ids": [
+      "8e7e0cff-fbf7-46cd-a71e-89bc90bf6b5d"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 21607000000.0,
+    "unit": "USD",
+    "description": "GOOGL Long-Term Debt for Q3: $21,607,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cd587145-8f1e-467f-873f-731a9a7ca389",
+    "chunk_ids": [
+      "32f01ba0-0109-4208-ad6a-249b58bf2bf6"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 173947000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Assets for Q3: $173,947,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "227581f9-c9ea-4235-9439-3f3d63a092a7",
+    "chunk_ids": [
+      "8207202f-f89d-4ad5-81dd-348714819daf"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 99550000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Liabilities for Q3: $99,550,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "431b7d9c-c64a-49d8-b61a-41976906ebcf",
+    "chunk_ids": [
+      "6fec2f8b-fbfc-4e19-80a0-60325d5f53a6"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 502053000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Assets for Q2: $502,053,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "864953dc-b3cd-4e1d-b1a9-d2eef5a9394c",
+    "chunk_ids": [
+      "b5e6ccad-6522-415d-83db-388f2728ef6c"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 139137000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Liabilities for Q2: $139,137,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8d40fd1f-1216-4bae-8f0d-f9b305c05c5c",
+    "chunk_ids": [
+      "6a904ddd-66a3-488d-8fa9-b12acdfdf3b9"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 362916000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stockholders' Equity for Q2: $362,916,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3b71555b-c56f-4405-930e-88c8a45fe9a8",
+    "chunk_ids": [
+      "ac3c2d72-1531-402f-9595-b8a78b306b7d"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 21036000000.0,
+    "unit": "USD",
+    "description": "GOOGL Cash & Equivalents for Q2: $21,036,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e8fbacfd-c1cd-42cf-8379-4128f44fabb2",
+    "chunk_ids": [
+      "c5bba616-2474-4946-b2f3-05c86e1bc42a"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 35559000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Debt for Q2: $35,559,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "6d3b05cd-48da-4ed8-84eb-25ed9ef11327",
+    "chunk_ids": [
+      "00d0fc6d-1452-4164-8b00-0725c114ac42"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 23607000000.0,
+    "unit": "USD",
+    "description": "GOOGL Long-Term Debt for Q2: $23,607,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "466e651a-20b7-4aa8-868d-420c66adcf5f",
+    "chunk_ids": [
+      "98900738-82fb-4fed-af8c-da8d0aeed6fd"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 166216000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Assets for Q2: $166,216,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f4be0fc3-160b-4013-b563-fce16727f780",
+    "chunk_ids": [
+      "40496bf2-eec7-4b9a-be0a-97c15329cfd3"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 87310000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Liabilities for Q2: $87,310,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "d44bbd00-1791-4115-8b2a-49400e57b11b",
+    "chunk_ids": [
+      "7a417863-64c9-46e4-a031-dfeaccfa7e96"
+    ],
+    "fact_type": "totalAssets",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 475374000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Assets for Q1: $475,374,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "27cef575-8cca-4cf0-a431-b030ff01080f",
+    "chunk_ids": [
+      "03cff5c0-2783-4918-bbda-4d19051ba23e"
+    ],
+    "fact_type": "totalLiabilities",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 130107000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Liabilities for Q1: $130,107,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "293704b5-c324-4a64-909f-53c666665945",
+    "chunk_ids": [
+      "ed9fc449-acb4-4dc5-a0d1-03666b3ab13c"
+    ],
+    "fact_type": "totalStockholdersEquity",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 345267000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stockholders' Equity for Q1: $345,267,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "83f4e7af-36b2-404d-a297-e9f2799568cb",
+    "chunk_ids": [
+      "1ca0ac71-c8a5-4c5a-8065-586c20ce4291"
+    ],
+    "fact_type": "cashAndCashEquivalents",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 23264000000.0,
+    "unit": "USD",
+    "description": "GOOGL Cash & Equivalents for Q1: $23,264,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "52752752-7062-4652-bd19-63099673bbfb",
+    "chunk_ids": [
+      "7883df17-b5c8-47cd-8cdc-e8bc2e221cc7"
+    ],
+    "fact_type": "totalDebt",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 23564000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Debt for Q1: $23,564,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "3ae8385d-49c5-4e0a-bb63-7d55c82a3c29",
+    "chunk_ids": [
+      "c0a3e154-b620-4682-a8e2-5214fb086b80"
+    ],
+    "fact_type": "longTermDebt",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 10886000000.0,
+    "unit": "USD",
+    "description": "GOOGL Long-Term Debt for Q1: $10,886,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "62b99a08-c262-48e1-98b7-4a604d3024d0",
+    "chunk_ids": [
+      "69fe1f04-cac7-4b43-b518-7e9763296784"
+    ],
+    "fact_type": "totalCurrentAssets",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 162052000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Assets for Q1: $162,052,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "50ad8104-6e5b-4b61-a3ce-41b793cbf571",
+    "chunk_ids": [
+      "80907c61-5825-40cf-8258-193cbea8a7dd"
+    ],
+    "fact_type": "totalCurrentLiabilities",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 91654000000.0,
+    "unit": "USD",
+    "description": "GOOGL Total Current Liabilities for Q1: $91,654,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "8657692c-0c6e-4e6d-af8f-cdc2fe6e1cbf",
+    "chunk_ids": [
+      "108cab45-591c-48c9-8618-3acb9df4e48d"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 52402000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Cash Flow for Q4: $52,402,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "5196f4bd-0628-4577-a87a-f9273a48ba49",
+    "chunk_ids": [
+      "75b45b73-ff10-43c8-a2a6-d534cda64146"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": -27851000000.0,
+    "unit": "USD",
+    "description": "GOOGL Capital Expenditure for Q4: $-27,851,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "31486559-33d9-4bdc-b715-fc2129713406",
+    "chunk_ids": [
+      "5d02c584-66c3-4dba-9454-0ad11b42281a"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": 24551000000.0,
+    "unit": "USD",
+    "description": "GOOGL Free Cash Flow for Q4: $24,551,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1ffa1312-0503-4020-a052-13d92ff5d266",
+    "chunk_ids": [
+      "724ac1f1-df78-4853-8e97-b5cb9d89ad64"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "GOOGL",
+    "period": "Q4",
+    "value": -5499000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stock Buybacks for Q4: $-5,499,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e41ae995-afb0-4da2-88ce-9e4b24f9c692",
+    "chunk_ids": [
+      "f2f6e55f-7516-4a27-84e2-d89697f4750d"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 48414000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Cash Flow for Q3: $48,414,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "a649c2ff-c99c-4b63-8e6d-b675e253d434",
+    "chunk_ids": [
+      "69323b7b-4d89-4390-8291-bccff4907ab7"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": -23953000000.0,
+    "unit": "USD",
+    "description": "GOOGL Capital Expenditure for Q3: $-23,953,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "88b9caaf-7589-425b-ba05-7f8675a5bcfc",
+    "chunk_ids": [
+      "9bafa0b7-dfa1-4b39-a5f0-e11176ac633d"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": 24461000000.0,
+    "unit": "USD",
+    "description": "GOOGL Free Cash Flow for Q3: $24,461,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "885bef50-70a2-4922-a593-0cc0e8323d13",
+    "chunk_ids": [
+      "d2b0cd1c-c4f5-46dc-a519-7e2eda07c57f"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "GOOGL",
+    "period": "Q3",
+    "value": -11504000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stock Buybacks for Q3: $-11,504,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "7f828852-d85b-4aa0-866f-705ef89cd957",
+    "chunk_ids": [
+      "3889bf1a-d948-4b2f-a9d6-6a569bf6b633"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 27747000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Cash Flow for Q2: $27,747,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "f317e668-aca8-4fd3-b8d9-dd2dd0767fe3",
+    "chunk_ids": [
+      "253d509e-af29-434a-850d-a23dd733eb99"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": -22446000000.0,
+    "unit": "USD",
+    "description": "GOOGL Capital Expenditure for Q2: $-22,446,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "cec61f3a-3010-4fa3-8aa5-51846975a269",
+    "chunk_ids": [
+      "c85cbec9-d696-4b1c-8d2b-2787b55d3538"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": 5301000000.0,
+    "unit": "USD",
+    "description": "GOOGL Free Cash Flow for Q2: $5,301,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "45fc4112-8120-43a5-9df2-fd0843aa799f",
+    "chunk_ids": [
+      "b39a7fbf-2d3a-493f-8ec7-c9e326d4a561"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "GOOGL",
+    "period": "Q2",
+    "value": -13638000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stock Buybacks for Q2: $-13,638,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "0170c483-ce1e-4027-bca8-f604dab69c78",
+    "chunk_ids": [
+      "3f7c52df-1463-418a-984f-fc35ab62b717"
+    ],
+    "fact_type": "operatingCashFlow",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 36150000000.0,
+    "unit": "USD",
+    "description": "GOOGL Operating Cash Flow for Q1: $36,150,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "1b6d5630-e08a-42aa-ae46-cd1190bfb0ae",
+    "chunk_ids": [
+      "b2c4ba46-49e1-49a2-9a2c-449706691669"
+    ],
+    "fact_type": "capitalExpenditure",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": -17197000000.0,
+    "unit": "USD",
+    "description": "GOOGL Capital Expenditure for Q1: $-17,197,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "737ef1de-ab4b-43d6-b3d1-ddc448b9a75a",
+    "chunk_ids": [
+      "aad02ae0-8002-40e3-a9aa-229ce9f3324f"
+    ],
+    "fact_type": "freeCashFlow",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": 18953000000.0,
+    "unit": "USD",
+    "description": "GOOGL Free Cash Flow for Q1: $18,953,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "36b18744-6f13-47d0-9315-1b30fc50c204",
+    "chunk_ids": [
+      "d4c88597-e447-4f43-b347-81502a1f2d39"
+    ],
+    "fact_type": "commonStockRepurchased",
+    "subject": "GOOGL",
+    "period": "Q1",
+    "value": -15068000000.0,
+    "unit": "USD",
+    "description": "GOOGL Stock Buybacks for Q1: $-15,068,000,000",
+    "confidence": 1.0
+  },
+  {
+    "fact_id": "e19793aa-3009-4109-8f3d-0dc28bdab62c",
+    "chunk_ids": [
+      "8f1db54c-1c80-47d5-bc83-745ce39b3cdc"
+    ],
+    "fact_type": "financial_result",
+    "subject": "GOOGL",
+    "period": "2025-Q4",
+    "value": null,
+    "unit": null,
+    "description": "Visible Alpha consensus for Alphabet Inc.'s Q4 2025 total revenues increased to $111.4 billion from $108.8 billion in the previous quarter's estimate.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "09201128-1925-4da0-8be8-a377c71eeb45",
+    "chunk_ids": [
+      "73ac7e9b-49d3-4f3e-9a99-8544d5cbb978",
+      "5e6c4735-792a-4fd0-984b-1083a7e3d86b"
+    ],
+    "fact_type": "regulatory",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": null,
+    "unit": null,
+    "description": "The U.S. government and a majority of U.S. states filed an appeal against the outcome of a landmark antitrust case in which a federal judge ruled Google holds a monopoly in online search.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "2eec8ce9-5f43-4019-ba67-01bc512c2aa8",
+    "chunk_ids": [
+      "5127f0f8-81ef-418e-8392-d88ad24524d4"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": null,
+    "unit": null,
+    "description": "Zacks highlighted Alphabet in top analyst reports, citing AI-driven growth in Cloud, Search, and YouTube as key drivers for strong stock outperformance.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "fe08876e-49d1-408f-b2b8-776493a7bbb2",
+    "chunk_ids": [
+      "3a693174-1a20-4d2d-8eab-27e3c6138988",
+      "5ec952db-478c-424e-a72c-a670ddb58c61",
+      "c3928e80-b17f-44a3-9df3-bf326cb04ac0",
+      "3380d305-0653-4e26-b9c6-3f12dd47ff1b"
+    ],
+    "fact_type": "market_trend",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": null,
+    "unit": null,
+    "description": "Wall Street investors shifted away from AI stocks toward safer investments following a sector rout, with major indices falling ahead of Google's earnings report.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "a56f05e4-1c0a-4e90-a092-273391ad9739",
+    "chunk_ids": [
+      "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84"
+    ],
+    "fact_type": "analyst_rating",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": null,
+    "unit": null,
+    "description": "Earnings previews question whether Alphabet's AI and Cloud momentum is sufficient to sustain its $4 trillion valuation.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "0d28bf4b-73a8-4093-9f1e-5790bd5fa792",
+    "chunk_ids": [
+      "8d664f85-e4af-4778-b979-1e3809ae2a8c"
+    ],
+    "fact_type": "market_trend",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": null,
+    "unit": null,
+    "description": "Investors plan to closely monitor Alphabet's cloud services for AI-driven growth amid reemerging Capital Expenditure concerns among Mag 7 companies.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "adcb3f5d-cea2-4676-bc20-6502b3208305",
+    "chunk_ids": [
+      "b5f5dcd3-4775-466a-8d4e-bb1fb1f53221"
+    ],
+    "fact_type": "partnership",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": null,
+    "unit": null,
+    "description": "Analysis of Apple's stock narrative includes the Google Gemini partnership as a factor shaping Apple's financial profile alongside services growth debates.",
+    "confidence": 0.9
+  },
+  {
+    "fact_id": "065e4bdc-3e8c-4bbc-a751-cbe00c088913",
+    "chunk_ids": [],
+    "fact_type": "latest_price",
+    "subject": "GOOGL",
+    "period": "2026-02-03",
+    "value": 339.71,
+    "unit": "USD",
+    "description": "GOOGL latest close price: $339.71",
+    "confidence": 1.0
+  }
+]

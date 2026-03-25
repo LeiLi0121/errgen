@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "6557f513-aba0-4b0f-b328-84d0191030ed",
+  "section_name": "Recent Developments",
+  "text": "American Express announced significant small business support initiatives on November 12, 2025, including a new $5 million Amex Shop Small Grants Program, a content partnership with creator and small business advocate Keith Lee, and free customized signage for small businesses. This builds on the company's long-standing commitment since creating Small Business Saturday in 2010. Additionally, the company presented at the KBW Fintech Payments Conference 2025 on November 12, 2025, providing management commentary on strategic direction. The Resy Retrospective annual dining report was also released, highlighting dining trends and what is on the rise for 2026, reflecting Amex's connected dining ecosystem.",
+  "citations": [
+    {
+      "citation_id": "b442adc0-f03a-4584-b9f8-0d91577ac32f",
+      "chunk_id": "34d745a1-70a0-44d7-aba6-b53040fa74a5",
+      "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T14:00:00Z | Yahoo\nTitle: American Express, Founder of Small Business Saturday®, Expands Small Business Support with New $5 Million Shop Small Grants Program\nURL: https://finnhub.io/api/news?id=8f186cceb1f22bf0372eac182225c2c0f195748c0050f21456b772d478ccfde0\nNEW YORK, November 12, 2",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "322eb9c9-4e22-40ff-8e82-b7d429770206",
+      "chunk_id": "ea79034a-cd0b-4719-9b0b-97f73e8d7b35",
+      "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T13:51:33Z | SeekingAlpha\nTitle: American Express Company (AXP) Presents at KBW Fintech Payments Conference 2025 Transcript\nURL: https://finnhub.io/api/news?id=18ed09731a98653e065c4a76a7b5f24b889077a6b463cff2a5402a70cf8d0af2\nAmerican Express Company (AXP) KBW Fintech Payments Confer",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "edd1fe5f-98f3-4b02-98bb-82e9579c8228",
+      "chunk_id": "432cde56-fdbb-4984-b534-a1cf74d771eb",
+      "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T16:05:00Z | Yahoo\nTitle: From Share Plates to Smart Tech, The 2025 Resy Retrospective Reveals Dining Is More Connected Than Ever\nURL: https://finnhub.io/api/news?id=ab579e4f525dceb9d777793733314e2bc38b906ccef47da26f2f97c796fc1e90\nNEW YORK, November 12, 2025--The Resy Retrospective ",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "34d745a1-70a0-44d7-aba6-b53040fa74a5",
+    "ea79034a-cd0b-4719-9b0b-97f73e8d7b35",
+    "432cde56-fdbb-4984-b534-a1cf74d771eb"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

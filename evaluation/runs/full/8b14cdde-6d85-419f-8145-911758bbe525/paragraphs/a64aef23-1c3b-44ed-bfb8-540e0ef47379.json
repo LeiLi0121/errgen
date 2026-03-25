@@ -1,0 +1,83 @@
+{
+  "paragraph_id": "a64aef23-1c3b-44ed-bfb8-540e0ef47379",
+  "section_name": "Financial Analysis",
+  "text": "R&D investment intensity remains elevated at 9.43% of revenue in Q3 2025, with R&D expenses of $8,866,000,000 against revenue of $94,036,000,000. This represents an increase from Q2 2025 R&D spending of $8,550,000,000, suggesting continued commitment to innovation despite revenue headwinds. The high R&D intensity reflects Apple's strategic focus on developing new product categories and AI capabilities, which will be critical for future growth drivers beyond the iPhone franchise.",
+  "citations": [
+    {
+      "citation_id": "99bfc069-7db1-417c-b5f4-1be07fba0585",
+      "chunk_id": "7f180581-d7ba-4bbc-a670-d78610b371fc",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – AAPL | Period: Q3 | Date: 2025-06-28\n  Revenue:            $94,036,000,000\n  Gross Profit:       $43,718,000,000 (margin N/A)\n  Operating Income:   $28,202,000,000 (margin N/A)\n  Net Income:         $23,434,000,000 (margin N/A)\n  EBITDA:             $30,861,000,000\n  EPS:         ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "36d63d2e-72a2-485f-9826-00f153b5fcd9",
+      "chunk_id": "e0d342f5-f2cc-45c4-8a18-26a9861a09bd",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for Q3: $8,866,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0a7d7bd8-c5df-4ad1-b4f0-8804f02de6f4",
+      "chunk_id": "e6af46fe-5658-4394-a53d-55ad0bb4420b",
+      "source_id": "4a337388-be62-4583-8feb-ae141441611a",
+      "source_type": "income_statement",
+      "text_snippet": "AAPL R&D Expenses for Q2: $8,550,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "7f180581-d7ba-4bbc-a670-d78610b371fc",
+    "e0d342f5-f2cc-45c4-8a18-26a9861a09bd",
+    "e6af46fe-5658-4394-a53d-55ad0bb4420b"
+  ],
+  "calc_ids": [
+    "6c7e97e9-5f98-4195-bc31-e81a898c45da"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "a221b59a-7a32-4019-a8a6-c7d616a6bb97",
+      "paragraph_id": "a64aef23-1c3b-44ed-bfb8-540e0ef47379",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "7fa488e5-fbde-43f2-9e24-932027c08435",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "a64aef23-1c3b-44ed-bfb8-540e0ef47379",
+          "offending_span": "The high R&D intensity reflects Apple's strategic focus on developing new product categories and AI capabilities",
+          "explanation": "This is a factual claim about Apple's strategic focus on specific areas (new product categories and AI capabilities). However, the cited chunks (C003, C010, C018) are all income statement financial data that contain no information about company strategy, product development priorities, or AI initiatives. This claim cannot be verified from the provided evidence.",
+          "relevant_chunk_ids": [
+            "7f180581-d7ba-4bbc-a670-d78610b371fc",
+            "e0d342f5-f2cc-45c4-8a18-26a9861a09bd",
+            "e6af46fe-5658-4394-a53d-55ad0bb4420b"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite additional evidence chunks that contain management commentary, strategic announcements, or analyst reports discussing Apple's R&D focus areas, or rephrase to indicate this is analyst interpretation rather than established fact (e.g., 'may reflect strategic focus on...')."
+        },
+        {
+          "issue_id": "b5b472d7-0c0f-48bf-8d55-3dd0e72f781d",
+          "issue_type": "overclaiming",
+          "severity": "minor",
+          "paragraph_id": "a64aef23-1c3b-44ed-bfb8-540e0ef47379",
+          "offending_span": "which will be critical for future growth drivers beyond the iPhone franchise",
+          "explanation": "The language 'will be critical' implies certainty about future outcomes that the evidence does not warrant. This is speculative forward-looking analysis presented with definitive language. The cited financial data chunks do not support predictions about future growth drivers or the criticality of R&D investments.",
+          "relevant_chunk_ids": [
+            "7f180581-d7ba-4bbc-a670-d78610b371fc",
+            "e0d342f5-f2cc-45c4-8a18-26a9861a09bd",
+            "e6af46fe-5658-4394-a53d-55ad0bb4420b"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Soften the language to reflect uncertainty, such as 'which could be important for future growth drivers' or 'which management believes will be critical for...'"
+        }
+      ],
+      "checked_at": "2026-03-25T02:01:12.287860",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

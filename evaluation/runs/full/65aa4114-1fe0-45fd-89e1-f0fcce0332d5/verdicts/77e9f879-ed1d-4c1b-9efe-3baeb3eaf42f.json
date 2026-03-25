@@ -1,0 +1,54 @@
+{
+  "verdict_id": "77e9f879-ed1d-4c1b-9efe-3baeb3eaf42f",
+  "paragraph_id": "44f26d27-c146-457b-bac4-9e98cfb82b07",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "a60128be-e83d-4d7f-807a-7e452c7c58ec",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "44f26d27-c146-457b-bac4-9e98cfb82b07",
+      "offending_span": "elevated capital expenditures of $32.2 billion, up from $25.0 billion in Q1",
+      "explanation": "The cited chunks (C003, C010, C011) are income statement data that contain Revenue, Gross Profit, Operating Income, Net Income, EBITDA, EPS, and R&D Expenses. None of these chunks contain Capital Expenditure (CapEx) figures. While the CapEx numbers appear correct based on Previously Verified Facts (Risk Analysis section), that section is not cited for this claim. CapEx data would typically be found in a cash flow statement, not an income statement.",
+      "relevant_chunk_ids": [
+        "945da1b0-355c-4d42-afbc-f991397023b7",
+        "0f4f74da-9229-47a9-9a79-80db47d147e9",
+        "c7e4eb3e-bb13-4bab-82cf-1da4a12c704f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite the correct chunk(s) that contain CapEx data (likely a cash flow statement chunk), or remove the specific CapEx figures if no supporting chunk is available. The Previously Verified Facts indicate CapEx data exists but the wrong chunks are referenced."
+    },
+    {
+      "issue_id": "b4e23a42-1eec-4104-a43c-192f2bd49cc0",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "44f26d27-c146-457b-bac4-9e98cfb82b07",
+      "offending_span": "which creates financial risk through volatile free cash flow generation",
+      "explanation": "This is an analytical conclusion about financial risk that is not directly supported by the cited income statement chunks (C003, C010, C011). While similar language appears in the Previously Verified Facts (Risk Analysis section), that section is not cited for this paragraph. The cited chunks only contain numerical income statement data without risk commentary.",
+      "relevant_chunk_ids": [
+        "945da1b0-355c-4d42-afbc-f991397023b7",
+        "0f4f74da-9229-47a9-9a79-80db47d147e9",
+        "c7e4eb3e-bb13-4bab-82cf-1da4a12c704f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite the Risk Analysis section from Previously Verified Facts that contains this risk commentary, or rephrase as analytical opinion rather than fact supported by the cited evidence."
+    },
+    {
+      "issue_id": "3e883a61-7ea1-4c3f-8903-cdb005198ab7",
+      "issue_type": "unsupported_claim",
+      "severity": "minor",
+      "paragraph_id": "44f26d27-c146-457b-bac4-9e98cfb82b07",
+      "offending_span": "These capital intensity dynamics constrain near-term cash returns to shareholders despite strong operating performance",
+      "explanation": "This is an analytical conclusion about shareholder cash returns that is not directly supported by the cited income statement chunks (C003, C010, C011). The cited chunks contain no information about cash returns to shareholders (dividends, buybacks) or management commentary on capital allocation policy.",
+      "relevant_chunk_ids": [
+        "945da1b0-355c-4d42-afbc-f991397023b7",
+        "0f4f74da-9229-47a9-9a79-80db47d147e9",
+        "c7e4eb3e-bb13-4bab-82cf-1da4a12c704f"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite additional chunks that contain information about shareholder returns or capital allocation policy, or rephrase as analytical opinion rather than evidence-supported fact."
+    }
+  ],
+  "checked_at": "2026-03-24T19:30:52.343647",
+  "iteration": 0
+}

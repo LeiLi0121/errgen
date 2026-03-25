@@ -1,0 +1,59 @@
+{
+  "paragraph_id": "11d0af61-a1e0-49a6-b144-3ea609509c16",
+  "section_name": "Risk Analysis",
+  "text": "Macro and market conditions present external risks to Amazon's performance. News coverage as of July 2025 indicates Wall Street preparedness for major earnings releases and economic data that could shake markets, suggesting heightened volatility in the broader equity environment. General market uncertainty and potential 'sell the news' phenomena could impact investor sentiment toward large-cap technology stocks including Amazon. However, specific evidence regarding export controls, currency fluctuations, or interest rate impacts on Amazon's operations is not available in the provided data. The company's international segment exposure, as noted in its business description, suggests potential currency risk, though the magnitude cannot be quantified from available evidence.",
+  "citations": [
+    {
+      "citation_id": "c44e823d-71d3-4135-a3ce-add33e9c0511",
+      "chunk_id": "42d04575-b893-4d6b-8cb6-7da4fe4ad70a",
+      "source_id": "9b8f61eb-123c-4415-b261-121a276d226d",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck\nURL: https://finnhub.io/api/news?id=b557fdb2657f5992a5214e733fe13e0add42bfeeacbb47a38ebc67edde9199a0\nWall Street prepared for major earnings and economic data ahea",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "521a3edb-9940-46c7-b684-5afab8ecdc66",
+      "chunk_id": "f0225fa0-138b-473e-aa3a-bc0e30ebf762",
+      "source_id": "9b8f61eb-123c-4415-b261-121a276d226d",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T23:37:20Z | Yahoo\nTitle: Stock market today: Dow, S&P 500, Nasdaq futures climb ahead of week poised to shake markets\nURL: https://finnhub.io/api/news?id=da4975e4c6bad2486535417cb14a94aca7e0f6ef527599db5d08bae390ae7deb\nUS stock futures traded flat as Wall Street prepared for major ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6c259656-a357-4f7b-99fa-8d0ff6d99f27",
+      "chunk_id": "850e2522-e57f-4f1e-9253-76b599c784ba",
+      "source_id": "9b8f61eb-123c-4415-b261-121a276d226d",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-28T22:47:00Z | Yahoo\nTitle: August: Time to Unplug from Markets?\nURL: https://finnhub.io/api/news?id=6d4b1dea0953058233e17e9b2b1ae4c7bdf1f2377e74e8f9d1ad2cd0958f3d9c\nWhile stocks continue to print fresh all-time highs, the 'sell the news' phenomenon, August post-election seasonality, ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7752c607-e363-4bf9-bc7d-cc098efa5b14",
+      "chunk_id": "03f715fc-49e6-4682-9dea-a74681556e05",
+      "source_id": "4d3309e8-77c2-4a88-994c-e5fb999d217b",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its store",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "42d04575-b893-4d6b-8cb6-7da4fe4ad70a",
+    "f0225fa0-138b-473e-aa3a-bc0e30ebf762",
+    "850e2522-e57f-4f1e-9253-76b599c784ba",
+    "03f715fc-49e6-4682-9dea-a74681556e05"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "83e7040f-1c39-4366-a515-2fd79f6d8822",
+      "paragraph_id": "11d0af61-a1e0-49a6-b144-3ea609509c16",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T18:59:45.349170",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,59 @@
+{
+  "verdict_id": "43a5f16b-42d5-406c-a0ac-1c6674134e58",
+  "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "0e68322c-1d24-4d1e-b853-89c7a93dc4b6",
+      "issue_type": "citation_mismatch",
+      "severity": "critical",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "R&D expenses of $610,000,000 (C009)",
+      "explanation": "C009 is cited in the paragraph text but is NOT in the official cited chunk refs list ['C011', 'C018', 'C025', 'C032']. Additionally, the actual cited chunks (C011, C018, C025, C032) contain revenue and total assets data, NOT R&D expense data. The $610M figure is supported by K005 calculation result, not by any chunk.",
+      "relevant_chunk_ids": [
+        "97f0b5f5-a993-44cd-b270-f071820f4bd6",
+        "1630d36b-d932-4b2a-b81f-14116cd56166",
+        "ba9ccc6c-ec55-43df-a127-bc9402676cb9",
+        "267bddf6-6561-4bf7-8c76-52b468e2c326"
+      ],
+      "relevant_calc_ids": [
+        "96ed5e8e-8d7a-4666-bffb-29914da0ca2c"
+      ],
+      "recommended_fix": "Change citation from (C009) to (K005) for the $610,000,000 R&D expense figure, or ensure C009 is included in the cited chunk refs if it contains R&D data."
+    },
+    {
+      "issue_id": "dcb95a18-544b-451d-b496-38a8e2b10195",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "Q1 2025's $568,000,000 (C016), Q3 2024's $524,000,000 (C023), and Q2 2024's $519,000,000 (C030)",
+      "explanation": "C016, C023, and C030 are cited for historical R&D expense figures but are NOT in the provided cited chunk refs list. These chunks are not available in the evidence provided, making these historical comparison claims unverifiable. The actual cited chunks (C011, C018, C025, C032) contain revenue and assets data, not R&D expenses.",
+      "relevant_chunk_ids": [
+        "97f0b5f5-a993-44cd-b270-f071820f4bd6",
+        "1630d36b-d932-4b2a-b81f-14116cd56166",
+        "ba9ccc6c-ec55-43df-a127-bc9402676cb9",
+        "267bddf6-6561-4bf7-8c76-52b468e2c326"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either include C016, C023, C030 in the cited chunk refs with actual R&D expense data, or remove the historical comparison figures if evidence is unavailable."
+    },
+    {
+      "issue_id": "d9dcd593-6057-4e16-a10a-b27b3c6d945b",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+      "offending_span": "Cited chunk refs: ['C011', 'C018', 'C025', 'C032']",
+      "explanation": "The four cited chunks (C011, C018, C025, C032) contain Q1 2025 revenue, Q3 2024 revenue, Q2 2024 revenue, and Q2 2025 total assets respectively. None of these chunks contain R&D expense data to support the paragraph's claims about R&D investment levels across multiple periods.",
+      "relevant_chunk_ids": [
+        "97f0b5f5-a993-44cd-b270-f071820f4bd6",
+        "1630d36b-d932-4b2a-b81f-14116cd56166",
+        "ba9ccc6c-ec55-43df-a127-bc9402676cb9",
+        "267bddf6-6561-4bf7-8c76-52b468e2c326"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Replace the cited chunk refs with chunks that actually contain R&D expense data for the relevant periods, or restructure the paragraph to only claim what the cited evidence supports."
+    }
+  ],
+  "checked_at": "2026-03-24T10:43:10.096048",
+  "iteration": 1
+}

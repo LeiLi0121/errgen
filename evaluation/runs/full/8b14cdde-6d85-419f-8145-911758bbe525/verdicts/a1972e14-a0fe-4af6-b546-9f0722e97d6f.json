@@ -1,0 +1,48 @@
+{
+  "verdict_id": "a1972e14-a0fe-4af6-b546-9f0722e97d6f",
+  "paragraph_id": "fc2584f8-c860-471e-94e8-d17a2bf8fb04",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "e2045e85-0995-4bc9-a4a2-7bbd090a269d",
+      "issue_type": "internal_inconsistency",
+      "severity": "critical",
+      "paragraph_id": "fc2584f8-c860-471e-94e8-d17a2bf8fb04",
+      "offending_span": "specific evidence regarding export controls, regulatory actions, or supply chain disruptions is not available in the provided data as of the report date",
+      "explanation": "This statement contradicts the 'Previously Verified Facts' section, which explicitly confirms that 'Regulatory and trade policy developments present near-term risks' and 'President Trump is preparing industry-specific tariffs' were verified from the report data. Claiming this evidence is unavailable creates a direct inconsistency within the report's findings.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise to acknowledge the verified regulatory and trade policy risks identified in the Recent Developments section, or remove the claim that evidence is unavailable."
+    },
+    {
+      "issue_id": "7b01ecee-7a41-4543-b046-bf7c0252c2bd",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "fc2584f8-c860-471e-94e8-d17a2bf8fb04",
+      "offending_span": "distribution through third-party carriers and retailers",
+      "explanation": "The cited chunks (C001, C002) describe Apple's products and services but do not mention specific distribution channels, third-party carriers, or retailers. This claim is not supported by the provided evidence.",
+      "relevant_chunk_ids": [
+        "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+        "721a842d-93a9-49cf-925e-0000da2406a8"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove the specific reference to third-party carriers and retailers unless supported by a cited chunk, or generalize to 'global distribution networks'."
+    },
+    {
+      "issue_id": "05f113ee-738f-4776-91e9-6e0d4995b988",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "fc2584f8-c860-471e-94e8-d17a2bf8fb04",
+      "offending_span": "dependence on concentrated manufacturing regions",
+      "explanation": "While C002 states Apple manufactures 'worldwide', neither C001 nor C002 specifies 'concentrated manufacturing regions' or dependence on specific geographies. This level of detail is not found in the cited evidence.",
+      "relevant_chunk_ids": [
+        "60050d49-2ab3-4a61-bd9c-efafcf4b7fc0",
+        "721a842d-93a9-49cf-925e-0000da2406a8"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Qualify the statement as general industry knowledge not derived from the cited chunks, or cite additional evidence that specifies manufacturing concentration."
+    }
+  ],
+  "checked_at": "2026-03-25T02:06:54.367088",
+  "iteration": 0
+}

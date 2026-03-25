@@ -1,0 +1,28 @@
+{
+  "paragraph_id": "668e8d69-3864-4580-8b72-e6a072637f7a",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Financial performance in Q2 2025 demonstrates strong profitability metrics, with operating margin of 19.77% and net margin of 20.74% K003, K004. Net income reached $642M in Q2 2025, representing 316.88% year-over-year growth from Q2 2024's $555M K002. However, the company issued margin warnings for the third and fourth quarters of 2025, which contributed to a 7% share price decline despite beating earnings estimates C022. R&D intensity remains elevated at 19.70% of revenue in Q2 2025, indicating continued investment in product development K005.",
+  "citations": [
+    {
+      "citation_id": "5e688c21-8e74-4b14-8124-177355e20f5e",
+      "chunk_id": "ad3f4a36-7a6c-4ee6-8656-d1420240fdca",
+      "source_id": "4efbf4ad-7f4b-4192-aaac-a5fe08aa0418",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-07T16:19:00Z | Yahoo\nTitle: ABNB Q2 Earnings Beat Estimates, Revenues Rise Y/Y, Shares Drop\nURL: https://finnhub.io/api/news?id=b61dc08b4df4fa5d28251adec9bd22266a9c1d5c029193c73b8e1a553f2f8484\nABNB beats Q2 estimates on strong bookings and rising ADR, but shares drop 7% on margin warn",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "ad3f4a36-7a6c-4ee6-8656-d1420240fdca"
+  ],
+  "calc_ids": [
+    "a7108c64-658c-4270-9885-74aaae733f89",
+    "1f69ca94-20a1-4a98-ac20-85e4cb6ac490",
+    "176dad6a-89fc-4bd5-8799-f67c30065efd",
+    "db12f70e-c5c6-4456-8d3e-16f317427061"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

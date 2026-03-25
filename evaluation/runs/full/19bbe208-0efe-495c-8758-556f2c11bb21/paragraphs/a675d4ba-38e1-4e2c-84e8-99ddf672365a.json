@@ -1,0 +1,101 @@
+{
+  "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Analyst commentary highlights AI and cloud momentum as critical factors in sustaining valuation. However, net income growth exhibited notable volatility throughout 2025, declining 18.37% in Q2 before rebounding 24.06% in Q3, then contracting 1.50% in Q4. This variability indicates potential sensitivity to market conditions or operational execution challenges that investors should monitor.",
+  "citations": [
+    {
+      "citation_id": "4a585660-53ec-4480-95c4-509085158a9c",
+      "chunk_id": "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84",
+      "source_id": "c5b03dae-cd2a-493f-8f0e-b9d9f5e816b0",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2026-02-03T22:25:00Z | SeekingAlpha\nTitle: Alphabet Q4 Earnings Preview: Can AI And Cloud Momentum Sustain The $4 Trillion Valuation?\nURL: https://finnhub.io/api/news?id=1834e5043fa6b9ef9c705625e1e3a5171d687f7b701675033f50ba3c29800aca\nAlphabet Q4 Earnings Preview: Can AI And Cloud Momentum Su",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "16bbdc65-7755-4ed5-aa32-bab0c5c9bb84"
+  ],
+  "calc_ids": [
+    "f14fc8c2-353c-4d37-acc7-eac04267cef6"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "737f0729-1983-40af-b5f7-99897bb09a52",
+      "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "d1fb8fb7-7a28-4de8-91ee-aed7432875b9",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+          "offending_span": "Key growth drivers center on artificial intelligence integration across the product ecosystem and expanding cloud infrastructure demand.",
+          "explanation": "This claim about AI integration and cloud infrastructure as growth drivers is not found in C002 (company profile describing segments/products) or C034 (news about Apple valuation after Gemini deal). While this statement appears in Previously Verified Facts under Business & Competitive Analysis, those facts were verified from different source chunks, not C002 or C034.",
+          "relevant_chunk_ids": [
+            "4cd739a1-9f97-4495-9e41-38bab6d86e50",
+            "b5f5dcd3-4775-466a-8d4e-bb1fb1f53221"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Either cite the correct chunks that contain analyst commentary on AI/cloud growth drivers, or remove this claim if not supported by the currently cited evidence."
+        },
+        {
+          "issue_id": "673ca324-529e-43ec-a4df-0982144c5509",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+          "offending_span": "Analyst commentary highlights AI and cloud momentum as critical factors in sustaining valuation",
+          "explanation": "Neither C002 nor C034 contains analyst commentary about AI and cloud momentum sustaining valuation. C002 is a basic company profile. C034 discusses Apple's fair value adjustment and mentions the Gemini partnership but does not contain analyst commentary about AI/cloud momentum for valuation.",
+          "relevant_chunk_ids": [
+            "4cd739a1-9f97-4495-9e41-38bab6d86e50",
+            "b5f5dcd3-4775-466a-8d4e-bb1fb1f53221"
+          ],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Cite the correct chunks containing analyst commentary (likely from the Recent Developments verified facts sources), or rephrase to reflect what C034 actually states about the Gemini partnership debate."
+        },
+        {
+          "issue_id": "58c80143-ae74-4a60-8c7b-aa2cb0d24d7b",
+          "issue_type": "citation_mismatch",
+          "severity": "minor",
+          "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+          "offending_span": "This variability indicates potential sensitivity to market conditions or operational execution challenges that investors should monitor.",
+          "explanation": "While this interpretation appears in Previously Verified Facts under Risk Analysis, the cited chunks (C002, C034, K002) do not contain this interpretive conclusion. K002 only provides the numerical data without interpretation. C002 and C034 do not discuss operational execution challenges.",
+          "relevant_chunk_ids": [
+            "4cd739a1-9f97-4495-9e41-38bab6d86e50",
+            "b5f5dcd3-4775-466a-8d4e-bb1fb1f53221"
+          ],
+          "relevant_calc_ids": [
+            "f14fc8c2-353c-4d37-acc7-eac04267cef6"
+          ],
+          "recommended_fix": "Either cite the Risk Analysis source chunks that support this interpretation, or present this as the author's analysis rather than evidence-based conclusion."
+        }
+      ],
+      "checked_at": "2026-03-24T17:57:17.862450",
+      "iteration": 0
+    },
+    {
+      "verdict_id": "528bc298-8f88-44b2-8f1a-c9616c4f2bdd",
+      "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T17:58:09.878731",
+      "iteration": 1
+    }
+  ],
+  "revision_history": [
+    {
+      "revision_id": "a8a13db8-7cb3-4ddf-a788-aaaa24aa7a76",
+      "paragraph_id": "a675d4ba-38e1-4e2c-84e8-99ddf672365a",
+      "iteration": 1,
+      "original_text": "Key growth drivers center on artificial intelligence integration across the product ecosystem and expanding cloud infrastructure demand. Analyst commentary highlights AI and cloud momentum as critical factors in sustaining valuation, with strategic partnerships such as the reported Google Gemini collaboration with Apple potentially influencing both companies' financial profiles. However, net income growth exhibited notable volatility throughout 2025, declining 18.37% in Q2 before rebounding 24.06% in Q3, then contracting 1.50% in Q4. This variability indicates potential sensitivity to market conditions or operational execution challenges that investors should monitor.",
+      "revised_text": "Analyst commentary highlights AI and cloud momentum as critical factors in sustaining valuation. However, net income growth exhibited notable volatility throughout 2025, declining 18.37% in Q2 before rebounding 24.06% in Q3, then contracting 1.50% in Q4. This variability indicates potential sensitivity to market conditions or operational execution challenges that investors should monitor.",
+      "issues_addressed": [
+        "d1fb8fb7-7a28-4de8-91ee-aed7432875b9",
+        "673ca324-529e-43ec-a4df-0982144c5509"
+      ],
+      "changes_summary": "Removed unsupported claims about AI integration across product ecosystem and cloud infrastructure demand as growth drivers (no evidence in originally cited chunks C002/C034). Removed the Google-Apple Gemini partnership claim as C034 discusses Apple's valuation adjustments, not Alphabet's strategic partnerships. Changed chunk citation from C002/C034 to C033 which contains the analyst commentary title about AI and cloud momentum sustaining valuation. Retained net income volatility figures as they are correctly supported by K002 calculation.",
+      "revised_at": "2026-03-24T17:57:48.072996"
+    }
+  ],
+  "iteration": 0
+}

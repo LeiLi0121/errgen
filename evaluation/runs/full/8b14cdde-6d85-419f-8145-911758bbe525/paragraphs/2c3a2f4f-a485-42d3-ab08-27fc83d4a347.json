@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "2c3a2f4f-a485-42d3-ab08-27fc83d4a347",
+  "section_name": "Recent Developments",
+  "text": "Apple's recent financial performance shows signs of pressure, with Q3 revenue declining 1.39% year-over-year to $94.04 billion and net income falling 5.43% to $23.43 billion. The stock has underperformed significantly, down 15% for the year as of July 18, 2025, while the broader market rallied from April and May lows. Over the past 12 months, AAPL returned -5.80% compared to the S&P 500's 13.56% gain, representing a 19.36 percentage point underperformance. However, the stock has shown recent momentum with a 7.43% return over the past 30 days, outpacing the benchmark by 2.38 percentage points.",
+  "citations": [
+    {
+      "citation_id": "2da22284-d0ec-4960-a425-5ea97a9cb75b",
+      "chunk_id": "88b5dd08-e3de-431c-884f-fdcd508aae58",
+      "source_id": "a94033a5-0a68-464a-852a-720b4c906546",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-07-18T21:18:00Z | Yahoo\nTitle: Should You Sell Apple's Stock Before July 31?\nURL: https://finnhub.io/api/news?id=562108f76534fd602841e9346ffa66a55556185f316840d982def8fb8794e0a7\nApple has fallen behind in the AI arms race.  This could apply to Apple (NASDAQ: AAPL), as investors have been",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "88b5dd08-e3de-431c-884f-fdcd508aae58"
+  ],
+  "calc_ids": [
+    "e676e81f-f796-4d3e-b853-808bbeccc97f",
+    "3293bd53-b150-49dd-90a8-a560b12c7900",
+    "9d692402-a2d4-46c4-81bf-36b052912819",
+    "9d22c71e-c266-4fde-86f0-89279969851a",
+    "9c9a8a83-9035-4691-8f88-bc7070b6da81",
+    "718b569e-cf52-4bd3-ac0d-9e2247e1cf5f",
+    "fde0201c-9c8c-4e15-b19b-fcfdd27def46",
+    "16b424f7-9019-47b5-9f0a-756f6b1cb75f"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "e211a563-d0a6-427d-beb0-e7dfbe5ffa7e",
+      "paragraph_id": "2c3a2f4f-a485-42d3-ab08-27fc83d4a347",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-25T01:55:03.312947",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

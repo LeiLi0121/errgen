@@ -1,0 +1,20 @@
+{
+  "verdict_id": "02a75db5-d451-426e-8284-5d401b196f75",
+  "paragraph_id": "4bc5919e-2c4f-4a5a-a0d8-d5aa9bf97036",
+  "status": "pass",
+  "issues": [
+    {
+      "issue_id": "9bf3dc2c-e96d-435e-b584-9c7b10ab8d16",
+      "issue_type": "overclaiming",
+      "severity": "minor",
+      "paragraph_id": "4bc5919e-2c4f-4a5a-a0d8-d5aa9bf97036",
+      "offending_span": "This working capital structure is typical for Apple",
+      "explanation": "The claim that this working capital structure is 'typical for Apple' implies certainty about historical patterns, but no historical balance sheet data is cited to support what constitutes 'typical' for Apple. This is analytical commentary that goes beyond the provided evidence chunks, which only contain Q3 2025 data.",
+      "relevant_chunk_ids": [],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Either cite historical balance sheet data to support the 'typical' characterization, or rephrase to indicate this is an analyst observation (e.g., 'This working capital structure has been observed in Apple's recent reporting periods' or 'Analysts note this working capital structure is consistent with Apple's historical patterns')."
+    }
+  ],
+  "checked_at": "2026-03-25T02:00:39.379019",
+  "iteration": 0
+}

@@ -1,0 +1,125 @@
+{
+  "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+  "section_name": "Risk Analysis",
+  "text": "Margin compression presents a notable operational risk. Operating margin contracted significantly from 40.86% in Q3 2024 (C020) to 19.77% in Q2 2025 (C006, K003), representing a decline of over 20 percentage points. Net margin similarly compressed from 36.66% in Q3 2024 (C022) to 20.74% in Q2 2025 (C008, K004). This compression could indicate increased competitive pressure, rising operational costs, or pricing challenges in the travel services market. The company maintains high R&D intensity at 19.70% of revenue in Q2 2025 ($610M R&D on $3,096M revenue) (C009, K005), which supports innovation but adds ongoing cost pressure. Severity: Medium-High.",
+  "citations": [
+    {
+      "citation_id": "9fd3edcc-52c5-4d20-a394-1139f201fdfb",
+      "chunk_id": "8204b5e6-5a63-4433-97ff-c4a9417eff59",
+      "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q2 2025: 19.77%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9ebdd31d-ec58-4d60-953f-90ceca400954",
+      "chunk_id": "bd6712f2-b461-45af-a469-610c2b026b91",
+      "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q2 2025: 20.74%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "ef5cc7eb-ffeb-41f0-a3c3-4e6a898425f2",
+      "chunk_id": "705c6a33-bda1-4ee7-9c8b-cc1e52937c44",
+      "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB R&D Expenses for Q2 2025: $610,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "88f5b021-88bb-4d77-9f5a-555ed418d1b3",
+      "chunk_id": "f4e9155f-01ab-4ae6-93c4-a85f687185cc",
+      "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q3 2024: 40.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "257fb514-66ba-4c4d-bfca-44174f4c4445",
+      "chunk_id": "c8c32b97-a57e-4873-a1a0-a9faa84b9e94",
+      "source_id": "02183681-e6d3-4219-a4d9-f83ccc8491c8",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Margin for Q3 2024: 36.66%",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "8204b5e6-5a63-4433-97ff-c4a9417eff59",
+    "bd6712f2-b461-45af-a469-610c2b026b91",
+    "705c6a33-bda1-4ee7-9c8b-cc1e52937c44",
+    "f4e9155f-01ab-4ae6-93c4-a85f687185cc",
+    "c8c32b97-a57e-4873-a1a0-a9faa84b9e94"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [
+    {
+      "verdict_id": "31fba8f7-c713-493e-9dc4-ba4418c93568",
+      "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+      "status": "fail",
+      "issues": [
+        {
+          "issue_id": "a347b016-604b-4eb8-bf3a-344aa401b1cb",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+          "offending_span": "(C006, K003)",
+          "explanation": "K003 is cited as a calculation reference for the operating margin figure, but no calculation results are provided in the cited calculation results section. The chunk C006 alone supports the 19.77% figure.",
+          "relevant_chunk_ids": [
+            "8204b5e6-5a63-4433-97ff-c4a9417eff59"
+          ],
+          "relevant_calc_ids": [
+            "35419214-61d9-4136-bdea-986cab1c0998"
+          ],
+          "recommended_fix": "Remove K003 citation or provide the actual calculation result. C006 alone supports the operating margin figure."
+        },
+        {
+          "issue_id": "01a43137-96c4-496c-be2c-b8e1c7db2c44",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+          "offending_span": "(C008, K004)",
+          "explanation": "K004 is cited as a calculation reference for the net margin figure, but no calculation results are provided in the cited calculation results section. The chunk C008 alone supports the 20.74% figure.",
+          "relevant_chunk_ids": [
+            "bd6712f2-b461-45af-a469-610c2b026b91"
+          ],
+          "relevant_calc_ids": [
+            "55a75f96-7fd3-4acb-9d3b-c57aafa708f1"
+          ],
+          "recommended_fix": "Remove K004 citation or provide the actual calculation result. C008 alone supports the net margin figure."
+        },
+        {
+          "issue_id": "a8e4ad2b-7a8e-496c-84ef-23ab8c597a3f",
+          "issue_type": "citation_mismatch",
+          "severity": "major",
+          "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+          "offending_span": "(C009, K005)",
+          "explanation": "K005 is cited as a calculation reference for the R&D intensity calculation, but no calculation results are provided in the cited calculation results section.",
+          "relevant_chunk_ids": [
+            "705c6a33-bda1-4ee7-9c8b-cc1e52937c44"
+          ],
+          "relevant_calc_ids": [
+            "96ed5e8e-8d7a-4666-bffb-29914da0ca2c"
+          ],
+          "recommended_fix": "Remove K005 citation or provide the actual calculation result showing the 19.70% R&D intensity calculation."
+        },
+        {
+          "issue_id": "2543290d-6a42-4b67-877e-2da7340ba3f3",
+          "issue_type": "unsupported_claim",
+          "severity": "major",
+          "paragraph_id": "7c61dda9-ba5f-4c4c-920f-84898780a35f",
+          "offending_span": "$3,096M revenue",
+          "explanation": "The revenue figure of $3,096M is stated in the paragraph but is not supported by any cited chunk. Only C009 is cited, which supports the $610M R&D expense figure but not the revenue figure needed to calculate R&D intensity.",
+          "relevant_chunk_ids": [],
+          "relevant_calc_ids": [],
+          "recommended_fix": "Add a chunk citation that supports the Q2 2025 revenue figure of $3,096M, or remove the specific revenue figure and only state the R&D intensity percentage if supported by a calculation result."
+        }
+      ],
+      "checked_at": "2026-03-24T07:53:11.280119",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

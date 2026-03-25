@@ -1,0 +1,45 @@
+{
+  "paragraph_id": "3540e122-9fc4-40c9-9f11-b7c3b3d20007",
+  "section_name": "Financial Analysis",
+  "text": "Profitability metrics reflect Amazon's operational efficiency improvements, with gross margin expanding to 51.81% in Q2 2025. Operating margin reached 11.43%, while net margin stood at 10.83%, demonstrating the company's ability to convert revenue into bottom-line earnings. These margin levels suggest effective cost management and favorable mix shifts toward higher-margin businesses such as AWS and advertising services.",
+  "citations": [
+    {
+      "citation_id": "216a0188-9068-4ff9-bac7-ca04788e22ce",
+      "chunk_id": "d2b9b026-458e-4249-951d-c1d064f7ab82",
+      "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Gross Profit for Q2: $86,893,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2e69d3c5-67e1-4569-9447-6414272ea02e",
+      "chunk_id": "89efce59-a8c2-4c23-a7a2-a6f0f0d6ef61",
+      "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Operating Income for Q2: $19,171,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9ba56c7e-1cb5-447c-847d-6167d4f55180",
+      "chunk_id": "279aab58-0ee1-408e-be3a-50acc869bfdb",
+      "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN Net Income for Q2: $18,164,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "d2b9b026-458e-4249-951d-c1d064f7ab82",
+    "89efce59-a8c2-4c23-a7a2-a6f0f0d6ef61",
+    "279aab58-0ee1-408e-be3a-50acc869bfdb"
+  ],
+  "calc_ids": [
+    "729b833d-7589-4ce6-9a81-20bae373aee1",
+    "07da4787-4c49-4733-bb6f-522ac1a6d6dc",
+    "8addae77-2c65-4d56-8454-0d2ae666717c"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,63 @@
+{
+  "paragraph_id": "41a8bd32-4d40-4e9b-9637-8522534aacf1",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "We assign a Hold rating to Airbnb (ABNB) shares based on mixed fundamental signals and elevated execution uncertainty. While Q2 2025 demonstrated strong top-line recovery with revenue of $3.096B representing 36.27% YoY growth (C004, K001) and net income surging 316.88% YoY to $642M (C007, K002), significant margin volatility raises concerns about earnings predictability. Operating margins fluctuated from 40.86% in Q3 2024 to 1.67% in Q1 2025 before recovering to 19.77% in Q2 2025 (C020, C013, C006), indicating material operational variability that complicates forward estimates.",
+  "citations": [
+    {
+      "citation_id": "b987f8e9-cabf-4935-b180-a8d5324de6bf",
+      "chunk_id": "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Revenue for Q2 2025: $3,096,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "781f4a87-439a-4138-9084-7935d417533c",
+      "chunk_id": "72b054a5-be6f-475f-892e-5c2006dca965",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Net Income for Q2 2025: $642,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "347a369b-0027-4456-9248-aafa9f80a397",
+      "chunk_id": "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q3 2024: 40.86%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0c4957c7-a073-4319-b76d-1fb768b328a6",
+      "chunk_id": "e55e8895-2155-479d-bcfc-487f3e45110b",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q1 2025: 1.67%",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "11b9a7e3-257f-4185-b544-c2adc8db6c7b",
+      "chunk_id": "5a317053-60cc-46b6-bf7a-8fab34c18a1c",
+      "source_id": "b43acea9-d8db-488e-b953-ea1a44e0a8f1",
+      "source_type": "income_statement",
+      "text_snippet": "ABNB Operating Margin for Q2 2025: 19.77%",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "e9bedcb2-173f-4033-aaab-bc3fe0ecdb41",
+    "72b054a5-be6f-475f-892e-5c2006dca965",
+    "8cd9d338-2442-4b6d-a4fe-7d8bcb8ac773",
+    "e55e8895-2155-479d-bcfc-487f3e45110b",
+    "5a317053-60cc-46b6-bf7a-8fab34c18a1c"
+  ],
+  "calc_ids": [
+    "416c71ec-228c-4536-a8a4-cd7e7e318634",
+    "a7108c64-658c-4270-9885-74aaae733f89",
+    "1f69ca94-20a1-4a98-ac20-85e4cb6ac490"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

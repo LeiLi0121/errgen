@@ -1,0 +1,41 @@
+{
+  "paragraph_id": "bb7369de-ecef-46e8-93af-14aa9bf74995",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Amazon.com, Inc. operates through three primary segments: North America, International, and Amazon Web Services (AWS), engaging in retail sale of consumer products and subscriptions through online and physical stores globally. The company generates revenue from merchandise and content purchased for resale, third-party seller products, and manufactured electronic devices including Kindle, Fire tablets, Fire TVs, Ring, Blink, eero, and Echo. Beyond retail, Amazon provides compute, storage, database, analytics, and machine learning services through AWS, alongside fulfillment, advertising, and digital content subscriptions. The company serves consumers, sellers, developers, enterprises, content creators, and advertisers, with Amazon Prime membership programs forming a key recurring revenue component. As of the reporting period, Amazon employs 1,560,000 full-time employees under CEO Andrew R. Jassy.",
+  "citations": [
+    {
+      "citation_id": "3e656d9d-549c-4044-8c03-1b3ef6023188",
+      "chunk_id": "45a04636-6707-42bd-9f62-6d7690ebdc03",
+      "source_id": "4d3309e8-77c2-4a88-994c-e5fb999d217b",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. (Ticker: AMZN) | Exchange: NASDAQ | Sector: Consumer Cyclical | Industry: Specialty Retail | Market Cap: N/A | CEO: Andrew R. Jassy | Full-Time Employees: 1560000 | IPO Date: 1997-05-15 | Country: US | Website: http://www.aboutamazon.com",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "88cb20bc-7576-469f-ad1a-43744080be26",
+      "chunk_id": "03f715fc-49e6-4682-9dea-a74681556e05",
+      "source_id": "4d3309e8-77c2-4a88-994c-e5fb999d217b",
+      "source_type": "company_profile",
+      "text_snippet": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). Its products offered through its store",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "45a04636-6707-42bd-9f62-6d7690ebdc03",
+    "03f715fc-49e6-4682-9dea-a74681556e05"
+  ],
+  "calc_ids": [],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "13164f90-48c9-4512-9641-1f1be5116ca9",
+      "paragraph_id": "bb7369de-ecef-46e8-93af-14aa9bf74995",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T18:51:44.835155",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

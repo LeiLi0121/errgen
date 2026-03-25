@@ -1,0 +1,32 @@
+{
+  "paragraph_id": "384c91f8-b834-4347-88cb-0b7dfb31e434",
+  "section_name": "Business & Competitive Analysis",
+  "text": "Alphabet Inc. operates through three primary segments: Google Services, Google Cloud, and Other Bets. The Google Services segment generates revenue from advertising products across Search, YouTube, and Google Network, alongside non-advertising offerings including Android, Chrome, hardware devices (Pixel phones, Nest home products, Fitbit wearables), and YouTube non-advertising services. Google Cloud provides infrastructure, platform services, and Google Workspace collaboration tools for enterprise customers. The Other Bets segment focuses on health technology and internet services. The company serves customers across the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America, with headquarters in Mountain View, California.",
+  "citations": [
+    {
+      "citation_id": "cc469c43-baf2-49ee-8153-3a25229bb720",
+      "chunk_id": "bf7c93d4-7692-4e8c-9e4d-aa19fa6ab9b8",
+      "source_id": "96c360cc-44a1-4742-ba91-30eb0679e751",
+      "source_type": "company_profile",
+      "text_snippet": "Alphabet Inc. (Ticker: GOOGL) | Exchange: NASDAQ | Sector: Communication Services | Industry: Internet Content & Information | Market Cap: N/A | CEO: Sundar Pichai | Full-Time Employees: 185719 | IPO Date: 2004-08-19 | Country: US | Website: https://www.abc.xyz",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c7a358e7-d5e3-48cd-b2d8-2df10f2d3ad7",
+      "chunk_id": "363d5486-dc09-42f0-a738-5b0af05979ff",
+      "source_id": "96c360cc-44a1-4742-ba91-30eb0679e751",
+      "source_type": "company_profile",
+      "text_snippet": "Alphabet Inc. provides various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment offers products and services, including ad",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "bf7c93d4-7692-4e8c-9e4d-aa19fa6ab9b8",
+    "363d5486-dc09-42f0-a738-5b0af05979ff"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

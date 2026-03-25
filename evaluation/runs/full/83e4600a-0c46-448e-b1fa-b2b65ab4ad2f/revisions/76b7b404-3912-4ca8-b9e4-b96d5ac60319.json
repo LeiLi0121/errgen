@@ -1,0 +1,13 @@
+{
+  "revision_id": "76b7b404-3912-4ca8-b9e4-b96d5ac60319",
+  "paragraph_id": "a9a2e8f3-bbf9-454e-a692-72b7df51e40a",
+  "iteration": 1,
+  "original_text": "American Express shares have surged 23.3% year-to-date as of November 2025, with much of the recent upward movement driven by optimism around consumer spending and strategic partnerships with travel and lifestyle brands. The stock reached an all-time high by November 12, 2025, prompting analyst price target raises. Media commentary noted that everyone likes a good price target raise when a stock is at record levels, reflecting positive market sentiment around the company's performance.",
+  "revised_text": "American Express shares have surged 23.3% year-to-date as of November 2025, with much of the recent upward movement driven by optimism around consumer spending and strategic travel partnerships. The stock reached an all-time high by November 12, 2025, prompting commentary on price target raises. Jim Cramer noted that everyone likes a good price target raise when a stock is at record levels, reflecting positive market sentiment around the company's performance.",
+  "issues_addressed": [
+    "126d404e-342a-4ac7-96f8-5c464c515b78",
+    "7dddb36e-2259-4720-89b3-a5d2530c38f5"
+  ],
+  "changes_summary": "Removed 'and lifestyle brands' from the partnerships claim as C020 only supports travel partnerships. Qualified 'prompting analyst price target raises' to 'prompting commentary on price target raises' and attributed the quote to Jim Cramer, as C001 reflects media commentary rather than confirmed analyst actions.",
+  "revised_at": "2026-03-24T20:13:05.524291"
+}

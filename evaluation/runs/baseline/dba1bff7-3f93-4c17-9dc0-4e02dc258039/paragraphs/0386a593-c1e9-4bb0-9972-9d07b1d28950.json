@@ -1,0 +1,23 @@
+{
+  "paragraph_id": "0386a593-c1e9-4bb0-9972-9d07b1d28950",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Relative to the SPY benchmark, ABNB underperformed the broader market on August 11, 2025 (C026), consistent with the post-earnings sentiment shift despite beating EPS estimates by 9.5% (Recent Developments summary). This divergence between earnings performance and price action suggests the market is pricing in execution risk rather than rewarding historical results. Institutional sentiment appears divided, with some investors like Ark Invest viewing the pullback as an opportunity ($21.5M purchase noted in Business & Competitive Analysis summary), while others remain cautious on forward guidance.",
+  "citations": [
+    {
+      "citation_id": "f63f9040-46ad-4991-9044-6a14b05be408",
+      "chunk_id": "3ee2239d-44f5-4d8a-9ef5-7fb1aa899721",
+      "source_id": "4efbf4ad-7f4b-4192-aaac-a5fe08aa0418",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-08-11T16:42:00Z | MarketWatch\nTitle: Airbnb Inc. Cl A stock falls Monday, underperforms market\nURL: https://finnhub.io/api/news?id=9c467879d1e3e3c0f9e10f220a0c13a42234950a9c80caf3e3de1d2fdd5bf68d\nAirbnb Inc. Cl A stock falls Monday, underperforms market",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "3ee2239d-44f5-4d8a-9ef5-7fb1aa899721"
+  ],
+  "calc_ids": [],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

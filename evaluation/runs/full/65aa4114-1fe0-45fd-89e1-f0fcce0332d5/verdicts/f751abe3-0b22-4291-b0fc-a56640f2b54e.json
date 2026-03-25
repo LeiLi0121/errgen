@@ -1,0 +1,22 @@
+{
+  "verdict_id": "f751abe3-0b22-4291-b0fc-a56640f2b54e",
+  "paragraph_id": "8d200c70-a457-4364-bf41-0cf1cbe23e8c",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "661fff27-d1e6-4d86-904c-3e59c294d66c",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "8d200c70-a457-4364-bf41-0cf1cbe23e8c",
+      "offending_span": "Q2 earnings results confirmed AI-powered AWS growth and advertising revenue as key drivers",
+      "explanation": "The paragraph claims Q2 earnings results 'confirmed' specific drivers, citing chunk C066. However, C066 is titled 'Amazon Q2 Earnings Preview: What to Expect From Upcoming Report' and refers to 'Q2 outlook', not confirmed results. Using a preview article to support a claim that results are confirmed misrepresents the evidence.",
+      "relevant_chunk_ids": [
+        "6caf4ef0-e8be-4ee9-82f9-239db8fbd59d"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Revise the language to reflect 'expectations' or 'outlook' (e.g., 'Q2 earnings outlook highlighted...') if relying on C066, or cite a post-earnings report chunk if results are confirmed."
+    }
+  ],
+  "checked_at": "2026-03-24T19:12:00.213955",
+  "iteration": 2
+}

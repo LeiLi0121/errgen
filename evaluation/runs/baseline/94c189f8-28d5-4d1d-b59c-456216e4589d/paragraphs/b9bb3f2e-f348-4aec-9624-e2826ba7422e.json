@@ -1,0 +1,26 @@
+{
+  "paragraph_id": "b9bb3f2e-f348-4aec-9624-e2826ba7422e",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "However, key risks temper enthusiasm. Revenue growth has fluctuated significantly across recent quarters, declining 0.93% in Q1 2025, surging 7.22% in Q2 2025, then moderating to just 0.91% in Q3 2025. This volatility raises questions about growth sustainability. Financial leverage presents material risk, with a debt-to-equity ratio of 1.78x that has increased 7.9% over the past year. Additionally, the proposed Visa-Mastercard settlement over interchange fees could potentially affect rewards credit card dynamics across the payments industry, creating competitive uncertainty for American Express.",
+  "citations": [
+    {
+      "citation_id": "e9948f29-4abe-4fe1-991a-4a3b377b8095",
+      "chunk_id": "716c6527-89bc-4c21-b0e1-1cd37b511a4c",
+      "source_id": "b4b9bc8a-1c4c-407b-9fa5-2799abbb60bb",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-11-12T14:37:10Z | Yahoo\nTitle: Why a Visa-Mastercard legal settlement could lead to your rewards credit card getting declined\nURL: https://finnhub.io/api/news?id=dcf916e8b4c6f3fe4946340caa473061e130f053ab1bde8d692ce2b1b1c22ea8\nVisa and Mastercard have proposed a settlement in their long-",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "716c6527-89bc-4c21-b0e1-1cd37b511a4c"
+  ],
+  "calc_ids": [
+    "13edc5fc-e442-49d2-bf95-67d4a88f4d6e",
+    "3093e26a-3ed6-4f4d-865d-671f85783ea5"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

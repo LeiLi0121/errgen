@@ -1,0 +1,79 @@
+{
+  "paragraph_id": "517586f1-ee7a-4b64-b570-4a159ed58a99",
+  "section_name": "Financial Analysis",
+  "text": "Cash flow generation remains robust, with operating cash flow of $1,789,000,000 in Q1 2025, though this represents a decline from $1,923,000,000 in Q1 2024 (C058, C061). EBITDA and free cash flow data are not available in the provided financial statements, limiting comprehensive cash flow quality assessment. The balance sheet demonstrates solid liquidity positioning as of Q2 2025, with a current ratio of 1.23, supported by current assets of $23,180,000,000 against current liabilities of $18,816,000,000 (C034, C035, K006). Cash and equivalents totaled $18,444,000,000 in Q2 2025, providing substantial financial flexibility (C033). Total debt figures are not disclosed in the available balance sheet data, preventing leverage ratio calculations such as debt-to-equity or net debt analysis. Stockholders' equity stood at $7,782,000,000 as of Q2 2025, down from $7,937,000,000 in Q1 2025 (C032, C039).",
+  "citations": [
+    {
+      "citation_id": "a199ce8d-28d8-4aba-ad04-9a8c9acba901",
+      "chunk_id": "16fdafa0-221f-440e-97ca-edb2dcf2904a",
+      "source_id": "ae1c805a-9e54-486b-805b-c520aa830921",
+      "source_type": "cash_flow",
+      "text_snippet": "ABNB Operating Cash Flow for Q1 2025: $1,789,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9985ec1a-8e48-4f0f-9bd6-5ccb52283c06",
+      "chunk_id": "0044ee24-fe45-4f3b-8c7a-e9a1d712ae08",
+      "source_id": "ae1c805a-9e54-486b-805b-c520aa830921",
+      "source_type": "cash_flow",
+      "text_snippet": "ABNB Operating Cash Flow for Q1 2024: $1,923,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "c50503c8-3e28-4278-969a-dfccc5782867",
+      "chunk_id": "6dca5457-fbd0-4271-a85d-c679ec375dd3",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Total Current Assets for Q2 2025: $23,180,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "01bcd28e-a301-44a3-8530-2d23f796f99a",
+      "chunk_id": "f4726d69-b5ca-4c99-a4c0-137fdedc2b3e",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Total Current Liabilities for Q2 2025: $18,816,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "583e7a0b-b400-44ec-80fd-6ab998d4d60c",
+      "chunk_id": "7a978160-64ac-4175-8492-db001a33e153",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Cash & Equivalents for Q2 2025: $18,444,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "5e8fa70a-4faf-4dac-98ee-3984d20399f3",
+      "chunk_id": "1ffa518c-b47f-4f02-ba06-201e370a9500",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Stockholders' Equity for Q2 2025: $7,782,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "11f937b3-3cf8-4218-8235-33d6ae2b6fd5",
+      "chunk_id": "170a848c-bfc9-4633-aa13-bb196217eed5",
+      "source_id": "1d1f9110-6207-4fbd-bc15-70ca6207aec6",
+      "source_type": "balance_sheet",
+      "text_snippet": "ABNB Stockholders' Equity for Q1 2025: $7,937,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "16fdafa0-221f-440e-97ca-edb2dcf2904a",
+    "0044ee24-fe45-4f3b-8c7a-e9a1d712ae08",
+    "6dca5457-fbd0-4271-a85d-c679ec375dd3",
+    "f4726d69-b5ca-4c99-a4c0-137fdedc2b3e",
+    "7a978160-64ac-4175-8492-db001a33e153",
+    "1ffa518c-b47f-4f02-ba06-201e370a9500",
+    "170a848c-bfc9-4633-aa13-bb196217eed5"
+  ],
+  "calc_ids": [
+    "674d7eaf-f87a-4af0-8c40-213e983300c7"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

@@ -1,0 +1,61 @@
+{
+  "paragraph_id": "b676e210-5b29-440c-a1a5-2dfefe467ec8",
+  "section_name": "Financial Analysis",
+  "text": "Cash flow quality appears robust based on Q1 2025 data, with operating cash flow of $4,764,000,000 and free cash flow of $4,334,000,000, translating to a free cash flow margin of 41.61%. Compared to Q1 2024, operating cash flow decreased from $5,552,000,000 and free cash flow declined from $5,156,000,000, suggesting some moderation in cash generation. EBITDA figures are not available in the provided income statements, preventing full assessment of earnings quality before interest, taxes, depreciation, and amortization.",
+  "citations": [
+    {
+      "citation_id": "45121792-471d-4f8c-bf67-2383e018bee2",
+      "chunk_id": "0b4d0e74-cc6b-4365-ac30-a270f11bbcf1",
+      "source_id": "cf0d2d47-0170-4d0b-8670-97a498121635",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Operating Cash Flow for Q1 2025: $4,764,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "52783c22-1bb6-455a-a576-b68f36181103",
+      "chunk_id": "5999e42d-9ebc-4d1b-949b-29a045eb919c",
+      "source_id": "cf0d2d47-0170-4d0b-8670-97a498121635",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Free Cash Flow for Q1 2025: $4,334,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1e411472-6583-438d-b9a5-97f537d40450",
+      "chunk_id": "45421b67-5da0-4b76-b77c-e961fcb78005",
+      "source_id": "cf0d2d47-0170-4d0b-8670-97a498121635",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Operating Cash Flow for Q1 2024: $5,552,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "0c402558-060e-485f-95d4-117d74d4bbba",
+      "chunk_id": "42eaf953-2680-4e68-97c4-8102e1ec113e",
+      "source_id": "cf0d2d47-0170-4d0b-8670-97a498121635",
+      "source_type": "cash_flow",
+      "text_snippet": "AXP Free Cash Flow for Q1 2024: $5,156,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "0b4d0e74-cc6b-4365-ac30-a270f11bbcf1",
+    "5999e42d-9ebc-4d1b-949b-29a045eb919c",
+    "45421b67-5da0-4b76-b77c-e961fcb78005",
+    "42eaf953-2680-4e68-97c4-8102e1ec113e"
+  ],
+  "calc_ids": [
+    "70b52489-99f4-4dd7-a0d6-152403465074"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "97444a6a-cc8a-4771-890e-c49cb1af8bc0",
+      "paragraph_id": "b676e210-5b29-440c-a1a5-2dfefe467ec8",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T20:04:57.773100",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

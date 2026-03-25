@@ -1,0 +1,15 @@
+{
+  "revision_id": "f71550f7-944c-4faf-a916-afe61894a433",
+  "paragraph_id": "d4d423a5-defa-44b4-8fee-2f6204bbf30a",
+  "iteration": 1,
+  "original_text": "R&D investment intensity remains elevated at 19.70% of revenue in Q2 2025 (K005), with R&D expenses of $610,000,000 (C007). This represents an increase from Q1 2025's $568,000,000 (C014), Q3 2024's $524,000,000 (C021), and Q2 2024's $519,000,000 (C028), indicating continued commitment to product development and platform enhancement. The R&D intensity of nearly 20% is substantial for a mature travel platform, suggesting Airbnb is prioritizing innovation and technology infrastructure to maintain competitive positioning. This investment level may pressure near-term margins but could support long-term differentiation.",
+  "revised_text": "R&D investment intensity remains elevated at 19.70% of revenue in Q2 2025 (K005), with R&D expenses of $610,000,000 (C009). This represents an increase from Q1 2025's $568,000,000 (C016), Q3 2024's $524,000,000 (C023), and Q2 2024's $519,000,000 (C030), indicating continued commitment to product development and platform enhancement. The R&D intensity of nearly 20% is substantial for a mature travel platform, suggesting Airbnb is prioritizing innovation and technology infrastructure to maintain competitive positioning. This investment level may pressure near-term margins but could support long-term differentiation.",
+  "issues_addressed": [
+    "08801de1-78d2-490b-a603-829af26774ee",
+    "5a79b413-a64a-4ce9-bc55-163d409aecce",
+    "35dc8343-a3b8-4f48-8291-e08a54890f7a",
+    "b8216265-6fcd-4b07-afce-47528cafedf5"
+  ],
+  "changes_summary": "Updated all R&D expense citations to match the valid chunk references identified by the fact-checker (C007→C009, C014→C016, C021→C023, C028→C030) to resolve citation mismatch issues. Updated chunk_ids list to reflect the new citations.",
+  "revised_at": "2026-03-24T10:02:08.006824"
+}

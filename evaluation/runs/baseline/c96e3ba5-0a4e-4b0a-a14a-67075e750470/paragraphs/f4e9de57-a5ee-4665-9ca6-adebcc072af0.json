@@ -1,0 +1,55 @@
+{
+  "paragraph_id": "f4e9de57-a5ee-4665-9ca6-adebcc072af0",
+  "section_name": "Investment Recommendation & Outlook",
+  "text": "Financial metrics reflect strong operational efficiency, with Q3 2025 gross margin at 55.56%, operating margin at 19.61%, and net margin at 17.56%. Cash flow generation was exceptionally strong, producing a free cash flow margin of 97.21% for the quarter. The bank continues to demonstrate investment banking competitiveness through participation in major transactions, including arranging $12.25 billion in debt for the Hologic buyout alongside Citigroup and Barclays.",
+  "citations": [
+    {
+      "citation_id": "e050c00d-b475-4722-8e85-a5839829cc4e",
+      "chunk_id": "173a06f2-1dd4-4ddc-82f6-630833e6ffd6",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text_snippet": "Income Statement – BAC | Period: Q3 | Date: 2025-09-30\n  Revenue:            $48,221,000,000\n  Gross Profit:       $26,793,000,000 (margin N/A)\n  Operating Income:   $9,456,000,000 (margin N/A)\n  Net Income:         $8,469,000,000 (margin N/A)\n  EBITDA:             $10,040,000,000\n  EPS:            ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "7043e070-b4ed-4524-9907-505f18daa15f",
+      "chunk_id": "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text_snippet": "BAC Gross Profit for Q3: $26,793,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "81de44e8-09ce-4edf-a602-f2a41ab2b9d7",
+      "chunk_id": "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text_snippet": "BAC Operating Income for Q3: $9,456,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1153e97c-e931-4580-a3f3-6821d0401c5d",
+      "chunk_id": "c25b530c-4b71-488a-9076-96f1e4d32cd9",
+      "source_id": "b2917505-e8f2-4c23-ad93-b6e05b9a0015",
+      "source_type": "news",
+      "text_snippet": "[NEWS] 2025-10-21T16:37:23Z | Yahoo\nTitle: Market Chatter: Blackstone, TPG Secure $12.25 Billion in Debt for Hologic Buyout\nURL: https://finnhub.io/api/news?id=9fe6faa4f146d3fa2fdfda9c71a9245f80a072016c14ed6a7f257b4b16cb56cc\nCitigroup (C), Barclays (BCS), and Bank of America (BAC) are arranging $12.",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "173a06f2-1dd4-4ddc-82f6-630833e6ffd6",
+    "47b7448a-3f7d-47d7-bbbd-92a5c566d243",
+    "9bbc9056-a543-42ba-8b9f-b57228a9f28b",
+    "c25b530c-4b71-488a-9076-96f1e4d32cd9"
+  ],
+  "calc_ids": [
+    "df2ec629-9184-4970-8c2b-88700fccc0ae",
+    "b3a337d5-ab4b-4f90-b9f1-2ca1873a1095",
+    "de41b348-2273-4d16-ae56-0ff2d9337fd9",
+    "f211cc8e-78bf-49df-b68a-849fd4783e9d"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

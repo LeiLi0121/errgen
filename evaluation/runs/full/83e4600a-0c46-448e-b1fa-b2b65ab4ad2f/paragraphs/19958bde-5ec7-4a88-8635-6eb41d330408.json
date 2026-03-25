@@ -1,0 +1,53 @@
+{
+  "paragraph_id": "19958bde-5ec7-4a88-8635-6eb41d330408",
+  "section_name": "Risk Analysis",
+  "text": "American Express carries moderate financial leverage risk as of Q3 2025. Total debt stands at $57,787,000,000 against stockholders' equity of $32,417,000,000, resulting in a debt-to-equity ratio of 1.78. However, the company maintains substantial liquidity with cash and equivalents of $54,706,000,000, yielding a net debt position of only $3,081,000,000. This suggests the company has adequate cash resources to service its debt obligations, though the leverage ratio indicates reliance on borrowed capital to fund operations and growth initiatives.",
+  "citations": [
+    {
+      "citation_id": "60acf9be-84bf-4028-8bfb-af302816d7db",
+      "chunk_id": "17919615-0ea8-4e60-a30e-0fac8e92fd3c",
+      "source_id": "ddfdd6fd-8157-46a3-8255-8c253264a9aa",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Stockholders' Equity for Q3 2025: $32,417,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "251ed045-f2bb-4fbd-b337-f30acddf87b2",
+      "chunk_id": "b4233724-4e12-455e-99ac-6e78d47e8789",
+      "source_id": "ddfdd6fd-8157-46a3-8255-8c253264a9aa",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Cash & Equivalents for Q3 2025: $54,706,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "08084341-0343-4a45-ad5b-f6553a348e78",
+      "chunk_id": "e071fbda-ff88-44db-a3be-5193a5b3258f",
+      "source_id": "ddfdd6fd-8157-46a3-8255-8c253264a9aa",
+      "source_type": "balance_sheet",
+      "text_snippet": "AXP Total Debt for Q3 2025: $57,787,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "17919615-0ea8-4e60-a30e-0fac8e92fd3c",
+    "b4233724-4e12-455e-99ac-6e78d47e8789",
+    "e071fbda-ff88-44db-a3be-5193a5b3258f"
+  ],
+  "calc_ids": [
+    "518e7e54-e98b-40f2-9a18-90677b1d3e0b",
+    "63c3a29a-15f0-4b1f-a963-2aab474f52aa"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "e65b445e-41ea-41d9-9c34-c49cc04a0e7e",
+      "paragraph_id": "19958bde-5ec7-4a88-8635-6eb41d330408",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T20:09:10.299030",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

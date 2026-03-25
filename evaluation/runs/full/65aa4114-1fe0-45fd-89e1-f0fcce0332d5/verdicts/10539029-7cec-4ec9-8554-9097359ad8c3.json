@@ -1,0 +1,53 @@
+{
+  "verdict_id": "10539029-7cec-4ec9-8554-9097359ad8c3",
+  "paragraph_id": "796d9d1f-060e-48f7-8ebc-c8644d54fc24",
+  "status": "fail",
+  "issues": [
+    {
+      "issue_id": "a904f119-dd87-4f32-b0fc-29b60d4e74dc",
+      "issue_type": "unsupported_claim",
+      "severity": "major",
+      "paragraph_id": "796d9d1f-060e-48f7-8ebc-c8644d54fc24",
+      "offending_span": "reflects continued strength across the company's diversified business model",
+      "explanation": "The cited chunks (C004, C012) only contain total revenue figures for Q1 and Q2. They do not provide any segment-level data or information about the company's diversified business model to support this claim about strength across business segments.",
+      "relevant_chunk_ids": [
+        "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+        "731b9931-6b21-490e-8122-4566795aeccf"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Remove this claim or cite additional evidence that shows segment-level performance data supporting the diversified business model strength."
+    },
+    {
+      "issue_id": "4e5fd232-3da0-42e1-8712-401f12bb0e45",
+      "issue_type": "overclaiming",
+      "severity": "major",
+      "paragraph_id": "796d9d1f-060e-48f7-8ebc-c8644d54fc24",
+      "offending_span": "suggests healthy demand trends heading into the second half of the year",
+      "explanation": "This is forward-looking speculation about future demand trends that cannot be verified from historical revenue data alone. The cited evidence only shows past Q1 and Q2 revenue figures, not forward guidance or demand indicators.",
+      "relevant_chunk_ids": [
+        "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+        "731b9931-6b21-490e-8122-4566795aeccf"
+      ],
+      "relevant_calc_ids": [],
+      "recommended_fix": "Rephrase to describe only the observed historical performance without making forward-looking predictions, or cite management guidance if available."
+    },
+    {
+      "issue_id": "da711247-726a-4711-9386-d646ba811027",
+      "issue_type": "citation_mismatch",
+      "severity": "major",
+      "paragraph_id": "796d9d1f-060e-48f7-8ebc-c8644d54fc24",
+      "offending_span": "This acceleration from Q1's $155.7B base",
+      "explanation": "The term 'acceleration' in financial contexts typically implies YoY growth rate increased from Q1 to Q2. However, K001 shows Q1 YoY growth as 'N/A (base period)', meaning there is no Q1 YoY growth data to verify acceleration. While sequential revenue improvement ($155.7B to $167.7B) is real, calling it 'acceleration' is misleading without Q1 YoY growth comparison.",
+      "relevant_chunk_ids": [
+        "37e9aca7-b9b3-40e3-ad1e-72313017a443",
+        "731b9931-6b21-490e-8122-4566795aeccf"
+      ],
+      "relevant_calc_ids": [
+        "c646c651-0f33-4b1f-8595-890bd9a4e543"
+      ],
+      "recommended_fix": "Replace 'acceleration' with 'sequential improvement' or 'growth' to accurately describe the quarter-over-quarter revenue increase without implying YoY growth rate acceleration."
+    }
+  ],
+  "checked_at": "2026-03-24T18:48:02.993740",
+  "iteration": 0
+}

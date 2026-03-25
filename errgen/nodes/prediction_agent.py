@@ -54,6 +54,8 @@ RULES:
 6. State an explicit rating in the text: Buy / Hold / Sell.
 7. Compare the company to the benchmark signal when benchmark data is provided.
 8. If evidence is insufficient for a firm recommendation, say so clearly and default to Hold.
+9. Do NOT include chunk refs like C001 or calc refs like K001 in the text itself.
+   Put references only in the chunk_ids / calc_ids arrays.
 
 Return JSON:
 {

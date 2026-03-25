@@ -1,0 +1,216 @@
+[
+  {
+    "calc_id": "c646c651-0f33-4b1f-8595-890bd9a4e543",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 155667000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 167702000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 155667000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 167702000000.0,
+          "yoy_growth": 0.0773124682816525,
+          "yoy_growth_pct": "7.73%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "AMZN Revenue YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "1a002722-fda5-4c19-9e72-f7147a39c3af",
+    "operation": "yoy_growth_table",
+    "inputs": {
+      "series": [
+        {
+          "period": "Q1",
+          "value": 17127000000.0
+        },
+        {
+          "period": "Q2",
+          "value": 18164000000.0
+        }
+      ]
+    },
+    "result": {
+      "table": [
+        {
+          "period": "Q1",
+          "value": 17127000000.0,
+          "yoy_growth": null,
+          "yoy_growth_pct": "N/A (base period)"
+        },
+        {
+          "period": "Q2",
+          "value": 18164000000.0,
+          "yoy_growth": 0.06054767326443627,
+          "yoy_growth_pct": "6.05%"
+        }
+      ]
+    },
+    "formula_description": "YoY growth = (current - previous) / |previous| for each period",
+    "description": "AMZN Net Income YoY Growth Table",
+    "error": null
+  },
+  {
+    "calc_id": "2d808d04-1429-42d1-8d93-41b6104e1172",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 86893000000.0,
+      "denominator": 167702000000.0
+    },
+    "result": 0.5181393185531479,
+    "formula_description": "86893000000.0 / 167702000000.0 = 0.5181 (51.81%)",
+    "description": "AMZN Gross Margin (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "90e3945a-ab2e-4b2c-910d-e14f1fc45889",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 19171000000.0,
+      "denominator": 167702000000.0
+    },
+    "result": 0.11431586981669867,
+    "formula_description": "19171000000.0 / 167702000000.0 = 0.1143 (11.43%)",
+    "description": "AMZN Operating Margin (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "5f7b3132-dae2-4810-9578-1b079af97591",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 18164000000.0,
+      "denominator": 167702000000.0
+    },
+    "result": 0.10831117100571251,
+    "formula_description": "18164000000.0 / 167702000000.0 = 0.1083 (10.83%)",
+    "description": "AMZN Net Margin (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "733f5183-f371-4432-ac6f-c7cda0ff1f5b",
+    "operation": "margin",
+    "inputs": {
+      "numerator": 36600000000.0,
+      "denominator": 167702000000.0
+    },
+    "result": 0.21824426661578275,
+    "formula_description": "36600000000.0 / 167702000000.0 = 0.2182 (21.82%)",
+    "description": "AMZN EBITDA Margin (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "8fb2419c-5bdc-4f4c-9697-e4fc52a47231",
+    "operation": "rd_intensity",
+    "inputs": {
+      "rd_expenses": 27166000000.0,
+      "revenue": 167702000000.0
+    },
+    "result": 0.16198971986022825,
+    "formula_description": "R&D (27166000000.0) / revenue (167702000000.0) = 0.1620 (16.20%)",
+    "description": "AMZN R&D Intensity (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "4064b675-fdd0-4088-917f-74cf69ccaf1c",
+    "operation": "current_ratio",
+    "inputs": {
+      "current_assets": 191420000000.0,
+      "current_liabilities": 186921000000.0
+    },
+    "result": 1.0240689917130767,
+    "formula_description": "current_assets (191420000000.0) / current_liabilities (186921000000.0) = 1.02",
+    "description": "AMZN Current Ratio (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "ff93c325-c2ef-4916-bc97-f17509357e1d",
+    "operation": "debt_to_equity",
+    "inputs": {
+      "total_debt": 133939000000.0,
+      "equity": 333775000000.0
+    },
+    "result": 0.4012852969814995,
+    "formula_description": "total_debt (133939000000.0) / equity (333775000000.0) = 0.40",
+    "description": "AMZN Debt-to-Equity (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "ddbad5d2-924d-480e-8f87-33441c0f8060",
+    "operation": "net_debt",
+    "inputs": {
+      "total_debt": 133939000000.0,
+      "cash": 57741000000.0
+    },
+    "result": 76198000000.0,
+    "formula_description": "total_debt (133939000000.0) - cash (57741000000.0) = 76198000000.0",
+    "description": "AMZN Net Debt (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "c1de2c62-9975-444f-86c1-619fbd82acf5",
+    "operation": "fcf_margin",
+    "inputs": {
+      "free_cash_flow": 332000000.0,
+      "revenue": 167702000000.0
+    },
+    "result": 0.0019797020906131115,
+    "formula_description": "FCF (332000000.0) / revenue (167702000000.0) = 0.0020 (0.20%)",
+    "description": "AMZN FCF Margin (Q2)",
+    "error": null
+  },
+  {
+    "calc_id": "c7328e7a-af01-4ced-85eb-a5acce4d53eb",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 232.79,
+      "previous": 223.3
+    },
+    "result": 0.04249888042991482,
+    "formula_description": "(232.79 - 223.3) / |223.3| = 0.0425 (4.25%)",
+    "description": "AMZN 30d price return",
+    "error": null
+  },
+  {
+    "calc_id": "023e9efb-74d9-4db2-8b46-2361d22d8482",
+    "operation": "growth_rate",
+    "inputs": {
+      "current": 636.94,
+      "previous": 614.91
+    },
+    "result": 0.03582638109642076,
+    "formula_description": "(636.94 - 614.91) / |614.91| = 0.0358 (3.58%)",
+    "description": "SPY 30d benchmark return",
+    "error": null
+  },
+  {
+    "calc_id": "d252804f-1814-44ee-a703-53631fa27559",
+    "operation": "difference",
+    "inputs": {
+      "a": 0.04249888042991482,
+      "b": 0.03582638109642076
+    },
+    "result": 0.006672499333494064,
+    "formula_description": "0.04249888042991482 - 0.03582638109642076 = 0.0067",
+    "description": "AMZN 30d excess return vs SPY",
+    "error": null
+  }
+]

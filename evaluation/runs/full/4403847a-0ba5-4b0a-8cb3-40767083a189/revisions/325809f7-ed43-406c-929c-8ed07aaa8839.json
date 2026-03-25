@@ -1,0 +1,12 @@
+{
+  "revision_id": "325809f7-ed43-406c-929c-8ed07aaa8839",
+  "paragraph_id": "b1cb4a37-1aca-496b-851b-f8997d049dda",
+  "iteration": 2,
+  "original_text": "Profitability metrics show notable volatility across recent quarters. Q2 2025 operating margin reached 19.77% (C001), improving from Q1 2025's depressed 1.67% (C008) and aligning closely with Q2 2024's 18.09% (C022). Net margin followed a similar trajectory at 20.74% in Q2 2025 (C001), recovering from Q1 2025's 6.78% (C008) and exceeding Q2 2024's 20.20% (C022). However, Q3 2024 demonstrated exceptional profitability with 40.86% operating margin (C015) and 36.66% net margin (C015), suggesting peak-season margins significantly outpace other quarters. This seasonality indicates profitability is heavily dependent on travel demand cycles.",
+  "revised_text": "Profitability metrics show notable volatility across recent quarters. Q2 2025 operating margin reached 19.77% (K003), improving from Q1 2025's depressed 1.67% (C011) and aligning closely with Q2 2024's 18.09% (C025). Net margin followed a similar trajectory at 20.74% in Q2 2025 (K004), recovering from Q1 2025's 6.78% (C013) and exceeding Q2 2024's 20.20% (C027). However, Q3 2024 demonstrated exceptional profitability with 40.86% operating margin (C018) and 36.66% net margin (C020), suggesting peak-season margins significantly outpace other quarters. This seasonality indicates profitability is heavily dependent on travel demand cycles.",
+  "issues_addressed": [
+    "f2ba3497-57ea-40fc-92b2-646d6764fb78"
+  ],
+  "changes_summary": "Replaced invalid/uncited chunk citations (C001, C008, C022, C015) with specific margin chunks (C011, C013, C018, C020, C025, C027) and calculation IDs (K003, K004) that directly support the percentage figures, ensuring all factual claims are backed by evidence containing the specific metric.",
+  "revised_at": "2026-03-24T10:59:25.662786"
+}

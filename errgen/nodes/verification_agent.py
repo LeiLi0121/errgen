@@ -23,7 +23,9 @@ Termination guarantee:
 from __future__ import annotations
 
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from errgen.nodes.analysis_agent import select_chunks_for_section_name
 from errgen.config import Config
 from errgen.models import (
     CalculationResult,
@@ -37,6 +39,23 @@ from errgen.models import (
 from errgen.verification import CheckerAgent, ReviserAgent
 
 logger = logging.getLogger(__name__)
+
+
+def _run_revision_task(
+    paragraph,
+    verdict,
+    chunks,
+    calc_results,
+    iteration,
+):
+    reviser = ReviserAgent()
+    return reviser.revise(
+        paragraph=paragraph,
+        verdict=verdict,
+        chunks=chunks,
+        calc_results=calc_results,
+        iteration=iteration,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -126,12 +145,12 @@ def revise_sections(state: dict) -> dict:
     calc_results: list[CalculationResult] = state["calculations"]
     revision_count: int = state.get("revision_count", 0)
 
-    reviser = ReviserAgent()
     new_revisions: list[RevisionRecord] = []
     max_iter = Config.MAX_REVISION_ITERATIONS
+    work_items: list[tuple[int, int, object, object, list[EvidenceChunk]]] = []
 
-    for section in sections:
-        for i, para in enumerate(section.paragraphs):
+    for section_idx, section in enumerate(sections):
+        for para_idx, para in enumerate(section.paragraphs):
             if para.verification_status != VerificationStatus.FAIL:
                 continue
 
@@ -150,20 +169,63 @@ def revise_sections(state: dict) -> dict:
             if not latest_verdict:
                 continue
 
-            revised_para, revision_record = reviser.revise(
-                paragraph=para,
-                verdict=latest_verdict,
-                chunks=all_chunks,
-                calc_results=calc_results,
-                iteration=revision_count + 1,
+            relevant_chunks = select_chunks_for_section_name(
+                para.section_name,
+                all_chunks,
             )
+            work_items.append(
+                (section_idx, para_idx, para, latest_verdict, relevant_chunks)
+            )
+
+    if work_items:
+        max_workers = max(1, min(len(work_items), Config.REVISION_MAX_CONCURRENCY))
+        future_map = {}
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            for section_idx, para_idx, para, latest_verdict, relevant_chunks in work_items:
+                future = executor.submit(
+                    _run_revision_task,
+                    para,
+                    latest_verdict,
+                    relevant_chunks,
+                    calc_results,
+                    revision_count + 1,
+                )
+                future_map[future] = (
+                    section_idx,
+                    para_idx,
+                    para,
+                )
+
+            results: dict[tuple[int, int], tuple[object, RevisionRecord]] = {}
+            for future in as_completed(future_map):
+                section_idx, para_idx, para = future_map[future]
+                try:
+                    results[(section_idx, para_idx)] = future.result()
+                except Exception as exc:  # pragma: no cover - defensive guard
+                    logger.exception(
+                        "revise_sections: unexpected revision failure for paragraph %s: %s",
+                        para.paragraph_id,
+                        exc,
+                    )
+                    record = RevisionRecord(
+                        paragraph_id=para.paragraph_id,
+                        iteration=revision_count + 1,
+                        original_text=para.text,
+                        revised_text=para.text,
+                        issues_addressed=[],
+                        changes_summary=f"Revision task failed unexpectedly: {exc}",
+                    )
+                    results[(section_idx, para_idx)] = (para, record)
+
+        for section_idx, para_idx, para, _, _ in work_items:
+            revised_para, revision_record = results[(section_idx, para_idx)]
 
             # Replace the paragraph object in the section list
             revised_para.revision_history = (
                 list(para.revision_history) + [revision_record]
             )
             revised_para.checker_verdicts = list(para.checker_verdicts)
-            section.paragraphs[i] = revised_para
+            sections[section_idx].paragraphs[para_idx] = revised_para
             new_revisions.append(revision_record)
 
             logger.info(

@@ -1,0 +1,81 @@
+{
+  "paragraph_id": "1fa40215-8e65-4906-abbd-31fb5737a8ae",
+  "section_name": "Financial Analysis",
+  "text": "The balance sheet reflects a conservative liquidity position with a current ratio of 1.02x, supported by $191.4B in current assets against $186.9B in current liabilities. Leverage remains manageable at 0.40x debt-to-equity, with total debt of $133.9B against stockholders' equity of $333.8B. Net debt stands at $76.2B after accounting for $57.7B in cash and equivalents, providing financial flexibility for strategic investments.",
+  "citations": [
+    {
+      "citation_id": "a70c5605-3aa2-4e27-909d-8b3e07764a30",
+      "chunk_id": "eca35aaf-2b09-41d5-8d64-16d35647c402",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "Balance Sheet – AMZN | Period: Q2 | Date: 2025-06-30\n  Total Assets:              $682,170,000,000\n  Total Liabilities:         $348,395,000,000\n  Total Stockholders' Equity:$333,775,000,000\n  Cash & Equivalents:        $57,741,000,000\n  Short-Term Investments:    $35,439,000,000\n  Total Debt:      ",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "2f3f8e7e-0ad7-4f36-998b-c77989e958cf",
+      "chunk_id": "7ff26554-4bf9-4874-a283-1bb88a6df6de",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Stockholders' Equity for Q2: $333,775,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "af27eca2-4789-41f1-b62c-9cd8efd79e8a",
+      "chunk_id": "985c4fd0-ef21-4f57-9d50-d30a017b05be",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Cash & Equivalents for Q2: $57,741,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "f98f0a14-1ee0-49b6-911f-6728a5c7ef49",
+      "chunk_id": "6a36ae4a-156d-445c-b656-55103309b417",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Debt for Q2: $133,939,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "3f0de1e3-6246-4f86-af66-80568c5131a7",
+      "chunk_id": "32c40194-64df-4852-b2ec-e1688ced34b4",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Assets for Q2: $191,420,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "938015da-7b69-42a0-b4d4-3ba9fd621c07",
+      "chunk_id": "7b792730-6d93-4f78-b458-92a88ec3894d",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Liabilities for Q2: $186,921,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "eca35aaf-2b09-41d5-8d64-16d35647c402",
+    "7ff26554-4bf9-4874-a283-1bb88a6df6de",
+    "985c4fd0-ef21-4f57-9d50-d30a017b05be",
+    "6a36ae4a-156d-445c-b656-55103309b417",
+    "32c40194-64df-4852-b2ec-e1688ced34b4",
+    "7b792730-6d93-4f78-b458-92a88ec3894d"
+  ],
+  "calc_ids": [
+    "4064b675-fdd0-4088-917f-74cf69ccaf1c",
+    "ff93c325-c2ef-4916-bc97-f17509357e1d",
+    "ddbad5d2-924d-480e-8f87-33441c0f8060"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "5b011185-5343-4472-b7ac-3a0f5c825f80",
+      "paragraph_id": "1fa40215-8e65-4906-abbd-31fb5737a8ae",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T18:49:28.545067",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

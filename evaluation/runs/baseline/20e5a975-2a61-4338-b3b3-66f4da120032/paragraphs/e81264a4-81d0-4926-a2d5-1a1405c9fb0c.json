@@ -1,0 +1,62 @@
+{
+  "paragraph_id": "e81264a4-81d0-4926-a2d5-1a1405c9fb0c",
+  "section_name": "Financial Analysis",
+  "text": "EBITDA for Q2 2025 totaled $36.6 billion, translating to an EBITDA margin of 21.82%. Operating cash flow remained robust at $32.5 billion, though free cash flow was constrained at $332 million due to elevated capital expenditures of $32.2 billion. This represents a significant improvement from Q1 2025, when free cash flow was negative $8.0 billion, indicating better cash flow quality despite continued heavy investment in infrastructure.",
+  "citations": [
+    {
+      "citation_id": "013a6a8c-ae6c-40d3-a781-7c9996111873",
+      "chunk_id": "573eac31-dd57-485b-8537-83016f3125ea",
+      "source_id": "6f1af907-a59e-4626-a985-c6462e30abf7",
+      "source_type": "income_statement",
+      "text_snippet": "AMZN EBITDA for Q2: $36,600,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "11ec5e3e-7282-4494-b44a-1a4b951cb9a4",
+      "chunk_id": "9631fb0e-fd4d-49e5-a5e2-b26034ffe07c",
+      "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Operating Cash Flow for Q2: $32,515,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "72672100-d9ab-4ec5-8135-7eaff051f152",
+      "chunk_id": "25542fc2-144a-4f96-9765-dd184ef58434",
+      "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Capital Expenditure for Q2: $-32,183,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "6a610427-9d2e-4c23-a9b5-458eab1c2240",
+      "chunk_id": "f2b2b850-83c7-4280-839f-c03fe788851d",
+      "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Free Cash Flow for Q2: $332,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "77431617-c4cd-4489-9757-116360287f0a",
+      "chunk_id": "d601e406-34c0-4dc0-80de-c985f5955587",
+      "source_id": "bf5888d6-d64f-48d1-b861-c53a1e5c75bd",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Free Cash Flow for Q1: $-8,004,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "573eac31-dd57-485b-8537-83016f3125ea",
+    "9631fb0e-fd4d-49e5-a5e2-b26034ffe07c",
+    "25542fc2-144a-4f96-9765-dd184ef58434",
+    "f2b2b850-83c7-4280-839f-c03fe788851d",
+    "d601e406-34c0-4dc0-80de-c985f5955587"
+  ],
+  "calc_ids": [
+    "10c9778c-dbc2-4b36-a6bb-2b2f62def527",
+    "8f0603bc-70d7-4757-92af-fe3e2e0ec9b8"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}

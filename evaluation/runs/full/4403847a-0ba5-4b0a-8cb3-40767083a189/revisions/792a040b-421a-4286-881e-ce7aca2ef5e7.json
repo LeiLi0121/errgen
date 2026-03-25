@@ -1,0 +1,14 @@
+{
+  "revision_id": "792a040b-421a-4286-881e-ce7aca2ef5e7",
+  "paragraph_id": "0ea04074-c56c-4277-9849-92905f36f301",
+  "iteration": 3,
+  "original_text": "The company is pursuing strategic expansion into adjacent travel segments, with CEO Brian Chesky stating the company will be 'going significantly more aggressively into hotels' (C010). Simultaneously, Airbnb is charting an AI-first path for customer service and travel planning, with Chesky noting 'you can't do travel planning without AI going forward' (C012). This strategic direction is supported by substantial R&D investment, with R&D intensity at 19.70% of revenue in Q2 2025 (K005). The company faces competition from traditional online travel agencies like Expedia, which also posted strong earnings in the period (C013).",
+  "revised_text": "The company is pursuing strategic expansion into adjacent travel segments, with CEO Brian Chesky stating the company will be 'going significantly more aggressively into hotels' (C081). Simultaneously, Airbnb is charting an AI-first path for customer service and travel planning, with Chesky noting 'you can't do travel planning without AI going forward' (C083). This strategic direction is supported by substantial R&D investment, with R&D intensity at 19.70% of revenue in Q2 2025 (K005). The company faces competition from traditional online travel agencies like Expedia, which also posted strong earnings in the period (C084).",
+  "issues_addressed": [
+    "bc64e66d-c174-4b94-8491-fe49e3c07f93",
+    "174c0f47-4c41-4340-bed6-687f8af2ca37",
+    "4a7340ba-b5d7-4f1b-9b5e-11099c6adcaf"
+  ],
+  "changes_summary": "Updated citation IDs from C010, C012, and C013 to C081, C083, and C084 respectively to resolve citation mismatches identified by the fact-checker. All factual claims and numerical data remain supported by the corrected evidence chunks and calculation K005.",
+  "revised_at": "2026-03-24T13:34:19.411165"
+}

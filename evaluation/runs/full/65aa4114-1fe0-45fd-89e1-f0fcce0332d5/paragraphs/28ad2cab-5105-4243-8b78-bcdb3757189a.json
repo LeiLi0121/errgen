@@ -1,0 +1,89 @@
+{
+  "paragraph_id": "28ad2cab-5105-4243-8b78-bcdb3757189a",
+  "section_name": "Risk Analysis",
+  "text": "Amazon faces notable financial risk from elevated capital expenditure requirements and volatile free cash flow generation. In Q2 2025, capital expenditure reached $32,183,000,000, up from $25,019,000,000 in Q1, indicating sustained heavy investment in infrastructure and technology. This spending pressure resulted in free cash flow of only $332,000,000 in Q2, compared to negative $8,004,000,000 in Q1, suggesting significant quarter-to-quarter volatility in cash generation. The company's total debt stood at $133,939,000,000 as of Q2 2025, with a debt-to-equity ratio of 0.40, which indicates moderate leverage. Additionally, the current ratio of 1.02 suggests relatively tight liquidity positioning, with current assets of $191,420,000,000 barely exceeding current liabilities of $186,921,000,000.",
+  "citations": [
+    {
+      "citation_id": "dfe0a45a-17b7-4df8-81cd-e39b1df6bc2c",
+      "chunk_id": "26e5f009-11b6-4e28-a784-10252de0b22c",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Capital Expenditure for Q2: $-32,183,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "d6ca3abd-5589-4802-ab56-98142b74f2e5",
+      "chunk_id": "5f3283b7-5bb8-4d7c-b830-dd99c402ae66",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Capital Expenditure for Q1: $-25,019,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "143748e4-526e-4333-8713-1bfadb1f2e55",
+      "chunk_id": "6ab8a3d8-3d73-4027-9d2b-831c7c1429d2",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Free Cash Flow for Q2: $332,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "876944fb-b561-41d8-81ac-bffab747490b",
+      "chunk_id": "f38f3812-3933-4cab-87de-f0e8d5d9179f",
+      "source_id": "8661f90e-2f0f-4fb6-b69a-9d5db1d23f26",
+      "source_type": "cash_flow",
+      "text_snippet": "AMZN Free Cash Flow for Q1: $-8,004,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "9c627fd9-364a-40fe-b8e6-69564e474ac1",
+      "chunk_id": "6a36ae4a-156d-445c-b656-55103309b417",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Debt for Q2: $133,939,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "350b2cb1-1dba-47b9-a4f4-237559e9e8cd",
+      "chunk_id": "32c40194-64df-4852-b2ec-e1688ced34b4",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Assets for Q2: $191,420,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "a3e84140-be3d-40d1-b228-db2a66fe3396",
+      "chunk_id": "7b792730-6d93-4f78-b458-92a88ec3894d",
+      "source_id": "7177d094-d037-4f84-82aa-d5ce67196efd",
+      "source_type": "balance_sheet",
+      "text_snippet": "AMZN Total Current Liabilities for Q2: $186,921,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "26e5f009-11b6-4e28-a784-10252de0b22c",
+    "5f3283b7-5bb8-4d7c-b830-dd99c402ae66",
+    "6ab8a3d8-3d73-4027-9d2b-831c7c1429d2",
+    "f38f3812-3933-4cab-87de-f0e8d5d9179f",
+    "6a36ae4a-156d-445c-b656-55103309b417",
+    "32c40194-64df-4852-b2ec-e1688ced34b4",
+    "7b792730-6d93-4f78-b458-92a88ec3894d"
+  ],
+  "calc_ids": [
+    "ff93c325-c2ef-4916-bc97-f17509357e1d",
+    "4064b675-fdd0-4088-917f-74cf69ccaf1c"
+  ],
+  "verification_status": "pass",
+  "checker_verdicts": [
+    {
+      "verdict_id": "1944ac94-9e65-423c-b9d0-40c3e3aa0486",
+      "paragraph_id": "28ad2cab-5105-4243-8b78-bcdb3757189a",
+      "status": "pass",
+      "issues": [],
+      "checked_at": "2026-03-24T18:56:54.656569",
+      "iteration": 0
+    }
+  ],
+  "revision_history": [],
+  "iteration": 0
+}

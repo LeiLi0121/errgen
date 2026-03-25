@@ -1,0 +1,53 @@
+{
+  "paragraph_id": "17a41b5e-c9e4-4249-b6fc-89d879bde481",
+  "section_name": "Financial Analysis",
+  "text": "EBITDA for Q3 2025 reached $10,040,000,000, translating to an EBITDA margin of 20.82%. Cash flow generation was exceptionally strong, with operating cash flow of $46,874,000,000 and free cash flow of $46,874,000,000, given zero capital expenditure for the quarter. This produced a free cash flow margin of 97.21%, indicating high cash conversion efficiency. The company also returned capital to shareholders through $5,300,000,000 in stock buybacks during Q3 2025.",
+  "citations": [
+    {
+      "citation_id": "fbc8bd53-d1e8-4964-8cd2-4be3764107e5",
+      "chunk_id": "52e99d7b-827d-4abc-a653-5366a4e65cc7",
+      "source_id": "ed655304-6dfe-404e-bad6-0c53d1d65eab",
+      "source_type": "income_statement",
+      "text_snippet": "BAC EBITDA for Q3: $10,040,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "50ec35a1-f0f6-40b2-b797-2fc97eefe5bd",
+      "chunk_id": "e76d3b9c-b65b-4361-bfe4-c70665ae74d7",
+      "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+      "source_type": "cash_flow",
+      "text_snippet": "BAC Operating Cash Flow for Q3: $46,874,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "863d0439-2ba4-4a66-bd8b-61e2f0ba73e1",
+      "chunk_id": "a1fea077-43c3-4161-a517-60ac3f83f853",
+      "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+      "source_type": "cash_flow",
+      "text_snippet": "BAC Free Cash Flow for Q3: $46,874,000,000",
+      "relevance_note": null
+    },
+    {
+      "citation_id": "1f6ad9aa-4193-48ee-ab09-85967e604bae",
+      "chunk_id": "e68dbfcd-8adc-4b34-902d-71f2127c46b8",
+      "source_id": "c749e107-5b97-4737-8dec-be679a6dd8c7",
+      "source_type": "cash_flow",
+      "text_snippet": "BAC Stock Buybacks for Q3: $-5,300,000,000",
+      "relevance_note": null
+    }
+  ],
+  "chunk_ids": [
+    "52e99d7b-827d-4abc-a653-5366a4e65cc7",
+    "e76d3b9c-b65b-4361-bfe4-c70665ae74d7",
+    "a1fea077-43c3-4161-a517-60ac3f83f853",
+    "e68dbfcd-8adc-4b34-902d-71f2127c46b8"
+  ],
+  "calc_ids": [
+    "e2343111-f5c3-4417-821c-290bafb70050",
+    "f211cc8e-78bf-49df-b68a-849fd4783e9d"
+  ],
+  "verification_status": "fail",
+  "checker_verdicts": [],
+  "revision_history": [],
+  "iteration": 0
+}
