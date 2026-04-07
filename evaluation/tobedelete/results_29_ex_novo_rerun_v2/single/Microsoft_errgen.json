@@ -1,0 +1,78 @@
+{
+  "sample_id": "Microsoft",
+  "model_name": "errgen",
+  "ticker": "MSFT US",
+  "as_of_date": "2026-01-26",
+  "run_id": "89f86cf4-ad2d-4c96-b228-39d7c3d8bcab",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "Material claim regarding the fiscal period is factually incorrect. The report labels the quarter ending 2025-12-31 as 'Fiscal 2025' and 'Q2 2025' (Financial Analysis Para 1, Risk Analysis Para 1). For Microsoft, the fiscal year ends June 30, making Dec 31, 2025 the second quarter of Fiscal 2026. This mislabeling undermines the accuracy of the financial context."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Margins, Cash Flow, Balance Sheet items) and calculated ratios match the provided evidence chunks and calculation objects exactly. Rounding is appropriate."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs correspond accurately to the content in each paragraph. No mismatches found between the authoritative IDs and the text they support."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "No post-as-of violations detected. News items are dated 2026-01-26 (same as report as-of). Financial data is dated 2025-12-31 (prior quarter), which is valid for a January 2026 report."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Severe inconsistency between evidence source dates (2025-12-31) and text fiscal year labels ('Fiscal 2025', 'Q2 2025'). Additionally, a minor internal inconsistency exists where Financial Analysis Para 4 states net debt calculations are 'not provided', while Risk Analysis Para 1 provides the Cash and Debt components required to calculate it."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 2
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, inconsistencies."
+  }
+}

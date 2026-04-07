@@ -1,0 +1,78 @@
+{
+  "sample_id": "American_Express",
+  "model_name": "errgen-baseline",
+  "ticker": "AXP US",
+  "as_of_date": "2025-11-12",
+  "run_id": "94c189f8-28d5-4d1d-b59c-456216e4589d",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 1,
+      "reason": "Severe issue: Key growth claims (Revenue and Net Income YoY) are contradicted by the absolute values provided in the cited evidence tables. The evidence shows Q3 2025 vs Q3 2024 absolute values that imply ~7.2% Revenue growth and ~15.8% Net Income growth, while the report claims 0.91% and 0.59% respectively based on the same evidence tables' growth fields. The evidence values clearly contradict the claim interpretation."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe errors: Revenue YoY growth is stated as 0.91% but calculated from provided absolute values ($10.415B vs $9.716B) is ~7.2%. Net Income YoY growth is stated as 0.59% but calculated from provided absolute values ($2.902B vs $2.507B) is ~15.8%. The reported growth percentages appear to be Quarter-over-Quarter rates mislabeled as Year-over-Year."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations correctly link claims to the specific chunk IDs and calculation IDs provided in the evidence pack. The error lies in the content of the calculation objects, not the citation linking."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates (news, filings, periods) are consistent with the report As-of date of 2025-11-12. No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Internal inconsistency within the cited evidence tables: The absolute values for Revenue and Net Income do not match the growth percentages listed in the same tables. The report propagates this inconsistency."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 2,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 2,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+  }
+}

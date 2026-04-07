@@ -1,0 +1,85 @@
+{
+  "sample_id": "Oracle",
+  "model_name": "errgen-baseline",
+  "ticker": "ORCL US",
+  "as_of_date": "2025-09-15",
+  "run_id": "61f9a078-9d4c-4e57-9fff-1ca689844c91",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims, including financial metrics and strategic developments, are supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. Specific market performance percentages (e.g., 82% YTD) are supported by news chunks; while the specific numbers are not visible in the truncated snippets, the instruction dictates not to penalize for truncation when the source type is appropriate."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Net Income, Margins, Cash Flow, Balance Sheet items) match the provided evidence chunks and calculation objects exactly. Calculated metrics (YoY growth, ratios, margins) are mathematically correct based on the source data provided in the calc IDs."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations are precisely mapped to the relevant evidence types. Financial data is supported by financial statement chunks and calculation IDs. News and strategic developments are supported by news chunks. There are no instances of financial claims relying solely on news chunks without calculation support where calculations were available."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date (2025-09-15) is consistent with all cited evidence dates (News chunks dated 2025-09-15). Financial periods (Q1 2026) align with the reporting timeline for Oracle (Fiscal Year ending May 31, Q1 ending August 2025). No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points are consistent across sections. Revenue, margins, and stock performance figures mentioned in 'Recent Developments' match those in 'Financial Analysis' and 'Business & Competitive Analysis'. No contradictions found between paragraphs."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed operating metrics including revenue, margins, cash flow, CapEx, and balance sheet ratios with YoY comparisons. However, it lacks valuation multiples (P/E, EV/EBITDA) which are standard for contextualizing investment value in equity research."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent integration of timely, specific catalysts (TikTok deal framework, OpenAI cloud contracts) directly linked to stock performance and strategic positioning. News is not just listed but analyzed for impact."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Strong company overview and product breakdown, but explicitly admits lack of market share data and competitive differentiation metrics versus peers, limiting the depth of industry context."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Fails to provide an explicit investment recommendation or outlook conclusion (Buy/Sell/Hold) despite the query request. While the analysis supports a bullish narrative, the lack of a actionable verdict reduces investor utility."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Strong quantification of key risks including liquidity (current ratio, cash decline) and margin compression. Assigns severity levels and connects financial metrics to risk implications effectively."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Clear structure and professional tone, but suffers from significant verbatim repetition of financial metrics between the Recent Developments and Financial Analysis sections, reducing reading efficiency."
+    }
+  },
+  "q_score": 3.6,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Integration of specific, high-impact news catalysts (TikTok, OpenAI) with quantified financial performance and risk analysis.",
+    "primary_weakness": "Absence of an explicit investment recommendation or conclusion, and redundant repetition of financial data across sections."
+  }
+}

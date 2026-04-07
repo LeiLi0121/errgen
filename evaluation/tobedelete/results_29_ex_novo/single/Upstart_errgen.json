@@ -1,0 +1,78 @@
+{
+  "sample_id": "Upstart",
+  "model_name": "errgen",
+  "ticker": "UPST US",
+  "as_of_date": "2025-08-11",
+  "run_id": "a65ce18f-333f-4341-96df-c93116fcda87",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, corporate actions, and market data are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. No unsupported assertions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (revenue, net income, margins, cash flow, balance sheet items) match the provided evidence chunks and calculation objects exactly, allowing for standard rounding in prose summaries (e.g., $257.3 million vs $257,291,000)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'calc IDs' listed under each paragraph correctly correspond to the evidence blocks that substantiate the claims. There are no mismatches between the cited IDs and the provided evidence content."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods referenced (e.g., Q2 2025, August 11, 2025 announcement, August 6, 2025 stock price) are on or before the report as-of date of 2025-08-11. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and corporate details are consistent across all sections of the report (e.g., Revenue, Net Income, and Margins match between 'Recent Developments' and 'Financial Analysis'). No internal contradictions were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent quantification of revenue, margins, cash flow, and balance sheet metrics with clear YoY and sequential comparisons. Transparently acknowledges missing data (debt, current ratio) rather than fabricating figures, demonstrating strong analytical discipline."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Timely and specific coverage of the August 11 convertible notes offering and Q2 earnings reaction. Effectively connects news events to stock price movements and investor sentiment."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "While industry context and TAM are mentioned, the report lacks specific detail on 'AI credit engine developments' beyond R&D spend figures. Competitive moat analysis is generic, and the report explicitly admits to missing market share data, limiting depth on positioning."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear 'Hold' recommendation logically supported by the tension between operational turnaround and financial risks (cash burn, dilution). Synthesizes financial and news data well to justify the neutral stance."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensively covers profitability volatility, cash flow deterioration, and business model exposure to credit cycles. Quantifies the margin and cash flow swings effectively to illustrate risk magnitude."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional structure and clear analytical flow. Some repetition of key headline metrics (revenue, net income) across Developments, Financial, and Investment sections, though each serves a slightly different contextual purpose."
+    }
+  },
+  "q_score": 4.3,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Robust financial data integration with transparent handling of missing metrics and clear linkage between earnings performance and stock reaction.",
+    "primary_weakness": "Superficial treatment of specific AI technology developments and competitive moat details, relying heavily on R&D spend as a proxy for engine progress."
+  }
+}

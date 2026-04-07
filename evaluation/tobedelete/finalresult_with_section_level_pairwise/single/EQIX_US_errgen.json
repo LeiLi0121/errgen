@@ -1,0 +1,85 @@
+{
+  "sample_id": "EQIX_US",
+  "model_name": "errgen",
+  "ticker": "EQIX US",
+  "as_of_date": "2025-08-06",
+  "run_id": "dab91b28-b5be-46bc-8741-061ba92c775f",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, partnerships, analyst ratings, and market data are directly supported by the authoritative cited chunk IDs and evidence provided in the pack. No unsupported material conclusions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, net income, margins, balance sheet items) and calculated metrics (YoY growth, ratios) match the provided evidence and calculation objects exactly. No numerical errors detected."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed for each paragraph correctly correspond to the evidence blocks that support the claims made in those paragraphs. No mismatches found between claims and cited evidence."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All events, earnings releases, and news citations occur on or before the report as-of date of 2025-08-06. No post-as-of claims or future-dated facts were detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data and narrative claims are consistent across all sections of the report (e.g., Revenue and Net Income figures match between Recent Developments and Financial Analysis). No contradictions found."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides solid top-line and margin analysis with specific Q2 2025 figures, but critically omits quantified AFFO/FFO data in the financial section despite mentioning an AFFO beat in the news section. Explicitly notes missing Q2 operating cash flow and EBITDA data, which limits the depth of cash generation analysis essential for a REIT."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively captures relevant recent developments including Q2 earnings, the F5 partnership, analyst rating changes, and institutional flows. Timely and specific dates are provided, though some news items are repeated verbatim in other sections rather than being synthesized."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context on industry trends, specifically AI-driven demand and data center colocation growth. Identifies competitive positioning against peers like DLR and notes macro tailwinds like rate cuts. The focus on Hong Kong market stats is specific but adds useful regional color."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear Buy recommendation logically supported by fundamental improvements, strategic partnerships, and institutional confidence. While it lacks an independent valuation model or price target, the investment thesis is coherent and highlights key catalysts and risks."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Thoroughly analyzes financial leverage and liquidity risks with specific metrics. However, it explicitly states inability to assess macro, geopolitical, regulatory, or operational risks due to data limitations, resulting in an incomplete risk profile."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and professional, but suffers from excessive near-verbatim repetition of financial metrics and news items across the Recent Developments, Financial Analysis, Business, and Investment sections. This redundancy displaces deeper analytical synthesis and reduces readability."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Clear investment thesis supported by specific recent catalysts (F5 partnership, Q2 earnings beat) and solid industry context regarding AI demand and REIT sector dynamics.",
+    "primary_weakness": "Excessive verbatim repetition of financial metrics and news items across multiple sections reduces analytical depth, and key REIT-specific cash flow metrics (FFO/AFFO) are not quantified in the financial analysis section."
+  }
+}

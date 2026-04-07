@@ -1,0 +1,78 @@
+{
+  "sample_id": "JPMorgan",
+  "model_name": "errgen-baseline",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "run_id": "bfbd99ef-e09a-435d-b789-342244f7cdd4",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs and calc IDs provided in the evidence pack. While some evidence snippets are truncated in the display, the instruction dictates not to penalize for truncation if the chunk ID is authoritative and consistent. Financial figures, strategic details, and news events align with the cited sources."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, net income, margins, ratios, growth rates) match the provided calculation objects and evidence snippets exactly. Rounding is appropriate (e.g., $71.9B for $71,903M). Calculations for margins and ratios (e.g., Current Ratio 0.68, D/E 2.95x) are mathematically consistent with the source data provided."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'Authoritative cited calc IDs' listed under each paragraph correctly correspond to the evidence blocks provided. There are no mismatches between the claims and the cited authoritative IDs. Inline citation labels are not present in the prose, avoiding potential confusion."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date (2025-10-21) is consistent with the source dates of the news articles (2025-10-21) and the financial period (Q3 2025). No post-as-of information is used. The inauguration event dated October 21, 2025, aligns with the report date."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Key metrics (Revenue, Net Income, Margins, D/E Ratio, Current Ratio) are consistent across all sections (Recent Developments, Financial Analysis, Business Analysis, Risk Analysis). Employee counts and HQ details are repeated consistently. No contradictions found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides robust quantification of revenue, margins, cash flow, and balance sheet metrics with clear trend analysis. However, it fails to explicitly break out Net Interest Income and Expense trends as specifically requested in the query, which is critical for bank analysis."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Integrates relevant recent developments including earnings results, HQ inauguration, and sovereign lending stance. News items are effectively linked to strategic confidence and risk discipline rather than just listed."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context on business segments, competitive positioning, and sector leverage norms. Connects company performance to broader market sentiment and peer behavior, though specific details on international retail expansion strategy are light."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Significantly incomplete relative to query requirements. Lacks explicit investment recommendation, valuation metrics (P/E, P/B), and Return on Equity comparison to peers. The report truncates before providing a conclusion or investment view."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive risk analysis with specific quantification of leverage, liquidity, and cash flow volatility. Effectively contextualizes banking-specific metrics while highlighting genuine stress points."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional structure with clear headings and logical flow. Repetition of key revenue figures across sections is acceptable as they serve different analytical purposes (growth, margin, competitive)."
+    }
+  },
+  "q_score": 3.4,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong quantitative depth in financial and risk sections, offering detailed margin, cash flow, and balance sheet analysis with clear implications.",
+    "primary_weakness": "Fails to deliver the core equity research deliverable: an investment view based on valuation metrics and ROE outlook, leaving the report incomplete relative to the user query."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Alphabet",
+  "model_name": "errgen-baseline",
+  "ticker": "GOOGL US",
+  "as_of_date": "2026-02-03",
+  "run_id": "4a13753a-45d1-45a0-b6ca-ba59223025e3",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "Claims are substantively supported by the content of the provided evidence chunks and calculation objects."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures, margins, and growth rates match the authoritative calculation IDs and evidence snippets exactly."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured citation IDs (chunks and calcs) correctly map to the supporting evidence blocks for the respective claims."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe post-as-of violation: Recent Developments Paragraph 1 cites a news source (SeekingAlpha/Visible Alpha consensus) dated 2026-02-04 in a report with an as-of date of 2026-02-03."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "No internal contradictions found between sections; financial data is consistent across Financial Analysis and Business & Competitive Analysis."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+  }
+}

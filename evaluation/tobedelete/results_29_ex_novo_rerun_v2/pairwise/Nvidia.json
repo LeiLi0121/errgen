@@ -1,0 +1,23 @@
+{
+  "sample_id": "Nvidia",
+  "ticker": "NVDA US",
+  "as_of_date": "2025-09-01",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors (numerical, citation, temporal, or consistency). They present consistent financial data for Q2 2025 (Revenue ~$46.7B, Net Income ~$26.4B, Margins ~72% Gross). Report 2 provides more specific quantitative data on stock performance (-2.84% return vs SPY +1.67%) compared to Report 1's general statement of underperformance. Report 2 explicitly notes the unavailability of year-over-year comparison data, whereas Report 1 does not disclose this limitation.",
+    "quality_comparison": "Report 2 is more complete and useful for investors as it includes a dedicated 'Investment Recommendation & Outlook' section with a clear 'Hold' rating and synthesized rationale, whereas Report 1 explicitly lacks a conclusive investment recommendation. Report 2 demonstrates superior risk-aware recommendation logic by balancing fundamental strength against competitive headwinds in its conclusion. Report 1 has better depth in the Business & Competitive Analysis section with less verbatim repetition than Report 2 (which repeats boilerplate in Business Analysis). However, Report 2's transparency on data limitations and specific stock performance metrics enhance its reliability and usefulness. Report 1 has a higher aggregate Q score (4.05 vs 3.6), primarily due to less repetition, but fails the critical functional requirement of providing an investment view.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, emphasis is placed on completeness, investor usefulness, and risk-aware recommendation logic. Report 2 fulfills the core function of an equity research report by providing a clear investment rating and synthesizing risks and strengths into a conclusion, which Report 1 omits entirely. Report 2 also offers greater transparency regarding data limitations and more precise risk quantification (stock returns). While Report 1 has better narrative depth in the business analysis section, the absence of a recommendation significantly reduces its investor usefulness. Therefore, Report 2 is preferred despite the lower Q score driven by repetition."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports passed the Accuracy Gate with no severe errors (numerical, citation, temporal, or consistency). Key financial data points are consistent across both: Q2 2025 Revenue ($46.743 billion), Net Income ($26.422 billion), Gross Margin (72.42%), and Balance Sheet metrics (Current Ratio 4.21, Debt-to-Equity 0.11). Neither report contains factual contradictions or unsupported claims relative to the provided evidence.",
+    "quality_comparison": "Report 1 (errgen) is structurally complete, featuring a dedicated Investment Recommendation section with a clear 'Hold' rating and rationale. Report 2 (errgen-baseline) demonstrates higher financial numeric granularity (Q score 4.05 vs 3.6), offering valuable Q1 vs Q2 margin comparisons and cash flow volatility context that Report 1 omits. However, Report 2 is truncated in the provided text and metadata confirms the absence of a conclusive investment recommendation. Report 1 suffers from verbatim boilerplate repetition and lacks year-over-year context, but Report 2's lack of a final verdict is a more significant deficit in investor usefulness.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, when both reports pass the Accuracy Gate, quality dimensions emphasizing completeness, investor usefulness, and risk-aware recommendation logic take precedence. Report 1 is preferred because it delivers a complete, actionable investment conclusion ('Hold'), whereas Report 2 fails to provide a conclusive recommendation. While Report 2 offers superior financial depth, the absence of a final investment stance significantly undermines its utility as an equity research report. Report 1's completeness outweighs Report 2's marginal analytical advantages."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "Robinhood_Markets",
+  "ticker": "HOOD US",
+  "as_of_date": "2025-11-12",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports failed the Accuracy Gate. Report 1 registered 5 severe errors (2 numerical, 1 unsupported claim, 1 inconsistency), while Report 2 registered 3 severe errors (1 numerical, 1 unsupported claim, 1 inconsistency). Report 2 demonstrates higher factual reliability with fewer numerical inaccuracies and a lower total count of severe issues.",
+    "quality_comparison": "Report 2 exhibits superior structural organization, particularly in the Financial Analysis section where it dedicates separate paragraphs to Balance Sheet and R&D, enhancing readability. Its Risk Analysis demonstrates stronger cross-section synthesis by explicitly quantifying liability growth (69%) to substantiate liquidity risk claims. Report 1 clumps cash flow and balance sheet data together and offers more generic risk commentary.",
+    "winner": "second_report",
+    "rationale": "Report 2 is preferred because it contains materially fewer severe accuracy errors (3 vs 5) and provides greater investor usefulness through better structural organization and deeper synthesis of financial metrics into specific risk assessments."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports failed the Accuracy Gate, indicating material reliability issues. Report 1 contains 3 severe errors (1 numerical, 1 inconsistency, 1 unsupported claim), while Report 2 contains 4 severe errors (2 numerical, 1 inconsistency, 1 unsupported claim). Report 1 has fewer numerical errors, which are high-severity in financial analysis. However, Report 1 contains a notable internal inconsistency regarding growth rates (labeling 28.82% as quarter-over-quarter in Financial Analysis vs year-over-year in Recent Developments), whereas Report 2 is internally consistent on this specific metric. Both reports share identical core financial figures (Revenue, Net Income, Debt, Cash Flow), suggesting the numerical errors likely overlap.",
+    "quality_comparison": "The reports are nearly identical in narrative and structure. Report 1 offers slightly better granularity in the Financial Analysis section, separating Balance Sheet and R&D into distinct paragraphs, whereas Report 2 combines these with Cash Flow. Report 2 provides a slightly broader Risk Analysis, explicitly covering Revenue Concentration and Technology risks, while Report 1 focuses more heavily on Financial Leverage and Liquidity. Given the core purpose of equity research is financial valuation, Report 1's superior financial section structure is marginally more useful, provided the numbers were accurate.",
+    "winner": "first_report",
+    "rationale": "Both reports are factually compromised and fail the Accuracy Gate, making them unreliable for investment decisions without verification. However, Report 1 is marginally preferable because it contains fewer high-severity numerical errors (1 vs 2). While Report 1 has a confusing internal inconsistency on growth rate labels, Report 2's higher count of numerical errors poses a greater risk to fundamental analysis. Additionally, Report 1's Financial Analysis section is structured with better granularity, aiding readability. The difference is minimal, but Report 1 is 'less compromised' on the most critical dimension (numerical accuracy)."
+  }
+}

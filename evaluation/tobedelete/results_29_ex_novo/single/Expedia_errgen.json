@@ -1,0 +1,78 @@
+{
+  "sample_id": "Expedia",
+  "model_name": "errgen",
+  "ticker": "EXPE US",
+  "as_of_date": "2025-11-24",
+  "run_id": "22f86efc-6138-47f6-9a95-afb997965593",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "While claims are linked to structured citation IDs, the cited calculation objects contradict the cited absolute value chunks (e.g., revenue chunks show $4.06B to $4.41B, but calc object claims 16.53% growth which is mathematically inconsistent). This creates ambiguity in evidentiary support."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe numerical errors in key growth metrics. Revenue growth claimed as 16.53% ($4.06B to $4.41B) is mathematically incorrect (actual ~8.7%). Net Income growth claimed as 190.61% ($684M to $959M) is mathematically incorrect (actual ~40.2%). These errors materialize in both Recent Developments and Financial Analysis sections."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs are correctly listed for each paragraph and correspond to the evidence provided in the pack, even if the content of the calcs is flawed."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news citations and financial periods (Q3 2025) are prior to or on the report as-of date (2025-11-24). No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Internal inconsistency within Financial Analysis Paragraph 1: the stated absolute revenue figures ($4,060M to $4,412M) do not support the stated growth percentage (16.53%). Similar inconsistency exists for Net Income figures vs growth percentage."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+  }
+}

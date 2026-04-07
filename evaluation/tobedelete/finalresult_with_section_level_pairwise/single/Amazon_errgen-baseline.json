@@ -1,0 +1,99 @@
+{
+  "sample_id": "Amazon",
+  "model_name": "errgen-baseline",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "run_id": "20e5a975-2a61-4338-b3b3-66f4da120032",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. Financial figures, business descriptions, and news summaries align with their respective evidence sources."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, ratios, growth rates, stock returns) are mathematically consistent with the provided evidence and calculation objects. Rounding is appropriate (e.g., 4.25% return, 7.73% growth)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed under each paragraph accurately correspond to the evidence supporting the claims in that paragraph. There are no mismatches between the text and the authoritative grounding records."
+    },
+    "temporal_validity": {
+      "score": 2,
+      "reason": "Severe temporal violation. The report presents Q2 2025 financial results as finalized actuals ('demonstrated', 'reaching') in the Financial Analysis section, while the Recent Developments section cites news from the same as-of date (2025-07-28) describing the earnings as 'Upcoming' and a 'Preview'. This implies the report claims knowledge of unreleased data as confirmed facts."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Severe internal inconsistency. Recent Developments Paragraph 1 states earnings are 'scheduled to report... this week' and Paragraph 4 notes stock performance 'ahead of earnings'. However, Financial Analysis Paragraph 1 discusses Q2 2025 revenue as a completed event ('demonstrated solid revenue growth'). This contradiction affects the reliability of the financial analysis."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [
+      {
+        "severity": "severe",
+        "explanation": "Report treats Q2 2025 earnings as released actuals on 2025-07-28, while cited news evidence from the same date explicitly labels them as 'Preview' and 'Upcoming'.",
+        "section": "Financial Analysis, Paragraph 1",
+        "offending_span": "Amazon demonstrated solid revenue growth in Q2 2025, with total revenue reaching $167.7 billion"
+      }
+    ],
+    "inconsistencies": [
+      {
+        "severity": "severe",
+        "explanation": "Contradiction between Recent Developments (earnings 'scheduled to report this week', 'ahead of earnings') and Financial Analysis (earnings 'demonstrated', 'reaching').",
+        "section": "Recent Developments vs Financial Analysis",
+        "offending_span": "scheduled to report quarterly earnings this week... ahead of earnings... demonstrated solid revenue growth in Q2 2025"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+  }
+}

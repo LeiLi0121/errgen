@@ -1,0 +1,78 @@
+{
+  "sample_id": "Micron_Technology",
+  "model_name": "errgen",
+  "ticker": "MU US",
+  "as_of_date": "2025-04-02",
+  "run_id": "06814138-70f3-4d4c-bee0-e9de13bd8f64",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, company overview, and risk factors are directly supported by the authoritative cited chunk IDs and evidence provided. Where data is unavailable (e.g., EBITDA, market share), the report explicitly states this, which is consistent with the evidence showing 'N/A' or lack of specific chunks."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, balance sheet items) match the provided evidence chunks exactly. Calculated ratios (current ratio, debt-to-equity, R&D intensity) align with the provided calculation objects and source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured authoritative cited chunk IDs and calc IDs listed for each paragraph correspond accurately to the evidence blocks provided. There are no mismatches between the claims and the content of the cited evidence."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All data points (Q2 2025 financials, 10-Q filing) are dated prior to the report as-of date of 2025-04-02. There are no post-as-of claims or future-dated evidence used as current facts."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and company details are consistent across all sections of the report (e.g., Revenue, Margins, Balance Sheet items match between Financial Analysis and Risk Analysis sections). No contradictions found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "The report provides clear, quantified analysis of revenue, margins, and balance sheet metrics with explicit YoY and QoQ comparisons. However, it explicitly states that EBITDA and cash flow data are unavailable, which is a significant gap for a capital-intensive semiconductor company, limiting the completeness of the financial assessment."
+    },
+    "news": {
+      "score": 1,
+      "reason": "The 'Recent Developments' section is completely empty despite being a required header. The report fails to discuss specific catalysts, product launches, or AI demand news beyond generic references in other sections, failing a core component of the user query."
+    },
+    "cmi": {
+      "score": 2,
+      "reason": "The report suffers from severe redundancy, repeating the company description and segment list verbatim across multiple sections. It also explicitly admits an inability to provide market share data or competitive differentiation analysis, resulting in shallow industry context."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "A clear 'Hold' recommendation is provided with logical ties to the financial analysis (margin compression vs. balance sheet strength). However, the view lacks valuation metrics (e.g., P/E, price targets) and deeper catalyst-driven conviction."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Financial risks such as margin compression and leverage are well-identified and quantified. However, the report admits significant limitations in assessing macro, geopolitical, and competitive risks, reducing the comprehensiveness of the risk profile."
+    },
+    "writing": {
+      "score": 2,
+      "reason": "Structure is logical, but quality is severely degraded by pathological repetition of the company overview paragraph across four different sections. The empty 'Recent Developments' section also indicates poor editorial control and flow."
+    }
+  },
+  "q_score": 2.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "The financial analysis effectively utilizes available P&L and balance sheet data to quantify profitability trends and liquidity positions with clear YoY and QoQ comparisons.",
+    "primary_weakness": "The report contains egregious verbatim repetition of company description text across multiple sections and includes a completely empty 'Recent Developments' section, undermining professionalism and completeness."
+  }
+}

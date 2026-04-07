@@ -1,0 +1,78 @@
+{
+  "sample_id": "Expedia",
+  "model_name": "errgen",
+  "ticker": "EXPE US",
+  "as_of_date": "2025-11-24",
+  "run_id": "e46f7a9c-6cc6-410d-8993-613799f4aec7",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs and evidence provided. While one market statistic (13.1% monthly gain) is not visible in the truncated evidence snippet, the evaluation rules instruct not to penalize solely for truncation when the source ID is authoritative."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, balance sheet items) and calculated ratios (growth rates, current ratio, debt-to-equity) match the provided evidence and calculation IDs exactly or within acceptable rounding."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed under each paragraph correctly link to evidence that supports the corresponding text. There are no mismatches between the claims and the authoritative evidence records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence source dates are on or before the report as-of date (2025-11-24). No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "There is a minor terminology inconsistency in Financial Analysis Paragraph 4 regarding net cash/debt. The text states a 'net cash position of -$1,046,000,000 (net debt)' while also stating 'cash... exceed total debt'. While the explanatory text clarifies the liquidity position (Cash > Debt), labeling a positive net cash situation as a negative 'net cash position' (equating it to the Net Debt metric value) is semantically contradictory, though not severe enough to alter the investment interpretation given the clarification."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed quarterly revenue and margin progression with specific figures, analyzing seasonality and operating leverage. Transparently acknowledges data gaps (Q2/Q3 cash flow, R&D) rather than hallucinating, which supports analytical discipline."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent coverage of recent developments with specific dates (Nov 17-24), including earnings, competitive threats (Google AI), analyst actions, and macro events. Clearly links news to stock price movements."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Strong company overview and industry context regarding seasonality and tech competition. However, fails to deeply address the query requirement for peer comparison, mentioning Booking Holdings only in the context of stock price correlation rather than fundamental analysis."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "The dedicated Investment Recommendation section is truncated, failing to provide a conclusive view or synthesis. While scattered signals exist (Mizuho rating, dividend initiation), the lack of a formal recommendation logic significantly reduces utility."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Identifies key risks (liquidity, leverage, volatility) with quantified metrics (current ratio, debt-to-equity). Connects financial ratios to specific operational implications like flexibility during downturns."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Clear, professional structure with logical flow across sections. Analytical tone is consistent, though the abrupt truncation at the end disrupts the overall document completeness."
+    }
+  },
+  "q_score": 3.7,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "High granularity in financial metrics and news coverage, with specific dates, figures, and transparent acknowledgment of data limitations.",
+    "primary_weakness": "The Investment Recommendation section is truncated, preventing a complete conclusion, and peer comparison is limited to stock price mentions rather than fundamental analysis."
+  }
+}

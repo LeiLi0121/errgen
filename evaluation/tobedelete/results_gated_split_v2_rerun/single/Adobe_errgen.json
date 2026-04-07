@@ -1,0 +1,78 @@
+{
+  "sample_id": "Adobe",
+  "model_name": "errgen",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "run_id": "820ea7cd-86ac-4d78-a262-d925f5f36542",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and evidence snippets provided. No unsupported assertions detected."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures and calculations match evidence exactly. One minor semantic issue found where 'underperforming by -X%' creates a double negative, though the magnitude matches the excess return data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Cited chunk IDs correspond accurately to the content they support. No mismatches between claims and evidence content."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news and financial data dates are on or before the report as-of date (2025-08-22). No post-as-of claims identified."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points (e.g., employee count, revenue, segment descriptions) are consistent across all sections of the report."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed margin, cash flow, and balance sheet metrics with strong quantification (e.g., FCF margin 36.51%, R&D intensity 18.42%). Transparently caveats the inability to calculate YoY revenue growth, which is a limitation but demonstrates analytical discipline. High-quality analysis of available data."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Incorporates timely and specific developments including the Premier League partnership, Morgan Stanley analyst action (price target and date), and competitor moves (Canva valuation, Figma rating). Effectively links news to investment implications."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Clear breakdown of business segments and revenue drivers. Provides industry context on generative AI in e-commerce and Smart Learning markets. Competitive landscape is well-defined with specific peers (Canva, Figma)."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear 'Hold' recommendation with logical synthesis of profitability strengths against execution and competitive risks. Explicitly connects financial metrics and news catalysts to the investment view."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Comprehensive coverage of financial, competitive, and execution risks. Quantifies financial risks (liquidity ratios, debt levels) and qualitatively assesses AI disruption and sentiment divergence. Strong integration of data from other sections."
+    },
+    "writing": {
+      "score": 5,
+      "reason": "Professional tone with clear structure and logical flow. Sections are distinct yet synthesized. Language is precise and analytical, avoiding unnecessary fluff while maintaining depth."
+    }
+  },
+  "q_score": 4.25,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Exceptional risk analysis that quantifies financial vulnerabilities while contextualizing competitive threats, supported by transparent analytical caveats.",
+    "primary_weakness": "Inability to provide year-over-year revenue growth trends limits the assessment of top-line momentum, a critical metric for technology equity research."
+  }
+}

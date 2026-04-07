@@ -1,0 +1,85 @@
+{
+  "sample_id": "Nike",
+  "model_name": "errgen",
+  "ticker": "NKE US",
+  "as_of_date": "2025-08-21",
+  "run_id": "ca61ff8f-51ca-48bd-8476-3a17295df8dd",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, competitive positioning, and risks are directly supported by the authoritative cited chunk IDs and evidence snippets provided. News claims (e.g., $1B hit, 27.3% gain, container shipping levels) match the text in the cited news chunks. Financial claims match the cited financial statement chunks."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical data points (Revenue, Margins, Cash Flow, Balance Sheet ratios, Stock Returns) are mathematically consistent with the provided evidence and calculation objects. Calculated metrics (e.g., Gross Margin 40.27%, Net Debt $3,554M, Excess Return -22.68%) match the provided calculation IDs exactly."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed under each paragraph accurately correspond to the claims made in that paragraph. There are no instances where a paragraph cites evidence that contradicts or fails to relate to the text. While some evidence snippets are truncated, the visible portions align with the claims, and per evaluation rules, truncation alone does not constitute a mismatch."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods are consistent with the report as-of date of 2025-08-21. Historical financials (Q4 ending May 31, 2025) and news items (August 2025) are prior to or on the as-of date. Future events (Q1 2026 earnings on Sept 30) are correctly framed as expectations. No post-as-of claims are presented as realized facts."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report maintains internal consistency across all sections. Financial figures (Revenue $11,097M, Margins, Returns) are repeated accurately in Financial Analysis, Business Analysis, and Investment Recommendation sections. Strategic narratives ($1B hit, 27.3% gain, Skechers comparison) are consistent throughout."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed Q4 margins, cash flow, and balance sheet metrics, but explicitly lacks year-over-year growth rates and prior period comparisons, which are critical for assessing momentum in equity research."
+    },
+    "news": {
+      "score": 3,
+      "reason": "Covers earnings beat and stock performance well. However, explicitly states inability to provide details on requested digital channels and product partnerships, leaving a gap in the requested strategic analysis."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Identifies key competitor (Skechers) and strategic differentiation. Lacks deeper industry market share data or specific digital/wholesale mix context which is crucial for Nike."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Clear Hold recommendation with logical ties to financials and risks. Lacks valuation multiples (P/E, EV/EBITDA) or price target to support the view, though recommendation logic is sound."
+    },
+    "risk": {
+      "score": 2,
+      "reason": "Section is nearly verbatim repetition of the Recent Developments section without expanding on specific risk mitigations, probabilities, or additional risk factors (e.g., currency, regulatory)."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Well-structured with clear headings. However, excessive verbatim repetition of key statistics ($1B hit, 27.3% gain) across sections displaces new analytical insight."
+    }
+  },
+  "q_score": 2.85,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Logical investment conclusion supported by transparent acknowledgment of data limitations and solid balance sheet analysis.",
+    "primary_weakness": "Significant repetition of content across sections (especially Risk) and lack of year-over-year financial trends or valuation metrics."
+  }
+}

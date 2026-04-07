@@ -1,0 +1,78 @@
+{
+  "sample_id": "Goldman_Sachs",
+  "model_name": "errgen-baseline",
+  "ticker": "GS US",
+  "as_of_date": "2025-11-12",
+  "run_id": "85a687ae-e5f5-4e1b-8b18-789233ab9707",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most claims are well-supported by the provided evidence chunks and calculation objects. However, the characterization of sequential quarterly growth as 'Year-over-Year' is not supported by the visible source data periods (which only show 2025 quarters), making the conclusion technically unsupported despite the calc object label."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe error in financial metric definition. The report repeatedly labels Quarter-over-Quarter (QoQ) growth rates (comparing Q1, Q2, Q3 2025) as 'Year-over-Year' (YoY). This misrepresentation is material as it changes the investment interpretation of performance momentum versus annual performance. The visible source data lacks prior year figures to support a YoY claim."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs accurately correspond to the content in each paragraph. No mismatches found between the authoritative citations and the report text."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates align with the report as-of date (2025-11-12). Financial periods (Q3 2025 ending Sep 30) and news events (Nov 12, 2025) are temporally valid and do not contain post-as-of claims."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "The report is internally consistent in its terminology (consistently using 'YoY' for sequential data), but this terminology is inconsistent with the provided source data periods (Q1-Q3 2025 only) and standard financial definitions, creating a consistency gap between the report and the underlying data reality."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "sample_id": "Microsoft",
+  "ticker": "MSFT US",
+  "as_of_date": "2026-01-26",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "Tie",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 2, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 2 sections on this ordering, errgen-baseline won 2, and 2 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis, Risk Analysis. errgen-baseline stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. Ties: Company Overview, Recent Developments.",
+    "winner": "tie",
+    "rationale": "Section-level vote is tied on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical factual content. They present the same company metadata (ticker, exchange, sector, industry, CEO, employees, IPO date, headquarters), the same three-segment business structure (Productivity and Business Processes, Intelligent Cloud, More Personal Computing), and the same descriptions of products and services within each segment. No factual differences exist between the two sections.",
+        "quality_comparison": "The section texts are word-for-word identical. Both have the same organization, depth, and level of detail. Neither section provides any forward-looking analysis or context specific to the 2026-01-26 as-of date. Both read as generic company descriptions that could apply to any time period.",
+        "winner": "tie",
+        "rationale": "The two Company Overview sections are materially indistinguishable - they contain identical text with the same structure, content, and level of detail. Per the decision policy, when sections are materially indistinguishable, the result should be a tie. While both reports failed the accuracy gate at the report level for different reasons (temporal violations vs. unsupported claims), these report-level issues do not manifest in this specific section, as both show section-specific findings of severe=0, minor=0. Since the section texts are identical, there is no basis to prefer one over the other."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical factual content including company basic information (ticker, exchange, sector, industry, CEO, employees, IPO date, headquarters), description of the three business segments (Productivity and Business Processes, Intelligent Cloud, More Personal Computing), product offerings within each segment, distribution channels, and company founding information. There are no factual differences between the two sections.",
+        "quality_comparison": "The section texts are word-for-word identical. Both provide the same level of depth, organization, and relevance to the user query. Neither section offers any advantage in terms of analytical implications, clarity, or investor usefulness over the other.",
+        "winner": "tie",
+        "rationale": "The two Company Overview sections are materially indistinguishable - they contain exactly the same text with identical structure, content, and presentation. Per the decision policy, when sections are materially indistinguishable, the result should be a tie. Both reports failed the accuracy gate at the report level, but since the section-specific findings show no severe or minor issues for either section and the texts are identical, there is no basis to prefer one over the other."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core factual claims, including the Maia 200 launch date (January 26, 2026), the specific AMD stock reaction (3.3% drop), the earnings release date (January 28, 2026), and the analyst price target ($646). There are no material factual divergences between the two sections themselves, and section-specific findings indicate no severe or minor errors for either.",
+        "quality_comparison": "The first report demonstrates slightly higher analytical specificity and terminology precision. It explicitly names 'Meta Platforms' rather than the generic 'hyperscalers,' includes the 'Strong Buy' rating alongside the price target, and uses the strategic term 'vertical integration.' It also adds nuance by noting 'AI adoption headwinds' as a consideration in the analyst preview. The second report includes a relevant point on capital expenditure expectations in P3, which is financially pertinent, but its overall language is slightly more generic ('Big Tech,' 'hyperscalers') and lacks the analyst rating detail.",
+        "winner": "first_report",
+        "rationale": "While both sections are nearly identical in structure and core content, the first report provides marginally better signal density for an investor. The inclusion of the specific analyst rating ('Strong Buy'), the nuance regarding 'AI adoption headwinds,' and more precise strategic terminology ('vertical integration') makes it slightly more useful for evaluating the investment case. The second report's mention of capital expenditures is valuable, but the first report's additional details on analyst consensus and specific peers offer a more comprehensive view of recent developments in the context of equity research."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical core factual claims: the Maia 200 chip launch on January 26, 2026, earnings scheduled for January 28, 2026, a $646 price target, 35% upside, and a 3.3% drop in AMD shares. Section-specific findings indicate no severe or minor factual issues for either section, despite both reports failing the overall accuracy gate.",
+        "quality_comparison": "The text in both sections is nearly identical, with only minor phrasing differences. The First Report includes a specific mention of capital expenditure expectations in 2026 (highly relevant to financial performance), while the Second Report includes 'AI adoption headwinds' and broader macro risks (tariffs, healthcare). The Second Report offers slightly better attribution ('according to recent analysis') and nuance ('contributed to' vs 'following'), but the First Report's focus on CapEx is more specific to the company's financials. These differences balance out.",
+        "winner": "tie",
+        "rationale": "The sections are materially indistinguishable in terms of content, structure, and reliability signals. Both share the same core data points and narrative flow. While there are minor variations in the third paragraph (CapEx vs. Macro risks) and slight differences in attribution, neither section demonstrates a clear advantage in depth, relevance, or analytical quality sufficient to declare a winner. Both failed the report-level accuracy gate, but section-specific findings are clean for both, leading to a tie based on the decision policy for indistinguishable sections."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical financial figures for revenue, margins, cash flow, and balance sheet metrics (e.g., Q2 revenue of $81.27B, Q2 Net Income of $38.46B). The critical factual divergence lies in the derivation of growth rates and the interpretation of income statements. The first report asserts specific year-over-year growth percentages (4.63%, 9.10%, -13.79%) without citing prior year data, triggering a section-specific finding for unsupported claims. The second report explicitly acknowledges that YoY growth rates cannot be calculated from the available evidence. Furthermore, the second report identifies a discrepancy where Q2 Net Income exceeds Operating Income, flagging it for investigation, whereas the first report presents this as standard performance.",
+        "quality_comparison": "The second report exhibits higher analytical quality and transparency. It avoids fabricating growth metrics and demonstrates skepticism regarding the financial statement relationships (Net Income vs. Operating Income), which adds value to the investor. The first report's narrative is more assertive but less reliable due to the unsupported growth claims and lack of critical analysis on margin anomalies. The section-specific findings reinforce this, with the first report carrying a minor reliability flag and the second having none.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it prioritizes reliability and analytical rigor over narrative smoothness. It directly addresses the data limitation regarding YoY growth that caused the first report to incur a section-specific finding. Additionally, its identification of the unusual Net Income to Operating Income ratio demonstrates deeper financial analysis. Per the decision policy, section-specific findings are the main reliability signal, and the second report's clean record in this section, combined with superior analytical skepticism, makes it the stronger choice for an investor despite both reports sharing the same underlying numerical inputs."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical core financial figures (Q2 revenue $81.273B, Q1 $77.673B, Q4 $76.441B, gross profit $55.295B, operating income $38.275B, net income $38.458B, EBITDA $58.180B, OCF $35.758B, FCF $5.882B, capex $29.876B, R&D $8.504B, current assets $180.190B, current liabilities $130.005B, debt $123.278B, equity $390.875B). However, the first report explicitly acknowledges that year-over-year growth rates cannot be calculated from available evidence, while the second report makes specific YoY claims (Q2: 4.63%, Q4: 9.10%, Q3: -13.79%) that constitute an unsupported claim per the section-specific findings. The first report also flags the unusual net income vs. operating income relationship for further investigation, showing appropriate analytical caution.",
+        "quality_comparison": "Both sections cover the same financial dimensions (revenue trajectory, profitability, cash flow, balance sheet, R&D) with similar organization. The first report demonstrates stronger analytical rigor by acknowledging data limitations and flagging items requiring further investigation. The second report provides more definitive conclusions but includes unsupported YoY growth claims. The first report's transparency about evidence constraints is more valuable for investor decision-making than the second report's false precision.",
+        "winner": "first_report",
+        "rationale": "The first report wins on reliability grounds. Section-specific findings show zero issues for the first report versus one minor unsupported claim for the second report. The first report appropriately acknowledges when YoY calculations cannot be made from available evidence, while the second report makes specific YoY growth claims that are flagged as unsupported. For a Financial Analysis section where accuracy is paramount, the first report's intellectual honesty about data limitations and its flagging of anomalies (net income vs. operating income discrepancy) provides more trustworthy analysis for investors. Both reports failed the report-level accuracy gate, but for this specific section, the first report demonstrates better judgment about what can and cannot be claimed from the evidence."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports share identical specific claims regarding the 'Maia 200' AI chip, the alleged 3.3% drop in AMD shares upon announcement, and the fiscal Q2 earnings date of January 28, 2026. Both reports likely share the same hallucination risks regarding these future-dated specifics. The primary factual difference is that the first report includes specific fundamental financial metrics (gross, operating, net margins, FCF margin, balance sheet ratios), while the second report includes recent stock price performance data (-3.57% vs SPY).",
+        "quality_comparison": "The first report is better organized and more relevant to the 'Business & Competitive Analysis' section of an equity research report. It explicitly addresses the 'financial performance' aspect of the user query by including margin and balance sheet data, whereas the second report relegates financials to stock price performance, which is typically reserved for a market data section. The first report also provides better coverage of the 'gaming' requirement by explicitly listing Xbox hardware and services in the segment description, while the second report is more generic. The first report's structure logically flows from segments to positioning to growth to financial health, while the second report mixes price targets and stock performance into competitive and management analysis.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred because it delivers higher signal density regarding the user's request for 'financial performance' analysis by including specific margin and balance sheet metrics within this section. It also addresses the 'gaming' component of the query more explicitly than the second report. The organization of the first report is more consistent with standard equity research conventions for a Business & Competitive Analysis section, focusing on fundamentals rather than stock price action (which appears in the second report). Since both reports share the same potential accuracy issues regarding future-specific claims (Maia 200, AMD impact), the decision is driven by the first report's superior depth and relevance to the query's fundamental analysis requirements."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports share identical specific claims regarding the Maia 200 AI chip, the impact on AMD shares (3.3% fall), the $646 price target, and the 35% upside potential. Both reports failed the overall accuracy gate, but section-specific findings indicate no severe or minor errors within this specific section for either report. The second report includes specific financial metrics (margins, ratios) which are not present in the first report's section text. The first report includes recent stock price performance data which the second report omits in this section.",
+        "quality_comparison": "The second report provides a more comprehensive breakdown of Microsoft's three business segments in the first paragraph, detailing products for Intelligent Cloud and More Personal Computing, whereas the first report focuses primarily on the Productivity segment. The second report integrates fundamental financial metrics (margins, balance sheet ratios) into the competitive analysis to support the narrative on investment capacity, which aligns better with the user query's request to analyze financial performance and positioning. The first report includes stock price performance in this section, which is less relevant to fundamental business analysis than the operational metrics provided in the second report.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it offers a more complete description of the company's business segments, which is core to a 'Business & Competitive Analysis' section. It also incorporates key financial health metrics (margins, liquidity, leverage) that substantiate the company's competitive positioning and ability to fund AI initiatives, directly addressing the user query's requirement to analyze financial performance. The first report is vaguer on segment details and substitutes fundamental financial analysis with stock price movement, which is less useful for understanding the underlying business competitiveness."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports utilize similar Q2 2025 financial figures for debt (~$123B) and cash (~$24B). Report 1 includes additional data points such as Short-Term Investments and Q3 2025 earnings, but presents a confusing temporal sequence in P1 (stating debt increased from Q4 to Q2 without specifying the year, while later citing Q4 2025 liquidity). Report 2 maintains a clearer chronological flow by comparing Q1 to Q2 2025 sequentially.",
+        "quality_comparison": "Report 2 provides a more substantive risk analysis by synthesizing operational data (R&D spend, segment diversification) into specific risk factors like execution risk and platform complexity. Report 1 explicitly states it cannot assess non-financial risks due to evidence limitations, which reduces its utility. Report 2's narrative is more actionable for an investor, whereas Report 1 focuses heavily on data gaps.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred because it offers clearer financial timeline logic and delivers more valuable operational risk insights. While Report 1 includes slightly more data points, its temporal phrasing is ambiguous, and it fails to provide analytical depth on non-financial risks, instead citing data unavailability. Report 2 better fulfills the user's request for key risks by deriving implications from the available metrics."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present similar financial metrics (debt ~$123B, cash ~$24B, current ratio ~1.35-1.39) with section-specific findings showing severe=0, minor=0 for both. However, the second report contains temporal inconsistencies within the section text itself - it references 'Debt-to-Equity ratio of 0.33 based on Q4 2025 calculations' while discussing Q2 2025 data, and mixes Q2 and Q3 2025 figures in ways that create confusion about the reporting timeline. The first report maintains better internal temporal consistency throughout its risk discussion.",
+        "quality_comparison": "The first report offers clearer organization with distinct paragraphs for financial risk, operational/technology risk, and limitations. It provides more actionable monitoring points (e.g., debt increase warrants monitoring for margin compression). The second report discusses earnings volatility more thoroughly but undermines credibility with temporal inconsistencies. Both acknowledge data limitations, but the first does so without compromising the analytical narrative. The first report leaves the reader with clearer takeaways about what to monitor.",
+        "winner": "first_report",
+        "rationale": "While both sections have identical section-specific reliability flags (severe=0, minor=0), the first report demonstrates better internal consistency and coherence. The second report's temporal inconsistencies within the section text (mixing Q2/Q4 2025 references confusingly) create reader confusion even if not flagged at section level. Per the decision policy, section text is the primary basis for judgment. The first report provides clearer analytical implications, better organization, and more actionable risk monitoring points without the temporal confusion present in the second report. Both acknowledge limitations appropriately, but the first maintains a more useful analytical narrative for investors."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections recommend a Buy rating, cite AI and cloud positioning, note the January 28 earnings date, and reference recent underperformance relative to the S&P 500 (approx. 3.9%). Report 1 provides specific financial metrics including gross, operating, and net margins, free cash flow conversion, debt-to-equity ratio, and R&D intensity. It also quantifies risk with specific earnings volatility ranges and capex figures. Report 2 provides revenue figures and margin ranges but lacks the detailed balance sheet, cash flow, and risk quantification present in Report 1.",
+        "quality_comparison": "Report 1 demonstrates superior depth and signal density. It addresses the user query's requirements for financial performance and key risks with concrete, actionable data points rather than qualitative generalizations. Report 2 is coherent but offers a more generic analysis that provides less substantive support for the investment thesis. Report 1's inclusion of specific strategic developments (Maia 200 chip) further enhances its relevance.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because it offers significantly greater analytical depth and investor usefulness. It quantifies financial performance (margins, FCF, leverage) and risks (earnings volatility ranges, specific capex dollars) much more precisely than Report 2. While both reports failed report-level accuracy gates, the section-specific findings indicate no severe or minor errors in either section text, allowing the decision to rest on quality and completeness. Report 1's detailed metrics and specific strategic references better satisfy the user query's demand for comprehensive analysis of financial performance and key risks."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections have section-specific findings of zero severe or minor errors, despite both reports failing the overall accuracy gate. However, the first report contains a logically confusing statement regarding 'Sequential revenue growth from $76.4 billion in Q4 to $81.3 billion in Q2,' as Q4 to Q2 is not a standard sequential comparison. The second report provides more granular financial data (gross, operating, and net margins, FCF %, D/E ratio) and specific product developments (Maia 200 chip) without obvious internal logical contradictions in the text.",
+        "quality_comparison": "The second report demonstrates significantly higher signal density and analytical depth. It quantifies risks with specific earnings volatility percentages and capex figures ($30 billion), whereas the first report relies on vaguer language ('Analyst commentary suggests,' 'robust profitability metrics'). The second report also transparently acknowledges data limitations regarding certain risk factors, which is preferable to potential hallucination. The first report is more generic and less actionable for an investor.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it offers greater specificity in financial metrics, clearer articulation of risks (quantified volatility vs. generic statements), and mentions concrete strategic developments (Maia chip). Although both reports failed the report-level accuracy gate, the section-specific findings are clean for both, allowing the judgment to rest on quality. The second report's text is more useful for an investor seeking detailed analysis, while the first report contains confusing phrasing regarding quarterly sequencing and lacks depth."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 2,
+    "errgen": 2,
+    "Tie": 2
+  }
+}

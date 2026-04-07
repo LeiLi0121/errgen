@@ -1,0 +1,23 @@
+{
+  "sample_id": "Micron_Technology",
+  "ticker": "MU US",
+  "as_of_date": "2025-04-02",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate with severe errors including unsupported claims, numerical errors, and inconsistencies. The second report passed the Accuracy Gate with zero severe errors across all categories (unsupported claims, numerical errors, citation mismatches, temporal violations, inconsistencies).",
+    "quality_comparison": "The first report appeared more complete with filled sections for Recent Developments and Business Analysis, but its quality score was 0.0 because evaluation was skipped due to accuracy failure; its content is potentially misleading due to hallucinations. The second report has a Tier C quality score (2.45) and suffers from significant quality issues, including egregious verbatim repetition of company description text across multiple sections and a completely empty Recent Developments section. However, its financial analysis and risk assessment are factually grounded.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail, and reliability takes precedence when the gap is material. Although the second report has notable quality flaws (repetition, empty sections), the first report is factually compromised with severe errors that render its detailed analysis unsafe for investment decisions. The second report provides a reliable, albeit less polished, foundation for investor judgment."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passes the Accuracy Gate with zero severe errors, correctly characterizing the year-over-year revenue growth from $5.82B to $8.05B. The second report fails the Accuracy Gate with three severe errors, including a critical numerical contradiction where it claims a -7.53% year-over-year revenue decline despite citing figures that demonstrate significant growth. Additionally, the second report contains unsupported claims regarding specific partnerships, credit arrangements, and political developments that are not evidenced in the provided data.",
+    "quality_comparison": "The first report has notable quality deficiencies, including verbatim repetition of company description text across multiple sections and a completely empty 'Recent Developments' section, resulting in a Tier C rating. The second report appears more complete with populated news and development sections, but its quality score is 0.0 (Tier Fail) because the content is factually compromised. While the second report offers more narrative depth, the hallucinated information renders it unusable for investment decision-making.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. The first report is the only factually reliable document, correctly interpreting financial data without hallucinations. Although the first report suffers from stylistic issues like repetition and missing sections, the second report's severe numerical errors and unsupported claims pose a significant risk to investors. Reliability takes precedence over apparent completeness when the latter is built on factual errors."
+  }
+}

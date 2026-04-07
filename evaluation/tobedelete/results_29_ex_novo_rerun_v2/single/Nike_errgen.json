@@ -1,0 +1,78 @@
+{
+  "sample_id": "Nike",
+  "model_name": "errgen",
+  "ticker": "NKE US",
+  "as_of_date": "2025-08-21",
+  "run_id": "ca61ff8f-51ca-48bd-8476-3a17295df8dd",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, competitive positioning, and risks are directly supported by the authoritative cited chunk IDs and evidence provided. Qualitative assertions (e.g., $1B hit from fading classics, Skechers competition) match the news snippets. Quantitative assertions match the financial statement chunks and calculation objects."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, ratios, returns) are mathematically accurate based on the provided evidence and calculation objects. For example, Gross Margin (40.27%), Net Debt ($3,554M), and 1-year returns (-9.31% vs 13.37%) align precisely with the cited calculation IDs and source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations are precise. Each paragraph's claims are mapped to the specific chunk IDs containing the relevant data. There are no instances where a claim is attributed to a chunk that does not contain the supporting information, adhering to the rule regarding truncated snippets."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (max 2025-08-21) are on or before the report As-of date (2025-08-21). Forward-looking statements (e.g., Q1 2026 earnings date) are clearly framed as expectations/schedules. No post-as-of facts are presented as historical."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial figures (Revenue $11,097M, Margins, Ratios) are repeated accurately across the Financial Analysis, Business Analysis, and Investment Recommendation sections. The investment view (Hold) is consistent with the cited risks and mixed fundamental signals."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed absolute figures for revenue, margins, cash flow, and balance sheet with specific calculations (e.g., FCF margin, net debt). However, it explicitly states the inability to provide year-over-year growth rates or prior period comparisons, which significantly limits the assessment of financial performance trends requested in the query."
+    },
+    "news": {
+      "score": 2,
+      "reason": "Covers earnings results and stock price reaction well. However, it explicitly fails to address the user's specific request for strategic developments regarding digital channels and product partnerships, stating evidence is insufficient. This is a notable gap in fulfilling the query requirements."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Offers a clear view of competitive positioning (Nike vs. Skechers strategies) and brand portfolio. Lacks depth on industry digital trends and specific partnership contexts due to the admitted evidence limitations, resulting in a somewhat generic industry overview."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear 'Hold' recommendation with a well-synthesized rationale connecting balance sheet strength, margin compression, and product risks. Identifies specific catalysts (Q1 2026 earnings) and provides a logical investment thesis despite data limitations."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Identifies key risks with specific quantification (e.g., $1B hit from fading classics). Covers supply chain, competitive, and execution risks effectively, linking them back to the investment thesis."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional structure with clear headings and logical flow. Analytical tone is consistent. Some repetition of key metrics (27.3% gain, $1B hit) across sections, but they are utilized for different analytical purposes (news, strategy, risk, valuation), maintaining coherence."
+    }
+  },
+  "q_score": 3.25,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong synthesis of available financial and risk data into a coherent investment thesis, with a clear recommendation and logical justification linking liquidity strengths against operational headwinds.",
+    "primary_weakness": "Incomplete response to specific query requirements regarding digital channel strategy and product partnerships, alongside a lack of year-over-year financial trend analysis due to admitted evidence gaps."
+  }
+}

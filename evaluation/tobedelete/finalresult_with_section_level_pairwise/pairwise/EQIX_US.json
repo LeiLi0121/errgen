@@ -1,0 +1,138 @@
+{
+  "sample_id": "EQIX_US",
+  "ticker": "EQIX US",
+  "as_of_date": "2025-08-06",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 1 sections on this ordering, errgen won 4, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Business & Competitive Analysis. errgen stronger sections: Recent Developments, Financial Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 4 sections on this ordering, errgen-baseline won 1, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports contain identical text in the Company Overview section, including metadata (ticker, CEO, employees, etc.) and the descriptive paragraph. Both sections report zero severe and zero minor findings specific to this section.",
+        "quality_comparison": "There is no difference in depth, clarity, organization, or analytical implication between the two sections as the content is verbatim the same.",
+        "winner": "tie",
+        "rationale": "The section content is identical character-for-character, and section-specific reliability findings are equal (0 severe, 0 minor). Per the decision policy, the report-level accuracy gate is disregarded for this section-specific judgment as it likely pertains to other parts of the report. With no material difference in reliability or quality for this section, a tie is the appropriate outcome."
+      },
+      "order_ba": {
+        "factual_comparison": "The text content in both sections is verbatim identical, including company metadata, CEO name, employee count, and the descriptive overview paragraphs. Section-specific reliability findings are also identical (0 severe, 0 minor) for both reports.",
+        "quality_comparison": "Since the text is identical, there is no difference in depth, relevance, clarity, or organization between the two sections. Both provide the same level of investor usefulness.",
+        "winner": "tie",
+        "rationale": "Both sections are materially indistinguishable. The text is exactly the same, and the section-specific reliability metrics are equal. Although the report-level accuracy gate differs (True vs False), the decision policy dictates judging this section only and not letting unrelated issues elsewhere in the report dominate this section. Therefore, neither section has an advantage in reliability or quality."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical absolute Q2 2025 figures ($2.256B revenue, $368M net income) but diverge significantly on year-over-year growth rates (Revenue: 1.39% vs 4.49%; Net Income: 7.29% vs 22.26%). Both reports agree on the JP Morgan price target change and the Baron Fund's relative outperformance, though the second report provides the underlying component returns (3.61% fund vs -1.46% index) while the first only states the spread (5.07pp). The second report passed the report-level accuracy gate while the first did not.",
+        "quality_comparison": "The second report demonstrates superior depth and specificity. It names the specific analyst (Philip Cusick), explains the drivers behind the earnings beat (recurring revenue growth vs non-recurring weakness), and provides specific dates for stock performance comparisons. The first report is more generic, omitting analyst names and revenue drivers, and uses broader timeframes ('early August') for stock performance.",
+        "winner": "second_report",
+        "rationale": "Reliability is the primary differentiator due to the material discrepancy in growth metrics. While section-specific error counts are tied, the second report's 'True' accuracy gate and provision of raw data components (fund/index returns) rather than derived spreads suggest higher data fidelity. On quality, the second report is clearly superior, offering actionable details like analyst names, specific revenue drivers, and precise performance dates, whereas the first report remains generic. The second report leaves the investor with a clearer, more substantiated takeaway."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present conflicting financial metrics for the same period: Report 1 cites 4.49% revenue growth and 22.26% net income growth, while Report 2 cites 1.39% revenue growth and 7.29% net income growth, though both agree on the absolute net income figure ($368 million). While section-specific findings are identical (0 severe, 0 minor), Report 1 carries a 'Report-level accuracy gate: True' status compared to Report 2's 'False'. Given the material discrepancy in growth rates, the accuracy gate serves as the critical tie-breaker for reliability, favoring Report 1 as the more trustworthy source for these figures.",
+        "quality_comparison": "Report 1 provides stronger analytical depth by explicitly identifying the drivers behind the earnings beat (recurring revenue growth, expanding cabinet equivalent capacity) and noting specific challenges (capex, churn rates). Report 2 offers useful margin details and competitor names in the Hong Kong market but lacks the same clarity on operational drivers. Both sections are well-organized and cover the same key events (earnings, F5 partnership, analyst rating), but Report 1's narrative is more actionable for understanding the company's performance trajectory.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred primarily due to reliability concerns arising from the material conflict in financial growth metrics; the 'Report-level accuracy gate: True' status provides necessary confidence in Report 1's data over Report 2. Additionally, Report 1 demonstrates superior quality by focusing on the fundamental drivers of growth and challenges, offering clearer analytical implications for investors compared to Report 2's focus on static margin percentages."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "The first report contains a material calculation error in Paragraph 1, stating year-over-year revenue growth was 1.39% when the provided absolute figures ($2,256M vs $2,159M) indicate 4.49% growth. The 1.39% figure actually corresponds to sequential growth from Q1 to Q2 2025, which was mislabeled as YoY. The second report correctly calculates and reports the 4.49% YoY growth. Both reports align on margin percentages and balance sheet figures, but the first report's accuracy gate is marked False while the second is True.",
+        "quality_comparison": "The second report demonstrates higher quality through both accuracy and depth. It provides specific operating income ($494M) and net income ($368M) figures that are absent in the first report, offering better context for the margin discussion. It also explicitly states the equity base ($14,082M) when discussing leverage, improving transparency on the debt-to-equity calculation. The separation of the R&D limitation into its own paragraph in the second report also improves readability.",
+        "winner": "second_report",
+        "rationale": "Reliability is the primary decision criterion. The first report mislabels sequential growth as year-over-year growth, resulting in a significant factual error on the headline revenue metric (1.39% vs 4.49%). The second report is factually accurate on this key figure and provides additional useful data points (income figures, equity base) that enhance analytical depth without sacrificing clarity."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical raw financial figures for revenue, margins, and balance sheet items. However, the first report correctly calculates the Year-over-Year revenue growth at 4.49% based on the provided numbers ($2,256M vs $2,159M), whereas the second report incorrectly states this growth as 1.39%. This calculation error in the second report undermines the accuracy of its core growth narrative.",
+        "quality_comparison": "The first report provides greater analytical depth by including absolute operating income ($494M) and net income ($368M) figures, which contextualize the margin percentages. It also explicitly discloses the equity base ($14,082M) when discussing leverage, enhancing transparency. Organizationally, the first report separates the R&D limitation into a dedicated paragraph, whereas the second report appends it to the balance sheet section, making the first report clearer and more structured.",
+        "winner": "first_report",
+        "rationale": "The first report is superior due to factual accuracy on the primary revenue growth metric, where the second report contains a material calculation error (1.39% vs the correct 4.49%). Additionally, the first report offers better signal density by including absolute income figures and maintaining clearer organization regarding data limitations. Despite both sections having zero flagged findings, the visible math error in the second report makes the first report more reliable and useful for investors."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections report consistent core data points, including employee count (13,606), the F5 partnership timing (August 2025), and the JP Morgan price target ($940). The first report provides specific Q2 2025 revenue figures ($2.256 billion) and a specific market share percentage for Hong Kong (23.8%), whereas the second report mentions revenue beats without specific figures and provides a market CAGR instead of market share. Both sections have zero severe or minor findings in their section-specific accuracy checks, indicating comparable reliability for this specific text despite the first report's overall report-level accuracy gate failure.",
+        "quality_comparison": "The first report demonstrates higher signal density and depth relevant to a 'Business & Competitive Analysis' section. It explicitly names local competitors (NTT Data, SUNeVision) and quantifies Equinix's market position (23.8% share), offering clearer competitive intelligence. It also includes specific operating margins and institutional investor activity details. The second report is strong on REIT-specific metrics (mentioning AFFO) and analyst target changes, but lacks the specific revenue numbers and competitive landscape granularity found in the first report.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, section-specific findings are the main reliability signal; since both sections have zero flagged issues, reliability is treated as equal, and the report-level accuracy gate failure is disregarded for this section judgment. The first report wins on quality due to superior depth in competitive analysis (specific market share and competitor names) and business metrics (specific revenue and margin figures), providing more actionable data for an investor than the second report's slightly more general descriptions."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report similar core business details (REIT classification, employee count, Hong Kong market growth projections). However, the first report passed the report-level accuracy gate (True), while the second report failed (False). The second report includes highly specific numerical data (e.g., $2.256 billion revenue, 23.8% market share, 21.90% operating margin) which, given the failed accuracy gate, presents a higher risk of hallucination compared to the first report's more qualitative but verified assertions. Both sections cite the F5 partnership and JP Morgan rating, but the first report's data is backed by a passing accuracy gate.",
+        "quality_comparison": "The second report offers higher signal density with specific financial metrics and market share data, and it avoids the repetition found in the first report (which mentions the F5 partnership details in both P3 and P4). However, the first report provides sufficient strategic depth (partnerships, analyst actions, CEO info) with better organizational flow in terms of verified information. The repetition in the first report is a minor quality detractor, but the reliability advantage outweighs the second report's denser but potentially unverified metrics.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred primarily due to reliability. It passed the report-level accuracy gate, whereas the second report failed. While section-specific findings were clean for both, the overall accuracy gate is a critical signal for financial data trustworthiness; the specific numbers in the second report (revenue, margins, market share) are risky if the report's grounding failed. Although the second report has better signal density and less repetition, the first report's verified status makes it safer and more useful for an investor. The first report's repetition of the F5 partnership is a minor quality issue compared to the reliability gap."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core financial figures for Q2 2025 (Total Debt $18,073M, Net Debt $14,383M, D/E 1.28, Current Ratio 1.54, Operating Margin 21.90%). Section-specific findings for both report zero severe or minor errors, indicating comparable factual reliability within this specific section despite the first report failing the overall report-level accuracy gate.",
+        "quality_comparison": "The second report demonstrates superior analytical depth and investor usefulness. It provides the equity base dollar amount ($14,082M) to contextualize the D/E ratio, includes YoY operating margin trends (20.19% to 21.90%) and net income margins (16.31%) to better assess debt service capacity, and explicitly notes the 'capital-intensive nature of data center operations' as a structural risk factor. The first report offers an additional sequential debt data point (Q1 2025) but lacks the margin trend context and industry-specific risk commentary found in the second report.",
+        "winner": "second_report",
+        "rationale": "While section-specific reliability findings are identical (zero errors), the second report is preferred based on quality. It offers stronger signal density by including YoY margin trends, net income margins, and industry-specific structural risk context (capital intensity), which are more critical for a comprehensive risk analysis than the additional sequential debt data point provided in the first report. The second report leaves the reader with a clearer understanding of the company's financial cushion and operational constraints."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present consistent financial data for Q2 2025 (Debt: $18,073M, Cash: $3,690M, Current Ratio: 1.54). Section-specific findings indicate zero severe or minor errors for both sections, implying equal reliability for this specific content despite the second report's overall accuracy gate failure.",
+        "quality_comparison": "The second report offers superior analytical depth. It includes Q1 2025 debt data ($15,887M), revealing the acceleration of leverage in the most recent quarter, whereas the first report only provides YoY comparison. Additionally, the second report provides a more nuanced insight on debt structure, noting that the concentration of long-term debt implies refinancing risk is 'deferred rather than eliminated,' compared to the first report's more generic 'limited cushion' statement. While the first report includes margin trends and net income data, the second report's focus on debt trajectory and maturity structure is more critical for a Risk Analysis section.",
+        "winner": "second_report",
+        "rationale": "Reliability is equal based on section-specific findings (0 errors for both). The second report wins on quality due to higher signal density: it incorporates interim quarter data (Q1 2025) to show debt acceleration trends and offers a more specific analytical implication regarding debt maturity structure. These elements provide a clearer takeaway for investors assessing financial risk trajectory."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical absolute figures for Q2 2025 revenue ($2.256 billion) and net income ($368 million), but they present materially different year-over-year growth rates. The first report claims 1.39% revenue growth and 7.29% net income growth, while the second report claims 4.49% revenue growth and 22.26% net income growth. The second report passed the report-level accuracy gate (True), whereas the first report failed (False), indicating the second report's growth calculations are the reliable figures. Both sections show zero severe or minor findings in section-specific checks, but the report-level gate resolves the factual conflict.",
+        "quality_comparison": "The second report provides a clearer, more actionable investment stance (Buy) supported by the stronger growth fundamentals. The first report assigns a Hold rating based on the lower (inaccurate) growth figures and includes a hedging statement that evidence for macro risks is 'insufficient in the available data,' which reduces analytical utility. The second report offers a more decisive outlook on AI-driven demand and leverage monitoring without undermining its own analysis with data availability caveats.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred primarily due to reliability; the report-level accuracy gate is True compared to False for the first report, which resolves the material discrepancy in growth rate calculations within this section. Additionally, the second report demonstrates higher quality by offering a definitive recommendation and avoiding the first report's unhelpful disclaimer about insufficient data, resulting in better signal density and investor usefulness."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical absolute Q2 2025 revenue ($2.256 billion) and net income ($368 million) figures, but present contradictory growth rates (Revenue: 4.49% vs 1.39%; Net Income: 22.26% vs 7.29%). While section-specific findings flag zero errors for both, the First Report carries a Report-level accuracy gate of True compared to False for the Second, indicating the First Report's calculations are verified and the Second's are likely incorrect.",
+        "quality_comparison": "The First Report delivers a clear Buy recommendation supported by specific strategic catalysts (F5 partnership, institutional buying) and margin analysis. The Second Report assigns a Hold rating and explicitly admits that evidence for key risk factors is 'insufficient,' which diminishes its analytical utility. The First Report is more decisive and actionable for investors.",
+        "winner": "first_report",
+        "rationale": "Reliability is the primary decision factor. Although section-specific findings are identical, the material contradiction in growth metrics requires a tie-breaker; the Report-level accuracy gate (True vs False) identifies the First Report as the trustworthy source. Additionally, the First Report demonstrates superior quality with a confident investment thesis and clearer implications, whereas the Second Report hedges with admissions of data insufficiency."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 0,
+    "errgen": 3,
+    "Tie": 3
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sample_id": "American_Express",
+  "model_name": "errgen",
+  "ticker": "AXP US",
+  "as_of_date": "2025-11-12",
+  "run_id": "893633e8-8580-4a31-8336-1e062428fec7",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic initiatives, stock performance, and risk factors are directly supported by the authoritative cited chunk IDs and evidence blocks provided. No unsupported conclusions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical data points (revenue, net income, margins, balance sheet items, ratios) match the provided evidence exactly or represent accurate standard rounding (e.g., $2.902B to $2.90B). Calculated metrics (Net Margin, D/E, Net Debt) align with the provided calculation objects."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed for each paragraph accurately correspond to the evidence content supporting the claims in those paragraphs. There are no mismatches between claims and their authoritative sources."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods cited (Q3 2025, Nov 12 2025 events, stock performance as of Nov 2025) are consistent with the report as-of date of 2025-11-12. No post-as-of claims or future-dated events were presented as historical facts."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and strategic details are consistent across all sections (Company Overview, Recent Developments, Financial Analysis, Risk Analysis). Repeated metrics (Debt, Equity, Cash, Margins) match perfectly throughout the report."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed historical revenue, margin, and cash flow trends with specific quarterly comparisons. Transparently notes missing data points (e.g., gross margin, R&D) rather than hallucinating. Lacks forward-looking estimates or valuation multiples which would enhance decision-usefulness."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent integration of highly specific, recent developments (e.g., Nov 12, 2025 conference, grants program) with precise dates. Effectively connects industry-wide news (Visa/MC settlement) to company implications. News is well-distributed across sections."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Clear breakdown of business segments and strategic initiatives (Small Business, Travel). Competitive analysis identifies key industry shifts but could deeper analyze the closed-loop model's resilience against the cited Visa/MC settlement impacts."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear Buy recommendation logically supported by fundamental momentum and strategic execution. Catalysts are identified. Lacks a quantitative valuation framework (target price, peer multiple comparison) to fully justify the upside potential."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Adequately covers balance sheet leverage and liquidity risks. However, it critically omits credit portfolio metrics (charge-offs, delinquency rates) which are paramount for evaluating a credit card issuer. Relies on generic caveats for macro/credit risks."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone with logical structure and clear headings. Some verbatim repetition of stock performance statistics across News, Business, and Investment sections reduces efficiency, but overall analytical flow remains strong."
+    }
+  },
+  "q_score": 4.0,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Exceptional timeliness and specificity in news integration, linking very recent events (Nov 12, 2025) directly to financial performance and strategy.",
+    "primary_weakness": "Significant gap in credit risk analysis, missing key lending metrics like charge-off rates or delinquency trends essential for American Express."
+  }
+}

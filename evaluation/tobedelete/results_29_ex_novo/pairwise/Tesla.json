@@ -1,0 +1,23 @@
+{
+  "sample_id": "Tesla",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate due to 2 unsupported claims and 1 numerical error, indicating material factual compromises. The second report passed the Accuracy Gate with zero severe errors, confirming the reliability of its financial and operational data.",
+    "quality_comparison": "The second report achieved a Q score of 3.45 with strong scores in financial numeric, news, and risk dimensions, offering a detailed and reliable baseline for assessment. The first report received a Q score of 0.0 as quality evaluation was skipped following its accuracy failure. The second report also includes an Investment Recommendation section, enhancing its completeness compared to the first report.",
+    "winner": "second_report",
+    "rationale": "The decision policy prioritizes reliability, stating that a pass on the Accuracy Gate is materially better than a fail. Since the second report is factually accurate while the first contains severe errors, the second report is objectively superior for investor use. Quality metrics further support this, as the second report provides comprehensive analysis without the factual compromises that invalidate the first report."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors, whereas the second report failed the Accuracy Gate with three severe errors (two unsupported claims and one numerical error). Specific factual issues in the second report include a sign error on net cash position (stating -$8,137,000,000 while describing a net cash surplus) and unsupported claims regarding Samsung's foundry relationship with Tesla and Nvidia. The first report maintains factual integrity across financial and operational data points.",
+    "quality_comparison": "The first report achieved a Quality Score of 3.45 (Tier C) with strong scores in financial numeric, news, and risk analysis, despite a truncated Investment Recommendation section. The second report received a Quality Score of 0.0 (Tier Fail) because quality evaluation was skipped due to accuracy failure. The first report provides a more reliable baseline for investor decision-making due to its verified data, whereas the second report's analytical depth is undermined by factual compromises.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. The first report demonstrates factual reliability with no severe errors, while the second report is compromised by numerical errors and unsupported claims. Although the first report has a truncated recommendation section, its factual integrity makes it the only viable option for investor use. Reliability takes precedence over quality dimensions when the accuracy gap is this significant."
+  }
+}

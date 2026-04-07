@@ -1,0 +1,23 @@
+{
+  "sample_id": "Meta_Platforms",
+  "ticker": "META US",
+  "as_of_date": "2026-02-19",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. They present consistent financial data (e.g., Q4 revenue of ~$59.9B, operating margin ~41.3%, R&D intensity ~28.6%) and narrative details regarding AI infrastructure spending and capital allocation. There are no material factual discrepancies between the two.",
+    "quality_comparison": "Both reports are Tier B and lack a final investment recommendation due to truncation. However, the second report demonstrates superior completeness in the Risk Analysis section (4 paragraphs vs. 2 visible in the first report) and includes specific market performance metrics (1-year return vs. SPY) that enhance investor usefulness. The first report has a higher writing score but is penalized for meta-commentary that reduces analyst authority, whereas the second report's primary weakness is textual repetition. The second report also scores higher on Risk and CMI dimensions.",
+    "winner": "second_report",
+    "rationale": "The second report is preferred based on the decision policy's emphasis on completeness and investor usefulness. It provides a more comprehensive Risk Analysis section with four distinct risk factors compared to the first report's two visible paragraphs. Additionally, the inclusion of specific benchmark comparison data (stock underperformance vs. SPY) in the second report offers critical context for investors that the first report lacks. While the first report has better writing flow, the second report's superior risk coverage and data density make it more useful for investment decision-making, outweighing the issue of repetitive text."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors, citing identical core financial data (Q4 revenue ~$59.9B, margins, debt levels) and strategic developments (AI infrastructure spend, India AI Summit, patent filings). There are no material factual discrepancies between the two.",
+    "quality_comparison": "Both reports fail to provide a complete Investment Recommendation, which is a critical omission for investor usefulness. However, the first report offers a more complete body of analysis, fully covering the Risk Analysis section (4 paragraphs vs. 2 in the second report) and including specific relative stock performance metrics (-8.38% vs SPY). The second report truncates mid-section and includes meta-commentary regarding evidence limitations, which undermines analyst authority. The first report's weakness is repetition, while the second's is structural incompleteness and hedging.",
+    "winner": "first_report",
+    "rationale": "While both reports pass accuracy checks and fail to deliver a final investment conclusion, the first report is superior in completeness and investor usefulness. It provides a fully fleshed-out Risk Analysis section and concrete market performance data, whereas the second report cuts off earlier in the risk section and reduces authority with meta-commentary on data limitations. Given the policy emphasis on completeness and investor usefulness, the first report's deeper supporting analysis makes it the more useful document despite the shared failure on the final recommendation."
+  }
+}

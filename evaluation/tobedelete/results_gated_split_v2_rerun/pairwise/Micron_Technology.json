@@ -1,0 +1,23 @@
+{
+  "sample_id": "Micron_Technology",
+  "ticker": "MU US",
+  "as_of_date": "2025-04-02",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Both reports failed the Accuracy Gate. Report 1 has 3 severe errors (1 numerical, 1 unsupported claim, 1 inconsistency), while Report 2 has 5 severe errors (2 numerical, 2 unsupported claims, 1 inconsistency). Report 1's numerical error involves mislabeling a sequential decline as year-over-year, but the underlying math is consistent. Report 2 contains a more severe numerical error, claiming a year-over-year revenue decline while providing figures that demonstrate year-over-year growth, creating a directional contradiction.",
+    "quality_comparison": "Both reports received identical quality metric scores (all 1s) and a Q score of 0.0, indicating no differentiable quality advantage. The writing style and structure are nearly identical. Report 2 provides a more complete Risk Analysis section in the provided text, whereas Report 1 is truncated. However, the completeness advantage is offset by Report 2's higher error rate and more misleading numerical claims.",
+    "winner": "first_report",
+    "rationale": "Reliability is the primary decision factor when both reports fail the Accuracy Gate. Report 1 is preferred due to a lower count of severe errors (3 vs 5) and fewer numerical errors (1 vs 2). Crucially, Report 1's numerical data is internally consistent (percentage matches the compared figures), whereas Report 2 presents a directional contradiction on revenue trends that is more misleading for investors. While Report 2 offers slightly more complete text in the Risk section, the superior factual consistency of Report 1 makes it the safer choice for investor use."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports failed the Accuracy Gate with severe factual compromises. The first report contains 5 severe errors (2 unsupported claims, 2 numerical errors, 1 inconsistency), while the second report contains 3 severe errors (1 unsupported claim, 1 numerical error, 1 inconsistency). Both reports share identical numerical contradictions regarding revenue growth (claiming a YoY decline while citing figures that indicate growth). Since both reports fail the Accuracy Gate, the difference in error count (5 vs. 3) is not considered material enough to automatically prefer the second report under the decision policy.",
+    "quality_comparison": "The first report is complete, providing full sections for Company Overview, Recent Developments, Financial Analysis, Business & Competitive Analysis, and Risk Analysis. The second report is visibly truncated, cutting off mid-sentence in the Risk Analysis section, which significantly impacts completeness and investor usefulness. While the second report includes slightly more detail on R&D trends in the Financial Analysis section, the missing risk assessment in the second report is a critical omission for an equity research document. Both reports share verbatim text in several sections, indicating similar baseline quality, but the first report's completeness makes it more usable.",
+    "winner": "first_report",
+    "rationale": "Both reports failed the Accuracy Gate, so reliability differences (5 errors vs. 3 errors) are not material enough to dictate the winner per policy. The decision rests on quality dimensions, specifically completeness and investor usefulness. The first report is complete, whereas the second report is truncated in the Risk Analysis section. A complete risk assessment is essential for investor decision-making. Therefore, the first report is preferred due to superior completeness and overall utility."
+  }
+}

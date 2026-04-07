@@ -1,0 +1,78 @@
+{
+  "sample_id": "Broadcom",
+  "model_name": "errgen",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "run_id": "37dee971-7d71-406a-af46-32e895dcadff",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "Most claims are supported by cited chunks, but the key growth claim (6.32% YoY) is contradicted by the underlying revenue values in the evidence (15.95B vs 13.07B implies ~22% YoY, not 6.32%). The calculation chunk provided supports the 6.32% figure but mislabels sequential growth as YoY, leading to unsupported material conclusion."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe numerical error: Q3 2025 Revenue YoY growth is stated as 6.32% based on Q3 2024 revenue of $13.07B. The actual YoY growth based on provided figures is ~22%. The 6.32% figure corresponds to Sequential growth (Q3 vs Q2), misrepresenting the growth metric materially."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Authoritative cited chunk IDs correctly map to the provided evidence text for each paragraph. No mismatches found between IDs and evidence content."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "Report as-of date (2025-09-15) aligns with evidence source dates (2025-09-15) and financial periods (Q3 2025). No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Internal contradiction on employee count: Company Overview Para 1 states 37,000 employees, while Para 2 states 19,000 employees. Both are cited to different chunks, creating a factual inconsistency within the report."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+  }
+}

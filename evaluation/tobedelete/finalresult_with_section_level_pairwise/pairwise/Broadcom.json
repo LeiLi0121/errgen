@@ -1,0 +1,138 @@
+{
+  "sample_id": "Broadcom",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 2 sections on this ordering, errgen won 3, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Recent Developments, Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 3 sections on this ordering, errgen-baseline won 2, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Risk Analysis. errgen-baseline stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical text for the Company Overview section, including the metadata header (P1) and the narrative description (P2). Both contain the same internal inconsistency regarding employee counts (37,000 in P1 vs. 19,000 in P2). Section-specific findings are identical (0 severe, 0 minor).",
+        "quality_comparison": "There is no differentiation in quality, depth, clarity, or organization since the content is verbatim identical across both reports.",
+        "winner": "tie",
+        "rationale": "The sections are materially indistinguishable in terms of text, data, and section-specific reliability findings. Per the decision policy, when two sections are materially indistinguishable, the result should be a tie."
+      },
+      "order_ba": {
+        "factual_comparison": "The section text is identical in both reports, including the metadata line (P1) and the descriptive paragraph (P2). Both reports contain the same internal inconsistency regarding employee counts (37,000 listed in P1 metadata vs. 19,000 stated in P2 narrative).",
+        "quality_comparison": "Since the text is character-for-character identical, there is no difference in depth, clarity, organization, or analytical implication between the two sections.",
+        "winner": "tie",
+        "rationale": "Per the decision policy, this section is judged independently of the full report accuracy gate. Both sections have identical section-specific findings (severe=0, minor=0) and identical text content. As they are materially indistinguishable in terms of reliability and quality for this specific section, a tie is the appropriate outcome."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core factual data points, including the Macquarie initiation (September 15, 2025, Outperform, $420 target), the 15.6% stock gain, the Sercomm Corporation partnership at the RDK Global Summit 2025 (BCM74116 SoC, RDK7 software), and the competitive landscape regarding Nvidia's regulatory issues in China and AMD competition. Section-specific findings for both reports indicate zero severe or minor errors, suggesting equal reliability for this specific section despite the differing report-level accuracy gates.",
+        "quality_comparison": "The second report demonstrates slightly superior analytical quality and narrative flow. In the first paragraph, the second report contextualizes the stock performance before introducing the analyst initiation, whereas the first report implies a causal link (initiation contributed to highs) that is analytically weaker. In the third paragraph, the second report provides a clearer analytical implication by linking analyst caution on custom ASIC profits to the 'sustainability of current growth multiples,' offering a more actionable takeaway for investors compared to the first report's more descriptive statement.",
+        "winner": "second_report",
+        "rationale": "Reliability is equal based on section-specific findings (0 severe, 0 minor for both), so the decision rests on quality. The second report is preferred because it offers clearer analytical implications (connecting profit caution to valuation sustainability) and avoids potentially overstated causal claims regarding stock price movements found in the first report. These nuances provide better signal density and investor usefulness without sacrificing brevity."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical core factual data points, including the Macquarie initiation ($420 price target, Outperform), Sercomm partnership details (BCM74116, RDK7), and competitive dynamics regarding Nvidia's China antitrust issues. Section-specific findings indicate zero severe or minor errors for both reports, establishing equal reliability for this section.",
+        "quality_comparison": "The first report demonstrates superior analytical depth and investor usefulness. It frames Broadcom as an \"alternative beneficiary\" of AI spending and explicitly notes the \"uncertain outlook contributing to caution\" on AMD stock, providing clearer investment implications. The second report is more descriptive, focusing on regulatory bodies and direct competition without the same level of interpretive analysis. The first report also offers a smoother narrative flow connecting stock performance to thematic drivers.",
+        "winner": "first_report",
+        "rationale": "Reliability is tied based on section-specific findings (both zero errors). The decision rests on quality, where the first report provides stronger analytical implications and clearer takeaways for investors regarding competitive dynamics and valuation drivers, aligning better with the preference for signal density over mere description."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "The first report contains a material factual error in Paragraph 1, stating revenue growth was 6.32% YoY when comparing Q3 2025 to Q3 2024. The actual calculation ((15,952-13,072)/13,072) is approximately 22%. The 6.32% figure actually corresponds to the sequential growth from Q2 to Q3, indicating a mislabeling of metrics. The second report correctly identifies the YoY growth as approximately 22%. Additionally, the first report has a Report-level accuracy gate of False, while the second is True.",
+        "quality_comparison": "The second report provides clearer analytical context, such as calculating the debt-to-equity ratio (0.86) and explicitly quantifying the YoY R&D increase (~30%). The first report mixes units in the R&D section (comparing a percentage to a dollar amount directly) and fails to provide the correct growth context. Both cover similar balance sheet and margin data, but the second report's accuracy and clearer metric definitions make it more useful for investors.",
+        "winner": "second_report",
+        "rationale": "The second report is selected primarily due to reliability. The first report mislabels sequential growth (6.32%) as year-over-year growth (actual ~22%) in the opening sentence, which is a material error for financial analysis. This is corroborated by the Report-level accuracy gate (False vs True). Secondarily, the second report offers better quality analysis with correct YoY R&D growth calculations and debt-to-equity metrics, whereas the first report contains confusing unit comparisons in the R&D section."
+      },
+      "order_ba": {
+        "factual_comparison": "Report 1 correctly calculates the year-over-year (YoY) revenue growth as approximately 22% ($15,952M vs $13,072M). Report 2 incorrectly states the YoY growth as 6.32% in Paragraph 1. The 6.32% figure actually corresponds to the sequential growth from Q2 to Q3 ($15,004M to $15,952M), indicating Report 2 mislabeled or conflated sequential growth with YoY growth. This is a material factual error in Report 2 regarding the primary growth metric.",
+        "quality_comparison": "Report 1 provides accurate, clear, and well-structured analysis with correct metric labeling. Report 2 offers slightly more granular trend data (e.g., cash balance progression, Q1/Q2 YoY rates), but the fundamental error in the headline revenue growth rate undermines the section's reliability and investor usefulness. Report 1's accuracy makes it superior despite Report 2's additional data points.",
+        "winner": "first_report",
+        "rationale": "Reliability is the primary decision factor when gaps are material. Report 1 accurately reports the 22% YoY revenue growth, while Report 2 falsely reports it as 6.32% (which is the sequential rate). This misrepresentation of the company's growth trajectory is a critical failure in financial analysis. Although Report 2 includes more detailed trend data, the factual error on the key revenue metric renders it less reliable and potentially misleading for investors. Report 1 is preferred for its factual accuracy and clear presentation."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections report zero severe or minor findings in the section-specific metadata, indicating comparable reliability for this specific content despite the first report's overall accuracy gate being false.",
+        "quality_comparison": "The first report offers significantly greater depth, covering competitive dynamics, financial metrics, and growth drivers, whereas the second report is limited to a basic business description.",
+        "winner": "first_report",
+        "rationale": "Per policy, section-specific findings drive reliability assessment; since both have zero errors in this section, reliability is tied. Quality decisively favors the first report as it fulfills the 'Competitive Analysis' requirement of the section header with specific data on ASIC market position, competitors (Nvidia, AMD), and financial margins. The second report omits competitive analysis and financial context entirely, offering low signal density. The first report provides higher investor usefulness and analytical depth without sacrificing reliability in this section."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections correctly identify Broadcom's core business segments and leadership. The second report provides additional specific data points including Q3 2025 financial metrics, competitive positioning against Nvidia and AMD, and recent stock performance, whereas the first report remains limited to a generic business description.",
+        "quality_comparison": "The second report is significantly higher quality, delivering depth on competitive dynamics, AI growth drivers, and profitability metrics. The first report lacks actual competitive analysis despite the section title, offering minimal analytical value to an investor.",
+        "winner": "second_report",
+        "rationale": "Section-specific findings indicate zero errors for both sections, treating reliability as comparable per instructions to prioritize section-specific signals over report-level gates. The second report wins decisively on quality due to superior signal density and relevance, providing actionable competitive insights and financial context rather than the generic overview in the first report."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports utilize identical core financial metrics for Q3 2025 (Debt, Equity, Margins, R&D, Cash, Current Ratio) with no section-specific factual errors flagged. The second report provides additional balance sheet context by including Total Liabilities and Total Assets to calculate a liabilities-to-assets ratio, offering a more complete view of capital structure leverage.",
+        "quality_comparison": "The second report demonstrates superior organization by separating Liquidity (P3) from Financial Leverage (P1), whereas the first report conflates short-term liquidity ratios within the leverage paragraph. Furthermore, the second report exhibits higher analytical transparency in its risk limitations (P4); instead of generically stating evidence is insufficient, it explicitly identifies a data discrepancy (employee count variance) that undermines qualitative risk assessment. This specific acknowledgment of data integrity issues provides greater investor usefulness than the first report's generic disclaimer.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually consistent on key metrics, the second report offers better structural clarity by distinguishing between solvency and liquidity risks. Crucially, the second report's explicit identification of conflicting source data (employee counts) within the text signals a more rigorous due diligence process regarding data reliability, allowing investors to better gauge the confidence level of the qualitative risk analysis. The first report's generic statement on insufficient evidence is less actionable."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections cite identical financial figures for leverage (Debt/Equity ~0.86), margins (Gross/Operating decline), R&D spend ($2.253B to $3.050B), and liquidity (Current ratio 1.50). There are no factual contradictions between the two sections, and both have clean section-specific findings (0 severe, 0 minor).",
+        "quality_comparison": "Report 1 demonstrates superior organization by separating Leverage (P1) and Liquidity (P3) into distinct paragraphs, whereas Report 2 combines them. Report 1 provides higher signal density in the data limitations section (P4) by identifying a specific employee count discrepancy (19k vs 37k), which highlights a tangible data integrity risk. Report 2 offers slightly deeper R&D analysis (calculating % of revenue), but its conclusion on data limitations is more generic. Report 1's specific identification of source data conflicts is more valuable for a Risk Analysis section.",
+        "winner": "first_report",
+        "rationale": "While reliability is comparable based on section-specific findings, Report 1 wins on quality. It offers clearer categorization of financial risks (separating solvency from liquidity) and provides a specific, actionable insight regarding data inconsistency (employee count discrepancy) that Report 2 misses. This specific finding adds more value to an investor assessing data reliability than Report 2's more templated disclaimer. Report 1's structure allows for clearer analytical implications regarding capital structure flexibility versus short-term liquidity."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial metrics for Q3 2025, including revenue ($15.95 billion), gross margin decline (68.01% to 67.10%), operating margin decline (41.97% to 36.90%), and R&D spend (19.12% of revenue). Both also reference the same market benchmark performance (SPY/S&P 500 up 0.47%). Section-specific findings indicate zero severe or minor errors for both, suggesting comparable factual reliability within this specific section despite the first report's overall accuracy gate being False.",
+        "quality_comparison": "The first report provides a clear, explicit investment rating ('Hold') with a direct rationale linking the rating to the offsetting fundamental signals. It also offers greater analytical depth by including leverage figures ($62.83 billion debt), buyback data ($2.45 billion), and revenue growth variability ranges. The second report references a third-party rating (Macquarie) but fails to state its own explicit recommendation, leaving the actionable takeaway ambiguous. Additionally, the second report notes missing cash flow data, whereas the first report utilizes cash-related metrics (buybacks) to support its thesis.",
+        "winner": "first_report",
+        "rationale": "The first report is superior because it fulfills the primary purpose of an 'Investment Recommendation & Outlook' section by explicitly stating a rating (Hold) and providing a decisive conclusion. The second report discusses outlook and risks but omits its own specific recommendation, reducing investor usefulness. While the second report has a True report-level accuracy gate, the section-specific findings are identical (zero errors), so the decision rests on quality. The first report's stronger signal density (debt, buybacks, growth variability) and clearer actionable takeaway make it more valuable for an investor."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections cite identical core financial metrics for Q3 2025 (Revenue $15.95B, Operating Margin decline from 41.97% to 36.90%, Gross Margin decline from 68.01% to 67.10%, R&D 19.12%, Current Ratio 1.50). Section-specific findings for both reports indicate zero severe or minor errors, suggesting equal reliability for this specific section despite the second report's overall accuracy gate being False. The policy instructs to prioritize section-specific findings and not let unrelated report-level issues dominate.",
+        "quality_comparison": "The second report demonstrates superior depth and signal density. It includes additional material data points absent in the first report, such as long-term debt ($62.83B), stockholders' equity ($73.28B), stock buybacks ($2.45B), and revenue growth variability ranges. The second report also provides a more nuanced analytical framework, explicitly weighing AI momentum against deteriorating profitability and leverage to justify a 'Hold' rating, whereas the first report leans more heavily on the AI narrative for an 'Outperform' rating while acknowledging data limitations ('absence of cash flow statement data'). The second report offers a clearer conditional outlook ('until margin stabilization becomes clearer').",
+        "winner": "second_report",
+        "rationale": "While both sections are factually consistent with zero section-specific errors, the second report provides greater investor usefulness through higher data density (leverage, buybacks, growth variability) and a more rigorous risk/reward analysis. It addresses the margin compression with more context on capital structure and offers a clearer takeaway on what would change the rating, adhering better to the preference for depth and analytical implications over brevity."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 2,
+    "errgen": 3,
+    "Tie": 1
+  }
+}

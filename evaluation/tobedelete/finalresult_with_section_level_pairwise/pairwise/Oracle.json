@@ -1,0 +1,138 @@
+{
+  "sample_id": "Oracle",
+  "ticker": "ORCL US",
+  "as_of_date": "2025-09-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 4 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 0 sections on this ordering, errgen-baseline won 5, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: none. errgen-baseline stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports provide identical company metadata (ticker, exchange, CEO, employees, etc.) and identical descriptive text regarding Oracle's business segments, cloud offerings, infrastructure technologies, and hardware products.",
+        "quality_comparison": "Both sections demonstrate equal quality in terms of structure, depth, and clarity. There are no differences in analytical implications or organization.",
+        "winner": "tie",
+        "rationale": "The section content is word-for-word identical between the two reports, and both have zero severe or minor findings. As there is no differentiation in reliability or quality, a tie is the appropriate decision."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical factual information regarding Oracle's metadata, business segments, and offerings. Both reports passed the accuracy gate with zero severe or minor findings in this section.",
+        "quality_comparison": "The writing style, structure, depth, and organization are exactly the same in both reports. There is no differentiation in signal density or investor usefulness.",
+        "winner": "tie",
+        "rationale": "The sections are verbatim identical, making them materially indistinguishable in terms of both reliability and quality."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports passed the accuracy gate with zero severe or minor findings in this section. Key financial figures (Revenue ~$14.93B, Operating Margin 28.65%, FCF Margin 27.67%) and narrative points (TikTok deal framework, OpenAI contracts, Jim Cramer commentary) are consistent across both texts.",
+        "quality_comparison": "The first report demonstrates superior organization and signal density. It allocates distinct paragraphs to TikTok news, stock performance context (including S&P 100 benchmarks and specific gain percentages), detailed financials (including Net Income and Net Margin omitted in the second report), and market commentary. The second report suffers from significant redundancy, repeating the 'largest stock jump since 1992' statistic and the Jim Cramer 'masterful' quote in multiple paragraphs, while omitting contextual market data and net income figures.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to higher information density and better structural integrity. It provides valuable contextual benchmarks (S&P 100 performance) and complete financial metrics (Net Income) that aid investor analysis. Conversely, the second report reduces usability through repetitive phrasing and paragraphs that recycle previously stated points without adding new insight."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports pass the accuracy gate with zero severe or minor findings. They align on core financial metrics (Revenue ~$14.93B, Operating Margin 28.65%, FCF Margin 27.67%) and key narrative elements (TikTok deal framework, OpenAI contracts, Jim Cramer commentary). There are no material factual discrepancies between the two sections.",
+        "quality_comparison": "The second report demonstrates superior organization and signal density. It avoids the significant repetition found in the first report, which redundantly mentions the 'largest stock jump since 1992,' OpenAI contracts, and the Jim Cramer quote across multiple paragraphs. The second report provides richer investor context, including specific stock performance percentages (YTD, 5-session, single-day), relative performance against the S&P 100, and a nuanced note on net income decline that adds analytical depth.",
+        "winner": "second_report",
+        "rationale": "While reliability is equal, the second report is materially better in quality. It structures information logically (News -> Stock Performance -> Financials -> Commentary) without overlapping content. It offers higher utility to an investor by including comparative market data (S&P 100) and balanced financial analysis (noting net income pressure despite margin expansion), whereas the first report dilutes its signal through repetitive paragraphs."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports exhibit identical reliability profiles with zero severe or minor findings flagged in the section-specific metadata. Cross-referencing key figures (Q1 2026 revenue of $14.926B, operating margin of 28.65%, current ratio of 0.62) confirms internal consistency between the two texts. Neither report contains contradictory data points regarding the shared metrics.",
+        "quality_comparison": "The second report demonstrates superior depth and analytical utility. It provides a more granular trend analysis, covering four quarters of data for profitability margins, R&D expenses, and stockholders' equity, whereas the first report primarily focuses on year-over-year comparisons with limited sequential context. Additionally, the second report offers valuable qualitative context, such as noting that a low current ratio is common for mature software companies and linking elevated capex to cloud capacity expansion. The first report is well-organized and leads with the latest quarter's revenue more prominently, but it lacks the richer trend data and interpretive commentary found in the second report.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable, the second report provides higher signal density for an investor. Its inclusion of sequential quarterly trends for margins, equity, and R&D allows for better trajectory analysis than the first report's YoY focus. Furthermore, the second report's explanatory notes on working capital norms and capex drivers add analytical value that helps the reader interpret the raw numbers, making it more useful for investment decision-making."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports utilize consistent financial data with no identified severe or minor factual errors in this section. Key figures such as Q1 2026 revenue ($14.93B), operating margin (28.65%), operating cash flow ($8.14B), and balance sheet items align across both texts. Both acknowledge the limitation regarding total debt disclosure.",
+        "quality_comparison": "The second report demonstrates superior organization and analytical relevance for the as-of date. It leads with the current quarter's (Q1 2026) revenue and calculates the YoY growth rate, whereas the first report focuses on prior fiscal year quarters in its opening paragraph, burying the current revenue figure until the R&D section. The second report also provides a critical insight on the significant decrease in cash balances from Q3 2025 to Q1 2026, which the first report omits in the balance sheet section. While the first report offers more sequential data points for margins and R&D, the second report's framing of headline metrics and liquidity trends offers higher investor utility.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it prioritizes the most relevant information for an investor reading a report dated 2025-09-15. By leading with Q1 2026 revenue and YoY growth, it immediately addresses the company's current performance, unlike the first report which focuses on historical FY2025 progression. Additionally, the second report's identification of the cash balance decline ($17.4B to $10.4B) provides a clearer view of liquidity deployment than the first report's static ending balance. These structural and analytical advantages outweigh the first report's slightly more detailed sequential margin tracking."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports share core narrative elements, including the TikTok acquisition framework, OpenAI cloud contracts, Jim Cramer's 'masterful' commentary, the record stock jump since 1992, and the 159,000 employee count. However, the first report provides specific stock performance metrics (82% YTD, 27% five-session gain, S&P 100 comparison) and a comprehensive breakdown of revenue streams (Infrastructure, Hardware, Consulting), whereas the second report is vaguer on performance statistics and narrows the business description primarily to SaaS offerings.",
+        "quality_comparison": "The first report demonstrates superior depth and investor usefulness. It offers concrete data points for benchmarking (S&P 100), a more accurate representation of Oracle's diversified business model, and identifies leadership. The second report omits key metrics and business segments, resulting in lower signal density and less actionable analysis for an investor.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to higher signal density and completeness. It provides specific performance metrics and benchmark comparisons essential for competitive analysis, along with a fuller description of the company's product portfolio (including infrastructure and hardware). The second report lacks these specific data points and offers a narrower view of the business operations, making it less useful for investment decision-making despite similar reliability flags."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports share identical core factual claims regarding Oracle's employee count (159,000), stock performance highlights (largest jump since 1992, 36% single-day increase), and strategic narratives (OpenAI cloud contracts, TikTok acquisition framework, Jim Cramer commentary). Both reports pass the accuracy gate with identical section-specific findings (severe=0, minor=0), indicating equal reliability according to the provided metadata.",
+        "quality_comparison": "The second report provides a more comprehensive business overview, explicitly detailing infrastructure, hardware, and consulting services alongside SaaS, whereas the first report focuses primarily on SaaS. The second report offers superior quantitative context for stock performance (82% YTD, 27% past five sessions, vs. S&P 100 benchmark) compared to the first report's qualitative description. Additionally, the second report demonstrates greater transparency by explicitly noting missing data points such as market share and revenue contribution percentages.",
+        "winner": "second_report",
+        "rationale": "While reliability is equal based on the provided findings summaries, the second report wins on quality due to higher signal density and investor usefulness. It delivers a more accurate representation of Oracle's diversified business model (including Database/Infrastructure), provides specific performance metrics with benchmarks for better context, and maintains transparency regarding data limitations. These factors make the second section more actionable for an investor despite the similar reliability scores."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical Q1 2026 figures for Current Ratio (0.62), Current Assets ($24.634B), Current Liabilities ($39.874B), Cash ($10.445B), Operating Margin (28.65%), and Net Margin (19.61%). Both passed the accuracy gate with no severe or minor findings. However, there are discrepancies in historical comparison periods: Report 1 compares Q1 2026 Net Margin to Q1 2025 (YoY) while comparing Operating Margin to Q3 2025 (Sequential), creating an inconsistent trend baseline. Report 2 consistently uses Q3 2025 as the baseline for both margin metrics. Report 1 includes Leverage analysis (Assets/Equity/Liabilities) which Report 2 omits.",
+        "quality_comparison": "Report 1 provides stronger analytical implications by explicitly rating risk severity (e.g., 'medium to high', 'medium'), which offers clearer guidance to investors. It also covers an additional financial risk dimension (Leverage/Balance Sheet structure) that Report 2 lacks. Report 2 demonstrates better internal consistency in trend analysis (using Q3 2025 baselines for all margins) and provides a more insightful liquidity trend analysis (working capital shift vs. just cash decline). Report 2 also attempts qualitative business risk context where Report 1 simply states evidence is insufficient. However, Report 1's explicit severity ratings and broader financial risk coverage (Leverage) provide higher signal density for investment decision-making.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred primarily for its explicit risk severity ratings, which significantly enhance analytical clarity and investor usefulness. It also provides deeper financial risk coverage by including a dedicated leverage analysis section, whereas Report 2 omits this dimension. Although Report 2 shows better consistency in comparison periods and a more nuanced liquidity trend analysis, Report 1's synthesis of risk levels and broader financial scope offers greater value to the reader despite the minor inconsistency in margin comparison periods."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections passed the report-level accuracy gate with zero severe or minor findings, indicating equivalent factual reliability based on the provided evaluation metadata. Both cite consistent figures for Q1 2026 liquidity and margins, though they differ slightly on historical comparison periods (e.g., Q3 2025 vs. Q1 2025 for net margins), which are treated as acceptable variations under the accuracy gate.",
+        "quality_comparison": "The second report demonstrates higher quality through greater analytical depth and investor utility. It covers an additional risk dimension (leverage/balance sheet structure) that the first report omits, and it explicitly assigns risk severity levels (e.g., 'medium to high'), which aids prioritization. The second report also provides more context on liquidity trends by quantifying the percentage decline in cash reserves.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable per the metadata, the second report provides a more comprehensive risk analysis. It includes a dedicated paragraph on leverage and equity structure (P3), offering a fuller picture of balance sheet risk beyond just liquidity. Furthermore, it enhances clarity by explicitly rating risk severity, allowing investors to quickly gauge materiality. The first report is accurate but narrower in scope, lacking the leverage analysis and severity assessments that make the second report more actionable."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports align on core financial metrics: 12.17% revenue growth (Q1 2026), operating margin compression (30.84% to 28.65%), net margin decline (to 19.61%), and a current ratio of 0.62. Both identify the TikTok deal as a catalyst with regulatory uncertainties. However, they diverge on stock performance context: Report 1 cites YTD performance (82% vs S&P 100's 14%), while Report 2 references a single-day benchmark move (0.47%). Report 1 attributes FCF decline to higher CapEx, whereas Report 2 notes FCF margin and absolute decline without specifying the driver.",
+        "quality_comparison": "Report 1 demonstrates superior analytical depth and relevance. The YTD performance comparison is significantly more useful for an investment outlook than Report 2's single-day benchmark. Report 1 provides clearer causal analysis (linking FCF decline to CapEx and highlighting R&D intensity as a strategic positive). Additionally, Report 1 treats liquidity risks with appropriate caution, whereas Report 2 dismisses the low current ratio as 'not uncommon,' which may understate the risk in a recommendation section. Report 1 offers more specific monitoring guidance for investors.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually consistent on key metrics and carry no flagged errors, Report 1 provides higher signal density for investors. Its use of YTD performance data offers better context for valuation than Report 2's single-day comparison. Report 1 also delivers stronger causal analysis regarding cash flow dynamics and capital allocation (CapEx, R&D), leading to a more nuanced and actionable investment thesis."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core financial metrics (12.17% revenue growth, operating margin compression from 30.84% to 28.65%, current ratio of 0.62) and reference the same TikTok deal catalyst with similar regulatory caveats. Neither section contains flagged factual errors.",
+        "quality_comparison": "The second report demonstrates superior relevance and analytical depth. It contextualizes stock performance using year-to-date returns (82% vs 14%) rather than the first report's single-day movement, which is more appropriate for an investment outlook. Additionally, the second report explains the driver behind free cash flow decline (higher CapEx) and includes R&D spend context, whereas the first report merely states the decline without attribution.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually aligned, the second report provides higher signal density for an investor. The use of YTD performance metrics offers a more meaningful valuation context than single-day price action, and explaining the CapEx driver for FCF changes adds necessary analytical depth. The second report also explicitly addresses valuation risk (prices already reflect positive narrative), providing a clearer thesis for the Hold rating."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 4,
+    "errgen": 0,
+    "Tie": 2
+  }
+}

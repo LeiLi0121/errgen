@@ -1,0 +1,85 @@
+{
+  "sample_id": "JPMorgan",
+  "model_name": "errgen-baseline",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "run_id": "bfbd99ef-e09a-435d-b789-342244f7cdd4",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs and calculation objects provided in the evidence pack. Truncated evidence snippets are handled per evaluation instructions without penalizing support scores where calculation objects validate the numerical claims."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, net income, margins, ratios, returns) match the provided calculation objects and evidence snippets exactly or within acceptable rounding. Derived figures (e.g., net debt, current ratio components) are mathematically consistent with the provided calculation objects."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured citation format (Authoritative cited chunk IDs/calc IDs listed under paragraphs) is used correctly. All cited IDs correspond to valid evidence or calculation blocks in the pack. No inline citation label mismatches exist as none are used in the prose."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news snippets and financial data are dated on or before the report As-Of date (2025-10-21). No post-as-of information is used. Q3 2025 financials are appropriate for an October 2025 report."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and company details (e.g., employee count, revenue, margins) are consistent across all sections of the report (Company Overview, Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis)."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "The report provides detailed quantitative analysis on revenue, margins, cash flow, and balance sheet leverage. However, it fails to address the specific query requirement for net interest income (NII) and expense trends, which are critical metrics for bank analysis. The numeric depth is good generally but misaligned with key user requests."
+    },
+    "news": {
+      "score": 3,
+      "reason": "Recent developments such as the Q3 earnings beat and new HQ inauguration are well-integrated. However, the report misses the specific query requirement regarding 'strategic progress in international retail expansion,' focusing instead on sovereign lending hesitation and domestic infrastructure."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Company segments and industry positioning are clearly defined with peer comparisons. The analysis lacks depth on the requested international retail strategy, limiting the completeness of the competitive context relative to the specific query."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "The report fails to provide the mandatory investment view conclusion. The query explicitly requested a conclusion based on valuation metrics and ROE outlook relative to peers, but the text truncates before any recommendation or valuation section is presented."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Strong alignment with query requirements. The report quantifies leverage, liquidity, and cash flow risks, and explicitly discusses credit quality concerns (Argentina loan) and macroeconomic sensitivity affecting earnings, providing clear implications for investors."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "The structure is professional and logical with clear headings. However, the report is incomplete (ending with '[...truncated...]'), which disrupts the analytical flow and prevents a cohesive conclusion, negatively impacting overall utility."
+    }
+  },
+  "q_score": 2.85,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive risk analysis with quantified metrics on leverage, liquidity, and credit quality that directly address the query's risk requirements.",
+    "primary_weakness": "The report is incomplete, missing the required investment conclusion and valuation analysis, and fails to address specific query topics like NII trends and international retail expansion."
+  }
+}

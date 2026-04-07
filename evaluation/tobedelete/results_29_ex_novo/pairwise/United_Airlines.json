@@ -1,0 +1,23 @@
+{
+  "sample_id": "United_Airlines",
+  "ticker": "UAL US",
+  "as_of_date": "2026-01-20",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate with 2 numerical errors and 1 inconsistency, while the second report passed the Accuracy Gate with zero severe errors. This represents a material difference in factual reliability.",
+    "quality_comparison": "The second report achieved a Tier A rating with a Q score of 4.9, showing strong integration of quantified financial risks and a balanced investment thesis. The first report received a Tier Fail rating with a Q score of 0.0, as quality evaluation was skipped due to accuracy failures.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, reliability is the primary criterion, and a pass on the Accuracy Gate is materially better than a fail. The second report is factually reliable with no severe errors, whereas the first report is compromised by numerical errors and inconsistencies. Additionally, the second report demonstrates significantly higher quality in analysis and synthesis."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors, while the second report failed the Accuracy Gate due to two numerical errors and one inconsistency. This represents a material reliability gap as defined by the decision policy.",
+    "quality_comparison": "The first report achieved a Tier A quality score of 4.9 with strong integration of quantified financial risks and a balanced investment thesis. The second report received a Tier Fail score of 0.0, with quality evaluation skipped due to accuracy failures. The first report offers superior completeness and investor usefulness without factual compromise.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary criterion, and a pass on the Accuracy Gate is materially better than a fail. Since the first report passed the Accuracy Gate and the second report failed, the first report is the clear winner regardless of secondary quality metrics, which also heavily favor the first report."
+  }
+}

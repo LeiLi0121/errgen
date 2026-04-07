@@ -1,0 +1,106 @@
+{
+  "sample_id": "Microsoft",
+  "model_name": "errgen-baseline",
+  "ticker": "MSFT US",
+  "as_of_date": "2026-01-26",
+  "run_id": "c747c0c4-cee9-433c-bbe5-ddf059a20a75",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most financial claims are supported by the provided evidence chunks. However, the report presents Q2 revenue and income figures as realized facts ('demonstrated', 'reaching') in the Financial Analysis section, while the Recent Developments section states earnings are 'scheduled to release' on January 28, 2026 (two days after the report as-of date). This implies the use of estimates or non-public data presented as actuals, which weakens the support for the 'demonstrated' claim."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical values cited in the text (revenue, margins, ratios) match the provided evidence chunks and calculation objects exactly. Growth rates and margins are calculated correctly based on the provided source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs listed under each paragraph correspond accurately to the evidence and calculation blocks provided in the pack. No mismatches found between the authoritative IDs and the evidence content."
+    },
+    "temporal_validity": {
+      "score": 2,
+      "reason": "Severe error in fiscal year labeling. The report is as-of January 26, 2026, and discusses Q2 earnings scheduled for January 28, 2026 (Microsoft Fiscal Q2 2026). However, Financial Analysis Paragraph 1 states growth was 'through fiscal 2025', and Risk Analysis Paragraph 1 refers to 'Q2 2025'. This misidentifies the current reporting period (FY26) as the prior fiscal year (FY25), which is material for financial analysis."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Internal inconsistency between sections: Financial Analysis treats Q2 data as historical actuals ('demonstrated', 'reaching'), while Recent Developments treats the same Q2 earnings as upcoming events ('scheduled to release'). Additionally, the fiscal year labeling is inconsistent with the report date (labeling FY26 data as FY25)."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [
+      {
+        "severity": "minor",
+        "explanation": "Financial Analysis Paragraph 1 claims Microsoft 'demonstrated' Q2 revenue of $81.273B. Given earnings are scheduled for Jan 28, 2026 (post as-of), this data is likely an estimate presented as an actual result.",
+        "section": "Financial Analysis",
+        "offending_span": "Microsoft demonstrated sequential revenue growth through fiscal 2025, with Q2 revenue reaching $81,273,000,000"
+      }
+    ],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [
+      {
+        "severity": "severe",
+        "explanation": "The report mislabels the current fiscal period. As-of Jan 2026, the Q2 earnings scheduled for Jan 28 belong to Fiscal Year 2026. The report repeatedly refers to this period as 'fiscal 2025' (Financial Analysis Para 1) and 'Q2 2025' (Risk Analysis Para 1).",
+        "section": "Financial Analysis, Risk Analysis",
+        "offending_span": "through fiscal 2025; Q2 2025"
+      }
+    ],
+    "inconsistencies": [
+      {
+        "severity": "severe",
+        "explanation": "Contradiction regarding the status of Q2 financial data. Financial Analysis presents Q2 revenue as achieved ('reaching'), while Recent Developments states Q2 earnings are yet to be released ('scheduled to release... January 28').",
+        "section": "Financial Analysis vs Recent Developments",
+        "offending_span": "Q2 revenue reaching $81,273,000,000; scheduled to release its fiscal second quarter earnings results on Wednesday, January 28, 2026"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+  }
+}

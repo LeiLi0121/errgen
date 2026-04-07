@@ -1,0 +1,138 @@
+{
+  "sample_id": "Tesla",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 2, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 3 sections on this ordering, errgen-baseline won 2, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "The text content for the Company Overview section is identical word-for-word across both reports, including all key statistics (ticker, CEO, employees, etc.) and the business description paragraphs.",
+        "quality_comparison": "There is no difference in quality, depth, relevance, or organization as the content is exactly the same in both sections.",
+        "winner": "tie",
+        "rationale": "Both sections share identical text and identical section-specific reliability findings (0 severe, 0 minor). Per the decision policy, section-specific findings are the main reliability signal, overriding the report-level accuracy gate difference. Since the sections are materially indistinguishable, the result is a tie."
+      },
+      "order_ba": {
+        "factual_comparison": "The textual content in both sections is verbatim identical, including all company statistics (ticker, exchange, sector, employees, etc.) and the business description paragraph. Section-specific accuracy findings are also identical (0 severe, 0 minor) for both reports.",
+        "quality_comparison": "Both sections demonstrate identical organization, depth, and clarity. There is no difference in signal density, relevance, or analytical implications as the content is the same.",
+        "winner": "tie",
+        "rationale": "The sections are materially indistinguishable. The text is identical character-for-character, and the section-specific reliability signals are equal. Although the report-level accuracy gate differs (True vs. False), the decision policy mandates judging this section only and using section-specific findings as the main reliability signal, disregarding unrelated issues elsewhere in the report. Therefore, neither section holds an advantage."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core factual claims regarding the Terafab project, Ofgem approval, US sales decline (-26%), Honda impairment, and Uber/Nvidia competitive dynamics. Section-specific findings indicate zero severe or minor errors for both, suggesting comparable reliability for this specific section despite the first report's overall accuracy gate being False.",
+        "quality_comparison": "The first report demonstrates superior organization by segregating stock performance into a dedicated paragraph (P4) and keeping competitive dynamics distinct from energy expansion. The second report mixes disparate topics, combining energy regulation with autonomous driving competition in one paragraph and burying stock performance within sales data. The first report also offers higher precision with specific dates (March 14 vs. mid-March) and benchmark-relative performance metrics (vs. SPY) rather than drawdown from highs.",
+        "winner": "first_report",
+        "rationale": "Reliability is treated as comparable based on identical section-specific findings (0 severe/minor), adhering to the instruction to prioritize section signals over report-level gates. The first report wins on quality due to better thematic organization (separating stock performance and competitive landscape) and more precise, investor-relevant data points (30-day relative performance vs. all-time high drawdown)."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical core narrative points including the Terafab project, Ofgem approval, US sales decline, Honda impairment, and Nvidia/Uber robotaxi plans. Section-specific accuracy findings are zero for both, indicating no material factual gaps detected within this section despite the differing report-level accuracy gates.",
+        "quality_comparison": "The second report offers superior organization by isolating stock performance into a dedicated paragraph with specific benchmark comparisons (SPY), providing higher signal density for investors. The first report mixes operational and price data in one paragraph and uses less precise metrics such as drawdown from high versus recent excess returns.",
+        "winner": "second_report",
+        "rationale": "Given equal section-specific reliability, the decision rests on quality. The second report is preferred for its clearer structure and more actionable data (specific excess returns), which enhances investor usefulness without unnecessary verbosity."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "The first report contains material factual inconsistencies within the text despite the section-specific finding summary. Specifically, it labels sequential quarter-over-quarter changes as 'year-over-year' or 'prior-year matching period' (e.g., Q4 revenue contraction of -11.37% and net income decline of -38.82% are calculated against Q3 figures but described as YoY). It also reports a negative net cash position (-$8,137,000,000) while stating cash exceeds debt, which implies a positive net cash position. The second report correctly identifies the revenue contraction as 'versus the prior quarter' and reports the net cash position as positive ($8,137,000,000), aligning with the provided balance sheet figures. The report-level accuracy gate (False for first, True for second) supports this textual analysis.",
+        "quality_comparison": "The first report offers slightly more data depth, including specific net income dollar amounts and R&D spend for Q1 and Q2. However, this depth is undermined by the labeling errors which could mislead an investor regarding trends (seasonality vs structural decline). The second report is slightly less detailed in historical comparisons but maintains analytical integrity and clarity. The second report's organization is cleaner, avoiding the confusing contradictions present in the first report.",
+        "winner": "second_report",
+        "rationale": "Reliability is the primary decision factor when the gap is material. The first report mislabels sequential performance metrics as year-over-year and contains a sign error on the net cash position, which are material errors for financial analysis. The second report accurately describes the metrics (sequential vs prior quarter) and balance sheet position (positive net cash). Although the first report provides more historical data points, the factual inaccuracies reduce its investor usefulness and trustworthiness. The second report's alignment with the report-level accuracy gate (True) further confirms its superior reliability."
+      },
+      "order_ba": {
+        "factual_comparison": "The first report demonstrates higher internal consistency and aligns with its 'True' accuracy gate. The second report, marked with a 'False' accuracy gate, contains material factual inconsistencies within the text provided. Specifically, in P4, it states a net cash position of '-$8,137,000,000' while simultaneously noting cash exceeds debt (which implies a positive net cash position, correctly identified as +$8.137B in the first report). Additionally, in P1, the second report mislabels the Q4 revenue contraction of -11.37% as 'prior-year matching period' (YoY), whereas the calculation uses Q3 revenue ($28,095M vs $24,901M), making it a sequential (QoQ) figure as correctly identified in the first report.",
+        "quality_comparison": "The second report offers slightly greater granularity, including specific net income figures, depreciation amounts, and current asset/liability breakdowns. However, this added depth is undermined by the factual errors. The first report is more concise but maintains clarity and accuracy in its key financial metrics (liquidity, margins, growth rates). The first report's analysis of R&D intensity is also consistent, whereas the second report's balance sheet analysis is confusing due to the net cash sign error.",
+        "winner": "first_report",
+        "rationale": "Reliability takes precedence when the gap is material. The second report contains significant internal contradictions (negative net cash despite cash > debt) and misclassifies growth metrics (labeling sequential decline as YoY). These errors directly impact the investor's understanding of liquidity and growth trends. Although the second report provides more line-item detail, the first report is factually sound and consistent with its 'True' accuracy gate, making it the safer and more useful reference for financial analysis."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cover the same core business segments, the 26% US sales decline in January 2026, the Terafab AI chip announcement, and the Ofgem UK energy approval. The second report provides more specific competitor data, citing Honda's $15.7 billion impairment and Nvidia's partnerships with Hyundai and BYD. The first report offers more precise equity metrics, specifying Tesla's 30-day return (-5.24%) versus the S&P 500, whereas the second report uses vaguer language ('down 20% from their high'). The first report also specifies the headquarters as Austin, Texas, while the second only says 'US'.",
+        "quality_comparison": "The first report demonstrates superior organization and signal density. It avoids redundancy, whereas the second report repeats key catalysts (Ofgem approval and Terafab project) in both the body and the concluding paragraph (P4), diluting the analysis. The first report provides more actionable stock performance data for investors (relative return vs benchmark) and transparently acknowledges data limitations regarding geographic revenue breakdowns. The second report includes some useful competitor specifics but suffers from structural repetition and less precise market performance metrics.",
+        "winner": "first_report",
+        "rationale": "Although both sections have zero severe/minor findings, the first report is preferred for its cleaner structure and lack of repetition. The second report redundantly summarizes the Terafab and Ofgem news in P4 after already covering them in P1 and P3. Additionally, the first report provides more relevant equity research metrics (specific 30-day relative returns) compared to the second report's vague price description. The first report's explicit note on data limitations also adds to its analytical integrity."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical core facts regarding the Terafab project, sales decline, and Ofgem approval, with no section-specific factual errors flagged (0 severe, 0 minor for both).",
+        "quality_comparison": "The second report offers higher signal density with specific stock performance metrics and operational details (sales channels, HQ city) that the first report lacks. It also avoids the redundancy found in the first report, which repeats key news items in the conclusion.",
+        "winner": "second_report",
+        "rationale": "Reliability is tied based on section-specific findings. The second report wins on quality due to greater specificity (e.g., exact stock returns vs. general trends, Austin vs. US), better organization (no repetition of Ofgem/Terafab news), and transparent disclosure of data limitations, making it more useful for investors."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections present consistent Q4 2025 financial metrics (revenue, debt, cash, net income, stock returns) with no section-specific factual errors flagged (0 severe, 0 minor for both). Report 1 includes a specific Q3 debt figure indicating a large reduction, while Report 2 focuses on the Q4 position with Q1 historical context for income and revenue. Core data points such as cash ($16.5B), net debt (-$8.1B), and 30-day returns (-5.24%) align perfectly between the two.",
+        "quality_comparison": "Report 2 offers greater depth and investor utility. It expands the risk analysis beyond financial metrics to include operational risks (headcount, R&D spend, segment diversity) and macroeconomic cyclicality. Report 1 explicitly states in P4 that it cannot assess operational, regulatory, or competitive risks due to data limitations, making it less comprehensive. Report 2's use of Q1-Q4 trends also provides a stronger basis for assessing volatility than Report 1's Q3-Q4 comparison.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually consistent on core metrics per section-specific findings, Report 2 delivers a more complete and useful risk analysis. It avoids the limitation admitted in Report 1 (inability to assess non-financial risks) by utilizing available operational data (employees, R&D) to discuss execution and investment risks. This makes Report 2 more actionable for investors seeking a holistic view of risk, whereas Report 1 leaves significant risk categories unaddressed."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present consistent financial data where they overlap (Q3/Q4 2025 Revenue, Operating Income, Net Income, Q4 Debt, Cash, Liquidity Ratios, and Stock Returns). Report 1 includes additional Q1 2025 financial data and operational metrics (employee count, R&D expenses) that Report 2 omits. Report 2 includes Q3 2025 debt figures showing a reduction trend not mentioned in Report 1. There are no direct contradictions in the overlapping figures, and both sections passed section-specific accuracy checks (0 severe/minor findings).",
+        "quality_comparison": "Report 1 provides superior depth and investor utility. It analyzes a longer time horizon (Q1-Q4) to better substantiate volatility risks, whereas Report 2 focuses only on sequential Q3-Q4 changes. Crucially, Report 1 addresses operational risks (labor exposure, R&D intensity, segment diversity) with specific data, while Report 2 explicitly states it cannot assess these risks due to insufficient data. Given that Report 1's additional details did not trigger accuracy flags, they represent valuable analysis rather than error. Report 1 offers a more comprehensive risk profile (Financial, Operational, Market) compared to Report 2's more limited scope and concluding disclaimer.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because it delivers a more complete and actionable risk analysis without compromising reliability (as indicated by the clean section-specific findings). It covers operational risks and a longer financial history, providing better context for volatility and execution risks. Report 2's explicit disclaimer regarding operational and macro risks reduces its usefulness to an investor, effectively admitting gaps that Report 1 successfully fills with data-driven analysis."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present consistent core financial metrics (Current Ratio 2.16, D/E 0.10, Op Margin 5.66%, FCF Margin 5.70%, R&D 7.16%). Revenue and income contraction figures are consistent with Report 2 offering slightly more decimal precision (-11.37% vs -11%). Stock performance data is mathematically consistent (Report 1 cites 3.38% underperformance; Report 2 cites -5.24% vs -1.87% SPY, a 3.37% gap). Section-specific accuracy findings are identical (0 severe, 0 minor) for both, despite Report 1 failing the report-level accuracy gate.",
+        "quality_comparison": "Report 1 demonstrates superior analytical depth regarding the investment thesis drivers. It specifies the nature of competitive threats (Uber/Nvidia robotaxi deployment plans) and provides concrete sales data (26% US sales decline), whereas Report 2 relies on vaguer descriptors like 'lackluster results.' Report 1 also identifies an additional regulatory catalyst (Ofgem approval) absent in Report 2. While Report 2 offers slightly more transparent stock performance math, Report 1 provides higher signal density on the qualitative risks and catalysts essential for an Outlook section.",
+        "winner": "first_report",
+        "rationale": "Reliability is equivalent based on section-specific findings. Report 1 wins on quality due to significantly stronger depth on competitive dynamics and specific sales trends, providing clearer analytical implications for the Hold rating. Report 2's narrative on competition is too generic compared to Report 1's specific industry data points."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present consistent core financial metrics for the section, including Current Ratio (2.16), Debt-to-Equity (0.10), R&D % (7.16%), FCF Margin (5.70%), and Operating Margin (5.66%). Report 1 provides more precise figures for revenue (-11.37% vs -11%) and net income (-38.82% vs -39%) declines. Report 1 includes Gross Margin (20.12%), a critical metric for Tesla analysis, which Report 2 omits in favor of Net Margin (3.37%). Report 2 introduces specific external data points (26% US sales decline, Uber/Nvidia robotaxi deployment, Ofgem approval) that are not present in Report 1. Section-specific findings indicate no severe or minor errors for either section, though Report 1 carries a 'True' report-level accuracy gate compared to Report 2's 'False'.",
+        "quality_comparison": "Report 1 demonstrates higher quality in financial analysis by including Gross Margin, which is a key investor focus for Tesla, and offering greater precision on financial deterioration. Its investment thesis clearly balances AI optionality against automotive headwinds. Report 2 provides richer narrative detail on competitive dynamics and regulatory catalysts, but the claim regarding 'Nvidia announcing robotaxi deployment' raises plausibility concerns (Nvidia is typically a supplier, not a deployer), which detracts from analytical credibility despite the clean section error count. Report 1's recommendation logic is slightly more grounded in the financial fundamentals provided.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred primarily due to the inclusion of Gross Margin, a vital metric for evaluating Tesla's profitability trajectory, which Report 2 omits. Report 1 also offers more precise financial data. While Report 2 provides more specific external catalysts, the plausibility of certain claims (e.g., Nvidia deploying robotaxis) introduces analytical risk. Additionally, Report 1 benefits from a 'True' report-level accuracy gate, suggesting higher overall reliability, whereas Report 2 failed the report-level gate. Given the instruction to prioritize section reliability but decide on quality when similar, Report 1's stronger financial grounding and precision make it the more useful section for an investor."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 2,
+    "errgen": 2,
+    "Tie": 2
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sample_id": "Meta_Platforms",
+  "model_name": "errgen",
+  "ticker": "META US",
+  "as_of_date": "2026-02-19",
+  "run_id": "44b61cea-485b-48de-9938-bc6ce0fe752f",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments (AI spend, stock cuts), and competitive positioning are directly supported by the authoritative cited chunk IDs and evidence snippets provided. Analytical inferences (e.g., margin impact from CapEx) are reasonable derivations from the cited data."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, income, margins, balance sheet items) match the provided evidence chunks exactly. Calculated metrics (YoY growth, margins, ratios) align perfectly with the provided calculation objects."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'calc IDs' listed under each paragraph accurately correspond to the evidence required to support the claims made in that paragraph. No mismatches or irrelevant citations detected."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news items are dated 2026-02-19, consistent with the report as-of date. Financial periods (Q4 2025) are logically consistent with a February 2026 report date. No post-as-of claims identified."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points are consistent across sections (e.g., revenue figures in Financial Analysis match Business Analysis; employee count and AI spend figures are consistent throughout). No internal contradictions found."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Exceptional depth with specific quarterly revenue, margin, cash flow, and balance sheet metrics. Includes YoY growth rates, absolute dollar figures, and ratio analysis that provides a comprehensive view of financial performance."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong coverage of AI infrastructure developments, spending plans, and strategic summits. However, specific recent developments regarding Reels requested in the query are limited to product listings in the overview rather than dedicated news updates."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Effectively contextualizes Meta's strategy within the broader AI industry landscape and competitive dynamics (e.g., Nvidia partnerships). Clearly defines business segments and market positioning."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Significant completeness issue as the Investment Recommendation & Outlook section is truncated. While bullish logic is scattered in other sections, the lack of a formal conclusion, rating, or price target fails to fully answer the query for an investment view."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Thorough analysis of financial risks including earnings volatility, leverage, and margin pressure. However, it omits specific discussion on regulatory scrutiny, which was explicitly requested in the query."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone and logical structure across sections. The score is capped due to the abrupt truncation at the end, which disrupts the report's flow and finality."
+    }
+  },
+  "q_score": 3.85,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Highly detailed financial quantification and robust integration of AI infrastructure news into the business analysis.",
+    "primary_weakness": "Incomplete investment recommendation section and omission of specific regulatory risk analysis despite explicit query requirements."
+  }
+}

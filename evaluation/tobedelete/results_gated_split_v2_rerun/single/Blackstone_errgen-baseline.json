@@ -1,0 +1,78 @@
+{
+  "sample_id": "Blackstone",
+  "model_name": "errgen-baseline",
+  "ticker": "BX US",
+  "as_of_date": "2025-08-12",
+  "run_id": "7efe94e3-0964-488a-a87b-e1dfae061d7e",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims are linked to authoritative cited chunk IDs or calc IDs. Evidence snippets generally support the claims made, with truncation noted but not deemed fatal to support per evaluation guidelines."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe numerical error in Financial Analysis Paragraph 3: Q1 2025 Free Cash Flow Margin is stated as 29.09%. Based on visible source data (Q1 2025 FCF $1,079,940,000 / Q1 2025 Revenue $3,289,458,000), the margin should be ~32.83%. The provided calculation object derives 29.09% by incorrectly using Q2 2025 Revenue ($3,711,900,000) as the denominator for a Q1 margin claim."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured authoritative cited chunk IDs and calc IDs match the provided evidence blocks. No mismatches found between the structured citations and the evidence content."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates and financial periods are on or before the report As-of date (2025-08-12). No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Severe internal inconsistency regarding Q2 2025 Revenue. Recent Developments Paragraph 1 states Revenue was US$3.80 billion (43% YoY growth), citing news sources. Financial Analysis Paragraph 1 states Revenue was $3,711,900,000 (12.84% YoY growth), citing income statement data. This material contradiction (43% vs 12% growth) creates conflicting narratives on financial momentum, despite a later attempt to reconcile in Business & Competitive Analysis."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, inconsistencies."
+  }
+}

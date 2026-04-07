@@ -1,0 +1,78 @@
+{
+  "sample_id": "EQIX_US",
+  "model_name": "errgen",
+  "ticker": "EQIX US",
+  "as_of_date": "2025-08-06",
+  "run_id": "dab91b28-b5be-46bc-8741-061ba92c775f",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, partnerships, analyst ratings, and market data are directly supported by the authoritative cited chunk IDs and evidence provided. No unsupported assertions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, net income, margins, ratios) match the provided evidence chunks and calculation objects exactly. Growth rates and ratios are calculated correctly and rounded appropriately."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed for each paragraph accurately correspond to the evidence supporting the claims in that paragraph. There are no mismatches between the text and the authoritative grounding record."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates and financial periods cited are on or before the report as-of date of 2025-08-06. No post-as-of information is presented as fact."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data and narrative claims are consistent across all sections of the report (e.g., Revenue and Net Income figures match between Recent Developments and Financial Analysis). No contradictions were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed revenue, margin, and balance sheet data with clear YoY comparisons. However, critical REIT-specific metrics (FFO/AFFO) are mentioned in news but not analyzed in the financial section, and the report explicitly notes missing OCF, FCF, and EBITDA data, limiting completeness for a capital-intensive business."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Comprehensive coverage of recent catalysts including Q2 earnings, specific partnership details (F5), analyst rating changes, and institutional flows. Dates and figures are specific and timely."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong contextual analysis linking AI-driven demand to the data center sector. Includes specific market growth projections (Hong Kong colocation) and competitor comparisons, though some geographic data is narrow for a global entity."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Clear Buy recommendation supported by fundamental logic (margin expansion, AI positioning). However, it lacks a proprietary price target or valuation multiple analysis, relying instead on a third-party analyst target."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Thorough quantification of leverage and liquidity risks. However, the report explicitly states inability to assess macro, competitive, or operational risks due to data limits, reducing the robustness of the risk framework."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone with clear section headers and logical flow. Some repetition of key metrics (revenue, margins) across sections is present but serves different analytical purposes (news vs. financial deep dive vs. recommendation)."
+    }
+  },
+  "q_score": 3.4,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Effective synthesis of strategic catalysts (F5 partnership, AI demand) with financial performance to build a coherent investment thesis.",
+    "primary_weakness": "Incomplete financial analysis for a REIT structure (lack of FFO/AFFO breakdown in financial section) and limited risk assessment beyond balance sheet leverage."
+  }
+}

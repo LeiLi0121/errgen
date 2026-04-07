@@ -1,0 +1,78 @@
+{
+  "sample_id": "Adobe",
+  "model_name": "errgen-baseline",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "run_id": "c77552c4-831d-494e-bcf7-24bc4ab6b523",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Multiple material claims lack support in the visible authoritative evidence. Specifically, the stockholders' equity value ($11,623M) in Financial Analysis Para 4 has no corresponding authoritative chunk in the cited list. The Motion Graphics market 2025 value ($98.3B) and Web Conferencing CAGR (8.40%) in Business & Competitive Analysis Para 2 are not present in the visible evidence snippets. YTD stock loss (17.8%) in Recent Developments Para 1 is not visible in the cited news snippet."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Numerical calculations for margins, ratios, and growth rates (e.g., Gross Margin 88.92%, D/E 0.5720) are mathematically consistent with the provided calculation objects and supported source data. However, the accuracy of unsupported figures (Equity, Market Size) cannot be verified."
+    },
+    "citation_precision": {
+      "score": 2,
+      "reason": "Several inline citations reference evidence that does not visibly contain the specific data point claimed. For example, the Motion Graphics 2025 value and Web Conferencing CAGR are cited to news chunks that do not display these figures in the provided text. The Equity claim in Financial Analysis Para 4 references an inline label (C045) with no corresponding authoritative chunk ID in the paragraph's citation list."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe temporal violation. The report states an As-of date of 2025-08-22, but cites multiple news sources and data points with source dates of 2025-08-26, 2025-08-27, and 2025-08-28 (e.g., Recent Developments Para 1, 2, 3, 4). This constitutes clear post-as-of usage which breaks the Accuracy Gate."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent regarding financial figures and narrative flow. There are no contradictions between different sections of the text (e.g., revenue figures match across sections). The temporal inconsistency is captured under Temporal Validity."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 4,
+    "numerical_errors": 0,
+    "citation_mismatches": 1,
+    "temporal_violations": 2,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 2,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations."
+  }
+}

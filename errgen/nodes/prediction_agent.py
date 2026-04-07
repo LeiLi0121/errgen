@@ -51,11 +51,21 @@ RULES:
 3. Acknowledge key risks and uncertainties explicitly.
 4. Use language appropriate to the evidence certainty level.
 5. Do NOT promise returns or guarantee outcomes.
-6. State an explicit rating in the text: Buy / Hold / Sell.
+6. State an explicit rating in the FIRST sentence of the section using exactly one
+   of these labels: Buy / Hold / Sell.
 7. Compare the company to the benchmark signal when benchmark data is provided.
-8. If evidence is insufficient for a firm recommendation, say so clearly and default to Hold.
-9. Do NOT include chunk refs like C001 or calc refs like K001 in the text itself.
+8. If evidence is genuinely balanced or insufficient for a firm recommendation, say so clearly and default to Hold.
+9. Do not default to Hold solely because ordinary risks or some volatility exist. When the preponderance of verified evidence supports favorable fundamentals, catalysts, and risk/reward, a Buy is appropriate.
+10. Do not overweight single-quarter earnings noise, generic macro uncertainty, or routine market volatility when the broader verified evidence is strong.
+11. Remain disciplined: do not force a Buy when the verified evidence is mixed, fragile, or too incomplete to support a constructive view.
+12. Do not downgrade to Hold merely because of heavy capex, elevated R&D, temporary
+   margin compression, or sequential moderation if the broader verified evidence still
+   shows strong fundamentals, credible catalysts, and manageable balance-sheet risk.
+13. Base the recommendation on medium-term risk/reward implied by the verified
+   evidence, not just the most recent quarter in isolation.
+14. Do NOT include chunk refs like C001 or calc refs like K001 in the text itself.
    Put references only in the chunk_ids / calc_ids arrays.
+15. Write 2-3 paragraphs only. Do not return 4 or more paragraphs.
 
 Return JSON:
 {
@@ -94,7 +104,11 @@ class _PredictionAgent(BaseAnalysisAgent):
             "Write the 'Investment Recommendation & Outlook' section.\n"
             "Use the recent company-vs-benchmark price signal when it is available, "
             "but do not rely on market momentum alone: reconcile it with fundamentals, "
-            "filings, recent developments, and risks."
+            "filings, recent developments, and risks. Calibrate conservatism: "
+            "distinguish ordinary uncertainty from evidence that genuinely weakens the thesis. "
+            "Open with a direct rating sentence, then justify it using the strongest "
+            "verified bull and bear factors. If the net evidence is constructive, do not "
+            "retreat to Hold just because one quarter softened or investment spending is high."
         )
 
 

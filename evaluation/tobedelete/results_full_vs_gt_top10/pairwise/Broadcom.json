@@ -1,0 +1,27 @@
+{
+  "sample_id": "Broadcom",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "judge_model": "qwen3.5-plus",
+  "generated_label": "full",
+  "ground_truth_label": "ground_truth",
+  "ground_truth_field": "narrative_text_path",
+  "full_run_id": "37dee971-7d71-406a-af46-32e895dcadff",
+  "order_ab_winner": "ground_truth",
+  "order_ba_winner": "ground_truth",
+  "final_outcome": "ground_truth",
+  "order_ab": {
+    "coverage_comparison": "The second report covers all required dimensions including a complete investment view, valuation methodology, and risk summary. The first report lists an Investment Recommendation section in its Table of Contents but fails to include the content, truncating mid-sentence in the Risk Analysis section.",
+    "analytical_depth_comparison": "The second report provides superior forward-looking synthesis, detailing specific AI order book values ($10bn), TAM estimates, and the strategic impact of VMware integration. The first report offers detailed historical financial variance analysis (quarterly margins, R&D intensity) but lacks the strategic synthesis to connect these metrics to a valuation or thesis.",
+    "writing_comparison": "The second report is concise, coherent, and written in a professional analyst note style. The first report is well-structured with tables and evidence tagging but suffers from a critical generation failure that leaves the narrative unfinished.",
+    "winner": "second_report",
+    "rationale": "The first report is critically flawed due to incompleteness; it truncates mid-sentence and omits the Investment Recommendation section entirely, which is the core deliverable of equity research. The second report is complete, actionable, and provides a clear rating (BUY), target price ($390), and valuation logic. While the first report has better historical data tables, the lack of a conclusion and investment view makes it significantly less useful for decision-making compared to the comprehensive and strategic second report."
+  },
+  "order_ba": {
+    "coverage_comparison": "The first report covers all required dimensions including a clear investment view, rating, and target price. The second report includes a Table of Contents listing an Investment Recommendation section, but the text truncates mid-sentence in the Risk Analysis section, failing to deliver the critical investment view, rating, or valuation conclusion required by the query.",
+    "analytical_depth_comparison": "The first report offers sharper synthesis of the investment thesis, linking specific forward-looking management guidance (e.g., USD6.2bn AI chip sales, USD10bn new order) to the valuation framework. The second report provides detailed historical financial analysis (margin trends, quarterly revenue) but lacks forward-looking synthesis and valuation logic due to incompleteness.",
+    "writing_comparison": "The first report follows a professional equity research note structure with clear narrative flow. The second report reads like an automated data aggregation output, containing distracting artifacts (chunk IDs, verification tags) and suffering from a critical truncation error that undermines its professionalism.",
+    "winner": "first_report",
+    "rationale": "The first report is the superior deliverable because it is complete and provides a decision-useful investment view (Rating: BUY, TP: 390), whereas the second report truncates before the investment recommendation. Additionally, the first report synthesizes forward-looking catalysts into a coherent thesis, while the second report focuses heavily on historical data with automated formatting artifacts that reduce readability and professional quality."
+  }
+}

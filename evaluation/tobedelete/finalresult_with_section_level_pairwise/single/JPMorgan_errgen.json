@@ -1,0 +1,85 @@
+{
+  "sample_id": "JPMorgan",
+  "model_name": "errgen",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "run_id": "86782d9e-a9bc-483f-a3dd-200771a21b8b",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic initiatives, and company details are directly supported by the authoritative cited chunk IDs and calculation objects. Truncated evidence snippets are accepted as supportive per evaluation guidelines."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, net income, margins, balance sheet ratios) match the provided evidence snippets and calculation objects exactly or within acceptable rounding conventions (e.g., $14.4B vs $14,393M)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs listed under each paragraph correspond correctly to the evidence blocks provided. No mismatches between cited IDs and evidence content detected."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates (2025-10-21) and financial periods (Q3 2025 ending Sep 30) are on or before the report as-of date (2025-10-21). Calendar consistency checked (Oct 21, 2025 is a Tuesday, matching evidence)."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data and company details (employees, HQ, segments) are consistent across all sections (Overview, Recent Developments, Financial Analysis, Business & Competitive Analysis). No internal contradictions found."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "While specific figures are provided, the report relies on generic corporate metrics (Gross Margin, R&D) rather than banking-specific standards (Net Interest Income, Net Interest Margin, ROE, CET1). It fails to quantify the Net Interest Income and expense trends explicitly requested in the query, mentioning NII only qualitatively in the Risk section."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong integration of timely, specific developments (HQ inauguration, Q3 earnings beat, Argentina loan hesitation) with dates and figures. News is effectively woven into Business and Risk sections rather than siloed, adding context to the financial data."
+    },
+    "cmi": {
+      "score": 2,
+      "reason": "Segment overview is clear, but the report fails to address the specific query requirement regarding 'strategic progress in international retail expansion,' focusing instead on a domestic HQ launch and sovereign lending hesitation. Peer comparison is superficial and lacks industry depth."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "The Investment Recommendation section is truncated ('[...truncated...]'), failing to provide the required conclusion, valuation metrics, or ROE outlook relative to peers. This renders the report incomplete for decision-making and fails the primary user instruction."
+    },
+    "risk": {
+      "score": 2,
+      "reason": "Discusses leverage and cash flow volatility but lacks depth on 'credit quality' risks (e.g., non-performing loans, charge-offs, provision trends) explicitly requested in the query. Relies on generic corporate risk metrics (Current Ratio) less relevant for bank credit analysis."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is logical and professional, but there is significant verbatim repetition between the Company Overview and Business & Competitive Analysis sections. The truncation at the end severely impacts completeness and flow."
+    }
+  },
+  "q_score": 2.25,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Integration of recent, specific news events with financial data, providing timely context for the reporting period.",
+    "primary_weakness": "Incomplete investment conclusion (truncated) and use of inappropriate industry metrics (Gross Margin vs. NII/NIM) missing key query requirements regarding credit quality and strategy."
+  }
+}

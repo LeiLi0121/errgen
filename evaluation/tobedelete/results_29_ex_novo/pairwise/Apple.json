@@ -1,0 +1,23 @@
+{
+  "sample_id": "Apple",
+  "ticker": "AAPL US",
+  "as_of_date": "2025-07-18",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors detected. They present identical core financial data for Q3 2025 (Revenue ~$94.04B, Gross Margin ~46.49%, Debt-to-Equity 1.54). Both correctly identify key narrative themes including AI strategy concerns, tariff risks, and iPhone shipment figures. There are no material factual discrepancies between the two; the divergence lies in the depth of news coverage and analytical synthesis.",
+    "quality_comparison": "The second report is materially superior in quality, designated as Tier A (Q score 4.35) versus the first report's Tier C (Q score 3.3). The second report provides greater investor usefulness by including near-term stock momentum data (30-day return of +7.43%) which contextualizes the YTD underperformance, whereas the first report omits this. The second report also cites a broader range of analyst opinions (adding Dan Nathan/CNBC and Zacks ratings) compared to the first. While both reports suffer from repetition of financial statistics across sections, the first report is explicitly penalized for missing depth on semiconductor technology and China market dynamics, which are critical for a comprehensive tech equity analysis. The second report demonstrates stronger risk quantification (Risk score 5 vs 4) and news coverage (News score 5 vs 3).",
+    "winner": "second_report",
+    "rationale": "Under the decision policy, since both reports pass the Accuracy Gate, the decision rests on quality. The second report is the clear winner based on its Tier A classification and higher quality metric scores across financial, news, and risk dimensions. It offers more actionable context for investors through the inclusion of recent 30-day performance trends and a wider array of market sentiment indicators (Zacks top pick vs. bearish AI commentary). Although both reports repeat financial data, the first report's specific weakness regarding missing depth on semiconductors and China represents a more significant gap in analytical completeness than the second report's repetition issue. The second report better fulfills the user query with relevant depth and superior cross-section synthesis of risk factors."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors (numerical, citation, temporal, or consistency). They present identical core financial data (Q3 2025 revenue of ~$94.04B, net income ~$23.43B, gross margin 46.49%, etc.) and narrative points regarding AI strategy concerns, tariff risks, and Formula 1 bidding. There is no material difference in factual reliability.",
+    "quality_comparison": "Report 1 (Tier A, Q Score 4.35) demonstrates superior quality compared to Report 2 (Tier C, Q Score 3.3). Report 1 scores higher on news coverage (5 vs 3), company/industry insight (4 vs 3), and investment usefulness (3 vs 2). Report 2 contains visible formatting artifacts (empty citation brackets like '[]' and '[,]') in the Business & Competitive Analysis section, which undermines professionalism. Additionally, Report 2 explicitly notes a failure to address specific user requests regarding semiconductor technology and China market dynamics, whereas Report 1 does not list this as a weakness. While Report 1 is criticized for verbatim repetition of financial statistics across sections, its overall synthesis and metric performance are stronger.",
+    "winner": "first_report",
+    "rationale": "Both reports are factually reliable, so the decision relies on quality dimensions. Report 1 is the clear winner based on its higher Tier (A vs C) and Quality Score (4.35 vs 3.3). It outperforms Report 2 in key quality metrics including news coverage and investment usefulness. Report 2 suffers from visible generation artifacts (empty citation brackets) and explicitly failed to address specific depth requests (semiconductor/China dynamics) noted in its weakness section. Report 1's weakness (repetition) is less detrimental than Report 2's combination of lower scores, formatting errors, and instruction non-compliance."
+  }
+}

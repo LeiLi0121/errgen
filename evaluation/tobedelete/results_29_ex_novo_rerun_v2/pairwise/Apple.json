@@ -1,0 +1,23 @@
+{
+  "sample_id": "Apple",
+  "ticker": "AAPL US",
+  "as_of_date": "2025-07-18",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. They present identical core financial data (Q3 2025 revenue, margins, cash flow, balance sheet ratios) and cite the same external sources (Loop Capital, Jefferies, Cramer). There are no factual contradictions between the two.",
+    "quality_comparison": "Report 1 achieves a higher overall Quality Score (3.9 vs 3.75) and outperforms on Financial Numeric (5 vs 4) and Invest (3 vs 2) dimensions, suggesting better quantification and investment logic utility. Report 1 also includes specific mention of 'semiconductor development' in R&D analysis, whereas Report 2 is more generic. Report 2 scores higher on Risk (5 vs 4) with a more segmented risk section and includes 30-day stock momentum, but this does not outweigh Report 1's advantage in core investment metrics. Both reports suffer from excessive repetition and lack a definitive investment recommendation.",
+    "winner": "first_report",
+    "rationale": "Given equal accuracy, the decision prioritizes quality dimensions linked to investor usefulness. Report 1's higher Q Score and Invest Score indicate superior utility for investment decision-making. The specific inclusion of semiconductor context in Report 1 adds marginal depth over Report 2. While Report 2 offers a slightly more detailed risk breakdown, Report 1's stronger performance on financial and investment logic metrics makes it the preferable choice."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors (numerical, citation, temporal, or consistency). They present identical core financial data (Q3 2025 revenue of $94.04B, net income $23.43B, margins, cash flow, and balance sheet metrics). Both cite the same external commentary (Jim Cramer, Jefferies, Loop Capital) and strategic developments (F1 bid, tariff risks). There is no material difference in factual reliability.",
+    "quality_comparison": "Report 1 (errgen) demonstrates superior risk analysis, reflected in a higher Risk quality score (5 vs. 4) and a more detailed Risk section with three distinct paragraphs covering technology, financial, and competitive risks. Report 1 also maintains cleaner text integrity, whereas Report 2 (errgen-baseline) contains distracting formatting artifacts (empty citation brackets '[]') in the Business & Competitive Analysis section. While Report 2 scores slightly higher on Financial Numeric (5 vs. 4) and Invest (3 vs. 2), it explicitly acknowledges failing to address specific query requirements (China market, semiconductor tech) in its weakness metadata, whereas Report 1 does not. Both suffer from excessive repetition of metrics across sections, but Report 1's stronger risk focus aligns better with the policy emphasis on risk-aware logic.",
+    "winner": "first_report",
+    "rationale": "Both reports are factually reliable, so the decision rests on quality. Report 1 is preferred due to its superior Risk analysis score (5 vs. 4) and more comprehensive risk section, which aligns with the policy emphasis on risk-aware logic. Additionally, Report 1 exhibits better writing quality without the citation formatting errors ('[]') present in Report 2. Although Report 2 has slightly higher Financial and Invest scores, its explicit admission of missing query requirements and text artifacts reduce its overall investor usefulness and professionalism relative to Report 1."
+  }
+}

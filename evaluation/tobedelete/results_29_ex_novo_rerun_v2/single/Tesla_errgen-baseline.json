@@ -1,0 +1,78 @@
+{
+  "sample_id": "Tesla",
+  "model_name": "errgen-baseline",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "run_id": "91039489-b622-4c96-a822-fc11182873f1",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "Material claims regarding 'Year-over-year growth rates' in Financial Analysis (Paragraph 1 & 2) are not supported by the evidence logic. While the calculation objects label the metrics as 'yoy_growth', the 'comparison_period' fields explicitly show sequential quarter comparisons (e.g., Q2 vs Q1, Q4 vs Q3), which defines Quarter-over-Quarter growth, not Year-over-Year. The report presents these as YoY without qualification."
+    },
+    "numerical_accuracy": {
+      "score": 3,
+      "reason": "Significant metric mislabeling affects numerical accuracy. Revenue and Net Income growth rates are presented as Year-over-Year percentages (16.35%, -38.82%) but are calculated as Quarter-over-Quarter based on evidence logic. Additionally, Financial Analysis Paragraph 4 states a 'net cash position of -$8,137,000,000'; since cash exceeds debt, Net Cash should be positive (+$8,137M) or the metric should be labeled Net Debt (which is -$8,137M in evidence)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "All authoritative cited chunk IDs and calc IDs map correctly to the evidence provided. The structured citations accurately reflect the source data for the numbers and claims made, despite the interpretational errors in metric labeling."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news sources and financial data are dated on or before the report as-of date (2026-03-16). Financial periods (Q4 2025) are appropriate for the reporting timeline. No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Internal inconsistency in Financial Analysis Paragraph 2: The text describes 'sequential deterioration from Q3... to Q4' but immediately labels the resulting percentage as a 'year-over-year decline'. These are contradictory temporal comparisons (QoQ vs YoY)."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 3,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 2,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+  }
+}

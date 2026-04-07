@@ -1,0 +1,138 @@
+{
+  "sample_id": "Alphabet",
+  "ticker": "GOOGL US",
+  "as_of_date": "2026-02-03",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 5 sections on this ordering, errgen won 0, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen stronger sections: none. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 1 sections on this ordering, errgen-baseline won 4, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Business & Competitive Analysis. errgen-baseline stronger sections: Recent Developments, Financial Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical metadata (ticker, exchange, sector, etc.) and identical business description text. There are no factual discrepancies between the two reports for this section.",
+        "quality_comparison": "Both sections are identical in terms of structure, depth, clarity, and organization. Neither report provides additional analytical implications or better signal density than the other.",
+        "winner": "tie",
+        "rationale": "The content provided for the Company Overview section is character-for-character identical across both reports, including all paragraph markers and text. Since there are no differences in reliability (both have 0 severe/minor findings) or quality (same text and structure), the sections are materially indistinguishable."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical company metadata (ticker, exchange, sector, CEO, employee count, IPO date) and identical narrative descriptions of business segments (Google Services, Google Cloud, Other Bets) and product lines.",
+        "quality_comparison": "Both sections are structurally and textually identical, offering the same level of detail, organization, and clarity. Neither demonstrates superior depth or analytical utility.",
+        "winner": "tie",
+        "rationale": "The section text in both reports is verbatim the same. Since there are no differences in reliability (both have 0 severe/minor findings for this section) or quality (depth, organization, clarity), the sections are materially indistinguishable."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical stock performance metrics (7.79% vs. 0.93% over 30 days) and the same regulatory filing date (February 3, 2026). There are no contradictory facts between the two sections, and both have zero section-specific reliability findings.",
+        "quality_comparison": "The first report provides higher signal density with one-year performance data and specific consensus revision details (Visible Alpha upward revisions). The second report offers market context (sector sell-off) but lacks the longer-term performance trend and specific revision direction.",
+        "winner": "first_report",
+        "rationale": "While reliability is equal based on section-specific findings, the first report delivers superior investor usefulness through deeper data (1-year returns vs. 30-day only) and more actionable consensus details. Its organization also better prioritizes the earnings catalyst relevant to the as-of date."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report identical core facts regarding the DOJ appeal date (February 3, 2026) and 30-day stock performance metrics (7.79% vs 0.93%). Section-specific findings indicate zero severe or minor errors for both, suggesting equal reliability within this section despite the report-level accuracy gate status.",
+        "quality_comparison": "The second report demonstrates higher signal density and investor usefulness. It includes additional quantitative data such as one-year stock returns, excess return calculations, and specific consensus revision directions (Visible Alpha upward revisions). The first report provides slightly better market context regarding sector volatility but lacks the deeper performance metrics found in the second report.",
+        "winner": "second_report",
+        "rationale": "Reliability is equal based on section-specific findings. The second report is preferred for quality due to superior depth and signal density. It provides more comprehensive performance analysis (30-day plus 1-year returns with excess return calculations) and specific expectation revisions, offering clearer analytical implications for investors compared to the first report's more general sentiment descriptions."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports present consistent financial data for Alphabet's Q4 2025 performance, with matching figures for revenue ($113.9B vs $113.896B), margins, cash flow, and balance sheet metrics. Neither section contains flagged factual errors (severe=0, minor=0).",
+        "quality_comparison": "The first report is significantly more readable and analytically useful. It formats large numbers in billions (e.g., $113.9 billion) rather than exact long-form figures (e.g., $113,896,000,000), which reduces visual clutter. More importantly, the first report provides deeper analytical commentary, connecting financial metrics to strategic implications such as AI investment posture, capital allocation flexibility, and competitive positioning. The second report is drier, offering less interpretation of what the numbers mean for the investor.",
+        "winner": "first_report",
+        "rationale": "The first report wins on section quality. While factual accuracy is equivalent, the first report offers superior signal density through better number formatting (rounded billions vs. exact digits) and richer narrative analysis. It explains the 'why' behind the numbers (e.g., linking R&D spend to AI leadership), whereas the second report primarily lists data points with minimal context. This makes the first section more actionable and easier to digest for an investor."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present consistent financial data with no identified errors or discrepancies in key metrics such as revenue, margins, cash flow, and R&D spend. Reliability is equivalent as both sections have zero severe or minor findings.",
+        "quality_comparison": "The second report demonstrates superior quality through better readability (using billions rather than exact digits) and deeper analytical context. It connects financial metrics to strategic drivers (e.g., generative AI, capital allocation flexibility) and includes additional relevant data points (Q3 R&D comparison, Total Equity, EBITDA dollars) that enhance investor understanding.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable, the second report provides a more useful investor narrative. It balances quantitative precision with qualitative insight, explaining the strategic implications of the financials (e.g., R&D intensity positioning for long-term advantage vs. near-term margin pressure). The formatting is cleaner, and the inclusion of additional context (Q3 R&D trends, equity base, capital allocation options) offers higher signal density without clutter."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical core financial data (Q4 2025 revenue, margins, balance sheet ratios, R&D intensity) and operational details (employee count, CEO name, antitrust status). There are no factual discrepancies between the two sections, and both carry the same section-specific reliability signal (0 severe, 0 minor findings).",
+        "quality_comparison": "The first report demonstrates superior organization and coherence. It groups financial metrics into a single paragraph and reserves management details for the risk/conclusion paragraph. The second report fragments financial data across two paragraphs (P3 and P4) and redundantly states the CEO and employee information in both P1 and P4. While the second report includes slightly more historical growth context (Q2/Q3) and stock performance data, the structural repetition and split metrics reduce readability.",
+        "winner": "first_report",
+        "rationale": "Reliability is equal based on section-specific findings. The first report wins on quality due to better organization and lack of redundancy. It presents a logical flow (Business -> Financials -> Competitive -> Risks) without repeating facts, whereas the second report repeats the CEO/employee count and splits financial metrics arbitrarily. The first report's narrative on competitive positioning and valuation implications is also more cohesive for an analysis section."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical key financial metrics (Q4 2025 revenue ~$113.9B, 11.29% growth, operating margin 31.61%, FCF margin 21.56%, R&D 16.31%, balance sheet ratios) and regulatory facts (2024 monopoly ruling, Feb 2026 appeal). Neither section contains flagged factual errors (severe=0, minor=0).",
+        "quality_comparison": "The first report demonstrates superior organization for a 'Business & Competitive Analysis' section by integrating regulatory risks directly into the competitive positioning discussion (P2), whereas the second report silos risks in a separate paragraph (P4). The first report also provides deeper trend analysis by including Q2 and Q3 growth rates alongside Q4, offering better momentum context than the second report's single-quarter focus. Additionally, the first report includes stock performance versus benchmarks (excess return), which is more actionable for investors than the second report's speculative '$4 trillion valuation question'.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to better structural cohesion, integrating competitive and regulatory factors logically. It offers higher signal density with multi-quarter growth trends and benchmark-relative stock performance, providing a clearer analytical picture for investors compared to the second report's more fragmented structure and speculative valuation commentary."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports utilize identical core financial figures (Debt: $72.0B, Equity: $415.3B, Cash+ST Inv: $126.8B, R&D: $18.6B) and share a consistent mathematical inconsistency regarding Net Debt, both claiming a positive net debt of ~$41.3B despite liquid assets exceeding total debt. Both report the same Q4 net income contraction (-1.50%) and Q3 growth (+24.06%). Section-specific findings indicate no severe or minor errors for either, suggesting comparable reliability within the provided metadata constraints.",
+        "quality_comparison": "The first report demonstrates superior analytical depth and structure. It explicitly connects R&D intensity to margin pressure and AI monetization risks, addresses revenue concentration in advertising, and includes a dedicated section on technology disruption. It also transparently acknowledges data limitations regarding regulatory specifics. The second report's third paragraph is largely descriptive, listing geographic regions and segments without substantive risk analysis, and lacks a dedicated discussion on technology disruption risks which are material for Alphabet.",
+        "winner": "first_report",
+        "rationale": "While both sections share the same underlying data and calculation anomalies, the first report provides significantly higher signal density and investor usefulness. It offers clearer analytical implications by linking financial metrics to specific business risks (e.g., AI investment returns affecting operating margins) and honestly discloses evidence gaps. The second report devotes valuable space to generic company description rather than risk assessment, making it less actionable for an investor evaluating the risk profile."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports utilize identical core financial data points (debt, equity, cash, short-term investments, R&D expenses, employee count) and section-specific findings indicate no severe or minor errors for either section. Consequently, reliability for this specific section is comparable based on the provided metadata.",
+        "quality_comparison": "The second report demonstrates superior depth and relevance. It explicitly addresses material risk factors specific to Alphabet, such as revenue concentration (dependence on Google Services/Advertising), regulatory/antitrust scrutiny, and technology disruption risks. The first report's third paragraph is largely descriptive (listing regions and employee count) without analyzing specific risks associated with that footprint. The second report also provides greater transparency by acknowledging where evidence is insufficient to quantify certain legal or competitive risks.",
+        "winner": "second_report",
+        "rationale": "While both sections share the same financial data reliability, the second report offers a much more comprehensive and analytically useful risk assessment. It identifies specific risk drivers (ad market health, AI monetization, regulatory exposure) rather than generic statements. The first report omits key risk categories like revenue concentration and regulatory scrutiny, which are critical for an investor evaluating Alphabet. The second report's transparency regarding data limitations also enhances its credibility."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial metrics for Q4 2025 (Revenue $113.9B, 11.29% YoY growth, Operating Margin ~31%, Net Margin ~30%, D/E 0.17, Current Ratio 2.01, FCF margin 21.56%). They also align on stock performance data (1-year excess return ~53%). The primary divergence lies in the investment rating (Buy vs. Hold) and the specific risk factors emphasized (Report 1 focuses on Antitrust/Regulatory; Report 2 focuses on Earnings Volatility and Sector Sell-off). Section-specific findings indicate no severe or minor errors for either section.",
+        "quality_comparison": "The first report is significantly better organized and more concise. It follows a logical flow (Fundamentals -> Performance -> Risks) without redundancy. The second report suffers from excessive repetition; financial metrics and the 'earnings volatility' argument are restated in Paragraphs 1, 2, 3, and 5. Furthermore, the first report's 'Buy' rating aligns more coherently with the described 'accelerating growth' and 'exceptional profitability,' whereas the second report's 'Hold' rating relies disproportionately on net income fluctuations despite admitting fundamental strength, creating a slightly disjointed thesis.",
+        "winner": "first_report",
+        "rationale": "The first report wins on quality due to superior organization and signal density. It delivers the same key data points without the excessive repetition found in the second report (which restates the same metrics and volatility concerns across four paragraphs). The first report also presents a more coherent investment thesis where the 'Buy' rating logically follows the positive fundamental analysis, whereas the second report's 'Hold' rating feels contradictory to its own description of 'exceptional' fundamentals. Both sections are clean on section-specific findings, so the decision rests on clarity and structure."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports utilize consistent financial data for Alphabet (e.g., Q4 2025 revenue of $113.9 billion, 11.29% YoY growth, 21.56% FCF margin, 0.17 debt-to-equity). Neither section contains flagged factual errors or inconsistencies within the text provided, and performance metrics (excess returns) align between the two.",
+        "quality_comparison": "The second report demonstrates superior organization and signal density. It structures the section into distinct thematic paragraphs (Fundamentals/Rating, Performance/Valuation, Risks), whereas the first report redundantly repeats the same financial metrics (margins, balance sheet ratios) in four out of five paragraphs. The second report also offers more specific risk analysis (antitrust appeal details) compared to the first report's generic sector volatility commentary.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually consistent, the second report is significantly more useful to an investor due to better structure and lack of redundancy. The first report dilutes its analysis by restating the same margin and balance sheet figures in nearly every paragraph, whereas the second report progresses the narrative from fundamentals to valuation to specific risks without unnecessary repetition."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 4,
+    "errgen": 0,
+    "Tie": 2
+  }
+}

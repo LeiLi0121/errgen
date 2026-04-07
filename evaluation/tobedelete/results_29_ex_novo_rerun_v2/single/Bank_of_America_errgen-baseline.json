@@ -1,0 +1,78 @@
+{
+  "sample_id": "Bank_of_America",
+  "model_name": "errgen-baseline",
+  "ticker": "BAC US",
+  "as_of_date": "2025-10-21",
+  "run_id": "c96e3ba5-0a4e-4b0a-a14a-67075e750470",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and company overview are directly supported by the authoritative cited chunk IDs and evidence provided. Analytical conclusions (e.g., regarding credit market concerns or competitive positioning) are logically derived from the supported news and financial data."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Net Income, EBITDA, Balance Sheet items), growth rates, and ratios (Margins, D/E, Current Ratio) match the provided evidence chunks and calculation objects exactly. Rounding in the text (e.g., 0.4137 to 0.41) is appropriate and consistent with the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed under each paragraph correctly correspond to the specific evidence supporting the claims in that paragraph. There are no instances where evidence is cited that does not contain the claimed information."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates (October 20-21, 2025) and financial periods (Q3 2025, ended 2025-09-30) are on or before the report as-of date (2025-10-21). Future events (e.g., November 6 Rewards Day) are clearly identified as scheduled future events. Historical static data (e.g., 2021 client counts) is explicitly dated as such."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and key statistics are consistent across all sections of the report. For example, Revenue, Net Income, Margins, and Balance Sheet metrics cited in the Financial Analysis section match those repeated in the Business & Competitive and Risk Analysis sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "The report provides specific revenue and income figures but fails to address the user's explicit request for 'net interest margin trends,' offering no NIM data points. It misapplies industrial metrics to a banking entity (e.g., 'Gross Margin,' 'Free Cash Flow' with zero CapEx), which reduces analytical utility for investors familiar with banking KPIs like Efficiency Ratio or CET1."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong inclusion of specific, dated recent developments including deal flow (Hologic buyout), macro risk posture (Argentina loan), and consumer initiatives (More Rewards Day). The news section effectively contextualizes BAC's activity against peers like JPM and Goldman Sachs."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Provides adequate peer comparison and industry context regarding wealth management competition and credit market concerns. However, the 'Company Overview' and 'Business & Competitive Analysis' sections contain significant verbatim redundancy, diluting the depth of the company-specific insight."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Fails to provide a clear investment outlook or valuation analysis (P/E, P/B, Price Target) as requested in the query. The report lists performance metrics but does not synthesize them into a recommendation or valuation thesis, leaving the investor without a decision-useful conclusion."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Effectively covers specific macroeconomic risks (sovereign exposure, government shutdowns) with concrete examples. However, financial risk analysis relies on generic corporate leverage metrics (Debt-to-Equity) that are less relevant for banks, lacking deeper credit quality metrics like NPL ratios or coverage."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "The report is structured logically with clear headers, but suffers from notable repetition. The business description in the 'Company Overview' is largely duplicated in the 'Business & Competitive Analysis' section, which detracts from the overall professionalism and efficiency of the narrative."
+    }
+  },
+  "q_score": 2.7,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "The Recent Developments section is robust, offering specific, dated examples of deal flow, competitive dynamics, and management commentary that ground the report in current events.",
+    "primary_weakness": "The report fails to deliver on key query requirements regarding valuation and net interest margin data, while misapplying industrial financial metrics to a banking balance sheet."
+  }
+}

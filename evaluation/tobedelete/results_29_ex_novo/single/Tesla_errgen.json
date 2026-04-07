@@ -1,0 +1,78 @@
+{
+  "sample_id": "Tesla",
+  "model_name": "errgen",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "run_id": "f7491a95-4f72-4c37-8c90-5703a48cf3bf",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and evidence blocks provided. News claims (Terafab, sales decline, Honda impairment, Uber/Nvidia robotaxi) match the cited news snippets. Financial claims (Revenue, Margins, Cash Flow, Balance Sheet) match the cited financial statements and calculation objects."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (Revenue, Margins, Ratios, Cash Flow, Employee count, Impairment charge) are mathematically accurate based on the provided evidence and calculation objects. Growth rates and percentages are correctly calculated and rounded."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' listed under each paragraph correctly correspond to the evidence provided. The content within the paragraphs accurately reflects the content of the cited chunks. No mismatches between claims and cited evidence were found."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date is 2026-03-16. All news evidence is dated 2026-03-16. Financial data is for periods ending in 2025 (Q1-Q4), which is historical relative to the report date. Future plans (robotaxi 2027/2028) are correctly framed as announcements/plans, not realized facts. No post-as-of violations detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points are consistent across different sections of the report (e.g., Q4 Revenue, R&D, Employee count, Terafab details). No contradictions found between paragraphs or between text and evidence."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Strong density of specific financial metrics including quarterly revenue, margins (gross, operating, net, EBITDA), cash flow components, and balance sheet ratios. However, lacks forward-looking estimates or guidance for 2026, limiting predictive utility."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers relevant, specific recent developments (Terafab launch, US sales decline, Ofgem approval) with dates and percentages. Effectively links news items to strategic implications like vertical integration and competitive pressure."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Provides solid context on competitive dynamics (Nvidia, Honda, Uber) and industry shifts toward AI/robotics. Score limited by significant verbatim repetition of competitive facts across the Developments and Business sections without added analytical depth."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Critical deficiency: The Investment Recommendation & Outlook section is truncated/missing. While scattered analytical points exist elsewhere, there is no cohesive investment thesis, valuation assessment, or explicit recommendation (Buy/Sell/Hold)."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Well-quantified risk analysis citing specific revenue volatility, stock underperformance percentages, and leverage metrics. Clearly connects R&D intensity and operational scale to margin and execution risks."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional structure and clear language, but heavily penalized for verbatim repetition of data points across sections (e.g., sales decline and revenue figures repeated in Developments, Business, and Risk) and the abrupt truncation of the final section."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "High density of quantified financial and operational data that provides a detailed baseline for performance and risk assessment.",
+    "primary_weakness": "The Investment Recommendation section is missing/truncated, and significant content repetition across sections reduces analytical efficiency and depth."
+  }
+}

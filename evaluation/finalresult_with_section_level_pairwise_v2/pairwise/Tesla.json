@@ -1,0 +1,138 @@
+{
+  "sample_id": "Tesla",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 1 sections on this ordering, errgen won 4, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Investment Recommendation & Outlook. errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 5 sections on this ordering, errgen-baseline won 0, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: none. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "The section texts are word-for-word identical. Both reports present the same company metadata (ticker, exchange, sector, industry, CEO, employees, IPO date, headquarters) and the same business description covering the Automotive and Energy Generation and Storage segments. There are no factual differences between the two sections.",
+        "quality_comparison": "Both sections are identical in structure, depth, and content. Neither section specifically addresses the user query's emphasis on AI-driven execution milestones or competitive dynamics, but this is appropriate for a Company Overview section with low importance. Both have no section-specific findings (severe=0, minor=0).",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable - they are identical word-for-word. Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. While the second report has better report-level metrics (accuracy gate True, Q score 3.6 vs 0.0), the policy explicitly states to use section text as the primary basis for judgment and not to mechanically follow higher overall scores. Since this is a low-importance section and both texts are identical with no section-specific issues, there is no basis to prefer one over the other."
+      },
+      "order_ba": {
+        "factual_comparison": "The section texts are word-for-word identical between both reports. Both contain the same company overview information including ticker, exchange, sector, industry, CEO, employee count, IPO date, headquarters location, and business segment descriptions for Automotive and Energy Generation and Storage.",
+        "quality_comparison": "Both sections have identical writing quality, organization, and content depth. Section-specific findings show no severe or minor issues for either section (severe=0, minor=0). The only differentiating factor is report-level metadata: the first report passed the accuracy gate (True, Q score 3.6) while the second failed (False, Q score 0.0), but these are report-level issues unrelated to this specific section.",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable - they are identical in content, structure, and quality. Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. While the first report has better report-level scores, the policy explicitly states to use section text as the primary basis for judgment and not let unrelated issues elsewhere in the report dominate this section. Since this Company Overview section has low importance and both versions are identical with no section-specific issues, neither has an advantage."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core narrative points regarding the 'Terafab' project, US sales decline (26%), Ofgem approval, Uber/Nvidia robotaxi plans, and Honda's impairment charge. Section-specific findings indicate no severe or minor errors for either section. However, the first report failed the overall accuracy gate, while the second passed, suggesting higher global reliability for the second report's data points despite similar section-level flags.",
+        "quality_comparison": "The second report offers slightly stronger analytical depth aligned with the user query's request to 'assess the impact' of developments. For instance, it explicitly interprets the Terafab project as signaling an ambition to reduce dependency on external suppliers, whereas the first report merely describes the project's function. The second report also integrates competitive dynamics more cohesively with financial results (linking competition to lackluster quarters), while the first report segments stock performance into a separate paragraph that feels less integrated. The second report's narrative flow is more conducive to an investment thesis.",
+        "winner": "second_report",
+        "rationale": "While both sections share similar content and section-level reliability scores, the second report better addresses the user query's requirement to assess the impact of AI milestones and competitive dynamics. It provides clearer strategic implications (e.g., reducing chip dependency) and links competitive pressure directly to financial performance. Additionally, the second report's passage of the overall accuracy gate provides secondary confidence in the data's reliability compared to the first report's failure, making it the safer and more analytically useful choice for an investor."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections cover identical core developments: the 'Terafab' AI chip project, Ofgem regulatory approval in the UK, a 26% US sales decline in January 2026, Uber/Nvidia robotaxi plans, and Honda's $15.7 billion impairment. Report 2 includes more specific stock performance metrics (5.24% decline vs SPY) in a dedicated paragraph, while Report 1 describes stock underperformance more generally (~20% from high). Section-specific findings indicate no severe or minor issues for either section, despite Report 2 failing the overall report accuracy gate.",
+        "quality_comparison": "Report 1 demonstrates superior thematic organization by grouping the Honda impairment with EV sales competition to illustrate core automotive headwinds, whereas Report 2 places the Honda impairment alongside autonomous driving developments, which is less logically coherent. Report 1 also offers slightly stronger analytical implications (e.g., signaling Tesla's ambition to reduce dependency). The writing in Report 1 is more cohesive, synthesizing the developments into three focused paragraphs compared to Report 2's four more fragmented paragraphs.",
+        "winner": "first_report",
+        "rationale": "The section texts are materially similar in content, but Report 1 exhibits better logical grouping of competitive dynamics (linking Honda's EV impairment to EV sales trends rather than robotaxis). Since the section quality is close, the overall report reliability serves as a decisive tie-breaker per instructions; Report 1 passed the accuracy gate with a solid quality score, while Report 2 failed the accuracy gate with a score of 0.0, making Report 1 the more reliable and useful choice for the investor."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Report 2 demonstrates higher internal consistency and accuracy within the section text. Report 1 contains a sign error on the net cash position (stating '-$8,137,000,000' while simultaneously stating cash exceeds debt), whereas Report 2 correctly states it as a positive net cash position. Additionally, Report 1 labels the Q4 revenue contraction of -11.37% as year-over-year, but the math provided (comparing Q4 $24.9B to Q3 $28.1B) indicates this is a sequential decline; Report 2 correctly identifies this as a contraction versus the prior quarter. Both reports use identical core financial figures, but Report 2 avoids the logical contradictions present in Report 1.",
+        "quality_comparison": "Report 2 provides better alignment with the user query's specific requirement to assess 'AI-driven execution milestones.' In the R&D paragraph (P5), Report 2 explicitly links sustained investment to 'AI-driven execution initiatives,' whereas Report 1 offers a more generic statement about autonomous driving. Report 2's narrative is also slightly clearer in distinguishing between sequential and year-over-year dynamics, reducing ambiguity for the investor. While Report 1 provides slightly more detail on Q1/Q2 R&D, the factual errors and weaker query alignment diminish its utility.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred due to superior reliability and relevance. In a Financial Analysis section, factual accuracy is paramount; Report 1's sign error on net cash and misclassification of revenue growth drivers (sequential vs. YoY) are material reliability issues. Report 2 corrects these errors. Furthermore, Report 2 better addresses the specific user query regarding AI-driven execution by explicitly connecting R&D spend to those initiatives in the analysis, providing a clearer takeaway for the investor."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports utilize identical core financial figures for revenue, margins, cash flow, and balance sheet ratios. However, Report 2 contains material internal inconsistencies: it labels the Q4 revenue contraction and Q3-to-Q4 net income change as 'year-over-year' when the context and percentages indicate sequential changes (Report 1 correctly identifies these as sequential). Additionally, Report 2 states the net cash position is '-$8,137,000,000' in P4 while simultaneously explaining that cash 'exceeding total debt obligations,' which logically implies a positive net cash position (as correctly stated in Report 1).",
+        "quality_comparison": "Report 1 demonstrates higher reliability and logical consistency, which is critical for a Financial Analysis section. Report 2 offers slightly more granular line-item details (e.g., specific D&A and Net Income dollar amounts), but these are undermined by the labeling errors and the net cash contradiction. Report 1's narrative linking R&D intensity to AI-driven execution is clear and consistent with the financial data provided. Report 2's errors erode confidence in the accuracy of the additional details provided.",
+        "winner": "first_report",
+        "rationale": "Report 1 is the clear winner based on reliability. The decision policy prioritizes reliability when the gap is material, and Report 2 contains significant logical contradictions (negative net cash despite cash > debt) and terminology errors (labeling sequential changes as YoY) within the section text itself. These errors directly impact the trustworthiness of the financial analysis. Report 1 is internally consistent, correctly interprets the financial metrics, and aligns with the user's need for accurate financial performance assessment to inform investment views."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite the same core narrative points: Tesla's 26% US sales decline in January 2026, the Terafab AI chip project announcement on March 14, 2026, and Ofgem approval for UK energy sales. However, the second report provides more granular data, specifying Honda's impairment charge at $15.7 billion (versus 'significant' in the first report) and identifying specific Nvidia partnerships with Hyundai and BYD as competitive threats. The first report includes specific 30-day stock return percentages (-5.24% vs S&P -1.87%), while the second notes a 20% decline from highs. The first report also includes a meta-commentary sentence admitting insufficient evidence for geographic breakdowns, which is absent in the second report.",
+        "quality_comparison": "The second report demonstrates higher professional quality and reliability. It avoids the meta-commentary found in the first report ('The evidence does not provide sufficient detail...'), which is inappropriate for a final research product. The second report offers more actionable competitive intelligence (Nvidia enabling competitors) that better addresses the user's query regarding competitive dynamics. Additionally, the second report passed the accuracy gate with a positive quality score, whereas the first report failed the accuracy gate with a score of 0.0, indicating broader reliability concerns even if this specific section was not flagged for errors.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred due to superior reliability (passed accuracy gate vs. failed), better specificity in competitive intelligence (Honda impairment value, Nvidia competitor partnerships), and more professional tone (absence of meta-commentary regarding data limitations). While both sections address the AI and competitive themes, the second report provides richer context for assessing competitive dynamics without undermining its own authority."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core events: a 26% decline in Tesla US sales in January 2026, Honda's impairment charge, the Terafab AI chip project announcement (March 14, 2026), and Ofgem approval for UK energy sales. Report 1 adds detail on Nvidia partnerships with Hyundai and BYD. Report 2 adds specific stock performance metrics (-5.24% vs S&P -1.87%) and mentions Samsung's foundry relationship. Both sections rely on the same underlying narrative regarding AI and competitive pressure.",
+        "quality_comparison": "Report 1 presents a more cohesive and decisive narrative suitable for an equity research report, despite some redundancy in Paragraph 4 (repeating Terafab and Ofgem points). Report 2 is better organized but significantly undermines its utility in Paragraph 4 by explicitly stating 'the evidence does not provide sufficient detail,' which reads as a model limitation rather than analyst insight. Report 1 passed the report-level accuracy gate, while Report 2 failed, suggesting higher overall reliability for Report 1's claims even if section-specific error tags are identical.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because it maintains a professional, decisive tone throughout, whereas Report 2 explicitly admits to insufficient evidence in its final paragraph, reducing investor confidence. Although Report 2 includes slightly more granular stock data, Report 1's passage of the accuracy gate and lack of self-undermining disclaimers make it more reliable and useful for the user's objective of assessing competitive dynamics and AI impact. Report 1's repetition is a minor stylistic flaw compared to Report 2's substantive admission of data gaps."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections present similar financial metrics (Q4 2025 revenue of $24.9B, debt-to-equity of 0.10, net debt of -$8.1B, FCF margin of 5.70%, 30-day return of -5.24% vs SPY -1.87%). However, the first report's P4 explicitly states that evidence for macro, competitive, regulatory, operational, and technology risks is 'insufficient in the provided data' - a material admission of incompleteness. The second report covers operational risks (125,665 employees, segment diversification, R&D trends from $1.4B to $1.8B) that the first report says it cannot assess.",
+        "quality_comparison": "The second report provides more comprehensive risk coverage with four substantive paragraphs addressing financial volatility, leverage/liquidity, operational scale/R&D intensity, and market performance. The first report has four paragraphs but P4 essentially disclaims the ability to analyze key risk categories. The second report offers better signal density for investors by including operational execution risks and R&D investment pressures that are directly relevant to the user query's focus on AI-driven execution and margin outlooks.",
+        "winner": "second_report",
+        "rationale": "The second report's Risk Analysis section is materially superior because it provides actionable risk coverage across more dimensions without explicitly admitting inability to assess key categories. While both sections share similar financial metrics, the second report adds operational risk analysis (employee exposure, segment coordination, R&D intensity trends) that the first report explicitly states it cannot provide. This is particularly relevant given the user query's emphasis on AI-driven execution milestones and competitive dynamics. The first report's P4 disclaimer significantly reduces investor usefulness for this section's purpose. Additionally, the second report passed the accuracy gate while the first failed, though section text quality is the primary driver of this decision."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core financial metrics for Q4 2025 (Revenue ~$24.9B, Total Debt ~$8.4B, Net Debt ~-$8.1B, FCF Margin 5.70%). However, Report 1 provides broader historical context by analyzing volatility across Q1-Q4 2025, whereas Report 2 focuses primarily on the Q3-Q4 decline. Report 1 includes operational data (employee count, segment structure, R&D spend trends), while Report 2 omits these and explicitly states in P4 that evidence for competitive, technology, and operational risks is insufficient in the provided data.",
+        "quality_comparison": "Report 1 is significantly more responsive to the user query. The query specifically requests an assessment of 'AI-driven execution milestones and competitive dynamics.' Report 1 addresses technology and execution risk through its analysis of elevated R&D spend and the need for successful commercialization to justify investment. Report 2 explicitly fails this requirement by stating in P4 that it cannot assess technology or competitive risks due to data limitations. Report 1 also offers greater depth by linking financial volatility to execution risks and including operational scale factors, whereas Report 2 is more defensive and limited in scope.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because it delivers a complete risk analysis that attempts to address the query's specific focus on technology and execution risks (via R&D and operational analysis), whereas Report 2 explicitly declines to assess these critical areas. Report 1 provides more historical context (Q1-Q4 vs Q3-Q4) to substantiate volatility claims and includes operational risk factors (labor, segments) that Report 2 omits. Despite Report 2's honesty about data limitations, Report 1 provides greater investor utility by synthesizing available data into actionable risk insights rather than a disclaimer."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present similar core financial metrics (current ratio 2.16, debt-to-equity 0.10, operating margin 5.66%, FCF margin 5.70%, R&D 7.16% of revenue). The first report provides more specific competitive intelligence (Uber/Nvidia robotaxi deployment across 28 cities by 2028, Tesla's 26% US sales decline in January 2026) while the second report offers more precise financial figures (revenue -11.37% vs -11%, net income -38.82% vs -39%) and includes gross margin (20.12%). Both assign Hold ratings with similar rationales.",
+        "quality_comparison": "The first report better addresses the user query's specific focus on AI-driven execution milestones and competitive dynamics. It provides concrete competitive threats (robotaxi deployment timeline), specific catalysts (Terafab AI chip + Ofgem UK electricity approval), and clearer implications for margin/volume outlooks. The second report mentions AI infrastructure more generically and provides less specific competitive intelligence. Both sections have zero severity findings, though the first report failed the overall accuracy gate while the second passed.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, section text should be the primary basis for judgment, not report-level scores. The first report's section provides materially better analysis on the user query's core focus (AI execution milestones and competitive dynamics impacting volume/margin). It offers specific competitive threats with timelines, multiple AI catalysts, and clearer analytical implications for the investment thesis. While the second report passed the accuracy gate, this section shows no errors in either report (severe=0, minor=0 for both). The first report's superior depth and relevance to the specific query outweighs the report-level accuracy concern for this section evaluation."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present consistent core financial metrics (current ratio 2.16, D/E 0.10, R&D 7.16%, FCF margin 5.70%). The First Report provides more precise figures for revenue and income declines (-11.37% and -38.82% vs. rounded -11% and -39%). The Second Report includes specific external competitive claims (Uber/Nvidia robotaxi deployment in 28 cities, Ofgem approval) that are not present in the First Report. However, given the Second Report's failed Accuracy Gate, these specific claims carry a higher risk of hallucination compared to the First Report's more conservative assertions.",
+        "quality_comparison": "Both sections offer a clear Hold recommendation with logical reasoning linking financial headwinds to AI optionality. The First Report provides a more cohesive narrative on the AI pivot (Terafab) without relying on potentially unverified external competitor announcements. The Second Report attempts greater depth on competitive dynamics but undermines its credibility with specific, high-risk claims that align with its overall accuracy failure. The First Report's analysis is more trustworthy for investment decision-making.",
+        "winner": "first_report",
+        "rationale": "The First Report is preferred primarily due to reliability. While section-specific findings show no errors for either, the First Report passed the Report-Level Accuracy Gate while the Second failed. This status is critical when evaluating specific forward-looking claims; the Second Report's detailed competitive assertions (Uber/Nvidia robotaxi specifics) are likely hallucinations consistent with its accuracy failure. The First Report offers sufficient depth on the user's AI and competition query with verified data integrity, making it the safer and more useful choice for an investor."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 0,
+    "errgen": 4,
+    "Tie": 2
+  }
+}

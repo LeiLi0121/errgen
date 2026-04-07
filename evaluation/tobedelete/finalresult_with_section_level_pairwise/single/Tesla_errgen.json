@@ -1,0 +1,85 @@
+{
+  "sample_id": "Tesla",
+  "model_name": "errgen",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "run_id": "f7491a95-4f72-4c37-8c90-5703a48cf3bf",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All claims in the report are directly supported by the authoritative cited chunk IDs and calc IDs provided in the evidence pack. Company profile details, financial figures, news developments, and competitive dynamics are all traced to specific evidence chunks (e.g., income statements, news articles, balance sheets) that validate the text."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims, including revenue figures, growth rates, margins, and balance sheet ratios, are mathematically accurate based on the provided evidence and calculation objects. Rounding is consistent and correct (e.g., Q4 Gross Margin 20.12% matches 5,009/24,901)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'Authoritative cited calc IDs' listed under each paragraph precisely correspond to the claims made in that paragraph. There are no mismatches between the text and the authoritative grounding records provided."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report adheres to the as-of date of 2026-03-16. Financial data is historical (2025), news is current (March 2026), and forward-looking statements (2027-2028 robotaxi rollout) are clearly framed as plans. No post-as-of violations are present."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Figures and facts repeated across sections (e.g., Terafab launch timeline, US sales decline, Honda impairment) match exactly. There are no contradictions between the Company Overview, Recent Developments, Financial Analysis, and Business Analysis sections."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed quarterly revenue, margin, cash flow, and balance sheet metrics with specific figures. Analysis of volatility and R&D intensity is sound, though forward estimates are absent."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent coverage of specific recent developments (Terafab, Ofgem approval, sales data) with precise dates and competitive context integrated throughout."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong contextual analysis of competitive dynamics (Nvidia partnerships, legacy automaker struggles) and industry shifts toward AI and robotics."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "The Investment Recommendation & Outlook section is truncated/missing, providing no actionable rating, price target, or investment thesis."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Risks are well-quantified with specific data on financial volatility, liquidity ratios, and relative stock underperformance."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and clear structure throughout existing sections, but the abrupt truncation of the final section severely impacts completeness and flow."
+    }
+  },
+  "q_score": 3.6,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "High granularity in financial and news sections with specific metrics, dates, and competitive intelligence.",
+    "primary_weakness": "Critical omission of the Investment Recommendation section renders the report incomplete and unusable for decision-making."
+  }
+}

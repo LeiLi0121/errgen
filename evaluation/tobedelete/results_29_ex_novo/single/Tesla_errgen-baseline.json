@@ -1,0 +1,78 @@
+{
+  "sample_id": "Tesla",
+  "model_name": "errgen-baseline",
+  "ticker": "TSLA US",
+  "as_of_date": "2026-03-16",
+  "run_id": "91039489-b622-4c96-a822-fc11182873f1",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Severe issue in Financial Analysis Paragraph 1 and 2. The report claims 'Year-over-year growth rates' and 'year-over-year decline' for metrics calculated using sequential quarters (Q1 vs Q2, Q3 vs Q4). The provided evidence chunks (Income Statement) only contain data for 2025 quarters (Q1, Q2, Q3, Q4) without prior-year comparables, making a YoY claim unsupported by the cited evidence. The evidence supports Quarter-over-Quarter (QoQ) growth, not YoY."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe error in Financial Analysis Paragraph 1 and 2. The report presents Quarter-over-Quarter growth figures (e.g., 16.35% for Q2 vs Q1, -38.82% for Q4 vs Q3) but labels them as 'Year-over-year'. In financial reporting, YoY and QoQ are distinct metrics. Reporting QoQ data as YoY constitutes a material numerical misrepresentation of the company's performance metrics."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations correctly link to the authoritative chunks containing the source data (e.g., Revenue chunks for revenue claims, Cash Flow chunks for cash flow claims). The error lies in the interpretation of the data (YoY vs QoQ) rather than the citation mapping itself."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates (March 2026, January 2026) and financial periods (Q4 2025) are prior to or on the report as-of date (2026-03-16). No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent in its data usage (e.g., stock performance figures match across sections). The YoY/QoQ labeling error is repeated consistently, but there are no internal contradictions between sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+  }
+}

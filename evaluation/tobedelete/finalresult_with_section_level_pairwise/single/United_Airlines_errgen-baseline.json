@@ -1,0 +1,112 @@
+{
+  "sample_id": "United_Airlines",
+  "model_name": "errgen-baseline",
+  "ticker": "UAL US",
+  "as_of_date": "2026-01-20",
+  "run_id": "24ebcb30-f310-4c91-8522-d87636f269e6",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Severe issues in Financial Analysis section. Paragraph 1 claims 'Year-over-year growth rates' for Q2, Q3, and Q4 (15.32%, -0.07%, 1.13%). However, the cited calculation object (ff2cdb57) explicitly lists 'comparison_period' as Q1, Q2, and Q3 respectively, indicating these are Sequential (Quarter-over-Quarter) growth rates, not Year-over-Year. Paragraph 2 similarly claims a '10.01% year-over-year increase from Q3', which is semantically and technically incorrect (Q4 vs Q3 is Sequential). These claims are not supported by the logical content of the evidence."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe numerical misrepresentation. While the percentage values (15.32%, 1.13%, 10.01%) match the cited calculation objects, they are mislabeled as 'Year-over-Year' metrics in the text when the evidence confirms they are Sequential (QoQ) metrics. This materially misstates the financial performance trends (seasonality vs. structural growth). Additionally, this creates a numerical contradiction with Recent Developments Paragraph 1, which correctly cites Q4 revenue growth as 4.8% (implied YoY), whereas Financial Analysis Paragraph 1 cites 1.13% (labeled YoY, actually QoQ)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations point to the specific authoritative chunk IDs and calculation IDs that contain the source data. The error lies in the interpretation of the data fields (e.g., relying on 'yoy_growth' label while ignoring 'comparison_period') rather than a mismatch in citation linking."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All claims and evidence dates align with the report As-of date of 2026-01-20. News snippets and financial results are dated January 20, 2026, with no post-as-of information used."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Severe internal inconsistency. Recent Developments Paragraph 1 states Q4 revenue was 'up 4.8% year-over-year'. Financial Analysis Paragraph 1 states Q4 growth was '1.13%' and labels it 'Year-over-year'. These are contradictory figures for the same metric (Q4 YoY growth), caused by the misclassification of QoQ data as YoY in the Financial Analysis section."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [
+      {
+        "severity": "severe",
+        "explanation": "Financial Analysis Paragraph 1 claims 'Year-over-year growth rates' for Q2, Q3, and Q4. The cited calculation evidence (ff2cdb57) shows 'comparison_period' as Q1, Q2, and Q3, proving these are Sequential (QoQ) rates, not YoY.",
+        "section": "Financial Analysis - Paragraph 1",
+        "offending_span": "Year-over-year growth rates showed variability across quarters: Q2 posted strong growth of 15.32%, while Q3 experienced a slight contraction of -0.07%, and Q4 recovered with 1.13% growth."
+      },
+      {
+        "severity": "severe",
+        "explanation": "Financial Analysis Paragraph 2 claims a '10.01% year-over-year increase from Q3'. Comparing Q4 to Q3 is Sequential. The evidence (7dbb3699) confirms 'comparison_period': 'Q3'.",
+        "section": "Financial Analysis - Paragraph 2",
+        "offending_span": "Net income for Q4 totaled $1,044,000,000, representing a 10.01% year-over-year increase from Q3"
+      }
+    ],
+    "numerical_errors": [
+      {
+        "severity": "severe",
+        "explanation": "Q4 revenue growth is reported as 1.13% (labeled YoY) in Financial Analysis, but as 4.8% (YoY) in Recent Developments. The 1.13% figure is actually QoQ, making the YoY label a material numerical error.",
+        "section": "Financial Analysis - Paragraph 1",
+        "offending_span": "Q4 recovered with 1.13% growth."
+      }
+    ],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "severe",
+        "explanation": "Contradictory Q4 revenue growth rates: Recent Developments Para 1 cites 4.8% YoY growth, while Financial Analysis Para 1 cites 1.13% YoY growth (which is actually QoQ).",
+        "section": "Recent Developments - Paragraph 1 vs Financial Analysis - Paragraph 1",
+        "offending_span": "Q4 revenue reached $15.4 billion, up 4.8% year-over-year... Q4 recovered with 1.13% growth."
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+  }
+}

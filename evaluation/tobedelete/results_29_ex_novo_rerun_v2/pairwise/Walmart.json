@@ -1,0 +1,23 @@
+{
+  "sample_id": "Walmart",
+  "ticker": "WMT US",
+  "as_of_date": "2025-08-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate with severe errors including unsupported claims and numerical errors, specifically citing year-over-year growth figures (e.g., 56.59% net income growth) that were flagged as erroneous. The second report passed the Accuracy Gate with zero severe errors, explicitly acknowledging where data limitations prevented YoY calculations rather than hallucinating figures. This represents a material difference in reliability.",
+    "quality_comparison": "The second report demonstrates superior quality in risk awareness and transparency, noting insufficient evidence for certain risk categories rather than making unsupported assertions. While both reports suffer from truncation in the recommendation section and some repetition, the second report's integration of competitive news and honest handling of data gaps makes it more useful for investors. The first report's quality metrics are uniformly low due to the accuracy failure.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. The first report is factually compromised with numerical errors and unsupported claims, rendering its analysis unreliable regardless of depth. The second report maintains factual integrity, acknowledges data limitations transparently, and provides a more trustworthy foundation for investment decisions."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors across all categories (unsupported claims, numerical errors, citation mismatches, temporal violations, inconsistencies). In contrast, the second report failed the Accuracy Gate, flagged with two severe errors: one unsupported claim and one numerical error.",
+    "quality_comparison": "The first report achieved a Tier C rating with a Q score of 3.05, offering complete sections on financials, business analysis, and risks, despite some noted repetition and a truncated recommendation. The second report received a Tier Fail rating with a Q score of 0.0, as the quality evaluation was explicitly skipped due to the failure of the Accuracy Gate, rendering its analytical content unreliable.",
+    "winner": "first_report",
+    "rationale": "The decision policy prioritizes reliability, stating that a pass on the Accuracy Gate is materially better than a fail. The first report is factually sound with no severe errors, while the second report is compromised by factual inaccuracies. Consequently, the first report is the only viable option for investor use, making it the clear winner regardless of qualitative nuances."
+  }
+}

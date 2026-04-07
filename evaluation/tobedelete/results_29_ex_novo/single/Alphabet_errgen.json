@@ -1,0 +1,78 @@
+{
+  "sample_id": "Alphabet",
+  "model_name": "errgen",
+  "ticker": "GOOGL US",
+  "as_of_date": "2026-02-03",
+  "run_id": "19bbe208-0efe-495c-8758-556f2c11bb21",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, market developments, and company metrics are directly supported by the authoritative cited chunk IDs and calculation objects provided in the evidence pack. Specific figures for revenue, margins, cash flow, and balance sheet items match the source data exactly."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims, including growth rates, margins, and ratios, are mathematically consistent with the provided evidence and calculation objects. For example, Q4 revenue growth (11.29%), margins (59.82% gross, 31.61% operating), and balance sheet ratios (2.01 current ratio) match the cited calculations precisely."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured authoritative cited chunk IDs and calc IDs listed under each paragraph correctly correspond to the evidence content that supports the claims. There are no mismatches between the text assertions and the provided evidence snippets."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report respects the as-of date of 2026-02-03. All news citations are dated on or before this date (e.g., 2026-02-03 news filings). Financial data refers to Q4 2025 (ended 2025-12-31), which is appropriate for a February 2026 report. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and key metrics are consistent across all sections of the report (Company Overview, Financial Analysis, Business & Competitive Analysis, Risk Analysis). For instance, Q4 revenue, net income, and R&D expenses are identical wherever mentioned."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed aggregate metrics (revenue, margins, cash flow, balance sheet) with sequential context. However, it fails to break down performance by the requested Services and Cloud segments, limiting depth on key growth drivers."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively captures timely catalysts including the antitrust appeal, earnings sentiment, and sector volatility, providing relevant market context for the as-of date."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Solid overview of competitive positioning and regulatory landscape. Peer context is present but remains somewhat generic regarding specific cloud/AI competitors."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Clear Hold rating supported by fundamental analysis. However, it lacks specific valuation multiples or price targets, falling short of the requested 'valuation-driven' view."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Quantifies financial and operational risks well. Deducted for including redundant company description text in P3 and insufficient depth on the material regulatory overhang."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structured and clear, but heavily penalized for repetitive restatement of the same financial metrics across four different sections without adding new analytical insight."
+    }
+  },
+  "q_score": 3.3,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust quantification of aggregate financial health and integration of timely regulatory news.",
+    "primary_weakness": "Failure to analyze segment-level performance as requested and excessive repetition of data points reducing analytical efficiency."
+  }
+}

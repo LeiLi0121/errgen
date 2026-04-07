@@ -1,0 +1,85 @@
+{
+  "sample_id": "Boeing",
+  "model_name": "errgen-baseline",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "run_id": "880fba61-f490-48d8-8858-c4c1d0843bf4",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All narrative claims in the report are directly supported by the provided evidence chunks. Specific details regarding the Air India crash, trade deals, aircraft orders, and financial metrics are corroborated by the cited news snippets and financial statements."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Margins, Cash Flow, Balance Sheet items) and stock performance metrics match the provided evidence chunks and calculation objects exactly. Calculations for margins and ratios are mathematically correct based on the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Each paragraph is associated with specific authoritative chunk IDs and calculation IDs that directly substantiate the claims made within that paragraph. There are no mismatches between the text and the cited evidence."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news snippets and data points are dated on or before the report as-of date of 2025-06-16. References to 'last week' align with the calendar dates provided in the evidence (e.g., Thursday crash relative to Monday report)."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report maintains internal consistency across sections. Financial figures are consistent between the Financial Analysis and any references in other sections. Narrative details about recent developments are consistent between the Recent Developments and Business & Competitive Analysis sections."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides a detailed snapshot of Q1 2025 financials including income statement, cash flow, and balance sheet metrics (e.g., negative equity, negative FCF). However, the explicit admission that year-over-year trends are not derivable limits the depth of performance assessment."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent coverage of specific, recent developments with quantified impacts (e.g., $475M insurance claims, $2B defense sale). Integrates commercial, defense, and market sentiment updates effectively."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong overview of business segments and competitive duopoly positioning. However, it lacks specific production ramp-up metrics (e.g., delivery rates) despite the query explicitly requesting assessment of production progress."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Provides the necessary data inputs (cash flow trajectory, industry fundamentals) but fails to synthesize them into a clear investment recommendation or thesis, relying instead on third-party analyst commentary."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Comprehensive identification of financial, regulatory, and geopolitical risks. Strong quantification of financial stress (negative equity, debt load) and specific regulatory events (crash investigation)."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Clear structure and professional tone, but suffers from significant near-verbatim repetition of key events (Air India crash, trade deals) across News, Business, and Risk sections, which displaces new insight."
+    }
+  },
+  "q_score": 4.05,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive risk and news coverage with specific financial quantification of liabilities and recent events.",
+    "primary_weakness": "Significant content repetition across sections and lack of a synthesized investment recommendation."
+  }
+}

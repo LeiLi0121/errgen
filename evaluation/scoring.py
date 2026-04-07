@@ -94,6 +94,20 @@ def resolve_pairwise_outcome(order_ab_winner: str, order_ba_winner: str) -> str:
     return "Tie"
 
 
+def aggregate_pairwise_winners(
+    outcomes: list[str],
+    first_label: str,
+    second_label: str,
+) -> str:
+    first_wins = sum(1 for outcome in outcomes if outcome == first_label)
+    second_wins = sum(1 for outcome in outcomes if outcome == second_label)
+    if first_wins > second_wins:
+        return first_label
+    if second_wins > first_wins:
+        return second_label
+    return "Tie"
+
+
 def compute_adjusted_win_rate(wins: int, losses: int, ties: int) -> float:
     total = wins + losses + ties
     if total == 0:

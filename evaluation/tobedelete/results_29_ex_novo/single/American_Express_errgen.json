@@ -1,0 +1,78 @@
+{
+  "sample_id": "American_Express",
+  "model_name": "errgen",
+  "ticker": "AXP US",
+  "as_of_date": "2025-11-12",
+  "run_id": "83e4600a-0c46-448e-b1fa-b2b65ab4ad2f",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Material claims regarding YoY growth rates (0.91% Revenue, 0.59% Net Income) are directly contradicted by the absolute financial figures provided in the cited evidence chunks ($10.415B vs $9.716B Revenue implies ~7.2% growth). The report relies on flawed calculation objects that label Quarter-over-Quarter growth as Year-over-Year, rendering the growth claims unsupported by the actual base data cited in the same sections."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe numerical errors identified. 1) Q3 2025 YoY Revenue growth stated as 0.91% is mathematically incorrect based on cited absolute values (actual ~7.2%); the figure represents QoQ growth. 2) Q3 2025 YoY Net Income growth stated as 0.59% is incorrect (actual ~15.8%); represents QoQ. 3) Q1 2025 FCF Margin stated as 41.61% uses Q3 Revenue as denominator instead of Q1 Revenue (actual ~45.0%). These errors materially misrepresent financial performance."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Citations correctly link to the structured chunk IDs and calculation IDs provided in the evidence pack. However, the calculation objects cited contain internal mathematical errors (growth rates not matching the table values within the same object), which limits the precision of the grounding despite correct ID mapping."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news citations and financial periods are consistent with the report As-of date of 2025-11-12. Q3 2025 results (period ending Sep 2025) are appropriately reported as historical data. No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report text is internally consistent, repeating the same figures and growth rates across the Recent Developments, Financial Analysis, and Business Analysis sections. There are no contradictions between different paragraphs of the report text itself."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 3,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 3,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+  }
+}

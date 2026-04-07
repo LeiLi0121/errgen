@@ -1,0 +1,23 @@
+{
+  "sample_id": "Conocophillips",
+  "ticker": "COP US",
+  "as_of_date": "2025-11-17",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Both reports passed the Accuracy Gate with no severe errors recorded. Key balance sheet metrics (Cash $5.599B, Long-Term Debt $22.466B, Current Ratio 1.32) are consistent across both reports. However, the First Report successfully retrieves and analyzes income statement data (Revenue, Net Income, Margins), whereas the Second Report explicitly states this data is unavailable, representing a significant divergence in data completeness despite the shared accuracy pass.",
+    "quality_comparison": "The First Report is materially superior in quality (Q Score 3.6 vs 2.85). It provides a complete Financial Analysis with specific revenue and margin trends, while the Second Report has critical gaps in this section. The First Report delivers a clear 'Hold' investment recommendation with supporting logic, whereas the Second Report's recommendation section is truncated and non-committal. The First Report also demonstrates better cross-section synthesis, linking financial performance to operational catalysts and risks more effectively.",
+    "winner": "first_report",
+    "rationale": "The First Report is the clear winner based on completeness and investor usefulness. It successfully analyzes profitability and revenue trends that the Second Report claims are missing, providing a much deeper fundamental view. Additionally, the First Report offers a definitive investment rating and a complete outlook, while the Second Report suffers from truncation in the critical recommendation section. Under the decision policy, since both passed the Accuracy Gate, the higher quality and utility of the First Report dictate the preference."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports passed the Accuracy Gate with zero severe errors, and key balance sheet metrics (Current Ratio 1.32, Cash ~$5.6B, Long-Term Debt ~$22.5B) are consistent between them. However, they diverge on data availability: Report 1 explicitly states income statement data (revenue, margins) is missing, while Report 2 provides specific figures for Q3 2025 revenue ($15.03B), net income ($1.73B), and net margin (11.48%). Since both passed the accuracy gate, Report 2's additional data is treated as valid for quality comparison.",
+    "quality_comparison": "Report 2 is significantly superior in completeness and investor usefulness. It provides a full Financial Analysis with revenue and margin trends, whereas Report 1 admits inability to analyze these critical metrics. Report 2 offers a complete Investment Recommendation with a clear 'Hold' rating and supporting logic, while Report 1's recommendation section is truncated. Report 2 also demonstrates better cross-section synthesis, linking margin compression to risk and outlook, whereas Report 1's analysis is fragmented by data gaps. Report 2's Tier B (3.6 Q-score) outperforms Report 1's Tier C (2.85 Q-score) across financial, CMI, and investment dimensions.",
+    "winner": "second_report",
+    "rationale": "Report 2 is the clear winner based on quality dimensions, specifically completeness and investor usefulness. It delivers a functional equity research report with a complete recommendation and detailed financial trend analysis (revenue growth vs. margin compression). Report 1 is materially compromised by its admission of missing financial data and a truncated recommendation section, rendering it less actionable for an investor. Under the decision policy, when both pass the Accuracy Gate, quality dictates the choice, and Report 2's comprehensive synthesis and full recommendation logic make it the superior deliverable."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Conocophillips",
+  "model_name": "errgen",
+  "ticker": "COP US",
+  "as_of_date": "2025-11-17",
+  "run_id": "b049058a-10f8-45d8-8fbb-60abb53a4aff",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial metrics, operational developments, analyst ratings, and market news are directly supported by the authoritative cited chunk IDs and evidence provided. Limitations (e.g., missing income statement data) are accurately acknowledged and consistent with the evidence pack."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (cash flow, balance sheet items, ratios, price targets, insider buying amounts) match the provided evidence chunks and calculation objects exactly. Calculated ratios (e.g., Current Ratio 1.32) are mathematically correct based on the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed for each paragraph accurately correspond to the content and claims made in that paragraph. There are no mismatches between the text claims and the supporting evidence snippets."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news and financial periods) are on or before the report as-of date of 2025-11-17. No post-as-of information is used. Financial periods (Q3 2025, Q1 2025) are consistent with the report timeline."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points are consistent across different sections of the report (e.g., Current Ratio, Debt figures, Cash balances). There are no contradictions between the Company Overview, Recent Developments, and Financial Analysis sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "Critical income statement data (revenue, margins, net income) is missing, preventing analysis of top-line growth and profitability. While balance sheet and some cash flow metrics are provided, the repeated inability to calculate key ratios (FCF margin, R&D intensity) severely limits financial assessment quality."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong coverage of recent developments including the Australia gas discovery, Q3 earnings reaction, dividend increases, insider activity, and macro factors like Alaska policy and OPEC estimates. Effectively connects news to stock performance."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Provides a solid overview of the company's portfolio and global footprint. Industry context is present (peers, OPEC) but lacks deep comparative analysis on cost structures or market share dynamics beyond stock performance."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "The investment view is inconclusive ('mixed profile') and lacks a clear recommendation or valuation metric. The section is truncated, failing to deliver a complete decision-useful conclusion as requested in the query."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Identifies key financial, operational, and regulatory risks with specific quantification. However, there is a conflicting narrative on debt trends (Financial section cites 'debt reduction' while Risk section cites 'debt accumulation') without reconciliation."
+    },
+    "writing": {
+      "score": 2,
+      "reason": "Structure is logical, but quality is degraded by excessive repetition of data limitation caveats in the Financial section and an abrupt truncation at the end of the report."
+    }
+  },
+  "q_score": 2.6,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive coverage of recent operational and macro news, effectively linking developments like the Australia discovery and policy changes to company context.",
+    "primary_weakness": "Critical gaps in income statement data prevent profitability analysis, and the report ends abruptly (truncated), failing to provide a complete investment recommendation."
+  }
+}

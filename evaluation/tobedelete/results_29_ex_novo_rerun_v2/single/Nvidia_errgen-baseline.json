@@ -1,0 +1,78 @@
+{
+  "sample_id": "Nvidia",
+  "model_name": "errgen-baseline",
+  "ticker": "NVDA US",
+  "as_of_date": "2025-09-01",
+  "run_id": "64eeb7f1-3f60-436c-add3-1153db0b365b",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims are supported by the cited evidence chunks. Specific financial breakdowns (e.g., $35B Nvidia hardware vs $50B total facility cost) align with the total figures in the evidence, and truncation rules prevent marking them as unsupported."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures (revenue, margins, growth rates) are mathematically accurate and match the evidence. However, Financial Analysis Paragraph 4 incorrectly labels a Net Debt value (-$1.04B) as a 'net cash position', resulting in a sign error for that specific metric label."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations correctly map to the provided evidence chunks and calculation IDs. The report accurately reflects the data contained within the structured evidence."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news and financial data dates (Q1/Q2 2025, news from September 1, 2025) are consistent with the report's As-Of date of 2025-09-01. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "Financial figures are consistent across sections (e.g., revenue, R&D). However, there is an internal contradiction in Financial Analysis Paragraph 4 where the 'net cash position' is stated as negative (-$1.04B) while the text simultaneously states cash exceeds debt obligations."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth with specific Q2 2025 metrics for revenue, net income, margins (gross, operating, net, EBITDA), cash flows, and balance sheet ratios. Provides clear QoQ comparisons and links financial performance to operational drivers like AI infrastructure scaling."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers a good range of recent developments including partnerships (Norma, OpenAI), market sentiment shifts, and competitive moves (G42). Specific figures (e.g., $35B facility cost) add credibility, though some items are recycled in later sections."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context on company segments, industry growth rates (automotive CAGR), and competitive landscape. Effectively contextualizes hype vs. reality in emerging markets like robotics (0.2% market share)."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Analyzes growth drivers and risks comprehensively but lacks a definitive investment recommendation, price target, or valuation analysis (e.g., P/E multiples). The forward-looking view is implied rather than explicitly concluded for the investor."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Addresses competitive, financial, and adoption risks well. Transparently notes data limitations (concentration risk). Geopolitical risk is mentioned (China/Alibaba) but could be deeper given the query's specific emphasis on tensions."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and clear structure. However, significant repetition of specific examples (Norma performance, G42 diversification, robotics stats) across Developments, Business, and Risk sections reduces efficiency and suggests limited synthesis."
+    }
+  },
+  "q_score": 4.05,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "High granularity in financial analysis with clear margin, cash flow, and balance sheet breakdowns linked to business performance.",
+    "primary_weakness": "Excessive content repetition across sections and absence of a conclusive investment recommendation or valuation framework."
+  }
+}

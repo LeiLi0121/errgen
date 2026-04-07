@@ -1,0 +1,23 @@
+{
+  "sample_id": "CocaCola",
+  "ticker": "KO US",
+  "as_of_date": "2025-09-22",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors, citing identical core financial figures (Revenue $12.535B, Net Income $3.81B, Margins, Debt levels) and operational details (SA restructuring, employee count). Neither report contains numerical errors, citation mismatches, or temporal violations based on the provided text.",
+    "quality_comparison": "Both reports suffer from excessive repetition of key financial metrics across nearly every section, which reduces analytical efficiency. However, the second report provides greater financial granularity in the Financial Analysis section (including Gross Profit $, Operating Income $, and CapEx figures) and offers a more insightful synthesis of cash flow volatility as a capital allocation risk. The second report also demonstrates better transparency by explicitly noting data limitations regarding strategic initiatives. While the first report scores higher on Risk in the metadata, the second report's investment logic is more fundamentally grounded (leverage/cash flow constraints) rather than relying heavily on recent stock price underperformance.",
+    "winner": "second_report",
+    "rationale": "The second report is preferred due to superior financial depth (more specific line items), more transparent acknowledgment of data limitations, and a recommendation logic that relies more on fundamental constraints (leverage, cash flow volatility) than market performance. Although both reports share a significant weakness regarding data repetition, the second report's additional quantitative detail and analytical transparency provide higher investor usefulness."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors (numerical, citation, temporal, or inconsistencies). They rely on identical core financial data for Q2 2025 (e.g., Revenue $12.535B, Net Income $3.81B, Debt-to-Equity 1.73x) and identify the same key operational risks, such as the South Africa bottling restructuring and cash flow volatility between Q1 and Q2.",
+    "quality_comparison": "Report 1 demonstrates higher overall quality with a Q score of 4.05 compared to Report 2's 3.6, particularly outperforming in Financial Numeric (5 vs 4) and Investment (4 vs 3) dimensions. Critically, Report 1 is complete, whereas Report 2 is truncated at the end of the Investment Recommendation section, materially reducing its investor usefulness. While both reports suffer from excessive repetition of financial metrics across sections, Report 1 provides a more coherent conclusion with specific conditions for rating evolution (e.g., 'until leverage moderates'), whereas Report 2's analysis is cut off.",
+    "winner": "first_report",
+    "rationale": "Report 1 is the clear winner based on completeness and higher quality metric scores. Report 2's truncation in the final section is a significant deficiency for an equity research report, preventing the investor from seeing the full outlook. Additionally, Report 1's higher scores in financial analysis and investment logic reflect a more robust synthesis of the data, despite both reports sharing issues with redundancy."
+  }
+}

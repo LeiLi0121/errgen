@@ -1,0 +1,23 @@
+{
+  "sample_id": "Oracle",
+  "ticker": "ORCL US",
+  "as_of_date": "2025-09-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. Key financial data points (e.g., Q1 2026 Revenue of ~$14.93B, Operating Margin of 28.65%, Current Ratio of 0.62) and strategic news catalysts (TikTok acquisition framework, OpenAI cloud contracts) are consistent and factually aligned across both documents.",
+    "quality_comparison": "Report 2 demonstrates superior completeness by including an Investment Recommendation section with a specific 'Hold' rating and supporting rationale, whereas Report 1 entirely omits this critical section. Report 2 also provides more granular financial trend analysis, detailing sequential margin changes across multiple quarters, compared to Report 1's broader comparisons. However, Report 1 exhibits better writing quality with a cleaner narrative flow, while Report 2 suffers from excessive repetition of key news points across sections.",
+    "winner": "second_report",
+    "rationale": "Report 2 is preferred primarily due to higher completeness and investor usefulness. The inclusion of a definitive investment recommendation ('Hold') with rationale is a core requirement for equity research that Report 1 fails to meet. Additionally, Report 2's more detailed financial trend analysis offers better context for the investment thesis. While Report 1 has superior writing quality, the omission of the investment outlook significantly limits its utility for an investor, making Report 2 the more functional document despite its narrative repetition."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports passed the Accuracy Gate with zero severe errors. Key financial metrics (Q1 2026 revenue ~$14.93B, operating margin ~28.65%, current ratio 0.62) and narrative elements (TikTok deal, OpenAI contracts, CEO name) are consistent across both documents.",
+    "quality_comparison": "Report 1 includes an Investment Recommendation section with a specific 'Hold' rating, whereas Report 2 omits this section entirely, ending after Risk Analysis. Report 1 suffers from excessive repetition of the TikTok/OpenAI narrative across Recent Developments, Business Analysis, and Recommendation sections. Report 2 integrates these catalysts more cleanly and provides more specific stock performance statistics (82% YTD). However, Report 2's absence of a recommendation is a critical completeness gap.",
+    "winner": "first_report",
+    "rationale": "Report 1 is preferred because it delivers the core deliverable of an equity research report: an investment rating and outlook. While Report 1 is repetitive and truncated, Report 2's complete omission of the recommendation section significantly reduces its investor usefulness. Per the decision policy, completeness and investor usefulness outweigh stylistic writing quality when the core investment thesis is missing."
+  }
+}

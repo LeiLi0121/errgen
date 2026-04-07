@@ -1,0 +1,23 @@
+{
+  "sample_id": "JPMorgan",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. Key financial figures (Q3 2025 revenue of $71.9B, net income of $14.4B, margins) are consistent across both reports. Neither report contains numerical errors, citation mismatches, or temporal violations.",
+    "quality_comparison": "Report 1 achieves a higher Quality Score (2.85 vs 2.25) and outperforms Report 2 in Financial Numeric (3 vs 2), CMI (3 vs 2), and Investment (2 vs 1) metrics. Report 1 provides better analytical nuance, such as explaining R&D accounting treatment, whereas Report 2 admits insufficient evidence for key risk categories (regulatory, operational, tech), reducing investor usefulness. Report 2 also failed more specific query requirements (NII, credit quality, retail expansion) compared to Report 1 (valuation/ROE).",
+    "winner": "first_report",
+    "rationale": "While both reports are factually reliable, Report 1 is superior in quality and completeness. It scores higher on key quality dimensions and offers better synthesis of financial data (e.g., R&D context). Report 2's admission of data limitations in the Risk section and its failure to address critical banking-specific query requirements (NII, credit quality) make it less useful for investors. Report 1's higher Q score and better adherence to query requirements drive the decision."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors recorded. They present consistent financial data (Q3 2025 revenue of $71.9B, net income decline of 3.96%) and corporate events (HQ inauguration, Argentina loan hesitation). There are no factual contradictions between the two; Report 2 simply includes additional specific details (CFO name, building cost in News section) that Report 1 omits or places in different sections.",
+    "quality_comparison": "Report 2 demonstrates superior analytical quality. It achieves a higher Q score (2.85 vs 2.25) and outperforms Report 1 in Financial Numeric, CMI, and Investment sub-scores. Textually, Report 2 provides better context for financial metrics, such as explaining the $0 R&D expense as an accounting classification issue and attributing cash flow volatility to timing/working capital rather than just flagging it as a risk. Report 1 explicitly admits in Risk Analysis P4 that evidence for competitive, regulatory, and technology risks is 'insufficient,' which significantly reduces investor usefulness. Report 2 also integrates specific details (e.g., CFO name, building specifications) more logically within the Recent Developments section.",
+    "winner": "second_report",
+    "rationale": "While both reports pass the accuracy gate, Report 2 is the clear winner on quality dimensions. It offers deeper analytical nuance (explaining the 'why' behind financial figures like R&D and cash flow), maintains better structural organization of news details, and avoids Report 1's explicit admission of insufficient data for key risk categories. The higher quality metric scores (2.85 vs 2.25) corroborate the textual evidence that Report 2 provides a more useful and insightful analysis for an investor, despite both showing truncation in the provided sample text."
+  }
+}

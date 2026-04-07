@@ -1,0 +1,92 @@
+{
+  "sample_id": "Walmart",
+  "model_name": "errgen",
+  "ticker": "WMT US",
+  "as_of_date": "2025-08-15",
+  "run_id": "01311557-772e-4dc7-90ee-e525fe3e0ec9",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most claims are well-supported by the authoritative evidence chunks and calculation IDs. However, there is a minor discrepancy in the 'Recent Developments' section regarding the earnings timing. The text states Walmart is scheduled to report earnings 'later in the week', while the cited evidence [7467ad6d-e66a-42fe-9ad2-09a1d946f620] explicitly states 'report results next week' and evidence [6039dc99-7593-4480-9635-49524da81f43] specifies 'starting Monday, Aug. 18'. Given the report as-of date of 2025-08-15 (Friday), 'next week' is the accurate description, making the text's 'later in the week' slightly unsupported by the specific cited evidence."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Margins, Cash Flow, Balance Sheet items) and stock performance metrics (30-day, 1-year returns) match the provided evidence chunks and calculation IDs exactly. Calculations for margins, ratios, and excess returns are internally consistent and mathematically correct based on the source data."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Citations are generally precise, with structured IDs correctly linking to evidence. The minor issue noted in Claim Support regarding the earnings timing also applies here, as the cited evidence chunks [7467ad6d...] and [6039dc99...] contradict the text's claim of 'later in the week' by specifying 'next week'."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "No post-as-of data usage detected. Financial periods (Q2 FY2025 ended July 31, 2025) and news dates (2025-08-15) are consistent with the report as-of date of 2025-08-15. The earnings timing inaccuracy is a descriptive error rather than a temporal validity violation involving data dates."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data is consistent across all sections (Financial Analysis, Risk Analysis, Business Analysis). Revenue, cash flow, and balance sheet figures are repeated accurately without contradiction. Stock performance metrics are also consistent between sections."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [
+      {
+        "severity": "minor",
+        "explanation": "Text states Walmart is scheduled to report earnings 'later in the week', but cited evidence [7467ad6d-e66a-42fe-9ad2-09a1d946f620] states 'report results next week' and [6039dc99-7593-4480-9635-49524da81f43] specifies 'starting Monday, Aug. 18'. Given the report date of Friday, Aug. 15, 'next week' is the accurate timeline.",
+        "section": "Recent Developments, Paragraph 2",
+        "offending_span": "Walmart is scheduled to report second quarter earnings later in the week"
+      }
+    ],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 1,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed Q2 FY2025 metrics including revenue, margins, cash flow, and balance sheet ratios. However, the analysis is significantly limited by the explicit inability to calculate year-over-year growth rates, which is a critical omission for assessing operational trends in an equity research context. Sequential analysis is present but less informative without YoY context."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively covers relevant recent developments including supply chain expansion (Vietnam logistics), competitive moves by Amazon and Target, and the broader retail earnings context. News items are specific and tied to the company's strategic positioning."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Solid coverage of segments, competitive landscape, and Walmart's bellwether status. However, the quality is diminished by significant redundancy; company description and competitive data are repeated almost verbatim between the Overview, Recent Developments, and Business Analysis sections, reducing the depth of unique insight per section."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Provides a clear 'Buy' recommendation with logical support based on stock momentum and sequential operational improvements. However, the thesis relies heavily on price performance and lacks valuation context (e.g., P/E, target price) or deeper fundamental drivers beyond sequential revenue growth."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive identification of financial, macroeconomic, and competitive risks. The report demonstrates strong analytical discipline by transparently acknowledging where evidence is insufficient (e.g., regulatory, technology risks) rather than making unsupported claims."
+    },
+    "writing": {
+      "score": 2,
+      "reason": "Structure is logical, but the report suffers from excessive verbatim repetition. Entire paragraphs regarding company description, stock performance, and competitive analysis are duplicated across the Overview, Recent Developments, and Business sections. This redundancy disrupts flow and suggests a lack of synthesis."
+    }
+  },
+  "q_score": 3.2,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Transparent and comprehensive risk analysis that clearly identifies financial and macroeconomic exposures while honestly acknowledging data limitations.",
+    "primary_weakness": "Significant verbatim repetition of company descriptions and data points across multiple sections, combined with a lack of year-over-year financial trend analysis."
+  }
+}

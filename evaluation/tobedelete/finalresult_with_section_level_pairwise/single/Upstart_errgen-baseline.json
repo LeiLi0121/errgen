@@ -1,0 +1,92 @@
+{
+  "sample_id": "Upstart",
+  "model_name": "errgen-baseline",
+  "ticker": "UPST US",
+  "as_of_date": "2025-08-11",
+  "run_id": "c2d42c80-554f-49b0-a1af-38890a49eddc",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are backed by specific authoritative cited chunk IDs or calc IDs provided in the evidence pack. The content of the evidence chunks aligns with the claims made in the text."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures (Revenue, Net Income, Margins, Balance Sheet) match the evidence chunks and calculations exactly. However, there is one calculation error in Financial Analysis Paragraph 3: the Q1 2025 Free Cash Flow margin is stated as -5.24%, which is derived using Q2 2025 revenue ($257.3M) instead of Q1 2025 revenue ($213.4M) against the Q1 FCF (-$13.5M). The actual Q1 margin is approximately -6.32%. This is a minor numerical error as the absolute FCF figure is correct and the sign/direction is accurate."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed for each paragraph correspond directly to the evidence blocks provided. There are no mismatches between the citations and the supporting evidence content."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date is 2025-08-11. All news citations are dated on or before 2025-08-11. All financial periods cited (Q2 2025, Q1 2025, etc.) end on or before the report date. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and key metrics are consistent across different sections of the report (e.g., Revenue and Margins in Recent Developments match Financial Analysis). No contradictions found between paragraphs."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [
+      {
+        "severity": "minor",
+        "explanation": "In Financial Analysis Paragraph 3, the Q1 2025 Free Cash Flow margin is reported as -5.24%. Based on the provided evidence chunks, Q1 2025 FCF is -$13,486,000 and Q1 2025 Revenue is $213,371,000, which yields a margin of approximately -6.32%. The reported -5.24% appears to incorrectly use Q2 2025 Revenue ($257,291,000) as the denominator.",
+        "section": "Financial Analysis - Paragraph 3",
+        "offending_span": "free cash flow margin of -5.24%"
+      }
+    ],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed quantification of revenue, margins, and cash flow trends with clear YoY and sequential comparisons. Transparently acknowledges missing debt data which limits leverage analysis, but effectively highlights the divergence between net income and operating cash flow."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent integration of timely developments including the August 11 convertible notes offering, Q2 earnings results, and specific stock price reactions. News is not isolated but woven into financial and investment analysis to explain market sentiment."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Clearly describes the business model and macro drivers (interest rates), but explicitly admits a lack of specific market share data and competitive differentiation versus peers, limiting the depth of industry positioning analysis."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear 'Hold' recommendation logically supported by the mixed signals identified in prior sections (profitability turnaround vs. cash flow deterioration and dilution risk). Highlights specific catalysts required for a more bullish stance."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensively covers key risks including profitability volatility, cash flow deterioration, and macroeconomic sensitivity. Quantifies risk exposure where possible (e.g., R&D intensity, margin swings) rather than listing generic risks."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional structure with clear headings and logical analytical flow. Reuse of key metrics across sections is purposeful to support different arguments (facts vs. analysis vs. recommendation) rather than redundant."
+    }
+  },
+  "q_score": 4.0,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong synthesis of recent corporate actions (convertible notes) and financial performance into a coherent, nuanced investment thesis that balances operational improvements against liquidity and dilution concerns.",
+    "primary_weakness": "Limited competitive landscape analysis and missing balance sheet leverage metrics reduce the depth of industry positioning and solvency risk assessment."
+  }
+}

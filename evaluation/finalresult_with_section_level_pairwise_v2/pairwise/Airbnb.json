@@ -1,0 +1,138 @@
+{
+  "sample_id": "Airbnb",
+  "ticker": "ABNB US",
+  "as_of_date": "2025-08-11",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 0 sections on this ordering, errgen won 5, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: none. errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 5 sections on this ordering, errgen-baseline won 0, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: none. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical text with the same company metadata (ticker, exchange, sector, industry, CEO, employees, IPO date, headquarters) and business description. Section-specific findings show no severe or minor issues for either section.",
+        "quality_comparison": "The section texts are word-for-word identical. Both provide basic company overview information appropriate for a low-importance section. Neither section demonstrates superior depth, organization, or analytical value over the other.",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable - they are identical. Per the decision policy, when two sections are materially indistinguishable, return tie. The report-level accuracy gate failure in the first report relates to numerical errors elsewhere in the report, not this Company Overview section. Since section-specific findings show no issues for either section and the texts are identical, this is a clear tie situation."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical text with the same company information (ticker, exchange, sector, industry, CEO, employees, IPO date, headquarters, website) and business description. Both sections have zero factual errors (severe=0, minor=0).",
+        "quality_comparison": "The section texts are word-for-word identical. Both provide basic company overview information appropriate for a low-importance section. Neither section demonstrates superior depth, organization, or analytical value over the other.",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable - they are exactly the same. Per the decision policy, when two sections are materially indistinguishable, I should return a tie. While the first report has a higher overall Q score and passed the accuracy gate while the second failed, the policy explicitly states to use section text as the primary basis for judgment and not let unrelated issues elsewhere in the report dominate this section. Since this specific section has no errors in either report and the text is identical, there is no basis to prefer one over the other at the section level."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "The first report contains material mathematical inconsistencies within the section text: it claims 36.27% revenue growth when the provided absolute figures ($2.748B to $3.096B) reflect only ~12.7% growth, and claims 316.88% net income growth from a higher base ($555M to $642M), which is mathematically impossible. The second report avoids these specific contradictory growth percentages, stating only that revenue rose year-over-year, and aligns with the passed accuracy gate.",
+        "quality_comparison": "The second report is superior for investor use due to data reliability. While the first report offers more granular numbers and a specific risk anecdote, the fundamental financial errors undermine its credibility for equity analysis. The second report provides a consistent narrative on earnings, strategy, and competitive dynamics without internal contradictions, making it safer for decision-making.",
+        "winner": "second_report",
+        "rationale": "Reliability is the primary criterion for equity research. The first report's section text contains verifiable mathematical errors in key financial metrics (revenue and net income growth rates do not match the absolute figures provided), which renders the financial performance analysis unreliable. The second report passed the accuracy gate and presents consistent data. Despite the first report's section-specific findings indicating no errors, the text itself demonstrates severe inaccuracies that violate the reliability requirement. The second report is preferred for its factual consistency and investor safety."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections cover similar recent developments including Q2 2025 earnings beat (9.5% EPS surprise), 7% share drop post-earnings, margin warnings for Q3/Q4 2025, CEO Chesky's hotel pivot announcement, AI-first strategy, Ark Invest's $21.5M purchase, and competitive dynamics (Sonder, Expedia). The second report includes more specific numerical data (revenue $3.096B, net income $642M) with citation markers (C012, K001, etc.), while the first report presents cleaner narrative without citation markers. The second report also includes additional content on reputational/regulatory risks not present in the first report.",
+        "quality_comparison": "The first report presents information more cleanly without citation markers that could indicate template artifacts. The second report has more granular data points but includes citation markers that may suggest sourcing issues. Both sections are well-organized with similar paragraph structures covering earnings, strategy, institutional activity, and competitive landscape. The second report adds a fourth paragraph on reputational risks that provides additional context.",
+        "winner": "first_report",
+        "rationale": "While both sections have equal section-specific findings (severe=0, minor=0), the first report passed the accuracy gate while the second failed due to severe numerical errors and inconsistencies at the report level. This is a material reliability concern that affects confidence in the specific numbers presented in the second report's section. The first report provides comparable coverage of key developments with cleaner presentation and no accuracy concerns. Per the decision policy, reliability comes first when the gap is material, and the accuracy gate failure represents a meaningful reliability distinction even though this specific section wasn't flagged for issues."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Report 2 correctly calculates the Q2 2025 revenue year-over-year growth at approximately 12.7% based on the provided figures ($3,096M vs $2,748M). Report 1 states this growth was 36.27%, which is a material calculation error given the numbers cited in its own text. Report 2 also includes specific data on capital allocation (stock buybacks of $807M in Q1 2025) that Report 1 omits. Both reports align on margin trends and balance sheet liquidity metrics, but Report 1's top-line growth error undermines its financial credibility.",
+        "quality_comparison": "Report 2 is better organized, separating revenue, profitability, cash flow, balance sheet, and R&D into distinct paragraphs for easier scanning. Report 1 combines these topics more densely and includes internal citation codes (e.g., C002, K001) that clutter the text and reduce investor usability. Report 2 provides a cleaner, more professional narrative without sacrificing depth, while Report 1's inclusion of raw reference tags suggests a less polished final product.",
+        "winner": "second_report",
+        "rationale": "Report 2 is the clear winner due to superior factual accuracy and presentation. The revenue growth calculation error in Report 1 (36.27% vs the actual ~12.7%) is a critical failure in a Financial Analysis section, as top-line growth is a primary driver of investment thesis. Report 2 not only avoids this error but also provides additional useful context on share buybacks and organizes the analysis more logically. Furthermore, Report 1's inclusion of internal citation codes detracts from readability. Despite Report 1's section-specific metadata indicating no errors, the textual evidence of the math error takes precedence per the instruction to use section text as the primary basis for judgment."
+      },
+      "order_ba": {
+        "factual_comparison": "Report 1 correctly calculates the year-over-year revenue growth at approximately 12.7% ($3,096M vs $2,748M). Report 2 uses the same underlying revenue figures but incorrectly states the growth rate as 36.27%, which is a material mathematical error. Additionally, Report 2's balance sheet analysis clarifies that the current ratio is derived from total current assets ($23,180M) rather than just cash, whereas Report 1 implies cash supports the ratio without explicitly distinguishing total current assets, though Report 1's ratio figure matches Report 2's. The revenue growth error in Report 2 is a critical reliability failure for a Financial Analysis section.",
+        "quality_comparison": "Report 1 presents a cleaner, more professional narrative without internal citation codes. Report 2 includes raw citation tags (e.g., C002, K001) throughout the text, which disrupts readability and suggests a draft or automated output rather than a polished research note. Report 1's organization by topic (Revenue, Profitability, Cash Flow, Balance Sheet, R&D) is logical and easy to follow.",
+        "winner": "first_report",
+        "rationale": "Reliability is the primary decision factor for financial analysis. Report 2 contains a blatant numerical error in the headline revenue growth metric (36.27% vs the actual ~12.7%), which undermines investor trust and violates the accuracy requirement. Report 1 is factually accurate on the key growth metric and offers a cleaner presentation without citation clutter. Despite the instruction not to mechanically follow report-level scores, the text evidence itself confirms Report 1 is superior in accuracy and usability."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "The first report contains a material mathematical error within the section text (Paragraph 3), stating that net income of $642M represents 316.88% growth from $555M, which is arithmetically incorrect (actual growth is ~15%). This undermines the reliability of the financial data presented in this section. The second report passed the report-level accuracy gate and presents financial performance directionally (revenues rising, EPS beat) without making specific numerical claims that contradict each other. Both reports accurately reflect the strategic initiatives regarding hotels and AI based on CEO commentary.",
+        "quality_comparison": "The second report provides a more reliable foundation for analysis by avoiding hallucinated metrics. While the first report offers more specific numerical detail (margins, revenue figures), the presence of calculation errors reduces investor usefulness and trust. The second report covers the necessary business model, strategic positioning, and investor sentiment components clearly and accurately. Both sections are similarly organized, but the second report's adherence to factual accuracy makes it superior for an equity research context.",
+        "winner": "second_report",
+        "rationale": "Reliability is the primary decision factor when gaps are material. The first report contains a demonstrable mathematical error within the section text (claiming 316% growth on figures that show ~15% growth), which violates the accuracy requirement for equity research. The second report passed the accuracy gate and presents consistent information. Although the first report provides more specific numbers, their reliability is compromised. The second report adequately covers the business model, strategic shifts (hotels/AI), and market reaction without factual errors, making it the safer and more useful choice for the investor."
+      },
+      "order_ba": {
+        "factual_comparison": "The first report passed the accuracy gate with no section-specific findings issues. The second report failed the accuracy gate due to severe numerical errors, and a clear mathematical inconsistency is visible in this section's P3: it claims net income grew 316.88% YoY from Q2 2024's $555M to Q2 2025's $642M, but (642-555)/555 = 15.68%, not 316.88%. This is a material reliability issue within the section text itself. Both reports cover similar business model descriptions, strategic initiatives (hotels expansion, AI), and investor sentiment, but the second report's numerical claims cannot be trusted.",
+        "quality_comparison": "The first report provides a cleaner narrative without verifiable errors, while the second report offers more specific metrics (revenue $3.096B, margins, R&D intensity, current ratio) but undermines credibility with the growth rate error. Both address company positioning and strategic direction adequately for a Business & Competitive Analysis section. The first report's information is more reliable for investor decision-making despite having less numerical detail.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, reliability comes first when the gap is material. The second report contains a clear mathematical error visible in this section's text (316.88% growth claim contradicts the underlying numbers), which directly impacts investor usefulness. While the second report has more numerical detail, accuracy is paramount for equity research. The first report passed the accuracy gate and presents information without verifiable errors, making it more trustworthy for the user's investment analysis needs."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial metrics for the risk analysis, including operating margin fluctuations (40.86% to 1.67% to 19.77%), cash positions ($18.4B), current liabilities ($18.8B), and R&D expenses ($610M). Section-specific findings indicate no severe or minor errors for either section, despite the first report failing the overall report-level accuracy gate. The second report provides additional metrics not found in the first, such as net margin percentages, total liabilities versus equity, and year-over-year R&D trends.",
+        "quality_comparison": "The second report demonstrates superior analytical depth in the core financial risk paragraphs. It utilizes margin percentages rather than absolute income figures to assess volatility (P1) and evaluates the liabilities-to-equity ratio to provide a more nuanced view of leverage beyond just the absence of long-term debt (P2). It also includes employee count and R&D trends for operating risk (P3). The first report is more focused in its fourth paragraph, discussing revenue seasonality with specific data, whereas the second report's fourth paragraph redundantly describes the business model. However, the second report's deeper financial risk insights in P1-P3 outweigh the first report's better focus in P4.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred due to stronger analytical depth in the primary risk categories (financial and balance sheet risk). It offers more sophisticated metrics (net margins, liabilities-to-equity) that provide better investor insight into volatility and leverage than the first report's absolute figures and current ratio focus. While the first report has a more relevant fourth paragraph on seasonality compared to the second report's business model description, the second report's superior handling of the core financial risk analysis makes it more useful for the user's query. The second report also passed the report-level accuracy gate, providing secondary confidence in its reliability."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections utilize consistent core financial data for Airbnb as of Q2 2025, including operating margins (40.86% to 1.67% to 19.77%), cash balances ($18.4B), and current ratios (1.23). Report 1 includes total liabilities ($19.2B) and stockholders' equity ($7.8B) to discuss leverage, while Report 2 focuses more on revenue seasonality figures ($2.2B to $3.7B) and R&D as a percentage of revenue (19.70%). There are no direct factual contradictions between the section texts themselves.",
+        "quality_comparison": "Report 1 offers a more synthesized and readable analysis without inline citation clutter. It provides deeper insight into balance sheet risk by contrasting total liabilities against equity, whereas Report 2 focuses primarily on liquidity. Report 1 also identifies operational execution risk related to headcount (7,300 employees), which Report 2 omits. Report 2 includes useful revenue seasonality data but feels more like a data extraction output due to citation codes.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred for its superior analytical depth and readability. It provides a more nuanced assessment of financial risk by highlighting the liabilities-to-equity tension rather than just liquidity, and it includes operational risk factors like headcount scaling. While section-specific reliability findings are clean for both, Report 1's passage of the report-level accuracy gate serves as a valid tie-breaker over Report 2, which failed the global accuracy gate. Report 1 delivers a more professional, investor-ready narrative."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections assign a Hold rating and cite similar margin volatility patterns (40.86% Q3 2024 → 1.67% Q1 2025 → 19.77% Q2 2025), current ratio of 1.23, and ~6% post-earnings stock decline. However, there is a material numerical discrepancy: the first report claims 36.27% YoY revenue growth while the second reports ~12.7%. The first report also cites net income surging 316.88% YoY to $642M, which the second does not mention. The first report failed the report-level accuracy gate (Q score 0.0) due to severe numerical errors elsewhere, while the second passed (Q score 4.5). Both sections show severe=0, minor=0 for section-specific findings.",
+        "quality_comparison": "The first report section is more detailed (5 paragraphs vs 2), with better organization, more specific metrics, and clearer risk factor enumeration. It provides more actionable monitoring guidance and addresses more aspects of the user query (financial performance, positioning, risks, investment view). The second report is more concise but covers fewer analytical dimensions. However, the first report's numerical claims conflict with the second report's figures, raising reliability concerns despite clean section-specific findings.",
+        "winner": "second_report",
+        "rationale": "Per the decision policy, reliability comes first when the gap is material. The first report failed the accuracy gate at the report level due to severe numerical errors, and there are material numerical discrepancies between the two sections (36.27% vs 12.7% revenue growth). While section-specific findings show no errors for either section, the report-level accuracy failure combined with conflicting numbers suggests the first report's data may be unreliable. The second report passed the accuracy gate and provides consistent, defensible analysis. Although the first report has superior depth and organization, reliability takes precedence when numerical claims materially diverge and one report has documented accuracy failures."
+      },
+      "order_ba": {
+        "factual_comparison": "The first report passed the accuracy gate while the second report failed due to severe numerical errors and inconsistencies. There is a material discrepancy in revenue growth figures: first report states ~12.7% YoY while second report claims 36.27% YoY. Both sections show identical margin volatility data (40.86% Q3 2024 to 1.67% Q1 2025 to 19.77% Q2 2025), current ratio (1.23), and R&D intensity (19.70% of revenue). The second report includes more granular figures (revenue $3.096B, net income $642M) but these come from a report that failed accuracy validation.",
+        "quality_comparison": "The first report delivers a concise 2-paragraph investment thesis with clear reasoning for the Hold rating, balancing positive execution against strategic uncertainty. The second report provides 5 paragraphs with more detail but includes citation markers (C004, K001, etc.) that appear to be template artifacts, reducing readability. Both cover key risks, margin volatility, and the hotel expansion strategic pivot. The first report is more investor-ready without internal reference codes.",
+        "winner": "first_report",
+        "rationale": "The first report should be preferred primarily due to reliability concerns with the second report. The second report failed the accuracy gate at the report level due to severe numerical errors, which casts doubt on its financial figures despite no section-specific findings. The material discrepancy in revenue growth (12.7% vs 36.27%) is significant for investment decision-making. Additionally, the first report presents a cleaner, more professional output without citation markers that detract from readability. While the second report offers more detail, accuracy and reliability take precedence per the decision policy when the gap is material. The first report's passed accuracy gate and cleaner presentation make it more useful for investors despite being more concise."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 0,
+    "errgen": 5,
+    "Tie": 1
+  }
+}

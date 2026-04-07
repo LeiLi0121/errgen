@@ -1,0 +1,92 @@
+{
+  "sample_id": "Alphabet",
+  "model_name": "errgen",
+  "ticker": "GOOGL US",
+  "as_of_date": "2026-02-03",
+  "run_id": "19bbe208-0efe-495c-8758-556f2c11bb21",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs or calculation IDs provided in the evidence pack. Financial figures, news events, and metrics map directly to the supplied evidence."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, ratios, growth rates) are mathematically consistent with the provided evidence chunks and calculation objects. Verified calculations include margins, QoQ net income changes, and valuation metrics."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed for each paragraph accurately correspond to the content and data points presented in that paragraph. No mismatches found between claims and their designated evidence sources."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods are consistent with the report as-of date of 2026-02-03. Financial data refers to Q4 2025 (ended 2025-12-31), and news snippets are dated 2026-02-03. No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Material inconsistency exists between the 'Recent Developments' section stating the report is 'Ahead of Q4 2025 earnings' (implying data is not yet released) and the 'Financial Analysis' section presenting specific Q4 2025 revenue and income figures as facts. This contradiction creates ambiguity regarding whether the financial data represents actuals or estimates."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "severe",
+        "explanation": "The report states in Recent Developments (Paragraph 2) that it is 'Ahead of Q4 2025 earnings', citing a 'Preview' news article. However, the Financial Analysis section (Paragraph 1) presents exact Q4 2025 revenue ($113.9B) and net income figures as realized facts. This contradicts the 'Ahead of' status, creating confusion on whether the financial data is reported actuals or pre-release estimates.",
+        "section": "Recent Developments / Financial Analysis",
+        "offending_span": "Ahead of Q4 2025 earnings... Q4 revenue reaching $113,896,000,000"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+  }
+}

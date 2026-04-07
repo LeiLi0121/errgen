@@ -1,0 +1,78 @@
+{
+  "sample_id": "Chevron",
+  "model_name": "errgen",
+  "ticker": "CVX US",
+  "as_of_date": "2026-03-23",
+  "run_id": "5a9ca3fd-d158-4c7c-87f2-4f2382c3fe55",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, and market commentary are supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. No unsupported material conclusions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, net income, margins, debt, cash flow) and performance metrics (returns, growth rates) match the provided evidence chunks and calculation objects exactly or within acceptable rounding conventions."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "While the authoritative structured citation IDs are correct and support the text, the prose in 'Business & Competitive Analysis' Paragraph 4 contains empty citation brackets '[]' where inline labels should appear. This is a formatting precision error in the text, though it does not affect the authoritative grounding."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news snippets are dated on or before the report as-of date (2026-03-23). Financial data corresponds to Q4 2025, which is the appropriate latest period for a March 2026 report. No post-as-of claims were detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data and company information are consistent across all sections (e.g., debt figures match in Financial Analysis and Risk Analysis). No internal contradictions were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 1,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth and specificity. Provides detailed Q4 2025 income statement, cash flow, and balance sheet metrics (margins, FCF, debt ratios). Crucially, these numbers are not siloed; they are actively used in the Risk section to quantify earnings volatility and leverage constraints."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong coverage of relevant catalysts including geopolitical tensions (Strait of Hormuz), strategic moves (Venezuela production), and third-party analyst forecasts (Goldman Sachs). Connects news items directly to company implications."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Solid context on the integrated business model and LNG positioning relative to competitors. Effectively links industry supply constraints to the company's specific upstream assets."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear 'Hold' recommendation with logic that synthesizes financial resilience against geopolitical uncertainty. The rationale is well-supported by the preceding analysis, though the section is truncated in the provided text."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Outstanding section that moves beyond generic risks. It quantifies earnings volatility (Q1 negative operating income, QoQ net income swings) and identifies specific strategic risks like zero R&D spend in the context of energy transition."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is generally clear, but there is significant redundancy between the Company Overview and Business & Competitive Analysis sections (P1 in both is nearly identical). Additionally, the report text ends with a truncation marker, impacting completeness."
+    }
+  },
+  "q_score": 4.35,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Exceptional integration of financial data into the Risk analysis, using specific metrics like quarterly operating income volatility and R&D intensity to substantiate risk claims rather than listing generic factors.",
+    "primary_weakness": "Significant textual redundancy between the Overview and Business sections, and the report concludes with a truncation marker, suggesting incomplete output."
+  }
+}

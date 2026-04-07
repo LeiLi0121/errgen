@@ -1,0 +1,78 @@
+{
+  "sample_id": "Meta_Platforms",
+  "model_name": "errgen-baseline",
+  "ticker": "META US",
+  "as_of_date": "2026-02-19",
+  "run_id": "ed459d75-a17b-4760-bc11-06e907a29a7e",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and competitive positioning are directly supported by the authoritative cited chunk IDs and calculation objects provided in the evidence pack. No unsupported material conclusions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, growth rates, balance sheet items) match the provided calculation objects and evidence snippets exactly. Rounding is appropriate and consistent."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed for each paragraph correspond correctly to the evidence blocks provided. The evidence content supports the specific claims made in the associated text. No citation mismatches were found."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news snippets and financial data are temporally consistent with the report as-of date of 2026-02-19. Financial periods (Q4 2025) and news dates (February 2026) are logically valid and do not exhibit post-as-of violations."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and key facts (e.g., employee count, capex guidance, revenue) are consistent across all sections of the report. No internal contradictions were detected."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Report provides high-density quarterly data (revenue, margins, cash flow, balance sheet) with specific figures. However, the analysis of extreme net income volatility relies on speculative language ('potential one-time charges') rather than definitive explanation, limiting analytical depth."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively covers relevant catalysts including 2026 CapEx guidance, AI summit developments, and strategic partnerships. Content is well-aligned with the query's focus on AI infrastructure and recent developments."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Solid overview of business segments and AI strategy. However, the report explicitly admits limitations regarding specific market share metrics and competitive differentiation versus peers, reducing the completeness of the industry positioning analysis."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Offers a narrative on long-term growth potential but lacks a concrete investment rating, price target, or independent valuation framework. Relies heavily on summarizing external analyst sentiment rather than providing a distinct investment view."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Thoroughly analyzes financial leverage and R&D-driven margin pressure. However, it acknowledges limited assessment on regulatory scrutiny, which was a specific key risk requirement in the user query."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Clear structure with logical flow between financial, strategic, and risk sections. Professional tone, though the use of paragraph tags [P1] is slightly mechanical."
+    }
+  },
+  "q_score": 3.55,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong integration of detailed financial metrics with the strategic narrative around AI capital expenditure and infrastructure investment.",
+    "primary_weakness": "Lacks a definitive investment conclusion (rating/valuation) and admits gaps in regulatory and competitive market share analysis."
+  }
+}

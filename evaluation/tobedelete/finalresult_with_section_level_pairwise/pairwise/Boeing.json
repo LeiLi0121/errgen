@@ -1,0 +1,138 @@
+{
+  "sample_id": "Boeing",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 2, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 3 sections on this ordering, errgen-baseline won 2, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Risk Analysis. errgen-baseline stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical factual data including ticker, exchange, sector, CEO, employee count, IPO date, and website. Both sections have zero severe or minor findings and passed the report-level accuracy gate.",
+        "quality_comparison": "The narrative text, segment descriptions, and overall structure are character-for-character identical. There is no difference in depth, relevance, clarity, or organization between the two sections.",
+        "winner": "tie",
+        "rationale": "The sections are materially indistinguishable. Both reports demonstrate equal reliability with no findings, and the quality of the content is identical. Per the decision policy, when sections are indistinguishable, the result is a tie."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical factual data regarding company metadata (ticker, exchange, CEO, employees) and business segment descriptions. No factual discrepancies exist between the two.",
+        "quality_comparison": "The writing quality, structure, and level of detail are exactly the same in both reports. Neither section offers superior clarity or analytical depth.",
+        "winner": "tie",
+        "rationale": "The content of the Company Overview section is verbatim identical in both reports. As there are no differences in reliability or quality, neither report can be preferred over the other."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports cover the same core set of developments (Air India crash, Paris Airshow competitive dynamics, US-UK trade deal, Australian defense demonstrations, and NASA TRACERS mission) with identical specific details (e.g., $475M insurance claims, 25 Airbus jets, $2B spare parts sale). Both sections have zero severe or minor findings flagged, indicating equal reliability based on the provided accuracy gates.",
+        "quality_comparison": "The first report demonstrates higher quality through better signal density and investor usefulness. It includes a dedicated paragraph on market sentiment, specific stock performance metrics versus the SPY benchmark, analyst valuation commentary, and broader macroeconomic context (oil prices/geopolitics). The second report omits this financial market context, focusing solely on operational news, and its final paragraph aggregates disparate topics (commercial outlook, software updates, financing, and space missions) less effectively than the first report's thematic separation.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually consistent according to the metadata, the first report is superior for an equity research context because it connects operational developments to market impact. By including stock performance data, analyst valuation opinions, and macro factors, it provides a clearer takeaway for investors regarding how these developments are affecting the equity story, whereas the second report reads more like a general news digest."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite the same core set of events: the Air India 787 crash, Riyadh Air's Airbus order, the US-UK trade deal, the MQ-28 Ghost Bat demonstration, and the TRACERS mission delivery. Both reports have a 'True' accuracy gate and zero severe or minor findings, indicating comparable reliability on the stated facts within the context of this exercise. The second report adds specific stock performance data and valuation commentary not present in the first.",
+        "quality_comparison": "The first report demonstrates superior organization and section discipline. It isolates the competitive loss (Riyadh Air ordering Airbus) into a dedicated paragraph, ensuring the negative development is not buried. The second report crowds multiple distinct topics (Outlook, Trade Deal, Competitive Loss, Customer Updates) into a single paragraph (P2), reducing clarity. Furthermore, the second report's final paragraph drifts into stock performance and valuation analysis ('shares appear overvalued'), which typically belongs in a Valuation or Investment View section rather than Recent Developments. The first report maintains a tighter focus on operational and strategic news flow.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred for its clearer thematic organization and stricter adherence to the 'Recent Developments' scope. It highlights key competitive risks separately rather than burying them in a crowded paragraph, and it avoids mixing stock price analysis/valuation opinions into the news flow section, resulting in better signal density for an investor tracking corporate developments."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical financial figures for revenue, margins, cash flow, and balance sheet metrics. Both accurately disclose the inability to compute year-over-year growth due to missing prior period data. No factual discrepancies exist between the two.",
+        "quality_comparison": "The second report offers superior organization by segregating R&D expenses into a dedicated paragraph rather than combining them with balance sheet liquidity metrics. It also provides clearer phrasing on cash flow signs and adds a brief qualitative implication regarding R&D strategy.",
+        "winner": "second_report",
+        "rationale": "Reliability is equivalent given identical data and accuracy gates. The second report is selected for better logical segmentation of financial topics, clearer linguistic presentation of cash flow data, and marginally higher analytical depth regarding R&D spending."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical financial figures for revenue, margins, cash flow, balance sheet ratios, and R&D expenses. Both correctly acknowledge the inability to calculate year-over-year growth due to missing prior period data. There are no factual discrepancies between the two sections.",
+        "quality_comparison": "The first report demonstrates superior organization by dedicating a separate paragraph to R&D expenses, distinguishing investment spending from balance sheet liquidity metrics. The second report conflates R&D data into the balance sheet paragraph. Additionally, the first report includes a brief qualitative implication regarding R&D focus, whereas the second report remains purely descriptive.",
+        "winner": "first_report",
+        "rationale": "Since reliability is equal, the decision rests on presentation and analytical depth. The first report's segmentation allows for clearer navigation of financial categories (Income Statement, Cash Flow, Balance Sheet, Investment), and the added sentence on R&D intent provides slightly higher signal density for investors assessing management strategy compared to the second report's merged approach."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections pass the report-level accuracy gate and have zero severe or minor findings flagged, indicating equivalent reliability based on the provided metadata.",
+        "quality_comparison": "The first report provides detailed analysis of competitive dynamics, specific recent events, and strategic initiatives, whereas the second report is limited to a basic company profile.",
+        "winner": "first_report",
+        "rationale": "The first report delivers significantly higher signal density and investor usefulness by addressing the 'Competitive' aspect of the section title with specific market data, risks, and competitor actions. The second report omits competitive analysis entirely, providing only generic segment descriptions that lack analytical depth."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite consistent core factual data, including the four business segments and approximately 172,000 employees. Both sections passed the accuracy gate with zero severe or minor findings, indicating no flagged reliability issues within the provided text for either report.",
+        "quality_comparison": "The second report is significantly superior in depth and relevance. While the first report provides only a generic business description that ignores the 'Competitive' aspect of the section title, the second report delivers a comprehensive analysis. It details segment functions, assesses competitive positioning (duopoly status, competitor orders), addresses material risks (safety events impacting competitiveness), and outlines strategic initiatives. The second report offers much higher signal density and actionable insights for an investor.",
+        "winner": "second_report",
+        "rationale": "Reliability is equal as both sections have zero flagged findings. The decision rests on quality. The first report fails to deliver on the section's promise of 'Competitive Analysis,' offering only a basic business description. The second report fulfills the section title completely with detailed segment breakdowns, competitive landscape analysis, risk assessment, and strategic updates. This makes the second report far more useful for investment decision-making due to its depth and analytical implications."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports pass the accuracy gate with zero severe or minor findings in this section. They cite identical core figures for equity (-$3.325B), debt ($53.618B), FCF (-$2.29B), and R&D ($844M). Both reference the same specific events (Air India 787 crash, Israel-Iran conflict, US-UK trade deal, Australia FMS). There are no material factual discrepancies between the two based on the provided metadata.",
+        "quality_comparison": "The second report provides superior clarity on liquidity risk. While both cite a current ratio of 1.23, the first report juxtaposes Cash ($10.1B) against Current Liabilities ($103.7B) without explicitly stating Total Current Assets, which could mislead a reader regarding immediate liquidity coverage. The second report explicitly states Current Assets ($127.7B) exceed Current Liabilities, justifying the ratio clearly. Additionally, the second report includes Net Debt and profit margins (Operating/Gross), offering a more comprehensive view of financial health and competitive positioning than the first report, which substitutes margin data with a less direct reference to Southwest Airlines' software upgrades.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred due to better analytical clarity and signal density. It resolves potential ambiguity in the liquidity analysis by explicitly disclosing Total Current Assets, whereas the first report's focus on Cash vs. Current Liabilities without the Total Current Asset figure is less informative for assessing short-term solvency. The second report also adds relevant context on Net Debt and profit margins, which are critical for evaluating a company with negative equity and cash burn, making it more useful for investors assessing financial risk."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports pass the report-level accuracy gate with zero severe or minor findings flagged for this section. They present consistent core financial data (negative equity of ~-$3.3B, debt of ~$53.6B, D/E ratio of -16.13, negative FCF/OCF). Both also reference the same specific events (Air India 787 crash, Israel/Iran conflict, US-UK trade deal, Australia defense sale). There are no material factual contradictions between the two texts based on the provided metadata.",
+        "quality_comparison": "The first report demonstrates higher professional quality. It is free of punctuation artifacts, whereas the second report contains multiple instances of erroneous punctuation (e.g., ',,,' in P2, P3, P4). The first report also provides slightly deeper financial risk analysis by explicitly calculating Net Debt ($43,476M), which adds context to the leverage situation beyond just the debt-to-equity ratio. The organization of the first report (leading with Financial Risk) is arguably more appropriate given the materiality of the negative equity position, whereas the second report leads with Geopolitical risk.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to superior polish and analytical depth. It lacks the distracting punctuation errors found throughout the second report (e.g., 'ratio of -16.13,,.'). Additionally, the first report includes the Net Debt metric, offering a clearer picture of liquidity risk than the second report's separate cash/debt figures. While both cover the same key risk themes (financial, safety, geopolitical), the first report presents them with better signal density and professional formatting."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports align on the core investment thesis (Hold rating), key risk factors (Air India 787 crash, negative equity/FCF), and positive catalysts (US-UK trade deal, defense sales). Both sections pass the report-level accuracy gate and have zero severe or minor findings flagged in the section-specific summary, indicating comparable reliability based on the provided metadata.",
+        "quality_comparison": "The first report demonstrates significantly higher signal density and analytical depth. It provides specific financial metrics (e.g., -$3.3B equity, $53.6B debt, -$2.3B FCF, 1.23 current ratio) and precise market performance data (340 bps), whereas the second report uses generalities (e.g., 'negative stockholders equity', 'over 300 basis points'). The first report also includes additional relevant context such as the specific value of the Australia defense contract ($2B) and macroeconomic headwinds (oil prices), which are omitted in the second report.",
+        "winner": "first_report",
+        "rationale": "Since reliability is equivalent based on the accuracy gates and section findings, the decision rests on quality. The first report is superior due to its greater specificity and signal density. It equips the investor with concrete data points and a more comprehensive view of risks and catalysts, whereas the second report offers a more templated, less detailed analysis that omits key quantitative details and macro context."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports align on the core investment thesis (Hold rating), key financial distress signals (negative equity, negative FCF), and major catalysts (Air India crash investigation, defense/government support). There are no contradictory facts between the two, and both pass the report-level accuracy gate with no section-specific findings.",
+        "quality_comparison": "The second report provides significantly higher signal density. It quantifies key financial metrics (e.g., -$3.3B equity, -$2.3B FCF, 1.23 current ratio) rather than describing them qualitatively. It also offers broader context on macro risks (oil prices) and specific contract values ($2B Australia sale), whereas the first report is more generic.",
+        "winner": "second_report",
+        "rationale": "While both sections are equally reliable based on the provided metadata, the second report is superior in quality due to its specificity. By providing concrete financial figures and elaborating on specific risk factors (oil prices, specific defense contracts), it offers greater analytical depth and investor usefulness compared to the more qualitative first report."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 2,
+    "errgen": 2,
+    "Tie": 2
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Boeing",
+  "model_name": "errgen-baseline",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "run_id": "880fba61-f490-48d8-8858-c4c1d0843bf4",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and competitive positioning are directly supported by the provided evidence chunks and calculation IDs. No unsupported assertions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, cash flow, balance sheet items) match the provided evidence chunks exactly. Calculated metrics (margins, ratios, excess returns) align perfectly with the provided calculation objects."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs listed under each paragraph correspond accurately to the evidence blocks provided. The evidence content supports the specific claims made in the associated text."
+    },
+    "temporal_validity": {
+      "score": 4,
+      "reason": "Most dates align with the report as-of date (2025-06-16) and evidence timestamps. However, there is a minor discrepancy regarding the US-UK trade deal: the report states it was 'announced in June 2025', while evidence dated 2025-06-16 states it was 'signed' then but 'announced last month' (implying May)."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial figures are consistent across sections. Narrative details (e.g., Air India crash, Riyadh Air order) are consistent between Recent Developments and Business Analysis sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides a comprehensive set of Q1 2025 metrics across income statement, balance sheet, and cash flow (including margins and ratios). However, it explicitly notes the inability to derive year-over-year trends, which limits the depth of performance assessment."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers a wide range of relevant recent developments including safety incidents, commercial orders, defense contracts, and market sentiment. The news selection is timely and pertinent to the query."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Outlines business segments and industry context well, but the Competitive Analysis section largely repeats information from the Recent Developments section without adding significant analytical depth or strategic implication."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Fails to provide a clear investment view or recommendation despite the query explicitly requesting one. It cites analyst opinions and presents data but does not synthesize a concluded stance on valuation or action."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Identifies and quantifies key risks across geopolitical, financial (leverage, cash burn), and regulatory categories. The linkage between specific events (crash) and risk exposure is well articulated."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and logical, but there is significant verbatim repetition between the Recent Developments and Business & Competitive Analysis sections, reducing analytical efficiency and flow."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Detailed financial metrics and comprehensive identification of financial and regulatory risks with quantified data points.",
+    "primary_weakness": "Lacks a definitive investment recommendation or thesis, and suffers from heavy redundancy between the news and competitive analysis sections."
+  }
+}

@@ -25,7 +25,10 @@ from __future__ import annotations
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from errgen.nodes.analysis_agent import select_chunks_for_section_name
+from errgen.nodes.analysis_agent import (
+    select_calcs_for_section_name,
+    select_chunks_for_section_name,
+)
 from errgen.config import Config
 from errgen.models import (
     CalculationResult,
@@ -39,6 +42,41 @@ from errgen.models import (
 from errgen.verification import CheckerAgent, ReviserAgent
 
 logger = logging.getLogger(__name__)
+
+
+def _build_verified_context_snapshot(sections: list[ReportSection]) -> str:
+    """
+    Freeze the verified context at the start of a checker round.
+
+    This preserves deterministic, round-based semantics when checker calls
+    are executed concurrently: paragraphs that PASS during the current round
+    do not affect other paragraphs until the next verification round.
+    """
+    parts: list[str] = []
+    for section in sections:
+        for para in section.paragraphs:
+            if para.verification_status == VerificationStatus.PASS:
+                parts.append(f"[{para.section_name}] {para.text[:200]}")
+    return "\n".join(parts)
+
+
+def _run_checker_task(
+    paragraph,
+    chunks,
+    calc_results,
+    iteration,
+    as_of_date,
+    verified_context,
+):
+    checker = CheckerAgent()
+    return checker.check(
+        paragraph=paragraph,
+        chunks=chunks,
+        calc_results=calc_results,
+        iteration=iteration,
+        as_of_date=as_of_date,
+        verified_context=verified_context,
+    )
 
 
 def _run_revision_task(
@@ -67,6 +105,8 @@ def verification_agent(state: dict) -> dict:
     Run CheckerAgent on every paragraph that is currently at FAIL status.
 
     Paragraphs already at PASS or UNRESOLVED are skipped.
+    The set of PASS paragraphs is snapshotted at the start of the round so
+    all FAIL paragraphs are checked against the same verified context.
     Returns the updated sections list (overwrite) and new checker verdicts
     (appended).
     """
@@ -76,37 +116,59 @@ def verification_agent(state: dict) -> dict:
     as_of: str | None = state.get("as_of_date")
     revision_count: int = state.get("revision_count", 0)
 
-    checker = CheckerAgent()
     new_verdicts: list[CheckerVerdict] = []
+    verified_context_snapshot = _build_verified_context_snapshot(sections)
+    work_items: list[tuple[int, int, object]] = []
 
-    # Accumulate verified text for cross-paragraph consistency checks
-    verified_context_parts: list[str] = []
+    for section_idx, section in enumerate(sections):
+        for para_idx, para in enumerate(section.paragraphs):
+            if para.verification_status == VerificationStatus.FAIL:
+                work_items.append((section_idx, para_idx, para))
 
-    for section in sections:
-        for para in section.paragraphs:
-            if para.verification_status != VerificationStatus.FAIL:
-                if para.verification_status == VerificationStatus.PASS:
-                    verified_context_parts.append(
-                        f"[{para.section_name}] {para.text[:200]}"
+    if work_items:
+        max_workers = max(1, min(len(work_items), Config.CHECKER_MAX_CONCURRENCY))
+        future_map = {}
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            for section_idx, para_idx, para in work_items:
+                future = executor.submit(
+                    _run_checker_task,
+                    para,
+                    all_chunks,
+                    calc_results,
+                    revision_count,
+                    as_of,
+                    verified_context_snapshot,
+                )
+                future_map[future] = (section_idx, para_idx, para)
+
+            results: dict[tuple[int, int], CheckerVerdict] = {}
+            for future in as_completed(future_map):
+                section_idx, para_idx, para = future_map[future]
+                try:
+                    results[(section_idx, para_idx)] = future.result()
+                except Exception as exc:  # pragma: no cover - defensive guard
+                    logger.exception(
+                        "verification_agent: unexpected checker failure for paragraph %s: %s",
+                        para.paragraph_id,
+                        exc,
                     )
-                continue
+                    checker = CheckerAgent()
+                    results[(section_idx, para_idx)] = checker.check(
+                        paragraph=para,
+                        chunks=all_chunks,
+                        calc_results=calc_results,
+                        iteration=revision_count,
+                        as_of_date=as_of,
+                        verified_context=verified_context_snapshot,
+                    )
 
-            verdict = checker.check(
-                paragraph=para,
-                chunks=all_chunks,
-                calc_results=calc_results,
-                iteration=revision_count,
-                as_of_date=as_of,
-                verified_context="\n".join(verified_context_parts),
-            )
+        for section_idx, para_idx, para in work_items:
+            verdict = results[(section_idx, para_idx)]
             para.checker_verdicts.append(verdict)
             new_verdicts.append(verdict)
 
             if verdict.status == VerificationStatus.PASS:
                 para.verification_status = VerificationStatus.PASS
-                verified_context_parts.append(
-                    f"[{para.section_name}] {para.text[:200]}"
-                )
                 logger.info(
                     "verification_agent: paragraph %s PASSED (iter %d)",
                     para.paragraph_id, revision_count,
@@ -147,7 +209,9 @@ def revise_sections(state: dict) -> dict:
 
     new_revisions: list[RevisionRecord] = []
     max_iter = Config.MAX_REVISION_ITERATIONS
-    work_items: list[tuple[int, int, object, object, list[EvidenceChunk]]] = []
+    work_items: list[
+        tuple[int, int, object, object, list[EvidenceChunk], list[CalculationResult]]
+    ] = []
 
     for section_idx, section in enumerate(sections):
         for para_idx, para in enumerate(section.paragraphs):
@@ -173,21 +237,39 @@ def revise_sections(state: dict) -> dict:
                 para.section_name,
                 all_chunks,
             )
+            relevant_calcs = select_calcs_for_section_name(
+                para.section_name,
+                calc_results,
+            )
             work_items.append(
-                (section_idx, para_idx, para, latest_verdict, relevant_chunks)
+                (
+                    section_idx,
+                    para_idx,
+                    para,
+                    latest_verdict,
+                    relevant_chunks,
+                    relevant_calcs,
+                )
             )
 
     if work_items:
         max_workers = max(1, min(len(work_items), Config.REVISION_MAX_CONCURRENCY))
         future_map = {}
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            for section_idx, para_idx, para, latest_verdict, relevant_chunks in work_items:
+            for (
+                section_idx,
+                para_idx,
+                para,
+                latest_verdict,
+                relevant_chunks,
+                relevant_calcs,
+            ) in work_items:
                 future = executor.submit(
                     _run_revision_task,
                     para,
                     latest_verdict,
                     relevant_chunks,
-                    calc_results,
+                    relevant_calcs,
                     revision_count + 1,
                 )
                 future_map[future] = (
@@ -217,7 +299,7 @@ def revise_sections(state: dict) -> dict:
                     )
                     results[(section_idx, para_idx)] = (para, record)
 
-        for section_idx, para_idx, para, _, _ in work_items:
+        for section_idx, para_idx, para, _, _, _ in work_items:
             revised_para, revision_record = results[(section_idx, para_idx)]
 
             # Replace the paragraph object in the section list

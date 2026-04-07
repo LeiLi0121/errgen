@@ -1,0 +1,85 @@
+{
+  "sample_id": "Conocophillips",
+  "model_name": "errgen",
+  "ticker": "COP US",
+  "as_of_date": "2025-11-17",
+  "run_id": "b049058a-10f8-45d8-8fbb-60abb53a4aff",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs provided in the evidence pack. Limitations regarding missing data (e.g., income statement) are accurately disclosed and consistent with the provided evidence types."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures, including balance sheet items, cash flow metrics, ratios, and analyst price targets, match the provided evidence chunks and calculation objects exactly or with acceptable rounding (e.g., Current Ratio 1.32 vs 1.32267)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed for each paragraph correspond directly to the specific claims made in that paragraph. There are no mismatches between the text assertions and the authoritative evidence records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates are on or before the As-of date (2025-11-17). No post-as-of claims are made. Forward-looking statements are appropriately framed as guidance or analyst targets."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Data points repeated across sections (e.g., employee count, current ratio, analyst price targets) are identical. No contradictions were found between paragraphs or sections."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "The report explicitly states it cannot analyze revenue, profitability margins, or free cash flow margins due to missing income statement data. While it provides solid balance sheet and partial cash flow metrics (OCF, debt, liquidity), the inability to assess top-line performance or profitability trends significantly limits the financial analysis quality."
+    },
+    "news": {
+      "score": 3,
+      "reason": "Covers relevant recent developments such as the Australia gas discovery, earnings reaction, and dividend increases. However, it lacks specific production guidance figures and acquisition details requested in the query, likely due to the same data constraints affecting the financial section."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context provided on the company's asset portfolio (unconventional, LNG, oil sands) and competitive positioning. Effectively links operational details to broader industry dynamics like OPEC estimates and regulatory changes in Alaska and Australia."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "The investment recommendation section is truncated ('[...truncated...]'), leaving the report without a definitive conclusion, price target, or rating from the author. This incompleteness severely reduces the decision-usefulness of the investment view."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive risk analysis covering financial leverage (quantified debt trends), operational exploration risks, market underperformance, and regulatory exposures. Clearly articulates implications for financial flexibility and project economics."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and clear section structure. However, readability is impacted by repetitive statements regarding data limitations in the financial section, and the abrupt truncation of the final section harms overall coherence."
+    }
+  },
+  "q_score": 2.85,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust risk analysis with quantified leverage metrics and comprehensive integration of operational and sector-specific news catalysts.",
+    "primary_weakness": "Critical gaps in financial performance analysis (missing revenue/margins) and an incomplete investment recommendation section due to truncation."
+  }
+}

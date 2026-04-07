@@ -1,0 +1,14 @@
+{
+  "baseline_label": "errgen-baseline",
+  "full_label": "errgen",
+  "n_samples": 29,
+  "skipped_missing_runs": [
+    "Novo_Nordisk"
+  ],
+  "skipped_missing_single": [],
+  "pairwise_only": true,
+  "wins": 16,
+  "losses": 10,
+  "ties": 3,
+  "adjusted_win_rate": 0.6034
+}

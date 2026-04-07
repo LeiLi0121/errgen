@@ -1,0 +1,78 @@
+{
+  "sample_id": "Walmart",
+  "model_name": "errgen",
+  "ticker": "WMT US",
+  "as_of_date": "2025-08-15",
+  "run_id": "01311557-772e-4dc7-90ee-e525fe3e0ec9",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most claims are well-supported by the provided evidence chunks. However, the claim that Walmart is scheduled to report earnings 'later in the week' conflicts with cited evidence stating the earnings are part of 'Next Week... starting Monday, Aug. 18'. Given the report as-of date is Friday, Aug. 15, 'later in the week' implies the current week, whereas evidence indicates the following week."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, cash flow, balance sheet items) and calculated metrics (growth rates, ratios, stock returns) match the provided evidence chunks and calculation objects exactly. No numerical errors detected."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations are correctly mapped to the relevant evidence chunks. The structured cited chunk IDs correspond to the content in each paragraph. No mismatches between claims and cited source IDs were found, although the interpretation of one news snippet (earnings timing) was slightly inaccurate."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All data points, news, and financial periods are consistent with the report as-of date of 2025-08-15. Financials are for Q2 ended July 31, 2025. News is dated 2025-08-15. No post-as-of information was used."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "Internal consistency across sections (Financial Analysis, Risk Analysis, Business Analysis) is high, with repeated figures matching. However, there is an external consistency issue where the report text ('later in the week') contradicts the cited evidence ('next week') regarding the earnings release schedule."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed Q2 FY2025 metrics (revenue, margins, cash flow, balance sheet) with specific figures. However, the inability to calculate year-over-year growth rates significantly limits trend analysis for a retail company, despite transparent acknowledgment of the data gap."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Integrates specific, relevant recent developments including cross-border logistics expansion, competitive moves by Amazon and Target, and macro context regarding retail earnings week. News is well-connected to competitive positioning."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Strong industry context regarding competitive dynamics and bellwether status. However, quality is reduced by significant verbatim repetition between the Company Overview and Business & Competitive Analysis sections, indicating poor synthesis."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Issues a clear Buy rating supported by momentum and sequential growth, but the rationale section is truncated ('[...truncated...]'), leaving the investment thesis incomplete and reducing decision-usefulness."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Demonstrates strong analytical discipline by explicitly stating where evidence is insufficient (regulatory, tech risks). Clearly articulates financial, macro, and competitive risks with quantified leverage and liquidity metrics."
+    },
+    "writing": {
+      "score": 2,
+      "reason": "Professional tone and clear section structure, but marred by heavy redundancy between sections and an abrupt, incomplete ending that disrupts analytical flow and completeness."
+    }
+  },
+  "q_score": 3.05,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Transparent acknowledgment of data limitations and strong integration of competitive news into the market positioning analysis.",
+    "primary_weakness": "The investment recommendation section is truncated, and there is significant verbatim repetition between the Company Overview and Business Analysis sections."
+  }
+}

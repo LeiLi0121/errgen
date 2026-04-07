@@ -1,0 +1,78 @@
+{
+  "sample_id": "Alphabet",
+  "model_name": "errgen-baseline",
+  "ticker": "GOOGL US",
+  "as_of_date": "2026-02-03",
+  "run_id": "4a13753a-45d1-45a0-b6ca-ba59223025e3",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the provided evidence chunks. The text accurately reflects the content of the cited news snippets and financial statements."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures, margins, ratios, and stock performance metrics match the provided evidence and calculation objects exactly. Rounding is appropriate."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Minor metadata inconsistency: In Financial Analysis Paragraph 1, the text describes growth rates as 'sequential', but the cited evidence table [11a5f53f...] labels the column as 'yoy_growth_pct', although the values mathematically correspond to sequential growth. This requires verification of raw numbers to confirm the claim."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe temporal violation: Recent Developments Paragraph 1 cites a news source [b581551f...] with a source_date of 2026-02-04, which is post-as-of relative to the report date of 2026-02-03. This implies the use of future information not available at the time of the report."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial data repeated in the Business & Competitive Analysis section matches the Financial Analysis section. No contradictions found between segments or paragraphs."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 1,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+  }
+}

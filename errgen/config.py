@@ -94,8 +94,14 @@ class Config:
     LLM_RETRY_ATTEMPTS: int = int(os.environ.get("LLM_RETRY_ATTEMPTS", "3"))
     # Seconds between retries
     LLM_RETRY_DELAY: float = float(os.environ.get("LLM_RETRY_DELAY", "5.0"))
+    # Concurrent checker requests per verification_agent round
+    CHECKER_MAX_CONCURRENCY: int = int(os.environ.get("CHECKER_MAX_CONCURRENCY", "4"))
     # Concurrent revision requests per revise_sections round
     REVISION_MAX_CONCURRENCY: int = int(os.environ.get("REVISION_MAX_CONCURRENCY", "4"))
+    # Concurrent section-level pairwise judge requests per sample
+    EVAL_PAIRWISE_MAX_CONCURRENCY: int = int(
+        os.environ.get("EVAL_PAIRWISE_MAX_CONCURRENCY", "6")
+    )
 
     # ------------------------------------------------------------------
     # Run artifacts
@@ -163,6 +169,8 @@ class Config:
             "benchmark_ticker": cls.BENCHMARK_TICKER,
             "price_lookback_days": cls.PRICE_LOOKBACK_DAYS,
             "prediction_lookback_days": cls.PREDICTION_LOOKBACK_DAYS,
+            "checker_max_concurrency": cls.CHECKER_MAX_CONCURRENCY,
             "revision_max_concurrency": cls.REVISION_MAX_CONCURRENCY,
+            "eval_pairwise_max_concurrency": cls.EVAL_PAIRWISE_MAX_CONCURRENCY,
             "runs_dir": cls.RUNS_DIR,
         }

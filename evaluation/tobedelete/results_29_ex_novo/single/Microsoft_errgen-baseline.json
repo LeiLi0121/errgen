@@ -1,0 +1,78 @@
+{
+  "sample_id": "Microsoft",
+  "model_name": "errgen-baseline",
+  "ticker": "MSFT US",
+  "as_of_date": "2026-01-26",
+  "run_id": "c747c0c4-cee9-433c-bbe5-ddf059a20a75",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial figures and developments are linked to specific evidence chunks or calculation IDs provided in the pack. The text accurately reflects the content of the cited evidence snippets (e.g., revenue figures, news headlines)."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, ratios) match the provided evidence chunks and calculation objects exactly. Calculations such as R&D intensity and debt-to-equity ratios are mathematically correct based on the cited source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations are correctly mapped to the authoritative chunk IDs and calc IDs listed under each paragraph. The evidence provided supports the specific data points referenced in the text."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe temporal violation. The report (As-of 2026-01-26) presents Fiscal Q2 financial results (Revenue, Income, etc.) as historical actuals ('demonstrated... reaching') while simultaneously stating in Recent Developments that Q2 earnings are 'scheduled to release' on 2026-01-28. Actuals cannot be known prior to the earnings release. Additionally, current quarter data (Jan 2026) is incorrectly labeled as 'Fiscal 2025' or 'Q2 2025' instead of Fiscal 2026."
+    },
+    "consistency": {
+      "score": 1,
+      "reason": "Severe inconsistency. The report contradicts itself regarding the status of Q2 data: Recent Developments states earnings are 'scheduled to release' (future/estimate), while Financial Analysis states revenue 'demonstrated... reaching' (past/actual). Furthermore, Fiscal Year labeling is inconsistent, referring to the current Jan 2026 quarter as 'Fiscal 2025' in Financial Analysis and 'Q2 2025' in Risk Analysis, conflicting with the Jan 2026 As-of date which implies Fiscal 2026."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 2,
+    "inconsistencies": 2
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 2,
+    "inconsistencies": 2
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe temporal violations, inconsistencies."
+  }
+}

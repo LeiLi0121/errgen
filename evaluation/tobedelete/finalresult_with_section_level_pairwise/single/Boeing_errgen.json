@@ -1,0 +1,85 @@
+{
+  "sample_id": "Boeing",
+  "model_name": "errgen",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "run_id": "95d31a53-c1d0-45b2-8284-04a31e1b4de4",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and evidence blocks provided. Financial figures, news events, and company details map precisely to the source evidence."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial numbers (revenue, margins, cash flow, balance sheet items) match the provided evidence chunks exactly. Calculated metrics (margins, ratios) are consistent with the provided calculation objects and source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Each paragraph is associated with specific authoritative cited chunk IDs that contain the supporting evidence. There are no mismatches between the claims and the content of the cited evidence blocks."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news and financial statements) are on or before the report As-of date of 2025-06-16. Financial periods (Q1 2025) are appropriate for the report date. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data and company information are consistent across all sections (Company Overview, Financial Analysis, Risk Analysis). There are no contradictions in figures or narrative."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed Q1 2025 metrics including margins, cash flow, and balance sheet ratios, but explicitly lacks year-over-year comparative data, which significantly limits trend analysis and assessment of performance trajectory."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Comprehensive coverage of material recent developments, including the Air India crash investigation, US-UK trade deal, competitor orders, and defense sales, all relevant to the investment thesis."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Adequate description of business segments and industry duopoly, but suffers from significant verbatim repetition between Company Overview and Business Analysis sections; industry context remains surface-level."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear Hold recommendation logically supported by financial constraints and safety catalysts; explicitly identifies conditions for view change (cash flow turnaround, investigation resolution)."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Well-structured analysis covering financial, operational, and geopolitical risks with quantified metrics; effectively balances headwinds (crash, debt) with tailwinds (trade deals)."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and logical structure, but notable redundancy between Company Overview and Business Analysis sections detracts from readability and editorial quality."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong integration of risk factors and investment logic that clearly ties financial constraints and safety catalysts to the Hold recommendation.",
+    "primary_weakness": "Significant verbatim repetition between Company Overview and Business Analysis sections, combined with a lack of historical financial trend data."
+  }
+}

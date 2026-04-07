@@ -1,0 +1,106 @@
+{
+  "sample_id": "Nvidia",
+  "model_name": "errgen-baseline",
+  "ticker": "NVDA US",
+  "as_of_date": "2025-09-01",
+  "run_id": "64eeb7f1-3f60-436c-add3-1153db0b365b",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Severe unsupported claim regarding the breakdown of gigawatt-scale data center costs. The report states '$35 billion in spending on Nvidia hardware... plus an additional $15 billion on other components' (Recent Developments Para 1, Business & Competitive Analysis Para 2). The cited evidence (cf3249e2-2136-4152-8917-f6fc6db36f2e) only states the total cost is 'around $50 billion to build' without supporting the specific $35B/$15B split or attributing the $35B specifically to Nvidia hardware in the provided snippet."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe numerical/terminology error in Financial Analysis Paragraph 4. The report states a 'net cash position of -$1,041,000,000'. However, the text immediately clarifies that cash and investments 'exceed total debt obligations', which implies a positive net cash position (or negative net debt). The cited calculation (39979521-b39e-460b-abbb-d3d214fb0516) labels the figure as 'NVDA Net Debt (Q2): -1041000000.0'. The report incorrectly labels the Net Debt figure as 'Net Cash position' while retaining the negative sign, creating a contradiction (Negative Net Cash implies Debt > Cash, but text says Cash > Debt)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured authoritative cited chunk IDs and calc IDs listed under each paragraph correctly correspond to the evidence blocks provided. There are no mismatches between the structured citation lists and the evidence content blocks themselves, even where the evidence content fails to fully support the textual claim (which is a Claim Support issue)."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (e.g., 2025-09-01, Q2 2025 ending July 2025) are consistent with the report As-of date of 2025-09-01. No post-as-of claims or future dates treated as historical facts were identified."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Minor to Moderate inconsistency in Financial Analysis Paragraph 4. The stated 'net cash position of -$1,041,000,000' contradicts the descriptive text 'cash... exceeding total debt obligations'. If cash exceeds debt, the net cash position should be positive. This stems from the numerical accuracy error of mislabeling Net Debt as Net Cash."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [
+      {
+        "severity": "severe",
+        "explanation": "The report claims CEO Jensen Huang indicated a single gigawatt data center requires '$35 billion in spending on Nvidia hardware... plus an additional $15 billion on other components'. The cited evidence (cf3249e2-2136-4152-8917-f6fc6db36f2e) only mentions a total cost of 'around $50 billion to build' without validating the specific $35B/$15B breakdown or the attribution to Nvidia hardware specifically.",
+        "section": "Recent Developments Paragraph 1; Business & Competitive Analysis Paragraph 2",
+        "offending_span": "$35 billion in spending on Nvidia hardware per facility... plus an additional $15 billion on other components"
+      }
+    ],
+    "numerical_errors": [
+      {
+        "severity": "severe",
+        "explanation": "The report states a 'net cash position of -$1,041,000,000' while simultaneously stating that cash and investments 'exceed total debt obligations'. A negative net cash position implies Debt > Cash, contradicting the text. The figure -1,041,000,000 corresponds to the 'Net Debt' calculation provided in the evidence, which should be labeled as Net Debt (negative indicating net cash) or converted to a positive Net Cash figure.",
+        "section": "Financial Analysis Paragraph 4",
+        "offending_span": "net cash position of -$1,041,000,000"
+      }
+    ],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "severe",
+        "explanation": "Internal contradiction in Financial Analysis Paragraph 4: The numerical claim 'net cash position of -$1,041,000,000' contradicts the qualitative description 'cash... exceeding total debt obligations'. If cash exceeds debt, the net cash position must be positive.",
+        "section": "Financial Analysis Paragraph 4",
+        "offending_span": "net cash position of -$1,041,000,000, with cash and equivalents... exceeding total debt obligations"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+  }
+}

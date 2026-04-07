@@ -1,0 +1,138 @@
+{
+  "sample_id": "Boeing",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 4 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 2 sections on this ordering, errgen-baseline won 3, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis, Risk Analysis. errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical factual content. The company overview text is word-for-word the same across both reports, including the header information (ticker, exchange, sector, CEO, employees, etc.) and the business description covering all four operating segments.",
+        "quality_comparison": "Both sections are identical in quality, structure, and content. Neither section provides any differentiation in terms of depth, relevance to the user query, analytical implications, or organization. Both serve as basic company introductions without unique insights.",
+        "winner": "tie",
+        "rationale": "The two Company Overview sections are materially indistinguishable - they contain identical text. Per the decision policy, when sections are materially indistinguishable, the result should be a tie. While the first report has a higher overall Q score (4.05 vs 3.45), the policy explicitly states not to mechanically follow the higher overall score when section text is the primary basis for judgment. Since this section is marked as low importance and both texts are identical, there is no basis to prefer one over the other."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical factual content - same company metadata (ticker, exchange, sector, CEO, employees, IPO date, website), same business description covering all four segments (Commercial Airplanes, Defense Space & Security, Global Services, Boeing Capital), and same incorporation details. Neither section contains any factual errors based on section-specific findings (both show severe=0, minor=0).",
+        "quality_comparison": "The section texts are word-for-word identical. Both provide basic company overview information without any differentiation in depth, organization, or analytical implications. Neither section adds unique value or takes a different approach to presenting the company overview.",
+        "winner": "tie",
+        "rationale": "The Company Overview sections from both reports are materially indistinguishable - they are identical in content, structure, and presentation. Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. While the second report has a higher overall Q score (4.05 vs 3.45), the policy explicitly states not to mechanically follow higher overall scores when section text is the primary basis for judgment. Since section importance is marked as low and the texts are identical, there is no basis to prefer one over the other."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cover the same core recent events: the Air India 787 crash and subsequent inspections, the Riyadh Air Airbus order, the US-UK bilateral trade deal involving Boeing jets, defense milestones (MQ-28 Ghost Bat, Australia FMS), and the 2025 Commercial Market Outlook. There are no material contradictions in the factual claims between the two sections.",
+        "quality_comparison": "The first report is superior in the context of an equity research task. It includes a dedicated paragraph (P4) on market sentiment, specific stock performance data (returns vs. SPY), and analyst valuation commentary. This directly supports the user query's requirement for an 'investment view' and assessment of 'financial performance.' The second report functions more as a news digest, omitting the market context and stock performance metrics essential for investor decision-making. Additionally, the first report groups commercial developments more cohesively.",
+        "winner": "first_report",
+        "rationale": "The first report better fulfills the equity research mandate by integrating market sentiment and stock performance data into the Recent Developments section. This provides the necessary context for the 'investment view' requested in the user query, whereas the second report limits itself to operational news without connecting it to market performance or valuation concerns. The first report's organization is also slightly more logical, keeping commercial updates together rather than splitting them."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cover the same core news events: the Air India 787 crash, Riyadh Air's Airbus order, the US-UK trade deal involving Boeing jets, defense demonstrations (MQ-28), and NASA TRACERS milestones. Report 2 includes additional factual details regarding stock performance (-2.00% vs SPY), specific valuation commentary ($200 price level), and industry sentiment (Air Lease CEO quote) that are absent in Report 1.",
+        "quality_comparison": "Report 2 demonstrates superior organization and relevance for an equity research context. It consolidates all commercial aviation developments into a single paragraph, whereas Report 1 splits commercial news across two separate paragraphs (P2 and P4). Crucially, Report 2 includes a dedicated paragraph on market sentiment and stock performance, which directly addresses the user's request for an investment view and industry fundamentals. Report 1 lacks any equity market context in this section.",
+        "winner": "second_report",
+        "rationale": "Report 2 is the clear winner for an equity research task because it bridges operational news to investment implications. By including stock performance data, valuation concerns, and market sentiment, it provides the necessary context for the 'investment view' requested in the user query. Report 1 is purely operational and scatters related commercial topics, making it less useful for an investor assessing the equity story. Report 2's inclusion of third-party industry commentary (Air Lease CEO) also adds analytical depth regarding competitive positioning."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical financial data for Boeing's Q1 2025, including revenue ($19.496 billion), margins, cash flow figures (OCF -$1.616 billion, FCF -$2.29 billion), and balance sheet metrics (Current Ratio 1.23, Negative Equity). Both accurately acknowledge the inability to calculate year-over-year growth due to missing prior period data. There are no factual discrepancies or errors in either section.",
+        "quality_comparison": "The sections are nearly identical in content and structure, with minor differences in organization and commentary. Report 2 separates R&D expenses into a dedicated paragraph (P4), offering slightly cleaner organization compared to Report 1 which bundles R&D with balance sheet metrics (P3). However, Report 1 provides a clearer analytical implication regarding liquidity risk, stating it 'remains manageable,' whereas Report 2 remains neutral ('The balance sheet reflects'). Report 2 adds context to R&D spending ('underscores... focus on product development'), but Report 1's assessment of liquidity is more directly responsive to the user query's focus on 'key risks' and 'cash flow trajectory.'",
+        "winner": "first_report",
+        "rationale": "Both sections are factually accurate and provide the same core financial data. The choice comes down to analytical value and organization. While Report 2 has slightly better paragraph segmentation, Report 1 offers a more actionable analytical takeaway on liquidity ('manageable'), which is critical for the user's request to assess 'key risks' and 'cash flow trajectory.' Given the sections are otherwise closely matched in quality and depth, the higher report-level quality score of Report 1 (4.05 vs 3.45) serves as an appropriate tie-breaker, suggesting stronger overall execution in the full report context."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical financial figures for Q1 2025, including revenue ($19.496B), margins, cash flow metrics (OCF -$1.616B, FCF -$2.29B), and balance sheet items (Negative Equity -$3.325B, Net Debt $43.476B). Both explicitly acknowledge the inability to calculate year-over-year growth due to missing prior period data. There are no factual discrepancies between the two sections.",
+        "quality_comparison": "The first report demonstrates slightly better organization and narrative relevance to the user query. It separates R&D into a dedicated paragraph (P4) and links the spending to the 'current production environment,' directly addressing the query's focus on 'production ramp-up progress.' It also emphasizes 'significant cash consumption,' which aligns better with the query's request to assess 'key risks' and 'cash flow trajectory' compared to the second report's more neutral phrasing. The second report combines R&D with liquidity metrics and uses slightly non-standard phrasing ('capital expenditures of negative $674 million'). While the second report offers a concise takeaway on liquidity ('manageable'), the first report's stronger emphasis on cash flow risks and operational context provides higher signal density for an investor assessing the specific query points.",
+        "winner": "first_report",
+        "rationale": "The section texts are factually identical, but the first report is preferred for its superior alignment with the user query. It explicitly connects R&D spending to the production environment and emphasizes the severity of cash consumption ('significant' vs. neutral), which better addresses the query's requirements to assess production progress and key risks. Additionally, the first report uses standard accounting phrasing for CapEx, whereas the second report's 'negative $674 million' is stylistically awkward. Despite the second report's higher overall score, the first report's section text offers better analytical relevance and organization for this specific task."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "The first report provides specific details on competitive dynamics (e.g., Riyadh Air ordering Airbus despite 787 confidence, UK trade deal), risk events (Air India 787 crash, safety inspections), and strategic initiatives (NASA TRACERS, Australia FMS). The second report only lists the four business segments and employee count without discussing competition, risks, or market positioning.",
+        "quality_comparison": "The first report delivers a substantive Business & Competitive Analysis with clear implications for investors regarding competitive pressure and safety risks. The second report is overly brief, resembling a Company Overview rather than a competitive analysis, and fails to address the user query's requirement for competitive positioning and risk assessment.",
+        "winner": "first_report",
+        "rationale": "The first report significantly outperforms the second by actually analyzing competitive positioning, risks, and strategic developments as requested by the user query. The second report stops after defining business segments, providing no insight into the competitive landscape, production ramp-up, or key risks. Despite the second report having a lower overall score, the section text difference is material; the first report offers actionable intelligence while the second offers only boilerplate description."
+      },
+      "order_ba": {
+        "factual_comparison": "The second report contains substantially more factual content relevant to competitive analysis, including specific competitive dynamics (duopoly with Airbus), recent customer orders, safety events with quantified insurance claims ($475M), defense contract approvals ($2B Australia sale), and customer financing activity. The first report only lists the four business segments with minimal detail and employee count, providing no competitive market information.",
+        "quality_comparison": "The second report delivers actual competitive analysis across four paragraphs covering market positioning, competitive pressures, safety risks, and strategic initiatives in both commercial and defense sectors. The first report is essentially a company overview with one paragraph that does not address competitive positioning, risks, or industry dynamics as the user query requires.",
+        "winner": "second_report",
+        "rationale": "The second report clearly better serves the user query's requirements for competitive positioning analysis within commercial aerospace and defense sectors. It addresses competitive dynamics (Airbus competition), risks (safety events, inspections), and industry fundamentals (market outlook, customer demand). The first report only provides basic segment descriptions without any competitive analysis, making it inadequate for the stated section purpose. Despite both reports having zero section-specific findings, the second report's substantive content on competitive positioning, risks, and market dynamics makes it materially superior for investor usefulness."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial figures (Negative Equity -$3.325B, Debt $53.618B, FCF -$2.29B) and reference the same scenario events (Air India 787 crash, US-UK trade deal, Australia FMS). However, Report 2 provides a clearer breakdown of liquidity, explicitly distinguishing Current Assets ($127.7B) from Cash ($10.1B) when explaining the Current Ratio, whereas Report 1 ambiguously phrases it as 'cash... against... current liabilities,' which could mislead readers about liquidity coverage. Report 2 also calculates Net Debt, adding analytical depth.",
+        "quality_comparison": "Report 2 aligns more closely with the user query's requirement to assess 'competitive positioning' by dedicating a paragraph to competitive risks (Airbus, margins, R&D), whereas Report 1 focuses that space on operational/technology risks (Southwest software). Report 2's financial risk explanation is more precise and less prone to misinterpretation. While Report 1 addresses 'supply chain execution' slightly more explicitly in its operational paragraph, Report 2's superior financial clarity and inclusion of competitive risk factors make it more useful for the investment view requested.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred due to superior financial clarity (correctly distinguishing Current Assets from Cash in liquidity analysis) and better alignment with the user query's specific requirement to assess 'competitive positioning' within the risk section. Report 1's phrasing on liquidity is potentially misleading, and it omits explicit competitive risk analysis in favor of less material technology details."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core financial metrics (negative equity of ~$3.3B, debt of ~$53.6B, negative FCF of ~$2.3B). However, the First Report accurately describes the liquidity position as 'current assets of $127,662M exceeding current liabilities of $103,654M,' which aligns with the stated current ratio. The Second Report confusingly states liquidity is based on '$10.142 billion in cash... against $103.654 billion in current liabilities' while citing a 1.23 current ratio, conflating cash with current assets and understating liquidity. Additionally, the Second Report contains visible punctuation typos (e.g., ',,,' and ',.') in the financial section.",
+        "quality_comparison": "The First Report is better organized, distinctly separating Financial, Regulatory, Macro, and Competitive risks, which aligns closely with the user query's multi-part requirements. Its Competitive Risk section (P4) directly addresses Airbus competition and margin pressure. The Second Report's Competitive/Operational section (P4) focuses on tangential details like Southwest Airlines' software upgrades rather than direct competitive positioning. The First Report's writing is cleaner and free of the punctuation errors present in the Second Report.",
+        "winner": "first_report",
+        "rationale": "The First Report is preferred due to superior reliability in financial risk description (correctly distinguishing current assets from cash) and better relevance to the user query regarding competitive positioning (Airbus/Margins vs. Southwest/Honeywell). The Second Report contains distracting punctuation typos and presents a potentially misleading view of liquidity by juxtaposing cash against current liabilities while citing the current ratio. Despite the Second Report's higher overall risk score, the section text of the First Report is more precise and analytically useful."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "The first report provides significantly more specific financial quantification (negative equity of ~$3.3B, total debt $53.6B, FCF -$2.3B for Q1 2025, current ratio 1.23, $2B Australia defense deal) compared to the second report's general references to negative equity and negative FCF without specific figures. Both reports cite similar market underperformance (~340 bps vs ~300 bps) and reference the Air India 787 crash and US-UK trade deal. The first report includes additional detail on geopolitical oil price impacts and NASA missions.",
+        "quality_comparison": "The first report demonstrates stronger signal density with concrete financial metrics that directly support the Hold recommendation and enable investor modeling. The second report is more concise but sacrifices actionable specificity. Both sections are well-organized with clear Hold rationales tied to cash flow trajectory and crash investigation outcomes. Neither section adequately addresses production ramp-up progress, which is a gap relative to the user query.",
+        "winner": "first_report",
+        "rationale": "For a high-importance Investment Recommendation section, the first report's specific financial quantification provides materially better investor utility. The concrete numbers ($3.3B negative equity, $53.6B debt, -$2.3B FCF, 1.23 current ratio) allow readers to independently assess the distressed balance sheet claim rather than taking it at face value. The first report also provides more complete catalyst coverage (Australia defense deal amount, oil price dynamics). While the second report has a higher section-level invest score (4 vs 3), the actual section text quality favors the first report due to superior specificity and analytical depth. Per the decision policy, section text quality takes precedence over report-level scores when the gap is material."
+      },
+      "order_ba": {
+        "factual_comparison": "The second report provides significantly more specific financial quantification (negative equity of ~$3.3B, total debt of $53.6B, FCF of -$2.3B for Q1 2025, current ratio of 1.23) compared to the first report's generic references to 'negative stockholders' equity' and 'negative free cash flow' without figures. The second report also includes more detailed news coverage ($2B Australia spare parts sale, NASA missions, Middle East oil price impacts) versus the first report's briefer mentions. Both cite the Air India 787 crash investigation and US-UK trade deal, but the second provides more context on investigation status and macro headwinds.",
+        "quality_comparison": "For a high-importance Investment Recommendation section, the second report delivers stronger analytical depth with specific metrics that support the Hold rating, more comprehensive risk coverage spanning regulatory, reputational, financial, and macro factors, and a clearer synthesis tying mixed evidence to the final recommendation. The first report covers similar themes but lacks the financial specificity and industry fundamental analysis (oil prices affecting airline demand) that the user query explicitly requested. The second report better addresses cash flow trajectory and industry fundamentals as specified in the query.",
+        "winner": "second_report",
+        "rationale": "The second report better serves the user query by providing specific financial quantification essential for investment decision-making, more comprehensive risk analysis including macro industry factors, and clearer analytical implications tying evidence to the Hold recommendation. While both reports reach the same conclusion, the second report's superior signal density and investor usefulness in this high-importance section outweighs any considerations about the first report's slightly cleaner structure. The financial specificity and industry fundamental analysis directly address key query requirements that the first report treats more generically."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 3,
+    "errgen": 1,
+    "Tie": 2
+  }
+}

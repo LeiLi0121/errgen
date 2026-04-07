@@ -1,0 +1,421 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\usepackage{float}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+
+\setstretch{1.0}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\title{ERRGen: Evidence-Grounded Equity Research Report Generator}
+\author{Your Name \\ Student ID \\ Course / Project Code}
+\date{\today}
+
+\begin{document}
+
+% ------------------------------------------------------------------
+% Cover sheet
+% ------------------------------------------------------------------
+% Recommended workflow:
+% 1. Convert the Word cover sheet to PDF.
+% 2. Upload it to Overleaf as coversheet.pdf.
+% 3. Uncomment the next line.
+% 4. Comment out \maketitle, \thispagestyle{empty}, and the following \newpage.
+%
+% \includepdf[pages=-]{coversheet.pdf}
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\begin{abstract}
+This project studies the problem of generating equity research reports with
+strong factual grounding, numerical correctness, and traceable evidence.
+Traditional large language model based report generation can produce fluent
+text, but it often suffers from unsupported claims, numerical mistakes, weak
+citations, and temporal leakage. To address these issues, we developed
+ERRGen, an evidence-grounded agentic pipeline for professional equity research
+report generation.
+
+ERRGen retrieves data from real financial and news sources, converts them into
+structured evidence chunks, performs deterministic financial calculations, and
+generates section-level analysis with paragraph-level citations. Each generated
+paragraph is then passed through a checker-reviser verification loop before it
+can be accepted into the final report. In addition, the final investment
+recommendation is gated so that it is skipped when unresolved major issues
+remain in the upstream sections.
+
+Experimental results show that the full ERRGen pipeline outperforms an
+unverified baseline in pairwise evaluation, achieving 12 wins, 4 losses, and
+4 ties over 20 samples, corresponding to an adjusted win rate of 0.70.
+However, the generated reports still underperform human-written ground-truth
+reports in overall analytical quality. These results suggest that verification
+and evidence grounding improve reliability, while deeper reasoning and richer
+financial synthesis remain important future directions.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+\subsection{Background and Motivation}
+Large language models are increasingly capable of generating long-form business
+and financial documents. However, equity research is a high-stakes setting in
+which fluent writing alone is insufficient. A useful research report must be
+factually grounded, numerically correct, temporally valid, and transparent
+about the evidence supporting each conclusion.
+
+In practice, a standard prompt-only generation workflow can produce plausible
+but unreliable outputs. Common failure modes include hallucinated company
+developments, unsupported investment conclusions, wrong calculations, and the
+use of information beyond the requested as-of date. These weaknesses motivate
+the design of a system that treats evidence tracking and verification as
+first-class components rather than optional post-processing steps.
+
+\subsection{Problem Statement}
+The goal of this project is to build a system that generates an equity
+research report for a target company given a ticker, an as-of date, and a set
+of focus areas. The system should produce a report that is useful to an
+investor while maintaining strong factual reliability and auditability.
+
+More specifically, the report should satisfy the following design goals:
+\begin{itemize}[leftmargin=1.5em]
+    \item analytical claims should be grounded in retrieved evidence;
+    \item numerical statements should come from deterministic calculations
+    rather than free-form language model arithmetic;
+    \item citations should be traceable at the paragraph level;
+    \item content should not use evidence beyond the requested as-of date;
+    \item the final recommendation should not be produced if major upstream
+    issues remain unresolved.
+\end{itemize}
+
+\subsection{Project Overview}
+To address the above problem, we developed ERRGen, an evidence-grounded
+equity research report generator. The system takes a natural-language user
+request, retrieves multi-source financial and news data, extracts structured
+facts, computes deterministic financial metrics, generates section-level
+analysis, verifies each paragraph through an iterative checker-reviser loop,
+and finally assembles a report with evidence and calculation appendices.
+
+Unlike a one-shot text generation system, ERRGen is designed around explicit
+control points for factuality. It combines retrieval, structured evidence
+representation, deterministic financial reasoning, and iterative verification
+into a single workflow.
+
+\subsection{Main Contributions}
+The main contributions of this project are as follows:
+\begin{itemize}[leftmargin=1.5em]
+    \item We propose an evidence-grounded agentic pipeline for long-form equity
+    research report generation.
+    \item We introduce paragraph-level citation tracking together with
+    deterministic financial calculations for auditable numerical reasoning.
+    \item We design a checker-reviser verification loop that identifies and
+    corrects unsupported claims, citation mismatches, numerical errors, and
+    temporal violations before the report is finalized.
+    \item We implement a gated investment recommendation mechanism so that the
+    final recommendation is withheld when upstream analysis remains unreliable.
+    \item We build an evaluation workflow that compares the full system against
+    both an ablation baseline and ground-truth reports.
+\end{itemize}
+
+\subsection{My Individual Contributions}
+For a team project, this subsection should clearly state the parts completed by
+you. Replace the placeholder items below with your actual work and estimated
+share.
+
+\begin{itemize}[leftmargin=1.5em]
+    \item Data retrieval and API integration: XX\%
+    \item Evidence extraction and deterministic calculator: XX\%
+    \item Analysis agent implementation: XX\%
+    \item Verification and revision loop: XX\%
+    \item Evaluation scripts and experiments: XX\%
+    \item Testing, debugging, and report writing: XX\%
+\end{itemize}
+
+You can also rewrite this subsection in first person, for example:
+\textit{I was mainly responsible for implementing the verification loop,
+building the evaluation pipeline, and running the experiments.}
+
+\section{Overview of Related Works}
+
+\subsection{LLM-Based Long-Form Report Generation}
+This subsection should review prior work on large language model based
+long-form text generation, especially systems that aim to produce structured
+reports or professional documents. Focus on the strengths of these systems in
+fluency and organization, while also noting that long-form generation often
+struggles with factual stability over many paragraphs.
+
+\subsection{Retrieval-Augmented and Evidence-Grounded Generation}
+This subsection should discuss retrieval-augmented generation and evidence
+grounding methods. The key connection to our project is that generated content
+should be anchored to retrieved external evidence rather than relying entirely
+on the model's parametric memory.
+
+\subsection{Self-Verification and Iterative Revision}
+This subsection should summarize work on self-correction, fact-checking, and
+iterative revision in LLM systems. This is closely related to our
+checker-reviser loop, where a draft paragraph is validated and revised before
+being accepted.
+
+\subsection{Evaluation with LLM-as-a-Judge}
+This subsection should review how LLMs are used as evaluators for generated
+outputs. You can explain that our project uses an LLM judge to evaluate both
+accuracy-oriented and quality-oriented dimensions, which is useful for comparing
+different system variants at scale.
+
+\subsection{Positioning of Our Work}
+Conclude this section by explaining how ERRGen differs from existing work. The
+key point is that our system combines evidence-grounded generation,
+deterministic numerical reasoning, paragraph-level citation tracking, and a
+verification gate in the specific domain of equity research report generation.
+
+\section{Methodology and Results}
+
+\subsection{Task Definition and Design Goals}
+The input to ERRGen is a user request specifying a company, ticker, as-of date,
+and optional focus areas. The output is a structured equity research report
+covering company overview, recent developments, financial analysis, business
+and competitive analysis, risk analysis, and, when appropriate, an investment
+recommendation and outlook.
+
+The system is designed to optimize not only readability but also factual
+grounding, numerical correctness, temporal validity, and auditability.
+
+\subsection{System Overview}
+Figure~\ref{fig:pipeline} illustrates the overall ERRGen workflow.
+
+\begin{figure}[H]
+\centering
+\fbox{
+\parbox{0.92\textwidth}{
+\centering
+parse\_query $\rightarrow$ retrieve\_data $\rightarrow$ extract\_evidence
+$\rightarrow$ analysis\_agent $\rightarrow$ verification\_agent
+$\leftrightarrow$ revise\_sections $\rightarrow$ prediction\_agent
+$\rightarrow$ report\_writer
+}}
+\caption{High-level ERRGen pipeline.}
+\label{fig:pipeline}
+\end{figure}
+
+The pipeline is implemented as a typed state graph. In the full mode, the
+analysis sections go through verification and revision before the prediction
+section is generated. In the baseline mode, the investment recommendation is
+generated directly without the verification-revision loop, which makes it a
+useful ablation for evaluation.
+
+\subsection{Data Collection and Evidence Construction}
+ERRGen retrieves real data from multiple sources, including Financial Modeling
+Prep (FMP), NewsAPI, Finnhub, SEC filings, and Yahoo Finance. The use of real
+APIs ensures that the system operates on actual external evidence rather than
+synthetic or manually curated examples.
+
+All retrieved content is normalized into structured evidence units together
+with source metadata. This common evidence representation allows later stages
+of the pipeline to reason over heterogeneous sources in a unified manner.
+
+You can describe the role of each source here:
+\begin{itemize}[leftmargin=1.5em]
+    \item FMP for company profile, financial statements, stock news, and price
+    history;
+    \item NewsAPI for supplemental company news;
+    \item Finnhub for optional fallback news and price history;
+    \item SEC for company filings and financial fallback data;
+    \item Yahoo Finance for price history fallback.
+\end{itemize}
+
+\subsection{Evidence Extraction and Deterministic Financial Calculation}
+After retrieval, ERRGen performs two extraction workflows. The first is a
+deterministic financial extraction process that identifies structured numeric
+facts and creates calculation requests. The second is a news extraction process
+that uses a language model to summarize events and signals from news articles.
+
+A central design choice is that the language model never performs free-form
+arithmetic for financial metrics. Instead, all numerical reasoning is delegated
+to a deterministic calculator that supports operations such as growth rate,
+margin, current ratio, debt-to-equity, net debt, free cash flow margin, and
+company-versus-benchmark price return. This improves reproducibility and makes
+each numeric claim auditable.
+
+\subsection{Section-Level Report Generation}
+The report is generated section by section instead of being produced in a
+single pass. The current system includes the following major analytical
+sections:
+\begin{itemize}[leftmargin=1.5em]
+    \item Company Overview
+    \item Recent Developments
+    \item Financial Analysis
+    \item Business \& Competitive Analysis
+    \item Risk Analysis
+    \item Investment Recommendation \& Outlook
+\end{itemize}
+
+Different sections receive different subsets of evidence and calculations. For
+example, recent developments rely more on news evidence, while financial
+analysis relies more on statement data and deterministic metrics. This design
+reduces irrelevant context and encourages more focused section-level reasoning.
+
+In addition to narrative sections, the final report also includes deterministic
+summary tables such as company snapshot, key financials, key ratios, recent
+filings, and market performance when the underlying evidence is available.
+
+\subsection{Paragraph-Level Citation Tracking}
+Each generated paragraph stores explicit references to the evidence chunks and
+calculation results that support it. This paragraph-level citation design makes
+the final report traceable at a finer granularity than document-level source
+lists. It also allows the verification system to validate each paragraph
+against the exact evidence it cites.
+
+\subsection{Verification and Revision Loop}
+The verification mechanism is one of the core components of ERRGen. Every
+generated paragraph begins as an unverified draft. A checker agent then
+evaluates whether the paragraph is adequately supported by its cited evidence
+and calculations. If problems are found, a reviser agent receives the checker
+feedback and produces a corrected paragraph. The revised paragraph is then
+checked again.
+
+The checker currently evaluates seven issue types:
+\begin{itemize}[leftmargin=1.5em]
+    \item unsupported claim
+    \item citation mismatch
+    \item hallucination
+    \item numerical error
+    \item internal inconsistency
+    \item scope violation
+    \item overclaiming
+\end{itemize}
+
+The loop terminates when the paragraph passes verification or when the maximum
+revision limit is reached, in which case the paragraph is marked as unresolved.
+This design improves reliability while guaranteeing that the workflow finishes.
+
+\subsection{Prediction Gate}
+The investment recommendation section is generated only when upstream sections
+do not contain unresolved major or critical issues. If such issues remain, the
+prediction step is skipped and a warning is inserted into the report. This
+prevents the system from producing a strong investment conclusion on top of
+unreliable analysis.
+
+\subsection{Run Artifacts and Auditability}
+ERRGen stores a full set of run artifacts, including the parsed request,
+retrieved sources, evidence chunks, extracted facts, calculation requests,
+calculation results, paragraph drafts, checker verdicts, revision records, and
+final report output. This makes the system easier to debug, evaluate, and
+analyze as a research prototype.
+
+\subsection{Experimental Setup}
+Our experiments evaluate ERRGen along two main axes. First, we compare the
+full system against an ablation baseline that generates reports without the
+verification-revision loop. Second, we compare full ERRGen reports against
+ground-truth human-written reports.
+
+The evaluation pipeline uses an LLM-as-a-judge framework. It first applies an
+accuracy-oriented evaluation, including claim support, numerical accuracy,
+citation precision, temporal validity, and consistency. If a report passes the
+accuracy gate, it is then scored on quality-oriented dimensions such as
+financial analysis quality, news coverage, company-market-industry discussion,
+investment usefulness, risk discussion quality, and writing quality.
+
+\subsection{Quantitative Results}
+Table~\ref{tab:main-results} summarizes the current evaluation results.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Experiment & Samples & Wins & Losses & Ties \\
+\midrule
+Full vs Baseline & 20 & 12 & 4 & 4 \\
+Full vs Ground Truth & 10 & 0 & 10 & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Summary of current pairwise evaluation results.}
+\label{tab:main-results}
+\end{table}
+
+For the full versus baseline comparison, the full ERRGen system achieved an
+adjusted win rate of 0.70. This indicates that adding verification, revision,
+and gating improves the overall quality and reliability of the generated
+reports relative to an unverified generation pipeline.
+
+However, the comparison against ground-truth reports shows that the generated
+outputs still trail human-written equity research in depth, synthesis, and
+overall investor usefulness. This suggests that factual control alone is not
+sufficient to match expert-level report quality.
+
+\subsection{Qualitative Analysis}
+This subsection should include one or two representative cases.
+
+For a successful case, discuss a report that passed verification and produced a
+complete recommendation section. Explain how evidence grounding, deterministic
+metrics, and the verification loop contributed to a more reliable final output.
+
+For a failure case, discuss a report in which one or more sections remained
+unresolved and the recommendation was skipped. Explain the underlying causes,
+such as insufficient qualitative evidence, noisy news retrieval, incomplete
+filing support, or revision failure.
+
+\subsection{Discussion}
+The experimental results suggest that the verification-oriented design improves
+report reliability in comparison with an unverified baseline. At the same
+time, the gap relative to human-written reports highlights that financial
+analysis quality depends not only on factual correctness but also on deeper
+synthesis, stronger valuation reasoning, and better use of domain knowledge.
+
+\section{Conclusion, Discussion and Future Work}
+This project presented ERRGen, an evidence-grounded equity research report
+generator designed to improve factual reliability, numerical correctness, and
+traceability in long-form financial text generation. The system combines real
+data retrieval, structured evidence representation, deterministic financial
+calculation, section-level generation, paragraph-level citation tracking, and a
+checker-reviser verification loop.
+
+The results show that the full system outperforms an unverified baseline,
+demonstrating the practical value of evidence grounding and iterative
+verification. However, the project also reveals that matching the depth and
+decision usefulness of expert-written research reports remains challenging.
+
+Several directions are promising for future work. First, the system could be
+extended with a valuation module, including discounted cash flow and multiple
+based analysis. Second, richer filing parsing and better industry-level data
+could improve business and risk discussion quality. Third, stronger retrieval
+and reranking methods may improve evidence coverage. Finally, combining
+automatic evaluation with human expert assessment would provide a more complete
+understanding of the system's strengths and weaknesses.
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{references}
+
+\appendix
+\section{Appendix (Optional)}
+You can place supplementary material here, such as:
+\begin{itemize}[leftmargin=1.5em]
+    \item prompt templates;
+    \item schema definitions;
+    \item additional experiment tables;
+    \item extra case studies;
+    \item screenshots or example run artifacts.
+\end{itemize}
+
+\end{document}

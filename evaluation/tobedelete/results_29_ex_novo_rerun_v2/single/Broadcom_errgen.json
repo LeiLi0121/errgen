@@ -1,0 +1,78 @@
+{
+  "sample_id": "Broadcom",
+  "model_name": "errgen",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "run_id": "6649e26b-77f8-478c-aad0-6b3a79a419ed",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most claims are well-supported by the provided evidence chunks. However, the specific market performance statistic ('AVGO stock gained 15.6% over the month') in Recent Developments Paragraph 1 is not visible in the truncated evidence snippets provided, making it technically unsupported based strictly on the visible pack."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, balance sheet items) match the authoritative evidence chunks exactly. Calculated metrics (growth rates, ratios) are mathematically correct based on the provided source numbers."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed for each paragraph correctly correspond to the data and claims made in the text. No mismatches found between the claims and the structured citation records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates and financial periods are consistent with the report as-of date of 2025-09-15. No post-as-of claims or future-dated financials used as historical facts were detected."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "There is a direct contradiction in the Company Overview section regarding employee count (37,000 in Paragraph 1 vs. 19,000 in Paragraph 2). While this discrepancy is acknowledged later in the Risk Analysis section, its presence in the Overview without immediate qualification constitutes a minor internal inconsistency."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth with specific revenue, margin, balance sheet, and R&D figures provided for multiple periods (Q1-Q3 2025, plus YoY comparisons). The report transparently discloses missing cash flow data rather than fabricating it, which demonstrates strong analytical discipline. Trends are clearly articulated (sequential vs YoY)."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers a good mix of equity news (stock performance, analyst initiation), product developments (RDK Summit), and competitive/regulatory news (Nvidia China investigation). Timely and relevant to the investment thesis."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Company overview is clear, but the dedicated Business & Competitive Analysis section is nearly a verbatim duplicate of the Company Overview, failing to add depth on moats, competitive dynamics, or industry structure beyond what was stated in the news section. This redundancy limits the 'Competitive' insight."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Provides a clear investment view supported by financial momentum and AI positioning. Balances bullish catalysts with specific risks (margins, leverage). Includes relative performance context (vs SPY) and analyst price targets."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Strong integration of financial metrics into risk narratives (leverage, margin compression). Transparently flags data limitations (covenants, cash flow) and internal data discrepancies (employee count), showing analytical rigor."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is generally clear, but the Business & Competitive Analysis section is a significant editorial failure, repeating the Company Overview almost word-for-word. This redundancy displaces potential insight and detracts from professional quality."
+    }
+  },
+  "q_score": 4.05,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust financial quantification with transparent caveats on data limitations and strong integration of numerical trends into risk and investment conclusions.",
+    "primary_weakness": "Significant redundancy in the Business & Competitive Analysis section which duplicates the Company Overview, diminishing analytical depth and writing quality."
+  }
+}

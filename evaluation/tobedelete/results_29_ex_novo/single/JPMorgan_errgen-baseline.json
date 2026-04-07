@@ -1,0 +1,78 @@
+{
+  "sample_id": "JPMorgan",
+  "model_name": "errgen-baseline",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "run_id": "bfbd99ef-e09a-435d-b789-342244f7cdd4",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, and risk factors are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. Truncated evidence snippets in the Risk Analysis section are covered by the evaluation instruction not to penalize truncation if structured IDs are present and consistent."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, net income, margins, ratios, stock returns) match the provided evidence snippets and calculation objects exactly or within acceptable rounding limits. Internal consistency between absolute values and derived percentages is maintained throughout the report."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs correctly map to the content they support. There are no mismatches between the claims made in the prose and the content of the authoritative evidence blocks linked to them."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All events, news dates, and financial periods cited (e.g., Q3 2025, October 21, 2025 HQ inauguration) are on or before the report As-of date of 2025-10-21. No post-as-of claims or future-dated information were identified."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and strategic details are consistent across all sections (e.g., Revenue $71.9B and D/E 2.95x appear consistently in Recent Developments, Financial Analysis, and Risk Analysis). No contradictions were found between paragraphs."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides dense financial data including revenue, margins, and balance sheet metrics. However, it fails to provide the specific Net Interest Income and Expense trends requested in the query, which are critical for bank analysis. Additionally, it uses non-standard banking metrics like Gross Margin without contextualizing them for the financial sector."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively covers relevant recent developments including Q3 earnings, the new headquarters inauguration, and sovereign lending developments. The news selected is timely and directly impacts the investment thesis."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Strong overview of company segments and operations. However, it lacks depth on the requested 'international retail expansion' strategy, focusing instead on lending hesitation. Industry context is present but relies heavily on stock performance rather than competitive dynamics."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Fails to deliver the requested concluding investment view based on valuation metrics and ROE outlook relative to peers. While there is some commentary on stock performance, the specific analytical conclusion required by the query is missing from the provided text."
+    },
+    "risk": {
+      "score": 2,
+      "reason": "Identifies key risk areas like credit quality and leverage. However, the analytical quality is weakened by applying generic corporate standards to banking metrics (e.g., flagging 2.95x D/E as elevated for a major bank) and interpreting negative operating cash flow as distress without sufficient banking sector context."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and clear structure. However, there is significant redundancy, with key financial figures (Q3 revenue, net income) repeated verbatim across Recent Developments, Financial Analysis, and Business sections without adding new insight in each iteration."
+    }
+  },
+  "q_score": 2.85,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive data density and clear structural organization of standard equity research sections.",
+    "primary_weakness": "Incomplete response to query requirements (missing valuation/ROE conclusion) and lack of sector-specific analytical nuance in risk and financial interpretation."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Blackstone",
+  "model_name": "errgen",
+  "ticker": "BX US",
+  "as_of_date": "2025-08-12",
+  "run_id": "1be96c0d-3583-4a57-a0e2-0591ddf87038",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs or calculation IDs provided in the evidence pack. Financial figures, dates, and strategic developments map directly to the provided news and financial statement snippets."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures (Net Income, Margins, Debt, Cash Flow) match the provided calculation objects and evidence chunks exactly. However, there is a discrepancy in the Q2 2025 Revenue figure presented in 'Recent Developments' ($3.80 billion from news) versus 'Financial Analysis' ($3.71 billion from financial statements/calculations). While both numbers exist in the evidence, the lack of clarification on the accounting definition (e.g., GAAP vs. Non-GAAP) creates a minor accuracy risk on the top-line number."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed for each paragraph accurately correspond to the claims made in the text. There are no instances where a claim is attributed to a chunk that does not contain the supporting information."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates (August 7-12, 2025) and financial periods (Q2 2025, Q1 2025, etc.) are prior to or on the report as-of date (2025-08-12). No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "There is a severe internal inconsistency regarding Q2 2025 Revenue. 'Recent Developments' Paragraph 1 states revenue was $3.80 billion (43% growth), while the same paragraph later states calculations show $3.71 billion (12.84% growth). This contradiction is repeated between the 'Recent Developments' and 'Financial Analysis' sections. The report fails to reconcile these figures (e.g., distinguishing GAAP vs. Economic Income), which materially impacts the interpretation of growth momentum."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+  }
+}

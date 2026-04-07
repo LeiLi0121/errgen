@@ -1,0 +1,106 @@
+{
+  "sample_id": "Broadcom",
+  "model_name": "errgen-baseline",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "run_id": "9655fd0e-8ee9-42fe-9869-e4b523472749",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most claims are supported by the authoritative evidence chunks. However, the specific stock performance figure (15.6% gain) cited in Recent Developments and Business Analysis is not visible in the provided truncated news snippets, though this is likely due to truncation rather than fabrication."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe numerical error in Financial Analysis Paragraph 1. The report claims Q3 2025 revenue grew 6.32% YoY compared to Q3 2024. The evidence shows Q3 2025 revenue ($15.952B) and Q3 2024 revenue ($13.072B), which implies ~22% YoY growth. The 6.32% figure actually corresponds to the Sequential growth from Q2 2025 ($15.004B) to Q3 2025. Mislabeling sequential growth as YoY growth is a material error affecting investment interpretation."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Authoritative cited chunk IDs correctly point to the evidence blocks containing the data referenced in the text. There are no mismatches between the cited chunks and the data fields used, even where the calculation logic is flawed."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates and financial periods are consistent with the report as-of date of 2025-09-15. Financial data (Q3 2025 ending Aug 2025) precedes the report date. No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "Minor inconsistency in Company Overview. Paragraph 1 states 37,000 full-time employees (supported by chunk 02a644b8), while Paragraph 2 states 19,000 full-time employees (supported by chunk 6e7211e9). This contradiction in company facts indicates data integrity issues but is not material to the investment thesis."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [
+      {
+        "severity": "minor",
+        "explanation": "The claim that the stock gained 15.6% over the past month is not explicitly visible in the provided evidence snippets for Recent Developments Paragraph 1 or Business & Competitive Analysis Paragraph 3, although truncation may hide the data.",
+        "section": "Recent Developments Paragraph 1; Business & Competitive Analysis Paragraph 3",
+        "offending_span": "The stock has gained 15.6% over the past month"
+      }
+    ],
+    "numerical_errors": [
+      {
+        "severity": "severe",
+        "explanation": "Q3 2025 Revenue YoY growth is misstated as 6.32%. Based on the cited evidence (Q3 2025: $15.952B, Q3 2024: $13.072B), the actual YoY growth is approximately 22.03%. The 6.32% figure represents the Sequential growth from Q2 2025 ($15.004B) to Q3 2025. This mislabeling materially misrepresents the company's growth trajectory.",
+        "section": "Financial Analysis Paragraph 1",
+        "offending_span": "representing a 6.32% YoY increase"
+      }
+    ],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "minor",
+        "explanation": "Conflicting employee counts are presented in the Company Overview section. Paragraph 1 cites 37,000 employees, while Paragraph 2 cites 19,000 employees. Both are supported by different authoritative chunks, indicating a contradiction in the source data or report drafting.",
+        "section": "Company Overview Paragraph 1 and Paragraph 2",
+        "offending_span": "Full-Time Employees: 37000 ... currently employs 19,000 full-time employees"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+  }
+}

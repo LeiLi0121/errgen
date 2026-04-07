@@ -1,0 +1,78 @@
+{
+  "sample_id": "Amazon",
+  "model_name": "errgen-baseline",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "run_id": "20e5a975-2a61-4338-b3b3-66f4da120032",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the structured authoritative cited chunk IDs and calculation objects provided in the evidence pack. For instance, revenue figures, margin percentages, and balance sheet items map precisely to the provided income statement, cash flow, and balance sheet evidence chunks."
+    },
+    "numerical_accuracy": {
+      "score": 3,
+      "reason": "Most numerical claims are mathematically consistent with the provided evidence and calculation objects. However, there is a significant labeling error regarding revenue growth: the report claims 7.73% year-over-year (YoY) growth, which matches the calculated quarter-over-quarter (QoQ) growth between Q1 ($155.7B) and Q2 ($167.7B) exactly. It is highly improbable for YoY and QoQ growth to be identical to two decimal places, indicating the 7.73% figure is likely QoQ growth mislabeled as YoY in both the text and the calculation object metadata."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed under each paragraph accurately correspond to the content discussed. For example, financial metrics cite income statement and balance sheet chunks, while news-related claims cite the appropriate news snippets. There are no mismatches between the claim and the authoritative evidence provided."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe temporal violation. The report presents Q2 2025 financial actuals (e.g., Revenue $167.7B, Balance Sheet dated 2025-06-30) as established facts. However, the provided news evidence dated 2025-07-28 (the as-of date) explicitly describes the Q2 earnings report as 'Upcoming' and a 'Preview' (e.g., chunk [955c6c68...]). Presenting unreleased earnings as historical actuals constitutes a post-as-of claim that breaks the Accuracy Gate."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial figures (revenue, margins, cash flow) are repeated consistently across the Financial Analysis, Business & Competitive Analysis, and Risk Analysis sections without contradiction."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe numerical errors, temporal violations."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "Take_Two_Interactive",
+  "ticker": "TTWO US",
+  "as_of_date": "2025-05-23",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate due to severe unsupported claims, whereas the second report passed the Accuracy Gate with no severe errors. This represents a material reliability gap, as the first report contains factually compromised content while the second is verified as accurate within the evaluation framework.",
+    "quality_comparison": "The second report is significantly more complete, including an Investment Recommendation & Outlook section that the first report lacks (the first report is truncated). The second report also achieved a Quality Score of 3.75 (Tier B) compared to the first report's 0.0 (Tier Fail), with higher scores across all quality dimensions including financial numeric analysis, risk assessment, and writing.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. The second report passed the Accuracy Gate while the first failed, making the second report the clear choice on reliability grounds. Additionally, the second report is more complete (includes a recommendation section) and demonstrates higher quality metrics, providing greater investor usefulness."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors, indicating all claims were supported by the provided evidence. The second report failed the Accuracy Gate due to unsupported claims, specifically citing precise impairment charge figures ($3.55 billion goodwill, $176.3 million intangibles) that were not substantiated in the source data. While both reports cover similar financial metrics (revenue, margins, liquidity), the second report's inclusion of specific, unverified numbers compromises its factual integrity.",
+    "quality_comparison": "The first report demonstrates higher quality through transparent disclosure of data limitations (e.g., missing R&D, debt, and EBITDA data) rather than hallucinating figures. It provides a coherent risk analysis and a justified 'Hold' recommendation based on verified liquidity and profitability concerns. The second report, while slightly more detailed in narrative, sacrifices reliability for specificity, rendering its analysis less trustworthy for investment decision-making.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary filter, and a pass on the Accuracy Gate is materially better than a fail. The first report is factually sound with no severe errors, whereas the second report contains unsupported claims that trigger a failure. Investors require accurate data; therefore, the first report is the clear winner despite the second report's attempt at greater granularity."
+  }
+}

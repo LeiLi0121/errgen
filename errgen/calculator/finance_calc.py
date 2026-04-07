@@ -34,6 +34,7 @@ from __future__ import annotations
 import ast
 import logging
 import operator
+import re
 from typing import Any
 
 from errgen.models import CalculationRequest, CalculationResult
@@ -226,25 +227,60 @@ class FinanceCalculator:
         if len(series) < 2:
             raise ValueError("Need at least 2 data points for YoY growth table.")
 
+        def _parse_period(period: str) -> tuple[str | None, int | None]:
+            match = re.match(
+                r"^(Q[1-4]|FY)\s+(\d{4})$",
+                str(period).strip(),
+                flags=re.IGNORECASE,
+            )
+            if not match:
+                return None, None
+            return match.group(1).upper(), int(match.group(2))
+
+        value_by_key: dict[tuple[str, int], float] = {}
+        for item in series:
+            label, year = _parse_period(item["period"])
+            if label is None or year is None:
+                continue
+            value_by_key[(label, year)] = float(item["value"])
+
         table = []
         for i, item in enumerate(series):
             row: dict[str, Any] = {"period": item["period"], "value": item["value"]}
-            if i > 0:
+            label, year = _parse_period(item["period"])
+
+            comparison_period: str | None = None
+            prev_val: float | None = None
+
+            if label == "FY" and year is not None:
+                comparison_period = f"FY {year - 1}"
+                prev_val = value_by_key.get(("FY", year - 1))
+            elif label and label.startswith("Q") and year is not None:
+                comparison_period = f"{label} {year - 1}"
+                prev_val = value_by_key.get((label, year - 1))
+            elif i > 0:
+                # Fallback for non-standard periods to preserve prior behaviour.
+                comparison_period = str(series[i - 1]["period"])
                 prev_val = float(series[i - 1]["value"])
-                curr_val = float(item["value"])
-                if prev_val == 0:
-                    row["yoy_growth"] = None
-                    row["yoy_growth_pct"] = "N/A"
-                else:
-                    growth = (curr_val - prev_val) / abs(prev_val)
-                    row["yoy_growth"] = growth
-                    row["yoy_growth_pct"] = f"{growth:.2%}"
-            else:
+
+            row["comparison_period"] = comparison_period
+            if prev_val is None:
                 row["yoy_growth"] = None
-                row["yoy_growth_pct"] = "N/A (base period)"
+                row["yoy_growth_pct"] = "N/A (no prior-year match)"
+            elif prev_val == 0:
+                row["yoy_growth"] = None
+                row["yoy_growth_pct"] = "N/A"
+            else:
+                curr_val = float(item["value"])
+                growth = (curr_val - prev_val) / abs(prev_val)
+                row["yoy_growth"] = growth
+                row["yoy_growth_pct"] = f"{growth:.2%}"
             table.append(row)
 
-        formula = "YoY growth = (current - previous) / |previous| for each period"
+        formula = (
+            "YoY growth = (current - previous-year matching period) / |previous| "
+            "for quarterly and annual series"
+        )
         return {"table": table}, formula
 
     @staticmethod

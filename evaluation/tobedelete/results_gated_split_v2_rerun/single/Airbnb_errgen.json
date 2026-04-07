@@ -1,0 +1,78 @@
+{
+  "sample_id": "Airbnb",
+  "model_name": "errgen",
+  "ticker": "ABNB US",
+  "as_of_date": "2025-08-11",
+  "run_id": "4403847a-0ba5-4b0a-8cb3-40767083a189",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Multiple material narrative claims lack authoritative chunk support in their respective paragraphs. Recent Developments Paragraphs 1, 2, and 3, and Business & Competitive Analysis Paragraphs 2, 3, and 4 list 'Authoritative cited chunk IDs: none' while making specific claims about earnings dates, EPS beats, stock price movements, CEO quotes, and institutional activity. Although some evidence exists elsewhere in the pack (e.g., Recent Developments Paragraph 4), the specific paragraphs making these claims do not have the required authoritative grounding linked, rendering the claims unsupported per the evaluation rules."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures (Revenue, Net Income, Margins, Ratios) match the provided calculations and evidence chunks accurately. However, Recent Developments Paragraph 2 states a share decline of 'roughly 6%', while Paragraph 1 states 'approximately 7%' and evidence chunk [1fdaf752...] confirms 'Shares Drop 7%'. The 6% figure is a minor numerical inaccuracy."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Where authoritative chunk IDs are provided (e.g., Financial Analysis, Risk Analysis), they precisely match the evidence. However, several paragraphs containing narrative claims have 'Authoritative cited chunk IDs: none', indicating a systematic failure to link claims to their source evidence in the grounding record."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods cited (Q2 2025, August 2025 news) are on or before the report As-of date of 2025-08-11. No post-as-of claims were identified."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "There is a contradiction regarding the post-earnings share decline: Recent Developments Paragraph 1 states 'approximately 7%', while Paragraph 2 states 'roughly 6%'. Evidence supports the 7% figure."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 3,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 3,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+  }
+}

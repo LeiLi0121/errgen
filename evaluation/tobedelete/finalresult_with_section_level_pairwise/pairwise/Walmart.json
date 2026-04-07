@@ -1,0 +1,138 @@
+{
+  "sample_id": "Walmart",
+  "ticker": "WMT US",
+  "as_of_date": "2025-08-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 4 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Financial Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen stronger sections: Business & Competitive Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 2 sections on this ordering, errgen-baseline won 3, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis, Business & Competitive Analysis. errgen-baseline stronger sections: Recent Developments, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical metadata (ticker, exchange, CEO, employee count, IPO date) and verbatim identical business description text covering segments, store types, product categories, and corporate history.",
+        "quality_comparison": "Both sections exhibit the same depth, organization, and clarity as the content is exactly the same, offering equal signal density and investor usefulness.",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable, containing exactly the same information and phrasing, satisfying the policy condition for a tie."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections exhibit identical reliability metrics with zero severe or minor findings and pass the report-level accuracy gate.",
+        "quality_comparison": "The textual content, including company statistics, business description, and formatting, is identical between the two reports.",
+        "winner": "tie",
+        "rationale": "Per the decision policy, when sections are materially indistinguishable in both reliability and quality, a tie is the appropriate outcome. Both reports provide the exact same information with no differentiating factors in depth, clarity, or accuracy."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports align on key external developments, including the Vietnam freight network expansion, the competitive landscape involving Target and Amazon, and the 1-year stock performance comparison against the S&P 500. The First Report includes specific Q2 fundamental metrics (revenue, net income, margin), whereas the Second Report substitutes this with 30-day stock performance data and broader context on the number of companies reporting earnings during the week.",
+        "quality_comparison": "The First Report provides higher signal density regarding operational performance, which is critical for equity research analysis. The Second Report offers slightly better nuance on competitive pressures (noting Amazon's persistent pressure) and earnings week volume, but lacks the fundamental financial data present in the First Report. The First Report is also more precise regarding earnings timing ('Thursday' vs 'later in the week').",
+        "winner": "first_report",
+        "rationale": "Both sections are reliable (zero findings), so the decision rests on quality and investor utility. The First Report is preferred because it includes specific fundamental financial metrics (Q2 revenue, net income, margins) in the Recent Developments section, offering greater depth on business performance than the Second Report's focus on stock price momentum. While the Second Report adds useful context on earnings week volume and competitive nuances, the inclusion of actual operational results in the First Report provides a clearer, more actionable takeaway for an investor assessing the company's health ahead of earnings."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports pass the accuracy gate with zero severe or minor findings, indicating equivalent reliability for this section. Both cover the Vietnam logistics expansion, upcoming earnings, competitive dynamics involving Target/Amazon, and stock performance. There are minor discrepancies in specificity: the first report states earnings are 'later in the week' while the second specifies 'next week on Thursday'; the second report specifies a 'downgrade' by BofA while the first says 'noting'; the second report includes Q2 fundamental metrics (revenue, income, margin) while the first focuses on 30-day and 1-year price returns.",
+        "quality_comparison": "The second report demonstrates higher signal density and investor usefulness. It provides critical fundamental data (Q2 revenue, net income, margins) which is more relevant for equity analysis than the short-term price momentum highlighted in the first report. The second report also adds strategic context to the logistics news (supply chain diversification) and is more precise regarding analyst actions (downgrade vs. noting). Given the report date is a Friday (2025-08-15), the second report's timing ('next week') is also logically clearer than the first report's 'later in the week'.",
+        "winner": "second_report",
+        "rationale": "While both sections are reliable, the second report offers superior depth and relevance. It includes fundamental financial metrics (revenue, earnings, margins) that are essential for fundamental equity analysis, whereas the first report substitutes this with short-term price momentum. The second report also provides better strategic context (supply chain diversification) and more precise analyst commentary (downgrade). The specificity of the earnings date in the second report is also more actionable given the report's Friday timestamp."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports align on core balance sheet ratios (D/E 0.72, Current 0.79) and margin metrics (Gross 25.16%, EBITDA 7.65%). Report 1 includes YoY growth rates (Revenue 7.12%, Net Income 56.59%) and Net Income dollar figures, while Report 2 explicitly states YoY data is unavailable. Section metadata indicates no factual errors for either report, suggesting Report 1's additional data is reliable and Report 2 is under-reporting available information.",
+        "quality_comparison": "Report 1 demonstrates greater analytical depth by including explicit Capital Expenditure ($6.4B), stock buyback ($1.6B), and Net Income figures, along with a dedicated paragraph explaining R&D intensity. Report 2 provides useful sequential cash flow comparison (Q2 vs Q1) but omits critical capital allocation details and YoY profitability trends, resulting in a less complete investment thesis.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to higher signal density and completeness. It delivers essential YoY performance metrics and capital allocation details (buybacks, CapEx) that Report 2 omits. Report 1's structured explanation of R&D and operational efficiency provides better analytical context for investors, whereas Report 2's tentative stance on YoY data limits its utility despite accurate core metrics."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical core financial figures (revenue, margins, cash flow, balance sheet ratios). However, Report 1 correctly identifies the 7.1% revenue growth as sequential (Q2 vs Q1) and explicitly states year-over-year data is unavailable. Report 2 incorrectly labels this same 7.12% sequential growth rate as 'year-over-year' in Paragraph 1, while simultaneously referencing Q1 comparisons. Report 2 also claims a 56.59% YoY net income increase without establishing the prior year baseline, whereas Report 1 remains consistent regarding data limitations.",
+        "quality_comparison": "Report 2 provides greater granularity, including absolute balance sheet figures (current assets/liabilities), CapEx, buyback data, and net income values. Report 1 provides useful Q1 cash flow comparisons for context. While Report 2 is more detailed, its analytical narrative is compromised by the growth rate classification error. Report 1 is more concise but maintains analytical integrity.",
+        "winner": "first_report",
+        "rationale": "Reliability is the primary decision criterion. Report 2's mislabeling of sequential growth as year-over-year growth is a material error in financial analysis that could mislead investors regarding the company's performance trajectory. Report 1 demonstrates superior analytical rigor by accurately distinguishing between sequential and year-over-year metrics and being transparent about data availability. Despite Report 2's additional detail, the factual precision of Report 1 makes it the more trustworthy section for investment decision-making."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports pass the report-level accuracy gate and have zero severe or minor findings flagged for this section, indicating comparable factual reliability based on the provided metadata.",
+        "quality_comparison": "The second report demonstrates significantly higher depth and relevance to the section title, providing competitive positioning, peer comparisons (Target, Amazon, Dollar General), and management context. The first report is limited to a basic business description without any competitive analysis.",
+        "winner": "second_report",
+        "rationale": "While the second report contains some redundancy in describing the business model across paragraphs, it fulfills the 'Competitive Analysis' requirement of the section header by including peer comparisons, market dynamics, and management insights. The first report omits competitive analysis entirely, offering only a generic company profile. Per the decision policy, stronger depth and investor usefulness outweigh the organizational flaw of repetition in the second report."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports pass accuracy gates with no severe or minor findings. Report 1 includes competitive data points (Amazon delivery expansion, Target digital underperformance, Dollar General stock performance) alongside business facts. Report 2 provides deeper operational detail (product categories, private brands, financial services) but lacks external competitive data.",
+        "quality_comparison": "Report 1 delivers higher signal density for the specific section title by addressing competitive dynamics and peer comparisons. Report 2 is descriptive but fails to analyze the competitive landscape. Report 1 has some redundancy between paragraphs but offers clearer analytical implications for investors regarding market positioning.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because it fulfills the 'Competitive Analysis' requirement of the section header, providing peer comparisons and market dynamics that Report 2 omits. While Report 2 offers detailed operational context, the lack of competitive assessment reduces its utility for this specific section. Report 1's inclusion of competitor performance and strategic positioning offers greater investor usefulness despite minor structural repetition."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports present consistent financial data (Debt $65.0B, D/E 0.72, Current Ratio 0.79, OCF $12.9B, R&D $0). Both have zero severe or minor factual findings according to the metadata. The first report includes additional derived metrics (Free Cash Flow $6.5B, FCF margin 3.67%, Long-term debt $35.6B) that are not present in the second report, adding depth without introducing factual conflict.",
+        "quality_comparison": "The first report provides a more decisive and investor-useful analysis. It categorizes risks clearly (moderate, material, manageable) and draws analytical implications from the data (e.g., interpreting $0 R&D as a potential vulnerability balanced by existing platforms). The second report frequently hedges with meta-commentary about data limitations ('insufficient in the provided data,' 'severity cannot be fully quantified'), which reduces its utility as a standalone research section. The first report also covers Free Cash Flow, a critical metric for debt service risk, which the second report omits.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually reliable, the first report delivers superior analytical quality. It offers definitive risk assessments and deeper financial metrics (FCF, FCF margin) that aid investor decision-making. The second report undermines its authority by explicitly stating where it lacks evidence to make claims, reading more like a data summary than a professional equity research analysis. The first report's synthesis of the R&D data into a balanced risk view is more valuable than the second report's refusal to quantify the risk due to data constraints."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports utilize identical core financial metrics (Current Ratio 0.79, Total Debt $65.0B, D/E 0.72, Net Debt $55.6B, Cash $9.4B, OCF $12.9B, R&D $0, Employees 2.1M) and both passed the report-level accuracy gate with no severe or minor findings. There are no factual contradictions between the two sections; the second report simply includes additional verified data points (Equity $90.1B, FCF $6.5B, Long-term Debt $35.6B, Gross Profit $44.6B, Revenue $177.4B).",
+        "quality_comparison": "The second report demonstrates superior analytical depth and investor usefulness. It contextualizes the low current ratio as typical for the retail sector rather than flagging it as a standalone medium-severity risk, which shows better domain understanding. It incorporates Free Cash Flow to assess debt service coverage, quantifies margin risks with gross profit data, and specifies long-term debt exposure for interest rate sensitivity. The first report is more tentative, often stating evidence is 'insufficient' where the second report draws reasoned conclusions from the available data (e.g., R&D spend implications).",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable, the second report provides significantly higher signal density. It offers crucial context on working capital dynamics specific to retail, adds Free Cash Flow metrics for a complete liquidity picture, and quantifies margin and interest rate risks with specific financial figures. The first report's analysis is more generic and hedged, whereas the second report delivers clearer analytical implications and a more nuanced risk assessment."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite consistent stock performance metrics (approx. 20.31% excess return over 1-year) and balance sheet ratios (Current Ratio 0.79). However, the first report includes critical income statement data (Net Income $7.0B, +56.59% YoY; Revenue +7.12% YoY; FCF 3.67% of revenue) that is absent in the second report, which focuses more on sequential revenue and absolute balance sheet figures.",
+        "quality_comparison": "The first report demonstrates superior depth and investor usefulness by linking the Buy rating to specific operational drivers (operational efficiency, FCF generation) and identifying more relevant risk factors (labor cost inflation across 2.1M employees). The second report is adequate but relies more on price performance and generic macro risks, with a slightly less precise competitor set (including home improvement retailers).",
+        "winner": "first_report",
+        "rationale": "While both sections pass accuracy gates with no flagged findings, the first report provides significantly higher signal density. It offers a more complete fundamental picture (including profitability and cash flow) necessary for an investment outlook, whereas the second report omits key income statement metrics. The first report's risk analysis is also more tailored to Walmart's specific operational profile."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports align on key factual metrics: Q2 Revenue ($177.4 billion), Current Ratio (0.79), and stock performance relative to the benchmark (1-year excess return ~20.3%, 30-day excess return ~2.0%). Both passed the accuracy gate with no severe or minor findings flagged in this section. The first report cites absolute debt/equity figures ($65.0B/$90.1B) while the second cites ratios (D/E 0.72), which are mathematically consistent.",
+        "quality_comparison": "The second report demonstrates superior analytical depth and relevance. It includes critical profitability metrics (Net Income +56.59%, FCF 3.67% of revenue) and year-over-year revenue growth, providing a stronger fundamental basis for the Buy rating than the first report's reliance on sequential revenue and price performance alone. The second report also identifies more specific, company-relevant risks (labor cost inflation across 2.1M employees, digital delivery competition) compared to the first report's slightly imprecise classification of Home Depot and Lowe's as 'direct competitors' alongside Target. The second report offers more actionable investment guidance regarding position sizing.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually consistent on core data points, the second report provides a more comprehensive investment thesis by incorporating profitability (Net Income) and cash flow metrics essential for valuation. Its risk analysis is more tailored to Walmart's specific operational exposures (labor, digital competition) rather than generic macro factors or less direct competitor comparisons. The inclusion of YoY growth context and actionable advice on position sizing makes the second report more useful for an investor."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 3,
+    "errgen": 1,
+    "Tie": 2
+  }
+}

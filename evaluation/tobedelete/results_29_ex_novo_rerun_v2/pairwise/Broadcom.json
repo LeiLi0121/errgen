@@ -1,0 +1,23 @@
+{
+  "sample_id": "Broadcom",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Report 1 failed the Accuracy Gate due to severe errors, specifically a material numerical error in calculating year-over-year revenue growth (stating 6.32% instead of the mathematically correct ~22% based on the provided revenue figures of $15.95B vs $13.07B). Report 2 passed the Accuracy Gate with zero severe errors, correctly calculating the growth rate and maintaining factual consistency across all sections.",
+    "quality_comparison": "Report 2 achieved a Quality Score of 4.05 (Tier B) with robust financial quantification, transparent caveats on data limitations, and strong integration of numerical trends into risk conclusions, though it suffers from redundancy in the Business & Competitive Analysis section. Report 1's quality evaluation was skipped (0.0) due to the Accuracy Gate failure, and its analytical depth is rendered unreliable by the factual inaccuracies.",
+    "winner": "second_report",
+    "rationale": "The decision policy prioritizes reliability, stating that a pass on the Accuracy Gate is materially better than a fail. Report 2 is factually reliable, whereas Report 1 contains material numerical errors that fundamentally compromise investor usefulness. This reliability gap is significant enough to determine the winner regardless of Report 2's minor quality weaknesses like redundancy."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors, correctly calculating Q3 2025 revenue growth at approximately 22% year-over-year. The second report failed the Accuracy Gate with three severe errors, including a critical numerical error where it claimed 6.32% YoY revenue growth using the same underlying figures that actually support ~22% growth. The second report also contained unsupported claims and inconsistencies regarding employee counts and data citations.",
+    "quality_comparison": "The first report achieved Tier B status with a Q score of 4.05, offering robust financial quantification and transparent caveats on data limitations, though it suffered from some redundancy in the Business & Competitive Analysis section. The second report was rated Tier Fail with a Q score of 0.0, as the quality evaluation was explicitly skipped due to the failure of the Accuracy Gate, rendering its analytical depth irrelevant.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary filter, and a pass on the Accuracy Gate is materially better than a fail. The second report's failure includes a material numerical error on revenue growth (6.32% vs actual ~22%), which fundamentally compromises investor usefulness. Since the first report is factually reliable and provides competent analysis, it is the clear winner regardless of minor quality redundancies."
+  }
+}

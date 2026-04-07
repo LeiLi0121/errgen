@@ -17,9 +17,6 @@ from typing import Any
 
 from errgen.calculator.finance_calc import (
     FinanceCalculator,
-    build_growth_request,
-    build_margin_request,
-    build_yoy_table_request,
 )
 from errgen.models import (
     CalculationRequest,
@@ -174,43 +171,9 @@ class FinancialExtractor:
         sorted_balance_periods = sorted(balance_by_period.keys(), key=_period_sort_key)
         sorted_cashflow_periods = sorted(cashflow_by_period.keys(), key=_period_sort_key)
 
-        # YoY revenue growth table
-        revenue_series = []
-        for period in sorted_income_periods:
-            chunk = income_by_period[period].get("revenue")
-            if chunk and chunk.numeric_value is not None:
-                revenue_series.append({"period": period, "value": chunk.numeric_value})
-        if len(revenue_series) >= 2:
-            req = build_yoy_table_request(
-                description=f"{ticker} Revenue YoY Growth Table",
-                series=revenue_series,
-                chunk_ids=[
-                    income_by_period[p]["revenue"].chunk_id
-                    for p in sorted_income_periods
-                    if "revenue" in income_by_period[p]
-                ],
-            )
-            calc_requests.append(req)
-            calc_results.append(self.calculator.compute(req))
-
-        # YoY net income growth table
-        ni_series = []
-        for period in sorted_income_periods:
-            chunk = income_by_period[period].get("netIncome")
-            if chunk and chunk.numeric_value is not None:
-                ni_series.append({"period": period, "value": chunk.numeric_value})
-        if len(ni_series) >= 2:
-            req = build_yoy_table_request(
-                description=f"{ticker} Net Income YoY Growth Table",
-                series=ni_series,
-                chunk_ids=[
-                    income_by_period[p]["netIncome"].chunk_id
-                    for p in sorted_income_periods
-                    if "netIncome" in income_by_period[p]
-                ],
-            )
-            calc_requests.append(req)
-            calc_results.append(self.calculator.compute(req))
+        # Temporarily disable YoY table generation. Some providers emit quarter
+        # labels without stable year context, which can turn these into implicit
+        # sequential comparisons and poison downstream factual checks.
 
         # Most-recent period margin calculations
         if sorted_income_periods:
@@ -298,24 +261,8 @@ class FinancialExtractor:
                 calc_requests.append(req)
                 calc_results.append(self.calculator.compute(req))
 
-        # FCF margin (most recent period)
-        if sorted_cashflow_periods and sorted_income_periods:
-            latest_cf = sorted_cashflow_periods[-1]
-            cashflow_latest = cashflow_by_period[latest_cf]
-            fcf_chunk = cashflow_latest.get("freeCashFlow")
-            rev_chunk = income_by_period.get(sorted_income_periods[-1], {}).get("revenue")
-            if fcf_chunk and rev_chunk and fcf_chunk.numeric_value is not None and rev_chunk.numeric_value:
-                req = CalculationRequest(
-                    operation="fcf_margin",
-                    inputs={
-                        "free_cash_flow": fcf_chunk.numeric_value,
-                        "revenue": rev_chunk.numeric_value,
-                    },
-                    description=f"{ticker} FCF Margin ({latest_cf})",
-                    chunk_ids_used=[fcf_chunk.chunk_id, rev_chunk.chunk_id],
-                )
-                calc_requests.append(req)
-                calc_results.append(self.calculator.compute(req))
+        # Temporarily disable FCF margin generation until income-statement and
+        # cash-flow periods are aligned by a stricter canonical period key.
 
         logger.info(
             "FinancialExtractor: %d facts, %d calcs for %s",

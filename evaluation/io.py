@@ -8,7 +8,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from evaluation.schemas import EvalQuery, RunBundle
+from evaluation.schemas import EvalQuery, RunBundle, SingleReportEvaluation
 from errgen.models import CalculationResult, EvidenceChunk, FinalReport, UserRequest
 
 
@@ -50,6 +50,13 @@ def load_run_bundle(run_dir: str | Path) -> RunBundle:
         evidence_chunks=evidence_chunks,
         calculation_results=calculation_results,
         manifest=manifest,
+    )
+
+
+def load_single_evaluation(path: str | Path) -> SingleReportEvaluation:
+    eval_path = Path(path)
+    return SingleReportEvaluation.model_validate_json(
+        eval_path.read_text(encoding="utf-8")
     )
 
 

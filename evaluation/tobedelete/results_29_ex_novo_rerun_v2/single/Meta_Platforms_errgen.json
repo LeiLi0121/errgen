@@ -1,0 +1,78 @@
+{
+  "sample_id": "Meta_Platforms",
+  "model_name": "errgen",
+  "ticker": "META US",
+  "as_of_date": "2026-02-19",
+  "run_id": "44b61cea-485b-48de-9938-bc6ce0fe752f",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and competitive positioning are directly supported by the authoritative cited chunk IDs and evidence blocks. News assertions match the provided news snippets, and financial metrics align with the income statement, balance sheet, and cash flow evidence."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (revenue, margins, ratios, R&D spend) match the provided evidence chunks and calculation IDs exactly. Derived metrics such as gross margin, net debt, and current ratio are mathematically consistent with the source data provided in the evidence pack."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed under each paragraph accurately correspond to the content in that paragraph. There are no instances where claims are made without relevant supporting IDs, and the structured evidence records validate the prose."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date (2026-02-19) is consistent with the evidence dates. News articles are dated on or before the as-of date (2026-02-19), and financial statements cover periods ending prior to the as-of date (Q4 2025). No post-as-of claims were identified."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points are consistent across all sections of the report. Key figures such as employee count, AI infrastructure spend, stock award cuts, and revenue growth rates match between the Company Overview, Recent Developments, Financial Analysis, and Business & Competitive Analysis sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent quantification across income statement, balance sheet, and cash flow. Provides specific quarterly revenue, margin, and R&D figures with YoY growth rates. Internally consistent calculations (e.g., net margin derived from income/revenue) and highlights anomalies like Q3/Q4 net income volatility for further analysis."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers relevant strategic developments including AI infrastructure spending, stock option adjustments, and specific executive commentary from the India AI Impact Summit. Timely and specific, though some content is redundantly repeated in the Business section."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "While it identifies key industry trends (AI race, chip landscape) and company segments, the Business & Competitive Analysis section suffers from significant redundancy, repeating news narratives and financial metrics rather than providing deep competitive moat or market share analysis. The repetition displaces new strategic insight."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "The dedicated Investment Recommendation & Outlook section is truncated ('[...truncated...]'), failing to provide a formal rating, price target, or conclusive investment thesis. While scattered hints exist in other sections, the core deliverable requested in the query is incomplete."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Outstanding risk analysis that quantifies specific threats. It highlights earnings volatility (85% decline then 740% rebound), rapid debt accumulation (64% growth in one quarter), and R&D margin pressure with precise percentages. Connects financial data directly to investor implications."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and professional, but the report suffers from verbatim repetition between the Recent Developments and Business sections (e.g., AI spend figures, India Summit details). Additionally, the abrupt truncation of the final section negatively impacts completeness and flow."
+    }
+  },
+  "q_score": 3.9,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Highly quantified financial and risk analysis that identifies specific anomalies (earnings volatility, debt spikes) and provides detailed margin and cash flow metrics.",
+    "primary_weakness": "The Investment Recommendation section is truncated, and the Business Analysis section redundantly repeats news content rather than offering unique competitive insights."
+  }
+}

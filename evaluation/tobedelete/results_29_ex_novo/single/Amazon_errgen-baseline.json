@@ -1,0 +1,78 @@
+{
+  "sample_id": "Amazon",
+  "model_name": "errgen-baseline",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "run_id": "20e5a975-2a61-4338-b3b3-66f4da120032",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Severe issue: The report presents Q2 2025 financial results (e.g., Revenue $167.7B) as confirmed actuals ('Amazon demonstrated solid revenue growth... revenue reaching'). However, authoritative news evidence dated the same day (2025-07-28) describes the earnings as a 'Preview' and states companies are 'scheduled to report... this week', implying results are not yet public. Presenting unreleased estimates as actuals is a material support failure."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe issue: The report claims 7.73% Year-over-Year (YoY) revenue growth. However, the visible source data (Q1 2025: $155.7B, Q2 2025: $167.7B) mathematically yields 7.73% as the Sequential growth rate ((167.7-155.7)/155.7). No Q2 2024 data is provided to verify YoY. The identical figure for both YoY (claimed) and Sequential (calculated from visible data) indicates a likely mislabeling of growth type, which is material for valuation."
+    },
+    "citation_precision": {
+      "score": 3,
+      "reason": "Minor issue: In Business & Competitive Analysis Paragraph 2, the report cites a Q1 2025 10-Q filing (filed 2025-05-02, period ending 2025-03-31) as evidence for Q2 2025 financial performance claims. This filing cannot contain Q2 results. While calculation IDs support the numbers, the chunk citation is mismatched."
+    },
+    "temporal_validity": {
+      "score": 2,
+      "reason": "Severe issue: The report As-of date is 2025-07-28. The report treats Q2 2025 (ending June 30) results as finalized history. However, evidence news snippets from 2025-07-28 refer to the earnings as a 'Preview' and state reporting is 'scheduled... this week'. This indicates the report is using post-as-of or unreleased data as confirmed historical fact, violating temporal validity."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Noticeable issue: The report claims 7.73% YoY growth and ~7.7% Sequential growth. Given the visible Q1/Q2 2025 revenue data yields exactly 7.73% sequentially, the distinction between YoY and Sequential is blurred, suggesting internal inconsistency in how growth metrics are derived or labeled across the document."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 1,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, temporal violations, inconsistencies."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Upstart",
+  "model_name": "errgen",
+  "ticker": "UPST US",
+  "as_of_date": "2025-08-11",
+  "run_id": "a65ce18f-333f-4341-96df-c93116fcda87",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, corporate actions, and market positioning are directly supported by the authoritative cited chunk IDs and evidence provided. No unsupported assertions detected."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical data points (revenue, margins, cash flow, balance sheet items, R&D expenses) match the provided evidence and calculation objects exactly or represent appropriate rounding (e.g., $257.3m vs $257,291,000). No calculation errors found."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed for each paragraph correspond accurately to the claims made. Each claim is backed by the specific evidence snippets provided in the pack."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news citations and financial periods are on or before the report as-of date of 2025-08-11. No post-as-of claims or future-dated facts presented as historical data."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and qualitative statements are consistent across all sections of the report (e.g., Q2 2025 revenue and margins match in Recent Developments and Financial Analysis). No contradictions identified."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed P&L, margin, cash flow, and balance sheet metrics with clear YoY and sequential comparisons. Transparently acknowledges missing data (debt, current ratios) rather than omitting analysis, which supports analytical discipline."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively covers both earnings results and the convertible notes offering, analyzing the distinct market reactions to each. Timeline of events is distinguishable, though the proximity of dates (Aug 6 vs Aug 11) requires careful reading to separate earnings volatility from financing concerns."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Clear description of the business model and TAM, but explicitly admits lack of specific market share or moat data. AI credit engine developments are noted as high R&D spend but lack specific product-level detail requested in the query."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear 'Hold' recommendation with logical synthesis of the operational turnaround versus sustainability risks. Connects financial metrics and capital raising activities directly to the risk-reward conclusion."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive identification of key risks including profitability volatility, cash flow deterioration, R&D pressure, and macro credit exposure. Links balance sheet leverage to potential downside in credit cycles."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Well-structured with clear headings, but suffers from repetitive recitation of key metrics (revenue, net income) across Developments, Financial, and Investment sections without significant incremental insight in each instance."
+    }
+  },
+  "q_score": 3.75,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust financial analysis with transparent data caveats that underpin a balanced, well-reasoned investment thesis.",
+    "primary_weakness": "Repetitive presentation of key financial figures across multiple sections and limited specific detail on AI product developments despite query focus."
+  }
+}

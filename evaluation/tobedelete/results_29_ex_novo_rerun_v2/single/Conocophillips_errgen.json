@@ -1,0 +1,78 @@
+{
+  "sample_id": "Conocophillips",
+  "model_name": "errgen",
+  "ticker": "COP US",
+  "as_of_date": "2025-11-17",
+  "run_id": "b049058a-10f8-45d8-8fbb-60abb53a4aff",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and evidence blocks provided. Limitations regarding missing income statement data are accurately disclosed and consistent with the evidence pack."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (current ratio, insider buying amount, price targets, cash flow, balance sheet items) match the provided evidence chunks and calculation objects exactly. Rounding is appropriate."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed for each paragraph correspond accurately to the evidence supporting the claims in that paragraph. There are no mismatches between claims and cited evidence."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news and financial periods) are on or before the report as-of date of 2025-11-17. No post-as-of claims or future-dated evidence are used to support historical or current statements."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Data points are consistent across different sections of the report (e.g., current ratio, employee count, balance sheet figures). There are no internal contradictions."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "The report explicitly states it cannot analyze revenue, profitability margins, or free cash flow margins due to missing income statement data. While balance sheet metrics like liquidity and debt levels are provided, the absence of core operating performance analysis severely limits the utility of the financial section for equity research."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers a broad and relevant range of recent developments, including exploration discoveries, earnings reactions, dividend increases, insider activity, analyst updates, and macro regulatory changes. The news selection is timely and pertinent to the investment thesis."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Provides a solid overview of the company's global asset portfolio and operational segments. Connects market dynamics like OPEC estimates and regulatory shifts to the company, but lacks deep competitive moat analysis or detailed industry positioning beyond general peer comparisons."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "The investment recommendation section is truncated, leaving the outlook incomplete. It lacks a definitive buy/sell/hold rating or independent valuation target, relying instead on consensus figures. The conclusion of a 'mixed profile' is vague without supporting valuation analysis."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "The strongest section of the report. Comprehensively categorizes risks into financial, operational, market, and regulatory buckets. Provides specific examples such as debt leverage trends, exploration uncertainty, and jurisdiction-specific regulatory obligations with clear implications."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is logical and professional with clear headings. However, there is significant redundancy where key metrics (insider buying, current ratio, debt figures) are repeated across almost every section without adding new analytical context. The truncation at the end negatively impacts completeness."
+    }
+  },
+  "q_score": 2.85,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive and well-categorized Risk Analysis that clearly outlines financial, operational, and regulatory threats with specific examples.",
+    "primary_weakness": "Critical gaps in Financial Analysis (no revenue/margins) and an incomplete, non-committal Investment Recommendation section due to truncation."
+  }
+}

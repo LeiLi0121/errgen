@@ -1,0 +1,23 @@
+{
+  "sample_id": "Adobe",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate due to severe temporal violations and unsupported claims, specifically citing Q4 and Q1 revenue figures as historical data when those periods had not yet occurred relative to the August 2025 as-of date. The second report passed the Accuracy Gate with zero severe errors, correctly referencing Q2 2025 data and transparently acknowledging limitations in calculating year-over-year growth due to missing prior period data.",
+    "quality_comparison": "The second report achieved a Quality Score of 4.15 (Tier B) compared to the first report's 0.0 (skipped due to accuracy failure). The second report provides a more complete investment framework, including dedicated sections for Risk Analysis and Investment Recommendation with clear logic, whereas the first report relies on factually compromised financial analysis and lacks a structured conclusion.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, reliability is the primary determinant, and a pass on the Accuracy Gate is materially better than a fail. The first report's temporal violations render its financial analysis unreliable for investment decisions. The second report is factually sound, demonstrates intellectual honesty regarding data limitations, and offers superior completeness with risk-aware recommendation logic."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passes the Accuracy Gate with zero severe errors, whereas the second report fails the Accuracy Gate with three severe errors (one unsupported claim and two temporal violations). The first report transparently acknowledges data limitations regarding prior period revenue, while the second report presents specific sequential growth rates and future quarter data (Q4, Q1) that likely constitute the temporal violations given the August 2025 as-of date.",
+    "quality_comparison": "The first report achieves a Tier B quality score (4.15) with comprehensive risk analysis and a balanced investment recommendation. The second report receives a Tier Fail quality score (0.0) because quality evaluation is skipped when the Accuracy Gate is failed. The first report is significantly more useful to investors as it provides trustworthy analysis, whereas the second report's detailed financial projections are compromised by factual errors.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary criterion, and a pass on the Accuracy Gate is materially better than a fail. The first report is factually sound with no severe errors, while the second report is compromised by temporal violations and unsupported claims. Since the first report fulfills the reliability requirement and offers solid quality analysis, it is the clear choice over a factually compromised alternative."
+  }
+}

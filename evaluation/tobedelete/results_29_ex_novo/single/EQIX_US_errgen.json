@@ -1,0 +1,78 @@
+{
+  "sample_id": "EQIX_US",
+  "model_name": "errgen",
+  "ticker": "EQIX US",
+  "as_of_date": "2025-08-06",
+  "run_id": "dab91b28-b5be-46bc-8741-061ba92c775f",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, partnerships, analyst ratings, and market data are directly supported by the authoritative cited chunk IDs and calculation objects provided in the evidence pack. No unsupported assertions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, net income, margins, ratios, growth rates) match the provided evidence chunks and calculation objects exactly. Calculations such as YoY growth percentages and financial ratios (Current Ratio, D/E) are mathematically consistent with the source figures."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured authoritative cited chunk IDs listed for each paragraph accurately correspond to the content presented in the text. There are no mismatches between the claims made and the content of the cited evidence blocks."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates, financial periods, and analyst actions cited in the report occur on or before the report as-of date of 2025-08-06. No post-as-of information is presented as current fact."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and qualitative statements are consistent across all sections of the report (e.g., Revenue and Net Income figures match between Recent Developments and Financial Analysis). No internal contradictions were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides solid top-line revenue and margin analysis with clear YoY comparisons. However, critical REIT-specific metrics such as actual AFFO figures, Free Cash Flow, and EBITDA are explicitly stated as unavailable, which significantly limits the depth of cash flow quality assessment essential for this sector."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Comprehensive coverage of recent catalysts including Q2 earnings, the F5 partnership for AI infrastructure, and analyst rating changes. Specific dates and figures enhance credibility and timeliness."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Effectively contextualizes Equinix within the AI-driven data center boom and REIT sector dynamics. Links strategic partnerships to industry trends, though some market data (e.g., Hong Kong specific) is narrow for a global operator."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear Buy recommendation with logical support derived from margin expansion, revenue growth, and strategic positioning. Explicitly ties investment thesis to financial performance and catalysts."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Thorough analysis of financial leverage and liquidity risks. However, the section explicitly states insufficient evidence to assess macro, competitive, or regulatory risks, reducing the completeness of the risk profile."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is logical and professional, but suffers from significant verbatim repetition of key financial metrics and company descriptions across the Recent Developments, Financial Analysis, and Investment sections, reducing information density and analytical flow."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong strategic narrative that effectively connects AI infrastructure demand and partnerships to tangible financial margin expansion and growth.",
+    "primary_weakness": "High redundancy of core financial data across multiple sections and missing key cash flow metrics (AFFO, FCF) required for robust REIT valuation."
+  }
+}

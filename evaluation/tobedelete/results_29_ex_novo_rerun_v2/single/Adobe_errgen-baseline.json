@@ -1,0 +1,78 @@
+{
+  "sample_id": "Adobe",
+  "model_name": "errgen-baseline",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "run_id": "c77552c4-831d-494e-bcf7-24bc4ab6b523",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 4,
+      "reason": "Most claims are supported by the authoritative evidence chunks or calculation objects provided. However, in Financial Analysis Paragraph 4, the specific claim for 'stockholders' equity of $11,623,000,000' lacks a direct evidence chunk in the authoritative list (only Debt, Cash, Assets, Liabilities chunks are listed), though it is mathematically consistent with the provided Debt-to-Equity calculation object. Additionally, some news evidence snippets are truncated, preventing full verification of specific percentages (e.g., 17.8% YTD loss), but per instructions, truncation alone is not marked as unsupported."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Margins, Cash Flow, Balance Sheet items) match the provided evidence chunks and calculation objects exactly. Calculations for ratios (Current Ratio, D/E, Margins) are internally consistent with the source data provided in the evidence pack."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs and calc IDs listed under each paragraph correctly correspond to the content they support. Inline citation labels (e.g., C018) do not need to match UUIDs, and the structured grounding record is consistent with the prose."
+    },
+    "temporal_validity": {
+      "score": 1,
+      "reason": "Severe temporal violation. The report claims an as-of date of 2025-08-22, but multiple authoritative evidence chunks (News) cited in 'Recent Developments' and 'Business & Competitive Analysis' have source dates of 2025-08-26, 2025-08-27, and 2025-08-28. This constitutes post-as-of usage of information, breaking the Accuracy Gate."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial figures are repeated consistently across sections (e.g., Q4 Revenue). Employee counts and company descriptions match between 'Company Overview' and 'Business & Competitive Analysis'."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 2,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 2,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe temporal violations."
+  }
+}

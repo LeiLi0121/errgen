@@ -1,0 +1,23 @@
+{
+  "sample_id": "Expedia",
+  "ticker": "EXPE US",
+  "as_of_date": "2025-11-24",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors across all categories (unsupported claims, numerical errors, citation mismatches, temporal violations, inconsistencies). The second report failed the Accuracy Gate, flagged with one numerical error and one inconsistency. This represents a material reliability gap, as the first report is factually verified while the second contains confirmed factual compromises.",
+    "quality_comparison": "The first report achieved a Tier B rating with a Quality Score of 3.9, demonstrating strong financial numeric analysis and transparent caveats, though it lacked a synthesized investment conclusion. The second report received a Quality Score of 0.0 and Tier Fail status because quality evaluation was skipped due to the Accuracy Gate failure. Even disregarding the skip, the presence of factual errors inherently diminishes the utility and trustworthiness of the analysis compared to the clean first report.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary filter, and a pass on the Accuracy Gate is materially better than a fail. Since the first report passed the Accuracy Gate with no severe errors and the second report failed due to numerical errors and inconsistencies, the first report is the clear winner regardless of quality nuances. The factual integrity of the first report makes it the only viable option for investor use."
+  },
+  "order_ba": {
+    "factual_comparison": "The second report passed the Accuracy Gate with zero severe errors, whereas the first report failed due to one numerical error and one inconsistency. This represents a material reliability gap as per the decision policy.",
+    "quality_comparison": "The second report demonstrates superior quality with a Q score of 3.9, offering deeper context on financial metrics (e.g., explaining OTA working capital structures) and more comprehensive recent developments. The first report's quality evaluation was skipped due to its accuracy failure, and its analysis lacks the contextual nuance found in the second report.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. Since the second report passed with no severe errors and the first report failed with numerical and consistency errors, the second report is the clear choice regardless of quality nuances, though it also exhibits better analytical depth."
+  }
+}

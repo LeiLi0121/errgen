@@ -1,0 +1,23 @@
+{
+  "sample_id": "Airbnb",
+  "ticker": "ABNB US",
+  "as_of_date": "2025-08-11",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports failed the Accuracy Gate, but the nature and severity of errors differ materially. The first report contains 3 numerical errors and 2 inconsistencies, including a critical contradiction in Net Income figures (stating Q2 2024 Net Income as $555M while claiming 316.88% YoY growth to $642M, which mathematically implies a base of ~$154M). The second report has 0 numerical errors, with only 1 unsupported claim and 1 inconsistency. The second report maintains internal numerical consistency throughout its financial analysis, whereas the first report's numerical errors undermine the credibility of its financial performance assessment.",
+    "quality_comparison": "The first report is more complete in structure, including an Investment Recommendation section (assigning a Hold rating), which the second report lacks entirely as the text ends after Risk Analysis. However, the second report offers superior Risk Analysis with explicit severity ratings (e.g., 'Severity: High'), providing clearer risk quantification. The first report's quality is compromised by its factual errors, which taint the analysis leading to its recommendation. The second report's analysis is more reliable despite the missing conclusion.",
+    "winner": "second_report",
+    "rationale": "Under the 'Reliability first' policy, the material gap in numerical accuracy dictates the decision. The first report's 3 numerical errors, particularly the contradictory Net Income data, pose a significant risk to investors relying on the financials for modeling. The second report, while incomplete due to the missing recommendation section, provides factually consistent numerical data and more structured risk analysis. In equity research, factual integrity on financial metrics is paramount; a recommendation based on erroneous numbers is less useful than a complete analysis with accurate numbers where the user can infer the outlook. Therefore, the second report is preferred for its superior reliability and risk clarity."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports failed the Accuracy Gate, indicating material factual compromises. However, the severity and type of errors differ significantly. The first report committed 2 severe errors (1 unsupported claim, 1 inconsistency) with zero numerical errors. The second report committed 5 severe errors, including 3 numerical errors and 2 inconsistencies. In equity research, numerical errors regarding financial statements are critically damaging to investor trust and model integrity, whereas unsupported claims are often qualitative. Thus, the first report demonstrates higher relative factual reliability despite both failing the gate.",
+    "quality_comparison": "The second report offers greater structural completeness by including an 'Investment Recommendation & Outlook' section, which the first report lacks (ending at Risk Analysis). Both reports cover similar ground in Company Overview, Recent Developments, Financial Analysis, and Risk Analysis. However, the second report's additional completeness is undermined by its higher count of severe factual errors, particularly in financial data. The first report provides a robust analysis of financials and risks without numerical inaccuracies, making the analysis itself more usable even without a final rating.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, when both reports fail the Accuracy Gate, severity type and investor usefulness serve as tie-breakers. The first report is preferred because it contains no numerical errors, whereas the second report contains three. Numerical accuracy is foundational to equity research; a complete report with incorrect financial data is less useful and potentially harmful compared to an incomplete report with accurate data. The reliability gap regarding numerical integrity is material enough to outweigh the second report's advantage in having a recommendation section."
+  }
+}

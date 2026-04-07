@@ -1,0 +1,78 @@
+{
+  "sample_id": "Blackstone",
+  "model_name": "errgen",
+  "ticker": "BX US",
+  "as_of_date": "2025-08-12",
+  "run_id": "1be96c0d-3583-4a57-a0e2-0591ddf87038",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are backed by the authoritative cited chunk IDs or calc IDs provided in the evidence pack. Even the conflicting revenue figures are supported by their respective sources (News vs. Income Statement)."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All calculated metrics (YoY growth, margins, ratios, net debt) match the provided calculation objects and evidence snippets exactly. No arithmetic errors were detected."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs and calc IDs listed for each paragraph correctly correspond to the evidence and calculations used to substantiate the text. No mismatches found."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates and financial periods cited are on or before the report as-of date (2025-08-12). No post-as-of claims were identified."
+    },
+    "consistency": {
+      "score": 2,
+      "reason": "Severe internal inconsistency regarding Q2 2025 Revenue and YoY Growth. Recent Developments states revenue was $3.80 billion (43% growth) based on news, while Financial Analysis states $3.71 billion (12.84% growth) based on income statements. This contradiction is material and changes the investment interpretation of growth momentum without adequate reconciliation."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe inconsistencies."
+  }
+}

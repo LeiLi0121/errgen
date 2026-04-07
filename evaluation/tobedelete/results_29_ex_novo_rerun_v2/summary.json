@@ -1,0 +1,9 @@
+{
+  "baseline_label": "errgen-baseline",
+  "full_label": "errgen",
+  "n_samples": 29,
+  "wins": 24,
+  "losses": 4,
+  "ties": 1,
+  "adjusted_win_rate": 0.8448
+}

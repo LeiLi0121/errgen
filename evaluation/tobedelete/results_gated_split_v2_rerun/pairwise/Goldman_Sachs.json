@@ -1,0 +1,23 @@
+{
+  "sample_id": "Goldman_Sachs",
+  "ticker": "GS US",
+  "as_of_date": "2025-11-12",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate (False) with 1 numerical error and 1 inconsistency, rendering its data unreliable. The second report passed the Accuracy Gate (True) with zero severe errors across all categories (numerical, citations, temporal, inconsistencies). This represents a material reliability gap.",
+    "quality_comparison": "The first report's quality evaluation was skipped due to its accuracy failure. The second report achieved a Tier B quality score (3.5) with strong quantitative foundations and a clear investment thesis, though it suffers from severe redundancy (e.g., duplicate paragraphs in Recent Developments). Despite the stylistic flaws, the second report provides a usable recommendation logic, whereas the first is factually compromised.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. The first report is disqualified due to factual errors (numerical and inconsistencies), making it unsafe for investor use. The second report, while imperfect due to redundancy, is factually reliable and provides a complete investment recommendation. Reliability takes precedence over quality nuances when one report fails the accuracy threshold."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors across all categories (numerical, citation, temporal, etc.), indicating high factual reliability. In contrast, the second report failed the Accuracy Gate, flagged with one numerical error and one inconsistency. This creates a material distinction in trustworthiness, as the first report's financial data and claims are verified while the second report contains confirmed factual inaccuracies.",
+    "quality_comparison": "The first report achieved Tier B status with a Q score of 3.5, characterized by a strong quantitative foundation and clear investment thesis, though it suffers from redundancy in sections like Recent Developments. The second report received a Tier Fail status with a Q score of 0.0, as quality evaluation was skipped due to the Accuracy Gate failure. While the first report has stylistic weaknesses, it provides complete and usable analysis, whereas the second report is deemed unsuitable for investor reliance due to factual compromise.",
+    "winner": "first_report",
+    "rationale": "The decision policy prioritizes reliability, stating that a pass on the Accuracy Gate is materially better than a fail. Since the first report is factually sound (0 severe errors) and the second report is factually compromised (failed Accuracy Gate with numerical errors), the first report is the clear winner. The factual integrity of the first report ensures it can be safely used for investment decisions, whereas the errors in the second report undermine its core utility regardless of narrative structure."
+  }
+}

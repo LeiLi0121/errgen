@@ -1,0 +1,23 @@
+{
+  "sample_id": "Broadcom",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports fail the Accuracy Gate, containing numerical errors and unsupported claims. However, the first report is flagged with two inconsistencies, whereas the second report has zero flagged inconsistencies. While both texts contain similar potential contradictions in the employee count (37,000 vs 19,000), the evaluation metadata indicates the second report is cleaner. More critically, the first report's Investment Recommendation section is truncated, leaving the analysis without a conclusion, while the second report provides a complete recommendation.",
+    "quality_comparison": "The second report demonstrates superior completeness and investor usefulness. It includes a full Investment Recommendation & Outlook section with a specific Buy rating, price target context, and risk monitoring advice. The first report cuts off at the recommendation stage, rendering it incomplete for decision-making. Both reports offer similar depth in financial and business analysis, but the second report's ability to deliver a concluded thesis makes it materially more useful.",
+    "winner": "second_report",
+    "rationale": "Although both reports are factually compromised (failing the Accuracy Gate), the second report is preferred based on the decision policy's tie-breakers for compromised reports: severity type and investor usefulness. The second report has fewer flagged severe errors (no inconsistencies vs two) and, most importantly, provides a complete investment recommendation. The first report's truncation of the final section significantly diminishes its utility for an investor seeking a conclusion."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports fail the Accuracy Gate with similar core errors: 1 unsupported claim and 1 numerical error each. However, the second report has 2 additional inconsistency errors that the first report avoids. Both contain identical company overview sections with an internal contradiction (37,000 employees in P1 vs 19,000 in P2), but the second report accumulates more inconsistencies overall. The financial data presented appears identical across both reports, suggesting they share the same underlying factual issues.",
+    "quality_comparison": "The first report provides a complete investment recommendation section with a clear Buy rating and actionable guidance. The second report's Investment Recommendation section is truncated ('[...truncated...]'), which is a critical completeness failure for an equity research report. The first report also has better internal consistency (0 inconsistencies vs 2). Both reports have similar depth in financial analysis, risk assessment, and competitive analysis. The second report does include a useful P4 in Risk Analysis acknowledging insufficient evidence for certain risk categories, but this advantage is outweighed by the truncated recommendation section.",
+    "winner": "first_report",
+    "rationale": "While both reports fail the Accuracy Gate, the decision policy specifies using severity type and investor usefulness as tie-breakers when both are factually compromised. The first report has fewer total severe errors (2 vs 4), zero inconsistencies compared to 2 in the second report, and critically provides a complete investment recommendation while the second report is truncated. For an equity research report, a complete recommendation section is essential for investor usefulness. The first report better fulfills the user query with relevant depth without the completeness failure present in the second report."
+  }
+}

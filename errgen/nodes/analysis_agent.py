@@ -75,6 +75,33 @@ def _select_chunks(section_key: str, all_chunks: list[EvidenceChunk]) -> list[Ev
     return all_chunks
 
 
+def _is_market_signal_calc(calc: CalculationResult) -> bool:
+    description = calc.description.lower()
+    return any(
+        token in description
+        for token in ("price return", "benchmark return", "excess return")
+    )
+
+
+def _select_calcs(
+    section_key: str,
+    all_calcs: list[CalculationResult],
+) -> list[CalculationResult]:
+    """Route calculation results to the sections that can use them productively."""
+    if section_key == "business_analysis":
+        return [calc for calc in all_calcs if _is_market_signal_calc(calc)]
+
+    if section_key == "risk_analysis":
+        allowed_ops = {"current_ratio", "debt_to_equity", "net_debt", "fcf_margin"}
+        return [
+            calc
+            for calc in all_calcs
+            if calc.operation in allowed_ops or _is_market_signal_calc(calc)
+        ]
+
+    return all_calcs
+
+
 def select_chunks_for_section_name(
     section_name: str,
     all_chunks: list[EvidenceChunk],
@@ -89,6 +116,17 @@ def select_chunks_for_section_name(
     if not section_key:
         return all_chunks
     return _select_chunks(section_key, all_chunks)
+
+
+def select_calcs_for_section_name(
+    section_name: str,
+    all_calcs: list[CalculationResult],
+) -> list[CalculationResult]:
+    """Return the calculation subset that the named section saw during generation."""
+    section_key = _SECTION_NAME_TO_KEY.get(section_name)
+    if not section_key:
+        return all_calcs
+    return _select_calcs(section_key, all_calcs)
 
 
 def _build_overview_section(
@@ -162,15 +200,16 @@ def analysis_agent(state: dict) -> dict:
     # 2–5. LLM-based sections
     for order, (key, agent) in enumerate(agent_configs, start=2):
         relevant = _select_chunks(key, all_chunks)
+        relevant_calcs = _select_calcs(key, calc_results)
         logger.info(
-            "analysis_agent: '%s' → %d relevant chunks",
-            agent.section_name, len(relevant),
+            "analysis_agent: '%s' → %d relevant chunks, %d relevant calcs",
+            agent.section_name, len(relevant), len(relevant_calcs),
         )
         paragraphs = agent.generate(
             ticker=ticker,
             request_context=request_context,
             chunks=relevant,
-            calc_results=calc_results,
+            calc_results=relevant_calcs,
             as_of_date=as_of,
         )
         all_drafts.extend(paragraphs)

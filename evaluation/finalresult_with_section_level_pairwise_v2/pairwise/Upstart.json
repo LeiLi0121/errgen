@@ -1,0 +1,138 @@
+{
+  "sample_id": "Upstart",
+  "ticker": "UPST US",
+  "as_of_date": "2025-08-11",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 1 sections on this ordering, errgen won 4, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Investment Recommendation & Outlook. errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 4 sections on this ordering, errgen-baseline won 1, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis, Risk Analysis. errgen-baseline stronger sections: Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical company metadata (ticker, exchange, sector, CEO, employees, IPO date, website) and an identical business description paragraph regarding the AI lending platform and bank partner network.",
+        "quality_comparison": "There is no difference in quality, depth, or relevance between the two sections as the text is character-for-character identical. Both lack specific financial metrics or recent developments in this overview section, relying on generic company description.",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable, containing the exact same content and structure. Per the decision policy, when sections are materially indistinguishable, the result is a tie, regardless of differences in overall report-level scores."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical company profile information including ticker, exchange, sector, industry, market cap, CEO, employee count, IPO date, country, and website.",
+        "quality_comparison": "The quality is equal as the text is verbatim identical, offering the same level of detail and clarity in the business description.",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable, containing the exact same content and formatting. Per the decision policy, when sections are identical, the result is a tie regardless of report-level scores."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical financial metrics for Q2 2025 (Revenue $257.3M, Net Income $5.6M) and the same details regarding the $500 million convertible notes offering. There is a minor discrepancy in the date of the post-earnings stock decline (Report 1 cites August 7; Report 2 cites August 6), though both agree on the closing price ($67.14) and magnitude of the drop (~18.7%).",
+        "quality_comparison": "Report 2 provides greater analytical depth and relevance to the user query. It includes an additional paragraph (P4) addressing competitive dynamics, macroeconomic conditions, and capital structure risks, which directly supports the query's requirements for industry positioning and investment view. Report 2 also offers more nuance on the strategic rationale for the convertible notes (balance sheet positioning vs. dilution concerns). Report 1 is competent but lacks the broader context on competition and macro factors found in Report 2.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred because it better fulfills the user query's requirements for industry positioning and investment outlook within this section. The inclusion of competitive dynamics and macro context in P4 adds significant investor value that Report 1 omits. Additionally, Report 2 provides a clearer explanation of the strategic implications of the recent capital raise. Despite a minor date discrepancy on the stock drop, Report 2's superior signal density and alignment with the report's overall higher quality scores make it the stronger choice."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical financial metrics for Q2 2025 (Revenue $257.3M, Net Income $5.6M, margins, R&D intensity) and the same $500M convertible notes offering announced on August 11, 2025. There is a minor discrepancy regarding the date of the post-earnings stock decline (Report 1 states August 6; Report 2 states August 7), though both attribute the move to earnings being priced in. Report 1 includes additional factual context regarding competitive dynamics and macro market conditions in a fourth paragraph that is absent in Report 2.",
+        "quality_comparison": "Report 1 demonstrates superior depth and relevance to the user query. It includes a dedicated paragraph (P4) addressing 'industry positioning' and 'competitive dynamics,' which are explicit requirements in the user prompt, whereas Report 2 only briefly mentions the addressable market. Report 1 also provides a more nuanced discussion of risks, linking the convertible notes to broader capital structure considerations and investor sentiment regarding leverage. Report 2 is competent but feels like a condensed version of Report 1, lacking the strategic context that enhances the investment view.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because it more thoroughly addresses the user query's requirements for industry positioning and investment view. The inclusion of a fourth paragraph discussing competitive threats, addressable market penetration, and macro context provides significantly higher signal density for an investor compared to Report 2. While both reports are factually consistent on core financials, Report 1's additional analytical layer on competitive dynamics and capital structure risks makes it more useful for decision-making. The higher report-level quality scores (particularly in risk and financial numeric categories) align with the observed superior depth in the section text."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports utilize identical financial figures for revenue, margins, cash flow, and balance sheet cash/equity positions. Both acknowledge data gaps regarding specific debt figures and current ratios. However, the Second Report includes the Total Liabilities figure ($1,755,858,000), which the First Report omits, allowing for a more complete reconciliation of the balance sheet (Assets = Liabilities + Equity).",
+        "quality_comparison": "The Second Report demonstrates stronger analytical depth and relevance to the user query. In the profitability section, it contextualizes the margin improvement by noting margins remain 'thin' with a 'limited buffer,' offering a more prudent risk assessment than the First Report's 'successful cost management.' In the liquidity section, it explicitly states that operational sufficiency cannot be assessed without current liability data, a critical insight for investors. Furthermore, the Second Report explicitly links R&D spending to 'AI credit engine development,' directly addressing a specific element of the user query, whereas the First Report uses the more generic 'platform capabilities.'",
+        "winner": "second_report",
+        "rationale": "The Second Report is preferred because it provides the same factual accuracy with superior analytical nuance and query alignment. It better addresses the user's request for risk assessment by highlighting margin fragility and liquidity data limitations, and it explicitly connects financial metrics to the AI credit engine developments requested in the prompt. The inclusion of Total Liabilities data also enhances the completeness of the financial picture."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core financial figures for revenue, margins, cash flow, and cash balances. Report 1 includes the Total Liabilities figure ($1.75B), providing a clearer view of the capital structure, whereas Report 2 omits liabilities but provides more YoY comparisons for Cash, Equity, and Assets. Report 2 adds a calculated free cash flow margin (-5.24%), which Report 1 does not.",
+        "quality_comparison": "Report 1 demonstrates superior analytical prudence and risk alignment. It explicitly states that liquidity sufficiency cannot be assessed without current liability data, whereas Report 2 claims 'adequate liquidity' despite admitting the same data gap, creating a minor logical inconsistency. Report 1 also frames margin improvements with appropriate caution ('limited buffer against potential headwinds'), which better addresses the user query's focus on key risks compared to Report 2's more optimistic 'successful cost management' narrative. Report 1's inclusion of liabilities also offers better insight into solvency.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to its more rigorous risk assessment and data completeness. Its cautious stance on liquidity sufficiency given missing current liability data is more reliable than Report 2's assertion of adequacy. Additionally, Report 1's inclusion of total liabilities provides a more complete balance sheet picture for leverage assessment. The margin commentary in Report 1 also aligns better with the user query's requirement to analyze key risks, highlighting the thinness of margins as a vulnerability rather than just a success story."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core data points: the $500 million convertible notes offering announced August 11, 2025, the Q2 earnings reaction (18.7% drop on August 7), raised 2025 sales guidance, and the $3 trillion addressable market. Both explicitly acknowledge data gaps regarding specific market share and competitive differentiation. Report 2 includes the CEO's name (David J. Girouard), while Report 1 omits it.",
+        "quality_comparison": "Report 2 demonstrates superior organization and relevance to the user query. It structures the section logically (Overview, Competition, Growth/Strategy, Management), whereas Report 1 conflates stock price performance with business fundamentals in paragraph 2. Report 2 better addresses the query's requirement to analyze 'interest rate environments' by linking declining rates to potential lending volume growth (P3), while Report 1 only mentions rates in the context of stock price movement (P2). Report 2's separation of competitive positioning from market trading data provides clearer analytical signal density for an investor.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred because it organizes the business analysis more effectively, distinguishing between competitive positioning, strategic initiatives, and management signals. It directly addresses the user's query regarding interest rate environments by analyzing their impact on lending volume rather than just stock price. While both reports honestly disclose limitations on market share data, Report 2's structure and macro-business linkage offer greater investor usefulness and clarity."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports contain consistent core facts regarding Upstart's founding, headquarters, employee count, IPO date, the $500 million convertible notes announcement, Q2 guidance raise, and the 18.7% post-earnings stock drop. The first report includes the CEO's name (David J. Girouard), while the second report provides specific stock price data (closing at $67.14, July 2025 performance). Both explicitly acknowledge data gaps regarding specific market share and competitive moat details.",
+        "quality_comparison": "The first report is better structured for a 'Business & Competitive Analysis' section. It focuses on business fundamentals, linking interest rate conditions to lending volume growth (operational impact) rather than just stock performance (market impact). It organizes content by Company Overview, Competitive Positioning, Growth Drivers, and Management, whereas the second report devotes significant space to stock price movements and trading reactions, which are less relevant to this specific section header. The first report also provides slightly more management context (CEO name, insider ownership monitoring).",
+        "winner": "first_report",
+        "rationale": "The first report aligns better with the section's purpose by prioritizing business drivers and strategic initiatives over market price action. Its analysis of interest rates connects to operational lending volume, directly addressing the user query's requirement for macroeconomic condition analysis, whereas the second report focuses on how rates affected the stock price. The first report's organization yields higher signal density for an investor analyzing the business rather than the trade."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports utilize identical core financial data points for profitability (operating margins, net income), cash flow (OCF, FCF, cash balance), R&D expenses, and balance sheet figures (liabilities, assets/equity). Neither section contains factual errors or hallucinations based on the provided text. Report 2 adds derived metrics (FCF margin of -5.24%, Liabilities vs Stockholders' Equity) while Report 1 adds a derived metric (R&D as % of revenue).",
+        "quality_comparison": "Report 2 demonstrates slightly higher analytical depth relevant to equity risk assessment. It normalizes cash flow risk with an FCF margin calculation and frames leverage in terms of Liabilities vs. Equity, which is more informative for solvency risk than Report 1's Liabilities vs. Assets. Report 1 provides better context on R&D intensity (% of revenue) and explicitly mentions 'interest rate environment shifts' (aligning closely with the query), but Report 2's financial risk metrics (FCF margin, equity leverage) are more critical for investor risk assessment. Report 2's writing is also more polished.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred due to superior financial risk analytics. The inclusion of FCF margin and the framing of leverage against equity (rather than assets) provides more actionable insight for investors assessing solvency and liquidity risk. While Report 1 explicitly mentions interest rates, Report 2's deeper quantification of financial vulnerabilities (FCF margin, equity cushion) offers greater signal density for a Risk Analysis section. The higher report-level risk quality score (5 vs 4) supports this assessment of analytical depth."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections are factually clean with no severe or minor errors flagged in the section-specific findings. Both reports cite consistent figures for cash flow deterioration (OCF/FCF turning negative in Q1 2025), R&D spend (~$68.8M in Q2 2025), and profitability swings. There is a minor presentational difference in leverage metrics: Report 1 cites Liabilities vs. Stockholders' Equity ($1.76B vs. $722M), while Report 2 cites Liabilities vs. Total Assets ($1.76B vs. $2.48B). Both accurately reflect the balance sheet composition.",
+        "quality_comparison": "Report 1 provides a more equity-relevant risk assessment. Its use of Liabilities vs. Equity in P4 offers a clearer view of solvency risk and residual claim protection for shareholders compared to Report 2's Liabilities vs. Assets. Report 1's characterization of this as 'meaningful leverage' is more appropriate for equity analysis than Report 2's 'moderate leverage,' given the thin equity cushion. Report 1 also offers stronger strategic implications in P3, noting 'limited near-term opportunity for significant expense reduction,' whereas Report 2 focuses more on fixed cost commitments. While Report 2 explicitly mentions 'interest rate environment shifts' (addressing a specific query keyword), Report 1's discussion of 'credit cycle downturns' and 'consumer lending demand cycles' effectively covers the same macroeconomic risk drivers. Report 1's narrative is more focused on investor implications (e.g., 'concern investors seeking predictable returns').",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred because its risk analysis is better tailored to equity investors. The choice to analyze leverage via Liabilities-to-Equity rather than Liabilities-to-Assets (Report 2) provides a more accurate signal of financial risk to shareholders. Additionally, Report 1's commentary on R&D rigidity and cash burn offers clearer forward-looking implications for profitability stability. Although Report 2 explicitly names 'interest rate' risks, Report 1's coverage of credit cycles and leverage amplification sufficiently addresses the macroeconomic risk requirement while demonstrating superior financial risk insight."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports assign a Hold rating and reference the same core data points (Q2 2025 results, $500M convertible notes offering). The first report provides more specific quantitative metrics: net margin (2.18%), operating margin (1.77% vs -43% prior year), R&D as percentage of revenue (27%), stock decline following earnings (18.7%), and explicitly notes negative operating cash flow in Q1 2025. The second report provides net income ($5.6M) and slightly more precise revenue ($257.3M vs $257M) but lacks margin percentages and cash flow specifics. Both accurately reference the convertible notes and operational turnaround.",
+        "quality_comparison": "The first report delivers stronger analytical depth with more investor-actionable metrics. It explicitly quantifies profitability sustainability concerns (R&D at 27% of revenue), provides margin trajectory context (operating margin turnaround from -43%), and gives clearer investment guidance (wait for sustained FCF generation and reduced dilution risk). The second report is well-written but more general in its risk assessment and investment implications. The first report better addresses the user query's requirement for key risks regarding credit quality and interest rate environments by explicitly noting macroeconomic sensitivity to interest rates and credit market conditions.",
+        "winner": "first_report",
+        "rationale": "The first report section provides superior signal density for investors despite the second report's higher overall Q score. Per the decision policy, section text quality takes precedence over report-level scores. The first report offers more specific financial metrics (margins, cash flow, R&D intensity), clearer risk quantification (18.7% stock decline, 27% R&D burden), and more actionable investment guidance. It better serves the user query's requirements for financial performance analysis and risk assessment regarding credit quality and interest rate sensitivity. The additional specificity enables better investor decision-making without sacrificing accuracy."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports align on core factual elements: a Hold rating, Q2 2025 revenue of approximately $257 million, a return to profitability, and the recent $500 million convertible notes offering. There are no material factual contradictions between the two sections; both accurately reflect the sample data provided in the context of the report.",
+        "quality_comparison": "The second report's section text demonstrates greater depth and specificity regarding financial performance and risks. It provides margin metrics (net and operating), R&D expense percentages, and cash flow details, whereas the first report relies more on absolute income figures. Additionally, the second report explicitly addresses the user query's requirement to cover 'interest rate environments,' while the first report uses broader terminology like 'consumer lending cycles.'",
+        "winner": "second_report",
+        "rationale": "Although the first report has a higher overall quality score, the decision policy prioritizes section text quality and relevance to the user query. The second report's section offers higher signal density with specific margin and expense ratios that better substantiate the investment view. It also more directly answers the specific query requirement regarding interest rate risks. The clearer analytical implications (specific conditions for upgrading the rating) make the second section more useful for an investor despite the lower report-level score."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 1,
+    "errgen": 4,
+    "Tie": 1
+  }
+}

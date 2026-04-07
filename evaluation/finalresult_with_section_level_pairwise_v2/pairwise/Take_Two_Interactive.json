@@ -1,0 +1,138 @@
+{
+  "sample_id": "Take_Two_Interactive",
+  "ticker": "TTWO US",
+  "as_of_date": "2025-05-23",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 2, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 3 sections on this ordering, errgen-baseline won 2, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: Business & Competitive Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical text with the same company information, ticker details, business description, game franchises, platforms, and distribution channels. Both have no section-specific findings (severe=0, minor=0).",
+        "quality_comparison": "The section texts are word-for-word identical. Both provide the same level of detail on company operations, labels, franchises, and platforms. Neither section has any identified issues at the section level.",
+        "winner": "tie",
+        "rationale": "The two Company Overview sections are materially indistinguishable - they contain identical text. Per the decision policy, when sections are materially indistinguishable, the result should be a tie. While the second report has better report-level metrics (passed accuracy gate vs. failed, Q score 3.0 vs. 0.0), the decision policy explicitly states to use section text as the primary basis for judgment and not mechanically follow higher overall scores. Since this section has low importance and both sections are identical with no section-specific issues, there is no basis to prefer one over the other at the section level."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical content. The company metadata in P1 (ticker, exchange, sector, industry, CEO, employees, IPO date, country, website) is the same. The business description in P2 covering labels, franchises, platforms, and distribution channels is word-for-word identical.",
+        "quality_comparison": "Both sections are structurally and substantively equivalent. They provide the same level of detail about Take-Two's business model, publishing labels, key franchises, platform coverage, and distribution methods. Neither section has section-specific findings flagged (severe=0, minor=0 for both).",
+        "winner": "tie",
+        "rationale": "The section texts are materially indistinguishable - they are identical in content, structure, and detail. Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. While the first report passed the accuracy gate and the second did not at the report level, the policy instructs not to let unrelated issues elsewhere in the report dominate this section judgment, and section-specific findings show no issues for either. The section text itself is the primary basis for judgment, and here they are identical."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports align on core factual data points, including the equity raise terms ($1.0 billion, $225/share, May 20-21), earnings date (May 16), full-year revenue ($5.63 billion), EPS loss ($21.08), legal investigations (Pomerantz, Schall), and analyst ratings (Roth MKM). Report 1 provides additional granularity not found in Report 2, specifically detailing the $3.55 billion goodwill and $176.3 million intangible asset impairment charges driving the GAAP loss, as well as underwriter option details and current valuation metrics (P/E ratio).",
+        "quality_comparison": "Report 1 demonstrates superior analytical depth and investor utility. By explicitly attributing the GAAP loss to non-cash impairment charges, Report 1 allows investors to distinguish between operational performance and accounting adjustments, which is critical for financial analysis. Report 2 omits this context, presenting the loss without explanation. Report 1 also includes market positioning data (valuation multiples) and strategic commentary on the capital raise, better addressing the user query's requirements for financial performance and industry positioning. Report 2 is concise but lacks the signal density required for a comprehensive equity research view.",
+        "winner": "first_report",
+        "rationale": "Section-specific reliability findings are identical for both reports (0 severe, 0 minor errors), so the decision rests on section quality and relevance to the user query. Report 1 is preferred because it provides the critical context behind the earnings loss (impairment charges), which fundamentally changes the investment thesis compared to Report 2's unexplained loss figure. Report 1 also includes valuation and positioning data relevant to the query. Per instructions, section-specific findings are the primary reliability signal, taking precedence over the global accuracy gate when the section itself is flagged as clean."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections cover similar recent developments: equity capital raise (~$1B, May 20-21, 2025, 4.75M shares at $225), Q4 2025 earnings (May 16, loss per share $21.08, net bookings $1.58B, full year revenue $5.63B up 5.3% YoY), legal investigations (Pomerantz LLP and Schall Law Firm, May 20), analyst ratings (Roth MKM Buy $265 PT), and game title postponement. The second report adds more detail including 30-day option for 712,500 additional shares, GAAP impairment charges ($3.55B goodwill, $176.3M intangibles), Q4 bookings vs estimates ($1.58B vs $1.55B), and valuation metrics (forward P/E 77.52, share price $237.50). However, the first report passed the accuracy gate while the second failed due to severe unsupported claims.",
+        "quality_comparison": "The first report is more conservative and reliable, passing the accuracy gate with no section-specific findings. The second report provides greater depth with additional financial details (impairment charges, valuation multiples, option structure) but failed the report-level accuracy gate, indicating potential reliability concerns with its claims. Both sections are well-organized with similar structure covering capital raise, earnings, legal/analyst developments. The second report's fourth paragraph on market positioning adds context but may contain the unsupported claims that triggered the accuracy failure.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, reliability comes first when the gap is material. The first report passed the accuracy gate (True) while the second failed (False) due to severe unsupported claims. This is a critical reliability signal that outweighs the second report's additional detail. While the second report offers more granular information (impairment charges, valuation metrics), these details may be among the unsupported claims. For equity research where accuracy is paramount, the first report's verified content is preferable to the second report's potentially unreliable additional detail. Both sections cover the core developments adequately, but the first report does so with confirmed accuracy."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical core financial figures for revenue, margins, balance sheet items, and cash flow limitations (e.g., Q3 2025 revenue of $1,359.8M, gross margin of 55.88%, current ratio of 0.83). There are no contradictions in the numerical data provided within this specific section.",
+        "quality_comparison": "The second report provides superior analytical depth. It includes intra-year trend data that the first report omits, such as the decline in cash from Q1 to Q3 2025 and the fluctuation in gross margins across fiscal 2025 quarters. Additionally, the second report offers better context on data gaps, explicitly explaining why the absence of R&D data is material for a game developer, whereas the first report simply notes the absence.",
+        "winner": "second_report",
+        "rationale": "While both sections share the same underlying data and have clean section-specific error flags, the second report is more useful to an investor. It provides a more complete picture of financial trends (cash burn, margin volatility) rather than just point-in-time snapshots. The second report also contextualizes limitations better, explaining the implication of missing R&D data on the investment thesis. Although the first report failed the global accuracy gate, the section-specific findings are clean for both, so the decision rests on the higher signal density and analytical quality of the second report's text."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical core financial figures for revenue, margins, liquidity ratios, and balance sheet items (e.g., Q3 2025 revenue of $1.36B, gross margin of 55.88%, current ratio of 0.83). However, the second report includes an additional data point for Q3 2024 operating margin (-9.48%) which the first report omits. Given the second report failed the report-level accuracy gate due to severe unsupported claims elsewhere, the reliability of this additional data point is questionable compared to the first report which passed the accuracy gate.",
+        "quality_comparison": "The first report demonstrates superior analytical depth in its treatment of missing data. Specifically, its dedicated paragraph on R&D expenses explicitly connects the data gap to the company's business model ('reliance on continuous game development and pipeline investment'), directly addressing the user query's interest in the game pipeline. The second report mentions the missing R&D data more generically. Additionally, the first report organizes the financial analysis more cohesively, grouping liquidity and balance sheet concerns together before discussing data limitations, whereas the second report splits these topics across more paragraphs without adding significant insight.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred primarily due to higher reliability (passed accuracy gate vs. failed) and better analytical relevance to the user query. While both sections present similar numerical data, the first report provides a more insightful analysis of the missing R&D data, explicitly linking it to the company's game development pipeline—a key component of the user's request. The second report's failure of the accuracy gate casts doubt on its additional data points, and its analysis of data limitations is less contextualized to the specific industry dynamics."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core data points regarding FY2025 revenue ($5.63 billion), Q4 net bookings ($1.58 billion), Q4 loss per share ($21.08), employee count (12,371), and the May 2025 equity offering details (4.75 million shares at $225). Both sections also cite the Pomerantz Law Firm investigation and the postponement of a key game release. However, the first report includes specific details on goodwill impairment charges ($3.55 billion) explaining the Q4 loss, whereas the second report omits this specific driver in the section text. The second report redundantly repeats the equity offering details in both Paragraph 3 and Paragraph 4.",
+        "quality_comparison": "The first report demonstrates superior organization and signal density. It avoids the verbatim repetition found in the second report (which lists equity offering specifics in two separate paragraphs). The first report also provides deeper analytical context by specifying the impairment charges driving the loss, which is critical for a business analysis. The second report relies on less authoritative sources (Substack) compared to the first report's focus on analyst ratings and company filings. While the second report passed the report-level accuracy gate and the first did not, the section-specific findings for both are clean (0 severe/minor issues), instructing reliability to be judged on the section text itself.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred based on section quality. It offers better organization without redundancy (the second report repeats equity offering details in P3 and P4) and provides more actionable insight by detailing the impairment charges behind the earnings loss. Per the decision policy, section-specific findings (both clean) are the primary reliability signal, allowing the higher quality section text to override the lower report-level accuracy score."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite consistent top-line figures (FY2025 revenue $5.63B, Q4 net bookings $1.58B, EPS loss $21.08, equity offering ~4.75M shares at $225). However, the second report provides specific details on the drivers of the loss (citing $3.55B goodwill impairment and $176.3M intangible asset charges) and the equity offering structure (including the 30-day over-allotment option), whereas the first report omits the impairment explanation and states the use of proceeds is unspecified. The second report contains a minor phrasing error ('Full year net bookings for Q4'), while the first report is terminologically precise on the period.",
+        "quality_comparison": "The second report offers significantly higher analytical depth and investor usefulness. By explaining the massive per-share loss through specific impairment charges, it answers the 'financial performance' aspect of the user query much more effectively than the first report, which leaves the loss unexplained. The second report also provides a more detailed breakdown of business labels and franchise examples. The first report is vaguer on strategic initiatives and capital deployment. While the second report has a report-level accuracy failure, the section-specific findings indicate no severe errors in this section, allowing the superior content quality to drive the decision per instructions.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it provides critical context for the financial performance (explaining the $21.08 loss via specific impairment charges), which is essential for an equity research analysis. The first report fails to explain this material number, reducing its utility. Although the second report failed the report-level accuracy gate, the section-specific findings show no severe errors for this section, and instructions dictate using section-specific findings as the main reliability signal rather than report-level scores. The second report's greater depth on the equity offering structure and business segments also better addresses the user query's requirements for recent developments and business analysis."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial figures for operating losses, cash positions, current assets/liabilities, and stockholders' equity. However, the second report enhances these facts by calculating operating and net profit margins and including a year-over-year comparison (Q3 2024 vs. Q3 2025), whereas the first report relies solely on absolute quarterly figures for 2025.",
+        "quality_comparison": "The second report demonstrates superior analytical depth by converting absolute financial data into margins, which better contextualizes the severity of profitability deterioration. It also provides a year-over-year trend analysis that the first report lacks. While the first report offers useful qualitative context regarding franchise concentration (operational risk), the second report's quantification of financial risk is more actionable for investors. Additionally, the second report carries a higher section-specific quality score (Risk=3 vs. Risk=1) and passed the report-level accuracy gate, whereas the first report failed.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it provides deeper financial analysis through margin calculations and year-over-year comparisons, offering clearer insight into the trajectory of profitability risks. Although the first report includes qualitative operational risk details (franchise dependence), the second report's superior quantification of financial distress is more critical for a Risk Analysis section focused on a company with sustained losses. The second report's passing of the accuracy gate and higher risk quality score further support its reliability and utility."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present similar financial and liquidity risk data (operating losses, current ratio of 0.83, cash decline from Q1 to Q3 2025). The first report explicitly acknowledges insufficient evidence for macro, competitive, regulatory, operational, and technology risks. The second report provides additional operational risk context (franchise concentration, platform diversification, key franchises like GTA, NBA 2K) while also acknowledging insufficient evidence for macro/geopolitical, competitive, regulatory/legal, and technology risks. There is a minor discrepancy in Q1 2025 net income figures (second report states $-262M, first report doesn't explicitly state this figure in the risk section). Both sections have section-specific findings of severe=0, minor=0.",
+        "quality_comparison": "The second report's section provides more comprehensive risk coverage by including operational risk analysis specific to the gaming industry (franchise dependence, platform exposure), which is highly relevant for evaluating Take-Two as a gaming company. It has better organization with 4 paragraphs separating different risk categories and provides a clearer conclusion on which risks are documented vs. not documented. The first report is more conservative but leaves the reader with less actionable insight on business-model-specific risks. Both sections acknowledge data limitations appropriately.",
+        "winner": "second_report",
+        "rationale": "While the first report passed the accuracy gate and the second failed at the report level, the section-specific findings are identical (severe=0, minor=0) for both sections. Per the decision policy, section-specific findings should be the main reliability signal, not report-level scores. For the user's query about key risks in an equity research analysis, the second report's section provides materially better investor usefulness by covering operational risks specific to Take-Two's business model (franchise concentration, platform dependence) that are essential for understanding a gaming company's risk profile. The second report also has clearer organization and a more actionable conclusion about which risks are documented. The report-level accuracy gate failure should not dominate this section judgment when section-specific findings show no severe issues."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial metrics for the section (FY2025 revenue of $5.63 billion, Q3 2025 operating loss of $132.1 million, $1.0 billion equity raise, and current ratio of 0.83). Section-specific findings for both reports indicate no severe or minor factual errors within this specific section (severe=0, minor=0), despite the first report failing the overall report-level accuracy gate. As per instructions, section-specific findings are the primary reliability signal, treating the report-level accuracy gate as secondary context.",
+        "quality_comparison": "The first report provides a significantly more detailed and analytical investment thesis. It breaks down operating losses across three quarters (Q1, Q2, Q3) to show the trend, discusses gross margin expansion specifically, and includes valuation context (forward P/E) and specific legal risk factors (naming law firms). The second report is more generic, citing only Q3 losses and Q4 impairments without the same trend analysis, and uses weaker language ('default to Hold') compared to the first report's reasoned stance based on mixed signals. The first report offers higher signal density and clearer analytical implications for an investor.",
+        "winner": "first_report",
+        "rationale": "While the first report failed the report-level accuracy gate, the section-specific findings for this section are clean (0 severe/minor), and instructions dictate using section-specific findings as the main reliability signal rather than letting report-level issues dominate. Given comparable section-level reliability, the first report is superior in quality. It provides deeper financial trend analysis (quarterly loss progression, margin details), more specific risk identification, and a more reasoned investment rationale compared to the second report's briefer, more generic summary. The first report better fulfills the user query's requirement for a comprehensive investment view and financial performance analysis."
+      },
+      "order_ba": {
+        "factual_comparison": "The first report passed the Report-level Accuracy Gate (True), while the second report failed (False) due to severe unsupported claims. Although both sections show 'severe=0' in section-specific findings, the second report's inclusion of specific law firm investigations (Pomerantz LLP, Schall Law Firm) and granular quarterly loss figures presents a higher hallucination risk given the overall report failure. The first report sticks to core financial metrics (revenue, equity raise, liquidity) that align with its passed accuracy status.",
+        "quality_comparison": "The second report offers greater depth, including a quarterly loss breakdown, valuation multiples, and legal risk details. However, the first report provides a clearer, more conservative investment thesis (Hold) based on verified liquidity and profitability trends. The second report's additional detail is undermined by the reliability concerns associated with the failed Accuracy Gate, making the first report's concise analysis more useful for an investor seeking trustworthy data.",
+        "winner": "first_report",
+        "rationale": "Reliability is the primary decision factor for equity research. The first report passed the Accuracy Gate, whereas the second failed due to unsupported claims. While the second report's section text is more detailed (citing specific law firms and quarterly losses), these specifics are suspect in the context of a failed accuracy gate and likely represent hallucinations. The first report provides a safer, sufficiently detailed analysis with a clear Hold recommendation based on sounder financial premises. Per the decision policy, reliability takes precedence when the gap is material, and a failed accuracy gate constitutes a material reliability gap."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 1,
+    "errgen": 1,
+    "Tie": 4
+  }
+}

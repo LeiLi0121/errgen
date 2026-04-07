@@ -1,0 +1,78 @@
+{
+  "sample_id": "Amazon",
+  "model_name": "errgen",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "run_id": "65aa4114-1fe0-45fd-89e1-f0fcce0332d5",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and business segments are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. News snippets corroborate market context and strategic positioning claims."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, cash flow, balance sheet items) match the provided evidence chunks and calculation objects exactly. Growth rates and ratios are calculated correctly based on the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed under each paragraph accurately correspond to the evidence content supporting the claims. No mismatches or missing citations for material claims were identified."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods are consistent with the as-of date of 2025-07-28. Q2 2025 financial data is appropriately used for a report dated late July 2025. News snippets are dated on or before the as-of date."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and strategic narratives are consistent across all sections (Financial Analysis, Business Analysis, Risk Analysis). No contradictions in numbers or qualitative assessments were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth and quantification. Provides specific Q2 2025 figures for revenue, margins (gross, operating, net, EBITDA), cash flow (OCF, FCF, CapEx), and balance sheet metrics. Includes both YoY and sequential comparisons with clear analytical commentary on cash conversion and R&D intensity."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong integration of recent developments, including the Q2 earnings context (Magnificent Seven), analyst actions (UBS price target), and regulatory news (WSJ tariff rebuttal). Connects news items to stock momentum and strategic positioning effectively."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Solid analysis of competitive positioning in cloud and advertising, particularly regarding AI infrastructure demand. However, the company description in the Business section is largely redundant with the Company Overview, reducing efficiency."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Significantly compromised by truncation. While a 'Hold' rating is assigned, the section cuts off before providing valuation metrics or a complete outlook, failing to meet the query's requirement for an investment view based on valuation."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Comprehensive and highly quantified. Details specific risks related to CapEx volatility, FCF generation, debt levels, and R&D margin pressure. Transparently acknowledges data limitations where applicable."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and logical structure, but marred by significant repetition of company description between sections. The abrupt truncation at the end disrupts the analytical flow and completeness of the report."
+    }
+  },
+  "q_score": 4.05,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Deeply quantified financial and risk analysis that provides clear visibility into cash flow dynamics, capital allocation, and specific operational risks.",
+    "primary_weakness": "The investment recommendation section is incomplete (truncated) and lacks the valuation metrics necessary to justify the rating, failing a core query requirement."
+  }
+}

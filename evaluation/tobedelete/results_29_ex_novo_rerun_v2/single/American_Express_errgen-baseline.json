@@ -1,0 +1,78 @@
+{
+  "sample_id": "American_Express",
+  "model_name": "errgen-baseline",
+  "ticker": "AXP US",
+  "as_of_date": "2025-11-12",
+  "run_id": "94c189f8-28d5-4d1d-b59c-456216e4589d",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims are linked to authoritative cited chunk IDs or calc IDs. While some calculation objects contain internal logical errors (addressed under Numerical Accuracy), the structural support (citations) exists for all claims."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe numerical errors detected in key growth metrics. 1) Revenue YoY growth claimed as 0.91% (Recent Developments & Financial Analysis), but absolute values ($10.415B vs $9.716B) imply ~7.2% YoY; 0.91% matches QoQ growth. 2) Net Income YoY growth claimed as 0.59%, but absolute values ($2.902B vs $2.507B) imply ~15.8% YoY; 0.59% matches QoQ growth. 3) Q1 2025 FCF Margin claimed as 41.61%, calculated using Q3 Revenue ($10.415B) instead of Q1 Revenue ($9.626B), resulting in a ~340 bps error. These errors materially misrepresent performance trends."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations (chunk IDs and calc IDs) are correctly mapped to the corresponding claims in the text. No mismatches found between the prose and the authoritative ID lists."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates (2025-11-12, 2025-11-11) and filing dates (2025-10-17) are on or before the report As-of date (2025-11-12). No post-as-of information used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial figures (Revenue, Net Income, Margins, Debt, Equity) are repeated consistently across sections (Recent Developments, Financial Analysis, Business Analysis, Risk Analysis), even where the underlying growth calculations are erroneous."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 3,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 3,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe numerical errors."
+  }
+}

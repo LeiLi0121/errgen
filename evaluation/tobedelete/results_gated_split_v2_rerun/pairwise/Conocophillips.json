@@ -1,0 +1,23 @@
+{
+  "sample_id": "Conocophillips",
+  "ticker": "COP US",
+  "as_of_date": "2025-11-17",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors flagged in the metadata. However, there is a divergence in financial data utilization: Report 1 successfully extracts and analyzes Q3 2025 income statement figures (Revenue $15.031B, Net Income $1.726B, Net Margin 11.48%), whereas Report 2 explicitly states in its Financial Analysis section that income statement data is absent and prevents profitability analysis.",
+    "quality_comparison": "Report 1 is materially superior in completeness and investor usefulness. It provides a clear Investment Recommendation ('Hold') with rationale tied to specific margin compression and debt trends. Report 2 truncates before assigning a rating, failing the core function of an equity research report, and unnecessarily limits its analysis by claiming data unavailability that Report 1 successfully utilized. Report 1 offers deeper cross-section synthesis by linking quarterly financial trends to the investment thesis.",
+    "winner": "first_report",
+    "rationale": "While both reports clear the Accuracy Gate, Report 1 delivers a complete investment product with a defined rating and functional financial analysis. Report 2 fails to provide a recommendation due to truncation and admits inability to analyze key profitability metrics. Report 1 better fulfills the user's need for an actionable equity research conclusion with relevant depth."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports passed the Accuracy Gate with no severe errors flagged. Balance sheet metrics (Long-term debt, Cash, Current Ratio) are consistent between the two reports. The primary factual divergence is that Report 1 explicitly states income statement data (Revenue, Net Income) is unavailable, while Report 2 provides specific figures for these metrics. Since Report 2 passed the Accuracy Gate, its data is treated as valid, indicating Report 1 suffered from a data retrieval limitation rather than Report 2 containing hallucinations.",
+    "quality_comparison": "Report 2 is materially superior in completeness and investor usefulness. It provides revenue and net income figures, enabling profitability and margin analysis (identifying margin compression), whereas Report 1 explicitly states it cannot perform this analysis. Report 2 delivers a clear investment recommendation (Hold) with supporting logic, while Report 1 is truncated and fails to provide a complete recommendation. Report 2 also achieves a higher writing score (3 vs 2) and offers more nuanced risk analysis regarding earnings volatility.",
+    "winner": "second_report",
+    "rationale": "Report 2 is the clear winner because it fulfills the core function of an equity research report: providing financial analysis and a recommendation. Report 1's inability to access income statement data prevents profitability analysis, and its truncated ending leaves the investor without a conclusion. Report 2 leverages available data to identify margin compression risks and assigns a specific Hold rating, offering significantly higher utility despite both reports sharing the same Tier and Accuracy status."
+  }
+}

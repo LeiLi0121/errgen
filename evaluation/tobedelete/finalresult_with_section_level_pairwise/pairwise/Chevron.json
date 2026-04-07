@@ -1,0 +1,138 @@
+{
+  "sample_id": "Chevron",
+  "ticker": "CVX US",
+  "as_of_date": "2026-03-23",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 4 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 1 sections on this ordering, errgen-baseline won 4, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis. errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical company profile data, segment descriptions, and historical information. Both reports pass the accuracy gate with zero severe or minor findings in this section.",
+        "quality_comparison": "The writing style, structure, paragraphing, and level of detail are exactly the same in both reports. There is no differentiation in analytical depth or organization.",
+        "winner": "tie",
+        "rationale": "The sections are verbatim identical in content and metadata, with no reliability or quality differentiators to distinguish one from the other."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical factual data, including company metadata, segment descriptions, and historical information. Both reports passed the accuracy gate with zero severe or minor findings in this section.",
+        "quality_comparison": "The text content, structure, depth, and organization are verbatim identical across both reports. There is no differentiation in clarity, analytical implication, or signal density.",
+        "winner": "tie",
+        "rationale": "The two sections are materially indistinguishable as they contain exactly the same text and reliability metrics. Per the decision policy, when sections are identical in reliability and quality, the result is a tie."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cover identical core developments: CEO Mike Wirth's comments at CERAWeek regarding the Strait of Hormuz and physical vs. financial markets, diesel price surges to $5.29/gal, Goldman Sachs' Brent forecast ($100 Q2 2026), Venezuela production updates, and Chevron's 30-day stock performance (11.57% return). Report 1 provides the specific benchmark return (SPY -4.94%) to contextualize the excess return, whereas Report 2 only states the outperformance percentage. Report 2 includes slightly more specific detail on Venezuela policy changes (laws rewritten to favor private investment, Trump admin engagement) compared to Report 1's broader mention of legal uncertainty.",
+        "quality_comparison": "Report 1 demonstrates superior organization for an equity research context. It dedicates a specific paragraph (P4) to stock performance, making key equity data immediately scannable, and provides the benchmark return (SPY) for transparency. Report 2 crowds analyst sentiment, LNG positioning, and stock performance into a single paragraph (P3), reducing clarity. Report 1 also separates market volatility/CEO commentary (P1) from specific price data/forecasts (P2), creating a logical flow from macro to company to stock price. Report 2's additional Venezuela detail is useful but does not outweigh the structural advantages and data transparency of Report 1.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to better organization and investor usefulness. By isolating stock performance in its own paragraph and explicitly stating the benchmark return (SPY -4.94%), it provides clearer context for Chevron's alpha generation than Report 2, which omits the benchmark absolute return and combines performance data with analyst sentiment. While Report 2 offers slightly more detail on Venezuela policy, Report 1's structure allows for faster digestion of critical equity metrics, aligning better with the purpose of a 'Recent Developments' section in an equity report."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report zero severe or minor findings, indicating equivalent factual reliability per the provided metadata. Both cite identical key data points: Diesel prices at $5.29/gal (40% surge), Goldman Sachs Brent forecast of $100 for Q2 2026, CVX 30-day return of 11.57%, and 16.51 percentage points of outperformance. There are no material contradictions in the core data.",
+        "quality_comparison": "The second report demonstrates superior organization and signal density. It dedicates a specific paragraph (P4) to stock performance, explicitly stating the benchmark return (-4.94%) which contextualizes the outperformance claim better than the first report's relative statement alone. It also provides more quantitative detail on market volatility (oil tumbling >10%) and Venezuela investment scale ('tens of billions' vs. 'substantial'). While the first report includes a specific reference to the Trump administration, the second report's clearer separation of price action from fundamental news and additional quantitative context offers better investor utility.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred due to better structural organization (isolating stock performance) and higher signal density regarding quantitative context (explicit benchmark return, volatility magnitude, capex scale). These elements make the section more actionable for an investor assessing both performance attribution and operational scale, whereas the first report mixes analyst sentiment with price action and offers slightly vaguer operational details."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports present consistent financial data for Chevron's Q4 2025 performance, including revenue ($45.8B), EBITDA ($10.8B), FCF ($5.4B), and leverage ratios (D/E 0.25). Neither report contains factual errors according to the section-specific findings (severe=0, minor=0). The first report provides more granular data points (exact dollar figures, CapEx breakdown, Current Assets/Liabilities), while the second report includes the Net Income YoY change (-21.73%) which the first report omits.",
+        "quality_comparison": "The second report demonstrates superior readability by using rounded figures (e.g., $45.8 billion) compared to the first report's cluttered full strings (e.g., $45,787,000,000). Analytically, the second report provides a clearer implication of profitability trends by highlighting the 21.73% Net Income decline and describing it as 'margin compression,' whereas the first report vaguely states 'reasonable profitability' without the bottom-line context. While the first report offers more granular balance sheet and CapEx data, the second report's inclusion of Net Income growth and cleaner presentation makes it more immediately useful for investors.",
+        "winner": "second_report",
+        "rationale": "The second report wins on quality due to better readability and sharper analytical insights. It avoids the cluttered number formatting of the first report and crucially includes the Net Income YoY decline, providing a more complete picture of profitability performance. The first report's additional granularity on CapEx and balance sheet line items does not outweigh the lack of Net Income growth data and the reduced readability."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report zero severe or minor findings, indicating high factual reliability for the financial data presented. Key metrics such as revenue, margins, EBITDA, cash flow, and balance sheet ratios are consistent across both reports (e.g., Q4 revenue ~$45.8B, Net margin 6.05%, D/E 0.25).",
+        "quality_comparison": "The first report offers superior analytical narrative by explicitly quantifying the Net Income year-over-year decline (-21.73%) and linking it to margin compression, whereas the second report mentions net margin percentages but omits the earnings growth rate. The first report also uses rounded figures that enhance readability and scanability for investors, while the second report's use of full digit counts (e.g., $45,787,000,000) adds visual clutter without proportional analytical benefit. Although the second report includes granular details like exact CapEx and current asset breakdowns, the first report's focus on bottom-line performance and clearer prose makes it more useful for quick investor decision-making.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred because it includes the critical Net Income YoY change analysis, which is essential for evaluating profitability trends, while the second report omits this metric. Additionally, the first report's use of rounded numbers improves readability without sacrificing material precision, whereas the second report's excessive digit precision hinders quick comprehension. Both sections are factually accurate, but the first provides a clearer analytical takeaway regarding earnings pressure."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports pass the accuracy gate with zero severe or minor findings flagged in the section-specific summaries. Both accurately describe Chevron's business segments, leadership, and key strategic themes (LNG, Venezuela, geopolitical risks) without contradictory factual claims.",
+        "quality_comparison": "The first report provides superior quantitative depth by including specific financial metrics (margins, debt-to-equity, free cash flow, current ratio) that directly inform the assessment of Chevron's competitive resilience. It also transparently notes data limitations. The second report includes useful competitor context and external forecasts but suffers from repetitive points (Strait of Hormuz mentioned in multiple paragraphs) and visible editing artifacts (empty citation brackets '[]' in P4), which detract from professionalism.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to higher signal density regarding Chevron's specific financial competitive advantages and better polish. The inclusion of margin and leverage data allows for a more concrete assessment of business strength compared to the second report's reliance on external forecasts. Additionally, the second report contains unfinished citation placeholders ('[]'), indicating lower editorial quality."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present consistent core facts regarding Chevron's business segments, leadership (CEO Wirth), employee count (45,298), and strategic positioning (LNG, Venezuela, geopolitical risks). Both sections passed the accuracy gate with zero severe or minor findings flagged, indicating comparable reliability based on the provided metadata.",
+        "quality_comparison": "The second report offers superior depth and organization. It integrates specific financial metrics (margins, leverage, liquidity) to substantiate competitive strength, whereas the first report relies more heavily on external price forecasts. The first report suffers from significant redundancy, repeating the Strait of Hormuz/physical market commentary verbatim in both P2 and P3, and contains visible template artifacts (empty brackets '[]') in P4. The second report acknowledges information limitations transparently.",
+        "winner": "second_report",
+        "rationale": "While reliability is equivalent per the findings summary, the second report wins on quality. It provides higher signal density by including internal financial metrics that support the competitive analysis, avoids the repetitive structure seen in the first report (specifically regarding Hormuz risks), and presents a more polished text without missing citation placeholders. The second report's acknowledgment of data limitations also adds to its credibility and investor usefulness."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports pass the accuracy gate with zero severe or minor findings in the section-specific summaries. They cite consistent core figures for Q4 2025, including total debt ($46.7B), net debt ($40.3B), debt-to-equity (0.25), current ratio (1.15), operating income loss in Q1 (-$1.85B), and zero R&D spend. There are no detectable factual contradictions between the two texts based on the provided validation metadata.",
+        "quality_comparison": "The first report demonstrates superior analytical depth for a Risk Analysis section. It highlights the trajectory of financial risk, specifically noting the 57.5% increase in total debt from Q1 to Q4, whereas the second report only provides the static Q4 debt level. The first report also includes gross and net margin percentages (11.36% and 6.05%), which directly substantiate claims of 'margin compression' better than the second report's focus on absolute income figures. Additionally, the first report quantifies operational scale with employee counts, adding concreteness to operational risk. The second report is competent but more descriptive, characterizing leverage as 'manageable' without emphasizing the rapid accumulation trend that the first report correctly flags as a strain on flexibility.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually reliable, the first report offers higher signal density for investors by focusing on risk trends rather than static snapshots. Identifying the 57.5% debt accumulation over the year is a more critical risk insight than simply stating the year-end debt level. The inclusion of margin percentages also provides a clearer view of the company's cushion against commodity fluctuations. The first report's narrative is more actionable for risk assessment, warning of 'rapid debt accumulation' and 'limited cushion,' whereas the second report's tone is slightly more passive."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports align on key Q4 2025 static metrics, including total debt ($46.7B), net debt ($40.3B), debt-to-equity (0.25), current ratio (1.15), operating income loss in Q1 (-$1.85B), and zero R&D spend. Report 2 provides additional historical context by citing Q1 debt levels ($29.7B) to show trajectory and includes margin percentages (gross 11.36%, net 6.05%), while Report 1 provides absolute current asset and liability figures. There are no direct contradictions in the overlapping data points, and both passed the accuracy gate.",
+        "quality_comparison": "Report 2 demonstrates superior analytical depth for a Risk Analysis section by contextualizing static figures with trends. It highlights the 57.5% debt accumulation over 2025 and margin compression, framing leverage as an 'elevated financial risk' rather than Report 1's more complacent 'manageable' assessment. Report 2 also includes employee count as an operational risk metric. Report 1 is textually cleaner but lacks the trend data critical for assessing risk evolution. Report 2 contains minor citation artifacts (empty brackets), but its signal density is higher.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred because it offers more actionable investor insight by quantifying risk trends (debt growth, margins) rather than just snapshots. In risk analysis, the trajectory of leverage is more material than the static position, making Report 2's characterization of 'elevated financial risk' more useful than Report 1's 'manageable' label. The additional data points (margins, headcount) increase signal density, outweighing the minor formatting imperfections."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical price performance metrics (11.57% return vs -4.94% benchmark) and Q4 free cash flow ($5.4 billion). Both note the 4.95% Q4 revenue decline and zero R&D investment. However, they diverge on balance sheet characterization: the first report highlights a 57.5% increase in total debt to $46.7 billion as a material concern, while the second report describes the debt-to-equity ratio (0.25) as conservative. The first report also flags negative operating income in Q1 2025, whereas the second provides specific net income figures for Q2-Q4 without mentioning the Q1 operating loss.",
+        "quality_comparison": "The first report delivers a more coherent analytical narrative supporting the 'Hold' rating. It explicitly contrasts the strong stock momentum with deteriorating fundamentals (negative operating income, rising leverage), clearly attributing price performance to external commodity dynamics rather than business improvements. The second report describes the financial position as having 'solid financial resilience' and 'conservative' leverage, which slightly weakens the justification for a cautious 'Hold' rating compared to the first report's clear warning on fundamental trends. The first report offers higher signal density regarding the specific risks offsetting the price momentum.",
+        "winner": "first_report",
+        "rationale": "The first report provides a more logically consistent justification for the 'Hold' rating by highlighting the divergence between price momentum and fundamental deterioration (negative operating income, material debt increase). Its analysis that momentum is driven by external factors rather than business improvements offers clearer actionable insight for investors than the second report's mixed message of 'solid resilience' alongside volatility."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections pass the accuracy gate with zero severe or minor findings. Core data points align perfectly, including Q4 2025 free cash flow ($5.4 billion), 30-day stock returns (11.57% vs benchmark -4.94%), and Q4 revenue decline (4.95% YoY). There is a narrative divergence on leverage: the first report characterizes the balance sheet as conservative (D/E 0.25), while the second highlights a material increase in total debt (up 57.5% to $46.7 billion). Both narratives can coexist depending on equity base, but emphasize different risk profiles.",
+        "quality_comparison": "The second report provides superior analytical depth and investor usefulness. It critically distinguishes between commodity-driven price momentum and fundamental business health, explicitly stating that outperformance is not driven by fundamental improvements. It offers more specific evidence of operational deterioration (negative operating income in Q1, detailed debt growth percentage) that strongly justifies the Hold rating. The first report's characterization of the debt profile as 'conservative' slightly undermines the caution required for a Hold rating, whereas the second report's focus on leverage expansion and margin compression provides a clearer, more actionable risk assessment.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable with aligned data, the second report delivers a more nuanced and convincing investment thesis. It better explains the divergence between strong stock performance and the Hold rating by attributing gains to external commodity dynamics rather than company-specific alpha. Additionally, the second report includes higher-signal risk details (negative Q1 operating income, 57.5% debt increase) that provide a stronger foundation for the cautious outlook compared to the first report's more generic volatility concerns and conservative balance sheet narrative."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 4,
+    "errgen": 1,
+    "Tie": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Apple",
+  "model_name": "errgen-baseline",
+  "ticker": "AAPL US",
+  "as_of_date": "2025-07-18",
+  "run_id": "b5068999-ac08-4ec8-9000-f9adacb047a5",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims are supported by the provided evidence pack. Financial figures, strategic developments, and market data are grounded in the cited news chunks and calculation objects."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, growth rates, balance sheet items) match the provided evidence chunks and calculation objects exactly or within acceptable rounding."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Most claims are precisely cited. However, in Business & Competitive Analysis Paragraph 1, the specific revenue claim ($94.036B) lacks a direct revenue-specific chunk or calc ID in that paragraph's structured citation list, though supported elsewhere in the report."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All source dates (2025-07-18) are consistent with the report As-of date. Financial periods (Q3 2025) and future risk factors (August 1 tariffs) are temporally valid."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and qualitative statements are consistent across all sections of the report (e.g., Revenue, Margins, Stock Performance)."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 1,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth and completeness. Provides detailed P&L, cash flow, and balance sheet metrics with specific margins, ratios, and YoY comparisons. Quantifies R&D and buybacks effectively."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers key recent developments including earnings, M&A bids (F1), and analyst commentary. However, lacks specific details on product innovations or semiconductor technology news as requested in the query."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Good general industry context on AI and streaming. However, fails to address specific query requirements regarding competitive positioning in the China market and provides no detail on semiconductor technology beyond general R&D spend."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Analyzes factors influencing the stock but lacks a definitive investment recommendation, rating, or valuation target. The investment view is ambiguous ('mixed signals') rather than actionable."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Strong, dedicated section. Quantifies financial risks (leverage, liquidity) and clearly articulates AI execution and macro/tariff risks with supporting data."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone and clear structure with logical headings. However, key financial metrics are repeated verbatim across multiple sections (Recent Developments, Financial, Business, Risk) without always adding new analytical context."
+    }
+  },
+  "q_score": 4.15,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust financial data coverage and well-quantified risk analysis that provides clear visibility into the company's fiscal health and vulnerabilities.",
+    "primary_weakness": "Incomplete response to specific query requirements (China market, semiconductor technology) and lack of a clear, actionable investment recommendation or valuation."
+  }
+}

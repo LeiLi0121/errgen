@@ -1,0 +1,120 @@
+{
+  "sample_id": "Blackstone",
+  "ticker": "BX US",
+  "as_of_date": "2025-08-12",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "Tie",
+  "order_ab": {
+    "factual_comparison": "Across 5 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis. errgen stronger sections: Financial Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 5 matched sections, errgen won 3 sections on this ordering, errgen-baseline won 1, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Business & Competitive Analysis. errgen-baseline stronger sections: Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "The section text in both reports is identical, including the metadata header (P1) and the narrative description (P2). Both sections report zero severe and zero minor findings specific to this section.",
+        "quality_comparison": "Since the content is verbatim the same, there is no difference in depth, relevance, clarity, or organization between the two sections.",
+        "winner": "tie",
+        "rationale": "The sections are materially indistinguishable as the text and section-specific reliability findings are identical. Per the decision policy, report-level accuracy gates should not dominate section judgment when section-specific findings are similar, so the difference in report-level gate status does not influence the winner for this specific section."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical text, including the metadata header (Ticker, CEO, Employees, etc.) and the narrative description of business segments. Section-specific accuracy findings are also identical (0 severe, 0 minor) for both.",
+        "quality_comparison": "Both sections exhibit the same depth, organization, and clarity. There are no differentiating factors in writing quality, signal density, or analytical implications as the content is word-for-word identical.",
+        "winner": "tie",
+        "rationale": "The section text and section-specific reliability findings are materially indistinguishable. Per policy, the report-level accuracy gate difference is disregarded to avoid letting unrelated issues elsewhere in the report dominate this section's evaluation. Therefore, neither section demonstrates superiority over the other."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical core financial figures for Q2 2025 (Revenue US$3.80 billion, 43% growth) and the Statkraft bid value (US$1.5 billion). Section-specific accuracy findings are identical for both (0 severe, 0 minor), indicating no detected factual errors within this specific section despite the first report failing the overall report-level accuracy gate. Per instructions, section-specific findings take precedence over report-level gates for this evaluation.",
+        "quality_comparison": "The first report demonstrates superior organization and relevance. It dedicates distinct paragraphs to earnings, the India acquisition, the Australia acquisition, and macro/credit conditions, avoiding redundancy. It provides specific details on the Iress share price reaction (15.6% rise to A$9.69). The second report repeats stock performance information in both P1 and P3, and includes less relevant content for a 'Recent Developments' section, such as investor trading strategies (covered calls) and broad sector correlation analysis.",
+        "winner": "first_report",
+        "rationale": "Reliability is considered equivalent based on clean section-specific findings for both. The first report wins on quality due to better structure, higher signal density regarding specific corporate actions, and avoidance of redundancy and generic commentary found in the second report."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report identical key figures for earnings (Revenue US$3.80 billion, 43% increase), the Statkraft bid (US$1.5 billion), and the Iress proposal (A$1.94 billion). Section-specific findings indicate zero severe or minor issues for both, implying comparable reliability within this specific section despite the differing report-level accuracy gates.",
+        "quality_comparison": "The first report provides superior depth and relevance to the specific ticker (BX US). It includes critical balance sheet metrics (debt-to-equity, net debt position) following the earnings release, which are essential for assessing financial health. It also addresses the regulatory environment (carried interest tax treatment), a key risk factor for alternative asset managers. The second report dilutes focus by including performance data for a related entity (Blackstone Secured Lending) rather than deepening the analysis on BX US itself. Additionally, the first report offers more actionable investor insight regarding dividend yield compression and hedging strategies.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually consistent on major events, the first report delivers higher signal density for BX US investors. It prioritizes parent-company fundamentals (leverage ratios) and industry-specific regulatory risks over subsidiary performance data found in the second report. The inclusion of analytical implications regarding dividend yield and investor strategy further enhances its usefulness."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical raw financial figures for revenue, margins, cash flow, and balance sheet items. However, the first report contains a material factual error in Paragraph 1, claiming Q1 2025 revenue declined 10.20% year-over-year when the provided figures ($3,289M vs $2,796M) clearly indicate growth. It also incorrectly calculates YoY growth by comparing Q3 2024 to Q1 2024. The second report correctly identifies the Q1 YoY growth as approximately 17.6% and maintains proper period-matching methodology. This discrepancy aligns with the first report's 'False' report-level accuracy gate versus the second report's 'True' gate.",
+        "quality_comparison": "The second report demonstrates superior analytical depth and clarity. It includes additional comparative data points omitted by the first report, such as Q1 2024 Free Cash Flow ($922M) and Q1 2024 Total Assets, allowing for better trend analysis. The narrative in the second report is more logically structured, avoiding the methodological confusion found in the first report's revenue section. Both reports adequately address the lack of R&D data, but the second report provides a more nuanced explanation regarding expense categorization.",
+        "winner": "second_report",
+        "rationale": "The second report is the clear winner based on the priority of reliability. The first report contains a material factual error regarding the direction of revenue growth (claiming decline vs. actual growth) and methodological flaws in YoY comparisons, which undermines investor trust. The second report is factually accurate, consistent with its 'True' accuracy gate, and offers higher quality analysis through better comparative metrics and clearer logic. The reliability gap is material enough to override the similar section-specific finding summaries."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical raw financial figures for revenue, debt, equity, and cash flow. However, Report 1 correctly calculates Q1 2025 year-over-year revenue growth at approximately 17.6%, consistent with the provided numbers. Report 2 erroneously states Q1 2025 revenue 'declined 10.20% year-over-year' while displaying the same growth figures, creating a direct internal contradiction. Report 1 passed the report-level accuracy gate, while Report 2 failed.",
+        "quality_comparison": "Report 1 provides a coherent narrative ('solid growth momentum') that aligns with the data presented. Report 2's narrative ('notable volatility', 'declined') contradicts its own data, undermining analytical clarity. While Report 2 offers additional metrics like FCF margin, the fundamental error in revenue trend analysis reduces its investor usefulness compared to Report 1's consistent and accurate interpretation.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to superior factual reliability and internal consistency. Report 2 contains a material analytical error by claiming revenue decline when the cited numbers show growth, which is critical in a Financial Analysis section. Despite similar section-specific finding metadata, the text evidence and Report 1's accuracy gate status confirm Report 1 as the more trustworthy source for investment decision-making."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Report 1 accurately describes Blackstone's private equity business as focusing on large buyouts, special situations, and growth equity, whereas Report 2 incorrectly states the firm 'typically invests in early-stage companies,' which misrepresents its core strategy. Report 1 provides specific financial metrics (revenue, net income, margins, debt-to-equity) but contains an internal contradiction in P2 regarding revenue figures ($3.71B vs $3.80B). Report 2 avoids specific absolute financial numbers, citing only growth percentages, and maintains internal consistency but lacks depth.",
+        "quality_comparison": "Report 1 demonstrates superior depth and relevance to the 'Business & Competitive Analysis' section by correctly defining the business model and offering higher signal density with specific profitability and leverage metrics. Report 2 is smoother in narrative flow but suffers from a fundamental qualitative error in the business description and provides less actionable financial data. Report 1's transparency regarding the revenue discrepancy is preferable to Report 2's omission of detail.",
+        "winner": "first_report",
+        "rationale": "Report 1 is selected because it provides a materially more accurate description of Blackstone's business model (large-cap/buyout vs. early-stage), which is critical for a Business & Competitive Analysis section. While Report 1 contains conflicting revenue data in one paragraph, it compensates with higher signal density (margins, leverage) and transparently flags the discrepancy. Report 2's mischaracterization of the investment strategy is a more significant qualitative flaw for investor understanding than Report 1's numerical inconsistency."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cover similar strategic transactions (Statkraft, Iress) and competitive landscape themes. Report 2 provides more granular financial metrics (net income, margins, leverage) but contains an internal contradiction regarding Q2 2025 revenue (citing both $3.71B/12.84% and $3.80B/43% in the same paragraph). Report 1 presents a consistent revenue figure (43%). Report 2 offers a more accurate description of Blackstone's private equity strategy (buyouts vs. Report 1's 'early-stage' characterization).",
+        "quality_comparison": "Report 1 is superior in coherence and decisiveness. The internal data conflict in Report 2 reduces investor usefulness and clarity, forcing the reader to question which figure is accurate. Report 1's narrative flows better and provides clearer analytical implications without self-contradiction. While Report 2 offers greater depth on financial ratios, the reliability of that depth is compromised by the revenue discrepancy.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to better internal consistency and clarity. Although Report 2 offers more detailed financial metrics and a more precise business description, it undermines its own reliability by presenting conflicting revenue figures within the same paragraph. Report 1 provides a coherent narrative with decisive data, aligning with its higher report-level accuracy status, making it more useful for an investor seeking clear analytical implications."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections cite identical core financial figures for Q2 2025 (Debt: ~$12.1B, Equity: ~$19.6B, Cash: ~$2.5B, D/E: 0.62) and prior period debt comparisons. Section-specific findings indicate zero severe or minor errors for both reports, suggesting comparable reliability for this specific section despite the differing report-level accuracy gates. The instruction prioritizes section-specific findings over report-level gates, so reliability is treated as a tie.",
+        "quality_comparison": "The first report provides greater depth on earnings volatility, citing specific YoY percentage changes for both Revenue and Net Income across Q1 and Q2 2025, which is critical for risk assessment. It also structures risk categories more clearly, dedicating a separate paragraph to regulatory, operational, and technology risks rather than grouping them into a general limitation statement like the second report. The second report offers useful liquidity analysis (cash decline) but lacks the earnings volatility granularity found in the first.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually consistent per section-specific metadata, the first report delivers higher signal density for investors. It quantifies earnings volatility with specific YoY growth/decline rates, a key risk metric for asset managers, whereas the second report focuses more on cash fluctuations. Additionally, the first report's organization is superior, explicitly separating business model risks from operational/regulatory risks, providing a more comprehensive risk framework even when noting data limitations."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core balance sheet metrics for Q2 2025 (Total Debt ~$12.1B, Equity ~$19.6B, D/E 0.62, Cash ~$2.5B) and margin history (15.89% to 21.32%). Section-specific findings indicate no severe or minor errors for either section, suggesting comparable reliability for this specific content despite the second report's failed report-level accuracy gate. The second report includes additional income statement volatility data (Revenue and Net Income YoY % changes) not present in the first report.",
+        "quality_comparison": "The second report demonstrates superior depth and organization. It breaks down risks into distinct categories (Financial Leverage, Earnings Volatility, Business Model/Macro, Operational/Regulatory), whereas the first report combines liquidity and margins and devotes a significant paragraph to data limitations. The second report's inclusion of specific Revenue and Net Income YoY volatility percentages provides a clearer signal of earnings risk than the first report's margin-only focus. Additionally, the second report offers qualitative context on why the business model is risky (e.g., opportunistic real estate, distressed assets) rather than simply stating that quantification is unavailable.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually consistent on shared metrics and have clean section-specific findings, the second report provides higher signal density and investor usefulness. It quantifies earnings volatility more precisely (YoY revenue and net income swings) and structures the risk analysis more logically by separating financial, macroeconomic, and operational risks. The first report is adequate but spends more space noting data gaps rather than analyzing the implications of the business model, making the second report more actionable for an investor assessing risk."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 1,
+    "errgen": 1,
+    "Tie": 3
+  }
+}

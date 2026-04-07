@@ -1,0 +1,78 @@
+{
+  "sample_id": "Goldman_Sachs",
+  "model_name": "errgen",
+  "ticker": "GS US",
+  "as_of_date": "2025-11-12",
+  "run_id": "cd6a5b22-7f77-431d-af98-c859d46f8c89",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and calc IDs provided in the evidence pack. Company profile data, financial metrics, stock performance figures, and news events align precisely with the cited evidence."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, ratios, returns) match the values in the cited evidence and calculation objects exactly. Rounding is consistent with standard financial reporting practices (e.g., excess return derived from precise calculations rather than rounded components)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations are mapped correctly to the evidence blocks. Each paragraph's claims are backed by the specific chunk IDs and calc IDs listed under that paragraph. No mismatches or missing citations for material claims were identified."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods are consistent with the report As-of date (2025-11-12). Financial data refers to Q3 2025 (ended Sept 30, 2025), which is prior to the As-of date. News snippets are dated on or before 2025-11-12. No post-as-of claims detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and key data points (e.g., Debt-to-Equity, Current Ratio, Revenue) are consistent across all sections of the report (Recent Developments, Financial Analysis, Risk Analysis). No internal contradictions found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Report provides detailed quarterly revenue, margin, cash flow, and balance sheet metrics with sequential trend analysis. The inclusion of specific figures for Q1-Q3 2025 allows for robust tracking of performance, though some metrics like 'Gross Margin' are less standard for banking."
+    },
+    "news": {
+      "score": 3,
+      "reason": "Covers relevant stock performance and strategic events (White House dinner), but the Recent Developments section contains significant internal redundancy (P1 and P3 repeat the same return data), which dilutes the news quality."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Good context on market rotation and sector positioning, but the Business & Competitive Analysis section largely duplicates the Company Overview segment descriptions without adding deeper competitive insight or differentiation."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear Buy rating supported by a logical synthesis of momentum, fundamental recovery, and macro positioning. The recommendation explicitly addresses position sizing relative to balance sheet risks."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Identifies key financial risks (leverage, liquidity) with specific metrics. Transparently caveats limitations on non-financial risk assessment, which demonstrates analytical discipline."
+    },
+    "writing": {
+      "score": 2,
+      "reason": "Structure is logical, but excessive repetition severely impacts quality. Recent Developments P1 and P3 are nearly identical; Company Overview and Business Analysis repeat segment descriptions; balance sheet stats are repeated verbatim across Financial, Risk, and Invest sections."
+    }
+  },
+  "q_score": 3.5,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong quantitative foundation with clear investment thesis linking fundamental recovery to market context.",
+    "primary_weakness": "Severe redundancy across and within sections (e.g., duplicate paragraphs in Developments, repeated segment descriptions) reduces professionalism and displaces new insight."
+  }
+}

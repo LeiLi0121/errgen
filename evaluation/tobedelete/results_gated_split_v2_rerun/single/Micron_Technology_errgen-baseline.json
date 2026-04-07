@@ -1,0 +1,78 @@
+{
+  "sample_id": "Micron_Technology",
+  "model_name": "errgen-baseline",
+  "ticker": "MU US",
+  "as_of_date": "2025-04-02",
+  "run_id": "e750a18c-b290-48c0-be0a-280d76c842b7",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "Most claims are supported by the provided evidence chunks. However, the claim regarding the entry into a '$3.5 billion revolving credit arrangement' (Recent Developments Para 1, Business Analysis Para 3) is not supported by the cited news evidence chunks, which discuss NVIDIA partnerships, dividends, CHIPS Act, and tariffs instead. Additionally, the share price increase claim (3.24%) relies on a truncated snippet that does not visibly confirm the figure."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "There is a severe numerical error in Financial Analysis Paragraph 1. The report states Q2 2025 Revenue YoY growth was -7.53%. The provided evidence shows Q2 2025 Revenue at $8,053M and Q2 2024 Revenue at $5,824M, which calculates to approximately +38.3% YoY growth. The -7.53% figure corresponds to Quarter-over-Quarter growth (vs Q1 2025 $8,709M), but is mislabeled as YoY in both the text and the calculation object. This materially misrepresents financial performance."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Structured citation IDs are provided for all paragraphs. However, for the $3.5 billion credit arrangement claim, the cited news chunks do not contain the relevant information, indicating a mismatch between the specific claim and the selected source content."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news and financial statements) are on or before the report As-of date of 2025-04-02. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "There is an internal inconsistency in Financial Analysis Paragraph 1. The stated YoY revenue growth rate (-7.53%) contradicts the absolute revenue figures provided for Q2 2024 and Q2 2025 within the same section's evidence, which show significant growth rather than decline."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 1,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+  }
+}

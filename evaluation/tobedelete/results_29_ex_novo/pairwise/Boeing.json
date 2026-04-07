@@ -1,0 +1,23 @@
+{
+  "sample_id": "Boeing",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. Financial data points (Q1 2025 revenue of $19.496B, negative FCF, negative equity) and key news events (Air India 787 crash, UK trade deal, Riyadh Air Airbus order) are consistent and factually aligned across both documents.",
+    "quality_comparison": "Report 2 demonstrates superior completeness and investor usefulness by including a dedicated 'Investment Recommendation & Outlook' section with a clear 'Hold' rating and supporting thesis. Report 1 explicitly lacks a definitive investment recommendation, ending at Risk Analysis. While Report 1 has a slightly higher financial numeric score, both reports suffer from section redundancy. Report 2 better synthesizes risk and financial analysis into actionable logic.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, when both reports pass the Accuracy Gate, quality dimensions emphasizing completeness and investor usefulness are decisive. Report 2 fulfills the core purpose of equity research by providing an actionable recommendation and outlook, whereas Report 1 omits this critical component. Report 2's ability to link identified risks and financial constraints to a specific investment stance makes it materially more useful for an investor, outweighing Report 1's marginal advantage in financial metric presentation."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. They present identical financial data for Q1 2025 (Revenue $19.496B, Net Loss $37M, Negative Equity -$3.325B) and cover the same key news events, including the Air India crash, US-UK trade deal, and Riyadh Air's Airbus order. There are no material factual discrepancies between the two.",
+    "quality_comparison": "Report 1 demonstrates superior completeness and investor usefulness by including a dedicated Investment Recommendation section with a clear 'Hold' rating and thesis. Report 2 explicitly lacks a definitive investment recommendation, which is a critical omission for equity research. While Report 2 has a slightly higher aggregate Q score driven by financial metrics, Report 1 better fulfills the core function of providing actionable advice. Both reports suffer from section redundancy, but Report 1's conclusive stance makes it more valuable.",
+    "winner": "first_report",
+    "rationale": "Both reports are factually reliable, so the decision rests on quality dimensions emphasizing completeness and investor usefulness. Report 1 provides a clear investment recommendation (Hold) with supporting logic, whereas Report 2 fails to offer a definitive thesis. In equity research, the ability to synthesize analysis into a actionable conclusion is paramount. Report 1's stronger performance on recommendation logic and completeness outweighs Report 2's marginal advantage in financial numeric scoring."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Apple",
+  "model_name": "errgen",
+  "ticker": "AAPL US",
+  "as_of_date": "2025-07-18",
+  "run_id": "8b14cdde-6d85-419f-8145-911758bbe525",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are directly supported by the authoritative cited chunk IDs and calc IDs provided in the evidence pack. Financial figures, news events, and analyst comments are traced to specific evidence snippets."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, growth rates, stock returns, ratios) match the provided calculation objects and evidence chunks exactly or within acceptable rounding conventions (e.g., $94.04B vs $94,036M)."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed under each paragraph correspond correctly to the evidence blocks provided. The evidence content substantiates the claims made in the associated paragraphs."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news and financial data are dated on or before the report as-of date (2025-07-18). Future events (e.g., tariffs by August 1) are correctly framed as upcoming based on the news date."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and key facts (e.g., iPhone shipments, stock performance, R&D intensity) are consistent across all sections of the report (Recent Developments, Financial Analysis, Business & Competitive Analysis)."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "The report provides detailed and specific financial metrics (revenue, margins, cash flow, balance sheet ratios) with consistent YoY and sequential comparisons. However, it lacks valuation metrics (P/E, EV/EBITDA) or forward estimates, which limits the depth of financial analysis for investment decision-making."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Comprehensive coverage of recent developments including AI strategy concerns, tariff risks, iPhone shipment data, and media rights bids. It effectively integrates analyst commentary and market sentiment into the narrative."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context provided on Apple's competitive positioning against rivals like Alphabet in AI and streaming competitors. It adequately addresses market conditions such as the flat smartphone market and regulatory environment."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Critical weakness in providing a synthesized investment view. While it cites third-party opinions (Zacks, Cramer), the report fails to offer a clear recommendation (Buy/Sell/Hold), price target, or a cohesive investment thesis derived from the analysis presented."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Excellent risk analysis section that categorizes risks (Technology, Financial, Competitive) and quantifies them with specific balance sheet and performance data. It clearly links risks to potential investor implications."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "The structure is logical and professional, but the report suffers from significant redundancy. Key financial metrics and product descriptions are repeated verbatim or near-verbatim across multiple sections (Developments, Financial, Business, Risk), reducing readability and analytical efficiency."
+    }
+  },
+  "q_score": 3.75,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive and quantified risk analysis paired with detailed reporting of recent financial performance and operational metrics.",
+    "primary_weakness": "Lack of a definitive investment recommendation or synthesized thesis, combined with excessive repetition of data points across sections."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "Apple",
+  "model_name": "errgen",
+  "ticker": "AAPL US",
+  "as_of_date": "2025-07-18",
+  "run_id": "8b14cdde-6d85-419f-8145-911758bbe525",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, stock performance, product shipments, and strategic developments are directly supported by the authoritative cited chunks and calculation objects provided in the evidence pack. No unsupported material conclusions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, growth rates, stock returns, balance sheet items) match the provided evidence chunks and calculation objects exactly or within acceptable rounding conventions. Calculations for margins, ratios, and excess returns are internally consistent with source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs and calc IDs listed for each paragraph correctly correspond to the evidence supporting the claims in that paragraph. There are no mismatches between the claims and the structured citation records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news and data points are dated on or before the report as-of date (2025-07-18). Financial periods (Q3 2025 ending 2025-06-28) are consistent with the report date. Forward-looking statements (e.g., tariffs) are properly attributed to news sources dated within the valid period."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures, product data, and strategic details are consistent across all sections of the report (e.g., Revenue $94.036B, iPhone shipments 45M, R&D intensity 9.43%). No contradictions were found between sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Exceptional depth and specificity. The report provides precise Q3 2025 figures for revenue, income, margins (gross, operating, net, EBITDA, FCF), cash flow components, and balance sheet metrics (debt, equity, liquidity ratios). It includes sequential and YoY comparisons, offering a complete quantitative picture of performance."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Comprehensive coverage of relevant catalysts and sentiment. Includes specific analyst commentary (Cramer, Jefferies), product data (iPhone shipments), strategic bids (F1 rights), and macro factors (tariffs, trade policy). The news is timely relative to the as-of date and directly linked to stock performance."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context on the company's product mix and services transition. Effectively places Apple within the broader smartphone market (flat growth) and AI competitive landscape (lagging vs. Alphabet). Could be slightly deeper on specific industry market share dynamics beyond iPhone shipments."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "While the report aggregates third-party views (Zacks, Jefferies), it lacks a synthesized, proprietary investment recommendation or valuation conclusion. It presents conflicting signals without resolving them into a clear actionable view for the investor, which was a specific part of the user query."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Highly detailed risk analysis covering technology (AI execution), financial (leverage, liquidity), competitive (revenue decline), and regulatory (tariffs) factors. Risks are quantified with specific balance sheet and income statement data, enhancing credibility."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is logical and headings are clear. However, there is excessive repetition of key financial metrics (revenue, margins, debt figures) across nearly every section (Recent Developments, Financial Analysis, Business, Risk). This redundancy detracts from readability and efficiency without always adding new analytical context."
+    }
+  },
+  "q_score": 4.35,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Robust quantitative foundation with precise financial data and well-quantified risk factors that provide a solid basis for analysis.",
+    "primary_weakness": "Lacks a definitive proprietary investment conclusion or rating, and suffers from significant verbatim repetition of financial statistics across sections."
+  }
+}

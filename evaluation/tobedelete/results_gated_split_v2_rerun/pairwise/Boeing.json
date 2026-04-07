@@ -1,0 +1,23 @@
+{
+  "sample_id": "Boeing",
+  "ticker": "BA US",
+  "as_of_date": "2025-06-16",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors. They utilize identical financial data for Q1 2025 (e.g., $19.496 billion revenue, -$37 million net income, -$2.29 billion free cash flow) and reference the same key events (Air India 787 crash, Paris Airshow developments, US-UK trade deal). There are no material factual discrepancies between the two.",
+    "quality_comparison": "The second report is superior in completeness and investor usefulness. While both reports suffer from some repetition between the Company Overview and Business Analysis sections, the second report includes a critical 'Investment Recommendation & Outlook' section with a clear 'Hold' rating and synthesized rationale. The first report explicitly lacks a synthesized investment recommendation, which significantly diminishes its utility as an equity research piece. Additionally, the second report demonstrates stronger synthesis in its Risk Analysis (Quality score 5 vs. 4) and Investment logic (Quality score 4 vs. 2).",
+    "winner": "second_report",
+    "rationale": "Both reports are factually reliable, so the decision rests on quality and usefulness. The second report fulfills the core function of equity research by providing a clear investment recommendation and outlook, whereas the first report omits this entirely. The second report also offers better synthesis of financial distress and operational risks into a coherent investment thesis. Despite minor redundancy in the business section, the presence of actionable guidance makes the second report materially more useful to an investor."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors and cite identical core financial data (e.g., Q1 2025 revenue of $19.496 billion, negative stockholders' equity of -$3.325 billion) and news events (Air India 787 crash, US-UK trade deal, Riyadh Air Airbus order). There are no material factual discrepancies between the two.",
+    "quality_comparison": "Report 1 is superior in completeness and investor usefulness. It includes a full Investment Recommendation & Outlook section with a clear 'Hold' rating and rationale, whereas Report 2 is truncated and explicitly lacks a synthesized recommendation (Invest score 2 vs 4). Report 2 suffers from excessive redundancy, repeating the Air India crash details across Recent Developments, Business Analysis, and Risk Analysis sections. Report 1 demonstrates better cross-section synthesis, particularly in the Risk Analysis which effectively links financial distress to operational hazards, despite some duplication in the Business section.",
+    "winner": "first_report",
+    "rationale": "Report 1 is preferred because it delivers a complete equity research product, including a critical Investment Recommendation section that Report 2 lacks. Report 1 also exhibits better structural discipline with less narrative repetition; Report 2 redundantly details the Air India incident in three separate sections. Given the decision policy prioritizes investor usefulness and completeness when accuracy is equal, Report 1's higher Quality Score (3.9 vs 3.6) and superior synthesis make it the clear winner."
+  }
+}

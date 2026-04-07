@@ -1,0 +1,138 @@
+{
+  "sample_id": "Amazon",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 4 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 2 sections on this ordering, errgen-baseline won 3, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis, Business & Competitive Analysis. errgen-baseline stronger sections: Recent Developments, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "The section text is verbatim identical across both reports, including all company metadata, business description, and segment details. Section-specific findings for both reports indicate zero severe and zero minor errors.",
+        "quality_comparison": "Given the identical text, there is no differentiation in depth, relevance, clarity, organization, or signal density between the two sections.",
+        "winner": "tie",
+        "rationale": "Both sections present identical content and have identical section-specific accuracy metrics (0 severe, 0 minor). Although the report-level accuracy gate differs (False vs. True), the decision policy mandates judging the section only and not letting unrelated report-level issues dominate. Therefore, the sections are materially indistinguishable."
+      },
+      "order_ba": {
+        "factual_comparison": "The section text is verbatim identical in both reports, including the metadata line and the descriptive paragraph. Both reports show identical section-specific findings (0 severe, 0 minor errors).",
+        "quality_comparison": "There is no difference in quality, depth, clarity, or organization as the content is exactly the same.",
+        "winner": "tie",
+        "rationale": "Per the decision policy, section-specific findings are the main reliability signal for this section. Since both the text content and section-specific error counts are identical, the sections are materially indistinguishable. The difference in report-level accuracy gate is disregarded as the instruction specifies judging this section only based on section-specific findings."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections have zero severe or minor findings specific to this section, indicating equal reliability regarding factual accuracy within the provided text. The instruction dictates using section-specific findings as the main reliability signal rather than the report-level accuracy gate.",
+        "quality_comparison": "The first report demonstrates superior depth and organization. It explicitly names the peer companies reporting earnings (Microsoft, Meta, Apple), separates analyst actions into a distinct paragraph for clarity, and includes additional macro context regarding a US-EU tariff pact. It also provides specific sentiment on the broader Q2 earnings season (positive surprises vs. negative). The second report merges analyst actions with earnings context, omits the US-EU tariff pact detail, and uses more generic language regarding the earnings backdrop.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, section-specific findings are the primary reliability signal, and both sections are clean (0 findings). Therefore, the decision rests on quality. The first report offers higher signal density and better organization by including specific peer names, additional macro context (US-EU pact), and distinct segmentation of analyst actions versus earnings previews. This makes it more useful for an investor despite the second report having a passing report-level accuracy gate, as unrelated report-level issues should not dominate the section judgment."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cover identical core developments: Magnificent Seven earnings context ($11.3T market cap), UBS price target hike, WSJ tariff rebuttal, and 30-day stock performance (4.25% vs 3.58%). Section-specific findings indicate zero severe or minor issues for both, implying equal reliability for this section despite the differing report-level accuracy gates. The second report includes additional specific details not present in the first, such as naming the peer companies (Microsoft, Meta, Apple) and adding macro context (US-EU tariff pact, broader earnings season sentiment).",
+        "quality_comparison": "The second report demonstrates higher signal density and investor usefulness. By explicitly naming the peer companies comprising the $11.3 trillion market cap, it removes ambiguity present in the first report's 'four companies' phrasing. It also provides relevant macro context (US-EU tariff pact) that enriches the regulatory discussion, and broader market sentiment (Q2 earnings surprises) that contextualizes the stock performance. The first report is slightly more concise but omits these value-add details. While the first report places the UBS catalyst in the introduction (slightly better flow), the second report's added specificity outweighs this structural minor advantage.",
+        "winner": "second_report",
+        "rationale": "Reliability is tied based on section-specific findings (both 0 severe/minor), adhering to the policy to prioritize section signals over report-level gates. The second report wins on quality due to stronger depth and signal density. Explicitly naming peer companies and providing relevant macro context (US-EU pact, earnings season sentiment) offers clearer analytical implications for the investor compared to the first report's more generic phrasing. Per policy, brevity or omission of analysis (first report) is not rewarded over useful detail."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical Q2 2025 revenue ($167.7B), Q1 2025 revenue ($155.7B), margins (Gross 51.81%, Operating 11.43%, Net 10.83%), and cash flow figures (OCF $32.5B, FCF $332M, CapEx $32.2B). The critical factual divergence is on Year-over-Year (YoY) growth: the First Report claims a 7.73% YoY increase, while the Second Report explicitly states YoY rates cannot be determined due to missing prior year data in source materials. Given the Second Report's 'True' accuracy gate versus the First Report's 'False' gate, the First Report's YoY claim is likely a hallucination.",
+        "quality_comparison": "The Second Report demonstrates superior analytical depth. It calculates implied Q1 gross margin (~50.6%) to quantify margin expansion (120 bps), whereas the First Report only states the Q2 level. The Second Report also compares Operating Cash Flow between Q1 and Q2 ($17.0B vs $32.5B) to highlight cash flow quality improvement, while the First Report mentions Q2 OCF without the Q1 comparison. The Second Report is more transparent about data limitations, enhancing investor trust.",
+        "winner": "second_report",
+        "rationale": "The Second Report is preferred due to higher reliability and analytical quality. Reliability is prioritized because the First Report likely hallucinates YoY growth data (contradicted by the Second Report's admission of missing data and supported by the Report-level accuracy gates). Quality is higher in the Second Report as it provides more meaningful comparative analysis (QoQ margin expansion in bps, OCF growth) rather than just static levels, offering clearer insights into operational trends."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports align on Q2 2025 revenue, margins, cash flow, and balance sheet metrics. The material divergence is on year-over-year revenue growth: Report 1 states YoY data is unavailable, while Report 2 claims a specific 7.73% increase. Given Report 2's failed report-level accuracy gate, Report 1's conservative acknowledgment of data limitations is the more reliable stance.",
+        "quality_comparison": "Report 1 provides superior analytical depth by explicitly calculating Q1 gross margin to quantify sequential expansion (120 bps) and stating Q1 operating cash flow ($17.0B) for direct comparison. Report 2 discusses trends more generally without providing the specific Q1 cash flow figure or margin derivation, resulting in lower signal density.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to higher reliability on the YoY growth claim (acknowledging missing data vs. potential hallucination) and better analytical quality. It offers more actionable insights through explicit quarter-over-quarter calculations (margins, cash flow) that allow investors to better assess momentum, whereas Report 2 is vaguer on comparative metrics."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections report identical section-specific findings (severe=0, minor=0), indicating no flagged factual errors within this specific text block. Both mention the 'Magnificent Seven', UBS price target, CEO Jassy, and the tariff rebuttal. The First Report includes specific Q2 2025 financial metrics (Revenue $167.7B, margins, ratios) while the Second Report describes the outlook qualitatively and admits data limitations.",
+        "quality_comparison": "The First Report demonstrates higher signal density and investor usefulness by providing specific financial health metrics (debt-to-equity, current ratio, margins) and clear growth drivers. The Second Report reduces its utility with a dedicated paragraph (P4) stating that evidence on strategic initiatives and market share is 'limited' and 'not sufficiently covered', which diminishes the analytical value of the section.",
+        "winner": "first_report",
+        "rationale": "Reliability signals are tied based on section-specific findings (0 severe/minor for both), and per instructions, report-level accuracy gates should not dominate the section judgment when section findings are clean. On quality, the First Report is superior due to stronger depth and signal density, offering specific financial metrics and a structured analysis. The Second Report is penalized for explicitly admitting insufficient evidence for key competitive metrics, which lowers its actionable value for investors."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain zero severe or minor factual findings according to the section-specific metadata. They share similar narrative elements, including the 'Magnificent Seven' classification, the specific phrasing regarding $11.3 trillion market value among four tech companies, and the mention of the WSJ tariff rebuttal. However, the first report aligns with a passing report-level accuracy gate, while the second report failed this gate, suggesting a higher underlying risk of hallucination in the second report's broader context.",
+        "quality_comparison": "The first report is better scoped for a 'Business & Competitive Analysis' section. It focuses on segments, competitive positioning, and management signals, and crucially includes a paragraph (P4) explicitly acknowledging data limitations regarding strategic initiatives and market share. The second report devotes significant space (P2) to specific financial metrics (revenue, margins, ratios) that typically belong in a Financial Analysis section, diluting the competitive focus. The first report's transparency about data gaps provides higher analytical integrity.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred because it maintains stricter relevance to the section's mandate (Business & Competitive vs. Financial Performance) and demonstrates superior analytical integrity by explicitly stating where evidence is limited (P4). While both sections are free of flagged factual errors, the first report's honesty about data constraints is more useful to an investor than the second report's inclusion of financial statistics that may belong elsewhere. Additionally, the first report's alignment with the passing report-level accuracy gate supports higher overall reliability."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core financial figures (CapEx, OCF, FCF, Debt, Liquidity, Headcount, R&D) with no internal contradictions. Section-specific findings report zero severe or minor issues for both, indicating comparable reliability for this section despite the first report's overall accuracy gate status.",
+        "quality_comparison": "The first report offers superior readability with standard financial formatting (billions vs. full integers) and higher analytical signal density through derived metrics (FCF margin, R&D % of revenue) and specific relative stock performance data. The second report provides useful Q1 trend context and peer mentions but is hindered by cluttered number formatting and a lack of ratio analysis.",
+        "winner": "first_report",
+        "rationale": "Reliability is treated as equivalent based on section-specific findings (0 severe/minor for both), adhering to the policy to prioritize section signals over report-level gates. The first report is preferred for quality due to professional formatting, derived risk ratios that facilitate faster assessment, and specific market performance data, which outweigh the second report's marginal advantage in trend context and regulatory section phrasing."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical core financial data for Q2 2025 (CapEx ~$32.2B, FCF ~$332M, Debt ~$133.9B, Employees 1.56M, R&D ~$27.2B) and share the same section-specific accuracy findings (0 severe, 0 minor). While the first report holds a 'True' report-level accuracy gate and the second 'False', the decision policy prioritizes section-specific findings for reliability assessment of this section, rendering them effectively tied on factual reliability for this specific content.",
+        "quality_comparison": "The second report demonstrates superior analytical depth and investor usability. It provides derived metrics absent in the first report (0.20% FCF margin, 16.20% R&D/revenue, 30-day price return vs SPY), which contextualize the raw numbers better. Its number formatting (billions vs full integers) improves readability. Crucially, the second report's risk analysis is more transparent, explicitly flagging evidence gaps in regulatory/competitive risks (P4) rather than offering generic commentary like the first report. The first report includes a useful UPS logistics comparison, but the second report's overall signal density and honesty regarding data limitations make it more actionable.",
+        "winner": "second_report",
+        "rationale": "Reliability is treated as equal based on identical section-specific findings (0 errors), adhering to the policy to prioritize section signals over report-level gates. The second report wins on quality due to higher signal density (margins, percentages, stock performance context), better readability, and greater transparency about analytical limitations, providing a clearer takeaway for investors."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections present identical core financial data (revenue, margins, stock performance, employee count) and share identical section-specific accuracy findings (0 severe, 0 minor), indicating equivalent reliability for this specific content despite the first report having a False report-level accuracy gate.",
+        "quality_comparison": "The first report provides superior signal density and analytical depth, specifically quantifying free cash flow constraints ($332 million) and capital expenditures ($32.2 billion) which are critical for justifying the Hold rating. It also includes specific analyst actions (UBS price target) and regulatory context. The second report is more generalized, omitting key cash flow metrics and specific catalysts.",
+        "winner": "first_report",
+        "rationale": "Per policy, section-specific findings drive reliability assessment, resulting in a tie on reliability. The decision therefore rests on quality. The first report offers greater investor usefulness by detailing the cash flow trade-offs and specific market drivers underlying the recommendation, whereas the second report omits these crucial details in favor of brevity."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core financial metrics for the section, including Q2 2025 revenue ($167.7 billion), gross margin (51.81%), operating margin (11.43%), current ratio (1.02), debt-to-equity (0.40), R&D intensity (16.20%), employee count (1.56 million), and 30-day stock performance (4.25% vs SPY 3.58%). The second report includes additional specific data points not found in the first, such as net margin (10.83%), year-over-year revenue growth (7.73%), free cash flow ($332 million), and capital expenditures ($32.2 billion). There are no contradictions between the shared data points, and section-specific findings indicate zero severe or minor errors for both sections.",
+        "quality_comparison": "The second report demonstrates superior depth and analytical utility. It quantifies the 'elevated capital intensity' mentioned in the first report by providing specific free cash flow and capex figures, which are critical for evaluating Amazon's investment thesis. It also adds context with net margin and YoY growth rates. The second report offers a clearer analytical implication, explicitly linking the constrained free cash flow to limited shareholder return potential, which better justifies the Hold rating. The first report is accurate but more generic in its risk assessment and outlook.",
+        "winner": "second_report",
+        "rationale": "Reliability is considered equivalent for this section as both have zero severe or minor section-specific findings, adhering to the policy to prioritize section-specific signals over the report-level accuracy gate. The second report wins on quality due to significantly higher information density and analytical depth. By specifying free cash flow and capital expenditure figures, it provides a concrete basis for the Hold rating that the first report lacks. The second report leaves the investor with a clearer takeaway regarding the trade-off between revenue growth and cash flow constraints, making it more useful for decision-making."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 3,
+    "errgen": 1,
+    "Tie": 2
+  }
+}

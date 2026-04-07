@@ -1,0 +1,23 @@
+{
+  "sample_id": "Chevron",
+  "ticker": "CVX US",
+  "as_of_date": "2026-03-23",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors. They rely on the same underlying data points for financial metrics (e.g., Q4 2025 revenue ~$45.8B, debt ~$46.7B, FCF ~$5.4B) and news catalysts (CERAWeek commentary, Venezuela production, Goldman Sachs forecasts). There are no material factual contradictions between the two; Report 2 simply rounds figures for readability while Report 1 uses exact integers.",
+    "quality_comparison": "Report 2 is materially superior in completeness and investor usefulness. The decisive differentiator is the Investment Recommendation section: Report 2 provides a clear 'Hold' rating with supporting rationale, whereas Report 1 truncates immediately at the section header, offering no conclusion. Report 2 also demonstrates stronger Risk and Financial synthesis, offering specific quarter-over-quarter earnings volatility figures and clearer implications of leverage, compared to Report 1's more generic risk statements. Both reports suffer from redundancy between the Company Overview and Business Analysis sections, but Report 2's higher quality scores (Tier A vs. Tier C) reflect its better analytical depth.",
+    "winner": "second_report",
+    "rationale": "Report 2 wins primarily on completeness and utility. An equity research report must provide a recommendation; Report 1 fails this basic requirement by truncating the section entirely, while Report 2 delivers a rated conclusion with thesis support. Additionally, Report 2 offers more insightful risk analysis (specific earnings fluctuation data) and better financial narrative flow. While both share weaknesses regarding section redundancy, Report 2's substantive value in the critical investment decision sections makes it the clearly more useful document for an investor."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors (numerical, citation, temporal, or consistency). They present consistent financial data for Chevron (e.g., Q4 2025 revenue ~$45.8B, Debt-to-Equity 0.25, FCF margin ~11.76%). Both cite the same news catalysts (CERAWeek comments, Venezuela production, Goldman Sachs forecasts). Neither report contains factual hallucinations or contradictions that would trigger a reliability failure.",
+    "quality_comparison": "Report 1 (Tier A, Q Score 4.2) significantly outperforms Report 2 (Tier C, Q Score 3.05) on quality dimensions. Report 1 scores higher in Financial Numeric (5 vs 4), Risk (5 vs 3), and Investment (3 vs 1). Crucially, Report 1 provides a visible investment rating ('Hold') and supporting rationale before truncation, whereas Report 2 truncates immediately at the Investment section header, offering no recommendation. Report 1 also demonstrates better narrative synthesis in the Risk section, despite both reports suffering from some redundancy in company descriptions. Report 1's writing score (3) is superior to Report 2's (2).",
+    "winner": "first_report",
+    "rationale": "While both reports are factually reliable, Report 1 is materially superior in investor usefulness and completeness. The most critical differentiator is the Investment Recommendation section: Report 1 provides a clear 'Hold' rating with fundamental justification, whereas Report 2 fails to provide any recommendation text due to immediate truncation. Report 1 also achieves higher quality scores across Financial, Risk, and Writing dimensions, offering more insightful commentary on R&D risks and leverage despite some repetitive elements. Under the policy to prioritize quality when accuracy is equal, Report 1 is the clear choice."
+  }
+}

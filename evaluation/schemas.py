@@ -87,6 +87,16 @@ class SingleReportJudgeOutput(BaseModel):
     summary: EvaluationSummary
 
 
+class FactualJudgeOutput(BaseModel):
+    accuracy: AccuracyScores
+    issue_findings: IssueFindings
+
+
+class QualityJudgeOutput(BaseModel):
+    quality: QualityScores
+    summary: EvaluationSummary
+
+
 class SingleReportEvaluation(BaseModel):
     sample_id: str
     model_name: str
@@ -96,6 +106,7 @@ class SingleReportEvaluation(BaseModel):
     judge_model: str
     accuracy_gate_passed: bool
     accuracy: AccuracyScores
+    issue_findings: IssueFindings = Field(default_factory=IssueFindings)
     error_counts: dict[str, int]
     severe_error_counts: dict[str, int]
     quality: QualityScores
@@ -112,6 +123,15 @@ class PairwiseJudgeOutput(BaseModel):
     rationale: str
 
 
+class SectionPairwiseEvaluation(BaseModel):
+    section_name: str
+    order_ab_winner: str
+    order_ba_winner: str
+    final_outcome: str
+    order_ab: PairwiseJudgeOutput
+    order_ba: PairwiseJudgeOutput
+
+
 class PairwiseEvaluation(BaseModel):
     sample_id: str
     ticker: str
@@ -124,6 +144,8 @@ class PairwiseEvaluation(BaseModel):
     final_outcome: str
     order_ab: PairwiseJudgeOutput
     order_ba: PairwiseJudgeOutput
+    section_results: list[SectionPairwiseEvaluation] = Field(default_factory=list)
+    section_outcome_counts: dict[str, int] = Field(default_factory=dict)
 
 
 @dataclass

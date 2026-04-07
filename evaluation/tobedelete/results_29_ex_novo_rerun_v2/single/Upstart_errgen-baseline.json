@@ -1,0 +1,78 @@
+{
+  "sample_id": "Upstart",
+  "model_name": "errgen-baseline",
+  "ticker": "UPST US",
+  "as_of_date": "2025-08-11",
+  "run_id": "c2d42c80-554f-49b0-a1af-38890a49eddc",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and company overview are directly supported by the authoritative cited chunk IDs and calculation IDs provided for each paragraph. Evidence chunks contain the specific data points claimed."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures (Revenue, Net Income, Margins, R&D) are accurate and match the provided evidence and calculations. However, the Free Cash Flow Margin for Q1 2025 is reported as -5.24% based on FCF of -$13.5M. Calculating this using the cited Q1 2025 Revenue ($213.4M) yields -6.32%. The reported margin (-5.24%) corresponds to using Q2 2025 Revenue ($257.3M) as the denominator, indicating a calculation inconsistency in the provided calculation object relative to the period-specific revenue data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs and calc IDs listed under each paragraph precisely correspond to the information presented in that paragraph. There are no mismatches between the claims and the authoritative evidence records provided."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All events, news announcements, and financial periods cited are on or before the report as-of date of 2025-08-11. Q2 2025 financials (ending 2025-06-30) and August 2025 news events are temporally valid."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures are consistent across different sections of the report (e.g., Revenue and Net Income figures in Recent Developments match Financial Analysis). No internal contradictions were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed revenue, margin, and cash flow analysis with clear YoY and sequential comparisons. Transparently acknowledges data limitations (EBITDA, debt details) while maximizing insight from available metrics like the divergence between net income and operating cash flow."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively covers timely developments including the convertible notes offering and Q2 earnings, linking them directly to stock price reactions and investor sentiment. Integrates news events into the broader analytical narrative rather than listing them in isolation."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Solid company overview and business model description, but competitive landscape analysis is thin. Lacks specific peer comparisons or market share data, relying instead on general TAM figures and admitting evidence gaps regarding competitive differentiation."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear 'Hold' recommendation with logical derivation from the financial and risk analysis. Identifies specific catalysts (sustained FCF, reduced dilution) and provides a coherent outlook that balances growth drivers against macro and financing risks."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Excellent identification of specific financial risks, particularly the divergence between profitability and cash flow, thin operating margins, and fixed R&D cost pressure. Connects micro-level financial risks to macro-level credit cycle sensitivity effectively."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional structure with clear headings and logical flow from data to recommendation. Minor redundancy exists between Recent Developments and Financial Analysis sections regarding core metrics, but each section serves a distinct analytical purpose."
+    }
+  },
+  "q_score": 4.0,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong synthesis of financial data and risk implications, particularly the insightful analysis of the divergence between reported profitability and operating cash flow.",
+    "primary_weakness": "Limited competitive context within the industry section, lacking specific peer benchmarking or detailed market share analysis to validate the $3 trillion TAM claims."
+  }
+}

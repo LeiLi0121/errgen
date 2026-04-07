@@ -1,0 +1,78 @@
+{
+  "sample_id": "Nvidia",
+  "model_name": "errgen",
+  "ticker": "NVDA US",
+  "as_of_date": "2025-09-01",
+  "run_id": "5af3f150-c97d-42da-818f-8db9f25c0f98",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, market data, and competitive developments are supported by the authoritative cited chunk IDs or calculation IDs provided in the evidence pack. No unsupported material conclusions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, returns, balance sheet items) match the provided evidence chunks and calculation objects exactly. Calculations such as growth rates and margins are internally consistent with the source data."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Most citations are precise. However, in Risk Analysis Paragraph 4, the authoritative cited chunk IDs (Company Profile and Humanoid Robot news) do not support the specific claim regarding stock performance returns, although the cited calculation IDs do support the numbers. This represents a minor precision issue in evidence mapping."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news and financial statements) are on or before the report as-of date of 2025-09-01. No post-as-of claims or future-dated evidence were used as current facts."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and company details are consistent across all sections of the report (e.g., Revenue, Net Income, Employee count). No contradictions were found between paragraphs."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 1,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Strong quantification of Q2 2025 metrics across income statement, cash flow, and balance sheet (margins, FCF, liquidity ratios). However, the explicit absence of year-over-year revenue growth data limits the completeness of the performance analysis for a high-growth equity story."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Integrates relevant recent developments including partnerships (Norma), market sentiment shifts, and competitor moves (G42 diversification). News items are effectively linked to analytical implications rather than just listed."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Industry and competitive context is present (AI infrastructure, supplier diversification), but the dedicated Business & Competitive Analysis section verbatim repeats the Company Overview boilerplate, reducing depth and synthesis in that specific section."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Provides a clear 'Hold' recommendation with logical reasoning tied to fundamentals and risks. However, it lacks valuation context (multiples, price targets) which is critical for a complete investment view."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive coverage of financial, competitive, and execution risks with specific quantification where possible. Transparently notes evidence limitations regarding supply chain and export controls, which is analytically disciplined."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and clear structure, but significantly marred by the verbatim repetition of the company description in multiple sections, which disrupts flow and suggests a lack of tailored content generation."
+    }
+  },
+  "q_score": 3.6,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust quantification of financial health and risk factors with transparent caveats about data limitations.",
+    "primary_weakness": "Verbatim repetition of company boilerplate across sections and lack of valuation metrics or year-over-year growth context."
+  }
+}

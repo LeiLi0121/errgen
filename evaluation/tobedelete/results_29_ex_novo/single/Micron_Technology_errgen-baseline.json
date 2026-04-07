@@ -1,0 +1,78 @@
+{
+  "sample_id": "Micron_Technology",
+  "model_name": "errgen-baseline",
+  "ticker": "MU US",
+  "as_of_date": "2025-04-02",
+  "run_id": "e750a18c-b290-48c0-be0a-280d76c842b7",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, and market positioning are supported by the authoritative cited chunk IDs. While some evidence snippets are truncated in the display, the structured citation records link claims to specific evidence blocks that align with the text. No claims are visibly contradicted by the provided evidence."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, balance sheet items, ratios) match the provided evidence chunks and calculation objects exactly. For example, Q2 2025 revenue of $8.053B, gross margin of 36.79%, and net debt of $3.978B are verified by the cited income statement, balance sheet, and calculation IDs."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Every paragraph includes structured 'Authoritative cited chunk IDs' and/or 'calc IDs' that correspond to the evidence blocks provided below. There are no missing citations for material claims, and the mapping between text and evidence is clear."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news sources and financial data are dated on or before the report as-of date of 2025-04-02. Earnings release references (March 20) and news dates (April 1-2, 2025) are chronologically consistent with the report date. No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and strategic details are consistent across all sections (Overview, Recent Developments, Financial Analysis, Business Analysis). For instance, margin figures and stock performance statistics are repeated accurately without contradiction."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "High density of specific financial data (revenue, margins, balance sheet), but the narrative reasoning contains a critical logical error: it labels the move from $5.8B (Q2'24) to $8.0B (Q2'25) as a 'year-over-year decline' despite the numbers showing growth. This undermines analytical reliability."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Timely and relevant coverage of earnings releases, NVIDIA partnerships, and regulatory developments (CHIPS Act). Effectively links news events to stock price movements and market sentiment."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context on the AI memory upcycle, HBM positioning, and industry cyclicality. Clearly explains Micron's segments and competitive landscape, though competitor-specific details are light."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Summarizes analyst sentiment and catalysts well (e.g., 'broken stock, not broken company'), but lacks a definitive, synthesized investment recommendation or price target from the report's own perspective."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive identification of cyclical, financial, and regulatory risks. Quantifies volatility with specific QoQ margin and revenue contractions to illustrate downside sensitivity."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Clear structure and professional tone, but suffers from excessive repetition of the same margin metrics (36.79%, 22.02%, 19.66%) across five different sections without adding new analytical insight in each instance."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive integration of specific financial metrics with broader AI industry trends and regulatory context.",
+    "primary_weakness": "Internal logical inconsistency in financial narrative (labeling growth as decline) and redundant repetition of key data points across sections."
+  }
+}

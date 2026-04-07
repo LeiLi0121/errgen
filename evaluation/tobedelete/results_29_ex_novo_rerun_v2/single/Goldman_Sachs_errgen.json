@@ -1,0 +1,78 @@
+{
+  "sample_id": "Goldman_Sachs",
+  "model_name": "errgen",
+  "ticker": "GS US",
+  "as_of_date": "2025-11-12",
+  "run_id": "cd6a5b22-7f77-431d-af98-c859d46f8c89",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All qualitative and quantitative claims in the report are directly supported by the authoritative cited chunk IDs and calc IDs provided in the evidence pack. News snippets corroborate market movements and strategic events (e.g., White House dinner), while financial chunks and calculations validate all performance metrics, balance sheet figures, and ratios."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, returns, ratios) match the provided calculation objects and evidence snippets exactly. Rounding is consistent (e.g., 30-day return 6.63% matches calc 0.06633...). Derived metrics like excess return and net debt are mathematically correct based on the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'calc IDs' listed for each paragraph correctly map to the claims made in that paragraph. There are no mismatches between the claims and the content of the cited evidence blocks."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All data points and news events are dated on or before the report as-of date of 2025-11-12. Financial data (Q3 2025 ending Sept 30) is appropriately available for a November report. News regarding the White House dinner is timestamped 2025-11-12, consistent with the as-of date."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures (e.g., Debt-to-Equity 5.36x, Current Ratio 0.50x, Revenue $32.154B) are consistent across all sections (Recent Developments, Financial Analysis, Risk Analysis). No contradictions found between paragraphs."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Provides detailed Q3 2025 metrics including revenue, sequential growth, margins, and cash flow trends. Balance sheet ratios are specific and contextualized. Minor deduction for filler content (R&D section) and use of non-standard banking margins."
+    },
+    "news": {
+      "score": 3,
+      "reason": "Covers relevant stock momentum, sector rotation, and strategic events (White House dinner). However, significant redundancy exists between paragraphs (P1 and P3 repeat stock returns; P2 and P3 repeat dinner news), reducing information density."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Strong industry context regarding market rotation to value. However, the Competitive Analysis section largely duplicates the Company Overview segment descriptions without adding meaningful peer comparison or competitive positioning depth."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear Buy recommendation with quantified rationale linking momentum, fundamental recovery, and sector positioning. Explicitly balances upside against balance sheet risks in the conclusion."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Identifies specific financial risks (leverage, liquidity) with supporting data. Transparently acknowledges limitations in assessing macro/regulatory risks due to data constraints, which is analytically disciplined."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional structure and tone. Score limited by noticeable repetition in the Recent Developments and Business Analysis sections, where content is restated without adding new analytical value."
+    }
+  },
+  "q_score": 3.6,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Strong quantified financial analysis with sequential trends and clear integration of balance sheet risks into the investment thesis.",
+    "primary_weakness": "Significant redundancy in the Recent Developments and Business Analysis sections, which repeat company overview and stock performance data without adding new insight."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "Adobe",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The second report passes the Accuracy Gate with zero severe errors, whereas the first report fails due to a temporal violation. The first report contains factual compromises regarding timing or data consistency that triggered the failure, while the second report maintains factual integrity, explicitly acknowledging where data is unavailable (e.g., inability to calculate YoY growth) rather than hallucinating figures.",
+    "quality_comparison": "The second report demonstrates superior quality with a Tier A score (4.25) compared to the first report's failed status (0.0). The second report includes dedicated sections for Risk Analysis and Investment Recommendation, providing a more complete framework for investor decision-making. It also exhibits better intellectual honesty by transparently stating analytical limitations, whereas the first report's analysis is undermined by its factual errors and skipped quality evaluation.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, reliability is the primary filter, and a pass on the Accuracy Gate is materially better than a fail. Since the second report passed and the first failed, the second report is automatically preferred. This is reinforced by the second report's higher quality metrics, comprehensive risk assessment, and transparent handling of data limitations, making it significantly more useful and trustworthy for investors."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors, explicitly acknowledging data limitations (e.g., inability to calculate YoY growth) rather than fabricating figures. The second report failed the Accuracy Gate due to a temporal violation, presenting specific revenue growth trajectories and stock performance metrics that were factually compromised.",
+    "quality_comparison": "The first report achieved a Tier A rating with a Q score of 4.25, demonstrating strong risk analysis and transparent caveats. The second report received a Tier Fail rating with a Q score of 0.0, as quality evaluation was skipped due to the accuracy failure. The first report's honesty regarding data constraints makes it significantly more useful for investors than the second report's potentially misleading specific claims.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, a pass on the Accuracy Gate is materially better than a fail. The first report is factually reliable with no severe errors, while the second report is compromised by temporal violations. Reliability takes precedence over other quality dimensions when the gap is material, making the first report the clear choice."
+  }
+}

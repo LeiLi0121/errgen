@@ -1,0 +1,66 @@
+{
+  "n_selected_samples": 30,
+  "n_paired_samples": 29,
+  "n_completed_comparisons": 29,
+  "ground_truth_field": "narrative_text_path",
+  "skipped_missing_runs": [
+    "Novo_Nordisk"
+  ],
+  "baseline": {
+    "n_samples": 29,
+    "correct": 18,
+    "accuracy": 0.6207,
+    "pred_distribution": {
+      "HOLD": 13,
+      "BUY": 16
+    },
+    "confusion": {
+      "BUY": {
+        "HOLD": 9,
+        "BUY": 14
+      },
+      "HOLD": {
+        "HOLD": 4,
+        "BUY": 2
+      }
+    }
+  },
+  "full": {
+    "n_samples": 29,
+    "correct": 14,
+    "accuracy": 0.4828,
+    "pred_distribution": {
+      "HOLD": 13,
+      "BUY": 14,
+      "null": 2
+    },
+    "confusion": {
+      "BUY": {
+        "HOLD": 10,
+        "BUY": 11,
+        "null": 2
+      },
+      "HOLD": {
+        "BUY": 3,
+        "HOLD": 3
+      }
+    }
+  },
+  "llm_judge_model": "qwen3.5-plus",
+  "baseline_llm_judge": {
+    "n_samples": 29,
+    "wins": 2,
+    "losses": 22,
+    "ties": 5,
+    "win_rate_all": 0.069,
+    "win_rate_decisive": 0.0833
+  },
+  "full_llm_judge": {
+    "n_samples": 29,
+    "wins": 1,
+    "losses": 26,
+    "ties": 2,
+    "win_rate_all": 0.0345,
+    "win_rate_decisive": 0.037
+  }
+}

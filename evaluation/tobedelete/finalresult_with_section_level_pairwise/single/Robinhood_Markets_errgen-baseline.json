@@ -1,0 +1,112 @@
+{
+  "sample_id": "Robinhood_Markets",
+  "model_name": "errgen-baseline",
+  "ticker": "HOOD US",
+  "as_of_date": "2025-11-12",
+  "run_id": "cd2632a0-0b18-4a3b-b0f4-418497d9e62d",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "Most claims are supported by cited evidence labels, but the 'year-over-year' growth claims are contradicted by the underlying comparison logic in the calculation objects (which show Quarter-over-Quarter comparisons, e.g., Q3 vs Q2). This makes the material conclusion of YoY growth unsupported by the actual data logic provided."
+    },
+    "numerical_accuracy": {
+      "score": 2,
+      "reason": "Severe errors identified: 1) Revenue and Net Income growth rates are labeled as 'year-over-year' (28.82%, 44.04%) but the evidence calculation objects show they are sequential/quarter-over-quarter (Q3 vs Q2). 2) The 1-year stock return is reported as 'approximately 254%' in Recent Developments but '302.97%' in Business & Competitive Analysis and the authoritative calculation object. Trusting the calculation object, the 254% figure is inaccurate."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations generally map correctly to the provided evidence chunks and calculation IDs. No mismatches found between inline references and the structured evidence pack."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All data points, news dates, and filing dates are consistent with the report As-Of date of 2025-11-12. No post-as-of information detected."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Material inconsistency in the 1-year stock return metric: 'approximately 254%' in Recent Developments vs '302.97%' in Business & Competitive Analysis and Risk Analysis. The YoY/QoQ growth labeling is consistently incorrect across sections."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [
+      {
+        "severity": "severe",
+        "explanation": "The report claims '28.82% year-over-year growth' for Q3 Revenue. However, the authoritative calculation object [24257b41...] shows the comparison period is 'Q2' (Sequential), not the prior year quarter. The evidence data does not support the 'year-over-year' conclusion.",
+        "section": "Recent Developments - Paragraph 1",
+        "offending_span": "Revenue reached $1.274 billion in Q3, representing 28.82% year-over-year growth"
+      }
+    ],
+    "numerical_errors": [
+      {
+        "severity": "severe",
+        "explanation": "Growth rates (28.82% Revenue, 44.04% Net Income) are labeled as Year-over-Year but are calculated as Quarter-over-Quarter (Q3 vs Q2) per the evidence calculation objects. This misrepresents the performance metric.",
+        "section": "Recent Developments - Paragraph 1",
+        "offending_span": "28.82% year-over-year growth... net income climbed to $556 million, up 44.04% year-over-year"
+      },
+      {
+        "severity": "severe",
+        "explanation": "The 1-year stock return is stated as 'approximately 254%' while the authoritative calculation object [96737a69...] and other sections state '302.97%'. Per evaluation rules, the calculation object is trusted, making 254% a numerical error.",
+        "section": "Recent Developments - Paragraph 3",
+        "offending_span": "The stock has surged approximately 254% over the past year"
+      }
+    ],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "severe",
+        "explanation": "The 1-year stock return is reported differently within the same report: 'approximately 254%' in Recent Developments vs '302.97%' in Business & Competitive Analysis and Risk Analysis.",
+        "section": "Recent Developments - Paragraph 3 vs Business & Competitive Analysis - Paragraph 2",
+        "offending_span": "surged approximately 254% over the past year"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 2,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 2,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors, inconsistencies."
+  }
+}

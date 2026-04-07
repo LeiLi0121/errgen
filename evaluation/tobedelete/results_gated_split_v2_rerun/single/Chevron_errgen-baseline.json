@@ -1,0 +1,78 @@
+{
+  "sample_id": "Chevron",
+  "model_name": "errgen-baseline",
+  "ticker": "CVX US",
+  "as_of_date": "2026-03-23",
+  "run_id": "ba5aafc3-d22e-4600-9b89-08e530c89147",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All qualitative and quantitative claims in the report are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. News snippets corroborate management commentary and market data. Financial statements support all revenue, margin, and balance sheet figures."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical values (revenue, margins, cash flow, balance sheet items, stock returns) match the provided evidence snippets and calculation objects exactly. Calculated metrics (margins, ratios, excess return) are mathematically consistent with the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'Authoritative cited calc IDs' listed for each paragraph accurately map to the content presented. There are no mismatches between the claims and the designated evidence blocks."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news sources are dated on or before the report as-of date (2026-03-23). Financial data refers to historical periods (Q4 2025) appropriate for the report date. Forecasts (e.g., Goldman Sachs Q2 2026) are clearly identified as forecasts."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "There are no internal contradictions within the report. Financial metrics cited in the 'Financial Analysis' section are consistent with those referenced in the 'Business & Competitive Analysis' section. Narrative themes (e.g., Venezuela, LNG, Oil Prices) are consistent across sections."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "The report provides detailed historical financial data (revenue, margins, cash flow, balance sheet) with specific figures for 2025. However, it lacks forward-looking valuation metrics (P/E, EV/EBITDA) or price targets essential for an investment decision. Additionally, there is a narrative inconsistency regarding leverage between the Financial Analysis (modest) and Risk Analysis (elevated) sections."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively integrates relevant macroeconomic and geopolitical news (Iran conflict, Strait of Hormuz, Venezuela) with company-specific developments (CERAWeek comments, production updates). The news is timely and clearly linked to market impact and company positioning."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Demonstrates a strong understanding of the integrated business model and industry dynamics (LNG exports, upstream/downstream mix). Connects company assets to broader market dislocations well, though direct peer comparison is limited."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "The Investment Recommendation & Outlook section is truncated ('[...truncated...]'), failing to provide a rating, price target, or concluding investment thesis. This is a critical omission for an equity research report, rendering the analysis incomplete for decision-making."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Comprehensive identification of risks including earnings volatility, leverage trajectory, technology/transition risk (R&D spend), and operational exposure. Uses specific data points to substantiate risk claims, providing quantified analysis."
+    },
+    "writing": {
+      "score": 2,
+      "reason": "Clear structure and professional tone throughout most sections. However, there is significant repetition between the Company Overview and Business & Competitive Analysis sections, and the report ends abruptly without a conclusion, disrupting the analytical flow and completeness."
+    }
+  },
+  "q_score": 3.05,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Detailed quantification of financial performance and risk factors, with specific data points on debt trajectory and R&D spend.",
+    "primary_weakness": "The Investment Recommendation section is missing/truncated, leaving the report without a conclusion or actionable investment view."
+  }
+}

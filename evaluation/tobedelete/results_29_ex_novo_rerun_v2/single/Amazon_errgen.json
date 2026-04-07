@@ -1,0 +1,78 @@
+{
+  "sample_id": "Amazon",
+  "model_name": "errgen",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "run_id": "3df933e8-6285-4e18-8851-0db494a0ef2c",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 3,
+      "reason": "Material claim in Financial Analysis Para 1 states 'Amazon reported Q2 2025 revenue', but evidence in Recent Developments (News [5fdd80af...], [7615bd86...]) on the As-Of date (2025-07-28) explicitly labels the earnings as 'Upcoming' and a 'Preview'. This makes the 'Reported' claim unsupported by the provided evidence context."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (Revenue, Margins, Cash Flow, Balance Sheet) and calculated metrics (Ratios, Returns) match the provided evidence chunks and calculation objects exactly."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations correctly link to the specific evidence chunks containing the referenced data points (e.g., Revenue chunks for Revenue claims). No mismatches found between text claims and cited chunk content regarding the numbers themselves."
+    },
+    "temporal_validity": {
+      "score": 3,
+      "reason": "Severe violation in Financial Analysis Para 1. The report treats Q2 2025 financials as 'reported' facts on the As-Of date (2025-07-28), while contemporaneous news evidence in the pack describes them as 'Upcoming' and 'Preview'. This misrepresents the temporal status of the information."
+    },
+    "consistency": {
+      "score": 3,
+      "reason": "Internal contradiction between Recent Developments (Para 1 & 4) which state earnings are 'Upcoming' / 'This Week', and Financial Analysis (Para 1) which states earnings are 'Reported'. This inconsistency affects the reliability of the financial analysis section."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 1,
+    "inconsistencies": 1
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, temporal violations, inconsistencies."
+  }
+}

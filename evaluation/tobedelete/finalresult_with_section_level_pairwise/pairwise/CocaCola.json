@@ -1,0 +1,138 @@
+{
+  "sample_id": "CocaCola",
+  "ticker": "KO US",
+  "as_of_date": "2025-09-22",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 4 sections on this ordering, errgen won 1, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 1 sections on this ordering, errgen-baseline won 4, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Financial Analysis. errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports contain identical metadata (ticker, exchange, sector, CEO, employee count, IPO date, etc.) and identical narrative text describing the company's operations, product categories, brand portfolio, and distribution model. There are no factual discrepancies or variations in data points between the two sections.",
+        "quality_comparison": "The quality of both sections is indistinguishable. They share the same structure, depth, clarity, and organization. Neither section offers superior analytical insight, signal density, or readability compared to the other.",
+        "winner": "tie",
+        "rationale": "The two sections are materially indistinguishable, with verbatim identical content and structure. According to the decision policy, when sections are materially indistinguishable, the result should be a tie."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical factual content, including company metadata (ticker, exchange, CEO, employees, etc.) and the descriptive overview of operations and brands. Both reports passed the accuracy gate with zero severe or minor findings.",
+        "quality_comparison": "The quality is identical as the text is verbatim the same. There are no differences in depth, organization, clarity, or signal density.",
+        "winner": "tie",
+        "rationale": "The two sections are materially indistinguishable. Both the factual content and the writing quality are identical, making it impossible to prefer one over the other based on the provided decision policy."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical financial metrics (growth rates, margins, stock performance) and operational details (South Africa restructuring, 600 jobs). The metadata indicates no factual errors in either section (severe=0, minor=0). There are no contradictions between the two texts regarding the data points provided.",
+        "quality_comparison": "The first report provides higher signal density in the financial summary by including absolute revenue ($12.535B) and net income ($3.81B) figures, whereas the second report only provides growth percentages. The first report also maintains a clearer organizational structure, separating core financial performance (P1) from market sentiment/stock performance (P4), while the second report mixes stock price action into the financial summary paragraph. Although the second report adds a specific detail about Buffett selling Apple, the first report's inclusion of absolute financial data is more critical for investor utility in an earnings update context.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to better signal density and organization. It includes absolute revenue and net income figures which are essential for fundamental analysis, while the second report omits these in favor of only growth percentages. Additionally, the first report separates operational/financial performance from stock market performance more logically, making it easier for investors to digest company fundamentals versus market trading action."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present identical core financial metrics (revenue growth, net income growth, margins) and operational updates (South Africa restructuring, stock performance) with no identified factual errors according to the metadata. The primary factual difference is that the second report includes absolute revenue and net income figures ($12.535B and $3.81B), while the first report relies solely on percentage growth rates.",
+        "quality_comparison": "The second report demonstrates higher signal density by providing absolute financial figures, which are critical for fundamental analysis and modeling, whereas the first report omits these base numbers. The second report also offers more specific competitive intelligence (e.g., Celsius's RTD energy share on Amazon) and maintains a clearer organizational structure by separating operational/financial performance from market sentiment and stock price action. The first report conflates stock performance with financial results in the opening paragraph and includes more retail-focused language (e.g., 'stocks to buy under $100').",
+        "winner": "second_report",
+        "rationale": "The second report is preferred due to superior data completeness and organization. Including absolute revenue and income figures significantly enhances the utility of the financial summary for investors compared to percentages alone. Additionally, the second report separates business performance from market trading performance for better clarity and provides more granular competitive details. While the first report includes a specific detail regarding Buffett's sale of Apple, the omission of absolute financial data and the conflation of stock performance with operational results make it slightly less effective as an equity research section."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports present consistent financial data for Q2 2025, including revenue ($12.535B), margins, cash flow figures, and balance sheet metrics. The metadata indicates zero severe or minor findings for both sections, confirming equal factual reliability.",
+        "quality_comparison": "The second report demonstrates superior organization by separating revenue, profitability, cash flow, balance sheet, and R&D into distinct paragraphs, enhancing readability. It also provides higher signal density by including absolute profit figures (Gross Profit, Operating Income), explicit Capital Expenditure data ($442M), Shareholders' Equity, and Q1 Revenue comparison, which are absent in the first report.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable, the second report offers greater investor usefulness through better structure and deeper analytical detail. The inclusion of derived metrics like CapEx and Equity, along with a clearer breakdown of P&L components, allows for better financial modeling and trend analysis compared to the first report's denser, less detailed presentation."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports pass the accuracy gate with zero severe or minor findings. All key financial metrics (revenue, margins, cash flow, balance sheet figures) are identical and consistent across both sections.",
+        "quality_comparison": "The first report exhibits superior organization by segregating analysis into distinct paragraphs for Revenue, Profitability, Cash Flow, Balance Sheet, and R&D. It explicitly discloses Capital Expenditures ($442M), enabling verification of the Free Cash Flow calculation. The second report combines R&D (an income statement item) into the Balance Sheet paragraph, which is less logically consistent, though it provides useful qualitative context on the business model and includes Net Income YoY growth.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually accurate and data-rich, the first report is preferred for its clearer structural organization and transparency. The explicit inclusion of CapEx allows for better cash flow analysis, and the separation of financial statement categories (keeping R&D distinct from Balance Sheet metrics) aligns better with standard financial analysis frameworks, enhancing readability and signal density for investors."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports present consistent financial data for Q2 2025 (revenue ~$12.54B, net income ~$3.81B, margins, and leverage ratios) and correctly identify CEO James Quincey and employee count. Neither section contains flagged factual errors according to the section-specific findings. Report 1 provides slightly more precise location details (Atlanta, Georgia vs. US).",
+        "quality_comparison": "Report 1 demonstrates superior depth and relevance for a Business & Competitive Analysis section. It explicitly lists key brand names (e.g., Dasani, Powerade, Costa) whereas Report 2 refers generically to a 'broad portfolio.' Report 1 clearly articulates the capital-efficient franchise model, while Report 2 is less specific on the operational structure. Report 1 includes specific operational risk details (South Africa restructuring), offering more actionable insight than Report 2, which admits limited evidence on strategy and includes 30-day stock performance data that is less relevant to fundamental business analysis. Report 2 also exhibits minor redundancy in P2.",
+        "winner": "first_report",
+        "rationale": "Report 1 is preferred due to higher signal density and better alignment with the section's purpose. It provides specific brand examples crucial for competitive analysis, explains the franchise business model more clearly, and highlights specific operational risks rather than generic statements or stock price movements. Report 2 is more generic regarding the portfolio and includes market performance data that dilutes the focus on business fundamentals."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections pass the accuracy gate with zero severe or minor findings. Financial metrics (revenue, net income, margins, debt) are consistent across both reports.",
+        "quality_comparison": "The second report demonstrates superior depth and relevance to a Business & Competitive Analysis. It explicitly explains the franchise/bottling partner model, which is fundamental to Coca-Cola's capital efficiency, whereas the first report omits this. The second report also substantiates the 'diverse portfolio' claim with specific brand names and identifies a concrete operational risk (South Africa restructuring) rather than stating evidence is limited. Additionally, the second report includes liquidity metrics (current ratio), while the first report includes 30-day stock performance, which is less relevant to fundamental business analysis.",
+        "winner": "second_report",
+        "rationale": "The second report provides a more comprehensive business analysis by explaining the critical franchise model, listing specific brands to illustrate portfolio diversity, and identifying specific operational risks rather than admitting evidence gaps. It focuses more on fundamental business drivers and liquidity, whereas the first report includes less relevant stock price performance data and offers vaguer descriptions of the business structure."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial figures for debt, equity, leverage ratios, and cash flow volatility (Q1/Q2 2025), and both pass the accuracy gate with no severe or minor findings. The first report includes additional factual data points regarding stock performance (30-day return vs SPY) and R&D expenses ($0), which are not contradicted by the second report but simply omitted. The second report introduces a current ratio figure (1.21) not present in the first. Neither report contains factual errors based on the provided metadata.",
+        "quality_comparison": "The first report demonstrates superior organization and depth. It logically groups risks into competitive, financial/market, and operational categories without redundancy. It covers a broader range of risk factors, including franchise model dependency, currency/geopolitical exposure, and innovation risk via R&D intensity. The second report suffers from structural inefficiency, specifically in Paragraph 4, which repeats debt figures already stated in Paragraph 1 and offers generic business description rather than new risk analysis. The first report provides higher signal density and more actionable analytical implications for an investor.",
+        "winner": "first_report",
+        "rationale": "The first report is the clear winner based on section quality. While both are factually reliable per the metadata, the first report covers more relevant risk dimensions (operational franchise risks, currency exposure, market performance, R&D innovation risk) without repetition. The second report redundantly repeats debt statistics in its final paragraph and omits key operational risks inherent to Coca-Cola's business model. The first report leaves the investor with a more comprehensive and structured understanding of the risk profile."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical financial figures for debt ($49.4B), equity ($28.6B), debt-to-equity ratio (1.73), and quarterly cash flow swings. Both pass the accuracy gate with zero severe or minor findings, indicating comparable factual reliability on the shared metrics.",
+        "quality_comparison": "The second report demonstrates superior structure and depth. It covers three distinct risk categories (competitive, financial/market, operational) without redundancy. The first report includes a fourth paragraph that redundantly repeats debt figures from the first paragraph and inserts a generic business description, which lowers signal density. The second report also adds valuable risk context regarding the franchise bottling model dependency and R&D intensity relative to competitors.",
+        "winner": "second_report",
+        "rationale": "While both reports are factually aligned on the core financial data, the second report provides a more comprehensive and professional Risk Analysis. It avoids the significant redundancy found in the first report's final paragraph (which repeats debt stats and adds generic company description). Furthermore, the second report addresses critical operational risks specific to Coca-Cola's franchise model and includes market performance volatility, offering a more complete and useful assessment for investors."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial metrics (revenue growth of 12.63%, net income growth of 14.41%, net margin of 30.39%, debt-to-equity of 1.73, and net debt of $39.9 billion). Both accurately reflect the 30-day underperformance (8.93% vs 893 basis points). Neither section contains flagged factual errors.",
+        "quality_comparison": "The first report demonstrates higher signal density and analytical depth. It includes Free Cash Flow margin (critical for dividend-focused investors), specifies structural risks (franchise bottling model dependency), and provides concrete operational examples (South Africa restructuring). The second report is clear but relies on more generic competitive risk descriptions without the same level of operational specificity.",
+        "winner": "first_report",
+        "rationale": "While both sections are factually reliable, the first report provides a more comprehensive investment thesis. The inclusion of FCF margin, specific operational risk examples, and structural model analysis offers greater investor usefulness and clearer analytical implications than the slightly more generic risk assessment in the second report."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical core financial metrics including revenue growth of 12.63%, net income growth of 14.41%, debt-to-equity of 1.73x, and net debt of $39.9 billion. Market underperformance is expressed differently (893 basis points vs 8.93%) but is mathematically equivalent. Section-specific findings show zero errors for both, indicating equal factual reliability.",
+        "quality_comparison": "The second report offers superior analytical depth and investor usefulness. It prioritizes Free Cash Flow margin over Gross Margin, details specific operational risks such as South Africa restructuring and structural bottling model dependencies, and concludes with actionable monitoring advice. The first report provides general competitive context but lacks the specific risk granularity and actionable guidance found in the second report.",
+        "winner": "second_report",
+        "rationale": "While both sections are factually reliable with consistent data, the second report delivers higher signal density. It provides more relevant profitability metrics, specific examples of operational and structural risks that justify the Hold rating, and clear actionable steps for investors, making it more useful for decision-making than the first report."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 4,
+    "errgen": 1,
+    "Tie": 1
+  }
+}

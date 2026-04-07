@@ -1,0 +1,92 @@
+{
+  "sample_id": "Nvidia",
+  "model_name": "errgen",
+  "ticker": "NVDA US",
+  "as_of_date": "2025-09-01",
+  "run_id": "5af3f150-c97d-42da-818f-8db9f25c0f98",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims are supported by the authoritative cited chunk IDs or calculation IDs provided in the evidence pack. Truncated evidence snippets (e.g., G42 suppliers) are consistent with the visible text and titles, and per instructions, are not penalized solely for truncation."
+    },
+    "numerical_accuracy": {
+      "score": 4,
+      "reason": "Most financial figures (Revenue, Margins, Cash Flow, Balance Sheet) are mathematically accurate and match the provided calculation objects. However, there is a minor terminology/sign error regarding 'Net Cash'. The report states 'net cash position of negative $1.041 billion' while noting 'cash exceeds debt'. Mathematically, if cash exceeds debt, Net Cash should be positive (or Net Debt negative). The value matches the 'Net Debt' calculation object, but the label 'Net Cash' with a negative sign is technically incorrect terminology, though the parenthetical clarifies the liquidity position."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured cited chunk IDs and calc IDs accurately map to the claims made in the text. No mismatches found between the prose and the authoritative grounding records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news chunks and financial statements are dated on or before the report As-Of date (2025-09-01). No post-as-of claims were identified."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Internal consistency is high. While the 'Net Cash' label has a sign ambiguity, the accompanying explanation ('cash exceeds debt') ensures the investment interpretation remains consistent and clear. No material contradictions affecting the investment view were found."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [
+      {
+        "severity": "minor",
+        "explanation": "The report states 'net cash position of negative $1.041 billion' in Financial Analysis Paragraph 4 and Risk Analysis Paragraph 1. Since cash ($11.6B) exceeds debt ($10.6B), the Net Cash position should be positive $1.041 billion, or the metric should be labeled 'Net Debt'. The negative sign corresponds to Net Debt, not Net Cash. The parenthetical '(cash exceeds debt)' clarifies the intent, making this a minor terminology error rather than a material misstatement of liquidity.",
+        "section": "Financial Analysis - Paragraph 4",
+        "offending_span": "net cash position of negative $1.041 billion"
+      }
+    ],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Provides comprehensive coverage of income statement, cash flow, and balance sheet with precise metrics (margins, ratios, FCF). Transparently notes missing YoY data while maximizing analysis of available sequential data."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Integrates specific, relevant recent developments (G42 diversification, Norma partnership, OpenAI capex plans) effectively across sections rather than isolating them, providing timely context for the investment thesis."
+    },
+    "cmi": {
+      "score": 5,
+      "reason": "Strong industry context regarding supplier diversification trends and competitive dynamics (AMD, Alibaba). Includes specific market sizing for emerging segments (robotics) to ground growth expectations."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear 'Hold' recommendation logically supported by the synthesis of financial strength and competitive risks. Lacks explicit valuation multiple analysis or price target context to fully justify the rating against current market pricing."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Thoroughly covers financial, competitive, technology, and market risks. Explicitly acknowledges data limitations (customer concentration, export controls) which enhances analytical credibility."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone and logical structure. However, there is significant verbatim repetition between the Company Overview and Business & Competitive Analysis sections, and financial metrics are restated heavily in the Investment section without added insight."
+    }
+  },
+  "q_score": 4.75,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Deep integration of specific financial metrics with competitive and industry dynamics, such as linking R&D spend to moat defense and G42 diversification to market share risk.",
+    "primary_weakness": "Redundant content between Company Overview and Business sections, and heavy restatement of financial data in the Investment section without additional valuation context."
+  }
+}

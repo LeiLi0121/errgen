@@ -1,0 +1,78 @@
+{
+  "sample_id": "CocaCola",
+  "model_name": "errgen",
+  "ticker": "KO US",
+  "as_of_date": "2025-09-22",
+  "run_id": "37329cab-e841-4d33-b94d-a38cbb016061",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategy, and risks are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. No unsupported conclusions identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, margins, growth rates, ratios) match the provided evidence chunks and calculation objects exactly. Derived figures (e.g., CapEx, Net Debt) are mathematically consistent with cited source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Cited chunk IDs and calc IDs correspond accurately to the content they support. No mismatches between prose claims and authoritative evidence identifiers."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news, filings) are on or before the report as-of date (2025-09-22). No post-as-of information used."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and qualitative statements are consistent across all sections (Recent Developments, Financial Analysis, Business & Competitive Analysis). No internal contradictions found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Comprehensive coverage of income statement, balance sheet, and cash flow with specific margins, ratios, and volatility analysis. Quantifies leverage and cash generation clearly."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers recent earnings, strategic pivots, specific operational restructuring (South Africa), and competitive moves by peers. Includes relevant market context like Buffett's positioning."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong analysis of the franchise model and global scale versus peers. Good context on consumer shifts. Includes transparent caveats on evidence limits regarding strategic initiatives."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear Hold recommendation with logic consistently tied to the financial and competitive analysis. Highlights dividend appeal and valuation concerns effectively."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Quantifies financial leverage and cash flow risks well. However, omits specific regulatory risks (e.g., sugar taxes) explicitly requested in the query, which are material for the beverage industry."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional structure and clear flow. However, significant repetition of the same financial metrics across Financial, Business, Risk, and Investment sections reduces efficiency and displaces deeper qualitative insight."
+    }
+  },
+  "q_score": 4.05,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Deep quantitative financial analysis with clear investment logic and transparent caveats on data limitations.",
+    "primary_weakness": "Excessive repetition of key data points across sections and omission of key regulatory risk context requested in the query."
+  }
+}

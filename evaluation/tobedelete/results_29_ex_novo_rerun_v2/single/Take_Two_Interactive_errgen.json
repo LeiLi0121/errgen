@@ -1,0 +1,78 @@
+{
+  "sample_id": "Take_Two_Interactive",
+  "model_name": "errgen",
+  "ticker": "TTWO US",
+  "as_of_date": "2025-05-23",
+  "run_id": "1227f39c-b18f-4c19-8caf-d6c20ba81fb9",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, corporate actions (equity offering), legal developments, and analyst ratings are directly supported by the authoritative cited chunk IDs and calc IDs listed under each paragraph. Specific numbers (revenue, margins, EPS, share counts) match the evidence snippets exactly."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "Numerical claims are accurate relative to the provided evidence. Calculations (e.g., YoY growth, current ratio) match the provided calculation objects and are internally consistent with the source data chunks. No arithmetic errors or discrepancies found."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'Authoritative cited calc IDs' listed for each paragraph adequately cover the claims made in that paragraph. Reliance on calculation objects for specific revenue data points (Q1/Q2) is permitted and consistent with evaluation instructions."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All events, news dates, and financial periods cited in the report occur on or before the As-of date (2025-05-23). Fiscal period labels (Q3 2025, Q4 2025) align with the source dates provided in the evidence (e.g., Q3 ending Dec 2024, Q4 earnings May 2025)."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Financial figures (revenue, EPS, equity offering size) are consistent across different sections (Recent Developments, Financial Analysis, Business Analysis). No contradictions detected between narrative and data."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed Q3 metrics with transparent caveats on missing data (EBITDA, R&D), but the Financial Analysis section relies on Q3 data while News and Investment sections reference Q4 earnings, creating a disjointed view of the latest financial performance."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Comprehensively covers key recent developments including the equity raise, Q4 earnings, legal investigations, and pipeline delays, effectively addressing the query's requirement for recent developments and catalysts."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Solid company overview and franchise listing, but explicitly acknowledges insufficient evidence regarding competitive moats and market share, limiting the depth of industry positioning and competitive context."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Delivers a clear Hold recommendation with logic tied to liquidity concerns and profitability pressures, effectively synthesizing financial and news data into an actionable investment view despite data gaps."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Quantifies financial and liquidity risks well with specific metrics, but admits insufficient data for macro, regulatory, and operational risks, resulting in an incomplete overall risk profile."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Well-structured with clear headers, but suffers from significant redundancy where key facts (equity raise, earnings results) are repeated across Developments, Business, and Investment sections without adding new analytical depth."
+    }
+  },
+  "q_score": 3.3,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Transparent quantification of financial risks and clear linkage between the equity capital raise and liquidity needs.",
+    "primary_weakness": "Significant repetition of key news items across sections and a disconnect between Q3-focused financial analysis and Q4 earnings news."
+  }
+}

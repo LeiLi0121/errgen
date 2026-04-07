@@ -1,0 +1,78 @@
+{
+  "sample_id": "Conocophillips",
+  "model_name": "errgen-baseline",
+  "ticker": "COP US",
+  "as_of_date": "2025-11-17",
+  "run_id": "0caf1e87-1b67-4736-8117-9d2e655d91f7",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, operational developments, analyst ratings, and insider activity are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. No unsupported assertions were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, net income, margins, ratios, price targets, insider buying amounts) match the provided evidence chunks and calculation objects exactly. Calculations for YoY growth and ratios are internally consistent with the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured cited chunk IDs listed for each paragraph correctly correspond to the evidence supporting the claims in that paragraph. There are no mismatches between the text claims and the authoritative evidence provided."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news articles, financial periods) are on or before the report as-of date of 2025-11-17. No post-as-of information is used, and financial periods (Q3 2025 ending Sept 30) are consistent with the report date."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics and key data points (e.g., Revenue, Net Income, Margins, UBS price target, Insider buying) are consistent across all sections of the report (Recent Developments, Financial Analysis, Business & Competitive Analysis). No internal contradictions were found."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "While quarterly revenue and margin trends are analyzed, critical sector-specific metrics for an E&P company (Free Cash Flow, Operating Cash Flow, EBITDA, Production volumes) are explicitly missing for most periods. Reliance on Net Income rather than cash-flow-based metrics limits the utility of the financial analysis for valuation and capital allocation assessment."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong coverage of specific, actionable catalysts including the Australia Otway Basin discovery, Alaska regulatory changes, and Q3 earnings details. Dates and project names are specific, providing clear context for operational developments."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Adequate overview of the company's asset base and geographic diversification. Mentions industry context like OPEC revisions and peer partnerships, but lacks deep competitive benchmarking against peers on cost structure or reserve life."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "The investment view lacks essential valuation context: no current share price, market cap, or valuation multiples (P/E, EV/EBITDA) are provided to justify the 'Hold' rating relative to price targets. Shareholder return analysis is superficial without FCF coverage data."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Identifies key risks such as leverage, earnings volatility, and geopolitical exposure. Calculates debt-to-equity ratio, but analysis is somewhat repetitive of the financial section without adding significant new qualitative risk insight."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and professional, but suffers from excessive repetition of the same core financial metrics (Revenue, Net Income, Margin) across every section. This redundancy displaces deeper analytical synthesis and reduces readability."
+    }
+  },
+  "q_score": 2.7,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive and specific coverage of recent operational catalysts and regulatory developments (Australia discovery, Alaska policy) that are directly relevant to future growth.",
+    "primary_weakness": "Significant gaps in critical financial data (FCF, EBITDA, Current Price) and excessive repetition of basic metrics across sections, limiting the report's utility for valuation and investment decision-making."
+  }
+}

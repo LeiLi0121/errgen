@@ -1,0 +1,85 @@
+{
+  "sample_id": "Airbnb",
+  "model_name": "errgen",
+  "ticker": "ABNB US",
+  "as_of_date": "2025-08-11",
+  "run_id": "474275b4-3a20-4623-9571-a77388d47e72",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, and market data are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. No unsupported claims were identified."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (revenue, margins, cash flow, buybacks, ratios) match the provided evidence chunks exactly. Calculated metrics (YoY growth, current ratio, R&D intensity) are mathematically correct based on the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'calc IDs' listed under each paragraph accurately correspond to the evidence blocks provided. There are no mismatches between the claims and their cited grounding records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All news dates and financial periods are consistent with the report as-of date of 2025-08-11. No post-as-of claims or future-dated evidence were used to support historical or current statements."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and strategic details are consistent across all sections (Company Overview, Recent Developments, Financial Analysis, Risk Analysis). No contradictions were found between paragraphs."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent quantitative depth. Provides specific revenue, margin, cash flow, and balance sheet figures with year-over-year comparisons. Effectively analyzes seasonality and margin volatility. Transparently acknowledges data limitations (EBITDA, debt details) while maximizing insight from available metrics."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Comprehensive coverage of recent developments including earnings results, stock price reaction, strategic pivots (hotels, AI), institutional activity (Ark Invest), and competitor moves (Sonder, Expedia). Integrates news effectively into the broader analysis."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Solid context on the business model, industry positioning, and competitive landscape. Discusses strategic implications of the hotel pivot and AI integration. Could be slightly deeper on the specific industry dynamics regarding the shift to hotels, but overall complete."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear 'Hold' recommendation logically supported by the financial volatility and strategic uncertainty analyzed in prior sections. Identifies specific catalysts (margin stabilization, AI integration) for reassessment. Lacks a price target but the thesis is well-reasoned."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Strong risk analysis that quantifies financial risks using specific margin volatility data. Covers balance sheet, operating cost, and strategic execution risks. Connects financial metrics directly to risk implications for shareholders."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and professional, but suffers from significant redundancy. Company descriptions (Overview vs. Business) and key financial metrics (Financial vs. Risk vs. Investment) are repeated nearly verbatim across sections. This reduces analytical flow and synthesis, making the report feel padded rather than cohesive."
+    }
+  },
+  "q_score": 4.5,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "High-quality quantitative analysis in Financial and Risk sections, with specific data points used to substantiate volatility and liquidity assessments.",
+    "primary_weakness": "Excessive repetition of key facts and metrics across multiple sections (Overview, Business, Financial, Risk, Investment) detracts from synthesis and analytical efficiency."
+  }
+}

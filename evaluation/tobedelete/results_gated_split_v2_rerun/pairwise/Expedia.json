@@ -1,0 +1,23 @@
+{
+  "sample_id": "Expedia",
+  "ticker": "EXPE US",
+  "as_of_date": "2025-11-24",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate with 2 severe numerical errors, whereas the second report passed the Accuracy Gate with 0 severe errors. This represents a material reliability gap, as the first report contains factual inaccuracies in its financial data while the second report is factually sound.",
+    "quality_comparison": "The second report achieved a Quality Score of 4.05 (Tier B) with strengths in risk analysis and news coverage, despite some repetition. The first report received a Quality Score of 0.0 (Tier Fail) because quality evaluation was skipped due to the accuracy failure. The second report provides more useful and trustworthy analysis for investors.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, reliability takes precedence, and a pass on the Accuracy Gate is materially better than a fail. Since the first report failed the Accuracy Gate due to numerical errors and the second report passed, the second report is the clear winner. The factual integrity of the second report ensures that its analysis and metrics can be trusted, whereas the first report's compromised data undermines its utility regardless of other qualitative factors."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors across all categories (unsupported claims, numerical errors, citation mismatches, temporal violations, inconsistencies). The second report failed the Accuracy Gate due to 2 numerical errors, resulting in an automatic Tier Fail designation.",
+    "quality_comparison": "The first report achieved a Q score of 4.05 (Tier B) with strengths in risk analysis and financial metrics, though it noted some repetition. The second report received a Q score of 0.0 (Tier Fail) because quality evaluation was skipped following the Accuracy Gate failure. The first report provides a complete analysis, whereas the second report's utility is compromised by factual inaccuracies.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary criterion, and a pass on the Accuracy Gate is materially better than a fail. Since the first report passed with no severe errors and the second report failed due to numerical errors, the first report is the clear winner regardless of secondary quality metrics. The first report also demonstrates superior completeness and investor usefulness."
+  }
+}

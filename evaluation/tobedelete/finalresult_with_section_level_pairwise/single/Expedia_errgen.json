@@ -1,0 +1,92 @@
+{
+  "sample_id": "Expedia",
+  "model_name": "errgen",
+  "ticker": "EXPE US",
+  "as_of_date": "2025-11-24",
+  "run_id": "e46f7a9c-6cc6-410d-8993-613799f4aec7",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims are supported by the provided evidence chunks. Specific stock performance statistics (e.g., 13.1% prior month gain) are cited to relevant news sources; while the specific number is not visible in the truncated snippet, the instruction advises against marking unsupported solely due to truncation when the source type is appropriate."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, margins, balance sheet items) match the provided evidence chunks exactly. Calculated ratios (growth, current ratio, D/E) are mathematically correct based on the source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Authoritative cited chunk IDs are correctly mapped to the paragraphs they support. No mismatches found between claims and the structured citation records."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates are on or before the report as-of date (2025-11-24). No post-as-of information is used."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "Minor terminology inconsistency in Financial Analysis Paragraph 4: describes a 'net cash position of -$1,046,000,000' while labeling it '(net debt)'. Net Cash should be positive when Cash exceeds Debt, while Net Debt is negative. The explanation clarifies the intent, but the phrasing is technically contradictory."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "minor",
+        "explanation": "Financial Analysis Paragraph 4 states 'net cash position of -$1,046,000,000 (net debt)'. A net cash position should be expressed as a positive value when cash exceeds debt, whereas net debt is negative. The parenthetical and subsequent explanation clarify the meaning, but the terminology is inconsistent.",
+        "section": "Financial Analysis",
+        "offending_span": "net cash position of -$1,046,000,000 (net debt)"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides detailed quarterly revenue and margin progression with balance sheet ratios, but lacks essential valuation metrics (P/E, EV/EBITDA) and market cap data. Cash flow analysis is incomplete for Q2/Q3 2025, though caveats are transparent."
+    },
+    "news": {
+      "score": 5,
+      "reason": "Excellent coverage of very recent developments including Q3 earnings, Google AI competitive threats, and macro factors with specific dates and stock price impacts integrated throughout."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong overview of brand portfolio and segments. Good contextualization of seasonality and competitive dynamics, though could deepen market share analysis."
+    },
+    "invest": {
+      "score": 2,
+      "reason": "Critical weakness as the Investment Recommendation section is truncated. Lacks a synthesized author recommendation or price target, relying only on third-party analyst ratings mentioned elsewhere."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Effectively quantifies liquidity, leverage, and earnings volatility risks using reported financial data. Clearly distinguishes structural working capital deficits from distress."
+    },
+    "writing": {
+      "score": 4,
+      "reason": "Professional tone and clear sectioning. Some redundancy in company description between Overview and Business sections. Abrupt ending impacts flow but prose quality is high."
+    }
+  },
+  "q_score": 3.55,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Integration of timely, specific news catalysts (Google AI, Q3 earnings) with quantitative financial analysis and risk implications.",
+    "primary_weakness": "Missing investment conclusion and valuation metrics due to truncation and data gaps, preventing a complete decision-useful package."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "sample_id": "Adobe",
+  "ticker": "ADBE US",
+  "as_of_date": "2025-08-22",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 2 sections on this ordering, errgen won 3, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis. errgen stronger sections: Financial Analysis, Risk Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 3 sections on this ordering, errgen-baseline won 2, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Risk Analysis. errgen-baseline stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "The section text is verbatim identical across both reports, including all metadata points (ticker, CEO, employees, etc.) and business description paragraphs.",
+        "quality_comparison": "As the content is identical, the depth, clarity, organization, and analytical utility are equal for both sections.",
+        "winner": "tie",
+        "rationale": "Both sections present the exact same text and have identical section-specific findings (0 severe, 0 minor). Per policy, the report-level accuracy gate is not used to dominate this section's evaluation when section-specific findings are equal. Therefore, the sections are materially indistinguishable."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain verbatim identical text, including company metadata (ticker, CEO, employees, etc.) and the business description paragraph. Section-specific accuracy findings are also identical (0 severe, 0 minor) for both reports.",
+        "quality_comparison": "As the text is identical, there is no difference in depth, relevance, clarity, or organization between the two sections. Both provide the same level of signal density and investor usefulness.",
+        "winner": "tie",
+        "rationale": "Per the decision policy, section-specific findings are the main reliability signal, and these are identical (0 severe, 0 minor). The report-level accuracy gate differs, but the policy instructs to judge this section only and not let unrelated issues elsewhere dominate. Since the text and section-specific reliability metrics are materially indistinguishable, a tie is the appropriate decision."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections report zero severe or minor findings in the section-specific evaluation metadata, indicating comparable reliability for this specific content. The first report includes inline citation markers (e.g., C018, C014) suggesting source grounding, whereas the second report lacks these markers. Both reports contain forward-looking statements for 2025 which are treated as accurate per the provided section findings.",
+        "quality_comparison": "The first report demonstrates superior signal density and investor usefulness. It provides specific financial metrics (stock price, YTD/6-month performance, S&P 500 comparison, P/E ratios) and a more timely analyst update (August 21 vs. August 1). The second report focuses more on product news and competitor valuations with less emphasis on immediate financial performance context.",
+        "winner": "first_report",
+        "rationale": "Per instructions, the report-level accuracy gate (False for first, True for second) is deprioritized in favor of section-specific findings (both 0 severe/minor). The first report wins on quality due to higher financial depth (specific prices, valuation multiples, benchmark comparisons), more recent analyst data (1-day lag vs 21-day lag), and the inclusion of citation markers which improve traceability and analytical rigor."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections present factual claims regarding analyst ratings, competitive dynamics, and stock performance with no severe or minor errors flagged in the section-specific findings. The first report cites a Morgan Stanley rating and a Premier League partnership, while the second report cites an RBC rating, specific stock price data, and market valuation statistics with citation markers.",
+        "quality_comparison": "The first report is better organized with distinct thematic paragraphs (Product/AI, Analyst Sentiment, Competition) and avoids internal repetition. The second report repeats the Google Gemini competitive threat in both the first and fourth paragraphs. The first report focuses more on business catalysts (partnerships, product adoption) which aligns better with 'Recent Developments,' whereas the second report devotes significant space to historical stock price movements.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred due to superior organization and relevance. It avoids the internal repetition found in the second report (Google Gemini mentioned in P1 and P4) and focuses on substantive business developments (Premier League partnership, AI adoption) rather than just stock price statistics. Additionally, while section-specific findings are clean for both, the first report passed the report-level accuracy gate, suggesting higher overall generation integrity."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "The second report passes the report-level accuracy gate with zero section-specific findings (severe=0, minor=0), whereas the first report fails the accuracy gate and contains one minor finding regarding unsupported stockholders' equity claims. Furthermore, the first report presents Q4 and Q1 2025 revenue figures as facts on an August 22, 2025 as-of date, implying the inclusion of future or unfinished period data as historical fact, while the second report conservatively sticks to Q2 2025 data and explicitly acknowledges data limitations regarding YoY calculations.",
+        "quality_comparison": "The first report offers a more cohesive narrative regarding growth trajectories and margin trends, providing greater analytical depth if the data were accurate. However, the second report demonstrates superior integrity by transparently stating where data is unavailable rather than fabricating trends. While the first report is more detailed, its analysis is built on potentially hallucinated figures, reducing its investor usefulness compared to the verified, albeit more conservative, second report.",
+        "winner": "second_report",
+        "rationale": "Reliability takes precedence when the gap is material. The second report is verified (Accuracy Gate True, 0 findings) and honest about data limitations, whereas the first report failed the accuracy gate, contains unsupported claims, and appears to hallucinate future quarter results (Q1) as historical facts. An investor cannot rely on the first report's growth narrative if the underlying numbers are unsupported or impossible given the as-of date."
+      },
+      "order_ba": {
+        "factual_comparison": "The first report passes the accuracy gate (True) with zero section-specific findings, explicitly noting limitations in calculating YoY growth due to missing prior period data. The second report fails the accuracy gate (False) and contains a specific minor finding for an unsupported claim regarding stockholders' equity ($11,623M vs $11,448M in the first report). Additionally, the second report analyzes Q4 2025 data despite an As-of date of August 2025 (Adobe's Q4 typically ends in November), suggesting potential hallucination of future periods, whereas the first report correctly focuses on the most recent completed quarter (Q2 ending May 30).",
+        "quality_comparison": "While the second report offers greater narrative depth with sequential trend analysis across multiple quarters, this added detail is compromised by factual reliability issues. The first report is more conservative but maintains integrity by acknowledging data constraints rather than presenting unsupported figures. The second report's analytical implications regarding growth recovery are built on potentially unavailable or inaccurate data, reducing investor usefulness compared to the verified snapshot in the first report.",
+        "winner": "first_report",
+        "rationale": "Reliability is the primary decision criterion when the gap is material. The first report has a True accuracy gate and no findings, while the second report has a False accuracy gate and a flagged unsupported claim. The second report's inclusion of Q4 2025 data as of August 2025 further undermines its credibility. Per policy, the section with stronger reliability takes precedence over additional but potentially inaccurate depth."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections contain zero severe or minor findings according to the section-specific evaluation, indicating comparable reliability for this specific content. Both reports share a potential structural inaccuracy regarding Adobe's segment reporting (both cite 'Publishing and Advertising' as a third segment, whereas Adobe typically reports two primary segments in recent years), which cancels out as a differentiator. Both cite real analysts (RBC's Matthew Swanson vs. Morgan Stanley's Keith Weiss) and plausible price targets. The first report includes bracketed citations [Cxxx] while the second does not, but the section-specific error count is identical.",
+        "quality_comparison": "The first report demonstrates superior depth and relevance for a 'Business & Competitive Analysis' section. It explicitly names key competitors (Shopify, Wix, Oracle, Autodesk, Maxon) and provides specific market growth data (CAGRs for motion graphics and web conferencing). The second report is more narrative-focused on AI trends with less specific competitive landscape detail (referring vaguely to 'peers' and 'market observers'). The first report offers higher signal density regarding market positioning and competitive dynamics, which is the core purpose of this section.",
+        "winner": "first_report",
+        "rationale": "While both sections pass the section-specific reliability check (0 errors), the first report provides significantly more actionable competitive intelligence. It names specific competitors, provides market growth rates (CAGRs), and details competitive rankings, whereas the second report relies on broader generalizations about competition. Per the decision policy, when reliability is similar, the section with stronger depth and relevance to the user query (Competitive Analysis) wins. The first report's additional detail constitutes signal density rather than fluff."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report zero severe or minor findings in their section-specific reliability summaries, indicating comparable factual integrity for this specific content. The first report cites Morgan Stanley (Keith Weiss, $510 PT) and specific Gen AI traffic stats (4,700% uptick). The second report cites RBC Capital (Matthew Swanson, $480 PT), specific market CAGRs (12.2% for motion graphics, 8.40% for web conferencing), and valuation multiples (P/E ratios). Both provide analyst price targets and stock performance data, though the specific metrics differ slightly (1-year return vs 6-month return).",
+        "quality_comparison": "The second report demonstrates superior depth and relevance for a Business & Competitive Analysis. It provides a more granular breakdown of the three business segments, explicitly details distribution channels (sales force, VARs, OEMs), and names specific competitors (Shopify, Wix, Oracle, Autodesk) within defined markets. It also includes valuation context (P/E ratios) which is critical for investment analysis. The first report is well-organized but more generic regarding the competitive landscape ('tough competition', 'peers') and includes a potentially less core market focus ('Smart Learning Systems') compared to the second report's alignment with Adobe's primary revenue drivers (eCommerce, Motion Graphics).",
+        "winner": "second_report",
+        "rationale": "While both sections pass section-specific reliability checks (0 severe/minor findings), the second report offers higher signal density and investor usefulness. It delivers a more comprehensive business model analysis (distribution channels, segment functions) and a more specific competitive landscape (named peers, market growth rates). The inclusion of valuation metrics and honest acknowledgment of data limitations ('Evidence... is insufficient') enhances its analytical rigor compared to the first report's slightly more generic competitive commentary."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both sections report zero severe or minor findings in their section-specific summaries. However, the first report carries a 'False' Report-level accuracy gate, while the second report carries a 'True' gate. Additionally, the first report references 'Q4 2025' financial data as of August 22, 2025; given Adobe's fiscal year ends in November, Q4 2025 would not be complete or reported by August, suggesting a temporal hallucination. The second report references Q2 2025 data, which is historically valid for the as-of date.",
+        "quality_comparison": "The second report provides significantly deeper analytical value. It concretely analyzes competitive and technology disruption risks (specifically AI's impact on consumer behavior and design software), whereas the first report explicitly states that evidence for these key risk categories is 'insufficient' and omits the analysis. The second report also integrates analyst sentiment divergence and R&D investment context, offering a more comprehensive view of execution risk compared to the first report's more generic financial and market performance summary.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred primarily due to superior reliability and analytical depth. Reliability is higher as indicated by the 'True' Report-level accuracy gate and the use of historically valid Q2 data, whereas the first report's 'False' gate and reference to future quarter (Q4 2025) data on an August as-of date raise material factual concerns. In terms of quality, the second report delivers actionable insights on competitive and AI-driven risks, while the first report admits an inability to analyze these critical areas, reducing its usefulness to an investor."
+      },
+      "order_ba": {
+        "factual_comparison": "The First Report cites Q2 2025 financial data (liquidity, cash flow, debt), which is temporally consistent with the report's as-of date of August 2025 (Adobe's Q2 typically ends in May). The Second Report cites Q4 2025 financial data (revenue growth, net income, balance sheet), which is temporally impossible for an August 2025 report given Adobe's fiscal year ends in November; Q4 2025 results would not be available until late 2025. This represents a material hallucination of future data in the Second Report. Additionally, the First Report passed the report-level accuracy gate, while the Second Report failed.",
+        "quality_comparison": "The First Report provides specific analytical depth on AI-driven competitive risks and execution challenges, linking them to stock performance and analyst sentiment. The Second Report offers detailed revenue volatility analysis but explicitly disclaims insufficient evidence for competitive, regulatory, and operational risks, reducing its comprehensiveness. While the Second Report includes citation markers, the underlying data reliability issue undermines its utility.",
+        "winner": "first_report",
+        "rationale": "The First Report is superior primarily due to reliability. The Second Report presents Q4 2025 financial results in a report dated August 2025, which is a material temporal hallucination that invalidates its financial analysis. The First Report uses plausible Q2 2025 data and passes the accuracy gate. In terms of quality, the First Report also offers more substantive insight into sector-specific risks (AI disruption) compared to the Second Report's admission of insufficient evidence for key risk categories."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports assign a Hold rating and cite similar high-level metrics (gross margins ~89%, operating margins ~36%, significant stock underperformance vs benchmark). The first report provides more granular data points (specific quarterly revenue swings, debt figures, FCF margin 50.47% vs second report's 36.5%), while the second report rounds figures and admits limitations in assessing revenue growth trajectory. Section-specific findings indicate no severe or minor errors for either section, suggesting comparable reliability on the surface, though the first report's report-level accuracy gate is False compared to the second's True.",
+        "quality_comparison": "The first report offers greater depth with six paragraphs covering segments, debt, and specific competitor news, but it suffers from significant formatting issues, including internal citation keys (e.g., K003, C018) and meta-commentary about 'provided data' that breaks professional tone. The second report is more concise (two paragraphs) but is presentation-ready, free of template artifacts, and maintains a cohesive narrative flow. The first report's inclusion of debug-like references reduces signal density and investor usefulness.",
+        "winner": "second_report",
+        "rationale": "While the first report provides more granular data, its quality is significantly degraded by the inclusion of internal citation keys (K003, C018) and meta-references to data limitations, which make it appear like an unpolished draft. The second report delivers a clear, professional investment thesis without distracting artifacts. Per the decision policy, reliability is similar based on section-specific findings (both 0 errors), so the decision rests on quality. The second report is preferred for better organization, professionalism, and investor usefulness, as it avoids the template noise present in the first report."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections report zero severe or minor findings in their section-specific evaluations, indicating comparable reliability for this specific content despite the second report's overall report-level accuracy gate failure. There are numerical discrepancies between the two (e.g., Free Cash Flow margin cited as 36.5% in the first report versus 50.47% in the second), but the clean section-specific flags prevent penalizing either on factual grounds within this isolated comparison.",
+        "quality_comparison": "The second report demonstrates superior depth and analytical utility. It provides specific revenue growth figures (-8.21% to +3.44%) and traceable citation keys (K-codes), whereas the first report admits it 'cannot be fully assessed' regarding revenue growth. The second report is also better organized, with dedicated paragraphs for stock performance, fundamental strengths, market position, and risks, offering a more structured investment thesis.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred because it delivers higher signal density and investor usefulness. It provides concrete data on revenue volatility and competitive dynamics that the first report lacks or dismisses. Per the decision policy, section-specific findings are the primary reliability signal (both are clean), so the decision rests on quality. The second report's detailed breakdown of risks, specific financial metrics, and clear summary makes it more actionable for an investor than the first report's more generic assessment."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 1,
+    "errgen": 2,
+    "Tie": 3
+  }
+}

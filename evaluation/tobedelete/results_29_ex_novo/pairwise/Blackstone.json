@@ -1,0 +1,23 @@
+{
+  "sample_id": "Blackstone",
+  "ticker": "BX US",
+  "as_of_date": "2025-08-12",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports fail the Accuracy Gate. However, the first report contains three categories of severe errors (numerical_errors, citation_mismatches, inconsistencies), whereas the second report contains only one category (inconsistencies). The presence of numerical errors in the first report is particularly detrimental for financial analysis reliability. Both reports share the same internal revenue inconsistency ($3.80B vs $3.71B), but the second report avoids the additional numerical and citation issues flagged in the first.",
+    "quality_comparison": "The content overlap is high, with identical Company Overview sections and nearly identical Financial Analysis. The second report provides more visible depth in the Risk Analysis section (4 paragraphs vs 2 visible paragraphs in the truncated first report), specifically addressing liquidity trends and cash position changes. The first report includes relevant policy risk (carried interest tax), while the second includes a potentially less relevant reference to a Meta deal in the competitive landscape. However, the second report's explicit acknowledgment of the revenue calculation discrepancy within the text offers more transparency than the first report's conflicting section headers.",
+    "winner": "second_report",
+    "rationale": "Although both reports fail the Accuracy Gate, the second report is preferred due to a materially lower severe error count (1 category vs 3) and the absence of numerical errors, which are critical for investor trust. Additionally, the second report offers more complete visible analysis in the Risk section, specifically detailing liquidity trends, whereas the first report is truncated. The second report demonstrates better reliability metrics and slightly greater completeness in the provided text."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports failed the Accuracy Gate, indicating material factual compromises. The first report contains one severe error (inconsistency), specifically contradicting revenue figures within the Recent Developments section ($3.80 billion vs $3.71 billion). The second report contains three severe errors: one inconsistency (same revenue contradiction), one numerical error (incorrect free cash flow margin calculation of 29.09% vs actual ~32.8%), and one citation mismatch. While both reports share the same core inconsistency regarding revenue, the second report introduces additional factual risks through calculation errors and citation issues, making it less reliable.",
+    "quality_comparison": "The quality of both reports is highly similar, with significant text overlap in the Company Overview, Financial Analysis, and Business Analysis sections. Both provide detailed financial metrics, risk analysis, and strategic context. The second report offers slightly more breadth by including macroeconomic context (CPI, tariff truce) and mentioning a related entity (Blackstone Secured Lending), but this added detail comes with the aforementioned factual errors. The first report is more concise and avoids the calculation errors present in the second report. Given the instruction not to reward brevity alone, the deciding factor is the reliability of the analysis provided; the first report delivers similar depth without the additional numerical inaccuracies.",
+    "winner": "first_report",
+    "rationale": "Both reports failed the Accuracy Gate, so the decision relies on severity of errors and investor usefulness as tie-breakers. The first report is preferred because it has fewer severe error types (1 inconsistency vs. 1 inconsistency + 1 numerical error + 1 citation mismatch). Numerical errors in financial analysis are particularly detrimental to investor trust. Although the second report provides slightly more macro context, the added factual risks outweigh the marginal gain in breadth. The first report offers comparable analytical depth with a cleaner factual profile."
+  }
+}

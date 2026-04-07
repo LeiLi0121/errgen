@@ -1,0 +1,27 @@
+{
+  "sample_id": "Bank_of_America",
+  "ticker": "BAC US",
+  "as_of_date": "2025-10-21",
+  "judge_model": "qwen3.5-plus",
+  "generated_label": "full",
+  "ground_truth_label": "ground_truth",
+  "ground_truth_field": "narrative_text_path",
+  "full_run_id": "d100ee8a-2459-4b46-a703-626fd92212a7",
+  "order_ab_winner": "ground_truth",
+  "order_ba_winner": "ground_truth",
+  "final_outcome": "ground_truth",
+  "order_ab": {
+    "coverage_comparison": "The second report comprehensively addresses all query requirements, including specific guidance updates (4Q25 NII guidance lifted), net interest margin trends (deposit costs, funding costs), asset quality relative to peers (Fed stress test performance), and a clear investment outlook with valuation metrics. The first report lists these topics in its table of contents but fails to deliver on key specifics; it lacks management guidance numbers, does not explicitly analyze NIM drivers in the visible text, and is critically truncated before the Investment Recommendation section, leaving the investment view incomplete.",
+    "analytical_depth_comparison": "The second report demonstrates superior domain expertise by using banking-specific metrics (Net Interest Income, deposit beta, stress test results) to synthesize the investment thesis. It connects macro factors to earnings sensitivity (100 bps shift impact). The first report relies on generic corporate metrics inappropriate for banking (Gross Profit, R&D Intensity, Free Cash Flow), offering descriptive commentary on revenue sequences without deep synthesis of banking drivers like spread compression or loan growth dynamics.",
+    "writing_comparison": "The second report follows a professional equity research note structure with a clear headline, investment overview, and risk section, written in a concise, analyst-grade tone. The first report is cluttered with automated metadata, verification tags, and source links that disrupt readability. Furthermore, the first report ends mid-sentence, indicating a generation failure, whereas the second report is complete and polished.",
+    "winner": "second_report",
+    "rationale": "The second report is the stronger deliverable because it is complete, domain-appropriate, and actionable. It directly answers the query's request for guidance updates and NIM trends with specific figures and analysis, whereas the first report uses irrelevant metrics (Gross Profit for a bank) and cuts off before providing the investment recommendation. The second report's valuation thesis (P/E comparison) and clear rating (BUY, $64 TP) make it immediately useful for an investor, while the first report's truncation and generic financial analysis render it incomplete and less credible."
+  },
+  "order_ba": {
+    "coverage_comparison": "The first report directly addresses all query requirements: NIM trends (headline focus), guidance updates (4Q25 NII guidance to USD 15.6-15.7bn), market positioning (retail deposits, small business lending leadership), asset quality vs peers (Fed stress test outperformance), macroeconomic risks (recession, inflation, Fed rates, trade war), and investment outlook with valuation (P/E multiples, target price). The second report, while more data-rich, critically misses NIM discussion despite it being in the query focus areas, lacks guidance updates, and provides no valuation conclusion or investment recommendation. The second report also appears truncated mid-sentence in the Risk Analysis section.",
+    "analytical_depth_comparison": "The first report demonstrates superior analytical synthesis, connecting funding cost trends to NII outlook, providing valuation context against 10-year historical averages with standard deviation analysis, and linking asset quality to stress test performance. The second report presents extensive data tables but lacks interpretive depth—metrics like R&D intensity (0.00%) are irrelevant for banks, and the current ratio (0.41) is presented without banking sector context. The first report builds a coherent investment thesis around NIM turnaround; the second reads more as a data compilation.",
+    "writing_comparison": "The first report follows standard equity research format with clear sections (Overview, Investment Overview, Risks), professional tone, and actionable conclusions. The second report has elaborate structure with table of contents and evidence citations, but this format is atypical for equity research and feels automated. The second report's truncation significantly undermines its quality. The first report is concise without sacrificing key information.",
+    "winner": "first_report",
+    "rationale": "The first report is the stronger equity research deliverable despite being shorter. It directly addresses the query's core requirements (NIM trends, guidance, valuation), provides a clear BUY rating with $64 target price, offers synthesized analysis connecting data points to investment thesis, and is complete. The second report fails on critical equity research dimensions: no investment recommendation or target price, missing NIM discussion despite being a query focus area, truncated content, and data-heavy presentation without analytical synthesis. For investor decision-making, the first report's clear thesis, valuation framework, and actionable recommendation make it substantially more useful."
+  }
+}

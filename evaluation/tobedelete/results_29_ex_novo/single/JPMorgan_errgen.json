@@ -1,0 +1,78 @@
+{
+  "sample_id": "JPMorgan",
+  "model_name": "errgen",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "run_id": "86782d9e-a9bc-483f-a3dd-200771a21b8b",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims in the report are supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. Financial figures, strategic initiatives, and company details match the visible evidence text. Specific numerical claims regarding the HQ cost and square footage are not visible in the truncated evidence snippets, but per evaluation rules, claims are not marked unsupported solely due to evidence truncation."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial numbers (Revenue, Net Income, Margins, Balance Sheet items) match the provided evidence chunks and calculation objects exactly or within acceptable rounding conventions (e.g., $14.393B reported as $14.4B). Calculated ratios (Current Ratio, D/E, Margins) are mathematically consistent with the source figures provided in the evidence pack."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured 'Authoritative cited chunk IDs' and 'calc IDs' listed under each paragraph correctly correspond to the content of that paragraph. There are no visible inline citation labels in the prose to evaluate for mismatch, and the structured citations point to relevant evidence (e.g., Balance Sheet chunks for Balance Sheet claims)."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date is 2025-10-21. All news evidence dates are 2025-10-21 or 2025-10-20. Financial periods (Q3 2025) are consistent with the report date. There are no post-as-of claims or future-dated evidence used to support current statements."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Key metrics (Revenue, Net Income, Employee Count, HQ details) are consistent across all sections of the report (Overview, Recent Developments, Financial Analysis, Business Analysis). No internal contradictions were found between paragraphs."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 2,
+      "reason": "Provides detailed revenue and margin analysis but fails to address the specific query requirement for Net Interest Income and expense trends. Additionally, applies non-standard banking metrics like Free Cash Flow and Gross Margin, which reduces analytical relevance for a financial institution."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Strong coverage of recent developments with specific dates, including HQ inauguration, Q3 earnings beat, and specific lending decisions. Timely and relevant event coverage."
+    },
+    "cmi": {
+      "score": 2,
+      "reason": "Describes business segments adequately but fails to address the specific query regarding international retail expansion strategy, only mentioning international lending hesitation. Lacks meaningful peer comparison context."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Critical failure: The Investment Recommendation section is truncated. Provides no valuation metrics, ROE outlook, or investment view as explicitly requested in the query."
+    },
+    "risk": {
+      "score": 2,
+      "reason": "Analyzes leverage and liquidity well but misses the specific query requirement to evaluate credit quality risks (e.g., asset quality, charge-offs), which are central to bank analysis."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Clear structure and headers, but suffers from significant repetition of key financial figures across multiple sections and ends abruptly due to truncation."
+    }
+  },
+  "q_score": 2.25,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive news coverage with specific dates and event details.",
+    "primary_weakness": "Critical incompleteness in the Investment section and failure to address specific query requirements regarding NII, credit quality, and retail expansion strategy."
+  }
+}

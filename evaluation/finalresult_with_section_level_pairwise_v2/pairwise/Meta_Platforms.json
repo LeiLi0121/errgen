@@ -1,0 +1,138 @@
+{
+  "sample_id": "Meta_Platforms",
+  "ticker": "META US",
+  "as_of_date": "2026-02-19",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 2, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Financial Analysis, Risk Analysis. errgen stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 2 sections on this ordering, errgen-baseline won 3, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Business & Competitive Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: Recent Developments, Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "second_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical factual information including company metadata (ticker, exchange, sector, industry, CEO, employees, IPO date, headquarters) and business description (Family of Apps and Reality Labs segments, product offerings, company history and name change).",
+        "quality_comparison": "Both sections are identical in writing quality, depth, organization, and relevance to the user query. Neither section provides additional analytical insights beyond basic company description, which is appropriate given the low section importance rating.",
+        "winner": "tie",
+        "rationale": "The section texts are materially identical word-for-word. Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. While the second report has a higher overall Q score (3.85 vs 3.45), the decision policy explicitly states not to mechanically follow the higher overall score when the section text is the primary basis for judgment. Since this section is marked as low importance and both texts are identical, there is no basis to prefer one report over the other at the section level."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections contain identical factual content. The company overview information including ticker, exchange, sector, industry, CEO, employee count, IPO date, and website are the same. The business description covering Family of Apps and Reality Labs segments, product offerings, and company history are word-for-word identical.",
+        "quality_comparison": "Both sections are structurally and substantively identical. They present the same level of detail, organization, and writing quality. Neither section provides any additional analytical depth or investor-relevant insights beyond basic company facts.",
+        "winner": "tie",
+        "rationale": "The two Company Overview sections are materially indistinguishable - they contain identical text with the same structure, facts, and level of detail. Per the decision policy, when sections are materially indistinguishable, the result should be a tie. While the first report has a higher overall Q score (3.85 vs 3.45), the decision policy explicitly states not to mechanically follow higher overall scores when section text is the primary basis for judgment. Since the section texts are identical, there is no basis to prefer one over the other."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports cover identical core news items: stock option reductions, AI infrastructure CAPEX guidance, comments from the India AI Impact Summit (LeCun and Wang), the deceased user patent, Nvidia/Intel competitive dynamics, and the UBS sector downgrade. However, the first report provides a CAPEX range ($115 billion to $135 billion) while the second cites only the upper bound ($135 billion). Crucially, the first report includes specific Q4 financial performance data (revenue of $59.894 billion, 16.88% growth, operating margin, and net income volatility percentages), whereas the second report discusses financial implications qualitatively without specific quarterly metrics in this section.",
+        "quality_comparison": "The first report demonstrates higher signal density and investor usefulness. By integrating specific financial performance metrics into the Recent Developments section, it better addresses the user query's requirement to cover 'financial performance.' The quantitative detail on revenue, margins, and earnings volatility allows for a more concrete assessment of the impact of AI spending than the second report's narrative approach. The first report also structures the financial data distinctly (P4), making it easier to digest compared to the second report's blended analyst perspective.",
+        "winner": "first_report",
+        "rationale": "Despite the second report having a higher overall quality score, the first report's section text is superior for the specific user query. The query explicitly requests coverage of 'financial performance,' which the first report addresses with specific quarterly data points (revenue, growth, margins, net income) within this section. The second report omits these hard numbers, offering only qualitative commentary on margins. Additionally, the first report provides a more nuanced CAPEX guidance range. In equity research, quantitative specificity in recent developments (especially regarding earnings) significantly enhances analytical value, making the first report the better choice for this section."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cover identical core news items: the 5% stock option reduction, the India AI Impact Summit 2026 comments by LeCun and Wang, the deceased user patent, Nvidia/Intel competitive dynamics, and the UBS sector downgrade. However, the second report provides more precise capital expenditure guidance ($115 billion to $135 billion range vs. a flat $135 billion figure in the first report). Crucially, the second report includes specific Q4 financial performance metrics (Revenue $59.894 billion, Operating Margin 41.31%, Net Income volatility) within the section, whereas the first report only discusses margin impact qualitatively without providing actual performance data.",
+        "quality_comparison": "The second report demonstrates higher signal density and investor usefulness in this section. By integrating specific financial results (earnings, margins, revenue growth) into the 'Recent Developments' section, it directly addresses the user query's requirement to cover 'financial performance' alongside developments. The first report remains more narrative-focused on AI vision and analyst sentiment, lacking the quantitative backing that makes the second report's analysis actionable. The second report also structures the information more logically, separating capital allocation, AI vision, competitive landscape, and financial outcomes into distinct paragraphs.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred for this section because it provides concrete financial performance data (revenue, margins, net income) which is a key component of the user query, whereas the first report only offers qualitative commentary on margins. The second report's inclusion of earnings results within 'Recent Developments' is standard and highly relevant for equity research, offering better depth and analytical utility. Additionally, its CapEx guidance is more nuanced (providing a range). Despite the first report having a higher overall quality score, the section text of the second report is materially more informative and responsive to the specific query requirements regarding financial performance."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical financial data points for revenue, margins, cash flow, balance sheet metrics, and R&D expenses. There are no factual discrepancies between the two sections; the divergence lies entirely in presentation and narrative specificity.",
+        "quality_comparison": "The first report uses standard equity research notation (e.g., '$59,894 million'), which is significantly more readable than the second report's full numeric strings (e.g., '$59,894,000,000'). Furthermore, the first report integrates specific user query topics more effectively, explicitly mentioning 'Reels' monetization in the revenue section and 'Reality Labs' in the R&D section, whereas the second report uses broader terms like 'family of apps' and 'innovation'.",
+        "winner": "first_report",
+        "rationale": "Although the second report has a higher overall quality score, the decision policy instructs to prefer the section text if it clearly favors one report. The first report's section is superior due to professional number formatting that enhances readability and signal density. Additionally, it demonstrates better relevance to the user query by explicitly connecting financial performance to specific requested topics (Reels, Reality Labs) rather than generic business segments. These factors make the first section more useful for an investor despite the lower report-level score."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical financial data points (revenue, margins, cash flow, balance sheet metrics) with no section-specific factual errors flagged in either. Both passed the report-level accuracy gate. The numerical reliability is equivalent.",
+        "quality_comparison": "The second report demonstrates superior quality in formatting and relevance to the user query. It uses standard equity research notation ('$ millions') which is significantly more readable than the first report's cumbersome full numerical expansion ('$59,894,000,000'). More importantly, the second report integrates specific query themes more effectively: it explicitly links revenue growth to 'monetization of Reels and AI-driven ad products' and connects R&D spend to 'margin pressure' risks, whereas the first report uses generic language ('family of apps ecosystem'). The second report also provides deeper analytical insight on the Q3 net income volatility, hypothesizing causes rather than just noting the fluctuation.",
+        "winner": "second_report",
+        "rationale": "While the first report has a higher overall score, the decision policy prioritizes section text quality and relevance to the user query over report-level scores. The second report's section is more useful to an investor due to better readability (standard number formatting) and tighter alignment with the specific request to cover Reels, AI infrastructure, and margin pressure risks within the financial analysis. The first report's commentary is more generic and the number formatting reduces signal density."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core data points: employee count (76,834), revenue growth rates (Q4 16.88%, Q3 7.84%), AI capex plans (~$135B range), and stock award reductions (5% for second year). Both reference the India AI Impact Summit 2026 and AI Chief Alexandr Wang's comments. Report 2 includes additional specific financial metrics (gross/operating/net margins, FCF margin, balance sheet ratios) and an additional AI quote from Yann LeCun not present in Report 1. Report 1 explicitly notes limitations in available documentation regarding market share and regulatory scrutiny, whereas Report 2 does not acknowledge these gaps but provides more financial evidence.",
+        "quality_comparison": "Report 2 demonstrates higher signal density and investor usefulness by integrating specific profitability and liquidity metrics into the business analysis. This directly supports the user query's requirement for 'financial performance' and allows for a better assessment of the company's ability to fund its aggressive AI infrastructure strategy (a key query topic). Report 1's qualitative discussion of R&D intensity is useful, but Report 2's concrete margin and cash flow data provides a stronger foundation for evaluating margin pressure risks and business sustainability. Report 2 also offers slightly deeper AI competitive context via the LeCun citation.",
+        "winner": "second_report",
+        "rationale": "Report 2 is preferred because it delivers greater analytical depth relevant to the user query. By including specific margin, cash flow, and balance sheet metrics within the Business & Competitive Analysis section, it better addresses the 'financial performance' and 'margin pressure' aspects of the query while contextualizing the AI capex strategy. Report 1 is transparent about data limitations but ultimately provides less actionable financial evidence to support its strategic narrative. Report 2's inclusion of additional AI leadership commentary (LeCun) also enhances the competitive analysis."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections pass the accuracy gate with no severe or minor factual issues flagged. Key figures align across both reports (employee count ~76,834, Q4 growth 16.88%, Q3 growth 7.84%, AI infrastructure spending in the $115-135B range, 5% stock award cuts). Both cite the India AI Impact Summit 2026 and Alexandr Wang's comments. The first report provides more specific financial metrics (gross margin 81.79%, operating margin 41.31%, net margin 38.01%, current ratio 2.60, D/E 0.39, FCF margin 24.76%) while the second report mentions R&D intensity (28.61%) but acknowledges gaps in market share and regulatory data.",
+        "quality_comparison": "The first report delivers stronger analytical depth with concrete financial metrics that support competitive positioning analysis. It includes additional AI leadership perspective (Yann LeCun's comments) and provides clearer financial health indicators for investors. The second report is more transparent about analytical limitations but this transparency comes at the cost of actionable detail. Neither section adequately addresses Reels developments or regulatory scrutiny as the user query requested, but the first report's financial quantification better serves the 'financial performance' and 'competitive positioning' elements of the query.",
+        "winner": "first_report",
+        "rationale": "The first report wins on section quality due to superior financial metric integration (margins, ratios, FCF) that directly supports competitive analysis and investor decision-making. While both sections share similar gaps (limited Reels coverage, inadequate regulatory risk discussion), the first report provides more actionable data density. The second report's acknowledgment of limitations is valuable but doesn't compensate for thinner analytical content. Per the decision policy, section text quality takes precedence over report-level scores, and the first report's section clearly offers better signal density for the Business & Competitive Analysis task."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both reports present identical core financial risk metrics: 64% QoQ debt increase ($51.1B to $83.9B), debt-to-equity of 0.39, net debt of $48.0B, R&D at 28.61% of revenue ($17.1B), operating margin of 41.31%, and the same net income volatility figures (85.23% decline in Q3, 740.46% rebound in Q4). The first report provides more granular liquidity detail (current assets $108.7B vs current liabilities $41.8B). The second report adds market performance risk (META -8.38% vs SPY +11.67%, -20.06% excess return) that the first omits.",
+        "quality_comparison": "Both sections fail to deliver substantive regulatory scrutiny analysis despite the user query explicitly requiring it. The first report explicitly acknowledges this evidence gap in P4, noting missing information on 'regulatory proceedings, antitrust actions, geopolitical exposure' and advises investors to 'supplement this analysis with regulatory filing reviews.' The second report does not address regulatory risk at all and does not acknowledge this omission. For margin pressure, both provide comparable analysis on R&D intensity and potential compression. The first report offers better transparency about limitations; the second offers additional market performance context.",
+        "winner": "first_report",
+        "rationale": "The first report wins on transparency and investor guidance. When a required risk category (regulatory scrutiny) cannot be covered due to data limitations, explicitly acknowledging the gap and directing investors to supplementary sources is more useful than silent omission. This aligns with the decision policy favoring sections that leave readers with clearer takeaways. Both reports share the same regulatory coverage gap, but the first report's explicit acknowledgment in P4 provides better risk awareness. The second report's market performance addition is valuable but does not compensate for the lack of transparency on the regulatory gap that the user query specifically requested."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports present identical core financial data (debt increase from $51.1B to $83.9B, Q3-Q4 2025 net income volatility, R&D at $17.1B/28.61% of revenue, current ratio 2.60, net debt $48.0B). Neither report contains factual errors in the section-specific findings. However, both fail to address regulatory scrutiny risk despite explicit user query requirements. The first report omits this entirely without acknowledgment, while the second report explicitly states in P4 that regulatory data is unavailable and investors should supplement with additional sources.",
+        "quality_comparison": "The second report demonstrates superior analytical transparency by explicitly acknowledging evidence gaps (P4), which is critical for investor decision-making. It provides more detailed liquidity analysis (current assets $108.7B vs liabilities $41.8B) and raises important questions about capital allocation priorities for the debt increase. The first report includes market performance data (stock vs SPY comparison) that the second omits, but this does not compensate for silently omitting regulatory risk. The second report's honesty about limitations is more valuable than the first report's false completeness.",
+        "winner": "second_report",
+        "rationale": "While both reports share the same regulatory risk gap, the second report is more reliable because it explicitly acknowledges this limitation rather than presenting an incomplete analysis as comprehensive. For a Risk Analysis section, transparency about what cannot be assessed is critical for investor usefulness. The second report also provides deeper liquidity analysis and raises more actionable questions about capital allocation. The first report's market performance paragraph adds some value but does not outweigh the reliability advantage of explicit gap acknowledgment. Per the decision policy, reliability comes first when the gap is material, and regulatory risk was explicitly requested in the user query."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports assign a Hold rating and cite similar core metrics (Q4 2025 revenue growth ~16.9%, operating margin ~41.3%, FCF margin ~24.8%, current ratio 2.60, R&D at 28.6% of revenue). The second report provides more granular financial detail (gross margin 81.79%, net margin 38.01%, EBITDA margin 52.55%, debt-to-equity 0.39) and includes additional context on employee stock award reductions (~5% for second consecutive year). Both acknowledge net income volatility (85% Q3 decline, 740% Q4 rebound). Neither adequately addresses regulatory scrutiny despite explicit query requirements, though the first report explicitly acknowledges this evidence gap while the second omits it entirely. Both mention AI capex ($115-135B vs $135B) and market performance vs SPY.",
+        "quality_comparison": "The second report delivers stronger analytical depth with more comprehensive profitability metrics and clearer investment implications. Its conclusion explicitly ties the Hold recommendation to specific conditions (AI investment returns clarity, earnings stabilization), providing more actionable guidance. The first report is more transparent about analytical limitations but offers less decision-useful synthesis. Both fail to address Reels developments and regulatory risks adequately. The second report's additional detail on talent retention risks (stock award reductions) and margin pressure from R&D intensity adds relevant risk context the first lacks.",
+        "winner": "second_report",
+        "rationale": "The second report wins on section quality despite both sharing similar gaps. It provides richer financial quantification (additional margin metrics, debt-to-equity ratio), includes meaningful operational detail (employee stock award reductions impacting talent retention), and delivers a clearer investment takeaway with explicit conditions for rating changes. While neither adequately addresses regulatory scrutiny per the query, the second report's superior signal density on financial performance, risk factors, and analytical implications makes it more useful for investment decision-making. The first report's acknowledgment of evidence gaps is valuable transparency but doesn't compensate for its thinner analytical synthesis."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections provide Hold ratings with similar core financial metrics (16.9% revenue growth, ~41% operating margin, ~25% FCF margin, 2.60 current ratio). First report offers more granular profitability breakdown (gross margin 81.79%, net margin 38.01%, EBITDA 52.55%, debt-to-equity 0.39). Second report emphasizes debt increase more explicitly (64% QoQ to $83.9B) and provides a capex range ($115-135B vs. first report's $135B). Both cite similar market performance data and R&D intensity (~28.6%). First report adds employee stock award reduction detail (~5% for second consecutive year) as a talent retention risk factor.",
+        "quality_comparison": "First report delivers stronger analytical depth with more comprehensive margin metrics and clearer investment implications. It explicitly connects AI spending to margin pressure risk and talent retention concerns, then concludes with specific conditions for rating change (clarity on AI investment returns and earnings stabilization). Second report acknowledges evidence gaps limiting risk assessment, which is honest but weakens the recommendation's actionability. First report's structure flows more logically from fundamentals to risks to conclusion.",
+        "winner": "first_report",
+        "rationale": "First report provides superior investor utility through more detailed profitability metrics, additional risk factors (employee compensation/talent retention), and a clearer actionable conclusion specifying what would change the recommendation. While both sections share similar gaps on regulatory analysis (a report-level weakness noted in both quality summaries), the first report's section text delivers stronger signal density and more specific analytical implications for the investment decision. The second report's acknowledgment of evidence gaps, though transparent, reduces the section's decisiveness without adding compensating analytical value."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 3,
+    "errgen": 2,
+    "Tie": 1
+  }
+}

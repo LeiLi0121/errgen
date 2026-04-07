@@ -1,0 +1,78 @@
+{
+  "sample_id": "Take_Two_Interactive",
+  "model_name": "errgen-baseline",
+  "ticker": "TTWO US",
+  "as_of_date": "2025-05-23",
+  "run_id": "7e79388b-8fb8-47dd-8c48-cfce3e7279ed",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 2,
+      "reason": "Most claims are well-supported by the provided evidence chunks. However, there is a severe unsupported claim regarding specific GAAP impairment charges ($3.55 billion goodwill, $176.3 million intangible) in Recent Developments Paragraph 2. The cited evidence snippets do not contain this information, making it a material unsupported assertion explaining the quarterly loss."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All verifiable numerical claims (revenue, EPS, margins, balance sheet figures, offering details) match the provided evidence chunks and calculation objects exactly. The unsupported impairment figures cannot be verified as errors but are flagged under claim support."
+    },
+    "citation_precision": {
+      "score": 4,
+      "reason": "Citations generally align with the content they support. The impairment claim cites relevant earnings news chunks, but the specific data is not visible in the provided snippets, leading to a minor precision gap."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods are consistent with the report as-of date (2025-05-23). Financial periods (Q3 2025 ending 2024-12-31) and news dates (May 2025) are logically consistent and do not violate temporal boundaries."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "Internal consistency is high, with one minor terminology error in Business & Competitive Analysis Paragraph 3 referring to 'Full year net bookings for Q4 2025' instead of 'Fourth quarter net bookings', which contradicts the phrasing in Recent Developments Paragraph 2."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims."
+  }
+}

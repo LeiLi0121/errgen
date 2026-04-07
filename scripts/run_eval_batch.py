@@ -10,6 +10,7 @@ This script can:
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import logging
 import sys
@@ -77,6 +78,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--judge-model", default=None)
     parser.add_argument("--baseline-label", default="errgen-baseline")
     parser.add_argument("--full-label", default="errgen")
+    parser.add_argument(
+        "--max-workers",
+        type=int,
+        default=4,
+        help="Maximum number of concurrent evaluation workers.",
+    )
     parser.add_argument(
         "--verbose",
         "-v",
@@ -177,8 +184,6 @@ def _evaluate_runs(
 
     baseline_index = index_runs_by_query(baseline_root)
     full_index = index_runs_by_query(full_root)
-    judge = LLMReportJudge(judge_model=args.judge_model)
-
     results_dir = _resolve_path(args.results_dir)
     single_dir = results_dir / "single"
     pairwise_dir = results_dir / "pairwise"
@@ -186,8 +191,12 @@ def _evaluate_runs(
     pairwise_dir.mkdir(parents=True, exist_ok=True)
 
     pairwise_results = []
+    total = len(selected_queries)
+    max_workers = max(1, min(args.max_workers, total))
+    future_map = {}
 
-    for sample in selected_queries:
+    def _evaluate_sample(sample):
+        judge = LLMReportJudge(judge_model=args.judge_model)
         baseline_run_dir = baseline_index.get(sample.query)
         full_run_dir = full_index.get(sample.query)
         if not baseline_run_dir or not full_run_dir:
@@ -199,15 +208,62 @@ def _evaluate_runs(
         baseline_bundle = load_run_bundle(baseline_run_dir)
         full_bundle = load_run_bundle(full_run_dir)
 
-        baseline_eval = judge.judge_single(
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            factual_future_map = {
+                executor.submit(
+                    judge.judge_factual,
+                    bundle=baseline_bundle,
+                    sample=sample,
+                    model_name=args.baseline_label,
+                ): "baseline",
+                executor.submit(
+                    judge.judge_factual,
+                    bundle=full_bundle,
+                    sample=sample,
+                    model_name=args.full_label,
+                ): "full",
+            }
+            factual_states = {}
+            for future in as_completed(factual_future_map):
+                factual_states[factual_future_map[future]] = future.result()
+
+        quality_results = {}
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            quality_future_map = {}
+            if factual_states["baseline"].accuracy_gate_passed:
+                quality_future_map[
+                    executor.submit(
+                        judge.judge_quality,
+                        bundle=baseline_bundle,
+                        sample=sample,
+                        model_name=args.baseline_label,
+                    )
+                ] = "baseline"
+            if factual_states["full"].accuracy_gate_passed:
+                quality_future_map[
+                    executor.submit(
+                        judge.judge_quality,
+                        bundle=full_bundle,
+                        sample=sample,
+                        model_name=args.full_label,
+                    )
+                ] = "full"
+            for future in as_completed(quality_future_map):
+                quality_results[quality_future_map[future]] = future.result()
+
+        baseline_eval = judge.build_single_evaluation(
             bundle=baseline_bundle,
             sample=sample,
             model_name=args.baseline_label,
+            factual_state=factual_states["baseline"],
+            quality_result=quality_results.get("baseline"),
         )
-        full_eval = judge.judge_single(
+        full_eval = judge.build_single_evaluation(
             bundle=full_bundle,
             sample=sample,
             model_name=args.full_label,
+            factual_state=factual_states["full"],
+            quality_result=quality_results.get("full"),
         )
         pairwise_eval = judge.judge_pairwise(
             sample=sample,
@@ -218,21 +274,34 @@ def _evaluate_runs(
             bundle_a=baseline_bundle,
             bundle_b=full_bundle,
         )
-        pairwise_results.append(pairwise_eval)
+        return sample, baseline_eval, full_eval, pairwise_eval
 
-        (single_dir / f"{sample.report_id}_{args.baseline_label}.json").write_text(
-            json.dumps(baseline_eval.model_dump(mode="json"), indent=2, ensure_ascii=False),
-            encoding="utf-8",
-        )
-        (single_dir / f"{sample.report_id}_{args.full_label}.json").write_text(
-            json.dumps(full_eval.model_dump(mode="json"), indent=2, ensure_ascii=False),
-            encoding="utf-8",
-        )
-        (pairwise_dir / f"{sample.report_id}.json").write_text(
-            json.dumps(pairwise_eval.model_dump(mode="json"), indent=2, ensure_ascii=False),
-            encoding="utf-8",
-        )
-        print(f"  evaluated: {sample.report_id}")
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        for idx, sample in enumerate(selected_queries, start=1):
+            print(f"[eval queued {idx}/{total}] {sample.report_id}")
+            future = executor.submit(_evaluate_sample, sample)
+            future_map[future] = sample.report_id
+
+        completed = 0
+        for future in as_completed(future_map):
+            sample_id = future_map[future]
+            sample, baseline_eval, full_eval, pairwise_eval = future.result()
+            completed += 1
+            pairwise_results.append(pairwise_eval)
+
+            (single_dir / f"{sample.report_id}_{args.baseline_label}.json").write_text(
+                json.dumps(baseline_eval.model_dump(mode="json"), indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (single_dir / f"{sample.report_id}_{args.full_label}.json").write_text(
+                json.dumps(full_eval.model_dump(mode="json"), indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (pairwise_dir / f"{sample.report_id}.json").write_text(
+                json.dumps(pairwise_eval.model_dump(mode="json"), indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            print(f"[eval done {completed}/{total}] {sample_id}")
 
     summary = summarize_pairwise_results(pairwise_results, preferred_model=args.full_label)
     payload = {

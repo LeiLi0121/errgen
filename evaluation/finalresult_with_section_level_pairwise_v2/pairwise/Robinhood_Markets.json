@@ -1,0 +1,138 @@
+{
+  "sample_id": "Robinhood_Markets",
+  "ticker": "HOOD US",
+  "as_of_date": "2025-11-12",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Across 6 matched sections, errgen-baseline won 3 sections on this ordering, errgen won 2, and 1 were ties.",
+    "quality_comparison": "errgen-baseline stronger sections: Recent Developments, Business & Competitive Analysis, Investment Recommendation & Outlook. errgen stronger sections: Financial Analysis, Risk Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen-baseline on this ordering."
+  },
+  "order_ba": {
+    "factual_comparison": "Across 6 matched sections, errgen won 4 sections on this ordering, errgen-baseline won 1, and 1 were ties.",
+    "quality_comparison": "errgen stronger sections: Recent Developments, Financial Analysis, Risk Analysis, Investment Recommendation & Outlook. errgen-baseline stronger sections: Business & Competitive Analysis. Ties: Company Overview.",
+    "winner": "first_report",
+    "rationale": "Section-level vote favors errgen on this ordering."
+  },
+  "section_results": [
+    {
+      "section_name": "Company Overview",
+      "order_ab_winner": "Tie",
+      "order_ba_winner": "Tie",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections contain identical factual content - same company metadata (ticker, exchange, sector, industry, CEO, employees, IPO date, country, website) and identical business description covering platform offerings, investment products, and educational solutions.",
+        "quality_comparison": "The section texts are word-for-word identical. Both have no section-specific findings (severe=0, minor=0). The only differentiator is report-level context: the first report failed the accuracy gate (Q score 0.0) while the second passed (Q score 4.2).",
+        "winner": "tie",
+        "rationale": "Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. The section texts are identical in content, structure, and quality. While the second report has superior report-level metrics (passed accuracy gate vs. failed), the policy explicitly states to use section text as the primary basis for judgment and treat report-level scores as secondary context only. Since the sections themselves are indistinguishable, neither can be preferred based on section quality alone."
+      },
+      "order_ba": {
+        "factual_comparison": "The section texts are word-for-word identical. Both reports contain the same company metadata in P1 (ticker, exchange, sector, industry, market cap, CEO, employees, IPO date, country, website) and the same business description in P2 (platform offerings, education solutions, newsfeeds, cash management services, incorporation date, headquarters).",
+        "quality_comparison": "Since the section texts are identical, there is no distinguishable difference in depth, relevance, analytical implications, or organization between the two sections. Both provide the same level of company overview information.",
+        "winner": "tie",
+        "rationale": "Per the decision policy, when two sections are materially indistinguishable, the result should be a tie. The section texts are identical word-for-word, and section-specific findings show no issues for either (severe=0, minor=0 for both). While the report-level scores differ significantly (4.2 vs 0.0), the policy explicitly states to use section text as the primary basis for judgment and not mechanically follow higher overall scores. Since this section is identical in both reports, there is no basis to prefer one over the other at the section level."
+      }
+    },
+    {
+      "section_name": "Recent Developments",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both sections cover similar core developments: Q3 2025 earnings, tokenization strategy, and the Lighter investment ($68M at $1.5B valuation). The first report includes specific financial metrics ($1.274B revenue, 28.82% YoY growth, $556M net income, 44.04% YoY), stock performance data (254% yearly gain, -5.47% over 30 days), and analyst recognition (Zacks Bull of the Day). The second report omits these quantitative details, providing only qualitative descriptions of the same developments. Section-specific findings show no errors for either section (severe=0, minor=0), though the first report failed the report-level accuracy gate while the second passed.",
+        "quality_comparison": "The first report section is substantially more comprehensive with three paragraphs covering financial results, strategic positioning, and market sentiment with specific metrics. The second report condenses similar content into one paragraph without the financial specifics or stock performance context. For investor usefulness, the first report provides clearer analytical implications with concrete data points that support investment decision-making.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, section-specific findings are the primary reliability signal, and both sections show no errors (severe=0, minor=0). While the first report failed the report-level accuracy gate, the section text itself contains no flagged issues. The first report section delivers significantly better depth, relevance to the user query, and investor usefulness with specific financial metrics, stock performance data, and analyst sentiment that the second report omits. The policy explicitly states not to let unrelated report-level issues dominate section judgment, and to prefer stronger depth and analytical implications when reliability is similar at the section level."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections cover similar core developments: Q3 2025 earnings, trading activity, tokenization positioning with Tenev's 24/7 markets quote, and the Lighter investment ($68M at $1.5B valuation). The second report includes additional specific financial metrics (revenue $1.274B, 28.82% YoY growth; net income $556M, 44.04% YoY), analyst commentary (Bernstein, Zacks), and stock performance data. However, the first report passed the accuracy gate while the second report failed due to severe unsupported claims and numerical errors at the report level.",
+        "quality_comparison": "The first report section is concise but covers key developments without flagged issues. The second report section offers greater depth with specific numbers and analyst sentiment, but comes from a report that failed the accuracy gate. Both sections show severe=0, minor=0 for section-specific findings, but the report-level accuracy failure in the second report raises reliability concerns about the specific claims made.",
+        "winner": "first_report",
+        "rationale": "While the second report section provides more detailed financial metrics and analyst commentary, the first report is preferred due to reliability considerations. The first report passed the accuracy gate (True, Q score 4.2) while the second failed (False, Q score 0.0) due to severe unsupported claims and numerical errors. Per the decision policy, reliability comes first when the gap is material. Although section-specific findings show no issues for either section, the report-level accuracy failure indicates systemic reliability problems that cast doubt on the specific numbers and claims in the second report's section. The first report provides sufficient coverage of recent developments with verified accuracy, making it the more trustworthy choice for investors."
+      }
+    },
+    {
+      "section_name": "Financial Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial figures for Revenue (Q1-Q3 2025), Margins, Q2/Q3 Cash Flow, and Balance Sheet ratios. However, a material divergence exists regarding Year-over-Year growth: the first report asserts specific YoY growth rates (6.69% for Q2, 28.82% for Q3), while the second report explicitly states that YoY growth rates are not available in the provided evidence. Additionally, the second report includes Q1 cash flow data ($642M operating) and R&D spend trends (increasing from $214M), which the first report omits or aggregates less precisely.",
+        "quality_comparison": "The second report demonstrates superior organization by separating Balance Sheet analysis and R&D investment into distinct paragraphs, whereas the first report combines them. The second report provides greater analytical depth by contextualizing cash flow volatility across all three quarters and noting specific debt structure details (long-term debt at $0). The first report is more concise but sacrifices transparency by asserting YoY metrics that the second report flags as unsupported.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred due to higher reliability and depth. It acknowledges data limitations regarding YoY growth rather than asserting potentially unsupported figures (a critical reliability signal given the first report's overall accuracy failure). It also offers more comprehensive financial context, including Q1 cash flow data and R&D trends, and presents the information in a clearer, more structured format that better serves the investor's need for accurate financial analysis."
+      },
+      "order_ba": {
+        "factual_comparison": "The first report passed the report-level accuracy gate, while the second report failed due to 'severe unsupported claims, numerical errors, inconsistencies.' A key factual divergence is in revenue growth analysis: the first report explicitly states year-over-year growth rates are 'not available in the provided evidence,' whereas the second report provides specific YoY percentages (6.69%, 28.82%). Given the second report's accuracy gate failure, the first report's cautious approach is more reliable. Both reports share core quarterly revenue, margin, and cash flow figures, but the second report's additional data points (e.g., net income trends, current asset breakdown) are suspect in the context of the failed accuracy gate.",
+        "quality_comparison": "The first report demonstrates superior organization and analytical depth. It structures the financial analysis into five distinct paragraphs (Revenue, Profitability, Cash Flow, Balance Sheet, R&D), allowing for dedicated commentary on each area, such as the implication of $0 long-term debt on the debt structure. The second report compresses Cash Flow, Balance Sheet, and R&D into a single dense paragraph, reducing clarity. While the second report includes some additional metrics (Net Income trend, FCF margin), the first report offers better qualitative context (e.g., sustainability of margins, working capital pressures) without compromising reliability.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred primarily due to reliability. It passed the accuracy gate, whereas the second report failed due to numerical errors and unsupported claims. This is evidenced by the first report's honest admission that YoY data was unavailable, contrasting with the second report's specific but potentially hallucinated YoY figures. Additionally, the first report offers better organization with dedicated sections for Balance Sheet and R&D analysis, providing clearer analytical implications (e.g., debt maturity profile) compared to the second report's compressed structure. The reliability gap is material given the 'Financial Analysis' section's high importance."
+      }
+    },
+    {
+      "section_name": "Business & Competitive Analysis",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen-baseline",
+      "final_outcome": "errgen-baseline",
+      "order_ab": {
+        "factual_comparison": "Both sections have section-specific findings of zero severe or minor errors, indicating comparable reliability at the section level despite the first report's overall accuracy gate failure. The first report includes specific data points regarding stock performance, competitor comparisons (Coinbase, Circle, Tradeweb), and strategic investments, whereas the second report provides only a generic business description without specific competitive metrics.",
+        "quality_comparison": "The first report significantly outperforms the second in depth and relevance. It directly addresses the 'Competitive Analysis' component of the section header and the user query's requirement for 'industry positioning' by discussing peers, market trends, and strategic initiatives. The second report is limited to a basic business overview and its own report-level summary admits to missing opportunities for deeper competitive landscape analysis.",
+        "winner": "first_report",
+        "rationale": "Per the instruction to use section-specific findings as the main reliability signal, both sections are treated as reliable (0 errors). The first report is preferred because it provides substantive competitive analysis, industry positioning, and strategic context that directly answers the user query, whereas the second report offers only a superficial business description. The first report's higher signal density and investor usefulness outweigh the report-level accuracy flag, which the instructions specify should not dominate if the section-specific findings are clean."
+      },
+      "order_ba": {
+        "factual_comparison": "Both sections describe Robinhood's core business platform (stocks, ETFs, options, gold, cryptocurrencies) and educational products (Snacks, Learn, Newsfeeds). The first report provides minimal factual content (1 paragraph, basic company description). The second report includes substantially more factual claims including competitive positioning, stock performance metrics, growth drivers, strategic initiatives, and management commentary. Section-specific findings show severe=0, minor=0 for both sections, indicating no flagged factual issues at the section level despite the second report's overall accuracy gate failure.",
+        "quality_comparison": "The first report's section is extremely thin - essentially a company description with no competitive analysis despite the section title 'Business & Competitive Analysis.' It lacks industry positioning, competitive landscape discussion, differentiation analysis, or strategic context. The second report's section delivers what the section title promises: competitive positioning vs. peers (Coinbase, Circle, Tradeweb), growth drivers, strategic initiatives, and management quality signals. The second report has significantly stronger depth, relevance to the user query's 'industry positioning' requirement, and clearer analytical implications for investors.",
+        "winner": "second_report",
+        "rationale": "Per the decision policy, section text should be the primary basis for judgment, and report-level scores are secondary context only. The first report has a higher overall Q score (4.2 vs 0.0), but its Business & Competitive Analysis section is materially deficient - it contains no competitive analysis whatsoever despite the section title. The second report's section actually fulfills the section's purpose with substantive competitive positioning, growth drivers, and strategic context that directly addresses the user query's requirement for 'industry positioning.' Section-specific findings show no reliability issues (severe=0, minor=0) for either section, so the report-level accuracy gate failure should not dominate this section-level comparison. The second report's section provides significantly better signal density and investor usefulness for what a Business & Competitive Analysis section should deliver."
+      }
+    },
+    {
+      "section_name": "Risk Analysis",
+      "order_ab_winner": "errgen",
+      "order_ba_winner": "errgen",
+      "final_outcome": "errgen",
+      "order_ab": {
+        "factual_comparison": "Both reports cite identical core financial figures for debt ($9.1B to $15.7B), operating cash flow swings (+$3.5B to -$1.6B), free cash flow (-$1.6B), debt-to-equity (1.83), and stock performance metrics. However, the second report provides additional granular data points that the first report omits, including net debt ($11.3B), cash equivalents ($4.3B), and the specific breakdown of current assets ($40.0B) versus current liabilities ($32.8B). The second report also specifies the SPY benchmark return (3.07%) to contextualize the underperformance, whereas the first report only states the relative underperformance gap.",
+        "quality_comparison": "The second report demonstrates superior organization and depth. It separates cash flow volatility and leverage/liquidity risks into distinct paragraphs, allowing for clearer analysis of each risk factor, whereas the first report combines debt and cash flow into a single paragraph. The second report's inclusion of net debt and balance sheet breakdowns offers better transparency for assessing liquidity risk. Additionally, the second report passed the report-level accuracy gate, while the first report failed due to severe unsupported claims and numerical errors elsewhere, which impacts the overall reliability context of the analysis.",
+        "winner": "second_report",
+        "rationale": "The second report is preferred primarily due to its higher reliability context (passing the accuracy gate vs. failing) and superior section quality. It provides more actionable detail for investors, such as net debt figures and current asset/liability breakdowns, rather than just ratios. The structural separation of cash flow and leverage risks in the second report improves readability and analytical clarity compared to the first report's combined approach. While the core numbers match, the second report's additional context and verified accuracy status make it the more trustworthy and useful analysis."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite identical financial figures for debt ($15.67B), operating cash flow (-$1.58B), free cash flow (-$1.59B), R&D expenses ($237M), and stock performance metrics. There are no factual contradictions between the two sections; the underlying data appears consistent.",
+        "quality_comparison": "The first report presents the risk analysis with a more authoritative and decisive tone, organizing risks into clear, distinct categories (Cash Flow, Leverage, Market, Operational). The second report, while adding some useful percentage calculations (FCF margin, R&D % of revenue), undermines its utility with meta-commentary about evidence limitations (e.g., 'The evidence does not provide specific details...'). The first report's writing is more concise and actionable for an investor.",
+        "winner": "first_report",
+        "rationale": "While section-specific findings are identical (no severe/minor issues), the first report is preferred based on section quality and report-level context as a tie-breaker. The first report's text is more direct and professionally organized, avoiding the second report's hedging language regarding data limitations. Additionally, the first report passed the accuracy gate with a strong quality score (4.2), whereas the second report failed the accuracy gate (0.0), indicating higher overall reliability for the first report's ecosystem even if this specific section's data matches."
+      }
+    },
+    {
+      "section_name": "Investment Recommendation & Outlook",
+      "order_ab_winner": "errgen-baseline",
+      "order_ba_winner": "errgen",
+      "final_outcome": "Tie",
+      "order_ab": {
+        "factual_comparison": "Both reports present consistent core financial metrics for Q3 2025, including revenue ($1.274 billion), gross/operating/net margins (~77%/~50%/~43%), total debt (~$15.7 billion), and debt-to-equity ratio (1.83). There are no direct factual contradictions between the overlapping data points in the two sections. The First Report includes specific operating cash flow and free cash flow margin data (-$1.576 billion OCF, -124.65% FCF margin) which the Second Report omits. The Second Report includes current ratio (1.22) and R&D spend (18.6% of revenue) which the First Report omits. Section-specific findings indicate zero severe or minor errors for both sections, suggesting equal reliability for the provided text despite the First Report's global accuracy gate failure.",
+        "quality_comparison": "The First Report demonstrates superior analytical depth and relevance to the investment recommendation. It explicitly addresses the critical divergence between high profitability and negative cash flow, providing a more nuanced rationale for the 'Hold' rating ('until cash flow quality improves'). It also provides trend context on debt (72% increase from Q1 to Q3) rather than just a static snapshot. The Second Report is competent but lacks the cash flow analysis, which is a material omission for an equity research outlook. The First Report's investment view is more actionable and clearly links the rating to specific financial triggers.",
+        "winner": "first_report",
+        "rationale": "Per the decision policy, section-specific findings are the primary reliability signal; since both sections show zero errors, they are treated as equally reliable for this comparison, overriding the First Report's global accuracy gate failure. On quality, the First Report is preferred because it provides critical cash flow analysis (OCF/FCF) that explains the 'Hold' rating more convincingly than the Second Report's leverage-focused argument. The First Report also offers better trend context (debt growth) and clearer actionable implications for investors, aligning better with the user query's requirement for an investment view and financial performance analysis."
+      },
+      "order_ba": {
+        "factual_comparison": "Both reports cite consistent core financial metrics for Q3 2025, including revenue of approximately $1.274 billion, gross margins near 77%, operating margins around 50%, and net margins exceeding 43%. Both identify total debt around $15.7 billion and a debt-to-equity ratio of 1.83. However, the second report introduces a specific claim of negative operating cash flow (-$1.576 billion) and a free cash flow margin of -124.65%, which contrasts sharply with the reported net income implied by the net margin. The first report omits this cash flow metric, instead focusing on liquidity via the current ratio (1.22) and net debt ($11.3 billion).",
+        "quality_comparison": "The first report offers a more coherent and standard investment thesis, linking the Hold rating directly to balance sheet leverage and regulatory risks without introducing potentially confusing cash flow divergences. Its narrative is concise and logically structured, moving from profitability strengths to risk factors. The second report provides more granular data points (YoY growth %, specific market performance stats), but the extreme cash flow claim creates analytical tension with the profitability metrics that is not adequately explained, potentially undermining investor confidence. The first report's writing is also slightly more professional and actionable.",
+        "winner": "first_report",
+        "rationale": "The first report is preferred primarily due to reliability signals. While section-specific findings for both are clean, the first report passed the Report-Level Accuracy Gate while the second failed, suggesting the data in the first report is more trustworthy. This is critical given the second report's inclusion of an extreme operating cash flow figure that contradicts the strong net income profile without sufficient context. The first report provides a safer, more standard analysis of leverage and liquidity that better supports the Hold recommendation without risking misinformation. Its synthesis of risks into the investment view is clearer and more useful for an investor."
+      }
+    }
+  ],
+  "section_outcome_counts": {
+    "errgen-baseline": 1,
+    "errgen": 2,
+    "Tie": 3
+  }
+}

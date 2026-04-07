@@ -226,6 +226,29 @@ def test_yoy_growth_table_too_short(calc):
     assert result.error is not None
 
 
+def test_yoy_growth_table_matches_same_quarter_prior_year(calc):
+    series = [
+        {"period": "Q3 2024", "value": 100.0},
+        {"period": "Q1 2025", "value": 120.0},
+        {"period": "Q2 2025", "value": 130.0},
+        {"period": "Q3 2025", "value": 140.0},
+    ]
+    req = CalculationRequest(
+        operation="yoy_growth_table",
+        inputs={"series": series},
+        description="Quarterly revenue YoY table",
+    )
+    result = calc.compute(req)
+
+    assert result.error is None
+    table = result.result["table"]
+    assert table[0]["yoy_growth"] is None
+    assert table[1]["yoy_growth"] is None
+    assert table[2]["yoy_growth"] is None
+    assert table[3]["comparison_period"] == "Q3 2024"
+    assert abs(table[3]["yoy_growth"] - 0.4) < 1e-9
+
+
 # ---------------------------------------------------------------------------
 # aggregate_sum
 # ---------------------------------------------------------------------------

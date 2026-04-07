@@ -1,0 +1,23 @@
+{
+  "sample_id": "JPMorgan",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with zero severe errors recorded. They present identical core financial data for Q3 2025 (Revenue $71.9B, Net Income $14.4B) and cite the same key events (HQ inauguration, Argentina loan hesitation, Security Initiative). Both reports share a methodological weakness by applying standard corporate metrics (EBITDA, Free Cash Flow, Current Ratio) to a banking entity without adequate adjustment for banking accounting norms, though this did not trigger an accuracy failure in this evaluation context.",
+    "quality_comparison": "Report 1 is materially superior in quality, with a Q Score of 3.4 compared to Report 2's 2.0. Report 1 outperforms across all quality dimensions, specifically in Risk (4 vs 2), Writing (4 vs 2), and Investment (2 vs 1). Report 1 provides a more cohesive and interpretive narrative, such as contextualizing negative cash flow as timing-related rather than just volatile. In contrast, Report 2 explicitly admits in Risk [P4] that evidence for competitive and regulatory risks is 'insufficient,' which diminishes investor usefulness. Report 1's analysis is more confident and synthesized.",
+    "winner": "first_report",
+    "rationale": "Since both reports pass the Accuracy Gate, the decision rests on quality. Report 1 is the clear winner due to its significantly higher quality scores and superior execution in risk analysis and writing. Report 1 offers better cross-section synthesis and does not concede data insufficiency like Report 2, making it more useful for an investor. While both lack a visible final recommendation due to truncation, Report 1's deeper financial context and higher confidence in risk assessment align better with the policy preference for completeness and investor usefulness."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no recorded severe errors. They present identical core financial data for Q3 2025 (Revenue $71.9B, Net Income $14.4B, -3.96% YoY) and cover the same recent developments (HQ inauguration, Argentina loan hesitation). Both reports suffer from critical incompleteness, as the Investment Recommendation section is truncated or missing in the provided text, failing to deliver a final investment view.",
+    "quality_comparison": "Report 2 demonstrates superior quality in financial synthesis and domain nuance. While both apply corporate-style metrics to a banking entity, Report 2 contextualizes these figures better (e.g., explaining R&D accounting treatment, noting that low current ratios are typical for banks). Report 1 flags standard banking balance sheet metrics as material risks without sufficient contextualization in the financial analysis section. Report 2 also achieves higher scores in writing (4 vs 2) and risk analysis (4 vs 2), offering a more professional and investor-useful narrative despite the shared truncation issue.",
+    "winner": "second_report",
+    "rationale": "Report 2 is preferred because it provides better domain-specific context that mitigates the misapplication of corporate metrics to a bank (e.g., explaining R&D classification and balance sheet norms). It scores higher on quality metrics (3.4 vs 2.0) and offers more nuanced risk analysis. Although both reports fail to provide a complete investment recommendation due to truncation, Report 2's preceding analysis is more robust, accurate to the banking business model, and useful for an investor."
+  }
+}

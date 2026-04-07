@@ -1,0 +1,23 @@
+{
+  "sample_id": "Broadcom",
+  "ticker": "AVGO US",
+  "as_of_date": "2025-09-15",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors, ensuring all financial figures and claims are substantiated. The second report failed the Accuracy Gate with three severe errors, including unsupported claims (e.g., membership in the '$2 Trillion Club') and numerical inconsistencies regarding debt levels. This creates a material reliability gap where the first report is verified and the second is factually compromised.",
+    "quality_comparison": "The first report achieved a Quality Score of 3.6 (Tier B) with strong financial numeric and risk analysis, though it suffers from a truncated Investment Recommendation section. The second report scored 0.0 (Tier Fail) due to its accuracy failures. While the second report provides a complete conclusion, its analytical quality is undermined by the presence of hallucinations and errors, making the first report's detailed and transparent analysis more useful despite the missing conclusion.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary filter, and 'A pass on the Accuracy Gate is materially better than a fail.' The first report is factually reliable, whereas the second report contains severe errors that could mislead investors. Although the first report lacks a final recommendation due to truncation, the integrity of its data and analysis makes it the safer and superior choice compared to a complete but factually flawed report."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report failed the Accuracy Gate with severe errors including numerical errors, unsupported claims, and inconsistencies. The second report passed the Accuracy Gate with zero severe errors, establishing a clear reliability advantage.",
+    "quality_comparison": "The second report achieved a Tier B quality score (3.6) with strong financial and risk analysis, though it is truncated at the conclusion. The first report's quality score was 0.0 as evaluation was skipped due to accuracy failure; its content contains the flagged factual errors.",
+    "winner": "second_report",
+    "rationale": "The decision policy prioritizes reliability, stating that a pass on the Accuracy Gate is materially better than a fail. Since the first report is factually compromised with numerical errors and inconsistencies, it cannot be preferred despite having a complete conclusion. The second report provides accurate, quantified analysis, making it the safer and more useful choice for investors despite the truncation."
+  }
+}

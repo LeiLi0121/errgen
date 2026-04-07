@@ -1,0 +1,92 @@
+{
+  "sample_id": "Goldman_Sachs",
+  "model_name": "errgen-baseline",
+  "ticker": "GS US",
+  "as_of_date": "2025-11-12",
+  "run_id": "85a687ae-e5f5-4e1b-8b18-789233ab9707",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments, and company overview are supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. Specific financial figures match the income statement, balance sheet, and cash flow chunks."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical claims (revenue, net income, margins, ratios, stock returns) match the values provided in the authoritative calculation IDs and evidence chunks exactly. Growth rates and percentages are mathematically consistent with the provided source data."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Citations are correctly mapped to the authoritative chunk and calculation IDs. Financial data is linked to financial statement chunks/calc IDs, and narrative claims are linked to news chunks. No mismatches found between claims and their structured citations."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All dates and periods are consistent with the report as-of date (2025-11-12). Financial periods (Q3 2025 ending Sep 30) are appropriate for the report date. News citations are dated on or before the as-of date."
+    },
+    "consistency": {
+      "score": 4,
+      "reason": "There is a terminology inconsistency in Financial Analysis Paragraph 2, where sequential quarter growth (Q2 2025 to Q3 2025) is explicitly described as 'from Q2 2025's net income' but labeled as 'YoY improvement'. Year-Over-Year (YoY) typically compares the same quarter across different years, whereas the description defines a Quarter-Over-Quarter comparison. This contradicts standard financial terminology, although the numbers match the provided calculation objects."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": [
+      {
+        "severity": "minor",
+        "explanation": "In Financial Analysis Paragraph 2, the text states '10.07% YoY improvement from Q2 2025's net income'. Describing growth 'from Q2 2025' implies a Quarter-Over-Quarter comparison, while 'YoY' implies Year-Over-Year. This is an internal contradiction in financial terminology, as YoY cannot be measured 'from' the previous quarter of the same year.",
+        "section": "Financial Analysis, Paragraph 2",
+        "offending_span": "10.07% YoY improvement from Q2 2025's net income"
+      }
+    ]
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 1
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 3,
+      "reason": "Provides comprehensive quarterly data (revenue, income, margins, cash flow) and balance sheet metrics. However, analytical quality is reduced by applying generic corporate metrics (Free Cash Flow, Current Ratio, Debt-to-Equity) to a financial institution without sector-specific context or normalization, limiting investor utility."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Integrates specific, timely developments effectively, including stock momentum data and a precise recent event (CEO White House dinner). These are well-synthesized into the investment thesis rather than isolated."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Company description is detailed and accurate across segments. However, industry and competitive positioning analysis is generic, lacking depth on market share dynamics, peer comparisons, or specific industry drivers beyond broad 'bank stock' trends."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Logically synthesizes financial and news data into a coherent outlook. However, it lacks an explicit investment rating (Buy/Hold/Sell) or valuation benchmarks (P/E, P/B vs peers), making the recommendation less actionable for investors."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Identifies key financial risks (leverage, volatility) and includes transparent caveats about data limits. However, it flags standard banking balance sheet metrics (e.g., 0.5 current ratio) as liquidity risks without regulatory or peer context, showing limited sector-specific risk reasoning."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and professional with good analytical flow. However, there is significant verbatim repetition between the Company Overview and Business & Competitive Analysis sections, displacing deeper competitive insight and reducing efficiency."
+    }
+  },
+  "q_score": 3.15,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Effective integration of specific, timely news events and comprehensive financial data into a cohesive narrative.",
+    "primary_weakness": "Application of generic corporate analysis frameworks to a financial institution without sector-specific nuance (e.g., banking metrics, valuation), alongside redundant business descriptions."
+  }
+}

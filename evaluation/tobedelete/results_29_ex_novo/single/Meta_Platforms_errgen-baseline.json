@@ -1,0 +1,78 @@
+{
+  "sample_id": "Meta_Platforms",
+  "model_name": "errgen-baseline",
+  "ticker": "META US",
+  "as_of_date": "2026-02-19",
+  "run_id": "ed459d75-a17b-4760-bc11-06e907a29a7e",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, strategic developments (AI infrastructure, equity cuts), and competitive positioning are directly supported by the provided evidence chunks and calculation objects. No unsupported assertions detected."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (revenue, margins, growth rates, balance sheet items, cash flow) match the provided calculation objects and source data chunks exactly. Calculations are internally consistent and mathematically correct based on the visible evidence."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Cited chunk IDs and calc IDs correspond accurately to the claims in each paragraph. Numerical claims are appropriately supported by calculation objects where raw chunks are not listed, consistent with evaluation guidelines regarding numerical claims."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "Report as-of date (2026-02-19) is consistent with evidence dates (News: 2026-02-19, Financials: Q4 2025 ending 2025-12-31). Forward-looking guidance (2026 Capex) is correctly attributed to January 2026 indications. No post-as-of data usage detected."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and strategic details are consistent across all sections of the report (Company Overview, Recent Developments, Financial Analysis, Business Analysis). No contradictions found between paragraphs or data points."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 4,
+      "reason": "Report provides detailed quarterly revenue progression, margin breakdowns (gross, operating, net, EBITDA), and cash flow metrics. Internal consistency between sections is strong, with matching figures for Q4 revenue and R&D spend. However, the explanation for extreme net income volatility is somewhat vague."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Effectively covers key catalysts requested in the query, including AI infrastructure CapEx guidance, employee compensation shifts, and strategic partnerships. The inclusion of specific events like the India AI Impact Summit adds timely context."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Provides adequate industry context regarding the AI race and competitive dynamics. However, the Company Overview section is nearly duplicated in the Business & Competitive Analysis section, reducing analytical efficiency and depth."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "While the report analyzes growth drivers and margin trade-offs, it lacks an explicit investment recommendation (e.g., Buy/Hold/Sell) or valuation metrics (e.g., P/E, Price Target). The investment view is implied rather than stated, which limits decision-usefulness."
+    },
+    "risk": {
+      "score": 3,
+      "reason": "Identifies critical financial risks such as debt increases and earnings volatility. However, the section is truncated in the provided text, and regulatory scrutiny risks mentioned in the query are not explored in depth within the visible content."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is logical and professional, but the report suffers from significant redundancy. Financial data is repeated in both Recent Developments and Financial Analysis, and the business model description is duplicated between Overview and Business sections."
+    }
+  },
+  "q_score": 3.45,
+  "tier": "Tier C",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Comprehensive financial data granularity and specific coverage of AI infrastructure catalysts aligned with the user query.",
+    "primary_weakness": "Substantial content repetition across sections and lack of an explicit investment recommendation or valuation conclusion."
+  }
+}

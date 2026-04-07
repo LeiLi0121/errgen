@@ -1,0 +1,27 @@
+{
+  "sample_id": "Amazon",
+  "ticker": "AMZN US",
+  "as_of_date": "2025-07-28",
+  "judge_model": "qwen3.5-plus",
+  "generated_label": "full",
+  "ground_truth_label": "ground_truth",
+  "ground_truth_field": "narrative_text_path",
+  "full_run_id": "65aa4114-1fe0-45fd-89e1-f0fcce0332d5",
+  "order_ab_winner": "ground_truth",
+  "order_ba_winner": "ground_truth",
+  "final_outcome": "ground_truth",
+  "order_ab": {
+    "coverage_comparison": "The second report fully addresses all query requirements, including financial performance, segment positioning, risks, and crucially, a complete investment view with valuation metrics. The first report is truncated, cutting off before the Investment Recommendation section, thereby failing to deliver the required investment view and target price within the provided text. Additionally, the first report includes unnecessary automated metadata (Report IDs, Verification Status) that does not add value to the research coverage.",
+    "analytical_depth_comparison": "The second report demonstrates superior analytical synthesis by connecting segment-level drivers (logistics regionalization, AI chip investment, ad growth) to forward-looking margin expansion and valuation multiples. It provides a clear valuation bridge (EV/EBITDA multiple expansion). The first report offers detailed historical financial ratios and liquidity analysis but lacks forward-looking synthesis and valuation logic in the visible text, reading more like a data summary than an analytical thesis.",
+    "writing_comparison": "The second report follows a professional equity research note structure with a clear headline, thesis-driven narrative, and concise risk section. The first report is cluttered with automated markers, evidence citations, and table-heavy formatting that disrupts the narrative flow. The second report's writing is more actionable and investor-focused.",
+    "winner": "second_report",
+    "rationale": "The second report is the stronger equity research deliverable because it is complete, providing the mandatory investment view, rating, and target price with supporting valuation logic. The first report is incomplete (truncated before the conclusion) and focuses heavily on historical data tables rather than forward-looking synthesis. The second report's professional tone and clear thesis make it significantly more useful for investment decision-making."
+  },
+  "order_ba": {
+    "coverage_comparison": "The first report fully addresses all query requirements, including financial performance, segment positioning, risks, and a complete investment view with valuation methodology. The second report, while detailed in financial tables and risk metrics, is truncated mid-sentence in the Risk Analysis section and completely omits the content for the Investment Recommendation & Outlook section listed in its Table of Contents.",
+    "analytical_depth_comparison": "The first report demonstrates stronger synthesis, connecting specific operational drivers (logistics regionalization, AI chip investment, ad growth) to margin expansion and valuation multiples. The second report provides granular financial data and evidence linking but lacks the narrative synthesis to explain how these figures translate into an investment thesis, partly due to the missing conclusion.",
+    "writing_comparison": "The first report follows a clean, professional equity research structure suitable for institutional investors. The second report is cluttered with verification tags, evidence hashes, and meta-data that distract from the analysis, and its abrupt ending undermines its professionalism.",
+    "winner": "first_report",
+    "rationale": "The first report is a complete, actionable equity research deliverable with a clear BUY rating, target price ($255), and valuation logic. The second report is objectively lower quality because it is incomplete (truncated mid-sentence), fails to provide its own investment recommendation or target price, and includes excessive non-analytical metadata. For an investor, the first report offers immediate decision-useful value, while the second is a broken draft."
+  }
+}

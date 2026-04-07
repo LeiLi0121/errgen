@@ -1,0 +1,23 @@
+{
+  "sample_id": "JPMorgan",
+  "ticker": "JPM US",
+  "as_of_date": "2025-10-21",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen-baseline",
+  "order_ba_winner": "errgen-baseline",
+  "final_outcome": "errgen-baseline",
+  "order_ab": {
+    "factual_comparison": "Both reports passed the Accuracy Gate with no severe errors detected (unsupported claims, numerical errors, citation mismatches, temporal violations, or inconsistencies). Both reports present consistent core financial data for Q3 2025 (e.g., revenue of $71.9 billion, net income of $14.4 billion, debt-to-equity of 2.95x). Neither report contains material factual advantages over the other; the differentiation lies entirely in the quality of analysis and presentation.",
+    "quality_comparison": "The first report demonstrates materially superior quality across all evaluated dimensions. It holds a significantly higher Quality Score (3.4 vs. 2.15) and outperforms the second report in financial numeric analysis (3 vs. 2), risk analysis (4 vs. 3), and writing quality (4 vs. 2). The first report provides deeper quantitative synthesis in the Financial and Risk sections, offering clear implications for margins and cash flow volatility. In contrast, the second report lowers its utility by explicitly stating in the Risk section that evidence for non-financial risks is insufficient, resulting in a lower 'invest' score (1 vs. 2). While both reports suffer from truncation of the final investment conclusion, the first report delivers more actionable analysis in the preceding sections.",
+    "winner": "first_report",
+    "rationale": "Since both reports passed the Accuracy Gate, the decision rests on quality. The first report is the clear winner based on its higher aggregate Quality Score (3.4 vs. 2.15) and superior performance in key dimensions like financial analysis, risk assessment, and writing. It provides more definitive and synthesized analysis without resorting to disclaimers about insufficient evidence, which enhances investor usefulness. Although both fail to provide a final investment recommendation due to truncation, the first report fulfills the user query with greater relevant depth and analytical rigor in the sections provided."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports pass the Accuracy Gate with no severe errors identified. They present identical core financial data (Q3 2025 Revenue $71.9B, Net Income $14.4B) and narrative events (HQ inauguration, Argentina loan hesitation). Neither report contains numerical errors or citation mismatches according to the evaluation metadata.",
+    "quality_comparison": "Report 2 demonstrates significantly higher quality (Q Score 3.4 vs 2.15). It provides deeper analytical synthesis in the Financial and Risk sections, such as explaining the accounting treatment behind $0 R&D expenses and detailing the implications of leverage on equity cushions. Report 2 also includes more specific attribution (e.g., CFO name) and context in Recent Developments. Report 1 is more generic, often stating metrics without interpretation, and explicitly admits evidence limitations in the Risk section rather than synthesizing available data. Both reports suffer from truncation of the Investment Recommendation section, but Report 2's body content is more investor-useful.",
+    "winner": "second_report",
+    "rationale": "Since both reports pass the Accuracy Gate, the decision rests on quality dimensions. Report 2 outperforms Report 1 across most quality metrics (Financial Numeric, News, Risk, Writing). Report 2 offers superior cross-section synthesis by explaining the 'why' behind financial figures (e.g., R&D classification, cash flow volatility context) whereas Report 1 presents data more mechanically. Although both fail to deliver a complete investment conclusion due to truncation, Report 2's preceding analysis provides greater depth and investor usefulness, aligning with the policy to prefer relevant depth and quality when accuracy is equal."
+  }
+}

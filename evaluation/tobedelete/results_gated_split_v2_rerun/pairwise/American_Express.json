@@ -1,0 +1,23 @@
+{
+  "sample_id": "American_Express",
+  "ticker": "AXP US",
+  "as_of_date": "2025-11-12",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "The first report failed the Accuracy Gate with severe errors including 2 unsupported claims, 2 numerical errors, and 1 inconsistency. The second report passed the Accuracy Gate with zero severe errors across all categories (unsupported claims, numerical errors, citation mismatches, temporal violations, inconsistencies). This represents a material difference in reliability.",
+    "quality_comparison": "The second report provides a complete Investment Recommendation section with a clear 'Hold' rating and supporting rationale visible in the text. The first report's Investment Recommendation section is truncated in the provided text, offering no visible conclusion. While both reports cover similar financial data, the second report's factual accuracy and complete recommendation logic make it significantly more useful for an investor.",
+    "winner": "second_report",
+    "rationale": "Per the decision policy, reliability is the primary filter, and 'A pass on the Accuracy Gate is materially better than a fail.' The first report is factually compromised with severe numerical and support errors, while the second report is factually clean. Additionally, the second report provides a visible investment recommendation and rationale, whereas the first report's recommendation section is truncated, further reducing its utility. The second report is the clear choice based on both reliability and completeness."
+  },
+  "order_ba": {
+    "factual_comparison": "The first report passed the Accuracy Gate with zero severe errors across all categories (unsupported claims, numerical errors, citation mismatches, temporal violations, inconsistencies). The second report failed the Accuracy Gate, flagged with five severe errors including two unsupported claims, two numerical errors, and one inconsistency. This creates a material reliability gap where the first report is factually verified and the second is compromised.",
+    "quality_comparison": "The first report achieved a Quality Score of 2.75 (Tier C), providing complete financial analysis, risk assessment, and a clear investment recommendation. The second report received a Quality Score of 0.0 (Tier Fail), as quality evaluation was effectively deprioritized due to the accuracy failure. The first report's analysis is usable for investors, while the second report's factual errors undermine its utility regardless of structural completeness.",
+    "winner": "first_report",
+    "rationale": "Per the decision policy, reliability is the primary criterion, and a pass on the Accuracy Gate is materially better than a fail. Since the first report passed the Accuracy Gate with no severe errors while the second report failed with multiple severe errors, the first report is the superior choice. The factual integrity of the first report makes it safe for investor use, whereas the second report's errors pose a risk of misinformation that cannot be offset by other quality dimensions."
+  }
+}

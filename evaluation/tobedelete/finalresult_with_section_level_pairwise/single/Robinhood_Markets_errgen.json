@@ -1,0 +1,85 @@
+{
+  "sample_id": "Robinhood_Markets",
+  "model_name": "errgen",
+  "ticker": "HOOD US",
+  "as_of_date": "2025-11-12",
+  "run_id": "058dd4a8-d6c8-4ad1-883c-dcc0e57d9d72",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and risk factors are directly supported by the authoritative cited chunk IDs and calc IDs provided in the evidence pack. Qualitative claims match company profile and news snippets; quantitative claims match income statement, balance sheet, cash flow, and calculation objects."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures (revenue, margins, cash flow, balance sheet items, ratios, stock returns) match the provided evidence snippets and calculation objects exactly. Calculations for margins, ratios, and excess returns are internally consistent with the raw data provided."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The structured authoritative cited chunk IDs and calc IDs listed for each paragraph appropriately cover the claims made in that paragraph. While some paragraphs rely on calc IDs for derived ratios rather than raw balance sheet chunks for every input, the calc IDs are authoritative and validate the numerical claims."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates (news, financial periods) are on or before the report as-of date of 2025-11-12. Q3 2025 financials (ending 2025-09-30) are treated as historical data, which is valid for the as-of date. No post-as-of claims or future dates used as facts."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial figures and key metrics are consistent across all sections (Financial Analysis, Risk Analysis, Investment Recommendation). No contradictions found between revenue, margin, debt, or cash flow figures reported in different parts of the document."
+    }
+  },
+  "issue_findings": {
+    "unsupported_claims": [],
+    "numerical_errors": [],
+    "citation_mismatches": [],
+    "temporal_violations": [],
+    "inconsistencies": []
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth with specific quarterly data for revenue, margins, cash flow, and balance sheet. The analysis effectively highlights critical trends, such as sequential revenue acceleration and the significant divergence between net income and operating cash flow, providing clear implications for investors."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Relevant recent developments are included, such as the Lighter investment and management commentary on tokenization. These are well-integrated into the strategic outlook, though a broader timeline of catalysts could enhance the section."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Company description is thorough, but the 'Business & Competitive Analysis' section largely repeats the Company Overview verbatim instead of providing deeper industry context, peer comparison, or market share dynamics. This limits the competitive insight."
+    },
+    "invest": {
+      "score": 4,
+      "reason": "Clear 'Hold' recommendation logically supported by the preceding financial and risk analysis. The report synthesizes profitability strengths against leverage and cash flow risks effectively, though it lacks explicit valuation multiples or price targets."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Outstanding integration of financial data into risk assessment. Specific metrics (cash flow volatility, debt-to-equity, current ratio) are used to quantify financial risk, while regulatory and market risks are clearly tied to the business model."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is professional and clear, but there is significant near-verbatim repetition between the Company Overview and Business & Competitive Analysis sections. This redundancy displaces potential new insight and reduces overall efficiency."
+    }
+  },
+  "q_score": 4.2,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Robust quantification of financial performance and risks, with strong synthesis of data into a logical investment recommendation.",
+    "primary_weakness": "Significant content redundancy between the Overview and Business sections, resulting in missed opportunities for deeper competitive landscape analysis."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "Alphabet",
+  "ticker": "GOOGL US",
+  "as_of_date": "2026-02-03",
+  "model_a": "errgen-baseline",
+  "model_b": "errgen",
+  "judge_model": "qwen3.5-plus",
+  "order_ab_winner": "errgen",
+  "order_ba_winner": "errgen",
+  "final_outcome": "errgen",
+  "order_ab": {
+    "factual_comparison": "Both reports failed the Accuracy Gate with one severe error each. The first report incurred a temporal violation, likely related to the timing of the Q4 2025 earnings release relative to the as-of date, while presenting specific Q4 figures. The second report incurred an inconsistency, potentially regarding internal data alignment on growth rates or financial metrics. Both reports cite identical core financial data (Q4 2025 revenue ~$113.9B, margins, etc.), indicating similar underlying data sources but different error manifestations.",
+    "quality_comparison": "The second report is materially superior in completeness and investor usefulness. It provides a full Investment Recommendation section with a clear 'Hold' rating and detailed rationale linking earnings volatility to the recommendation. The first report is truncated in the Investment Recommendation section, offering no actionable conclusion. Both reports demonstrate similar depth in financial and risk analysis, but the second report's synthesis of risks into a clear investment thesis makes it significantly more useful for decision-making.",
+    "winner": "second_report",
+    "rationale": "Since both reports failed the Accuracy Gate with an equal count of severe errors (one each), the decision relies on investor usefulness and completeness as tie-breakers. The second report is complete, offering a clear investment rating and rationale, whereas the first report is truncated in the critical recommendation section. This completeness gap makes the second report the more functional and useful document for an investor despite the shared accuracy failure."
+  },
+  "order_ba": {
+    "factual_comparison": "Both reports failed the Accuracy Gate with one severe error each. The first report contained one inconsistency, while the second report contained one temporal violation. Since both have an equal count of severe errors, neither holds a material reliability advantage based on error frequency alone.",
+    "quality_comparison": "The first report demonstrates superior completeness and investor usefulness. It includes a detailed Investment Recommendation & Outlook section with a specific 'Hold' rating and four paragraphs of rationale. The second report truncates this critical section entirely, omitting the investment recommendation. While both reports offer similar depth in financial and risk analysis, the absence of the core investment advice in the second report significantly diminishes its utility.",
+    "winner": "first_report",
+    "rationale": "Since both reports failed the Accuracy Gate with equivalent severe error counts, the decision rests on investor usefulness and completeness. The first report provides a complete investment recommendation with rating and logic, whereas the second report omits this section entirely. This makes the first report materially more useful for decision-making despite the shared accuracy failures."
+  }
+}

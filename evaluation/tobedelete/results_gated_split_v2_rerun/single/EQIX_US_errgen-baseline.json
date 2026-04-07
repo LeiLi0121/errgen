@@ -1,0 +1,78 @@
+{
+  "sample_id": "EQIX_US",
+  "model_name": "errgen-baseline",
+  "ticker": "EQIX US",
+  "as_of_date": "2025-08-06",
+  "run_id": "e937ec53-0edc-4be0-9bff-8064a8194706",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": false,
+  "accuracy": {
+    "claim_support": {
+      "score": 1,
+      "reason": "Severe unsupported material claim: The report states Equinix holds a '23.8% revenue share' in the Hong Kong market (Business & Competitive Analysis, Paragraph 2). None of the three cited evidence chunks ([a6b9e9c2...], [39c6289c...], [95c7f19f...]) contain this specific figure or explicitly identify Equinix's market share. The market report snippet is truncated and discusses total market size, not company-specific share. Additionally, competitor names (NTT Data, SUNeVision) are not visible in the cited evidence."
+    },
+    "numerical_accuracy": {
+      "score": 1,
+      "reason": "Severe numerical error: Revenue growth is stated as 1.39% 'year-over-year' (Recent Developments Para 1; Financial Analysis Para 1). However, the provided revenue values ($2,256M Q2 2025 vs $2,159M Q2 2024) imply a YoY growth of ~4.49%. The 1.39% figure mathematically corresponds to Quarter-over-Quarter growth from Q1 2025 ($2,225M) to Q2 2025 ($2,256M). This mislabeling materially misrepresents the growth trajectory."
+    },
+    "citation_precision": {
+      "score": 2,
+      "reason": "Citations for the Hong Kong market share claim (23.8%) and competitor names do not visibly contain this information in the provided evidence snippets. While one snippet is truncated, the other two are unrelated to market share data, making the citation set insufficient for the specific claims made."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All events and data points are dated on or before the report as-of date of 2025-08-06. Earnings (2025-07-31), F5 partnership (2025-08-05), and analyst updates (2025-07-31 to 2025-08-05) are temporally valid."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "The report is internally consistent. Revenue figures, margins, and debt metrics are repeated consistently across sections (Recent Developments, Financial Analysis, Risk Analysis). The numerical error (YoY vs QoQ) is consistent between the text and the provided calculation object, though both are incorrect relative to the source values."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 2,
+    "numerical_errors": 1,
+    "citation_mismatches": 1,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 1,
+    "numerical_errors": 1,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "news": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "cmi": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "invest": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "risk": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    },
+    "writing": {
+      "score": 1,
+      "reason": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+    }
+  },
+  "q_score": 0.0,
+  "tier": "Fail",
+  "final_label": "Fail",
+  "summary": {
+    "primary_strength": "Quality evaluation skipped because the report failed the Accuracy Gate.",
+    "primary_weakness": "Skipped because the report failed the Accuracy Gate due to severe unsupported claims, numerical errors."
+  }
+}

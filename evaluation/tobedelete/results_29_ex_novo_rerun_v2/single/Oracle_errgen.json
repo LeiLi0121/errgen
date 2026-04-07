@@ -1,0 +1,78 @@
+{
+  "sample_id": "Oracle",
+  "model_name": "errgen",
+  "ticker": "ORCL US",
+  "as_of_date": "2025-09-15",
+  "run_id": "88ff46d6-973d-4f76-a7a7-02a4a412af50",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All qualitative and quantitative claims in the report are directly supported by the authoritative cited chunk IDs and calculation IDs provided in the evidence pack. News snippets support strategic developments (TikTok, OpenAI, Cramer comments), and financial statements support all metrics (Revenue, Margins, Cash Flow, Balance Sheet)."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All numerical figures match the evidence pack exactly or represent standard rounding (e.g., $14.926B to $14.93B, 27.6698% to 27.67%). Calculations for ratios (Current Ratio, R&D Intensity, Margins) are internally consistent with the provided source data and calculation IDs."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "The authoritative cited chunk IDs listed for each paragraph accurately correspond to the evidence content that supports the claims in those paragraphs. There are no mismatches between the text claims and the provided evidence chunks."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "The report as-of date (2025-09-15) is consistent with the news dates (2025-09-15) and financial periods (Q1 2026 ending 2025-08-31). There are no post-as-of claims or future-dated evidence used to support current statements."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial metrics are consistent across all sections (e.g., Revenue, Margins, FCF match between Recent Developments and Financial Analysis). No internal contradictions were found in the text or data."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth of financial data with specific quarterly figures for revenue, margins, cash flow, and capex. The report goes beyond listing numbers to explain implications, such as linking elevated capex to cloud capacity expansion and analyzing margin compression trends."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers key strategic developments relevant to the as-of date, including the TikTok deal framework and OpenAI cloud contracts. However, there is some internal redundancy within the Recent Developments section itself."
+    },
+    "cmi": {
+      "score": 3,
+      "reason": "Company overview is detailed regarding product lines, but industry and competitive analysis is shallow. It lacks specific market share data or deep competitor benchmarking beyond a brief mention of Broadcom in a news context."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Provides a clear Hold rating with logical reasoning based on the trade-off between revenue growth and margin compression. However, the section is truncated, leaving the investment outlook incomplete and reducing the overall utility for decision-making."
+    },
+    "risk": {
+      "score": 4,
+      "reason": "Strong identification of quantified financial risks (liquidity, margins) with transparent caveats acknowledging data limitations for macro and competitive risks. This analytical discipline adds credibility."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Structure is clear and professional, but significant narrative repetition exists across Recent Developments, Business, and Investment sections regarding the TikTok and OpenAI stories. The report also ends abruptly with a truncation marker."
+    }
+  },
+  "q_score": 3.9,
+  "tier": "Tier B",
+  "final_label": "Pass",
+  "summary": {
+    "primary_strength": "Robust financial quantification with clear trend analysis and transparent acknowledgment of data limitations in risk assessment.",
+    "primary_weakness": "Excessive repetition of key news narratives across multiple sections and an incomplete investment outlook due to truncation."
+  }
+}

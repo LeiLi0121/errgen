@@ -1,0 +1,78 @@
+{
+  "sample_id": "Walmart",
+  "model_name": "errgen-baseline",
+  "ticker": "WMT US",
+  "as_of_date": "2025-08-15",
+  "run_id": "36863142-6c4a-40c3-9479-cf26e1c6f45a",
+  "judge_model": "qwen3.5-plus",
+  "accuracy_gate_passed": true,
+  "accuracy": {
+    "claim_support": {
+      "score": 5,
+      "reason": "All material claims regarding financial performance, recent developments, and competitive positioning are supported by authoritative cited chunk IDs or calc IDs. Evidence snippets align with the text, including specific news events and financial statement line items."
+    },
+    "numerical_accuracy": {
+      "score": 5,
+      "reason": "All financial figures (revenue, net income, margins, balance sheet items) and performance metrics (stock returns, growth rates) match the provided evidence chunks and calculation objects exactly. Rounding is appropriate and consistent."
+    },
+    "citation_precision": {
+      "score": 5,
+      "reason": "Structured citations (chunk IDs and calc IDs) are correctly mapped to the corresponding paragraphs. Numerical claims in Recent Developments rely on Calc IDs which are authoritative per evaluation instructions, while Financial Analysis cites both source chunks and calcs."
+    },
+    "temporal_validity": {
+      "score": 5,
+      "reason": "All evidence dates are on or before the report As-Of date (2025-08-15). Forward-looking statements regarding earnings schedules are framed as expectations based on news available on the as-of date, not as realized events."
+    },
+    "consistency": {
+      "score": 5,
+      "reason": "Financial data and narrative descriptions are consistent across Company Overview, Financial Analysis, and Risk Analysis sections. No contradictions found between sections regarding key metrics or company details."
+    }
+  },
+  "error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "severe_error_counts": {
+    "unsupported_claims": 0,
+    "numerical_errors": 0,
+    "citation_mismatches": 0,
+    "temporal_violations": 0,
+    "inconsistencies": 0
+  },
+  "quality": {
+    "financial_numeric": {
+      "score": 5,
+      "reason": "Excellent depth of quantitative analysis covering revenue, margins, cash flow, and balance sheet metrics with precise figures. The report effectively clarifies the treatment of automation investments (CapEx vs. R&D), adding analytical value to the raw numbers."
+    },
+    "news": {
+      "score": 4,
+      "reason": "Covers relevant recent developments including supply chain expansion (Vietnam freight) and competitive moves (Amazon, Target). While it addresses the query's focus on e-commerce and supply chain, specific details on Walmart's proprietary automation technology are less prominent than competitor actions."
+    },
+    "cmi": {
+      "score": 4,
+      "reason": "Strong context on industry competitive dynamics and consumer sentiment impacts across different product categories. Effectively positions Walmart's defensive grocery exposure against discretionary risks, though some company description is repetitive."
+    },
+    "invest": {
+      "score": 3,
+      "reason": "Provides a clear 'Buy' rating supported by historical performance, but the section is truncated, omitting the 'Outlook' and any forward-looking valuation or price targets. This limits the completeness of the investment view required by the query."
+    },
+    "risk": {
+      "score": 5,
+      "reason": "Outstanding risk analysis that quantifies financial leverage, liquidity constraints, and margin pressures while linking them to macroeconomic factors like interest rates and labor costs. Explicitly connects risks to financial metrics for clear investor implications."
+    },
+    "writing": {
+      "score": 3,
+      "reason": "Professional tone and logical structure, but significantly marred by verbatim redundancy between the Company Overview and Business & Competitive Analysis sections. The abrupt truncation at the end also disrupts the analytical flow and completeness."
+    }
+  },
+  "q_score": 4.2,
+  "tier": "Tier A",
+  "final_label": "High Quality",
+  "summary": {
+    "primary_strength": "Robust quantitative foundation with detailed financial, cash flow, and risk metrics that are explicitly linked to operational drivers and macroeconomic factors.",
+    "primary_weakness": "Significant content redundancy between the Company Overview and Business Analysis sections, combined with an abrupt truncation of the Investment Outlook section that limits forward-looking guidance."
+  }
+}
