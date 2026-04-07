@@ -2,3 +2,14 @@
 .env
 __pycache__/
 *.pyc
+
+# Local Python virtual environments
+.venv/
+venv/
+
+# Evaluation artifacts
+evaluation/results/
+evaluation/runs/
+evaluation/finalresult_with_section_level_pairwise_v2/
+evaluation/results_prediction_reruns_v3/
+evaluation/tobedelete/
